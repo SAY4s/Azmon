@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرکز آموزشی خوارزمی</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #1a5f7a;
+            --secondary-color: #159895;
+            --accent-color: #ffc107;
+            --dark-color: #2c3e50;
+            --gradient-primary: linear-gradient(135deg, var(--primary-color), #159895, #57c4b0);
+            --gradient-icdl: linear-gradient(135deg, #2196F3, #1976D2);
+            --gradient-diplom: linear-gradient(135deg, #9C27B0, #7B1FA2);
+            --box-shadow: 0 0.2vw 0.5vw rgba(0, 0, 0, 0.05);
+            --box-shadow-hover: 0 0.3vw 0.8vw rgba(0, 0, 0, 0.15);
+            --transition: all 0.2s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(0.8vw); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazir', 'Tanha', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            color: #333;
+            line-height: 1.3;
+            min-height: 100vh;
+            animation: fadeIn 0.5s ease-out;
+            overflow-x: hidden;
+            font-size: 1.2vw;
+        }
+
+        .container {
+            width: 100vw;
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 0.6vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1.4vw 0;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+            margin-bottom: 2vw;
+            border-radius: 0 0 0.8vw 0.8vw;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 1.8vw;
+            font-weight: 700;
+            margin-bottom: 0.4vw;
+        }
+
+        header p {
+            font-size: 1vw;
+            opacity: 0.9;
+        }
+
+        .main-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            width: 100%;
+            padding: 1vw;
+        }
+
+        .exam-info {
+            background: white;
+            border-radius: 0.8vw;
+            padding: 2vw;
+            box-shadow: var(--box-shadow);
+            margin-bottom: 2vw;
+            width: 60vw;
+            max-width: 95vw;
+            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+            border-left: 0.3vw solid var(--primary-color);
+        }
+
+        .exam-info h2 {
+            color: var(--primary-color);
+            margin-bottom: 0.8vw;
+            padding-bottom: 0.6vw;
+            border-bottom: 0.1vw solid var(--accent-color);
+            font-size: 1.6vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6vw;
+        }
+
+        .exam-info p {
+            font-size: 1.1vw;
+            color: #666;
+        }
+
+        .exam-buttons {
+            display: flex;
+            gap: 2vw;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 60vw;
+            max-width: 95vw;
+        }
+
+        .exam-btn {
+            flex: 1;
+            min-width: 18vw;
+            color: white;
+            border: none;
+            padding: 2.2vw 1.5vw;
+            border-radius: 0.8vw;
+            cursor: pointer;
+            font-size: 1.3vw;
+            font-weight: 700;
+            transition: var(--transition);
+            box-shadow: var(--box-shadow);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8vw;
+            text-decoration: none;
+        }
+
+        .exam-btn i {
+            font-size: 2.4vw;
+        }
+
+        .exam-btn span.sub {
+            font-size: 0.85vw;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .exam-btn:hover {
+            transform: translateY(-0.3vw);
+            box-shadow: var(--box-shadow-hover);
+        }
+
+        .icdl-btn {
+            background: var(--gradient-icdl);
+        }
+
+        .diplom-btn {
+            background: var(--gradient-diplom);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5vw;
+            color: #888;
+            font-size: 0.9vw;
+        }
+
+        @media (max-width: 768px) {
+            body { font-size: 3vw; }
+            header h1 { font-size: 4.5vw; }
+            header p { font-size: 2.5vw; }
+            .exam-info { width: 90vw; padding: 4vw; }
+            .exam-info h2 { font-size: 4vw; }
+            .exam-info p { font-size: 2.8vw; }
+            .exam-buttons { width: 90vw; flex-direction: column; }
+            .exam-btn { min-width: unset; padding: 6vw 3vw; font-size: 3.5vw; }
+            .exam-btn i { font-size: 7vw; }
+            .exam-btn span.sub { font-size: 2.4vw; }
+            footer { font-size: 2.2vw; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> مرکز آموزشی خوارزمی</h1>
+            <p>پلتفرم آزمون‌های آنلاین</p>
+        </header>
+
+        <div class="main-menu">
+            <div class="exam-info">
+                <h2><i class="fas fa-clipboard-list"></i> انتخاب آزمون</h2>
+                <p>یکی از آزمون‌های زیر را برای شروع انتخاب کنید</p>
+            </div>
+
+            <div class="exam-buttons">
+                <a class="exam-btn icdl-btn" href="https://github.com/SAY4s/qizICDL" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-laptop-code"></i>
+                    آزمون ICDL
+                    <span class="sub">شروع آزمون مهارت‌های رایانه</span>
+                </a>
+
+                <a class="exam-btn diplom-btn" href="https://github.com/SAY4s/qizDiplom" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-user-graduate"></i>
+                    آزمون دیپلم
+                    <span class="sub">شروع آزمون دیپلم</span>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            &copy; مرکز آموزشی خوارزمی
+        </footer>
+    </div>
+</body>
+</html>
