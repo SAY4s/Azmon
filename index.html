@@ -165,6 +165,101 @@
             background: var(--gradient-diplom);
         }
 
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            width: 100%;
+            padding: 1vw;
+        }
+
+        .login-box {
+            background: white;
+            padding: 2vw 2.5vw;
+            border-radius: 0.8vw;
+            box-shadow: var(--box-shadow);
+            width: 100%;
+            max-width: 28vw;
+            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+            border-left: 0.3vw solid var(--primary-color);
+        }
+
+        .login-box h2 {
+            color: var(--primary-color);
+            margin-bottom: 1vw;
+            font-size: 1.4vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5vw;
+        }
+
+        .login-box p {
+            font-size: 0.95vw;
+            color: #666;
+            margin-bottom: 1vw;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 0.7vw;
+            margin-bottom: 0.8vw;
+            border: 1px solid #e0e0e0;
+            border-radius: 0.4vw;
+            font-size: 1vw;
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .login-box input:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.15vw rgba(26, 95, 122, 0.2);
+            outline: none;
+        }
+
+        .login-box button {
+            width: 100%;
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            padding: 0.7vw;
+            border-radius: 0.4vw;
+            cursor: pointer;
+            font-size: 1vw;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .login-box button:hover {
+            transform: translateY(-0.1vw);
+            box-shadow: var(--box-shadow-hover);
+        }
+
+        .login-message {
+            margin-top: 0.8vw;
+            font-weight: 600;
+            min-height: 1.4vw;
+            font-size: 0.9vw;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-0.5vw); }
+            20%, 40%, 60%, 80% { transform: translateX(0.5vw); }
+        }
+
+        @media (max-width: 768px) {
+            .login-box { max-width: 85vw; padding: 5vw; }
+            .login-box h2 { font-size: 4vw; }
+            .login-box p { font-size: 2.8vw; }
+            .login-box input { font-size: 3vw; padding: 2.5vw; }
+            .login-box button { font-size: 3vw; padding: 2.5vw; }
+            .login-message { font-size: 2.6vw; }
+        }
+
         footer {
             text-align: center;
             padding: 1.5vw;
@@ -194,7 +289,17 @@
             <p>پلتفرم آزمون‌های آنلاین</p>
         </header>
 
-        <div class="main-menu">
+        <div id="login-container" class="login-container">
+            <div class="login-box">
+                <h2><i class="fas fa-lock"></i> ورود به سیستم</h2>
+                <p>لطفاً رمز عبور را برای دسترسی به آزمون‌ها وارد کنید:</p>
+                <input type="password" id="password-input" placeholder="رمز عبور" autocomplete="off">
+                <button id="login-btn" onclick="checkPassword()"><i class="fas fa-sign-in-alt"></i> ورود</button>
+                <p id="login-message" class="login-message"></p>
+            </div>
+        </div>
+
+        <div class="main-menu" id="main-menu" style="display: none;">
             <div class="exam-info">
                 <h2><i class="fas fa-clipboard-list"></i> انتخاب آزمون</h2>
                 <p>یکی از آزمون‌های زیر را برای شروع انتخاب کنید</p>
@@ -219,5 +324,58 @@
             &copy; مرکز آموزشی خوارزمی
         </footer>
     </div>
+
+    <script>
+        let correctPassword = null;
+
+        // خواندن رمز عبور از فایل pass.txt
+        fetch('pass.txt', { cache: 'no-store' })
+            .then(response => {
+                if (!response.ok) throw new Error('فایل رمز عبور یافت نشد');
+                return response.text();
+            })
+            .then(text => {
+                correctPassword = text.trim();
+            })
+            .catch(error => {
+                console.error('خطا در خواندن pass.txt:', error);
+                document.getElementById('login-message').textContent = '❌ خطا در بارگذاری تنظیمات. با مدیر سایت تماس بگیرید.';
+                document.getElementById('login-message').style.color = 'var(--danger-color)';
+            });
+
+        function checkPassword() {
+            const input = document.getElementById('password-input');
+            const messageElement = document.getElementById('login-message');
+
+            if (correctPassword === null) {
+                messageElement.textContent = '⏳ در حال بارگذاری تنظیمات، چند لحظه صبر کنید...';
+                messageElement.style.color = 'var(--primary-color)';
+                return;
+            }
+
+            if (input.value === correctPassword) {
+                document.getElementById('login-container').style.display = 'none';
+                document.getElementById('main-menu').style.display = 'flex';
+            } else {
+                messageElement.textContent = '❌ رمز عبور اشتباه است';
+                messageElement.style.color = 'var(--danger-color)';
+
+                const loginBox = document.querySelector('.login-box');
+                loginBox.style.animation = 'shake 0.5s';
+                setTimeout(() => loginBox.style.animation = '', 500);
+                input.value = '';
+                input.focus();
+            }
+        }
+
+        document.getElementById('password-input').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                checkPassword();
+            }
+        });
+
+        document.getElementById('password-input').focus();
+    </script>
 </body>
 </html>
