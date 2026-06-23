@@ -325,55 +325,14 @@ footer{
   <div class="center-col">
 
     <!-- ① لاگین -->
-    <div id="secLogin" style="width:100%;max-width:420px;animation:fadeIn .5s ease-out;">
-      <div style="
-        background:white;border-radius:20px;overflow:hidden;
-        box-shadow:0 8px 40px rgba(26,95,122,0.18);
-      ">
-        <!-- بالای کارت -->
-        <div style="
-          background:var(--grad);padding:32px 28px 24px;text-align:center;
-          position:relative;
-        ">
-          <div style="
-            width:72px;height:72px;background:rgba(255,255,255,0.2);
-            border-radius:50%;display:flex;align-items:center;justify-content:center;
-            margin:0 auto 14px;backdrop-filter:blur(4px);
-            box-shadow:0 4px 16px rgba(0,0,0,0.15);
-          ">
-            <i class="fas fa-graduation-cap" style="font-size:32px;color:white;"></i>
-          </div>
-          <div style="color:white;font-size:clamp(14px,1.6vw,20px);font-weight:800;margin-bottom:5px;">
-            سامانه آزمون خوارزمی
-          </div>
-          <div style="color:rgba(255,255,255,.78);font-size:clamp(10px,.95vw,13px);">
-            لطفاً رمز عبور را وارد کنید
-          </div>
-        </div>
-        <!-- پایین کارت -->
-        <div style="padding:28px 28px 24px;">
-          <div style="position:relative;margin-bottom:14px;">
-            <i class="fas fa-key" style="
-              position:absolute;right:13px;top:50%;transform:translateY(-50%);
-              color:#aaa;font-size:15px;pointer-events:none;
-            "></i>
-            <input class="login-input" type="password" id="passInput"
-              placeholder="رمز عبور" autocomplete="off"
-              style="padding-right:40px;border-radius:10px;border:1.5px solid #e0e0e0;
-                     font-size:clamp(13px,1.1vw,16px);letter-spacing:3px;">
-          </div>
-          <button onclick="checkPass()" style="
-            width:100%;padding:12px;border:none;border-radius:10px;
-            background:var(--grad);color:white;font-size:clamp(13px,1.2vw,16px);
-            font-weight:700;font-family:inherit;cursor:pointer;
-            box-shadow:0 4px 14px rgba(26,95,122,0.3);
-            transition:var(--tr);display:flex;align-items:center;justify-content:center;gap:8px;
-          " onmouseover="this.style.transform='translateY(-2px)'"
-             onmouseout="this.style.transform=''"
-          ><i class="fas fa-sign-in-alt"></i> ورود به سیستم</button>
-          <p id="loginMsg" class="login-msg" style="text-align:center;margin-top:12px;"></p>
-        </div>
-      </div>
+    <div class="section" id="secLogin">
+      <h2><i class="fas fa-lock"></i> ورود به سیستم</h2>
+      <p>لطفاً رمز عبور را برای دسترسی به آزمون‌ها وارد کنید:</p>
+      <input class="login-input" type="password" id="passInput" placeholder="رمز عبور" autocomplete="off">
+      <button class="exam-btn icdl-btn" style="width:100%;min-width:unset;" onclick="checkPass()">
+        <i class="fas fa-sign-in-alt"></i> ورود
+      </button>
+      <p id="loginMsg" class="login-msg"></p>
     </div>
 
     <!-- ② انتخاب آزمون -->
@@ -383,9 +342,11 @@ footer{
       <div class="exam-btns">
         <button class="exam-btn icdl-btn" onclick="openICDL()">
           <i class="fas fa-laptop-code"></i> آزمون ICDL
+          <span class="sub">مهارت‌های کامپیوتر</span>
         </button>
         <button class="exam-btn dip-btn" onclick="openDip()">
           <i class="fas fa-user-graduate"></i> آزمون دیپلم
+          <span class="sub">دوره‌های دیپلم</span>
         </button>
       </div>
     </div>
@@ -393,18 +354,21 @@ footer{
     <!-- ③ منوی ICDL -->
     <div class="section" id="secICDLMenu" style="display:none;">
       <h2><i class="fas fa-certificate"></i> آزمون بین‌المللی کامپیوتر ICDL</h2>
+      <p id="icdlStatus">در حال بارگذاری سوالات...</p>
       <div class="exam-btns" style="margin-top:10px;">
         <button class="exam-btn icdl-btn" onclick="startICDL()">
-          <i class="fas fa-play-circle"></i> شروع آزمون ICDL
+          <i class="fas fa-random"></i> شروع آزمون ICDL
+          <span class="sub">۴۰ سوال تصادفی</span>
         </button>
       </div>
-      <p id="icdlStatus" style="margin-top:10px;font-size:11px;color:#aaa;"></p>
+      <p style="margin-top:12px;font-size:11px;color:#888;">موسسه آموزشی خوارزمی | 09387405653</p>
       <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
     </div>
 
     <!-- ④ منوی دیپلم -->
     <div class="section" id="secDipMenu" style="display:none;">
       <h2><i class="fas fa-info-circle"></i> انتخاب نوع آزمون دیپلم</h2>
+      <p>نوع آزمون مورد نظر را انتخاب کنید:</p>
       <div class="type-sel">
         <button class="type-btn" onclick="startDip('user')"><i class="fas fa-desktop"></i> کاربر رایانه</button>
         <button class="type-btn" onclick="startDip('typing')"><i class="fas fa-keyboard"></i> تایپ رایانه</button>
@@ -414,7 +378,7 @@ footer{
         <button class="type-btn graf" onclick="startDip('graphics')"><i class="fas fa-paint-brush"></i> گرافیک رایانه</button>
         <button class="type-btn graf" onclick="startDip('colordesign')"><i class="fas fa-palette"></i> طراحی رنگی</button>
       </div>
-      <p id="dipStatus" style="margin-top:8px;font-size:11px;color:#aaa;"></p>
+      <p id="dipStatus" style="margin-top:8px;font-size:11px;color:#888;"></p>
       <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
     </div>
 
@@ -462,12 +426,6 @@ footer{
       </div>
       <div class="num-grid" id="resGrid"></div>
     </div>
-
-    <!-- اسلایدشو مرکز -->
-    <div class="center-slide" id="centerSlide">
-      <div class="banner-ph"><i class="fas fa-images"></i><span>اسلایدشو — پوشه poster</span></div>
-    </div>
-
   </div><!-- /center-col -->
 
   <!-- بنر راست -->
@@ -560,10 +518,12 @@ let curQs=[], curIdx=0, userAns=[], timerInt=null, activeMode='';
 let icdlQs=[], icdlLoaded=false;
 
 async function loadICDL(){
+  document.getElementById('icdlStatus').textContent='⏳ در حال بارگذاری سوالات ICDL...';
   try{
     const txt=await fetchTxt('qizICDL.txt');
     icdlQs=parseTxt(txt,'icdl');
     icdlLoaded=true;
+    document.getElementById('icdlStatus').textContent=`✅ ${icdlQs.length} سوال ICDL بارگذاری شد`;
   } catch(e){
     document.getElementById('icdlStatus').textContent='❌ فایل qizICDL.txt پیدا نشد';
   }
@@ -610,6 +570,7 @@ async function loadDip(){
     }
   });
   dipLoaded=true;
+  document.getElementById('dipStatus').textContent=`✅ ${total} سوال بارگذاری شد`;
 }
 
 function startDip(type){
