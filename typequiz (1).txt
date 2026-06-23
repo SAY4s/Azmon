@@ -1,0 +1,1492 @@
+از کدام گزینه برای تعیین نحوه ی نمایش و قالب بندی شماره ها استفاده میشود؟
+Number Format
+Bullets
+Multilevel List
+Page Number
+الف
+
+از کدام حالت نمایش برای طراحی صفحه وب در محیط Word استفاده میشود؟
+Web Layout
+Print Layout
+Draft
+Outline
+الف
+
+از کدام دکمه جهت اعمال Tab استفاده میشود؟
+Set
+Clear
+Default
+Cancel
+الف
+
+از کدام گزینه برای باز کردن یک فایل از قبل ذخیره شده استفاده میشود؟
+Open
+Save
+New
+Close
+الف
+
+از کدام گزینه برای تعیین نحوه ی نمایش و قالب بندی شماره ها استفاده میشود؟
+Number Format
+Bullets
+Multilevel List
+Page Number
+الف
+
+از کدام منوي IE براي انجام تنظیمات استفاده میشود؟
+Tools
+View
+Edit
+Help
+الف
+
+اشکال مربوط به طراحی فلوچارت در کدام قسمت وجود دارد؟
+Flowchart
+Basic Shapes
+Block Arrows
+Callouts
+الف
+
+اشکال هندسی پایه در کدام قسمت از ابزار Shape قرار دارند؟
+Basic Shapes
+Flowchart
+Block Arrows
+Stars and Banners
+الف
+
+اگر بخواهیم صفحات ۲ و ۳ و ۴ از یک سند چاپ ،شوند از کدام عملگر استفاده میکنیم؟
+,
+؛
+٫
+ـ
+الف
+
+اگر بخواهیم کاغذ چاپ به صورت افقی و خوابیده باشد کدام گزینه باید در نظر گرفته شود؟
+Landscape
+Portrait
+A4
+Legal
+الف
+
+اگر بخواهیم هنگام طراحی ،شکل دایره رسم ،کنیم کدام کلید را باید نگه داریم؟
+Shift
+Ctrl
+Alt
+Space
+الف
+
+اگر در هنگام حذف یک سل در جدول بخواهیم سطر شامل شونده آن خانه را حذف کنیم چه گزینه ای باید انتخاب شود؟
+Delete entire row
+Delete entire column
+Shift cells left
+Shift cells up
+الف
+
+اگر زیر واژه ای که به لاتین نوشته شده است، خط موج دار قرمز کشیده شود به چه معناست؟
+غلط املایی دارد
+غلط دستوری دارد
+کلمه در دیکشنری نیست
+نیاز به ترجمه دارد
+الف
+
+انتخاب کدام گزینه در منوی View سبب نمایش خطوط شبکه در صفحه می شود؟
+Gridlines
+Ruler
+Navigation Pane
+Thumbnails
+الف
+
+انتخاب کدام گزینه سبب ادغام خانه های جدول میشود؟
+Merge
+Split
+Distribute
+Align
+الف
+
+انتخاب کدام گزینه سبب ضخیم شدن متن میشود؟
+Bold
+Italic
+Underline
+Strikethrough
+الف
+
+انتخاب کدام گزینه سبب میشود تا متن از هر دو جهت عمودی و افقی در وسط سلول قرار گیرد؟
+Align Center
+Align Top Left
+Align Bottom Right
+Align Middle Center
+الف
+
+انتخاب کدام گزینه سبب میشود کلمه ی خطادار به فرهنگ لغات اضافه شود؟
+Add to Dictionary
+Ignore All
+Change
+Change All
+الف
+
+انتخاب کدام گزینه سبب نادیده گرفتن خطاهای یک کلمه در سند می شود؟
+Ignore All
+Add to Dictionary
+Change
+Change All
+الف
+
+اندازه ی پیش فرض Tab چند سانتی متر میباشد؟
+1.27
+2.54
+1.5
+1.0
+الف
+
+آیکن در گوشه پایین جدول چه عملی انجام میدهد؟
+گزینه ۱ و ۲
+حذف جدول
+تغییر رنگ جدول
+تنظیم حاشیه جدول
+الف
+
+با استفاده از کدام ابزار می توان قالب بندی یک متن را روی متن دیگر کپی کرد؟
+Format Painter
+Copy
+Paste Special
+Style
+الف
+
+با استفاده از کدام جلوه میتوان به متن انعکاس داد؟
+Reflection
+Glow
+Shadow
+3D Rotation
+الف
+
+با استفاده از کدام قابلیت میتوان عبارتها را به صورت خلاصه تایپ کرد و تکمیل آن را به برنامه ی Word سپرد؟
+Auto Correct
+Auto Text
+Auto Format
+Smart Tags
+الف
+
+با استفاده از کدام کلید میتوان حروف بعد از مکان نما را حذف نمود؟
+Delete
+Backspace
+Insert
+Enter
+الف
+
+با استفاده از کدام کلیدها میتوان در خانه های جدول به سمت عقب برگشت؟
+Shift + Tab
+Tab
+Ctrl + Tab
+Alt + Tab
+الف
+
+با استفاده از کدام گزینه می توان اشکال را به صورت افقی قرینه کرد؟
+Flip Horizontal
+Flip Vertical
+Rotate
+Group
+الف
+
+با استفاده از کدام گزینه می توان سطری را که مکان نما در آن قرار دارد انتخاب نمود؟
+Select Row
+Select Column
+Select Cell
+Select Table
+الف
+
+با استفاده از کدام گزینه می توان یک صفحه ی جدید با طرح خاص ایجاد کرد ؟
+Cover Page
+Blank Page
+Page Break
+Section Break
+الف
+
+با استفاده از کدام گزینه میتوان اشکال را گروه بندی کرد؟
+Group
+Ungroup
+Bring to Front
+Send to Back
+الف
+
+با استفاده از کدام گزینه میتوان برای یک Symbol کلید میانبر ایجاد کرد؟
+Shortcut Key
+AutoCorrect
+Insert
+Symbol
+الف
+
+با استفاده از کدام گزینه میتوان عمل جایگزینی را به صورت یکجا بر روی کلیه ی كلمات متن انجام داد؟
+Replace All
+Replace
+Find All
+Find Next
+الف
+
+با انتخاب کدام گزینه از Wrap Text تصویر زیر نوشته ها قرار میگیرد؟
+Behind Text
+In Front of Text
+Square
+Tight
+الف
+
+با انتخاب کدام گزینه از قسمت Section Breaks ، بخش جدید در صفحه های فرد تولید میشود؟
+Odd Page
+Even Page
+Continuous
+Next Page
+الف
+
+با انتخاب کدام گزینه تمام حروف لاتین به صورت کوچک نمایش داده میشود؟
+Lowercase
+Uppercase
+Title Case
+Sentence case
+الف
+
+با انتخاب کدام گزینه فقط صفحه ای که در آن هستید چاپ می شود؟
+Print Current Page
+Print All Pages
+Print Selection
+Custom Print
+الف
+
+با انتخاب کدام گزینه متن در وسط و چپ خانه جدول قرار می گیرد؟
+Align Center Left
+Align Center
+Align Left
+Align Top Left
+الف
+
+با انتخاب کدام گزینه می توان برای صفحه ی اول سرصفحه یا پاصفحه متفاوت ایجاد کرد؟
+Different First Page
+Different Odd & Even Pages
+Show Document Text
+Header from Top
+الف
+
+با انتخاب کدام گزینه میتوان جهت کاغذ را به صورت خوابیده نمایش داد؟
+Landscape
+Portrait
+A4
+Legal
+الف
+
+با انتخاب کدام گزینه میتوان متن را به صورت اندیس پایین نمایش داد؟
+Subscript
+Superscript
+Strikethrough
+Underline
+الف
+
+با انتخاب کدام گزینه میتوان یک طیف رنگی را روی پس زمینه صفحه قرار داد؟
+Gradient
+Texture
+Pattern
+Picture
+الف
+
+با انتخاب کدام گزینه نوار Ribbon حداقل یا مینیمم می شود ؟
+Minimize Ribbon
+Customize Ribbon
+New Tab
+New Group
+الف
+
+با فشردن کدام دکمه مکان نما به انتهای سطر منتقل میشود؟
+End
+Home
+Page Up
+Page Down
+الف
+
+با فشردن کدام دکمه میتوان به ابتدای سطر جاری منتقل شد؟
+Home
+End
+Page Up
+Page Down
+الف
+
+با فشردن کدام کلید محتویات جدول پاک میشود؟
+Delete
+Backspace
+Space
+Enter
+الف
+
+با فشردن کدام کلیدها می توان به اولین صفحه فایل یا سند رفت؟
+Ctrl + Home
+Ctrl + End
+Home
+End
+الف
+
+با کدام گزینه میتوان متن های روزنامه ای ایجاد کرد؟
+Column
+Table
+Text Box
+WordArt
+الف
+
+با کدام گزینه میتوان مشخصات و ویژگیهای یک جدول را مشاهده کرد؟
+Properties
+Design
+Layout
+View
+الف
+
+با کدام گزینه یا ابزار می توان فاصله ی بین خطوط را تنظیم کرد؟
+Line Spacing
+Paragraph Spacing
+Indentation
+Alignment
+الف
+
+با کلیک بر روی کدام ابزار متن به صورت اندیس بالا نوشته میشود؟
+Superscript
+Subscript
+Strikethrough
+Underline
+الف
+
+با کلیک بر روی کدام گزینه متن در بالا و سمت راست خانه در جدول قرار میگیرد؟
+Align Top Right
+Align Top Left
+Align Bottom Right
+Align Center
+الف
+
+با نگه داشتن کدام کلید و دابل کلیک کردن در خانه خالی کل جدول انتخاب می شود؟
+Alt
+Ctrl
+Shift
+Space
+الف
+
+برای از بین بردن رنگ زمینه کدام گزینه مناسب است؟
+No Color
+White
+Automatic
+Fill Effects
+الف
+
+برای اصلاح گرامر و املاء از کدام گزینه استفاده میشود؟
+Spelling & Grammar
+Thesaurus
+Word Count
+Language
+الف
+
+برای اعمال تورفتگی به سطرهای دوم به بعد یک پاراگراف کدام گزینه مناسب است؟
+Hanging Indent
+First Line Indent
+Left Indent
+Right Indent
+الف
+
+برای ایجاد پیوند بین فایلها و آدرسهای اینترنتی از کدام گزینه می توان استفاده نمود؟
+Hyperlink
+Bookmark
+Cross-reference
+Footnote
+الف
+
+برای ایجاد سبک از کدام گزینه باید استفاده کرد؟
+Style
+Template
+Theme
+Format Painter
+الف
+
+برای ایجاد سبکهای عادی از کدام گزینه باید استفاده کرد؟
+Normal
+Heading 1
+Title
+No Spacing
+الف
+
+برای ایجاد سرصفحه و پاصفحه ی مشترک برای تمام صفحه های سند کدام گزینه مناسب است؟
+Header & Footer
+Page Number
+Footnote
+Endnote
+الف
+
+برای ایجاد شماره صفحه در محل مکان نما ، از کدام گزینه استفاده می شود؟
+Current Position
+Top of Page
+Bottom of Page
+Page Margins
+الف
+
+برای ایجاد شیرازه جهت سیمی یا صحافی کردن صفحات باید ......... را تنظیم کنیم
+Gutter
+Margin
+Padding
+Border
+الف
+
+برای تایپ سریع برآمدگیهای کوچک روی صفحه کلید بر روی کدام کلیدها قرار دارند؟
+F,J
+A,S
+D,K
+G,H
+الف
+
+برای ایجاد فاصله خالی به اندازه یک کاراکتر در ،متن کدام کلید مناسب است؟
+Space
+Tab
+Enter
+Shift
+الف
+
+برای ایجاد کادر دور صفحه کدام تب از پنجره Border And Shading را انتخاب می کنیم ؟
+Page Border
+Border
+Shading
+Style
+الف
+
+برای ایجاد یک پس زمینه محو شده بر روی صفحات از کدام دستور استفاده میشود؟
+Watermark
+Page Color
+Fill Effects
+Texture
+الف
+
+برای ایجاد یک سند جدید در Word از کدام گزینه استفاده میکنید؟
+New
+Open
+Save
+Close
+الف
+
+برای بستن کادر محاوره ای از کدام کلید استفاده میشود؟
+Esc
+Enter
+Tab
+Space
+الف
+
+برای تایپ سریع برآمدگیهای کوچک روی صفحه کلید بر روی کدام کلیدها قرار دارند؟
+ت ، ب
+ث ، ی
+ن ، م
+ک ، گ
+الف
+
+برای تبدیل حروف بزرگ به کوچک و بالعکس از کدام گزینه ی Change Case استفاده میکنیم؟
+Toggle Case
+Uppercase
+Lowercase
+Sentence case
+الف
+
+برای تراز کردن متن از دو طرف کدام گزینه کاربرد دارد؟
+Justify
+Align Left
+Align Right
+Center
+الف
+
+برای تصادفی پخش شدن آهنگها از کدام گزینه استفاده میشود؟
+Shuffle
+Repeat
+Play All
+Random
+الف
+
+برای تعیین فاصله ی معمولی بین خطوط از کدام گزینه استفاده میشود؟
+Single
+1.5 Lines
+Double
+Multiple
+الف
+
+برای تغییر جهت نمایش متن در خانه های جدول کدام گزینه کاربرد دارد؟
+Text Direction
+Alignment
+Orientation
+Rotation
+الف
+
+برای تغییر رنگ پس زمینه ی خانه های جدول از کدام گزینه استفاده میشود؟
+Shading
+Borders
+Fill
+Pattern
+الف
+
+برای تغییر رنگ و ضخامت خطوط اطراف شکل در منوی Format از کدام گزینه استفاده می شود؟
+Shape Outline
+Shape Fill
+Shape Effects
+Line Style
+الف
+
+برای تغییر زبان در یک سند از چه کلیدهایی استفاده می کنید ؟
+Alt + Shift
+Ctrl + Shift
+Alt + Ctrl
+Shift + Space
+الف
+
+برای تغییر متن Word Art کدام گزینه صحیح است؟
+کلیک راست روی متن -- Edit Text
+Format Shape
+Text Effects
+Text Fill
+الف
+
+برای تغییر وضعیت تایپ به حالت فارسی راست به چپ از کدام کلید استفاده میشود؟
+Ctrl + Shift راست
+Ctrl + Shift چپ
+Alt + Shift
+Ctrl + Space
+الف
+
+برای تغییر یک تصویر در ابزار Picture از کدام گزینه ی منوی کلیک راست باید استفاده کرد؟
+Change Picture
+Format Picture
+Size and Position
+Wrap Text
+الف
+
+برای تقسیم یک جدول به دو جدول از کدام گزینه استفاده میشود؟
+Split Table
+Merge Cells
+Distribute Rows
+Convert to Text
+الف
+
+برای تنظیم تضاد رنگ تصویر از کدام ابزار استفاده میشود؟
+Contrast
+Brightness
+Recolor
+Corrections
+الف
+
+برای تنظیم تورفتگی در word میتوان ..............
+همه موارد
+Increase Indent
+Decrease Indent
+Paragraph Settings
+الف
+
+برای توپر یا ضخیم کردن ،قلم کدام کلید میانبر مناسب است؟
+Ctrl + B
+Ctrl + I
+Ctrl + U
+Ctrl + E
+الف
+
+برای جایگزینی یکی از موارد یافت شده در سند کدام گزینه مناسب است؟
+Replace
+Replace All
+Find Next
+Go To
+الف
+
+برای چاپ پاکت نامه از کدام گزینه استفاده میشود؟
+Envelopes
+Labels
+Letters
+Directory
+الف
+
+برای چاپ رکورد جاری در یک ترکیب پستی کدام گزینه انتخاب می شود؟
+Current Record
+All Records
+From ... To ...
+Selected Records
+الف
+
+برای چاپ صفحات زوج از کدام گزینه در کادر Print استفاده میشود؟
+Even Page
+Odd Page
+All Pages
+Current Page
+الف
+
+برای چاپ صفحات فرد از کدام گزینه در کادر Print استفاده میشود؟
+Odd Page
+Even Page
+All Pages
+Current Page
+الف
+
+برای چپ چین کردن پاراگراف از کدام ابزار می توان استفاده کرد؟
+Align Left
+Align Right
+Center
+Justify
+الف
+
+برای چسباندن همه اطلاعات موجود در حافظه موقت به نقطه ی جاری از کدام گزینه میتوان استفاده کرد؟
+Paste All
+Paste
+Paste Special
+Keep Source Formatting
+الف
+
+برای حذف تمام Tabها از کدام دکمه استفاده می شود؟
+Clear All
+Clear
+Delete
+Remove
+الف
+
+برای حذف حروف قبل مکان نما از کدام گزینه استفاده میشود؟
+Backspace
+Delete
+Insert
+Space
+الف
+
+برای داشتن انتخاب ،آزاد کدام کلید را هنگام انتخاب باید پایین نگه داشت؟
+Alt
+Ctrl
+Shift
+Space
+الف
+
+برای درج پاورقی از کدام گزینه استفاده میشود؟
+Footnote
+Endnote
+Comment
+Citation
+الف
+
+برای درج ستون یا ستونها در سمت چپ ستون جاری در یک جدول از کدام گزینه استفاده میشود؟
+Insert Left
+Insert Right
+Insert Above
+Insert Below
+الف
+
+برای درج سطر یا سطرها در پایین سطر جاری کدام گزینه کاربرد دارد؟
+Insert Rows Below
+Insert Rows Above
+Insert Left
+Insert Right
+الف
+
+برای درج شماره صفحه از کدام گزینه می توان استفاده کرد؟
+Page Number
+Header
+Footer
+Page Layout
+الف
+
+برای درج یا افزودن یک یا چند سلول به سلولهای جدول از کدام گزینه استفاده می شود؟
+Insert Cells
+Delete Cells
+Merge Cells
+Split Cells
+الف
+
+برای درج یک نمودار یا Chart از کدام منو استفاده میکنیم؟
+Insert
+Design
+Layout
+Format
+الف
+
+برای ذخیره ی یک فایل به صورت الگو کدام گزینه را باید از قسمت Save as Type انتخاب کنیم؟
+Word Template
+Word Document
+PDF
+Rich Text Format
+الف
+
+برای ذخیره یک فایل با نام دیگر و یا در مسیر دیگر کدام گزینه مناسب است؟
+Save As
+Save
+Save and Send
+Export
+الف
+
+برای رمزگذاری فایل در هنگام ذخیره سازی کدام گزینه باید انتخاب شود؟
+General Option
+Security Options
+Privacy Options
+Compatibility Options
+الف
+
+برای رنگ کردن داخل یک شکل از کدام گزینه ی زبانه Drawing Tools استفاده میشود؟
+Shape Fill
+Shape Outline
+Shape Effects
+Text Fill
+الف
+
+برای شکستگی متن در اطراف یک تصویر از کدام گزینه استفاده می شود؟
+Wrap Text
+Position
+Align
+Group
+الف
+
+برای شمارش ،حروف ،کلمات خطوط و..... از کدام دستور استفاده میشود؟
+Word count
+Character count
+Page count
+Line count
+الف
+
+برای شماره گذاری صفحه ها در زبانه Insert از کدام ابزار استفاده می شود؟
+Page Number
+Header
+Footer
+Page Setup
+الف
+
+برای فقط خواندنی کردن یک فایل از کدام گزینه استفاده می شود؟
+Read Only
+Encrypt with Password
+Restrict Editing
+Mark as Final
+الف
+
+برای فقط خواندنی کردن یک فایل کدام گزینه کاربرد دارد؟
+Read only
+Edit
+Save
+Print
+الف
+
+برای قرار دادن شماره صفحه در حاشیه های کاغذ یا اطراف آن کدام گزینه کاربرد دارد؟
+Page Margins
+Top of Page
+Bottom of Page
+Current Position
+الف
+
+برای لغو آخرین عمل از کدام فرمان استفاده میکنیم؟
+Undo
+Redo
+Repeat
+Cancel
+الف
+
+برای نمایش اطلاعات سند به صورت پیش نویس از کدام گزینه استفاده میشود؟
+Draft
+Print Layout
+Web Layout
+Outline
+الف
+
+برای هم ارتفاع کردن ستونهای انتخاب شده جدول از کدام گزینه استفاده میشود؟
+Distribute Columns
+Distribute Rows
+AutoFit
+Fixed Column Width
+الف
+
+بعد از رسم جدول کدام زبانه ها به Ribbon اضافه میشوند؟
+Layout -- Design
+Insert -- Design
+Home -- Layout
+References -- Mailings
+الف
+
+بهترین تعریف برای ادغام پستی چیست؟
+ادغام کردن دو سند و تبدیل به یک سند
+ایجاد لیست ایمیل
+چاپ پاکت نامه
+ایجاد برچسب
+الف
+
+پسوند فایلهای ۲۰۱۹ Word چه میباشد؟
+Docx
+Doc
+Dotx
+Rtf
+الف
+
+پسوند فایلهای الگو در نرم افزار Word2019 چیست؟
+Dotx
+Docx
+Doc
+Tem
+الف
+
+تب TAB مربوط به اعداد کدام گزینه است؟
+Decimal
+Right
+Center
+Left
+الف
+
+تفاوت حاشیه و تورفتگی چیست؟
+تورفتگی برای پاراگراف خاصی است ولی حاشیه برای کل صفحه است.
+هر دو برای کل صفحه اعمال می‌شوند.
+تورفتگی فقط برای سطر اول است.
+حاشیه فقط برای جدول است.
+الف
+
+جهت اضافه کردن یک سلول و انتقال سلولهای دیگر به سمت چپ کدام گزینه کاربرد دارد؟
+Shift Cells Left
+Shift Cells Right
+Shift Cells Up
+Shift Cells Down
+الف
+
+جهت ایجاد سند جدید در گزینه New کدام زیرگزینه را باید انتخاب کرد؟
+Blank Document
+Template
+Recent
+Online Template
+الف
+
+جهت پاکسازی دیسک و حذف فایلهای اضافی و موقت از کدام گزینه استفاده میشود؟
+Disk Cleanup
+Disk Defragmenter
+Format
+Check Disk
+الف
+
+جهت تعیین فاصله ی بین خطوط به صورت دقیق با یک عدد از کدام گزینه استفاده می شود؟
+Exactly
+At least
+Multiple
+Single
+الف
+
+جهت تنظیم Tab از کدام گزینه می توان استفاده نمود؟
+Set
+Clear
+Default
+Leader
+الف
+
+جهت چاپ پاکت نامه از کدام گزینه استفاده می شود؟
+Envelopes
+Labels
+Letters
+Directory
+الف
+
+جهت حذف Watermark کدام گزینه کاربرد دارد؟
+Remove Watermark
+No Watermark
+Custom Watermark
+Print Watermark
+الف
+
+جهت درج هاشور و الگو روی پس زمینه از کدام گزینه استفاده میشود؟
+Pattern
+Gradient
+Texture
+Picture
+الف
+
+در پنجره Zoom برای انتخاب صفحات چندگانه در یک نما به صورت مربعی، از کدام گزینه استفاده میشود؟
+Many Pages
+Page Width
+Whole Page
+Two Pages
+الف
+
+در پنجره ی Font با انتخاب کدام گزینه حروف انگلیسی بزرگ نمایش داده میشوند و حرف اول از لحاظ گرافیکی بزرگتر میشود؟
+Small Caps
+All Caps
+Title Case
+Normal
+الف
+
+در ترسیم ،اشکال کدام قسمت مربوط به اشاره گرهای بلوکی است؟
+Block Arrows
+Flowchart
+Stars and Banners
+Callouts
+الف
+
+در صورتی که بخواهیم فاصله بین سطرهای یک پاراگراف را سه برابر کنیم،کدام گزینه را از Line Spacing انتخاب میکنیم؟
+Multiple
+Exactly
+At least
+Double
+الف
+
+در کادر محاوره ای Border and Shading چه عملی را نمی توان انجام داد؟
+تعیین رنگ متن داخل جدول
+تعیین سبک خط
+تعیین رنگ خط
+اعمال سایه
+الف
+
+در کدام زبانه گزینه های مربوط به درج منابع و فهرست قرار دارد؟
+References
+Insert
+Review
+Mailings
+الف
+
+در کدام گزینه میتوان تعداد سری های چاپ سند را تعیین کرد؟
+Copies
+Printer
+Pages
+Collated
+الف
+
+در کدام نما می توان شکستگی صفحه را مشاهده کرد؟
+Print Layout
+Web Layout
+Draft
+Outline
+الف
+
+در نمای Print Layout. ........سند به همان صورتی که چاپ می شود به نمایش در می آید.
+صحیح
+غلط
+گاهی
+هیچکدام
+الف
+
+در هنگام درج جدول با استفاده از کدام گزینه میتوان مقدار ثابتی را برای عرض ستونهای جدول در نظر گرفت؟
+Fixed Column Width
+AutoFit to Contents
+AutoFit to Window
+Distribute Columns
+الف
+
+دستورات کاربردی و مهم Word در کدام منو قرار دارد؟
+File
+Home
+Insert
+View
+الف
+
+سبک پیش فرض word برای متن چیست؟
+Normal
+Heading 1
+No Spacing
+Title
+الف
+
+سبک1 Heading برای ................مورد استفاده قرار می گیرد.
+عنوان ابتدای متن
+پاراگراف عادی
+فهرست
+پاورقی
+الف
+
+فرمان CutPaste برای ............کاربرد دارد.
+انتقال فایل
+کپی فایل
+ذخیره فایل
+حذف فایل
+الف
+
+کاربرد Firstline در تورفتگی چیست ؟
+تورفتگی خط اول پارگراف
+تورفتگی همه خطوط
+تورفتگی خطوط بعدی
+حذف تورفتگی
+الف
+
+کاربرد گزینه ی Check Grammar در پنجره ی Spelling & Grammar چیست؟
+چک کردن لغتها از نظر غلط دستوری
+چک کردن املاء
+پیشنهاد مترادف
+شمارش کلمات
+الف
+
+کدام گزینه سبب پیش فرض word است؟
+Normal
+Title
+Heading 1
+Subtitle
+الف
+
+کدام ابزار برای علامت گذاری پاراگرافها به صورت خودکار استفاده میشود؟
+Bullets
+Numbering
+Multilevel List
+Sort
+الف
+
+کدام ابزار سبب پاک شدن فرمت انتخاب شده برای متن میشود؟
+Clear Formating
+Reset
+Normal Style
+Remove Styles
+الف
+
+کدام دسته از Shape شامل اشکال شبیه به ابر یا اشکال راهنما است؟
+Callouts
+Block Arrows
+Stars and Banners
+Flowchart
+الف
+
+کدام دستور برای تقسیم کردن یک سلول به چند سلول مناسب است؟
+دستور Split Cells
+دستور Merge Cells
+دستور Distribute Rows
+دستور AutoFit
+الف
+
+کدام دستور در Run برای اجرای برنامه ی ماشین حساب استفاده میشود؟
+Calc
+Calculator
+MSCalc
+WinCalc
+الف
+
+کدام دستور ستونها را حذف می کند؟
+Delete Columns
+Delete Rows
+Delete Cells
+Delete Table
+الف
+
+کدام روش برای غیر فعال کردن سر صفحه مناسب میباشد؟
+همه موارد
+حذف محتوا
+قطع ارتباط با بخش قبل
+غیرفعال کردن در صفحه اول
+الف
+
+کدام سبک زیر جز تقسیم بندی Style در Word به حساب می آید؟
+گزینه 1 و 2 (Heading و Title)
+Normal
+No Spacing
+Subtitle
+الف
+
+کدام فرمان باعث بسته شدن یک پنجره باز میشود؟
+Close
+Exit
+End
+Cancel
+الف
+
+کدام فرمان برای رفتن به سطر یا صفحه ای دیگر از یک سند استفاده می شود
+Go To
+Find
+Replace
+Select
+الف
+
+کدام کادر محل قرار گرفتن آدرس گیرنده اصلي است؟
+To
+Cc
+Bcc
+Subject
+الف
+
+کدام کلید برای درج یک سطر جدید در انتهای جدول مناسب است؟
+Tab
+Enter
+Insert
+Space
+الف
+
+کدام کلید برای لغو عملیات کاربرد دارد؟
+Esc
+Enter
+Shift
+Ctrl
+الف
+
+کدام کلید مکان نما را به صفحه قبل یا صفحات بالایی منتقل میکند؟
+Page Up
+Page Down
+Home
+End
+الف
+
+کدام کلید مکان نما را به صفحه قبل یا صفحات بالایی منتقل میکند؟
+Page Up
+Page Down
+Home
+End
+الف
+
+کدام گزینه از کاربردهای Tab نمیباشد؟
+شماره بندی
+ترازبندی
+ایجاد فاصله
+تنظیم نقطه چین
+الف
+
+کدام گزینه باعث به وجود آمدن خطوط جدا کننده در بین متن های چند ستونی میشود؟
+Line Between
+Column Break
+Next Page
+Continuous
+الف
+
+کدام گزینه برای ایجاد سبکهای عنوان استفاده می شود ؟
+Title
+Heading
+Subtitle
+Strong
+الف
+
+کدام گزینه برای تعیین و تغییر رنگ خطوط جدول مناسب است؟
+Pen Color
+Line Style
+Line Weight
+Borders
+الف
+
+کدام گزینه برای حذف یک کار از صف چاپ به کار میرود؟
+Cancel
+Pause
+Restart
+Properties
+الف
+
+کدام گزینه برای نشانه گذاری یک سند به کار میرود؟
+Bookmark
+Hyperlink
+Comment
+Footnote
+الف
+
+کدام گزینه جهت انتخاب یک ستون از جدول است؟
+Select Column
+Select Row
+Select Cell
+Select Table
+الف
+
+کدام گزینه جهت جستجو یک کلمه یا عبارت است؟
+Find
+Replace
+Go To
+Select
+الف
+
+کدام گزینه جهت چرخش اشکال کاربرد دارد؟
+Rotate
+Flip
+Group
+Align
+الف
+
+کدام گزینه جهت درج پاصفحه میباشد؟
+Footer
+Header
+Page Number
+Footnote
+الف
+
+کدام گزینه جهت درج کادر متنی میباشد؟
+Textbox
+WordArt
+Signature Line
+Object
+الف
+
+کدام گزینه جهت درج متن های هنری کاربرد دارد؟
+Word Art
+Text Effects
+Drop Cap
+Font
+الف
+
+کدام گزینه جهت درج یا ایجاد یک صفحه خالی کاربرد دارد؟
+Blank Page
+Page Break
+Cover Page
+Section Break
+الف
+
+کدام گزینه جهت کاغذ را عمودی و ایستاده تنظیم می کند؟
+Portrait
+Landscape
+A4
+Legal
+الف
+
+کدام گزینه در حاشیه قرار می گیرد؟
+هر سه مورد (سرصفحه، پاصفحه، شماره صفحه)
+فقط سرصفحه
+فقط پاصفحه
+فقط شماره صفحه
+الف
+
+کدام گزینه سبب اضافه شدن یک موجودیت می شود؟
+New Entry
+Edit Entry
+Delete Entry
+Sort
+الف
+
+کدام گزینه سبب بیشینه شدن پنجره ها میگردد؟
+Maximize
+Minimize
+Restore Down
+Close
+الف
+
+کدام گزینه سبب حذف خانه جاری شده و باقی خانه ها را به سمت راست حرکت می دهد
+Shift Cells Right
+Shift Cells Left
+Shift Cells Up
+Shift Cells Down
+الف
+
+کدام گزینه سبب قرینه عمودی شکل می شود؟
+Flip Vertical
+Flip Horizontal
+Rotate Left 90°
+Rotate Right 90°
+الف
+
+کدام گزینه سبب میشود تا یک خانه به جدول اضافه شود و بقیه ی خانه ها به پایین حرکت کنند؟
+Shift Cells Down
+Shift Cells Up
+Shift Cells Right
+Shift Cells Left
+الف
+
+کدام گزینه سبب میشود متن به صورت کج و مورب نمایش داده شود؟
+Italic
+Bold
+Underline
+Strikethrough
+الف
+
+کدام گزینه یک ستون در سمت چپ ستون جاری اضافه میکند؟
+Insert Column to the Left
+Insert Column to the Right
+Insert Rows Above
+Insert Rows Below
+الف
+
+کدام گزینه یک سطر به بالای سطر انتخاب شده اضافه می کند
+Insert Rows Above
+Insert Rows Below
+Insert Column to the Left
+Insert Column to the Right
+الف
+
+سوالات ۱۸۱ تا ۲۱۲:
+
+کدام منو جهت لایه بندی و قالب بندی جدول کاربرد دارد؟
+Layout
+Design
+Insert
+Home
+الف
+
+کدام مورد برای تبدیل جدول به متن و برعکس میباشد؟
+Convert to text
+Merge Cells
+Split Table
+Formula
+الف
+
+کدام نوع تب ، تب میله ای نام دارد؟
+Bar
+Decimal
+Center
+Right
+الف
+
+کدام نوع تب TAB ، داده ها را از سمت راست تراز می کند؟
+Right
+Left
+Center
+Decimal
+الف
+
+کدام یک از Ribbonهای زیر برای درج گزینه ها در Word استفاده می شود؟
+Insert
+Home
+Page Layout
+References
+الف
+
+کدام یک از برنامه های زیر جزء واژه پردازها محسوب میشود؟
+Word
+Excel
+PowerPoint
+Access
+الف
+
+کدام یک از روشهای زیر برای انتخاب کل جدول صحیح است؟
+گزینه 2 و 3)
+کشیدن موس
+دابل کلیک
+فشردن Ctrl+A
+الف
+
+کدام یک از قابلیت های زیر در Word وجود دارد؟
+همه موارد (تایپ، جدول، رسم شکل، فرمول نویسی)
+فقط تایپ
+فقط رسم شکل
+فقط فرمول نویسی
+الف
+
+کدام یک از گزینه های زیر برای پیدا کردن افراد تکراری در داخل لیست گیرندگان به کار میرود؟
+Find Duplicate
+Filter
+Sort
+Advanced Find
+الف
+
+کلید Ctrl به همراه کدام کلید سبب انجام عمل کپی میشود؟
+Ctrl+C
+Ctrl+V
+Ctrl+X
+Ctrl+P
+الف
+
+کلید میان بر Hyperlink کدام گزینه است؟
+Ctrl +K
+Ctrl +H
+Ctrl +L
+Ctrl +F
+الف
+
+کلید میان بر جهت وسط چین کردن پاراگراف کدام گزینه است؟
+Ctrl+E
+Ctrl+L
+Ctrl+R
+Ctrl+J
+الف
+
+کلید میان بر ذخیره سازی یک فایل کدام گزینه است؟
+Ctrl + S
+Ctrl + N
+Ctrl + O
+Ctrl + P
+الف
+
+کلید میان بر گزینه ی Redo چیست؟
+Ctrl + Y
+Ctrl + Z
+Ctrl + R
+Ctrl + U
+الف
+
+کلید میان بر گزینه ی Select All برای انتخاب، کدام گزینه است؟
+Ctrl + A
+Ctrl + C
+Ctrl + V
+Ctrl + X
+الف
+
+کلید میان بر گزینه ی Spelling & Grammar کدام گزینه است؟
+F7
+F5
+F12
+Ctrl+F7
+الف
+
+کلید میان بر گزینه ی Word Count کدام مورد است؟
+Ctrl + Shift + G
+F7
+Ctrl + F
+Ctrl + H
+الف
+
+کلید میان بر مخفی کردن نوار ریبون Ribbon کدام گزینه است؟
+CTRL+F1
+Ctrl+F
+Alt+F1
+Shift+F1
+الف
+
+کلید میان برای چاپ سند کدام گزینه است؟
+Ctrl + P
+Ctrl + S
+Ctrl + N
+Ctrl + O
+الف
+
+کلید میان برگزینه New در Word چه می باشد؟
+Ctrl + N
+Ctrl + O
+Ctrl + S
+Ctrl + P
+الف
+
+کلید میانبر ۱.۵ برابر کردن فاصله ی بین خطوط پاراگراف چیست؟
+Ctrl + 5
+Ctrl + 1
+Ctrl + 2
+Ctrl + 0
+الف
+
+کلید میانبر پنجره ی Font جهت تنظیمات قالب بندی کدام گزینه است؟
+Ctrl + D
+Ctrl + F
+Ctrl + E
+Ctrl + H
+الف
+
+کلید میانبر جهت اریب یا کج کردن متن کدام گزینه است؟
+Ctrl + I
+Ctrl + U
+Ctrl + B
+Ctrl + E
+الف
+
+کلید میانبر جهت زیر خط دار کردن متن کدام گزینه است؟
+Ctrl + U
+Ctrl + I
+Ctrl + B
+Ctrl + E
+الف
+
+کلید میانبر جهت وسط چین کردن پاراگراف کدام گزینه است؟
+Ctrl + E
+Ctrl + L
+Ctrl + R
+Ctrl + J
+الف
+
+کلید میانبر عمل Paste کدام است؟
+Ctrl + V
+Ctrl + C
+Ctrl + X
+Ctrl + P
+الف
+
+مفهوم کلمه ی Distribute Rows کدام گزینه است؟
+یکسان سازی ارتفاع سطرها
+یکسان سازی عرض ستونها
+حذف سطرها
+اضافه کردن سطر
+الف
+
+منظور از خط راهنما چیست؟
+Leader
+Margin
+Indent
+Tab Stop
+الف
+
+نام فایل جاری در کدام بخش از پنجره ی Word دیده میشود؟
+نوار عنوان
+نوار وضعیت
+نوار ابزار دسترسی سریع
+نوار ریبون
+الف
+
+نوع چاپگر انتخابی در کدام گزینه از کادر Print دیده میشود؟
+type
+Settings
+Pages
+Copies
+الف
+
+نوع خط چین تب در کدام قسمت مشخص میشود؟
+Leader
+Tab Stop Position
+Alignment
+Default Tab Stops
+الف
+
+Insert Symbol برای چه کاری کاربرد دارد؟
+درج علائم ویژه
+درج تصویر
+درج جدول
+درج نمودار
+الف
