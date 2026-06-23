@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرکز آموزشی خوارزمی - آزمون ICDL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #1a5f7a;
+            --secondary-color: #159895;
+            --accent-color: #ffc107;
+            --nav-prev-color: #2196F3;
+            --nav-next-color: #9C27B0;
+            --light-color: #f8f9fa;
+            --dark-color: #2c3e50;
+            --success-color: #2ecc71;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+            --info-color: #3498db;
+            --answered-color: #6c757d;
+            --blackwhite-color: #333;
+            --graphics-color: #9C27B0;
+            --color-design-color: #FF5722;
+            --gradient-primary: linear-gradient(135deg, var(--primary-color), #159895, #57c4b0);
+            --gradient-success: linear-gradient(135deg, var(--success-color), #27ae60);
+            --gradient-danger: linear-gradient(135deg, var(--danger-color), #c0392b);
+            --gradient-accent: linear-gradient(135deg, var(--accent-color), #ff9800);
+            --gradient-answered: linear-gradient(135deg, #6c757d, #495057);
+            --gradient-nav-prev: linear-gradient(135deg, var(--nav-prev-color), #1976D2);
+            --gradient-nav-next: linear-gradient(135deg, var(--nav-next-color), #7B1FA2);
+            --gradient-blackwhite: linear-gradient(135deg, #333, #666, #999);
+            --gradient-graphics: linear-gradient(135deg, var(--graphics-color), #7B1FA2);
+            --gradient-color-design: linear-gradient(135deg, var(--color-design-color), #E64A19);
+            --box-shadow: 0 clamp(1px, 0.2vw, 2px) clamp(3px, 0.5vw, 5px) rgba(0, 0, 0, 0.05);
+            --box-shadow-hover: 0 clamp(2px, 0.3vw, 3px) clamp(5px, 0.8vw, 8px) rgba(0, 0, 0, 0.1);
+            --transition: all 0.2s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(clamp(4px, 1vw, 8px)); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.01); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(clamp(-3px, -0.5vw, -1px)); }
+            20%, 40%, 60%, 80% { transform: translateX(clamp(1px, 0.5vw, 3px)); }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazir', 'Tanha', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            color: #333;
+            line-height: 1.3;
+            min-height: 100vh;
+            animation: fadeIn 0.5s ease-out;
+            overflow-x: hidden;
+            font-size: clamp(10px, 1.5vw, 12px);
+        }
+
+        .container {
+            width: 100vw;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: clamp(4px, 1vw, 6px);
+        }
+
+        header {
+            background: var(--gradient-primary);
+            color: white;
+            padding: clamp(5px, 1.2vw, 8px) 0;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            border-radius: 0 0 clamp(4px, 1vw, 8px) clamp(4px, 1vw, 8px);
+        }
+
+        header h1 {
+            font-size: clamp(12px, 1.8vw, 14px);
+            font-weight: 700;
+            margin-bottom: clamp(2px, 0.5vw, 3px);
+        }
+
+        header p {
+            font-size: clamp(9px, 1.2vw, 10px);
+            opacity: 0.9;
+        }
+
+        button {
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            padding: clamp(4px, 0.8vw, 6px) clamp(5px, 1vw, 8px);
+            border-radius: clamp(3px, 0.6vw, 5px);
+            cursor: pointer;
+            font-size: clamp(9px, 1.4vw, 11px);
+            font-weight: 600;
+            margin: clamp(1px, 0.3vw, 2px);
+            transition: var(--transition);
+            box-shadow: var(--box-shadow);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(2px, 0.5vw, 4px);
+        }
+
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--box-shadow-hover);
+        }
+
+        button.selected {
+            background: var(--gradient-accent);
+            color: var(--dark-color);
+        }
+
+        button.correct {
+            background: var(--gradient-success);
+        }
+
+        button.incorrect {
+            background: var(--gradient-danger);
+        }
+
+        button.answered {
+            background: var(--gradient-answered);
+        }
+
+        button.nav-btn {
+            padding: clamp(4px, 0.8vw, 6px) clamp(5px, 1vw, 8px);
+            font-size: clamp(9px, 1.4vw, 11px);
+            min-width: clamp(60px, 9vw, 70px);
+        }
+
+        button.nav-prev-btn {
+            background: var(--gradient-nav-prev) !important;
+        }
+
+        button.nav-next-btn {
+            background: var(--gradient-nav-next) !important;
+        }
+
+        button.submit-btn {
+            background: var(--gradient-success);
+            padding: clamp(5px, 1vw, 7px) clamp(7px, 1.2vw, 10px);
+            font-size: clamp(9px, 1.4vw, 11px);
+            min-width: clamp(75px, 12vw, 90px);
+        }
+
+        .main-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: auto;
+            padding: clamp(5px, 1vw, 8px);
+        }
+
+        .exam-info {
+            background: white;
+            border-radius: clamp(5px, 1vw, 8px);
+            padding: clamp(6px, 1.5vw, 10px);
+            box-shadow: var(--box-shadow);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            width: 100%;
+            max-width: clamp(300px, 90vw, 700px);
+            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+            border-left: clamp(2px, 0.4vw, 3px) solid var(--primary-color);
+        }
+
+        .exam-info h2 {
+            color: var(--primary-color);
+            margin-bottom: clamp(5px, 1vw, 8px);
+            padding-bottom: clamp(4px, 0.8vw, 6px);
+            border-bottom: 1px solid var(--accent-color);
+            font-size: clamp(11px, 1.6vw, 13px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(4px, 0.8vw, 6px);
+        }
+
+        .exam-info p {
+            font-size: clamp(9px, 1.4vw, 11px);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            color: #666;
+        }
+
+        .exam-info h3 {
+            font-size: clamp(8px, 1.2vw, 10px);
+            margin-top: clamp(5px, 1vw, 8px);
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .exam-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: clamp(5px, 1vw, 8px) 0;
+            flex-wrap: wrap;
+            gap: clamp(4px, 0.8vw, 6px);
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: clamp(5px, 1vw, 8px);
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: clamp(4px, 0.8vw, 6px);
+            min-width: clamp(50px, 8vw, 60px);
+            flex: 1;
+            max-width: clamp(80px, 15vw, 100px);
+        }
+
+        .stat-value {
+            font-size: clamp(13px, 2vw, 16px);
+            font-weight: 700;
+            margin-bottom: clamp(2px, 0.4vw, 3px);
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            font-size: clamp(7px, 1vw, 9px);
+            color: #666;
+            font-weight: 600;
+        }
+
+        .exam-type-selection {
+            display: flex;
+            justify-content: center;
+            gap: clamp(5px, 1vw, 8px);
+            margin: clamp(6px, 1.5vw, 10px) 0;
+            flex-wrap: wrap;
+        }
+
+        .exam-type-btn {
+            width: clamp(100px, 18vw, 130px);
+            height: clamp(40px, 7vw, 50px);
+            font-size: clamp(9px, 1.3vw, 11px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: clamp(4px, 0.8vw, 6px);
+            padding: clamp(3px, 0.6vw, 5px);
+        }
+
+        .exam-type-btn i {
+            font-size: clamp(13px, 2vw, 16px);
+            margin-bottom: clamp(2px, 0.4vw, 3px);
+        }
+
+        .quiz-container {
+            display: none;
+            background: white;
+            border-radius: clamp(5px, 1vw, 8px);
+            padding: clamp(6px, 1.5vw, 10px);
+            box-shadow: var(--box-shadow);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            animation: fadeIn 0.5s ease-out;
+            border-left: clamp(2px, 0.4vw, 3px) solid var(--primary-color);
+        }
+
+        .lesson-title {
+            font-size: clamp(12px, 1.8vw, 14px);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: clamp(5px, 1vw, 8px);
+            color: var(--primary-color);
+            padding-bottom: clamp(4px, 0.8vw, 6px);
+            border-bottom: 1px solid var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(4px, 0.8vw, 6px);
+        }
+
+        .timer {
+            font-size: clamp(10px, 1.5vw, 12px);
+            text-align: center;
+            margin-bottom: clamp(5px, 1vw, 8px);
+            background: var(--gradient-primary);
+            padding: clamp(4px, 0.8vw, 6px);
+            border-radius: clamp(3px, 0.6vw, 5px);
+            font-weight: 700;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+
+        .timer.warning {
+            background: var(--gradient-accent);
+            animation: pulse 1s infinite;
+        }
+
+        .timer.danger {
+            background: var(--gradient-danger);
+            animation: pulse 0.5s infinite;
+        }
+
+        .question {
+            font-size: clamp(10px, 1.5vw, 12px);
+            font-weight: 600;
+            margin: clamp(5px, 1vw, 8px) 0;
+            text-align: right;
+            line-height: 1.4;
+            padding: clamp(5px, 1vw, 8px);
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: clamp(4px, 0.8vw, 6px);
+            border-right: clamp(2px, 0.4vw, 3px) solid var(--primary-color);
+            position: relative;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: clamp(4px, 0.8vw, 6px);
+            margin-bottom: clamp(5px, 1vw, 8px);
+        }
+
+        .option-btn {
+            width: 100%;
+            height: clamp(34px, 5.5vw, 38px);
+            text-align: right;
+            font-size: clamp(9px, 1.3vw, 11px);
+            padding: 0 clamp(35px, 6vw, 40px) 0 clamp(8px, 1.5vw, 12px);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border-radius: clamp(3px, 0.6vw, 5px);
+            margin: clamp(2px, 0.4vw, 3px) 0;
+            position: relative;
+        }
+
+        .option-btn::before {
+            content: attr(data-option);
+            position: absolute;
+            right: clamp(6px, 1vw, 8px);
+            top: 50%;
+            transform: translateY(-50%);
+            width: clamp(18px, 3vw, 22px);
+            height: clamp(18px, 3vw, 22px);
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: clamp(9px, 1.3vw, 11px);
+        }
+
+        .option-btn:hover {
+            transform: translateX(clamp(-2px, -0.4vw, -3px));
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: clamp(5px, 1vw, 8px) 0;
+            flex-wrap: wrap;
+            gap: clamp(4px, 0.8vw, 6px);
+        }
+
+        .question-numbers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: clamp(3px, 0.5vw, 4px);
+            margin: clamp(5px, 1vw, 8px) 0;
+            padding: clamp(5px, 1vw, 8px);
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: clamp(4px, 0.8vw, 6px);
+            direction: ltr;
+        }
+
+        .number-btn {
+            width: clamp(24px, 4vw, 28px);
+            height: clamp(24px, 4vw, 28px);
+            font-size: clamp(9px, 1.3vw, 11px);
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: var(--transition);
+        }
+
+        .number-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .progress-container {
+            width: 100%;
+            height: clamp(4px, 0.8vw, 6px);
+            background: #e9ecef;
+            border-radius: clamp(2px, 0.4vw, 3px);
+            margin: clamp(5px, 1vw, 8px) 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--gradient-primary);
+            border-radius: clamp(2px, 0.4vw, 3px);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .results-container {
+            display: none;
+            background: white;
+            border-radius: clamp(5px, 1vw, 8px);
+            padding: clamp(6px, 1.5vw, 10px);
+            box-shadow: var(--box-shadow);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            animation: fadeIn 0.5s ease-out;
+            border-left: clamp(2px, 0.4vw, 3px) solid var(--primary-color);
+        }
+
+        .summary {
+            font-size: clamp(10px, 1.6vw, 13px);
+            font-weight: 700;
+            text-align: center;
+            margin: clamp(5px, 1vw, 8px) 0;
+            padding: clamp(5px, 1vw, 8px);
+            background: var(--gradient-primary);
+            color: white;
+            border-radius: clamp(4px, 0.8vw, 6px);
+        }
+
+        .pass-animation {
+            animation: pulse 1.5s infinite;
+        }
+
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            padding: clamp(5px, 1vw, 8px);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .login-box {
+            background: white;
+            padding: clamp(10px, 2.5vw, 15px);
+            border-radius: clamp(5px, 1vw, 8px);
+            box-shadow: var(--box-shadow);
+            width: 100%;
+            max-width: clamp(280px, 80vw, 350px);
+            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+            border-left: clamp(2px, 0.4vw, 3px) solid var(--primary-color);
+        }
+
+        .login-box h2 {
+            color: var(--primary-color);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            font-size: clamp(11px, 1.6vw, 13px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(4px, 0.8vw, 6px);
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: clamp(5px, 1vw, 8px);
+            margin: clamp(5px, 1vw, 8px) 0;
+            border: 1px solid #e0e0e0;
+            border-radius: clamp(3px, 0.6vw, 5px);
+            font-size: clamp(10px, 1.5vw, 12px);
+            transition: var(--transition);
+        }
+
+        .login-box input:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 clamp(1px, 0.3vw, 2px) rgba(26, 95, 122, 0.2);
+            outline: none;
+        }
+
+        .login-message {
+            margin-top: clamp(5px, 1vw, 8px);
+            font-weight: 600;
+            min-height: clamp(12px, 2vw, 16px);
+            font-size: clamp(9px, 1.3vw, 11px);
+        }
+
+        .loading {
+            color: var(--primary-color);
+            margin-top: clamp(5px, 1vw, 8px);
+            font-size: clamp(9px, 1.3vw, 11px);
+        }
+
+        .answer-status {
+            display: flex;
+            justify-content: space-between;
+            margin: clamp(5px, 1vw, 8px) 0;
+            padding: clamp(5px, 1vw, 8px);
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: clamp(4px, 0.8vw, 6px);
+            font-size: clamp(8px, 1.2vw, 10px);
+        }
+
+        .status-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .status-value {
+            font-size: clamp(11px, 1.8vw, 14px);
+            font-weight: bold;
+            margin-bottom: clamp(1px, 0.3vw, 2px);
+        }
+
+        .status-label {
+            font-size: clamp(7px, 1vw, 9px);
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: clamp(5px, 1vw, 8px) 0;
+            margin-top: clamp(6px, 1.5vw, 10px);
+            font-size: clamp(7px, 1.1vw, 9px);
+            color: #666;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-top: 1px solid var(--primary-color);
+            border-radius: clamp(5px, 1vw, 8px) clamp(5px, 1vw, 8px) 0 0;
+        }
+
+        footer a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* ===================== ریسپانسیو موبایل ===================== */
+        @media (max-width: 600px) {
+            body {
+                font-size: 15px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+
+            header {
+                padding: 16px 10px;
+                border-radius: 0 0 14px 14px;
+            }
+
+            header h1 {
+                font-size: 19px;
+            }
+
+            header p {
+                font-size: 12px !important;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 11px 12px;
+                border-radius: 10px;
+            }
+
+            button.nav-btn,
+            button.submit-btn {
+                font-size: 13px;
+                min-width: 30%;
+                flex: 1;
+                padding: 12px 8px;
+            }
+
+            .exam-info {
+                max-width: 100%;
+                padding: 16px;
+                border-radius: 14px;
+                border-left-width: 4px;
+            }
+
+            .exam-info h2 {
+                font-size: 17px;
+                gap: 8px;
+            }
+
+            .exam-info h3 {
+                font-size: 12px;
+                line-height: 1.6;
+            }
+
+            .exam-type-selection {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .exam-type-btn {
+                width: 100%;
+                max-width: 280px;
+                height: auto;
+                min-height: 60px;
+                font-size: 15px;
+                border-radius: 12px;
+            }
+
+            .exam-type-btn i {
+                font-size: 22px;
+            }
+
+            .quiz-container,
+            .results-container {
+                padding: 14px;
+                border-radius: 14px;
+                border-left-width: 4px;
+            }
+
+            .lesson-title {
+                font-size: 17px;
+            }
+
+            .timer {
+                font-size: 15px;
+                padding: 10px;
+                border-radius: 10px;
+            }
+
+            .question {
+                font-size: 15px;
+                padding: 12px;
+                border-radius: 10px;
+                line-height: 1.6;
+            }
+
+            .option-btn {
+                height: auto;
+                min-height: 48px;
+                font-size: 14px;
+                padding: 12px 50px 12px 12px;
+                border-radius: 10px;
+                white-space: normal;
+            }
+
+            .option-btn::before {
+                width: 30px;
+                height: 30px;
+                font-size: 13px;
+            }
+
+            .navigation {
+                gap: 8px;
+            }
+
+            .number-btn {
+                width: 32px;
+                height: 32px;
+                font-size: 13px;
+            }
+
+            .summary {
+                font-size: 15px;
+                padding: 12px;
+                border-radius: 10px;
+            }
+
+            .login-box {
+                max-width: 320px;
+                padding: 20px;
+                border-radius: 14px;
+            }
+
+            .login-box h2 {
+                font-size: 17px;
+            }
+
+            .login-box input {
+                font-size: 16px;
+                padding: 12px;
+            }
+
+            .answer-status {
+                font-size: 12px;
+            }
+
+            .status-value {
+                font-size: 17px;
+            }
+
+            .status-label {
+                font-size: 10px;
+            }
+
+            footer {
+                font-size: 11px;
+                padding: 12px 10px;
+                border-radius: 14px 14px 0 0;
+            }
+        }
+
+        @media (max-width: 400px) {
+            button.nav-btn,
+            button.submit-btn {
+                min-width: 100%;
+            }
+
+            .navigation {
+                flex-direction: column;
+            }
+        }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>مرکز آموزش خوارزمی - آزمون ICDL</h1>
+        <p style="font-size: 12px; margin-top: 5px;">آزمون بین المللی کامپیوتر (ICDL) - با ۱۹ سال سابقه درخشان</p>
+    </header>
+    
+    <div class="container">
+        <!-- پیام بارگذاری سوالات -->
+        <div id="loading-container" class="login-container">
+            <div class="login-box">
+                <h2><i class="fas fa-spinner fa-spin"></i> در حال بارگذاری</h2>
+                <p id="loading-message" class="loading">
+                    <i class="fas fa-spinner fa-spin"></i> در حال بارگذاری سوالات ICDL...
+                </p>
+            </div>
+        </div>
+
+        <!-- منوی اصلی -->
+        <div id="main-menu" class="main-menu" style="display: none;">
+            <div class="exam-info">
+                <h2><i class="fas fa-certificate"></i> آزمون بین المللی کامپیوتر (ICDL)</h2>
+                
+                
+                <div class="exam-type-selection">
+					<!-- 
+                    <button class="exam-type-btn" id="full-exam-btn" onclick="selectExamType('full')">
+                        <i class="fas fa-graduation-cap"></i> آزمون کامل ICDL
+                    </button>
+ -->
+                    <button class="exam-type-btn" id="random-exam-btn" onclick="selectExamType('random')">
+                        <i class="fas fa-random"></i> آزمون ICDL
+                    </button>
+                </div>
+				<h3>موسسه آموزشی خوارزمی با مدیریت مهندس ساجدی  | 09387405653 - 02832562070</h3>
+            </div>
+            
+        </div>
+
+		
+        <!-- صفحه آزمون -->
+        <div id="quiz-container" class="quiz-container">
+            <div class="lesson-title" id="lesson-title">آزمون ICDL</div>
+            <div class="timer" id="timer">⏱️ زمان: 30:00</div>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            
+            <div class="question" id="question"></div>
+            
+            <div class="options" id="options">
+                <button class="option-btn" id="option-0" onclick="selectOption(0)" data-option="الف"></button>
+                <button class="option-btn" id="option-1" onclick="selectOption(1)" data-option="ب"></button>
+                <button class="option-btn" id="option-2" onclick="selectOption(2)" data-option="ج"></button>
+                <button class="option-btn" id="option-3" onclick="selectOption(3)" data-option="د"></button>
+            </div>
+            
+            <!-- ترتیب دکمه‌ها: پایان آزمون - قبلی - بعدی -->
+            <div class="navigation">
+                <button class="submit-btn" id="submit-btn" onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان آزمون</button>
+                <button class="nav-btn nav-prev-btn" id="prev-btn" onclick="prevQuestion()">قبلی <i class="fas fa-arrow-left"></i></button>
+                <button class="nav-btn nav-next-btn" id="next-btn" onclick="nextQuestion()"><i class="fas fa-arrow-right"></i> بعدی</button>
+            </div>
+            
+            <!-- شماره سوالات وسط‌چین -->
+            <div class="question-numbers" id="question-numbers"></div>
+        </div>
+
+        <!-- صفحه نتایج -->
+        <div id="results-container" class="results-container">
+            <div class="lesson-title" id="result-lesson-title">📊 نتایج آزمون ICDL</div>
+            <div class="summary" id="summary"></div>
+            
+            <!-- نوار وضعیت پاسخ‌ها -->
+            <div class="answer-status" id="answer-status">
+                <div class="status-item">
+                    <div class="status-value" id="correct-count">0</div>
+                    <div class="status-label">سوالات درست</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-value" id="incorrect-count">0</div>
+                    <div class="status-label">سوالات غلط</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-value" id="unanswered-count">0</div>
+                    <div class="status-label">سوالات بی‌پاسخ</div>
+                </div>
+            </div>
+            
+            <div class="question" id="result-question">در این بخش سوالات و پاسخ‌ها نمایش داده می‌شود...</div>
+            
+            <div class="options" id="result-options">
+                <button class="option-btn" id="result-option-0" disabled data-option="الف"></button>
+                <button class="option-btn" id="result-option-1" disabled data-option="ب"></button>
+                <button class="option-btn" id="result-option-2" disabled data-option="ج"></button>
+                <button class="option-btn" id="result-option-3" disabled data-option="د"></button>
+            </div>
+            
+            <!-- ترتیب دکمه‌ها: منو - آزمون جدید - بعدی - قبلی -->
+            <div class="navigation">
+                <button class="nav-btn" id="back-to-menu-btn" onclick="backToMainMenu()"><i class="fas fa-home"></i> منو</button>
+                <button class="nav-btn" id="new-exam-btn" onclick="startSameExamAgain()" style="background: var(--gradient-primary);">
+                    <i class="fas fa-redo"></i> آزمون جدید
+                </button>
+				<button class="nav-btn nav-prev-btn" id="prev-result-btn" onclick="prevResultQuestion()">قبلی <i class="fas fa-arrow-left"></i></button>
+                <button class="nav-btn nav-next-btn" id="next-result-btn" onclick="nextResultQuestion()"><i class="fas fa-arrow-right"></i> بعدی</button>
+            </div>
+            
+            <!-- شماره سوالات -->
+            <div class="question-numbers" id="result-numbers"></div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>© 2025  - موسسه آموزشی خوارزمی با مدیریت مهندس ساجدی&nbsp; | 09387405653 - 02832562070</h3>
+        <a href="https://starfox1official.github.io/say4s/" style="color: inherit; text-decoration: none;">
+            <h3>SAY4s - سیستم آزمون ICDL</h3>
+        </a>
+    </footer>
+
+    <script>
+        // متغیرهای جهانی
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let timerInterval = null;
+        let currentExamType = "";
+        let userAnswers = [];
+        
+        // آرایه سوالات ICDL
+        let icdlQuestions = [];
+        let questionsLoaded = false;
+        let loadingAttempted = false;
+
+        // بارگذاری سوالات هنگام لود صفحه
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 سیستم آزمون ICDL در حال راه‌اندازی...');
+
+            loadQuestionsAutomatically().then((success) => {
+                document.getElementById('loading-container').style.display = 'none';
+                document.getElementById('main-menu').style.display = 'flex';
+                if (success) {
+                    updateQuestionsStatus();
+                } else {
+                    alert('❌ خطا در بارگذاری سوالات ICDL!');
+                }
+            }).catch(error => {
+                document.getElementById('loading-container').style.display = 'none';
+                document.getElementById('main-menu').style.display = 'flex';
+                alert('❌ خطا در بارگذاری سوالات: ' + error.message);
+            });
+        });
+
+        // تابع بارگذاری خودکار سوالات ICDL
+        async function loadQuestionsAutomatically() {
+            if (loadingAttempted) {
+                return questionsLoaded;
+            }
+            
+            loadingAttempted = true;
+            
+            try {
+                console.log('🔍 در حال جستجوی فایل سوالات ICDL...');
+                
+                // بارگذاری سوالات از فایل qizICDL.txt
+                const icdlData = await loadTextFile('qizICDL.txt');
+                
+                if (!icdlData) {
+                    throw new Error('فایل qizICDL.txt پیدا نشد یا خطا در خواندن');
+                }
+                
+                // پردازش فایل ICDL
+                await parseICDLQuestions(icdlData);
+                
+                // بررسی وجود سوال
+                if (icdlQuestions.length === 0) {
+                    throw new Error('هیچ سوال معتبری در فایل ICDL پیدا نشد');
+                }
+                
+                questionsLoaded = true;
+                console.log(`✅ سوالات ICDL بارگذاری شد: ${icdlQuestions.length} سوال`);
+                return true;
+            } catch (error) {
+                console.error('❌ خطا در بارگذاری سوالات ICDL:', error);
+                throw error;
+            }
+        }
+
+        // تابع بارگذاری فایل متنی
+        async function loadTextFile(filename) {
+            try {
+                console.log(`📄 در حال خواندن فایل ${filename}...`);
+                const response = await fetch(filename, { cache: 'no-cache' });
+                
+                if (!response.ok) {
+                    throw new Error(`خطای HTTP ${response.status} برای فایل ${filename}`);
+                }
+                
+                const text = await response.text();
+                
+                if (!text || text.trim().length === 0) {
+                    throw new Error(`فایل ${filename} خالی است`);
+                }
+                
+                console.log(`✓ فایل ${filename} خوانده شد، حجم: ${text.length} کاراکتر`);
+                return text;
+            } catch (error) {
+                console.warn(`❌ خطا در خواندن فایل ${filename}:`, error.message);
+                return null;
+            }
+        }
+
+        // تابع تجزیه سوالات از فایل ICDL
+        async function parseICDLQuestions(text) {
+            console.log(`📝 پردازش فایل ICDL...`);
+            
+            const lines = text.split('\n');
+            let currentQuestion = null;
+            let lineCount = 0;
+            let questionCount = 0;
+            
+            for (let i = 0; i < lines.length; i++) {
+                let line = lines[i].trim();
+                
+                // حذف کاراکترهای \r
+                line = line.replace(/\r/g, '');
+                
+                if (line === '' || line === ' ' || line === '\t') {
+                    // خط خالی - ذخیره سوال قبلی
+                    if (currentQuestion && currentQuestion.question && currentQuestion.question.trim() !== '') {
+                        if (validateQuestion(currentQuestion)) {
+                            icdlQuestions.push(currentQuestion);
+                            questionCount++;
+                        }
+                    }
+                    currentQuestion = null;
+                    lineCount = 0;
+                    continue;
+                }
+                
+                if (!currentQuestion) {
+                    currentQuestion = {
+                        question: '',
+                        options: ['', '', '', ''],
+                        answer: '',
+                        type: 'icdl'
+                    };
+                }
+                
+                switch (lineCount) {
+                    case 0: // متن سوال
+                        currentQuestion.question = line;
+                        break;
+                    case 1: // گزینه الف
+                        currentQuestion.options[0] = line;
+                        break;
+                    case 2: // گزینه ب
+                        currentQuestion.options[1] = line;
+                        break;
+                    case 3: // گزینه ج
+                        currentQuestion.options[2] = line;
+                        break;
+                    case 4: // گزینه د
+                        currentQuestion.options[3] = line;
+                        break;
+                    case 5: // پاسخ صحیح
+                        line = line.replace(/[\.\s]/g, '').trim();
+                        if (['الف', 'ب', 'ج', 'د', 'a', 'b', 'c', 'd', 'A', 'B', 'C', 'D'].includes(line)) {
+                            const answerMap = {
+                                'a': 'الف', 'A': 'الف',
+                                'b': 'ب', 'B': 'ب',
+                                'c': 'ج', 'C': 'ج',
+                                'd': 'د', 'D': 'د'
+                            };
+                            currentQuestion.answer = answerMap[line] || line;
+                        } else {
+                            console.warn(`⚠️ پاسخ نامعتبر: "${line}"`);
+                            currentQuestion.answer = 'الف';
+                        }
+                        break;
+                }
+                
+                lineCount++;
+                
+                // اگر آخرین خط فایل باشد
+                if (i === lines.length - 1 && currentQuestion && currentQuestion.question && currentQuestion.question.trim() !== '') {
+                    if (validateQuestion(currentQuestion)) {
+                        icdlQuestions.push(currentQuestion);
+                        questionCount++;
+                    }
+                }
+            }
+            
+            console.log(`✓ فایل ICDL: ${questionCount} سوال معتبر پیدا شد`);
+        }
+
+        // تابع اعتبارسنجی سوال
+        function validateQuestion(question) {
+            if (!question.question || question.question.trim() === '') {
+                return false;
+            }
+            
+            // بررسی گزینه‌ها
+            for (let i = 0; i < 4; i++) {
+                if (!question.options[i] || question.options[i].trim() === '') {
+                    return false;
+                }
+            }
+            
+            // بررسی پاسخ
+            if (!question.answer || !['الف', 'ب', 'ج', 'د'].includes(question.answer)) {
+                return false;
+            }
+            
+            return true;
+        }
+
+        // تابع به‌روزرسانی وضعیت سوالات
+        function updateQuestionsStatus() {
+            const statusElement = document.getElementById('status-text');
+            if (!statusElement) return;
+            
+            if (!questionsLoaded) {
+                statusElement.innerHTML = '<i class="fas fa-exclamation-triangle" style="color: var(--danger-color);"></i> سوالات ICDL بارگذاری نشد! فایل qizICDL.txt را بررسی کنید.';
+            } else {
+                if (icdlQuestions.length === 0) {
+                    statusElement.innerHTML = '<i class="fas fa-exclamation-triangle" style="color: var(--danger-color);"></i> هیچ سوال ICDL یافت نشد! فرمت فایل را بررسی کنید.';
+                } else {
+                    let statusHTML = `<i class="fas fa-check-circle" style="color: var(--success-color);"></i> `;
+                    statusHTML += `<span style="color: var(--primary-color); font-weight: bold;">${icdlQuestions.length} سوال ICDL</span> بارگذاری شد`;
+                    statusElement.innerHTML = statusHTML;
+                }
+            }
+        }
+
+        // تابع انتخاب نوع آزمون
+        function selectExamType(type) {
+            if (!questionsLoaded) {
+                alert('❌ سوالات ICDL بارگذاری نشده‌اند!\n\nلطفاً:\n1. فایل qizICDL.txt را در کنار فایل HTML قرار دهید\n2. صفحه را رفرش کنید\n3. دوباره وارد شوید');
+                return;
+            }
+            
+            if (icdlQuestions.length === 0) {
+                alert('❌ هیچ سوال ICDL یافت نشد. فایل سوالات را بررسی کنید.');
+                return;
+            }
+            
+            if (icdlQuestions.length < 40) {
+                if (!confirm(`⚠️ فقط ${icdlQuestions.length} سوال ICDL وجود دارد. آیا می‌خواهید ادامه دهید؟`)) {
+                    return;
+                }
+            }
+            
+            currentExamType = type;
+            startExam(type);
+        }
+
+        // تابع خروج
+        function logout() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+            
+            currentQuestions = [];
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            
+            document.getElementById('main-menu').style.display = 'flex';
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('results-container').style.display = 'none';
+        }
+
+        // تابع شروع آزمون
+        function startExam(type) {
+            document.getElementById('main-menu').style.display = 'none';
+            document.getElementById('quiz-container').style.display = 'block';
+            
+            let title = '';
+            if (type === 'full') {
+                title = "🎯 آزمون کامل ICDL (همه سوالات)";
+            } else {
+                title = "🎲 آزمون تصادفی ICDL";
+            }
+            
+            document.getElementById('lesson-title').textContent = title;
+            
+            if (type === 'full') {
+                // استفاده از همه سوالات
+                currentQuestions = [...icdlQuestions];
+            } else {
+                // انتخاب 14 سوال تصادفی
+                const questionCount = Math.min(40, icdlQuestions.length);
+                currentQuestions = getRandomQuestions(questionCount);
+            }
+            
+            // مخلوط کردن گزینه‌های هر سوال
+            currentQuestions.forEach(question => {
+                shuffleOptions(question);
+            });
+            
+            // مخلوط کردن ترتیب سوالات
+            for (let i = currentQuestions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [currentQuestions[i], currentQuestions[j]] = [currentQuestions[j], currentQuestions[i]];
+            }
+            
+            userAnswers = new Array(currentQuestions.length).fill(null);
+            
+            currentQuestionIndex = 0;
+            createQuestionNumberButtons();
+            startTimer();
+            showQuestion();
+            updateNavButtons();
+        }
+
+        // تابع مخلوط کردن گزینه‌ها
+        function shuffleOptions(question) {
+            // ذخیره پاسخ اصلی
+            const originalAnswer = question.answer;
+            const originalOptions = [...question.options];
+            
+            // تبدیل پاسخ به شاخص عددی
+            const originalAnswerIndex = ['الف', 'ب', 'ج', 'د'].indexOf(originalAnswer);
+            
+            // ایجاد نقشه مخلوط کردن
+            const indices = [0, 1, 2, 3];
+            for (let i = indices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [indices[i], indices[j]] = [indices[j], indices[i]];
+            }
+            
+            // مخلوط کردن گزینه‌ها
+            const shuffledOptions = [
+                originalOptions[indices[0]],
+                originalOptions[indices[1]],
+                originalOptions[indices[2]],
+                originalOptions[indices[3]]
+            ];
+            
+            // پیدا کردن شاخص جدید پاسخ صحیح
+            let newCorrectIndex = -1;
+            for (let i = 0; i < indices.length; i++) {
+                if (indices[i] === originalAnswerIndex) {
+                    newCorrectIndex = i;
+                    break;
+                }
+            }
+            
+            // ذخیره اطلاعات
+            question.originalOptions = originalOptions;
+            question.shuffledOptions = shuffledOptions;
+            question.correctIndex = newCorrectIndex;
+            question.correctAnswer = originalAnswer;
+        }
+
+        // تابع انتخاب تصادفی سوالات
+        function getRandomQuestions(count) {
+            // کپی کردن آرایه
+            const shuffled = [...icdlQuestions];
+            
+            // مخلوط کردن
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            
+            // انتخاب تعداد مورد نظر
+            return shuffled.slice(0, count);
+        }
+
+        // تابع شروع تایمر
+        function startTimer() {
+            let timeLeft = 30 * 60;
+            
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+            
+            updateTimerDisplay(timeLeft);
+            
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                updateTimerDisplay(timeLeft);
+                
+                const timerElement = document.getElementById('timer');
+                if (timeLeft <= 300) {
+                    timerElement.className = 'timer warning';
+                }
+                if (timeLeft <= 60) {
+                    timerElement.className = 'timer danger';
+                }
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    timerInterval = null;
+                    submitQuiz();
+                }
+            }, 1000);
+        }
+
+        // تابع نمایش تایمر
+        function updateTimerDisplay(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            const timerElement = document.getElementById('timer');
+            timerElement.textContent = `⏱️ زمان: ${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+        }
+
+        // تابع نمایش سوال
+        function showQuestion() {
+            if (currentQuestions.length === 0 || currentQuestionIndex >= currentQuestions.length) {
+                return;
+            }
+            
+            const question = currentQuestions[currentQuestionIndex];
+            document.getElementById('question').textContent = `سوال ${currentQuestionIndex + 1}: ${question.question}`;
+            
+            // استفاده از گزینه‌های مخلوط شده
+            const displayOptions = question.shuffledOptions || question.options;
+            
+            for (let i = 0; i < 4; i++) {
+                const btn = document.getElementById(`option-${i}`);
+                if (displayOptions[i]) {
+                    btn.textContent = displayOptions[i];
+                    btn.style.display = 'flex';
+                    
+                    // تنظیم وضعیت دکمه
+                    if (userAnswers[currentQuestionIndex] === i) {
+                        btn.className = 'option-btn selected';
+                    } else {
+                        btn.className = 'option-btn';
+                    }
+                } else {
+                    btn.style.display = 'none';
+                }
+            }
+            
+            updateProgress();
+            updateQuestionNumberButtons();
+            updateNavButtons();
+        }
+
+        // تابع انتخاب گزینه
+        function selectOption(index) {
+            if (currentQuestionIndex >= currentQuestions.length) return;
+            userAnswers[currentQuestionIndex] = index;
+            showQuestion();
+        }
+
+        // تابع ایجاد دکمه‌های شماره سوالات
+        function createQuestionNumberButtons() {
+            const container = document.getElementById('question-numbers');
+            container.innerHTML = '';
+            
+            for (let i = 0; i < currentQuestions.length; i++) {
+                const button = document.createElement('button');
+                button.textContent = i + 1;
+                button.className = 'number-btn';
+                button.onclick = () => {
+                    currentQuestionIndex = i;
+                    showQuestion();
+                };
+                container.appendChild(button);
+            }
+            
+            updateQuestionNumberButtons();
+        }
+
+        // تابع آپدیت دکمه‌های شماره
+        function updateQuestionNumberButtons() {
+            const buttons = document.querySelectorAll('#question-numbers .number-btn');
+            buttons.forEach((btn, index) => {
+                btn.classList.remove('selected', 'answered');
+                
+                if (index === currentQuestionIndex) {
+                    btn.classList.add('selected');
+                } else if (userAnswers[index] !== null) {
+                    btn.classList.add('answered');
+                }
+            });
+        }
+
+        // تابع آپدیت نوار پیشرفت
+        function updateProgress() {
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+        }
+
+        // تابع آپدیت دکمه‌های ناوبری
+        function updateNavButtons() {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            
+            prevBtn.disabled = currentQuestionIndex === 0;
+            prevBtn.style.opacity = prevBtn.disabled ? '0.5' : '1';
+            
+            nextBtn.disabled = currentQuestionIndex === currentQuestions.length - 1;
+            nextBtn.style.opacity = nextBtn.disabled ? '0.5' : '1';
+        }
+
+        // تابع سوال بعدی
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                showQuestion();
+            }
+        }
+
+        // تابع سوال قبلی
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion();
+            }
+        }
+
+        // تابع ارسال آزمون
+        function submitQuiz() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+            
+            // بررسی سوالات بی‌پاسخ
+            const unanswered = [];
+            for (let i = 0; i < userAnswers.length; i++) {
+                if (userAnswers[i] === null) {
+                    unanswered.push(i + 1);
+                }
+            }
+            
+            if (unanswered.length > 0) {
+                const confirmSubmit = confirm(
+                    `⚠️ به ${unanswered.length} سوال پاسخ نداده‌اید:\nسوالات: ${unanswered.join(', ')}\n\nآیا می‌خواهید آزمون را پایان دهید؟`
+                );
+                if (!confirmSubmit) {
+                    startTimer();
+                    return;
+                }
+            }
+            
+            showResults();
+        }
+
+        // تابع نمایش نتایج
+        function showResults() {
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('results-container').style.display = 'block';
+            
+            // تنظیم عنوان صفحه نتایج
+            let resultTitle = '';
+            if (currentExamType === 'full') {
+                resultTitle = "🎯 نتایج آزمون کامل ICDL";
+            } else {
+                resultTitle = "🎲 نتایج آزمون تصادفی ICDL";
+            }
+            document.getElementById('result-lesson-title').textContent = resultTitle;
+            
+            // محاسبه نتایج
+            let correctCount = 0;
+            
+            for (let i = 0; i < currentQuestions.length; i++) {
+                const question = currentQuestions[i];
+                const userAnswer = userAnswers[i];
+                
+                if (userAnswer !== null && userAnswer === question.correctIndex) {
+                    correctCount++;
+                }
+            }
+            
+            const totalQuestions = currentQuestions.length;
+            const percentage = Math.round((correctCount / totalQuestions) * 100);
+            const isPassed = correctCount >= 20;
+            
+            // نمایش خلاصه نتایج
+            const summaryElement = document.getElementById('summary');
+            let resultMessage = `🎯 درست: ${correctCount} از ${totalQuestions} | 📊 درصد: ${percentage}%`;
+            
+            if (isPassed) {
+                resultMessage += " ✅ قبول شدید!";
+                summaryElement.classList.add('pass-animation');
+            } else {
+                resultMessage += " ❌ مردود شدید!";
+                summaryElement.classList.remove('pass-animation');
+            }
+            
+            summaryElement.textContent = resultMessage;
+            
+            // به‌روزرسانی وضعیت پاسخ‌ها
+            updateAnswerStatus();
+            
+            // نمایش اولین سوال در نتایج
+            currentQuestionIndex = 0;
+            createResultNumberButtons();
+            showResultQuestion();
+        }
+
+        // تابع به‌روزرسانی وضعیت پاسخ‌ها
+        function updateAnswerStatus() {
+            let correctCount = 0;
+            let incorrectCount = 0;
+            let unansweredCount = 0;
+            
+            for (let i = 0; i < currentQuestions.length; i++) {
+                if (userAnswers[i] === null) {
+                    unansweredCount++;
+                } else {
+                    const question = currentQuestions[i];
+                    if (userAnswers[i] === question.correctIndex) {
+                        correctCount++;
+                    } else {
+                        incorrectCount++;
+                    }
+                }
+            }
+            
+            document.getElementById('correct-count').textContent = correctCount;
+            document.getElementById('incorrect-count').textContent = incorrectCount;
+            document.getElementById('unanswered-count').textContent = unansweredCount;
+        }
+
+        // تابع نمایش سوال در نتایج
+        function showResultQuestion() {
+            if (currentQuestionIndex >= currentQuestions.length) return;
+            
+            const question = currentQuestions[currentQuestionIndex];
+            document.getElementById('result-question').textContent = `سوال ${currentQuestionIndex + 1}: ${question.question}`;
+            
+            // استفاده از گزینه‌های مخلوط شده
+            const displayOptions = question.shuffledOptions || question.options;
+            const correctIndex = question.correctIndex;
+            const userAnswer = userAnswers[currentQuestionIndex];
+            
+            for (let i = 0; i < 4; i++) {
+                const btn = document.getElementById(`result-option-${i}`);
+                if (displayOptions[i]) {
+                    btn.textContent = displayOptions[i];
+                    btn.style.display = 'flex';
+                    
+                    // حذف کلاس‌های قبلی
+                    btn.classList.remove('correct', 'incorrect', 'selected');
+                    
+                    // نشان دادن پاسخ صحیح
+                    if (i === correctIndex) {
+                        btn.classList.add('correct');
+                    }
+                    
+                    // نشان دادن پاسخ اشتباه کاربر
+                    if (userAnswer === i && i !== correctIndex) {
+                        btn.classList.add('incorrect');
+                    }
+                } else {
+                    btn.style.display = 'none';
+                }
+            }
+            
+            updateResultNumberButtons();
+        }
+
+        // تابع ایجاد دکمه‌های شماره در نتایج
+        function createResultNumberButtons() {
+            const container = document.getElementById('result-numbers');
+            container.innerHTML = '';
+            
+            for (let i = 0; i < currentQuestions.length; i++) {
+                const button = document.createElement('button');
+                button.textContent = i + 1;
+                button.className = 'number-btn';
+                button.onclick = () => {
+                    currentQuestionIndex = i;
+                    showResultQuestion();
+                };
+                container.appendChild(button);
+            }
+            
+            updateResultNumberButtons();
+        }
+
+        // تابع آپدیت دکمه‌های شماره در نتایج
+        function updateResultNumberButtons() {
+            const buttons = document.querySelectorAll('#result-numbers .number-btn');
+            buttons.forEach((btn, index) => {
+                btn.classList.remove('selected', 'correct', 'incorrect');
+                
+                if (index === currentQuestionIndex) {
+                    btn.classList.add('selected');
+                } else if (userAnswers[index] !== null) {
+                    const question = currentQuestions[index];
+                    if (userAnswers[index] === question.correctIndex) {
+                        btn.classList.add('correct');
+                    } else {
+                        btn.classList.add('incorrect');
+                    }
+                }
+            });
+        }
+
+        // تابع سوال بعدی در نتایج
+        function nextResultQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                showResultQuestion();
+            }
+        }
+
+        // تابع سوال قبلی در نتایج
+        function prevResultQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showResultQuestion();
+            }
+        }
+
+        // تابع بازگشت به منو
+        function backToMainMenu() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+            
+            currentQuestions = [];
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            
+            document.getElementById('main-menu').style.display = 'flex';
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('results-container').style.display = 'none';
+        }
+
+        // تابع شروع مجدد آزمون
+        function startSameExamAgain() {
+            backToMainMenu();
+            setTimeout(() => {
+                if (currentExamType) {
+                    startExam(currentExamType);
+                }
+            }, 100);
+        }
+
+        // مدیریت رویدادهای صفحه کلید
+        document.addEventListener('keydown', function(event) {
+            // در صفحه آزمون
+            if (document.getElementById('quiz-container').style.display !== 'none') {
+                if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    prevQuestion();
+                } else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    nextQuestion();
+                }
+                
+                if (event.key >= '1' && event.key <= '4') {
+                    const index = parseInt(event.key) - 1;
+                    selectOption(index);
+                }
+            }
+            
+            // در صفحه نتایج
+            if (document.getElementById('results-container').style.display !== 'none') {
+                if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    prevResultQuestion();
+                } else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    nextResultQuestion();
+                }
+            }
+            
+            // Ctrl+Enter برای پایان آزمون
+            if (event.ctrlKey && event.key === 'Enter' && document.getElementById('quiz-container').style.display !== 'none') {
+                event.preventDefault();
+                submitQuiz();
+            }
+            
+            // Escape برای بازگشت
+            if (event.key === 'Escape') {
+                if (document.getElementById('quiz-container').style.display !== 'none') {
+                    if (confirm('آیا می‌خواهید آزمون را رها کنید؟')) {
+                        backToMainMenu();
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
