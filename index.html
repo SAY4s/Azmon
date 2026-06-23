@@ -1,381 +1,877 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مرکز آموزشی خوارزمی</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-color: #1a5f7a;
-            --secondary-color: #159895;
-            --accent-color: #ffc107;
-            --dark-color: #2c3e50;
-            --gradient-primary: linear-gradient(135deg, var(--primary-color), #159895, #57c4b0);
-            --gradient-icdl: linear-gradient(135deg, #2196F3, #1976D2);
-            --gradient-diplom: linear-gradient(135deg, #9C27B0, #7B1FA2);
-            --box-shadow: 0 0.2vw 0.5vw rgba(0, 0, 0, 0.05);
-            --box-shadow-hover: 0 0.3vw 0.8vw rgba(0, 0, 0, 0.15);
-            --transition: all 0.2s ease;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مرکز آموزشی خوارزمی</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+:root {
+  --primary: #1a5f7a;
+  --secondary: #159895;
+  --accent: #ffc107;
+  --danger: #e53935;
+  --success: #2ecc71;
+  --dark: #2c3e50;
+  --grad: linear-gradient(135deg,#1a5f7a,#159895,#57c4b0);
+  --grad-icdl: linear-gradient(135deg,#2196F3,#1565C0);
+  --grad-dip:  linear-gradient(135deg,#9C27B0,#6A1B9A);
+  --grad-ok:   linear-gradient(135deg,#2ecc71,#27ae60);
+  --grad-err:  linear-gradient(135deg,#e74c3c,#c0392b);
+  --grad-warn: linear-gradient(135deg,#ffc107,#ff9800);
+  --grad-ans:  linear-gradient(135deg,#6c757d,#495057);
+  --grad-nprev:linear-gradient(135deg,#2196F3,#1976D2);
+  --grad-nnext:linear-gradient(135deg,#9C27B0,#7B1FA2);
+  --grad-graf: linear-gradient(135deg,#FF5722,#E64A19);
+  --sh: 0 2px 8px rgba(0,0,0,0.08);
+  --shh:0 4px 16px rgba(0,0,0,0.18);
+  --tr: all 0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;
+  font-family:'Vazir','Tanha','Segoe UI',Tahoma,sans-serif;}
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(0.8vw); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+body{
+  background:linear-gradient(135deg,#eef2f7,#dce8f0);
+  color:#222; line-height:1.35;
+  min-height:100vh; display:flex; flex-direction:column;
+  overflow-x:hidden; font-size:clamp(12px,1.3vw,15px);
+}
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Vazir', 'Tanha', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+/* ──── HEADER ──── */
+header{
+  background:var(--grad); color:white;
+  text-align:center; padding:13px 20px 9px;
+  box-shadow:0 4px 16px rgba(0,0,0,0.2);
+}
+header .logo{font-size:clamp(15px,1.9vw,25px);font-weight:800;margin-bottom:4px;}
+header .logo i{color:var(--accent);margin-left:7px;}
+header .slogan{font-size:clamp(10px,1vw,14px);font-weight:600;opacity:.93;margin-bottom:3px;}
+header .contact{font-size:clamp(9px,.9vw,13px);opacity:.87;}
+header .contact i{color:var(--accent);margin-left:4px;}
 
-        body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
-            color: #333;
-            line-height: 1.3;
-            min-height: 100vh;
-            animation: fadeIn 0.5s ease-out;
-            overflow-x: hidden;
-            font-size: 1.2vw;
-        }
+/* ──── TICKER ──── */
+.ticker-wrap{
+  background:#0b3245; color:#ffd54f;
+  padding:6px 0; overflow:hidden;
+  white-space:nowrap; font-size:clamp(10px,.95vw,13px); font-weight:600;
+}
+.ticker-inner{
+  display:inline-block; padding-right:100%;
+  animation:ticker 38s linear infinite;
+}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-200%)}}
 
-        .container {
-            width: 100vw;
-            min-height: 100vh;
-            margin: 0 auto;
-            padding: 0.6vw;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+/* ──── PAGE BODY ──── */
+.page-body{
+  flex:1; display:grid;
+  grid-template-columns:220px 1fr 220px;
+  gap:12px; padding:12px; align-items:start;
+}
 
-        header {
-            background: var(--gradient-primary);
-            color: white;
-            padding: 1.4vw 0;
-            text-align: center;
-            box-shadow: var(--box-shadow);
-            margin-bottom: 2vw;
-            border-radius: 0 0 0.8vw 0.8vw;
-            width: 100%;
-        }
+/* ──── BANNERS ──── */
+.banner-slot{
+  width:220px; height:311px; /* A4 portrait ratio */
+  border-radius:10px; overflow:hidden; position:relative;
+  background:#1a5f7a; box-shadow:0 4px 20px rgba(0,0,0,0.28);
+  border:2px solid rgba(255,255,255,0.18);
+  justify-self:center; align-self:start; margin-top:4px;
+}
+.slide-img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;opacity:0;transition:opacity 1s ease;
+}
+.slide-img.active{opacity:1;}
+.banner-ph{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  color:rgba(255,255,255,.4);font-size:12px;gap:10px;
+  text-align:center;padding:12px;
+}
+.banner-ph i{font-size:38px;}
 
-        header h1 {
-            font-size: 1.8vw;
-            font-weight: 700;
-            margin-bottom: 0.4vw;
-        }
+/* ──── CENTER ──── */
+.center-col{
+  display:flex;flex-direction:column;align-items:center;gap:14px;
+}
 
-        header p {
-            font-size: 1vw;
-            opacity: 0.9;
-        }
+/* ── SECTIONS (login / exam-select / quiz / results) ── */
+.section{
+  background:white; border-radius:12px;
+  padding:clamp(14px,1.8vw,24px);
+  width:100%; text-align:center;
+  border-right:5px solid var(--primary);
+  box-shadow:var(--sh);
+  animation:fadeIn .4s ease-out;
+}
+.section h2{
+  color:var(--primary); font-size:clamp(13px,1.5vw,19px);
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  border-bottom:2px solid var(--accent);padding-bottom:8px;margin-bottom:10px;
+}
+.section p{color:#666;font-size:clamp(10px,.95vw,13px);margin-bottom:12px;}
 
-        .main-menu {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex: 1;
-            width: 100%;
-            padding: 1vw;
-        }
+/* login */
+.login-input{
+  width:100%;padding:clamp(8px,.8vw,11px);
+  margin-bottom:10px;border:1.5px solid #ddd;
+  border-radius:7px;font-size:clamp(12px,1vw,14px);
+  text-align:center;font-family:inherit;transition:var(--tr);
+}
+.login-input:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(26,95,122,.15);outline:none;}
+.login-msg{margin-top:8px;font-weight:600;min-height:18px;font-size:clamp(10px,.9vw,12px);}
 
-        .exam-info {
-            background: white;
-            border-radius: 0.8vw;
-            padding: 2vw;
-            box-shadow: var(--box-shadow);
-            margin-bottom: 2vw;
-            width: 60vw;
-            max-width: 95vw;
-            text-align: center;
-            animation: fadeIn 0.5s ease-out;
-            border-left: 0.3vw solid var(--primary-color);
-        }
+/* exam select buttons */
+.exam-btns{display:flex;gap:clamp(10px,1.4vw,18px);width:100%;justify-content:center;flex-wrap:wrap;}
+.exam-btn{
+  flex:1;min-width:130px;color:white;border:none;
+  padding:clamp(16px,2vw,26px) clamp(10px,1.3vw,16px);
+  border-radius:12px;cursor:pointer;
+  font-size:clamp(12px,1.3vw,16px);font-weight:700;font-family:inherit;
+  display:flex;flex-direction:column;align-items:center;gap:7px;
+  text-decoration:none;transition:var(--tr);box-shadow:var(--sh);
+}
+.exam-btn i{font-size:clamp(20px,2.2vw,30px);}
+.exam-btn .sub{font-size:clamp(9px,.8vw,11px);opacity:.9;font-weight:400;}
+.exam-btn:hover{transform:translateY(-3px);box-shadow:var(--shh);}
+.icdl-btn{background:var(--grad-icdl);}
+.dip-btn {background:var(--grad-dip);}
 
-        .exam-info h2 {
-            color: var(--primary-color);
-            margin-bottom: 0.8vw;
-            padding-bottom: 0.6vw;
-            border-bottom: 0.1vw solid var(--accent-color);
-            font-size: 1.6vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.6vw;
-        }
+/* center slideshow */
+.center-slide{
+  width:100%;height:clamp(130px,17vw,200px);
+  border-radius:10px;overflow:hidden;position:relative;
+  background:#0b3245;box-shadow:var(--sh);
+}
 
-        .exam-info p {
-            font-size: 1.1vw;
-            color: #666;
-        }
+/* ──── QUIZ SHARED ──── */
+.quiz-wrap{width:100%;display:none;}
+.quiz-wrap.active{display:block;}
 
-        .exam-buttons {
-            display: flex;
-            gap: 2vw;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 60vw;
-            max-width: 95vw;
-        }
+.lesson-title{
+  font-size:clamp(13px,1.5vw,18px);font-weight:700;
+  text-align:center;margin-bottom:8px;color:var(--primary);
+  padding-bottom:7px;border-bottom:2px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;gap:7px;
+}
+.timer{
+  font-size:clamp(11px,1.4vw,14px);text-align:center;
+  margin-bottom:8px;background:var(--grad);
+  padding:6px;border-radius:7px;font-weight:700;color:white;
+  animation:pulse 2s infinite;
+}
+.timer.warn{background:var(--grad-warn);animation:pulse 1s infinite;}
+.timer.danger{background:var(--grad-err);animation:pulse .5s infinite;}
 
-        .exam-btn {
-            flex: 1;
-            min-width: 18vw;
-            color: white;
-            border: none;
-            padding: 2.2vw 1.5vw;
-            border-radius: 0.8vw;
-            cursor: pointer;
-            font-size: 1.3vw;
-            font-weight: 700;
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 0.8vw;
-            text-decoration: none;
-        }
+.progress-wrap{width:100%;height:6px;background:#e9ecef;border-radius:3px;margin:8px 0;overflow:hidden;}
+.progress-bar{height:100%;background:var(--grad);border-radius:3px;width:0%;transition:width .3s ease;}
 
-        .exam-btn i {
-            font-size: 2.4vw;
-        }
+.question-box{
+  font-size:clamp(11px,1.4vw,14px);font-weight:600;
+  margin:8px 0;text-align:right;line-height:1.5;
+  padding:10px;background:linear-gradient(135deg,#f8f9fa,#e9ecef);
+  border-radius:8px;border-right:3px solid var(--primary);
+}
+.options{display:flex;flex-direction:column;gap:6px;margin-bottom:8px;}
+.opt-btn{
+  width:100%;min-height:clamp(34px,4.5vw,42px);
+  text-align:right;font-size:clamp(10px,1.2vw,13px);
+  padding:0 clamp(38px,5vw,46px) 0 10px;
+  transition:var(--tr);display:flex;align-items:center;
+  border-radius:7px;margin:0;position:relative;
+  font-family:inherit;white-space:normal;line-height:1.4;
+  background:var(--grad);color:white;border:none;cursor:pointer;
+  box-shadow:var(--sh);
+}
+.opt-btn::before{
+  content:attr(data-opt);position:absolute;right:7px;top:50%;
+  transform:translateY(-50%);width:clamp(20px,2.5vw,26px);height:clamp(20px,2.5vw,26px);
+  background:var(--primary);color:white;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:bold;font-size:clamp(9px,1.1vw,12px);
+}
+.opt-btn:hover{transform:translateX(-2px);}
+.opt-btn.selected{background:var(--grad-warn);color:var(--dark);}
+.opt-btn.correct {background:var(--grad-ok);}
+.opt-btn.incorrect{background:var(--grad-err);}
+.opt-btn.answered{background:var(--grad-ans);}
 
-        .exam-btn span.sub {
-            font-size: 0.85vw;
-            font-weight: 400;
-            opacity: 0.9;
-        }
+.nav-row{
+  display:flex;justify-content:center;
+  margin:8px 0;flex-wrap:wrap;gap:6px;
+}
+.nav-btn,.submit-btn,.home-btn{
+  color:white;border:none;padding:clamp(6px,.8vw,9px) clamp(8px,1vw,12px);
+  border-radius:7px;cursor:pointer;font-size:clamp(10px,1.2vw,13px);
+  font-weight:700;font-family:inherit;transition:var(--tr);
+  display:inline-flex;align-items:center;gap:5px;
+  box-shadow:var(--sh);
+}
+.nav-btn{background:var(--grad);min-width:clamp(70px,8vw,90px);}
+.nav-btn.prev{background:var(--grad-nprev);}
+.nav-btn.next{background:var(--grad-nnext);}
+.submit-btn{background:var(--grad-ok);min-width:clamp(80px,10vw,110px);}
+.home-btn{background:var(--grad);}
+.nav-btn:hover,.submit-btn:hover,.home-btn:hover{transform:translateY(-2px);box-shadow:var(--shh);}
+.nav-btn:disabled{opacity:.45;cursor:default;transform:none;}
 
-        .exam-btn:hover {
-            transform: translateY(-0.3vw);
-            box-shadow: var(--box-shadow-hover);
-        }
+.num-grid{
+  display:flex;flex-wrap:wrap;justify-content:center;
+  gap:4px;margin:8px 0;padding:8px;
+  background:linear-gradient(135deg,#f8f9fa,#e9ecef);
+  border-radius:8px;direction:ltr;
+}
+.num-btn{
+  width:clamp(24px,3.2vw,30px);height:clamp(24px,3.2vw,30px);
+  font-size:clamp(9px,1.1vw,12px);font-weight:bold;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:50%;transition:var(--tr);background:var(--grad);
+  color:white;border:none;cursor:pointer;box-shadow:var(--sh);
+}
+.num-btn.selected {background:var(--grad-warn);color:var(--dark);}
+.num-btn.answered {background:var(--grad-ans);}
+.num-btn.correct  {background:var(--grad-ok);}
+.num-btn.incorrect{background:var(--grad-err);}
 
-        .icdl-btn {
-            background: var(--gradient-icdl);
-        }
+.answer-status{
+  display:flex;justify-content:space-between;
+  margin:8px 0;padding:8px;
+  background:linear-gradient(135deg,#f8f9fa,#e9ecef);
+  border-radius:8px;
+}
+.status-item{text-align:center;flex:1;}
+.status-val{font-size:clamp(14px,1.8vw,20px);font-weight:bold;color:var(--primary);}
+.status-lbl{font-size:clamp(9px,.9vw,11px);color:#666;}
 
-        .diplom-btn {
-            background: var(--gradient-diplom);
-        }
+.summary-bar{
+  font-size:clamp(11px,1.4vw,15px);font-weight:700;
+  text-align:center;margin:8px 0;padding:9px;
+  background:var(--grad);color:white;border-radius:8px;
+}
+.summary-bar.pass{animation:pulse 1.5s infinite;}
 
-        .login-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex: 1;
-            width: 100%;
-            padding: 1vw;
-        }
+/* دیپلم type-selection */
+.type-sel{display:flex;justify-content:center;gap:8px;margin:10px 0;flex-wrap:wrap;width:100%;}
+.type-btn{
+  flex:1;min-width:110px;color:white;border:none;
+  padding:clamp(10px,1.5vw,18px) clamp(8px,1vw,12px);
+  border-radius:10px;cursor:pointer;
+  font-size:clamp(11px,1.2vw,14px);font-weight:700;font-family:inherit;
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  transition:var(--tr);box-shadow:var(--sh);background:var(--grad);
+}
+.type-btn i{font-size:clamp(16px,2vw,22px);}
+.type-btn:hover{transform:translateY(-2px);box-shadow:var(--shh);}
+.type-btn.graf{background:var(--grad-graf);}
 
-        .login-box {
-            background: white;
-            padding: 2vw 2.5vw;
-            border-radius: 0.8vw;
-            box-shadow: var(--box-shadow);
-            width: 100%;
-            max-width: 28vw;
-            text-align: center;
-            animation: fadeIn 0.5s ease-out;
-            border-left: 0.3vw solid var(--primary-color);
-        }
+/* ──── FOOTER ──── */
+footer{
+  background:#0b3245;color:#b2dfdb;
+  text-align:center;padding:11px 20px;
+  box-shadow:0 -2px 10px rgba(0,0,0,0.15);
+}
+.footer-courses{
+  display:flex;flex-wrap:wrap;gap:4px 14px;
+  justify-content:center;color:#80deea;
+  font-size:clamp(10px,1vw,13px);font-weight:600;
+}
+.footer-courses span{display:inline-flex;align-items:center;gap:5px;}
+.footer-courses span i{color:var(--accent);font-size:10px;}
+.footer-copy{margin-top:6px;color:rgba(178,223,219,.5);font-size:clamp(9px,.8vw,11px);}
 
-        .login-box h2 {
-            color: var(--primary-color);
-            margin-bottom: 1vw;
-            font-size: 1.4vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5vw;
-        }
+@keyframes fadeIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.01)}}
+@keyframes shake{
+  0%,100%{transform:translateX(0)}
+  10%,30%,50%,70%,90%{transform:translateX(-6px)}
+  20%,40%,60%,80%{transform:translateX(6px)}
+}
 
-        .login-box p {
-            font-size: 0.95vw;
-            color: #666;
-            margin-bottom: 1vw;
-        }
-
-        .login-box input {
-            width: 100%;
-            padding: 0.7vw;
-            margin-bottom: 0.8vw;
-            border: 1px solid #e0e0e0;
-            border-radius: 0.4vw;
-            font-size: 1vw;
-            transition: var(--transition);
-            text-align: center;
-        }
-
-        .login-box input:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 0.15vw rgba(26, 95, 122, 0.2);
-            outline: none;
-        }
-
-        .login-box button {
-            width: 100%;
-            background: var(--gradient-primary);
-            color: white;
-            border: none;
-            padding: 0.7vw;
-            border-radius: 0.4vw;
-            cursor: pointer;
-            font-size: 1vw;
-            font-weight: 600;
-            transition: var(--transition);
-        }
-
-        .login-box button:hover {
-            transform: translateY(-0.1vw);
-            box-shadow: var(--box-shadow-hover);
-        }
-
-        .login-message {
-            margin-top: 0.8vw;
-            font-weight: 600;
-            min-height: 1.4vw;
-            font-size: 0.9vw;
-        }
-
-        @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            10%, 30%, 50%, 70%, 90% { transform: translateX(-0.5vw); }
-            20%, 40%, 60%, 80% { transform: translateX(0.5vw); }
-        }
-
-        @media (max-width: 768px) {
-            .login-box { max-width: 85vw; padding: 5vw; }
-            .login-box h2 { font-size: 4vw; }
-            .login-box p { font-size: 2.8vw; }
-            .login-box input { font-size: 3vw; padding: 2.5vw; }
-            .login-box button { font-size: 3vw; padding: 2.5vw; }
-            .login-message { font-size: 2.6vw; }
-        }
-
-        footer {
-            text-align: center;
-            padding: 1.5vw;
-            color: #888;
-            font-size: 0.9vw;
-        }
-
-        @media (max-width: 768px) {
-            body { font-size: 3vw; }
-            header h1 { font-size: 4.5vw; }
-            header p { font-size: 2.5vw; }
-            .exam-info { width: 90vw; padding: 4vw; }
-            .exam-info h2 { font-size: 4vw; }
-            .exam-info p { font-size: 2.8vw; }
-            .exam-buttons { width: 90vw; flex-direction: column; }
-            .exam-btn { min-width: unset; padding: 6vw 3vw; font-size: 3.5vw; }
-            .exam-btn i { font-size: 7vw; }
-            .exam-btn span.sub { font-size: 2.4vw; }
-            footer { font-size: 2.2vw; }
-        }
-    </style>
+@media(max-width:700px){
+  .page-body{grid-template-columns:1fr;}
+  .banner-slot{width:82vw;height:calc(82vw * 1.414);margin:0 auto;}
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1><i class="fas fa-graduation-cap"></i> مرکز آموزشی خوارزمی</h1>
-            <p>پلتفرم آزمون‌های آنلاین</p>
-        </header>
 
-        <div id="login-container" class="login-container">
-            <div class="login-box">
-                <h2><i class="fas fa-lock"></i> ورود به سیستم</h2>
-                <p>لطفاً رمز عبور را برای دسترسی به آزمون‌ها وارد کنید:</p>
-                <input type="password" id="password-input" placeholder="رمز عبور" autocomplete="off">
-                <button id="login-btn" onclick="checkPassword()"><i class="fas fa-sign-in-alt"></i> ورود</button>
-                <p id="login-message" class="login-message"></p>
-            </div>
-        </div>
+<header>
+  <div class="logo"><i class="fas fa-graduation-cap"></i> مرکز آموزشی خوارزمی</div>
+  <div class="slogan">با ۱۹ سال سابقه درخشان | دارای بیشترین میزان هنرجو و قبولی</div>
+  <div class="contact">
+    <i class="fas fa-map-marker-alt"></i> شعبه اصلی: محمدیه قزوین
+    &nbsp;|&nbsp;
+    <i class="fas fa-phone"></i> ۰۹۳۸۷۴۰۵۶۵۳
+    &nbsp;
+    <i class="fas fa-phone-alt"></i> ۰۲۸۳۲۵۶۲۰۷۰
+  </div>
+</header>
 
-        <div class="main-menu" id="main-menu" style="display: none;">
-            <div class="exam-info">
-                <h2><i class="fas fa-clipboard-list"></i> انتخاب آزمون</h2>
-                <p>یکی از آزمون‌های زیر را برای شروع انتخاب کنید</p>
-            </div>
+<div class="ticker-wrap" aria-hidden="true"><span class="ticker-inner">
+  ✦ ثبت‌نام دوره‌های جدید آغاز شد &nbsp;&nbsp;&nbsp;
+  ✦ دیپلم رسمی — ICDL کامپیوتر — حسابداری بازار کار — برنامه‌نویسی — هوش مصنوعی &nbsp;&nbsp;&nbsp;
+  ✦ طراحی بازی و انیمیشن‌سازی — فتوشاپ — کلیه دوره‌های ویژه بازار کار &nbsp;&nbsp;&nbsp;
+  ✦ مرکز آموزشی خوارزمی با ۱۹ سال سابقه درخشان &nbsp;&nbsp;&nbsp;
+  ✦ تماس: ۰۹۳۸۷۴۰۵۶۵۳ — ۰۲۸۳۲۵۶۲۰۷۰ &nbsp;&nbsp;&nbsp;
+</span></div>
 
-            <div class="exam-buttons">
-                <a class="exam-btn icdl-btn" href="icdl.html" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-laptop-code"></i>
-                    آزمون ICDL
-                    <span class="sub">شروع آزمون مهارت‌های رایانه</span>
-                </a>
+<div class="page-body">
 
-                <a class="exam-btn diplom-btn" href="dip.html" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-user-graduate"></i>
-                    آزمون دیپلم
-                    <span class="sub">شروع آزمون دیپلم</span>
-                </a>
-            </div>
-        </div>
+  <!-- بنر چپ -->
+  <div class="banner-slot" id="bannerLeft">
+    <div class="banner-ph"><i class="fas fa-image"></i><span>بنر A4 عمودی<br>از پوشه poster</span></div>
+  </div>
 
-        <footer>
-            &copy; مرکز آموزشی خوارزمی
-        </footer>
+  <!-- مرکز -->
+  <div class="center-col">
+
+    <!-- ① لاگین -->
+    <div class="section" id="secLogin">
+      <h2><i class="fas fa-lock"></i> ورود به سیستم</h2>
+      <p>لطفاً رمز عبور را برای دسترسی به آزمون‌ها وارد کنید:</p>
+      <input class="login-input" type="password" id="passInput" placeholder="رمز عبور" autocomplete="off">
+      <button class="exam-btn icdl-btn" style="width:100%;min-width:unset;" onclick="checkPass()">
+        <i class="fas fa-sign-in-alt"></i> ورود
+      </button>
+      <p id="loginMsg" class="login-msg"></p>
     </div>
 
-    <script>
-        let correctPassword = null;
+    <!-- ② انتخاب آزمون -->
+    <div class="section" id="secSelect" style="display:none;">
+      <h2><i class="fas fa-clipboard-list"></i> انتخاب آزمون</h2>
+      <p>یکی از آزمون‌های زیر را انتخاب کنید</p>
+      <div class="exam-btns">
+        <button class="exam-btn icdl-btn" onclick="openICDL()">
+          <i class="fas fa-laptop-code"></i> آزمون ICDL
+          <span class="sub">مهارت‌های کامپیوتر</span>
+        </button>
+        <button class="exam-btn dip-btn" onclick="openDip()">
+          <i class="fas fa-user-graduate"></i> آزمون دیپلم
+          <span class="sub">دوره‌های دیپلم</span>
+        </button>
+      </div>
+    </div>
 
-        // خواندن رمز عبور از فایل pass.txt
-        fetch('pass.txt', { cache: 'no-store' })
-            .then(response => {
-                if (!response.ok) throw new Error('فایل رمز عبور یافت نشد');
-                return response.text();
-            })
-            .then(text => {
-                correctPassword = text.trim();
-            })
-            .catch(error => {
-                console.error('خطا در خواندن pass.txt:', error);
-                document.getElementById('login-message').textContent = '❌ خطا در بارگذاری تنظیمات. با مدیر سایت تماس بگیرید.';
-                document.getElementById('login-message').style.color = 'var(--danger-color)';
-            });
+    <!-- ③ منوی ICDL -->
+    <div class="section" id="secICDLMenu" style="display:none;">
+      <h2><i class="fas fa-certificate"></i> آزمون بین‌المللی کامپیوتر ICDL</h2>
+      <p id="icdlStatus">در حال بارگذاری سوالات...</p>
+      <div class="exam-btns" style="margin-top:10px;">
+        <button class="exam-btn icdl-btn" onclick="startICDL()">
+          <i class="fas fa-random"></i> شروع آزمون ICDL
+          <span class="sub">۴۰ سوال تصادفی</span>
+        </button>
+      </div>
+      <p style="margin-top:12px;font-size:11px;color:#888;">موسسه آموزشی خوارزمی | 09387405653</p>
+      <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
+    </div>
 
-        function checkPassword() {
-            const input = document.getElementById('password-input');
-            const messageElement = document.getElementById('login-message');
+    <!-- ④ منوی دیپلم -->
+    <div class="section" id="secDipMenu" style="display:none;">
+      <h2><i class="fas fa-info-circle"></i> انتخاب نوع آزمون دیپلم</h2>
+      <p>نوع آزمون مورد نظر را انتخاب کنید:</p>
+      <div class="type-sel">
+        <button class="type-btn" onclick="startDip('user')"><i class="fas fa-desktop"></i> کاربر رایانه</button>
+        <button class="type-btn" onclick="startDip('typing')"><i class="fas fa-keyboard"></i> تایپ رایانه</button>
+        <button class="type-btn" onclick="startDip('blackwhite')"><i class="fas fa-adjust"></i> سیاه و سفید</button>
+      </div>
+      <div class="type-sel">
+        <button class="type-btn graf" onclick="startDip('graphics')"><i class="fas fa-paint-brush"></i> گرافیک رایانه</button>
+        <button class="type-btn graf" onclick="startDip('colordesign')"><i class="fas fa-palette"></i> طراحی رنگی</button>
+      </div>
+      <p id="dipStatus" style="margin-top:8px;font-size:11px;color:#888;"></p>
+      <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
+    </div>
 
-            if (correctPassword === null) {
-                messageElement.textContent = '⏳ در حال بارگذاری تنظیمات، چند لحظه صبر کنید...';
-                messageElement.style.color = 'var(--primary-color)';
-                return;
-            }
+    <!-- ⑤ صفحه آزمون -->
+    <div class="section quiz-wrap" id="secQuiz">
+      <div class="lesson-title" id="quizTitle">آزمون</div>
+      <div class="timer" id="timer">⏱️ زمان: 30:00</div>
+      <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+      <div class="question-box" id="questionBox"></div>
+      <div class="options" id="optionsBox">
+        <button class="opt-btn" id="op0" onclick="selectOpt(0)" data-opt="الف"></button>
+        <button class="opt-btn" id="op1" onclick="selectOpt(1)" data-opt="ب"></button>
+        <button class="opt-btn" id="op2" onclick="selectOpt(2)" data-opt="ج"></button>
+        <button class="opt-btn" id="op3" onclick="selectOpt(3)" data-opt="د"></button>
+      </div>
+      <div class="nav-row">
+        <button class="submit-btn" onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان آزمون</button>
+        <button class="nav-btn prev" id="prevBtn" onclick="prevQ()">قبلی <i class="fas fa-arrow-left"></i></button>
+        <button class="nav-btn next" id="nextBtn" onclick="nextQ()"><i class="fas fa-arrow-right"></i> بعدی</button>
+      </div>
+      <div class="num-grid" id="numGrid"></div>
+    </div>
 
-            if (input.value === correctPassword) {
-                document.getElementById('login-container').style.display = 'none';
-                document.getElementById('main-menu').style.display = 'flex';
-            } else {
-                messageElement.textContent = '❌ رمز عبور اشتباه است';
-                messageElement.style.color = 'var(--danger-color)';
+    <!-- ⑥ صفحه نتایج -->
+    <div class="section quiz-wrap" id="secResults">
+      <div class="lesson-title" id="resTitle">📊 نتایج</div>
+      <div class="summary-bar" id="summaryBar"></div>
+      <div class="answer-status">
+        <div class="status-item"><div class="status-val" id="cntOk">0</div><div class="status-lbl">درست</div></div>
+        <div class="status-item"><div class="status-val" id="cntErr">0</div><div class="status-lbl">غلط</div></div>
+        <div class="status-item"><div class="status-val" id="cntNone">0</div><div class="status-lbl">بی‌پاسخ</div></div>
+      </div>
+      <div class="question-box" id="resQuestion"></div>
+      <div class="options" id="resOptions">
+        <button class="opt-btn" id="ro0" disabled data-opt="الف"></button>
+        <button class="opt-btn" id="ro1" disabled data-opt="ب"></button>
+        <button class="opt-btn" id="ro2" disabled data-opt="ج"></button>
+        <button class="opt-btn" id="ro3" disabled data-opt="د"></button>
+      </div>
+      <div class="nav-row">
+        <button class="home-btn" onclick="goMenu()"><i class="fas fa-home"></i> منو</button>
+        <button class="nav-btn" style="background:var(--grad);" onclick="retryExam()"><i class="fas fa-redo"></i> آزمون جدید</button>
+        <button class="nav-btn prev" id="resPrev" onclick="prevRes()">قبلی <i class="fas fa-arrow-left"></i></button>
+        <button class="nav-btn next" id="resNext" onclick="nextRes()"><i class="fas fa-arrow-right"></i> بعدی</button>
+      </div>
+      <div class="num-grid" id="resGrid"></div>
+    </div>
 
-                const loginBox = document.querySelector('.login-box');
-                loginBox.style.animation = 'shake 0.5s';
-                setTimeout(() => loginBox.style.animation = '', 500);
-                input.value = '';
-                input.focus();
-            }
-        }
+    <!-- اسلایدشو مرکز -->
+    <div class="center-slide" id="centerSlide">
+      <div class="banner-ph"><i class="fas fa-images"></i><span>اسلایدشو — پوشه poster</span></div>
+    </div>
 
-        document.getElementById('password-input').addEventListener('keypress', function(event) {
-            if (event.key === 'Enter') {
-                event.preventDefault();
-                checkPassword();
-            }
-        });
+  </div><!-- /center-col -->
 
-        document.getElementById('password-input').focus();
-    </script>
+  <!-- بنر راست -->
+  <div class="banner-slot" id="bannerRight">
+    <div class="banner-ph"><i class="fas fa-image"></i><span>بنر A4 عمودی<br>از پوشه poster</span></div>
+  </div>
+
+</div><!-- /page-body -->
+
+<footer>
+  <div class="footer-courses">
+    <span><i class="fas fa-circle"></i> دیپلم رسمی</span>
+    <span><i class="fas fa-circle"></i> ICDL کامپیوتر</span>
+    <span><i class="fas fa-circle"></i> حسابداری بازار کار</span>
+    <span><i class="fas fa-circle"></i> برنامه‌نویسی</span>
+    <span><i class="fas fa-circle"></i> هوش مصنوعی</span>
+    <span><i class="fas fa-circle"></i> طراحی بازی و انیمیشن‌سازی</span>
+    <span><i class="fas fa-circle"></i> فتوشاپ</span>
+    <span><i class="fas fa-circle"></i> کلیه دوره‌های ویژه بازار کار</span>
+  </div>
+  <div class="footer-copy">&copy; مرکز آموزشی خوارزمی — محمدیه قزوین</div>
+</footer>
+
+<script>
+/* ═══════════════════════════════════════════
+   LOGIN
+═══════════════════════════════════════════ */
+let correctPass = null;
+fetch('pass.txt',{cache:'no-store'})
+  .then(r=>{if(!r.ok)throw 0;return r.text();})
+  .then(t=>{correctPass=t.trim();})
+  .catch(()=>{
+    document.getElementById('loginMsg').textContent='❌ خطا در بارگذاری تنظیمات';
+    document.getElementById('loginMsg').style.color='var(--danger)';
+  });
+
+function checkPass(){
+  const inp=document.getElementById('passInput');
+  const msg=document.getElementById('loginMsg');
+  if(correctPass===null){msg.textContent='⏳ در حال بارگذاری...';msg.style.color='var(--primary)';return;}
+  if(inp.value===correctPass){
+    show('secLogin',false); show('secSelect',true);
+  } else {
+    msg.textContent='❌ رمز عبور اشتباه است';msg.style.color='var(--danger)';
+    const box=document.getElementById('secLogin');
+    box.style.animation='none';
+    requestAnimationFrame(()=>box.style.animation='shake .5s');
+    setTimeout(()=>box.style.animation='',500);
+    inp.value='';inp.focus();
+  }
+}
+document.getElementById('passInput').addEventListener('keypress',e=>{if(e.key==='Enter'){e.preventDefault();checkPass();}});
+document.getElementById('passInput').focus();
+
+/* ═══════════════════════════════════════════
+   NAVIGATION HELPERS
+═══════════════════════════════════════════ */
+const ALL_SECS=['secLogin','secSelect','secICDLMenu','secDipMenu','secQuiz','secResults'];
+function show(id,vis){document.getElementById(id).style.display=vis?'block':'none';}
+function showOnly(...ids){ALL_SECS.forEach(s=>show(s,ids.includes(s)));}
+
+function goSelect(){showOnly('secSelect');}
+function openICDL(){showOnly('secICDLMenu');if(!icdlLoaded)loadICDL();}
+function openDip() {showOnly('secDipMenu');if(!dipLoaded)loadDip();}
+function setAds(visible){
+  const v=visible?'':'none';
+  document.getElementById('bannerLeft').style.display=visible?'block':'none';
+  document.getElementById('bannerRight').style.display=visible?'block':'none';
+  document.getElementById('centerSlide').style.display=visible?'block':'none';
+  // grid back to normal or single-col for quiz
+  document.querySelector('.page-body').style.gridTemplateColumns=
+    visible?'220px 1fr 220px':'1fr';
+}
+
+function goMenu(){
+  stopTimer();curQs=[];curIdx=0;userAns=[];
+  setAds(true);
+  if(activeMode==='icdl') showOnly('secICDLMenu');
+  else showOnly('secDipMenu');
+}
+
+/* ═══════════════════════════════════════════
+   SHARED QUIZ STATE
+═══════════════════════════════════════════ */
+let curQs=[], curIdx=0, userAns=[], timerInt=null, activeMode='';
+
+/* ═══════════════════════════════════════════
+   ICDL
+═══════════════════════════════════════════ */
+let icdlQs=[], icdlLoaded=false;
+
+async function loadICDL(){
+  document.getElementById('icdlStatus').textContent='⏳ در حال بارگذاری سوالات ICDL...';
+  try{
+    const txt=await fetchTxt('qizICDL.txt');
+    icdlQs=parseTxt(txt,'icdl');
+    icdlLoaded=true;
+    document.getElementById('icdlStatus').textContent=`✅ ${icdlQs.length} سوال ICDL بارگذاری شد`;
+  } catch(e){
+    document.getElementById('icdlStatus').textContent='❌ فایل qizICDL.txt پیدا نشد';
+  }
+}
+
+function startICDL(){
+  if(!icdlLoaded||icdlQs.length===0){alert('سوالات ICDL بارگذاری نشده‌اند!');return;}
+  activeMode='icdl';
+  const count=Math.min(40,icdlQs.length);
+  curQs=pickRandom(icdlQs,count).map(shuffleOpts);
+  userAns=new Array(curQs.length).fill(null);
+  curIdx=0;
+  buildNumGrid('numGrid');
+  startTimer();
+  setAds(false);
+  showOnly('secQuiz');
+  document.getElementById('quizTitle').textContent='🎲 آزمون تصادفی ICDL';
+  renderQuestion();
+}
+
+/* ═══════════════════════════════════════════
+   DIPLOM
+═══════════════════════════════════════════ */
+let dipBanks={user:[],typing:[],blackwhite:[],graphics:[],colordesign:[]};
+let dipLoaded=false;
+const dipFiles={user:'karbarquiz.txt',typing:'typequiz.txt',blackwhite:'blackwhite.txt',graphics:'graf.txt',colordesign:'rang.txt'};
+const dipTitles={
+  user:'🎯 آزمون کاربر رایانه',typing:'⌨️ آزمون تایپ رایانه',
+  blackwhite:'⚫⚪ آزمون سیاه و سفید',graphics:'🎨 آزمون گرافیک رایانه',
+  colordesign:'🌈 آزمون طراحی رنگی'
+};
+
+async function loadDip(){
+  document.getElementById('dipStatus').textContent='⏳ در حال بارگذاری سوالات دیپلم...';
+  const results=await Promise.allSettled(
+    Object.entries(dipFiles).map(([k,f])=>fetchTxt(f).then(t=>({k,t})))
+  );
+  let total=0;
+  results.forEach(r=>{
+    if(r.status==='fulfilled'){
+      const {k,t}=r.value;
+      dipBanks[k]=parseTxt(t,k);
+      total+=dipBanks[k].length;
+    }
+  });
+  dipLoaded=true;
+  document.getElementById('dipStatus').textContent=`✅ ${total} سوال بارگذاری شد`;
+}
+
+function startDip(type){
+  if(!dipLoaded){alert('سوالات در حال بارگذاری، چند ثانیه صبر کنید...');return;}
+  const bank=dipBanks[type];
+  if(!bank||bank.length===0){alert(`هیچ سوالی برای این آزمون پیدا نشد!\nفایل ${dipFiles[type]} را بررسی کنید.`);return;}
+  activeMode='dip_'+type;
+  const count=Math.min(14,bank.length);
+  curQs=pickRandom(bank,count).map(shuffleOpts);
+  userAns=new Array(curQs.length).fill(null);
+  curIdx=0;
+  buildNumGrid('numGrid');
+  startTimer();
+  setAds(false);
+  showOnly('secQuiz');
+  document.getElementById('quizTitle').textContent=dipTitles[type]||'آزمون دیپلم';
+  renderQuestion();
+}
+
+/* ═══════════════════════════════════════════
+   TEXT PARSER  (فرمت ۶ خط: سوال،الف،ب،ج،د،پاسخ)
+═══════════════════════════════════════════ */
+async function fetchTxt(name){
+  const r=await fetch(name,{cache:'no-cache'});
+  if(!r.ok)throw new Error(name);
+  const t=await r.text();
+  if(!t.trim())throw new Error(name+' empty');
+  return t;
+}
+
+function parseTxt(text,type){
+  const lines=text.split('\n');
+  const qs=[];
+  let cur=null,lc=0;
+  const map={'a':'الف','A':'الف','b':'ب','B':'ب','c':'ج','C':'ج','d':'د','D':'د'};
+  for(let i=0;i<lines.length;i++){
+    const line=lines[i].replace(/\r/g,'').trim();
+    if(!line){
+      if(cur&&cur.question&&valid(cur)){qs.push(cur);}
+      cur=null;lc=0;continue;
+    }
+    if(!cur){cur={question:'',options:['','','',''],answer:'',type};lc=0;}
+    if(lc===0)cur.question=line;
+    else if(lc<=4)cur.options[lc-1]=line;
+    else if(lc===5){const a=line.replace(/[\.\s]/g,'').trim();cur.answer=map[a]||a;}
+    lc++;
+    if(i===lines.length-1&&cur&&cur.question&&valid(cur))qs.push(cur);
+  }
+  return qs;
+}
+
+function valid(q){
+  if(!q.question.trim())return false;
+  for(let i=0;i<4;i++)if(!q.options[i].trim())return false;
+  return ['الف','ب','ج','د'].includes(q.answer);
+}
+
+/* ═══════════════════════════════════════════
+   SHUFFLE HELPERS
+═══════════════════════════════════════════ */
+function shuffle(a){
+  const b=[...a];
+  for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}
+  return b;
+}
+function pickRandom(arr,n){return shuffle(arr).slice(0,n);}
+
+function shuffleOpts(q){
+  const orig=[...q.options];
+  const ai=['الف','ب','ج','د'].indexOf(q.answer);
+  const idx=shuffle([0,1,2,3]);
+  const opts=idx.map(i=>orig[i]);
+  const ci=idx.indexOf(ai);
+  return {...q,shuffledOpts:opts,correctIdx:ci};
+}
+
+/* ═══════════════════════════════════════════
+   QUIZ RENDERING
+═══════════════════════════════════════════ */
+function renderQuestion(){
+  const q=curQs[curIdx];
+  document.getElementById('questionBox').textContent=`سوال ${curIdx+1}: ${q.question}`;
+  const opts=q.shuffledOpts||q.options;
+  for(let i=0;i<4;i++){
+    const btn=document.getElementById('op'+i);
+    btn.textContent=opts[i]||'';
+    btn.style.display=opts[i]?'flex':'none';
+    btn.className='opt-btn'+(userAns[curIdx]===i?' selected':'');
+  }
+  updateProgress();
+  updateNumGrid('numGrid');
+  const pb=document.getElementById('prevBtn');
+  const nb=document.getElementById('nextBtn');
+  pb.disabled=curIdx===0;
+  nb.disabled=curIdx===curQs.length-1;
+}
+
+function selectOpt(i){userAns[curIdx]=i;renderQuestion();}
+function nextQ(){if(curIdx<curQs.length-1){curIdx++;renderQuestion();}}
+function prevQ(){if(curIdx>0){curIdx--;renderQuestion();}}
+
+function updateProgress(){
+  document.getElementById('progressBar').style.width=((curIdx+1)/curQs.length*100)+'%';
+}
+
+function buildNumGrid(id){
+  const g=document.getElementById(id);g.innerHTML='';
+  curQs.forEach((_,i)=>{
+    const b=document.createElement('button');
+    b.className='num-btn';b.textContent=i+1;
+    b.onclick=()=>{curIdx=i;id==='numGrid'?renderQuestion():renderResult();};
+    g.appendChild(b);
+  });
+}
+
+function updateNumGrid(id){
+  const btns=document.querySelectorAll('#'+id+' .num-btn');
+  btns.forEach((b,i)=>{
+    b.className='num-btn';
+    if(i===curIdx)b.classList.add('selected');
+    else if(userAns[i]!==null)b.classList.add('answered');
+  });
+}
+
+/* ═══════════════════════════════════════════
+   TIMER
+═══════════════════════════════════════════ */
+function startTimer(){
+  stopTimer();
+  let t=30*60;
+  updTimer(t);
+  timerInt=setInterval(()=>{
+    t--;updTimer(t);
+    const el=document.getElementById('timer');
+    if(t<=300)el.className='timer warn';
+    if(t<=60) el.className='timer danger';
+    if(t<=0){stopTimer();submitQuiz();}
+  },1000);
+}
+function stopTimer(){if(timerInt){clearInterval(timerInt);timerInt=null;}}
+function updTimer(s){
+  const m=Math.floor(s/60),r=s%60;
+  document.getElementById('timer').textContent=`⏱️ زمان: ${String(m).padStart(2,'0')}:${String(r).padStart(2,'0')}`;
+}
+
+/* ═══════════════════════════════════════════
+   SUBMIT & RESULTS
+═══════════════════════════════════════════ */
+function submitQuiz(){
+  stopTimer();
+  const unanswered=userAns.map((a,i)=>a===null?i+1:null).filter(Boolean);
+  if(unanswered.length>0){
+    if(!confirm(`⚠️ به ${unanswered.length} سوال پاسخ نداده‌اید:\nسوالات: ${unanswered.join(', ')}\n\nآیا پایان دهید؟`)){
+      startTimer();return;
+    }
+  }
+  showResults();
+}
+
+function showResults(){
+  let ok=0,err=0,none=0;
+  curQs.forEach((q,i)=>{
+    if(userAns[i]===null)none++;
+    else if(userAns[i]===q.correctIdx)ok++;
+    else err++;
+  });
+  const pct=Math.round(ok/curQs.length*100);
+  const passThresh=activeMode==='icdl'?20:6;
+  const passed=ok>=passThresh;
+
+  document.getElementById('resTitle').textContent=(activeMode==='icdl'?'🎲':'📊')+' نتایج آزمون';
+  const sb=document.getElementById('summaryBar');
+  sb.textContent=`🎯 درست: ${ok} از ${curQs.length} | 📊 درصد: ${pct}% | ${passed?'✅ قبول شدید!':'❌ مردود شدید!'}`;
+  sb.className='summary-bar'+(passed?' pass':'');
+  document.getElementById('cntOk').textContent=ok;
+  document.getElementById('cntErr').textContent=err;
+  document.getElementById('cntNone').textContent=none;
+
+  curIdx=0;
+  buildNumGrid('resGrid');
+  setAds(true);
+  showOnly('secResults');
+  renderResult();
+}
+
+function renderResult(){
+  const q=curQs[curIdx];
+  document.getElementById('resQuestion').textContent=`سوال ${curIdx+1}: ${q.question}`;
+  const opts=q.shuffledOpts||q.options;
+  for(let i=0;i<4;i++){
+    const btn=document.getElementById('ro'+i);
+    btn.textContent=opts[i]||'';
+    btn.style.display=opts[i]?'flex':'none';
+    btn.className='opt-btn';
+    if(i===q.correctIdx)btn.classList.add('correct');
+    else if(userAns[curIdx]===i)btn.classList.add('incorrect');
+  }
+  const rp=document.getElementById('resPrev');
+  const rn=document.getElementById('resNext');
+  rp.disabled=curIdx===0;rn.disabled=curIdx===curQs.length-1;
+  updateResGrid();
+}
+
+function updateResGrid(){
+  document.querySelectorAll('#resGrid .num-btn').forEach((b,i)=>{
+    b.className='num-btn';
+    if(i===curIdx)b.classList.add('selected');
+    else if(userAns[i]!==null){
+      b.classList.add(userAns[i]===curQs[i].correctIdx?'correct':'incorrect');
+    }
+  });
+}
+
+function prevRes(){if(curIdx>0){curIdx--;renderResult();}}
+function nextRes(){if(curIdx<curQs.length-1){curIdx++;renderResult();}}
+
+function retryExam(){
+  stopTimer();
+  if(activeMode==='icdl')startICDL();
+  else startDip(activeMode.replace('dip_',''));
+}
+
+/* ═══════════════════════════════════════════
+   KEYBOARD
+═══════════════════════════════════════════ */
+document.addEventListener('keydown',e=>{
+  const inQuiz=document.getElementById('secQuiz').style.display!=='none';
+  const inRes =document.getElementById('secResults').style.display!=='none';
+  if(inQuiz){
+    if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();prevQ();}
+    else if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();nextQ();}
+    if(e.key>='1'&&e.key<='4')selectOpt(+e.key-1);
+    if(e.ctrlKey&&e.key==='Enter'){e.preventDefault();submitQuiz();}
+    if(e.key==='Escape'&&confirm('آیا می‌خواهید آزمون را رها کنید؟'))goMenu();
+  }
+  if(inRes){
+    if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();prevRes();}
+    else if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();nextRes();}
+  }
+});
+
+/* ═══════════════════════════════════════════
+   SLIDESHOW (poster/)
+═══════════════════════════════════════════ */
+const POSTER='poster/';
+const EXTS=['jpg','jpeg','png','webp','gif'];
+function shuffleArr(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;}
+
+class Slideshow{
+  constructor(id,names,ms){
+    this.el=document.getElementById(id);
+    this.list=shuffleArr(names);
+    this.ms=ms;this.idx=0;this.cur=null;
+    if(!this.list.length)return;
+    const ph=this.el.querySelector('.banner-ph');if(ph)ph.style.display='none';
+    this._next();setInterval(()=>this._next(),this.ms);
+  }
+  _next(){
+    const img=document.createElement('img');
+    img.className='slide-img';
+    img.src=POSTER+this.list[this.idx];
+    this.idx=(this.idx+1)%this.list.length;
+    const prev=this.cur;
+    img.onload=()=>{
+      this.el.appendChild(img);
+      requestAnimationFrame(()=>requestAnimationFrame(()=>img.classList.add('active')));
+      if(prev){prev.classList.remove('active');setTimeout(()=>prev.remove(),1100);}
+      this.cur=img;
+    };
+    img.onerror=()=>{this.idx=(this.idx+1)%this.list.length;};
+  }
+}
+
+async function initSlides(){
+  let names=[];
+  try{
+    const r=await fetch(POSTER,{cache:'no-store'});
+    if(r.ok){
+      const doc=new DOMParser().parseFromString(await r.text(),'text/html');
+      names=[...doc.querySelectorAll('a')]
+        .map(a=>(a.getAttribute('href')||a.textContent).replace(/^.*\//,'').split('?')[0])
+        .filter(n=>EXTS.some(e=>n.toLowerCase().endsWith('.'+e)));
+    }
+  }catch(_){}
+  if(!names.length){
+    const probes=[];
+    for(let i=1;i<=30;i++)for(const e of['jpg','png','jpeg','webp'])probes.push(`poster${i}.${e}`,`${i}.${e}`);
+    const res=await Promise.allSettled(probes.map(n=>fetch(POSTER+n,{method:'HEAD',cache:'no-store'})));
+    probes.forEach((n,i)=>{if(res[i].status==='fulfilled'&&res[i].value.ok)names.push(n);});
+  }
+  new Slideshow('bannerLeft', names, 4500);
+  new Slideshow('bannerRight',names, 5800);
+  new Slideshow('centerSlide',names, 3400);
+}
+initSlides();
+</script>
 </body>
 </html>
