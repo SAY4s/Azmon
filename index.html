@@ -285,6 +285,43 @@ footer{
   .page-body{grid-template-columns:1fr;}
   .banner-slot{width:82vw;height:calc(82vw * 1.414);margin:0 auto;}
 }
+
+/* ──── موبایل: صفحه آزمون و نتایج تمام‌صفحه ──── */
+@media(max-width:900px){
+  body.quiz-mode header,
+  body.quiz-mode .ticker-wrap,
+  body.quiz-mode footer { display:none !important; }
+
+  body.quiz-mode .page-body {
+    padding:0 !important;
+    gap:0 !important;
+    grid-template-columns:1fr !important;
+  }
+
+  body.quiz-mode .center-col {
+    width:100vw;
+    min-height:100dvh;
+    padding:10px;
+    gap:10px;
+  }
+
+  body.quiz-mode #secQuiz,
+  body.quiz-mode #secResults {
+    border-radius:0;
+    border-right:none;
+    min-height:100dvh;
+    padding:12px 10px;
+    box-shadow:none;
+  }
+
+  body.quiz-mode .timer   { font-size:clamp(12px,3.5vw,16px); }
+  body.quiz-mode .question-box { font-size:clamp(12px,3.8vw,15px); }
+  body.quiz-mode .opt-btn { font-size:clamp(11px,3.4vw,14px); min-height:44px; }
+  body.quiz-mode .nav-btn,
+  body.quiz-mode .submit-btn,
+  body.quiz-mode .home-btn { font-size:clamp(11px,3.2vw,14px); padding:9px 12px; }
+  body.quiz-mode .num-btn  { width:32px; height:32px; font-size:clamp(10px,3vw,13px); }
+}
 </style>
 </head>
 <body>
@@ -529,6 +566,8 @@ function setAds(visible){
   document.getElementById('bannerRight').style.display=visible?'block':'none';
   document.querySelector('.page-body').style.gridTemplateColumns=
     visible?'340px 1fr 340px':'1fr';
+  if(!visible) document.body.classList.add('quiz-mode');
+  else document.body.classList.remove('quiz-mode');
 }
 
 function goMenu(){
