@@ -175,7 +175,7 @@ header .contact i{color:var(--accent);margin-left:4px;}
   border-radius:10px;border-right:5px solid var(--primary);
   flex-shrink:0;
 }
-.options{display:flex;flex-direction:column;gap:0;flex:1;}
+.options{display:flex;flex-direction:column;gap:0;flex:1;min-height:0;overflow:hidden;}
 .opt-btn{
   width:100%;flex:1;
   text-align:right;font-size:clamp(18px,2.6vw,30px);
@@ -333,13 +333,20 @@ footer{
     border-radius:0;
     border-right:none;
     box-shadow:none;
+    overflow:hidden;
   }
 
   body.quiz-mode .opt-btn { font-size:clamp(12px,3.6vw,15px); min-height:46px; }
   body.quiz-mode .nav-btn,
   body.quiz-mode .submit-btn,
   body.quiz-mode .home-btn { font-size:clamp(11px,3.2vw,14px); padding:8px 11px; }
-  body.quiz-mode .num-btn  { width:30px; height:30px; font-size:clamp(10px,2.8vw,12px); }
+  body.quiz-mode .num-grid {
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    justify-content:flex-start;
+    -webkit-overflow-scrolling:touch;
+  }
+  body.quiz-mode .num-btn  { width:30px; height:30px; font-size:clamp(10px,2.8vw,12px); flex-shrink:0; }
 }
 </style>
 </head>
@@ -481,7 +488,7 @@ footer{
       </div>
 
       <!-- سوال -->
-      <div style="flex:1;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
+      <div style="flex:1;min-height:0;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
         <div id="questionBox" style="
           font-size:clamp(18px,2.4vw,28px);font-weight:700;
           line-height:1.8;text-align:right;
@@ -490,7 +497,7 @@ footer{
           border-radius:12px;padding:18px 22px;flex-shrink:0;
         "></div>
         <!-- گزینه‌ها -->
-        <div class="options" id="optionsBox" style="flex:1;border-radius:12px;overflow:hidden;">
+        <div class="options" id="optionsBox" style="flex:1;min-height:0;border-radius:12px;overflow:hidden;">
           <button class="opt-btn" id="op0" onclick="selectOpt(0)" data-opt="الف"></button>
           <button class="opt-btn" id="op1" onclick="selectOpt(1)" data-opt="ب"></button>
           <button class="opt-btn" id="op2" onclick="selectOpt(2)" data-opt="ج"></button>
@@ -523,7 +530,7 @@ footer{
       </div>
 
       <!-- سوال نتایج -->
-      <div style="flex:1;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
+      <div style="flex:1;min-height:0;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
         <div id="resQuestion" style="
           font-size:clamp(18px,2.4vw,28px);font-weight:700;
           line-height:1.8;text-align:right;
@@ -531,7 +538,7 @@ footer{
           border-right:5px solid var(--primary);
           border-radius:12px;padding:18px 22px;flex-shrink:0;
         "></div>
-        <div class="options" id="resOptions" style="flex:1;border-radius:12px;overflow:hidden;">
+        <div class="options" id="resOptions" style="flex:1;min-height:0;border-radius:12px;overflow:hidden;">
           <button class="opt-btn" id="ro0" disabled data-opt="الف"></button>
           <button class="opt-btn" id="ro1" disabled data-opt="ب"></button>
           <button class="opt-btn" id="ro2" disabled data-opt="ج"></button>
