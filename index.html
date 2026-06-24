@@ -300,27 +300,25 @@ footer{
 
   body.quiz-mode .center-col {
     width:100vw;
-    min-height:100dvh;
-    padding:10px;
-    gap:10px;
+    height:100dvh;
+    padding:0;
+    gap:0;
   }
 
   body.quiz-mode #secQuiz,
   body.quiz-mode #secResults {
+    width:100vw;
+    height:100dvh;
     border-radius:0;
     border-right:none;
-    min-height:100dvh;
-    padding:12px 10px;
     box-shadow:none;
   }
 
-  body.quiz-mode .timer   { font-size:clamp(12px,3.5vw,16px); }
-  body.quiz-mode .question-box { font-size:clamp(12px,3.8vw,15px); }
-  body.quiz-mode .opt-btn { font-size:clamp(11px,3.4vw,14px); min-height:44px; }
+  body.quiz-mode .opt-btn { font-size:clamp(12px,3.6vw,15px); min-height:46px; }
   body.quiz-mode .nav-btn,
   body.quiz-mode .submit-btn,
-  body.quiz-mode .home-btn { font-size:clamp(11px,3.2vw,14px); padding:9px 12px; }
-  body.quiz-mode .num-btn  { width:32px; height:32px; font-size:clamp(10px,3vw,13px); }
+  body.quiz-mode .home-btn { font-size:clamp(11px,3.2vw,14px); padding:8px 11px; }
+  body.quiz-mode .num-btn  { width:30px; height:30px; font-size:clamp(10px,2.8vw,12px); }
 }
 </style>
 </head>
@@ -451,48 +449,85 @@ footer{
     </div>
 
     <!-- ⑤ صفحه آزمون -->
-    <div class="section quiz-wrap" id="secQuiz">
-      <div class="lesson-title" id="quizTitle">آزمون</div>
-      <div class="timer" id="timer">⏱️ زمان: 30:00</div>
-      <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
-      <div class="question-box" id="questionBox"></div>
-      <div class="options" id="optionsBox">
-        <button class="opt-btn" id="op0" onclick="selectOpt(0)" data-opt="الف"></button>
-        <button class="opt-btn" id="op1" onclick="selectOpt(1)" data-opt="ب"></button>
-        <button class="opt-btn" id="op2" onclick="selectOpt(2)" data-opt="ج"></button>
-        <button class="opt-btn" id="op3" onclick="selectOpt(3)" data-opt="د"></button>
+    <div id="secQuiz" style="display:none;width:100%;min-height:100vh;display:none;flex-direction:column;">
+      <!-- هدر آزمون -->
+      <div style="background:var(--grad);color:white;padding:10px 14px;border-radius:12px 12px 0 0;flex-shrink:0;">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;">
+          <div id="quizTitle" style="font-size:clamp(12px,1.5vw,16px);font-weight:800;"></div>
+          <div id="timer" style="font-size:clamp(12px,1.4vw,15px);font-weight:700;background:rgba(0,0,0,0.2);padding:4px 12px;border-radius:20px;">⏱️ 30:00</div>
+        </div>
+        <div class="progress-wrap" style="margin-top:7px;"><div class="progress-bar" id="progressBar"></div></div>
       </div>
-      <div class="nav-row">
-        <button class="submit-btn" onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان آزمون</button>
-        <button class="nav-btn prev" id="prevBtn" onclick="prevQ()">قبلی <i class="fas fa-arrow-left"></i></button>
-        <button class="nav-btn next" id="nextBtn" onclick="nextQ()"><i class="fas fa-arrow-right"></i> بعدی</button>
+
+      <!-- سوال -->
+      <div style="flex:1;overflow-y:auto;padding:12px 14px 8px;">
+        <div id="questionBox" style="
+          font-size:clamp(13px,1.5vw,16px);font-weight:700;
+          line-height:1.6;text-align:right;
+          background:linear-gradient(135deg,#f8f9fa,#edf2f7);
+          border-right:4px solid var(--primary);
+          border-radius:10px;padding:14px 16px;margin-bottom:12px;
+        "></div>
+        <!-- گزینه‌ها -->
+        <div class="options" id="optionsBox">
+          <button class="opt-btn" id="op0" onclick="selectOpt(0)" data-opt="الف"></button>
+          <button class="opt-btn" id="op1" onclick="selectOpt(1)" data-opt="ب"></button>
+          <button class="opt-btn" id="op2" onclick="selectOpt(2)" data-opt="ج"></button>
+          <button class="opt-btn" id="op3" onclick="selectOpt(3)" data-opt="د"></button>
+        </div>
       </div>
-      <div class="num-grid" id="numGrid"></div>
+
+      <!-- فوتر آزمون: دکمه‌ها + شماره‌ها -->
+      <div style="background:white;border-top:2px solid #eee;padding:10px 12px;flex-shrink:0;border-radius:0 0 12px 12px;">
+        <div class="nav-row" style="margin:0 0 8px;">
+          <button class="nav-btn prev" id="prevBtn" onclick="prevQ()"><i class="fas fa-arrow-right"></i> قبلی</button>
+          <button class="submit-btn" onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان</button>
+          <button class="nav-btn next" id="nextBtn" onclick="nextQ()">بعدی <i class="fas fa-arrow-left"></i></button>
+        </div>
+        <div class="num-grid" id="numGrid" style="margin:0;padding:6px;background:#f8f9fa;border-radius:8px;"></div>
+      </div>
     </div>
 
     <!-- ⑥ صفحه نتایج -->
-    <div class="section quiz-wrap" id="secResults">
-      <div class="lesson-title" id="resTitle">📊 نتایج</div>
-      <div class="summary-bar" id="summaryBar"></div>
-      <div class="answer-status">
-        <div class="status-item"><div class="status-val" id="cntOk">0</div><div class="status-lbl">درست</div></div>
-        <div class="status-item"><div class="status-val" id="cntErr">0</div><div class="status-lbl">غلط</div></div>
-        <div class="status-item"><div class="status-val" id="cntNone">0</div><div class="status-lbl">بی‌پاسخ</div></div>
+    <div id="secResults" style="display:none;width:100%;min-height:100vh;flex-direction:column;">
+      <!-- هدر نتایج -->
+      <div style="background:var(--grad);color:white;padding:10px 14px;border-radius:12px 12px 0 0;flex-shrink:0;">
+        <div id="resTitle" style="font-size:clamp(13px,1.5vw,17px);font-weight:800;text-align:center;"></div>
+        <div id="summaryBar" style="margin-top:6px;background:rgba(0,0,0,0.2);border-radius:8px;padding:6px 10px;font-size:clamp(11px,1.2vw,13px);font-weight:700;text-align:center;"></div>
+        <div style="display:flex;justify-content:space-around;margin-top:8px;">
+          <div style="text-align:center;"><div id="cntOk"  style="font-size:clamp(18px,2.5vw,26px);font-weight:900;">0</div><div style="font-size:11px;opacity:.8;">✅ درست</div></div>
+          <div style="text-align:center;"><div id="cntErr" style="font-size:clamp(18px,2.5vw,26px);font-weight:900;">0</div><div style="font-size:11px;opacity:.8;">❌ غلط</div></div>
+          <div style="text-align:center;"><div id="cntNone"style="font-size:clamp(18px,2.5vw,26px);font-weight:900;">0</div><div style="font-size:11px;opacity:.8;">⬜ بی‌پاسخ</div></div>
+        </div>
       </div>
-      <div class="question-box" id="resQuestion"></div>
-      <div class="options" id="resOptions">
-        <button class="opt-btn" id="ro0" disabled data-opt="الف"></button>
-        <button class="opt-btn" id="ro1" disabled data-opt="ب"></button>
-        <button class="opt-btn" id="ro2" disabled data-opt="ج"></button>
-        <button class="opt-btn" id="ro3" disabled data-opt="د"></button>
+
+      <!-- سوال نتایج -->
+      <div style="flex:1;overflow-y:auto;padding:12px 14px 8px;">
+        <div id="resQuestion" style="
+          font-size:clamp(13px,1.5vw,16px);font-weight:700;
+          line-height:1.6;text-align:right;
+          background:linear-gradient(135deg,#f8f9fa,#edf2f7);
+          border-right:4px solid var(--primary);
+          border-radius:10px;padding:14px 16px;margin-bottom:12px;
+        "></div>
+        <div class="options" id="resOptions">
+          <button class="opt-btn" id="ro0" disabled data-opt="الف"></button>
+          <button class="opt-btn" id="ro1" disabled data-opt="ب"></button>
+          <button class="opt-btn" id="ro2" disabled data-opt="ج"></button>
+          <button class="opt-btn" id="ro3" disabled data-opt="د"></button>
+        </div>
       </div>
-      <div class="nav-row">
-        <button class="home-btn" onclick="goMenu()"><i class="fas fa-home"></i> منو</button>
-        <button class="nav-btn" style="background:var(--grad);" onclick="retryExam()"><i class="fas fa-redo"></i> آزمون جدید</button>
-        <button class="nav-btn prev" id="resPrev" onclick="prevRes()">قبلی <i class="fas fa-arrow-left"></i></button>
-        <button class="nav-btn next" id="resNext" onclick="nextRes()"><i class="fas fa-arrow-right"></i> بعدی</button>
+
+      <!-- فوتر نتایج -->
+      <div style="background:white;border-top:2px solid #eee;padding:10px 12px;flex-shrink:0;border-radius:0 0 12px 12px;">
+        <div class="nav-row" style="margin:0 0 8px;">
+          <button class="nav-btn prev" id="resPrev" onclick="prevRes()"><i class="fas fa-arrow-right"></i> قبلی</button>
+          <button class="home-btn" onclick="goMenu()"><i class="fas fa-home"></i> منو</button>
+          <button class="nav-btn" style="background:var(--grad);" onclick="retryExam()"><i class="fas fa-redo"></i> دوباره</button>
+          <button class="nav-btn next" id="resNext" onclick="nextRes()">بعدی <i class="fas fa-arrow-left"></i></button>
+        </div>
+        <div class="num-grid" id="resGrid" style="margin:0;padding:6px;background:#f8f9fa;border-radius:8px;"></div>
       </div>
-      <div class="num-grid" id="resGrid"></div>
     </div>
 
 
@@ -555,7 +590,12 @@ document.getElementById('passInput').focus();
    NAVIGATION HELPERS
 ═══════════════════════════════════════════ */
 const ALL_SECS=['secLogin','secSelect','secICDLMenu','secDipMenu','secQuiz','secResults'];
-function show(id,vis){document.getElementById(id).style.display=vis?'block':'none';}
+function show(id,vis){
+  const el=document.getElementById(id);
+  if(!vis){el.style.display='none';return;}
+  // quiz و results باید flex باشن
+  el.style.display=(id==='secQuiz'||id==='secResults')?'flex':'block';
+}
 function showOnly(...ids){ALL_SECS.forEach(s=>show(s,ids.includes(s)));}
 
 function goSelect(){showOnly('secSelect');}
