@@ -6,556 +6,546 @@
 <title>مرکز آموزشی خوارزمی</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
+
 @font-face {
   font-family: 'SiteFont';
   src: url('font/fontsite.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
   font-display: swap;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+  font-family: 'SiteFont', 'Vazir', Tahoma, sans-serif;
+}
+
 :root {
-  --primary: #1a5f7a;
-  --secondary: #159895;
-  --accent: #ffc107;
+  --p:  #1a5f7a;
+  --acc: #ffc107;
   --danger: #e53935;
-  --success: #2ecc71;
-  --dark: #2c3e50;
-  --grad: linear-gradient(135deg,#1a5f7a,#159895,#57c4b0);
-  --grad-icdl: linear-gradient(135deg,#2196F3,#1565C0);
-  --grad-dip:  linear-gradient(135deg,#9C27B0,#6A1B9A);
-  --grad-ok:   linear-gradient(135deg,#2ecc71,#27ae60);
-  --grad-err:  linear-gradient(135deg,#e74c3c,#c0392b);
-  --grad-warn: linear-gradient(135deg,#ffc107,#ff9800);
-  --grad-ans:  linear-gradient(135deg,#6c757d,#495057);
-  --grad-nprev:linear-gradient(135deg,#2196F3,#1976D2);
-  --grad-nnext:linear-gradient(135deg,#9C27B0,#7B1FA2);
-  --grad-graf: linear-gradient(135deg,#FF5722,#E64A19);
-  --sh: 0 2px 8px rgba(0,0,0,0.08);
-  --shh:0 4px 16px rgba(0,0,0,0.18);
-  --tr: all 0.2s ease;
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;
-  font-family:'SiteFont','Vazir','Tanha','Segoe UI',Tahoma,sans-serif;}
-
-body{
-  background:linear-gradient(135deg,#eef2f7,#dce8f0);
-  color:#222; line-height:1.4;
-  min-height:100vh; display:flex; flex-direction:column;
-  overflow-x:hidden; font-size:clamp(15px,1.6vw,19px);
+  --g:    linear-gradient(135deg,#1a5f7a,#159895,#57c4b0);
+  --gicdl:linear-gradient(135deg,#2196F3,#1565C0);
+  --gdip: linear-gradient(135deg,#9C27B0,#6A1B9A);
+  --gok:  linear-gradient(135deg,#2ecc71,#27ae60);
+  --gerr: linear-gradient(135deg,#e74c3c,#c0392b);
+  --gwrn: linear-gradient(135deg,#ffc107,#ff9800);
+  --ggry: linear-gradient(135deg,#6c757d,#495057);
+  --ggrf: linear-gradient(135deg,#FF5722,#E64A19);
 }
 
-/* ──── HEADER ──── */
-header{
-  background:var(--grad); color:white;
-  text-align:center; padding:16px 20px 12px;
-  box-shadow:0 4px 16px rgba(0,0,0,0.2);
+body {
+  background: linear-gradient(135deg,#eef2f7,#dce8f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
-header .logo{font-size:clamp(19px,2.4vw,30px);font-weight:800;margin-bottom:5px;}
-header .logo i{color:var(--accent);margin-left:7px;}
-header .slogan{font-size:clamp(13px,1.3vw,17px);font-weight:600;opacity:.93;margin-bottom:4px;}
-header .contact{font-size:clamp(12px,1.1vw,15px);opacity:.87;}
-header .contact i{color:var(--accent);margin-left:4px;}
 
-/* ──── TICKER ──── */
-.ticker-wrap{
+/* ════ HEADER ════ */
+header {
+  background: var(--g);
+  color: white;
+  text-align: center;
+  padding: 14px 20px 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+  flex-shrink: 0;
+}
+.h-logo   { font-size: clamp(18px,2.2vw,28px); font-weight:800; margin-bottom:5px; }
+.h-logo i { color:var(--acc); margin-left:8px; }
+.h-slogan { font-size:clamp(12px,1.2vw,16px); font-weight:600; opacity:.93; margin-bottom:3px; }
+.h-contact{ font-size:clamp(11px,1.1vw,14px); opacity:.87; }
+.h-contact i { color:var(--acc); margin-left:4px; }
+
+/* ════ TICKER ════ */
+.ticker {
   background:#0b3245; color:#ffd54f;
-  padding:8px 0; overflow:hidden;
-  white-space:nowrap; font-size:clamp(13px,1.3vw,17px); font-weight:600;
-}
-.ticker-inner{
-  display:inline-block; padding-right:100%;
-  animation:ticker 38s linear infinite;
-}
-@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-200%)}}
-
-/* ──── PAGE BODY ──── */
-.page-body{
-  flex:1; display:grid;
-  grid-template-columns:340px 1fr 340px;
-  gap:12px; padding:12px; align-items:start;
-}
-
-/* ──── BANNERS ──── */
-.banner-slot{
-  width:340px; height:481px; /* A4 portrait ratio */
-  border-radius:10px; overflow:hidden; position:relative;
-  background:#1a5f7a; box-shadow:0 4px 20px rgba(0,0,0,0.28);
-  border:2px solid rgba(255,255,255,0.18);
-  justify-self:center; align-self:start; margin-top:4px;
-}
-.slide-img{
-  position:absolute;inset:0;width:100%;height:100%;
-  object-fit:cover;opacity:0;transition:opacity 1s ease;
-}
-.slide-img.active{opacity:1;}
-.banner-ph{
-  position:absolute;inset:0;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;
-  color:rgba(255,255,255,.4);font-size:12px;gap:10px;
-  text-align:center;padding:12px;
-}
-.banner-ph i{font-size:38px;}
-
-/* ──── CENTER ──── */
-.center-col{
-  display:flex;flex-direction:column;align-items:center;gap:14px;
-}
-
-/* ── SECTIONS (login / exam-select / quiz / results) ── */
-.section{
-  background:white; border-radius:12px;
-  padding:clamp(14px,1.8vw,24px);
-  width:100%; text-align:center;
-  border-right:5px solid var(--primary);
-  box-shadow:var(--sh);
-  animation:fadeIn .4s ease-out;
-}
-.section h2{
-  color:var(--primary); font-size:clamp(13px,1.5vw,19px);
-  display:flex;align-items:center;justify-content:center;gap:8px;
-  border-bottom:2px solid var(--accent);padding-bottom:8px;margin-bottom:10px;
-}
-.section p{color:#666;font-size:clamp(10px,.95vw,13px);margin-bottom:12px;}
-
-/* login */
-.login-input{
-  width:100%;padding:clamp(8px,.8vw,11px);
-  margin-bottom:10px;border:1.5px solid #ddd;
-  border-radius:7px;font-size:clamp(12px,1vw,14px);
-  text-align:center;font-family:inherit;transition:var(--tr);
-}
-.login-input:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(26,95,122,.15);outline:none;}
-.login-msg{margin-top:8px;font-weight:600;min-height:18px;font-size:clamp(10px,.9vw,12px);}
-
-/* exam select buttons */
-.exam-btns{display:flex;gap:clamp(10px,1.4vw,18px);width:100%;justify-content:center;flex-wrap:wrap;}
-.exam-btn{
-  flex:1;min-width:130px;color:white;border:none;
-  padding:clamp(16px,2vw,26px) clamp(10px,1.3vw,16px);
-  border-radius:12px;cursor:pointer;
-  font-size:clamp(12px,1.3vw,16px);font-weight:700;font-family:inherit;
-  display:flex;flex-direction:column;align-items:center;gap:7px;
-  text-decoration:none;transition:var(--tr);box-shadow:var(--sh);
-}
-.exam-btn i{font-size:clamp(20px,2.2vw,30px);}
-.exam-btn .sub{font-size:clamp(9px,.8vw,11px);opacity:.9;font-weight:400;}
-.exam-btn:hover{transform:translateY(-3px);box-shadow:var(--shh);}
-.icdl-btn{background:var(--grad-icdl);}
-.dip-btn {background:var(--grad-dip);}
-
-
-
-/* ──── QUIZ SHARED ──── */
-.quiz-wrap{width:100%;display:none;}
-.quiz-wrap.active{display:block;}
-
-.lesson-title{
-  font-size:clamp(14px,1.6vw,20px);font-weight:700;
-  text-align:center;margin-bottom:8px;color:var(--primary);
-  padding-bottom:7px;border-bottom:2px solid var(--accent);
-  display:flex;align-items:center;justify-content:center;gap:7px;
-}
-.timer{
-  font-size:clamp(13px,1.5vw,17px);text-align:center;
-  margin-bottom:8px;background:var(--grad);
-  padding:8px;border-radius:7px;font-weight:700;color:white;
-  animation:pulse 2s infinite;
-}
-.timer.warn{background:var(--grad-warn);animation:pulse 1s infinite;}
-.timer.danger{background:var(--grad-err);animation:pulse .5s infinite;}
-
-.progress-wrap{width:100%;height:8px;background:#e9ecef;border-radius:4px;margin:8px 0;overflow:hidden;}
-.progress-bar{height:100%;background:var(--grad);border-radius:4px;width:0%;transition:width .3s ease;}
-
-.question-box{
-  font-size:clamp(16px,2.2vw,26px);font-weight:700;
-  text-align:right;line-height:1.7;
-  padding:18px 22px;background:linear-gradient(135deg,#f8f9fa,#e9ecef);
-  border-radius:10px;border-right:5px solid var(--primary);
+  padding:7px 0; overflow:hidden; white-space:nowrap;
+  font-size:clamp(12px,1.2vw,15px); font-weight:600;
   flex-shrink:0;
 }
-.options{display:flex;flex-direction:column;gap:0;flex:1;}
-.opt-btn{
-  width:100%;flex:1;
-  text-align:right;font-size:clamp(18px,2.6vw,30px);
-  padding:0 clamp(60px,7vw,80px) 0 18px;
-  transition:var(--tr);display:flex;align-items:center;
-  border-radius:0;margin:0;position:relative;
-  font-family:inherit;white-space:normal;line-height:1.5;
-  background:var(--grad);color:white;border:none;border-bottom:2px solid rgba(255,255,255,0.15);
-  cursor:pointer;box-shadow:none;min-height:0;
+.ticker span {
+  display:inline-block; padding-right:100%;
+  animation: tick 40s linear infinite;
 }
-.opt-btn:first-child{border-radius:10px 10px 0 0;}
-.opt-btn:last-child {border-radius:0 0 10px 10px;border-bottom:none;}
-.opt-btn::before{
-  content:attr(data-opt);position:absolute;right:14px;top:50%;
-  transform:translateY(-50%);
-  width:clamp(36px,4.5vw,54px);height:clamp(36px,4.5vw,54px);
-  background:rgba(0,0,0,0.25);color:white;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  font-weight:800;font-size:clamp(15px,1.9vw,22px);flex-shrink:0;
-}
-.opt-btn:hover{filter:brightness(1.1);}
-.opt-btn.selected{background:var(--grad-warn);color:var(--dark);}
-.opt-btn.correct {background:var(--grad-ok);}
-.opt-btn.incorrect{background:var(--grad-err);}
-.opt-btn.answered{background:var(--grad-ans);}
+@keyframes tick { from{transform:translateX(0)} to{transform:translateX(-200%)} }
 
-.nav-row{
-  display:flex;justify-content:center;
-  flex-wrap:wrap;gap:8px;
+/* ════ MAIN LAYOUT ════ */
+/* حالت تبلیغ: سه ستون - بنر | محتوا | بنر */
+.layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  gap: 14px;
+  padding: 14px;
+  align-items: start;
 }
-.nav-btn,.submit-btn,.home-btn{
-  color:white;border:none;
-  padding:clamp(14px,1.8vw,22px) clamp(18px,2.2vw,30px);
-  border-radius:10px;cursor:pointer;font-size:clamp(16px,2vw,24px);
-  font-weight:700;font-family:inherit;transition:var(--tr);
-  display:inline-flex;align-items:center;gap:8px;
-  box-shadow:var(--sh);flex:1;justify-content:center;max-width:200px;
+/* حالت آزمون: فقط یک ستون مرکزی */
+.layout.exam-mode {
+  grid-template-columns: 1fr;
+  padding: 0;
+  gap: 0;
 }
-.nav-btn{background:var(--grad);}
-.nav-btn.prev{background:var(--grad-nprev);}
-.nav-btn.next{background:var(--grad-nnext);}
-.submit-btn{background:var(--grad-ok);}
-.home-btn{background:var(--grad);}
-.nav-btn:hover,.submit-btn:hover,.home-btn:hover{filter:brightness(1.08);transform:translateY(-1px);}
-.nav-btn:disabled{opacity:.4;cursor:default;transform:none;}
+.layout.exam-mode .banner { display: none; }
 
-.num-grid{
-  display:flex;flex-wrap:wrap;justify-content:center;
-  gap:7px;padding:10px;
-  background:linear-gradient(135deg,#f0f4f8,#e4ecf4);
-  border-radius:10px;direction:ltr;
+/* ════ BANNER ════ */
+.banner {
+  width: 300px;
+  /* A4 عمودی: 300 × 424 */
+  height: 424px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background: #1a5f7a;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.26);
+  border: 2px solid rgba(255,255,255,0.15);
+  justify-self: center;
+  flex-shrink: 0;
 }
-.num-btn{
-  width:clamp(42px,5.5vw,60px);height:clamp(42px,5.5vw,60px);
-  font-size:clamp(15px,1.9vw,22px);font-weight:800;
-  display:flex;align-items:center;justify-content:center;
-  border-radius:50%;transition:var(--tr);background:var(--grad);
-  color:white;border:none;cursor:pointer;box-shadow:var(--sh);
+.banner-ph {
+  position:absolute; inset:0;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  color:rgba(255,255,255,.35); font-size:13px;
+  gap:10px; text-align:center; padding:14px;
 }
-.num-btn.selected {background:var(--grad-warn);color:var(--dark);transform:scale(1.18);}
-.num-btn.answered {background:var(--grad-ans);}
-.num-btn.correct  {background:var(--grad-ok);}
-.num-btn.incorrect{background:var(--grad-err);}
+.banner-ph i { font-size:40px; }
 
-.answer-status{
-  display:flex;justify-content:space-between;
-  margin:8px 0;padding:8px;
-  background:linear-gradient(135deg,#f8f9fa,#e9ecef);
-  border-radius:8px;
-}
-.status-item{text-align:center;flex:1;}
-.status-val{font-size:clamp(14px,1.8vw,20px);font-weight:bold;color:var(--primary);}
-.status-lbl{font-size:clamp(9px,.9vw,11px);color:#666;}
-
-.summary-bar{
-  font-size:clamp(11px,1.4vw,15px);font-weight:700;
-  text-align:center;margin:8px 0;padding:9px;
-  background:var(--grad);color:white;border-radius:8px;
-}
-.summary-bar.pass{animation:pulse 1.5s infinite;}
-
-/* دیپلم type-selection */
-.type-sel{display:flex;justify-content:center;gap:8px;margin:10px 0;flex-wrap:wrap;width:100%;}
-.type-btn{
-  flex:1;min-width:110px;color:white;border:none;
-  padding:clamp(10px,1.5vw,18px) clamp(8px,1vw,12px);
-  border-radius:10px;cursor:pointer;
-  font-size:clamp(11px,1.2vw,14px);font-weight:700;font-family:inherit;
-  display:flex;flex-direction:column;align-items:center;gap:6px;
-  transition:var(--tr);box-shadow:var(--sh);background:var(--grad);
-}
-.type-btn i{font-size:clamp(16px,2vw,22px);}
-.type-btn:hover{transform:translateY(-2px);box-shadow:var(--shh);}
-.type-btn.graf{background:var(--grad-graf);}
-
-/* ──── FOOTER ──── */
-footer{
-  background:#0b3245;color:#b2dfdb;
-  text-align:center;padding:11px 20px;
-  box-shadow:0 -2px 10px rgba(0,0,0,0.15);
-}
-.footer-courses{
-  display:flex;flex-wrap:wrap;gap:4px 14px;
-  justify-content:center;color:#80deea;
-  font-size:clamp(12px,1.2vw,16px);font-weight:600;
-}
-.footer-courses span{display:inline-flex;align-items:center;gap:5px;}
-.footer-courses span i{color:var(--accent);font-size:10px;}
-.footer-copy{margin-top:6px;color:rgba(178,223,219,.5);font-size:clamp(9px,.8vw,11px);}
-
-@keyframes fadeIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
-@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.01)}}
-@keyframes shake{
-  0%,100%{transform:translateX(0)}
-  10%,30%,50%,70%,90%{transform:translateX(-6px)}
-  20%,40%,60%,80%{transform:translateX(6px)}
+/* ════ CENTER COL ════ */
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
 }
 
-@media(max-width:700px){
-  .page-body{grid-template-columns:1fr;}
-  .banner-slot{width:82vw;height:calc(82vw * 1.414);margin:0 auto;}
+/* ════ CARD (بخش‌های سفید) ════ */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: clamp(16px,2vw,26px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  border-right: 5px solid var(--p);
+  width: 100%;
+}
+.card-title {
+  color: var(--p);
+  font-size: clamp(15px,1.7vw,21px);
+  font-weight: 800;
+  display: flex; align-items:center; justify-content:center; gap:8px;
+  border-bottom: 2px solid var(--acc);
+  padding-bottom: 9px; margin-bottom: 12px;
+}
+.card p { color:#666; font-size:clamp(12px,1.2vw,15px); margin-bottom:12px; }
+
+/* ════ BUTTONS ════ */
+.btn-row { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+
+.btn {
+  flex:1; min-width:120px;
+  color:white; border:none;
+  padding: clamp(14px,1.8vw,22px) clamp(12px,1.5vw,20px);
+  border-radius:10px; cursor:pointer;
+  font-size:clamp(14px,1.6vw,20px); font-weight:700;
+  font-family:inherit;
+  display:flex; flex-direction:column; align-items:center; gap:7px;
+  text-decoration:none;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+}
+.btn i { font-size:clamp(22px,2.5vw,32px); }
+.btn .sub { font-size:clamp(10px,.9vw,13px); opacity:.88; font-weight:400; }
+.btn:hover { transform:translateY(-3px); box-shadow:0 6px 18px rgba(0,0,0,0.22); }
+.btn:disabled { opacity:.45; cursor:default; transform:none; }
+
+.btn-g    { background:var(--g); }
+.btn-icdl { background:var(--gicdl); }
+.btn-dip  { background:var(--gdip); }
+.btn-ok   { background:var(--gok); }
+.btn-err  { background:var(--gerr); }
+.btn-wrn  { background:var(--gwrn); }
+.btn-grf  { background:var(--ggrf); }
+.btn-grey { background:var(--ggry); }
+
+/* type buttons (دیپلم) */
+.type-row { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-bottom:8px; }
+.tbtn {
+  flex:1; min-width:100px;
+  color:white; border:none;
+  padding: clamp(12px,1.5vw,18px) 10px;
+  border-radius:10px; cursor:pointer;
+  font-size:clamp(13px,1.4vw,17px); font-weight:700; font-family:inherit;
+  display:flex; flex-direction:column; align-items:center; gap:6px;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+  background:var(--g);
+}
+.tbtn i { font-size:clamp(18px,2vw,26px); }
+.tbtn:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,0.22); }
+.tbtn-grf { background:var(--ggrf); }
+
+/* ════ LOGIN ════ */
+.login-wrap {
+  max-width:420px; width:100%; margin:0 auto;
+}
+.login-top {
+  background:var(--g); padding:28px; text-align:center;
+  border-radius:16px 16px 0 0;
+}
+.login-icon {
+  width:70px; height:70px; background:rgba(255,255,255,0.2);
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
+  margin:0 auto 12px;
+}
+.login-icon i { font-size:30px; color:white; }
+.login-top h2 { color:white; font-size:clamp(15px,1.8vw,22px); margin-bottom:4px; }
+.login-top p  { color:rgba(255,255,255,.8); font-size:clamp(11px,1.1vw,14px); }
+.login-bot {
+  background:white; padding:24px 28px 20px;
+  border-radius:0 0 16px 16px;
+  box-shadow:0 8px 30px rgba(26,95,122,0.16);
+}
+.login-field {
+  position:relative; margin-bottom:12px;
+}
+.login-field i {
+  position:absolute; right:13px; top:50%; transform:translateY(-50%);
+  color:#bbb; font-size:15px; pointer-events:none;
+}
+.login-field input {
+  width:100%; padding:11px 42px 11px 12px;
+  border:1.5px solid #ddd; border-radius:9px;
+  font-size:clamp(14px,1.4vw,17px); font-family:inherit;
+  text-align:center; letter-spacing:3px;
+  transition:border-color .2s, box-shadow .2s;
+}
+.login-field input:focus {
+  border-color:var(--p); outline:none;
+  box-shadow:0 0 0 3px rgba(26,95,122,.12);
+}
+.login-msg { text-align:center; font-weight:700; min-height:20px; font-size:clamp(12px,1.2vw,14px); margin-top:10px; }
+
+/* ════ QUIZ SCREEN ════ */
+.quiz-screen {
+  display: none;         /* مخفی پیش‌فرض */
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;         /* پر کردن صفحه */
+}
+/* وقتی active میشه */
+.quiz-screen.active { display:flex; }
+
+/* هدر آزمون */
+.qz-head {
+  background:var(--g); color:white;
+  padding:12px 16px; flex-shrink:0;
+}
+.qz-head-row {
+  display:flex; align-items:center;
+  justify-content:space-between; gap:8px; flex-wrap:wrap;
+  margin-bottom:8px;
+}
+.qz-title { font-size:clamp(15px,1.9vw,22px); font-weight:800; }
+.qz-timer {
+  font-size:clamp(14px,1.8vw,20px); font-weight:700;
+  background:rgba(0,0,0,0.22); padding:5px 16px; border-radius:20px;
+}
+.qz-bar { height:7px; background:rgba(255,255,255,.25); border-radius:4px; overflow:hidden; }
+.qz-fill { height:100%; background:white; border-radius:4px; width:0%; transition:width .3s; }
+
+/* بدنه آزمون: سوال + گزینه‌ها */
+.qz-body {
+  flex:1; display:flex; flex-direction:column;
+  padding:14px 16px 10px; gap:12px;
+  overflow:hidden; min-height:0;
 }
 
-/* ──── موبایل: صفحه آزمون و نتایج تمام‌صفحه ──── */
+.qz-question {
+  font-size:clamp(17px,2.3vw,26px); font-weight:700;
+  line-height:1.75; text-align:right;
+  background:linear-gradient(135deg,#f5f8fb,#edf2f7);
+  border-right:5px solid var(--p);
+  border-radius:10px; padding:16px 20px;
+  flex-shrink:0;
+}
+
+.qz-opts {
+  flex:1; display:flex; flex-direction:column; min-height:0;
+  border-radius:12px; overflow:hidden;
+}
+
+.opt {
+  flex:1; position:relative;
+  display:flex; align-items:center;
+  text-align:right;
+  font-size:clamp(16px,2.1vw,24px); font-weight:600;
+  padding-right:60px; padding-left:14px;
+  background:var(--g); color:white; border:none;
+  border-bottom:2px solid rgba(255,255,255,0.15);
+  font-family:inherit; cursor:pointer; line-height:1.5;
+  transition:filter .15s;
+}
+.opt:first-child { border-radius:12px 12px 0 0; }
+.opt:last-child  { border-radius:0 0 12px 12px; border-bottom:none; }
+.opt:hover       { filter:brightness(1.1); }
+.opt::before {
+  content:attr(data-lbl);
+  position:absolute; right:14px; top:50%; transform:translateY(-50%);
+  width:clamp(32px,4vw,46px); height:clamp(32px,4vw,46px);
+  background:rgba(0,0,0,0.22); border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-size:clamp(14px,1.7vw,20px); font-weight:800; flex-shrink:0;
+}
+.opt.sel     { background:var(--gwrn); color:#222; }
+.opt.correct { background:var(--gok); }
+.opt.wrong   { background:var(--gerr); }
+.opt.grey    { background:var(--ggry); }
+.opt:disabled{ cursor:default; }
+
+/* فوتر آزمون: دکمه‌ها + شماره‌ها */
+.qz-foot {
+  background:white; border-top:2px solid #e8ecf0;
+  padding:12px 14px; flex-shrink:0;
+}
+.qz-nav { display:flex; gap:8px; justify-content:center; margin-bottom:10px; }
+.qz-nav .btn { max-width:160px; flex:1;
+  padding:clamp(11px,1.4vw,16px) 14px;
+  font-size:clamp(14px,1.7vw,19px); }
+
+.numgrid {
+  display:flex; flex-wrap:wrap; justify-content:center;
+  gap:6px; padding:8px;
+  background:#f0f4f8; border-radius:10px; direction:ltr;
+}
+.nbtn {
+  width:clamp(38px,5vw,54px); height:clamp(38px,5vw,54px);
+  font-size:clamp(14px,1.8vw,20px); font-weight:800;
+  border-radius:50%; border:none; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--g); color:white;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  transition:transform .15s;
+}
+.nbtn.sel     { background:var(--gwrn); color:#222; transform:scale(1.18); }
+.nbtn.ans     { background:var(--ggry); }
+.nbtn.correct { background:var(--gok); }
+.nbtn.wrong   { background:var(--gerr); }
+
+/* ════ RESULTS HEADER ════ */
+.res-stat {
+  display:flex; justify-content:space-around;
+  margin-top:10px;
+}
+.res-stat div { text-align:center; }
+.res-stat .big { font-size:clamp(24px,3.5vw,42px); font-weight:900; }
+.res-stat .lbl { font-size:clamp(12px,1.3vw,15px); opacity:.9; }
+
+/* ════ FOOTER ════ */
+footer {
+  background:#0b3245; color:#b2dfdb;
+  text-align:center; padding:12px 20px;
+  flex-shrink:0;
+}
+.foot-courses {
+  display:flex; flex-wrap:wrap; gap:4px 14px; justify-content:center;
+  color:#80deea; font-size:clamp(11px,1.1vw,14px); font-weight:600;
+}
+.foot-courses span { display:inline-flex; align-items:center; gap:5px; }
+.foot-courses span i { color:var(--acc); font-size:10px; }
+.foot-copy { margin-top:6px; color:rgba(178,223,219,.45); font-size:clamp(10px,.9vw,12px); }
+
+/* ════ ANIMATIONS ════ */
+@keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+@keyframes shake  { 0%,100%{transform:translateX(0)} 20%,60%{transform:translateX(-7px)} 40%,80%{transform:translateX(7px)} }
+@keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:.7} }
+
+.fade { animation:fadeIn .4s ease-out; }
+
+.timer-warn   { animation:pulse .9s infinite; background:var(--gwrn) !important; }
+.timer-danger { animation:pulse .45s infinite; background:var(--gerr) !important; }
+
+/* ════ RESPONSIVE ════ */
 @media(max-width:900px){
-  body.quiz-mode header,
-  body.quiz-mode .ticker-wrap,
-  body.quiz-mode footer { display:none !important; }
-
-  body.quiz-mode .page-body {
-    padding:0 !important;
-    gap:0 !important;
-    grid-template-columns:1fr !important;
-  }
-
-  body.quiz-mode .center-col {
-    width:100vw;
-    height:100dvh;
-    padding:0;
-    gap:0;
-  }
-
-  body.quiz-mode #secQuiz,
-  body.quiz-mode #secResults {
-    width:100vw;
+  .layout { grid-template-columns:1fr; padding:10px; }
+  .banner { display:none; }
+}
+@media(max-width:900px){
+  .quiz-screen.active {
     height:100dvh;
     border-radius:0;
-    border-right:none;
-    box-shadow:none;
   }
-
-  body.quiz-mode .opt-btn { font-size:clamp(12px,3.6vw,15px); min-height:46px; }
-  body.quiz-mode .nav-btn,
-  body.quiz-mode .submit-btn,
-  body.quiz-mode .home-btn { font-size:clamp(11px,3.2vw,14px); padding:8px 11px; }
-  body.quiz-mode .num-btn  { width:30px; height:30px; font-size:clamp(10px,2.8vw,12px); }
+  .qz-question { font-size:clamp(16px,4.5vw,22px); }
+  .opt { font-size:clamp(15px,4vw,20px); }
+  .nbtn { width:34px; height:34px; font-size:clamp(13px,3.5vw,17px); }
+  .qz-nav .btn { font-size:clamp(13px,3.5vw,16px); }
 }
+
 </style>
 </head>
 <body>
 
 <header>
-  <div class="logo"><i class="fas fa-graduation-cap"></i> مرکز آموزشی خوارزمی</div>
-  <div class="slogan">با ۱۹ سال سابقه درخشان | دارای بیشترین میزان هنرجو و قبولی</div>
-  <div class="contact">
-    <i class="fas fa-map-marker-alt"></i> شعبه اصلی: محمدیه قزوین
-    &nbsp;|&nbsp;
-    <i class="fas fa-phone"></i> ۰۹۳۸۷۴۰۵۶۵۳
-    &nbsp;
+  <div class="h-logo"><i class="fas fa-graduation-cap"></i> مرکز آموزشی خوارزمی</div>
+  <div class="h-slogan">با ۱۹ سال سابقه درخشان | دارای بیشترین میزان هنرجو و قبولی</div>
+  <div class="h-contact">
+    <i class="fas fa-map-marker-alt"></i> شعبه اصلی: محمدیه قزوین &nbsp;|&nbsp;
+    <i class="fas fa-phone"></i> ۰۹۳۸۷۴۰۵۶۵۳ &nbsp;
     <i class="fas fa-phone-alt"></i> ۰۲۸۳۲۵۶۲۰۷۰
   </div>
 </header>
 
-<div class="ticker-wrap" aria-hidden="true"><span class="ticker-inner">
+<div class="ticker" aria-hidden="true"><span>
   ✦ ثبت‌نام دوره‌های جدید آغاز شد &nbsp;&nbsp;&nbsp;
-  ✦ دیپلم رسمی — ICDL کامپیوتر — حسابداری بازار کار — برنامه‌نویسی — هوش مصنوعی &nbsp;&nbsp;&nbsp;
-  ✦ طراحی بازی و انیمیشن‌سازی — فتوشاپ — کلیه دوره‌های ویژه بازار کار &nbsp;&nbsp;&nbsp;
-  ✦ مرکز آموزشی خوارزمی با ۱۹ سال سابقه درخشان &nbsp;&nbsp;&nbsp;
+  ✦ دیپلم رسمی — ICDL — حسابداری بازار کار — برنامه‌نویسی — هوش مصنوعی &nbsp;&nbsp;&nbsp;
+  ✦ طراحی بازی و انیمیشن‌سازی — فتوشاپ &nbsp;&nbsp;&nbsp;
+  ✦ مرکز آموزشی خوارزمی با ۱۹ سال سابقه &nbsp;&nbsp;&nbsp;
   ✦ تماس: ۰۹۳۸۷۴۰۵۶۵۳ — ۰۲۸۳۲۵۶۲۰۷۰ &nbsp;&nbsp;&nbsp;
 </span></div>
 
-<div class="page-body">
+<!-- ═══ MAIN LAYOUT ═══ -->
+<div class="layout" id="layout">
 
   <!-- بنر چپ -->
-  <div class="banner-slot" id="bannerLeft">
+  <div class="banner" id="bannerLeft">
     <div class="banner-ph"><i class="fas fa-image"></i><span>بنر A4 عمودی<br>از پوشه poster</span></div>
   </div>
 
-  <!-- مرکز -->
-  <div class="center-col">
+  <!-- ستون مرکزی -->
+  <div class="center" id="center">
 
     <!-- ① لاگین -->
-    <div id="secLogin" style="width:100%;max-width:420px;animation:fadeIn .5s ease-out;">
-      <div style="
-        background:white;border-radius:20px;overflow:hidden;
-        box-shadow:0 8px 40px rgba(26,95,122,0.18);
-      ">
-        <!-- بالای کارت -->
-        <div style="
-          background:var(--grad);padding:32px 28px 24px;text-align:center;
-          position:relative;
-        ">
-          <div style="
-            width:72px;height:72px;background:rgba(255,255,255,0.2);
-            border-radius:50%;display:flex;align-items:center;justify-content:center;
-            margin:0 auto 14px;backdrop-filter:blur(4px);
-            box-shadow:0 4px 16px rgba(0,0,0,0.15);
-          ">
-            <i class="fas fa-graduation-cap" style="font-size:32px;color:white;"></i>
-          </div>
-          <div style="color:white;font-size:clamp(14px,1.6vw,20px);font-weight:800;margin-bottom:5px;">
-            سامانه آزمون خوارزمی
-          </div>
-          <div style="color:rgba(255,255,255,.78);font-size:clamp(10px,.95vw,13px);">
-            لطفاً رمز عبور را وارد کنید
-          </div>
+    <div id="pgLogin" class="fade">
+      <div class="login-wrap">
+        <div class="login-top">
+          <div class="login-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h2>سامانه آزمون خوارزمی</h2>
+          <p>لطفاً رمز عبور را وارد کنید</p>
         </div>
-        <!-- پایین کارت -->
-        <div style="padding:28px 28px 24px;">
-          <div style="position:relative;margin-bottom:14px;">
-            <i class="fas fa-key" style="
-              position:absolute;right:13px;top:50%;transform:translateY(-50%);
-              color:#aaa;font-size:15px;pointer-events:none;
-            "></i>
-            <input class="login-input" type="password" id="passInput"
-              placeholder="رمز عبور" autocomplete="off"
-              style="padding-right:40px;border-radius:10px;border:1.5px solid #e0e0e0;
-                     font-size:clamp(13px,1.1vw,16px);letter-spacing:3px;">
+        <div class="login-bot">
+          <div class="login-field">
+            <i class="fas fa-key"></i>
+            <input type="password" id="passInput" placeholder="رمز عبور" autocomplete="off">
           </div>
-          <button onclick="checkPass()" style="
-            width:100%;padding:12px;border:none;border-radius:10px;
-            background:var(--grad);color:white;font-size:clamp(13px,1.2vw,16px);
-            font-weight:700;font-family:inherit;cursor:pointer;
-            box-shadow:0 4px 14px rgba(26,95,122,0.3);
-            transition:var(--tr);display:flex;align-items:center;justify-content:center;gap:8px;
-          " onmouseover="this.style.transform='translateY(-2px)'"
-             onmouseout="this.style.transform=''"
-          ><i class="fas fa-sign-in-alt"></i> ورود به سیستم</button>
-          <p id="loginMsg" class="login-msg" style="text-align:center;margin-top:12px;"></p>
+          <div class="btn-row">
+            <button class="btn btn-g" onclick="checkPass()">
+              <i class="fas fa-sign-in-alt"></i> ورود به سیستم
+            </button>
+          </div>
+          <p id="loginMsg" class="login-msg"></p>
         </div>
       </div>
     </div>
 
     <!-- ② انتخاب آزمون -->
-    <div class="section" id="secSelect" style="display:none;">
-      <h2><i class="fas fa-clipboard-list"></i> انتخاب آزمون</h2>
+    <div id="pgSelect" class="card fade" style="display:none;">
+      <div class="card-title"><i class="fas fa-clipboard-list"></i> انتخاب آزمون</div>
       <p>یکی از آزمون‌های زیر را انتخاب کنید</p>
-      <div class="exam-btns">
-        <button class="exam-btn icdl-btn" onclick="openICDL()">
+      <div class="btn-row">
+        <button class="btn btn-icdl" onclick="openICDL()">
           <i class="fas fa-laptop-code"></i> آزمون ICDL
         </button>
-        <button class="exam-btn dip-btn" onclick="openDip()">
+        <button class="btn btn-dip" onclick="openDip()">
           <i class="fas fa-user-graduate"></i> آزمون دیپلم
         </button>
       </div>
     </div>
 
     <!-- ③ منوی ICDL -->
-    <div class="section" id="secICDLMenu" style="display:none;">
-      <h2><i class="fas fa-certificate"></i> آزمون بین‌المللی کامپیوتر ICDL</h2>
-      <div class="exam-btns" style="margin-top:10px;">
-        <button class="exam-btn icdl-btn" onclick="startICDL()">
-          <i class="fas fa-play-circle"></i> شروع آزمون ICDL
+    <div id="pgICDL" class="card fade" style="display:none;">
+      <div class="card-title"><i class="fas fa-certificate"></i> آزمون ICDL</div>
+      <div class="btn-row" style="margin-bottom:12px;">
+        <button class="btn btn-icdl" onclick="startICDL()">
+          <i class="fas fa-play-circle"></i> شروع آزمون
         </button>
       </div>
-      <p id="icdlStatus" style="margin-top:10px;font-size:11px;color:#aaa;"></p>
-      <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
+      <p id="icdlStatus" style="color:#aaa;font-size:12px;"></p>
+      <div class="btn-row"><button class="btn btn-g" style="max-width:160px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button></div>
     </div>
 
     <!-- ④ منوی دیپلم -->
-    <div class="section" id="secDipMenu" style="display:none;">
-      <h2><i class="fas fa-info-circle"></i> انتخاب نوع آزمون دیپلم</h2>
-      <div class="type-sel">
-        <button class="type-btn" onclick="startDip('user')"><i class="fas fa-desktop"></i> کاربر رایانه</button>
-        <button class="type-btn" onclick="startDip('typing')"><i class="fas fa-keyboard"></i> تایپ رایانه</button>
-        <button class="type-btn" onclick="startDip('blackwhite')"><i class="fas fa-adjust"></i> سیاه و سفید</button>
+    <div id="pgDip" class="card fade" style="display:none;">
+      <div class="card-title"><i class="fas fa-user-graduate"></i> انتخاب نوع آزمون دیپلم</div>
+      <div class="type-row">
+        <button class="tbtn" onclick="startDip('user')"><i class="fas fa-desktop"></i> کاربر رایانه</button>
+        <button class="tbtn" onclick="startDip('typing')"><i class="fas fa-keyboard"></i> تایپ رایانه</button>
+        <button class="tbtn" onclick="startDip('blackwhite')"><i class="fas fa-adjust"></i> سیاه و سفید</button>
       </div>
-      <div class="type-sel">
-        <button class="type-btn graf" onclick="startDip('graphics')"><i class="fas fa-paint-brush"></i> گرافیک رایانه</button>
-        <button class="type-btn graf" onclick="startDip('colordesign')"><i class="fas fa-palette"></i> طراحی رنگی</button>
+      <div class="type-row">
+        <button class="tbtn tbtn-grf" onclick="startDip('graphics')"><i class="fas fa-paint-brush"></i> گرافیک رایانه</button>
+        <button class="tbtn tbtn-grf" onclick="startDip('colordesign')"><i class="fas fa-palette"></i> طراحی رنگی</button>
       </div>
-      <p id="dipStatus" style="margin-top:8px;font-size:11px;color:#aaa;"></p>
-      <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
+      <p id="dipStatus" style="color:#aaa;font-size:12px;margin-bottom:10px;"></p>
+      <div class="btn-row"><button class="btn btn-g" style="max-width:160px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button></div>
     </div>
 
-    <!-- ⑤ صفحه آزمون -->
-    <div id="secQuiz" style="display:none;width:100%;min-height:100vh;display:none;flex-direction:column;">
-      <!-- هدر آزمون -->
-      <div style="background:var(--grad);color:white;padding:14px 18px;border-radius:12px 12px 0 0;flex-shrink:0;">
-        <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;">
-          <div id="quizTitle" style="font-size:clamp(16px,2vw,24px);font-weight:800;"></div>
-          <div id="timer" style="font-size:clamp(16px,2vw,22px);font-weight:700;background:rgba(0,0,0,0.2);padding:6px 16px;border-radius:20px;">⏱️ 30:00</div>
+    <!-- ⑤ آزمون -->
+    <div id="pgQuiz" class="quiz-screen">
+      <div class="qz-head">
+        <div class="qz-head-row">
+          <div class="qz-title" id="quizTitle">آزمون</div>
+          <div class="qz-timer" id="timer">⏱️ 30:00</div>
         </div>
-        <div class="progress-wrap" style="margin-top:9px;"><div class="progress-bar" id="progressBar"></div></div>
+        <div class="qz-bar"><div class="qz-fill" id="qzFill"></div></div>
       </div>
-
-      <!-- سوال -->
-      <div style="flex:1;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
-        <div id="questionBox" style="
-          font-size:clamp(18px,2.4vw,28px);font-weight:700;
-          line-height:1.8;text-align:right;
-          background:linear-gradient(135deg,#f8f9fa,#edf2f7);
-          border-right:5px solid var(--primary);
-          border-radius:12px;padding:18px 22px;flex-shrink:0;
-        "></div>
-        <!-- گزینه‌ها -->
-        <div class="options" id="optionsBox" style="flex:1;border-radius:12px;overflow:hidden;">
-          <button class="opt-btn" id="op0" onclick="selectOpt(0)" data-opt="الف"></button>
-          <button class="opt-btn" id="op1" onclick="selectOpt(1)" data-opt="ب"></button>
-          <button class="opt-btn" id="op2" onclick="selectOpt(2)" data-opt="ج"></button>
-          <button class="opt-btn" id="op3" onclick="selectOpt(3)" data-opt="د"></button>
+      <div class="qz-body">
+        <div class="qz-question" id="questionBox"></div>
+        <div class="qz-opts" id="optsBox">
+          <button class="opt" id="op0" onclick="selectOpt(0)" data-lbl="الف"></button>
+          <button class="opt" id="op1" onclick="selectOpt(1)" data-lbl="ب"></button>
+          <button class="opt" id="op2" onclick="selectOpt(2)" data-lbl="ج"></button>
+          <button class="opt" id="op3" onclick="selectOpt(3)" data-lbl="د"></button>
         </div>
       </div>
-
-      <!-- فوتر آزمون: دکمه‌ها + شماره‌ها -->
-      <div style="background:white;border-top:2px solid #eee;padding:12px 14px;flex-shrink:0;border-radius:0 0 12px 12px;">
-        <div class="nav-row" style="margin:0 0 10px;">
-          <button class="nav-btn prev" id="prevBtn" onclick="prevQ()"><i class="fas fa-arrow-right"></i> قبلی</button>
-          <button class="submit-btn" onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان</button>
-          <button class="nav-btn next" id="nextBtn" onclick="nextQ()">بعدی <i class="fas fa-arrow-left"></i></button>
+      <div class="qz-foot">
+        <div class="qz-nav">
+          <button class="btn btn-icdl" id="prevBtn" onclick="prevQ()"><i class="fas fa-arrow-right"></i> قبلی</button>
+          <button class="btn btn-ok"   onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان</button>
+          <button class="btn btn-dip"  id="nextBtn" onclick="nextQ()">بعدی <i class="fas fa-arrow-left"></i></button>
         </div>
-        <div class="num-grid" id="numGrid" style="margin:0;padding:8px;background:#f0f4f8;border-radius:10px;"></div>
+        <div class="numgrid" id="numGrid"></div>
       </div>
     </div>
 
-    <!-- ⑥ صفحه نتایج -->
-    <div id="secResults" style="display:none;width:100%;min-height:100vh;flex-direction:column;">
-      <!-- هدر نتایج -->
-      <div style="background:var(--grad);color:white;padding:14px 18px;border-radius:12px 12px 0 0;flex-shrink:0;">
-        <div id="resTitle" style="font-size:clamp(17px,2vw,24px);font-weight:800;text-align:center;"></div>
-        <div id="summaryBar" style="margin-top:8px;background:rgba(0,0,0,0.2);border-radius:10px;padding:8px 14px;font-size:clamp(14px,1.6vw,18px);font-weight:700;text-align:center;"></div>
-        <div style="display:flex;justify-content:space-around;margin-top:10px;">
-          <div style="text-align:center;"><div id="cntOk"  style="font-size:clamp(26px,3.5vw,40px);font-weight:900;">0</div><div style="font-size:clamp(13px,1.4vw,16px);opacity:.9;">✅ درست</div></div>
-          <div style="text-align:center;"><div id="cntErr" style="font-size:clamp(26px,3.5vw,40px);font-weight:900;">0</div><div style="font-size:clamp(13px,1.4vw,16px);opacity:.9;">❌ غلط</div></div>
-          <div style="text-align:center;"><div id="cntNone"style="font-size:clamp(26px,3.5vw,40px);font-weight:900;">0</div><div style="font-size:clamp(13px,1.4vw,16px);opacity:.9;">⬜ بی‌پاسخ</div></div>
+    <!-- ⑥ نتایج -->
+    <div id="pgResults" class="quiz-screen">
+      <div class="qz-head">
+        <div class="qz-title" id="resTitle" style="text-align:center;"></div>
+        <div id="summaryBar" style="margin-top:8px;background:rgba(0,0,0,0.22);border-radius:9px;padding:7px 14px;font-size:clamp(13px,1.5vw,17px);font-weight:700;text-align:center;color:white;"></div>
+        <div class="res-stat">
+          <div><div class="big" id="cntOk">0</div><div class="lbl">✅ درست</div></div>
+          <div><div class="big" id="cntErr">0</div><div class="lbl">❌ غلط</div></div>
+          <div><div class="big" id="cntNone">0</div><div class="lbl">⬜ بی‌پاسخ</div></div>
         </div>
       </div>
-
-      <!-- سوال نتایج -->
-      <div style="flex:1;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
-        <div id="resQuestion" style="
-          font-size:clamp(18px,2.4vw,28px);font-weight:700;
-          line-height:1.8;text-align:right;
-          background:linear-gradient(135deg,#f8f9fa,#edf2f7);
-          border-right:5px solid var(--primary);
-          border-radius:12px;padding:18px 22px;flex-shrink:0;
-        "></div>
-        <div class="options" id="resOptions" style="flex:1;border-radius:12px;overflow:hidden;">
-          <button class="opt-btn" id="ro0" disabled data-opt="الف"></button>
-          <button class="opt-btn" id="ro1" disabled data-opt="ب"></button>
-          <button class="opt-btn" id="ro2" disabled data-opt="ج"></button>
-          <button class="opt-btn" id="ro3" disabled data-opt="د"></button>
+      <div class="qz-body">
+        <div class="qz-question" id="resQuestion"></div>
+        <div class="qz-opts" id="resOpts">
+          <button class="opt" id="ro0" disabled data-lbl="الف"></button>
+          <button class="opt" id="ro1" disabled data-lbl="ب"></button>
+          <button class="opt" id="ro2" disabled data-lbl="ج"></button>
+          <button class="opt" id="ro3" disabled data-lbl="د"></button>
         </div>
       </div>
-
-      <!-- فوتر نتایج -->
-      <div style="background:white;border-top:2px solid #eee;padding:12px 14px;flex-shrink:0;border-radius:0 0 12px 12px;">
-        <div class="nav-row" style="margin:0 0 10px;">
-          <button class="nav-btn prev" id="resPrev" onclick="prevRes()"><i class="fas fa-arrow-right"></i> قبلی</button>
-          <button class="home-btn" onclick="goMenu()"><i class="fas fa-home"></i> منو</button>
-          <button class="nav-btn" style="background:var(--grad);" onclick="retryExam()"><i class="fas fa-redo"></i> دوباره</button>
-          <button class="nav-btn next" id="resNext" onclick="nextRes()">بعدی <i class="fas fa-arrow-left"></i></button>
+      <div class="qz-foot">
+        <div class="qz-nav">
+          <button class="btn btn-icdl" id="resPrev" onclick="prevRes()"><i class="fas fa-arrow-right"></i> قبلی</button>
+          <button class="btn btn-g"    onclick="goMenu()"><i class="fas fa-home"></i> منو</button>
+          <button class="btn btn-ok"   onclick="retryExam()"><i class="fas fa-redo"></i> دوباره</button>
+          <button class="btn btn-dip"  id="resNext" onclick="nextRes()">بعدی <i class="fas fa-arrow-left"></i></button>
         </div>
-        <div class="num-grid" id="resGrid" style="margin:0;padding:8px;background:#f0f4f8;border-radius:10px;"></div>
+        <div class="numgrid" id="resGrid"></div>
       </div>
     </div>
 
-
-
-  </div><!-- /center-col -->
+  </div><!-- /center -->
 
   <!-- بنر راست -->
-  <div class="banner-slot" id="bannerRight">
+  <div class="banner" id="bannerRight">
     <div class="banner-ph"><i class="fas fa-image"></i><span>بنر A4 عمودی<br>از پوشه poster</span></div>
   </div>
 
-</div><!-- /page-body -->
+</div><!-- /layout -->
 
 <footer>
-  <div class="footer-courses">
+  <div class="foot-courses">
     <span><i class="fas fa-circle"></i> دیپلم رسمی</span>
     <span><i class="fas fa-circle"></i> ICDL کامپیوتر</span>
     <span><i class="fas fa-circle"></i> حسابداری بازار کار</span>
@@ -565,443 +555,379 @@ footer{
     <span><i class="fas fa-circle"></i> فتوشاپ</span>
     <span><i class="fas fa-circle"></i> کلیه دوره‌های ویژه بازار کار</span>
   </div>
-  <div class="footer-copy">&copy; مرکز آموزشی خوارزمی — محمدیه قزوین</div>
+  <div class="foot-copy">&copy; مرکز آموزشی خوارزمی — محمدیه قزوین</div>
 </footer>
 
 <script>
-/* ═══════════════════════════════════════════
-   LOGIN
-═══════════════════════════════════════════ */
-let correctPass = null;
-fetch('pass.txt',{cache:'no-store'})
-  .then(r=>{if(!r.ok)throw 0;return r.text();})
-  .then(t=>{correctPass=t.trim();})
-  .catch(()=>{
-    document.getElementById('loginMsg').textContent='❌ خطا در بارگذاری تنظیمات';
-    document.getElementById('loginMsg').style.color='var(--danger)';
-  });
+/* ═══════ صفحات ═══════ */
+const PAGES = ['pgLogin','pgSelect','pgICDL','pgDip','pgQuiz','pgResults'];
 
-function checkPass(){
-  const inp=document.getElementById('passInput');
-  const msg=document.getElementById('loginMsg');
-  if(correctPass===null){msg.textContent='⏳ در حال بارگذاری...';msg.style.color='var(--primary)';return;}
-  if(inp.value===correctPass){
-    show('secLogin',false); show('secSelect',true);
+function showPage(id) {
+  PAGES.forEach(p => {
+    const el = document.getElementById(p);
+    const isQuiz = (p === 'pgQuiz' || p === 'pgResults');
+    if (p === id) {
+      el.style.display = isQuiz ? 'flex' : 'block';
+      if (isQuiz) el.classList.add('active');
+    } else {
+      el.style.display = 'none';
+      el.classList.remove('active');
+    }
+  });
+}
+
+function setExamMode(on) {
+  const lay = document.getElementById('layout');
+  const hdr = document.querySelector('header');
+  const tkr = document.querySelector('.ticker');
+  const ftr = document.querySelector('footer');
+  if (on) {
+    lay.classList.add('exam-mode');
+    hdr.style.display = 'none';
+    tkr.style.display = 'none';
+    ftr.style.display = 'none';
   } else {
-    msg.textContent='❌ رمز عبور اشتباه است';msg.style.color='var(--danger)';
-    const box=document.getElementById('secLogin');
-    box.style.animation='none';
-    requestAnimationFrame(()=>box.style.animation='shake .5s');
-    setTimeout(()=>box.style.animation='',500);
-    inp.value='';inp.focus();
+    lay.classList.remove('exam-mode');
+    hdr.style.display = '';
+    tkr.style.display = '';
+    ftr.style.display = '';
   }
 }
-document.getElementById('passInput').addEventListener('keypress',e=>{if(e.key==='Enter'){e.preventDefault();checkPass();}});
+
+function goSelect() { setExamMode(false); showPage('pgSelect'); }
+function openICDL()  { setExamMode(false); showPage('pgICDL');  if(!icdlLoaded) loadICDL(); }
+function openDip()   { setExamMode(false); showPage('pgDip');   if(!dipLoaded)  loadDip();  }
+function goMenu()    { stopTimer(); setExamMode(false); activeMode==='icdl' ? showPage('pgICDL') : showPage('pgDip'); }
+
+/* ═══════ لاگین ═══════ */
+let correctPass = null;
+fetch('pass.txt', {cache:'no-store'})
+  .then(r => { if(!r.ok) throw 0; return r.text(); })
+  .then(t => { correctPass = t.trim(); })
+  .catch(() => {
+    document.getElementById('loginMsg').textContent = '❌ خطا در بارگذاری تنظیمات';
+    document.getElementById('loginMsg').style.color = 'var(--danger)';
+  });
+
+function checkPass() {
+  const inp = document.getElementById('passInput');
+  const msg = document.getElementById('loginMsg');
+  if (correctPass === null) { msg.textContent='⏳ در حال بارگذاری...'; return; }
+  if (inp.value === correctPass) {
+    showPage('pgSelect');
+  } else {
+    msg.textContent = '❌ رمز عبور اشتباه است';
+    msg.style.color = 'var(--danger)';
+    const wrap = document.querySelector('.login-wrap');
+    wrap.style.animation = 'none';
+    requestAnimationFrame(() => wrap.style.animation = 'shake .5s');
+    setTimeout(() => wrap.style.animation = '', 500);
+    inp.value = ''; inp.focus();
+  }
+}
+document.getElementById('passInput').addEventListener('keypress', e => { if(e.key==='Enter') checkPass(); });
 document.getElementById('passInput').focus();
 
-/* ═══════════════════════════════════════════
-   NAVIGATION HELPERS
-═══════════════════════════════════════════ */
-const ALL_SECS=['secLogin','secSelect','secICDLMenu','secDipMenu','secQuiz','secResults'];
-function show(id,vis){
-  const el=document.getElementById(id);
-  if(!vis){el.style.display='none';return;}
-  // quiz و results باید flex باشن
-  el.style.display=(id==='secQuiz'||id==='secResults')?'flex':'block';
-}
-function showOnly(...ids){ALL_SECS.forEach(s=>show(s,ids.includes(s)));}
-
-function goSelect(){setAds(true);showOnly('secSelect');}
-function openICDL(){setAds(true);showOnly('secICDLMenu');if(!icdlLoaded)loadICDL();}
-function openDip() {setAds(true);showOnly('secDipMenu');if(!dipLoaded)loadDip();}
-function setAds(visible){
-  document.getElementById('bannerLeft').style.display=visible?'block':'none';
-  document.getElementById('bannerRight').style.display=visible?'block':'none';
-  document.querySelector('.page-body').style.gridTemplateColumns=
-    visible?'340px 1fr 340px':'1fr';
-  if(!visible) document.body.classList.add('quiz-mode');
-  else document.body.classList.remove('quiz-mode');
-}
-
-function goMenu(){
-  stopTimer();curQs=[];curIdx=0;userAns=[];
-  setAds(true);
-  if(activeMode==='icdl') showOnly('secICDLMenu');
-  else showOnly('secDipMenu');
-}
-
-/* ═══════════════════════════════════════════
-   SHARED QUIZ STATE
-═══════════════════════════════════════════ */
+/* ═══════ وضعیت آزمون ═══════ */
 let curQs=[], curIdx=0, userAns=[], timerInt=null, activeMode='';
 
-/* ═══════════════════════════════════════════
-   ICDL
-═══════════════════════════════════════════ */
+/* ═══════ ICDL ═══════ */
 let icdlQs=[], icdlLoaded=false;
 
-async function loadICDL(){
-  try{
-    const txt=await fetchTxt('qizICDL.txt');
-    icdlQs=parseTxt(txt,'icdl');
-    icdlLoaded=true;
-  } catch(e){
-    document.getElementById('icdlStatus').textContent='❌ فایل qizICDL.txt پیدا نشد';
+async function loadICDL() {
+  try {
+    const txt = await fetchTxt('qizICDL.txt');
+    icdlQs = parseTxt(txt);
+    icdlLoaded = true;
+  } catch(e) {
+    document.getElementById('icdlStatus').textContent = '❌ فایل qizICDL.txt پیدا نشد';
   }
 }
 
-function startICDL(){
-  if(!icdlLoaded||icdlQs.length===0){alert('سوالات ICDL بارگذاری نشده‌اند!');return;}
-  activeMode='icdl';
-  const count=Math.min(40,icdlQs.length);
-  curQs=pickRandom(icdlQs,count).map(shuffleOpts);
-  userAns=new Array(curQs.length).fill(null);
-  curIdx=0;
-  buildNumGrid('numGrid');
+function startICDL() {
+  if (!icdlLoaded || !icdlQs.length) { alert('سوالات بارگذاری نشده‌اند!'); return; }
+  activeMode = 'icdl';
+  curQs = pickRand(icdlQs, 40).map(shuffleOpts);
+  userAns = new Array(curQs.length).fill(null);
+  curIdx = 0;
+  document.getElementById('quizTitle').textContent = '🎲 آزمون تصادفی ICDL';
+  buildGrid('numGrid');
   startTimer();
-  setAds(false);
-  showOnly('secQuiz');
-  document.getElementById('quizTitle').textContent='🎲 آزمون تصادفی ICDL';
-  renderQuestion();
+  setExamMode(true);
+  showPage('pgQuiz');
+  renderQ();
 }
 
-/* ═══════════════════════════════════════════
-   DIPLOM
-═══════════════════════════════════════════ */
-let dipBanks={user:[],typing:[],blackwhite:[],graphics:[],colordesign:[]};
-let dipLoaded=false;
-const dipFiles={user:'karbarquiz.txt',typing:'typequiz.txt',blackwhite:'blackwhite.txt',graphics:'graf.txt',colordesign:'rang.txt'};
-const dipTitles={
-  user:'🎯 آزمون کاربر رایانه',typing:'⌨️ آزمون تایپ رایانه',
-  blackwhite:'⚫⚪ آزمون سیاه و سفید',graphics:'🎨 آزمون گرافیک رایانه',
-  colordesign:'🌈 آزمون طراحی رنگی'
-};
+/* ═══════ دیپلم ═══════ */
+let dipBanks = {user:[],typing:[],blackwhite:[],graphics:[],colordesign:[]};
+let dipLoaded = false;
+const dipFiles = {user:'karbarquiz.txt',typing:'typequiz.txt',blackwhite:'blackwhite.txt',graphics:'graf.txt',colordesign:'rang.txt'};
+const dipTitles = {user:'🎯 کاربر رایانه',typing:'⌨️ تایپ رایانه',blackwhite:'⚫⚪ سیاه و سفید',graphics:'🎨 گرافیک رایانه',colordesign:'🌈 طراحی رنگی'};
 
-async function loadDip(){
-  document.getElementById('dipStatus').textContent='⏳ در حال بارگذاری سوالات دیپلم...';
-  const results=await Promise.allSettled(
-    Object.entries(dipFiles).map(([k,f])=>fetchTxt(f).then(t=>({k,t})))
+async function loadDip() {
+  document.getElementById('dipStatus').textContent = '⏳ در حال بارگذاری...';
+  const res = await Promise.allSettled(
+    Object.entries(dipFiles).map(([k,f]) => fetchTxt(f).then(t => ({k,t})))
   );
-  let total=0;
-  results.forEach(r=>{
-    if(r.status==='fulfilled'){
-      const {k,t}=r.value;
-      dipBanks[k]=parseTxt(t,k);
-      total+=dipBanks[k].length;
-    }
+  res.forEach(r => {
+    if (r.status==='fulfilled') dipBanks[r.value.k] = parseTxt(r.value.t);
   });
-  dipLoaded=true;
+  dipLoaded = true;
+  document.getElementById('dipStatus').textContent = '';
 }
 
-function startDip(type){
-  if(!dipLoaded){alert('سوالات در حال بارگذاری، چند ثانیه صبر کنید...');return;}
-  const bank=dipBanks[type];
-  if(!bank||bank.length===0){alert(`هیچ سوالی برای این آزمون پیدا نشد!\nفایل ${dipFiles[type]} را بررسی کنید.`);return;}
-  activeMode='dip_'+type;
-  const count=Math.min(14,bank.length);
-  curQs=pickRandom(bank,count).map(shuffleOpts);
-  userAns=new Array(curQs.length).fill(null);
-  curIdx=0;
-  buildNumGrid('numGrid');
+function startDip(type) {
+  if (!dipLoaded) { alert('لطفاً چند ثانیه صبر کنید...'); return; }
+  const bank = dipBanks[type];
+  if (!bank || !bank.length) { alert('سوالی پیدا نشد! فایل ' + dipFiles[type] + ' را بررسی کنید.'); return; }
+  activeMode = 'dip_' + type;
+  curQs = pickRand(bank, 14).map(shuffleOpts);
+  userAns = new Array(curQs.length).fill(null);
+  curIdx = 0;
+  document.getElementById('quizTitle').textContent = dipTitles[type] || 'آزمون دیپلم';
+  buildGrid('numGrid');
   startTimer();
-  setAds(false);
-  showOnly('secQuiz');
-  document.getElementById('quizTitle').textContent=dipTitles[type]||'آزمون دیپلم';
-  renderQuestion();
+  setExamMode(true);
+  showPage('pgQuiz');
+  renderQ();
 }
 
-/* ═══════════════════════════════════════════
-   TEXT PARSER  (فرمت ۶ خط: سوال،الف،ب،ج،د،پاسخ)
-═══════════════════════════════════════════ */
-async function fetchTxt(name){
-  const r=await fetch(name,{cache:'no-cache'});
-  if(!r.ok)throw new Error(name);
-  const t=await r.text();
-  if(!t.trim())throw new Error(name+' empty');
-  return t;
+/* ═══════ پارسر سوالات ═══════ */
+async function fetchTxt(name) {
+  const r = await fetch(name, {cache:'no-cache'});
+  if (!r.ok) throw new Error(name);
+  return r.text();
 }
 
-function parseTxt(text,type){
-  const lines=text.split('\n');
-  const qs=[];
-  let cur=null,lc=0;
-  const map={'a':'الف','A':'الف','b':'ب','B':'ب','c':'ج','C':'ج','d':'د','D':'د'};
-  for(let i=0;i<lines.length;i++){
-    const line=lines[i].replace(/\r/g,'').trim();
-    if(!line){
-      if(cur&&cur.question&&valid(cur)){qs.push(cur);}
-      cur=null;lc=0;continue;
+function parseTxt(text) {
+  const map = {a:'الف',A:'الف',b:'ب',B:'ب',c:'ج',C:'ج',d:'د',D:'د'};
+  const lines = text.split('\n');
+  const qs = []; let cur = null, lc = 0;
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].replace(/\r/g,'').trim();
+    if (!line) {
+      if (cur && validQ(cur)) qs.push(cur);
+      cur = null; lc = 0; continue;
     }
-    if(!cur){cur={question:'',options:['','','',''],answer:'',type};lc=0;}
-    if(lc===0)cur.question=line;
-    else if(lc<=4)cur.options[lc-1]=line;
-    else if(lc===5){const a=line.replace(/[\.\s]/g,'').trim();cur.answer=map[a]||a;}
+    if (!cur) { cur = {question:'', options:['','','',''], answer:''}; lc = 0; }
+    if (lc===0) cur.question = line;
+    else if (lc<=4) cur.options[lc-1] = line;
+    else if (lc===5) cur.answer = map[line.replace(/[\.\s]/g,'').trim()] || line.trim();
     lc++;
-    if(i===lines.length-1&&cur&&cur.question&&valid(cur))qs.push(cur);
+    if (i===lines.length-1 && cur && validQ(cur)) qs.push(cur);
   }
   return qs;
 }
-
-function valid(q){
-  if(!q.question.trim())return false;
-  for(let i=0;i<4;i++)if(!q.options[i].trim())return false;
-  return ['الف','ب','ج','د'].includes(q.answer);
+function validQ(q) {
+  return q.question.trim() && q.options.every(o=>o.trim()) && ['الف','ب','ج','د'].includes(q.answer);
 }
 
-/* ═══════════════════════════════════════════
-   SHUFFLE HELPERS
-═══════════════════════════════════════════ */
-function shuffle(a){
+/* ═══════ ابزارها ═══════ */
+function shuffle(a) {
   const b=[...a];
   for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}
   return b;
 }
-function pickRandom(arr,n){return shuffle(arr).slice(0,n);}
+function pickRand(arr,n) { return shuffle(arr).slice(0,n); }
 
-function shuffleOpts(q){
-  const orig=[...q.options];
-  const ai=['الف','ب','ج','د'].indexOf(q.answer);
-  const idx=shuffle([0,1,2,3]);
-  const opts=idx.map(i=>orig[i]);
-  const ci=idx.indexOf(ai);
-  return {...q,shuffledOpts:opts,correctIdx:ci};
+function shuffleOpts(q) {
+  const ai = ['الف','ب','ج','د'].indexOf(q.answer);
+  const idx = shuffle([0,1,2,3]);
+  return {...q, shuffledOpts: idx.map(i=>q.options[i]), correctIdx: idx.indexOf(ai)};
 }
 
-/* ═══════════════════════════════════════════
-   QUIZ RENDERING
-═══════════════════════════════════════════ */
-function renderQuestion(){
-  const q=curQs[curIdx];
-  document.getElementById('questionBox').textContent=`سوال ${curIdx+1}: ${q.question}`;
-  const opts=q.shuffledOpts||q.options;
-  for(let i=0;i<4;i++){
-    const btn=document.getElementById('op'+i);
-    btn.textContent=opts[i]||'';
-    btn.style.display=opts[i]?'flex':'none';
-    btn.className='opt-btn'+(userAns[curIdx]===i?' selected':'');
+/* ═══════ رندر سوال ═══════ */
+function renderQ() {
+  const q = curQs[curIdx];
+  document.getElementById('questionBox').textContent = `سوال ${curIdx+1}: ${q.question}`;
+  const opts = q.shuffledOpts;
+  for (let i=0; i<4; i++) {
+    const b = document.getElementById('op'+i);
+    b.textContent = opts[i];
+    b.className = 'opt' + (userAns[curIdx]===i ? ' sel' : '');
   }
-  updateProgress();
-  updateNumGrid('numGrid');
-  const pb=document.getElementById('prevBtn');
-  const nb=document.getElementById('nextBtn');
-  pb.disabled=curIdx===0;
-  nb.disabled=curIdx===curQs.length-1;
+  document.getElementById('qzFill').style.width = ((curIdx+1)/curQs.length*100)+'%';
+  document.getElementById('prevBtn').disabled = curIdx===0;
+  document.getElementById('nextBtn').disabled = curIdx===curQs.length-1;
+  updateGrid('numGrid', false);
 }
 
-function selectOpt(i){userAns[curIdx]=i;renderQuestion();}
-function nextQ(){if(curIdx<curQs.length-1){curIdx++;renderQuestion();}}
-function prevQ(){if(curIdx>0){curIdx--;renderQuestion();}}
+function selectOpt(i) { userAns[curIdx]=i; renderQ(); }
+function prevQ() { if(curIdx>0){ curIdx--; renderQ(); } }
+function nextQ() { if(curIdx<curQs.length-1){ curIdx++; renderQ(); } }
 
-function updateProgress(){
-  document.getElementById('progressBar').style.width=((curIdx+1)/curQs.length*100)+'%';
-}
-
-function buildNumGrid(id){
-  const g=document.getElementById(id);g.innerHTML='';
-  curQs.forEach((_,i)=>{
-    const b=document.createElement('button');
-    b.className='num-btn';b.textContent=i+1;
-    b.onclick=()=>{curIdx=i;id==='numGrid'?renderQuestion():renderResult();};
+/* ═══════ گرید شماره ═══════ */
+function buildGrid(id) {
+  const g = document.getElementById(id); g.innerHTML='';
+  curQs.forEach((_,i) => {
+    const b = document.createElement('button');
+    b.className='nbtn'; b.textContent=i+1;
+    b.onclick = () => { curIdx=i; id==='numGrid'?renderQ():renderRes(); };
     g.appendChild(b);
   });
 }
-
-function updateNumGrid(id){
-  const btns=document.querySelectorAll('#'+id+' .num-btn');
-  btns.forEach((b,i)=>{
-    b.className='num-btn';
-    if(i===curIdx)b.classList.add('selected');
-    else if(userAns[i]!==null)b.classList.add('answered');
+function updateGrid(id, showResult) {
+  document.querySelectorAll('#'+id+' .nbtn').forEach((b,i) => {
+    b.className = 'nbtn';
+    if (i===curIdx) b.classList.add('sel');
+    else if (showResult && userAns[i]!==null)
+      b.classList.add(userAns[i]===curQs[i].correctIdx ? 'correct' : 'wrong');
+    else if (!showResult && userAns[i]!==null)
+      b.classList.add('ans');
   });
 }
 
-/* ═══════════════════════════════════════════
-   TIMER
-═══════════════════════════════════════════ */
-function startTimer(){
+/* ═══════ تایمر ═══════ */
+function startTimer() {
   stopTimer();
-  let t=30*60;
-  updTimer(t);
-  timerInt=setInterval(()=>{
-    t--;updTimer(t);
-    const el=document.getElementById('timer');
-    if(t<=300)el.className='timer warn';
-    if(t<=60) el.className='timer danger';
-    if(t<=0){stopTimer();submitQuiz();}
-  },1000);
+  let t = 30*60; updTimer(t);
+  timerInt = setInterval(() => {
+    t--; updTimer(t);
+    const el = document.getElementById('timer');
+    el.className = 'qz-timer' + (t<=60?' timer-danger':t<=300?' timer-warn':'');
+    if (t<=0) { stopTimer(); submitQuiz(); }
+  }, 1000);
 }
-function stopTimer(){if(timerInt){clearInterval(timerInt);timerInt=null;}}
-function updTimer(s){
-  const m=Math.floor(s/60),r=s%60;
-  document.getElementById('timer').textContent=`⏱️ زمان: ${String(m).padStart(2,'0')}:${String(r).padStart(2,'0')}`;
+function stopTimer() { if(timerInt){clearInterval(timerInt);timerInt=null;} }
+function updTimer(s) {
+  const m=Math.floor(s/60), r=s%60;
+  document.getElementById('timer').textContent = `⏱️ ${String(m).padStart(2,'0')}:${String(r).padStart(2,'0')}`;
 }
 
-/* ═══════════════════════════════════════════
-   SUBMIT & RESULTS
-═══════════════════════════════════════════ */
-function submitQuiz(){
+/* ═══════ پایان آزمون ═══════ */
+function submitQuiz() {
   stopTimer();
-  const unanswered=userAns.map((a,i)=>a===null?i+1:null).filter(Boolean);
-  if(unanswered.length>0){
-    if(!confirm(`⚠️ به ${unanswered.length} سوال پاسخ نداده‌اید:\nسوالات: ${unanswered.join(', ')}\n\nآیا پایان دهید؟`)){
-      startTimer();return;
-    }
+  const ua = userAns.map((a,i)=>a===null?i+1:null).filter(Boolean);
+  if (ua.length && !confirm(`⚠️ ${ua.length} سوال بی‌پاسخ (${ua.join(', ')})\nآیا پایان دهید؟`)) {
+    startTimer(); return;
   }
   showResults();
 }
 
-function showResults(){
-  let ok=0,err=0,none=0;
-  curQs.forEach((q,i)=>{
-    if(userAns[i]===null)none++;
-    else if(userAns[i]===q.correctIdx)ok++;
+function showResults() {
+  let ok=0, err=0, none=0;
+  curQs.forEach((q,i) => {
+    if(userAns[i]===null) none++;
+    else if(userAns[i]===q.correctIdx) ok++;
     else err++;
   });
-  const pct=Math.round(ok/curQs.length*100);
-  const passThresh=activeMode==='icdl'?20:6;
-  const passed=ok>=passThresh;
+  const pct = Math.round(ok/curQs.length*100);
+  const passed = ok >= (activeMode==='icdl' ? 20 : 6);
 
-  document.getElementById('resTitle').textContent=(activeMode==='icdl'?'🎲':'📊')+' نتایج آزمون';
-  const sb=document.getElementById('summaryBar');
-  sb.textContent=`🎯 درست: ${ok} از ${curQs.length} | 📊 درصد: ${pct}% | ${passed?'✅ قبول شدید!':'❌ مردود شدید!'}`;
-  sb.className='summary-bar'+(passed?' pass':'');
-  document.getElementById('cntOk').textContent=ok;
-  document.getElementById('cntErr').textContent=err;
-  document.getElementById('cntNone').textContent=none;
+  document.getElementById('resTitle').textContent = '📊 نتایج آزمون';
+  document.getElementById('summaryBar').textContent = `🎯 درست: ${ok} از ${curQs.length}  |  📊 ${pct}%  |  ${passed?'✅ قبول':'❌ مردود'}`;
+  document.getElementById('cntOk').textContent   = ok;
+  document.getElementById('cntErr').textContent  = err;
+  document.getElementById('cntNone').textContent = none;
 
-  curIdx=0;
-  buildNumGrid('resGrid');
-  setAds(false);
-  showOnly('secResults');
-  renderResult();
+  curIdx = 0;
+  buildGrid('resGrid');
+  setExamMode(true);
+  showPage('pgResults');
+  renderRes();
 }
 
-function renderResult(){
-  const q=curQs[curIdx];
-  document.getElementById('resQuestion').textContent=`سوال ${curIdx+1}: ${q.question}`;
-  const opts=q.shuffledOpts||q.options;
-  for(let i=0;i<4;i++){
-    const btn=document.getElementById('ro'+i);
-    btn.textContent=opts[i]||'';
-    btn.style.display=opts[i]?'flex':'none';
-    btn.className='opt-btn';
-    if(i===q.correctIdx)btn.classList.add('correct');
-    else if(userAns[curIdx]===i)btn.classList.add('incorrect');
+function renderRes() {
+  const q = curQs[curIdx];
+  document.getElementById('resQuestion').textContent = `سوال ${curIdx+1}: ${q.question}`;
+  for (let i=0; i<4; i++) {
+    const b = document.getElementById('ro'+i);
+    b.textContent = q.shuffledOpts[i];
+    b.className = 'opt';
+    if (i===q.correctIdx) b.classList.add('correct');
+    else if (userAns[curIdx]===i) b.classList.add('wrong');
+    else b.classList.add('grey');
   }
-  const rp=document.getElementById('resPrev');
-  const rn=document.getElementById('resNext');
-  rp.disabled=curIdx===0;rn.disabled=curIdx===curQs.length-1;
-  updateResGrid();
+  document.getElementById('resPrev').disabled = curIdx===0;
+  document.getElementById('resNext').disabled = curIdx===curQs.length-1;
+  updateGrid('resGrid', true);
 }
 
-function updateResGrid(){
-  document.querySelectorAll('#resGrid .num-btn').forEach((b,i)=>{
-    b.className='num-btn';
-    if(i===curIdx)b.classList.add('selected');
-    else if(userAns[i]!==null){
-      b.classList.add(userAns[i]===curQs[i].correctIdx?'correct':'incorrect');
-    }
-  });
-}
+function prevRes() { if(curIdx>0){ curIdx--; renderRes(); } }
+function nextRes() { if(curIdx<curQs.length-1){ curIdx++; renderRes(); } }
+function retryExam() { stopTimer(); activeMode==='icdl' ? startICDL() : startDip(activeMode.replace('dip_','')); }
 
-function prevRes(){if(curIdx>0){curIdx--;renderResult();}}
-function nextRes(){if(curIdx<curQs.length-1){curIdx++;renderResult();}}
-
-function retryExam(){
-  stopTimer();
-  if(activeMode==='icdl')startICDL();
-  else startDip(activeMode.replace('dip_',''));
-}
-
-/* ═══════════════════════════════════════════
-   KEYBOARD
-═══════════════════════════════════════════ */
-document.addEventListener('keydown',e=>{
-  const inQuiz=document.getElementById('secQuiz').style.display!=='none';
-  const inRes =document.getElementById('secResults').style.display!=='none';
-  if(inQuiz){
-    if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();prevQ();}
-    else if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();nextQ();}
-    if(e.key>='1'&&e.key<='4')selectOpt(+e.key-1);
-    if(e.ctrlKey&&e.key==='Enter'){e.preventDefault();submitQuiz();}
-    if(e.key==='Escape'&&confirm('آیا می‌خواهید آزمون را رها کنید؟'))goMenu();
+/* ═══════ کیبورد ═══════ */
+document.addEventListener('keydown', e => {
+  const inQ = document.getElementById('pgQuiz').classList.contains('active');
+  const inR = document.getElementById('pgResults').classList.contains('active');
+  if (inQ) {
+    if (e.key==='ArrowRight'||e.key==='ArrowUp') { e.preventDefault(); prevQ(); }
+    if (e.key==='ArrowLeft'||e.key==='ArrowDown') { e.preventDefault(); nextQ(); }
+    if (e.key>='1'&&e.key<='4') selectOpt(+e.key-1);
+    if (e.ctrlKey&&e.key==='Enter') submitQuiz();
+    if (e.key==='Escape'&&confirm('آزمون را رها کنید؟')) goMenu();
   }
-  if(inRes){
-    if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();prevRes();}
-    else if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();nextRes();}
+  if (inR) {
+    if (e.key==='ArrowRight'||e.key==='ArrowUp') { e.preventDefault(); prevRes(); }
+    if (e.key==='ArrowLeft'||e.key==='ArrowDown') { e.preventDefault(); nextRes(); }
   }
 });
 
-/* ═══════════════════════════════════════════
-   SLIDESHOW (poster/)
-═══════════════════════════════════════════ */
-const POSTER='poster/';
-const EXTS=['jpg','jpeg','png','webp','gif'];
-function shuffleArr(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;}
+/* ═══════ اسلایدشو ═══════ */
+const POSTER = 'poster/';
+const IMG_EXTS = ['jpg','jpeg','png','webp','gif'];
 
-class Slideshow{
-  constructor(id,names,ms){
-    this.el=document.getElementById(id);
-    this.list=shuffleArr(names);
-    this.ms=ms;this.idx=0;this.curFrame=null;
-    if(!this.list.length)return;
-    const ph=this.el.querySelector('.banner-ph');if(ph)ph.style.display='none';
-    this._next();setInterval(()=>this._next(),this.ms);
+function shuffleArr(a) {
+  const b=[...a];
+  for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}
+  return b;
+}
+
+class Slideshow {
+  constructor(id, names, ms) {
+    this.el = document.getElementById(id);
+    this.list = shuffleArr(names);
+    this.ms = ms; this.idx = 0; this.cur = null;
+    if (!this.list.length) return;
+    const ph = this.el.querySelector('.banner-ph');
+    if (ph) ph.style.display = 'none';
+    this._next();
+    setInterval(() => this._next(), this.ms);
   }
-  _makeFrame(src,cb){
-    /* هر فریم: یک div شامل bg بلور + img فیت */
-    const frame=document.createElement('div');
-    frame.style.cssText='position:absolute;inset:0;opacity:0;transition:opacity 1s ease;';
-
-    const bg=document.createElement('img');
-    bg.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(18px) brightness(.7);transform:scale(1.08);';
-    bg.src=src;
-
-    const fg=document.createElement('img');
-    fg.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:contain;';
-    fg.src=src;
-
+  _next() {
+    const src = POSTER + this.list[this.idx];
+    this.idx = (this.idx+1) % this.list.length;
+    const prev = this.cur;
+    const frame = document.createElement('div');
+    frame.style.cssText = 'position:absolute;inset:0;opacity:0;transition:opacity 1s ease;';
+    const bg = document.createElement('img');
+    bg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(18px) brightness(.65);transform:scale(1.08);';
+    bg.src = src;
+    const fg = document.createElement('img');
+    fg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:contain;';
+    fg.src = src;
     frame.appendChild(bg);
     frame.appendChild(fg);
-    fg.onload=()=>cb(frame);
-    fg.onerror=()=>cb(null);
-  }
-  _next(){
-    const src=POSTER+this.list[this.idx];
-    this.idx=(this.idx+1)%this.list.length;
-    const prev=this.curFrame;
-    this._makeFrame(src,frame=>{
-      if(!frame){this.idx=(this.idx+1)%this.list.length;return;}
+    fg.onload = () => {
       this.el.appendChild(frame);
-      requestAnimationFrame(()=>requestAnimationFrame(()=>frame.style.opacity='1'));
-      if(prev){
-        prev.style.opacity='0';
-        setTimeout(()=>prev.remove(),1100);
-      }
-      this.curFrame=frame;
-    });
+      requestAnimationFrame(() => requestAnimationFrame(() => frame.style.opacity='1'));
+      if (prev) { prev.style.opacity='0'; setTimeout(()=>prev.remove(),1100); }
+      this.cur = frame;
+    };
+    fg.onerror = () => { this.idx=(this.idx+1)%this.list.length; };
   }
 }
 
-async function initSlides(){
-  let names=[];
-  try{
-    const r=await fetch(POSTER,{cache:'no-store'});
-    if(r.ok){
-      const doc=new DOMParser().parseFromString(await r.text(),'text/html');
-      names=[...doc.querySelectorAll('a')]
+async function initSlides() {
+  let names = [];
+  try {
+    const r = await fetch(POSTER, {cache:'no-store'});
+    if (r.ok) {
+      const doc = new DOMParser().parseFromString(await r.text(),'text/html');
+      names = [...doc.querySelectorAll('a')]
         .map(a=>(a.getAttribute('href')||a.textContent).replace(/^.*\//,'').split('?')[0])
-        .filter(n=>EXTS.some(e=>n.toLowerCase().endsWith('.'+e)));
+        .filter(n=>IMG_EXTS.some(e=>n.toLowerCase().endsWith('.'+e)));
     }
-  }catch(_){}
-  if(!names.length){
-    const probes=[];
-    for(let i=1;i<=30;i++)for(const e of['jpg','png','jpeg','webp'])probes.push(`poster${i}.${e}`,`${i}.${e}`);
-    const res=await Promise.allSettled(probes.map(n=>fetch(POSTER+n,{method:'HEAD',cache:'no-store'})));
-    probes.forEach((n,i)=>{if(res[i].status==='fulfilled'&&res[i].value.ok)names.push(n);});
+  } catch(_) {}
+  if (!names.length) {
+    const probes = [];
+    for(let i=1;i<=30;i++) for(const e of ['jpg','png','jpeg','webp']) probes.push(`poster${i}.${e}`,`${i}.${e}`);
+    const res = await Promise.allSettled(probes.map(n=>fetch(POSTER+n,{method:'HEAD',cache:'no-store'})));
+    probes.forEach((n,i)=>{ if(res[i].status==='fulfilled'&&res[i].value.ok) names.push(n); });
   }
-  new Slideshow('bannerLeft', names, 4500);
-  new Slideshow('bannerRight',names, 5800);
+  new Slideshow('bannerLeft',  names, 4500);
+  new Slideshow('bannerRight', names, 5800);
 }
 initSlides();
 </script>
