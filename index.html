@@ -611,9 +611,9 @@ function show(id,vis){
 }
 function showOnly(...ids){ALL_SECS.forEach(s=>show(s,ids.includes(s)));}
 
-function goSelect(){showOnly('secSelect');}
-function openICDL(){showOnly('secICDLMenu');if(!icdlLoaded)loadICDL();}
-function openDip() {showOnly('secDipMenu');if(!dipLoaded)loadDip();}
+function goSelect(){setAds(true);showOnly('secSelect');}
+function openICDL(){setAds(true);showOnly('secICDLMenu');if(!icdlLoaded)loadICDL();}
+function openDip() {setAds(true);showOnly('secDipMenu');if(!dipLoaded)loadDip();}
 function setAds(visible){
   document.getElementById('bannerLeft').style.display=visible?'block':'none';
   document.getElementById('bannerRight').style.display=visible?'block':'none';
