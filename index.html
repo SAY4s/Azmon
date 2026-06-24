@@ -64,13 +64,13 @@ header .contact i{color:var(--accent);margin-left:4px;}
 /* ──── PAGE BODY ──── */
 .page-body{
   flex:1; display:grid;
-  grid-template-columns:220px 1fr 220px;
+  grid-template-columns:280px 1fr 280px;
   gap:12px; padding:12px; align-items:start;
 }
 
 /* ──── BANNERS ──── */
 .banner-slot{
-  width:220px; height:311px; /* A4 portrait ratio */
+  width:280px; height:396px; /* A4 portrait ratio */
   border-radius:10px; overflow:hidden; position:relative;
   background:#1a5f7a; box-shadow:0 4px 20px rgba(0,0,0,0.28);
   border:2px solid rgba(255,255,255,0.18);
@@ -136,12 +136,7 @@ header .contact i{color:var(--accent);margin-left:4px;}
 .icdl-btn{background:var(--grad-icdl);}
 .dip-btn {background:var(--grad-dip);}
 
-/* center slideshow */
-.center-slide{
-  width:100%;height:clamp(130px,17vw,200px);
-  border-radius:10px;overflow:hidden;position:relative;
-  background:#0b3245;box-shadow:var(--sh);
-}
+
 
 /* ──── QUIZ SHARED ──── */
 .quiz-wrap{width:100%;display:none;}
@@ -462,6 +457,9 @@ footer{
       </div>
       <div class="num-grid" id="resGrid"></div>
     </div>
+
+
+
   </div><!-- /center-col -->
 
   <!-- بنر راست -->
@@ -527,13 +525,10 @@ function goSelect(){showOnly('secSelect');}
 function openICDL(){showOnly('secICDLMenu');if(!icdlLoaded)loadICDL();}
 function openDip() {showOnly('secDipMenu');if(!dipLoaded)loadDip();}
 function setAds(visible){
-  const v=visible?'':'none';
   document.getElementById('bannerLeft').style.display=visible?'block':'none';
   document.getElementById('bannerRight').style.display=visible?'block':'none';
-  document.getElementById('centerSlide').style.display=visible?'block':'none';
-  // grid back to normal or single-col for quiz
   document.querySelector('.page-body').style.gridTemplateColumns=
-    visible?'220px 1fr 220px':'1fr';
+    visible?'280px 1fr 280px':'1fr';
 }
 
 function goMenu(){
@@ -896,7 +891,6 @@ async function initSlides(){
   }
   new Slideshow('bannerLeft', names, 4500);
   new Slideshow('bannerRight',names, 5800);
-  new Slideshow('centerSlide',names, 3400);
 }
 initSlides();
 </script>
