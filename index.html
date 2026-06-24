@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -7,6 +6,14 @@
 <title>مرکز آموزشی خوارزمی</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
+@font-face {
+  font-family: 'SiteFont';
+  src: url('font/fontsite.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --primary: #1a5f7a;
   --secondary: #159895;
@@ -29,7 +36,7 @@
   --tr: all 0.2s ease;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;
-  font-family:'Vazir','Tanha','Segoe UI',Tahoma,sans-serif;}
+  font-family:'SiteFont','Vazir','Tanha','Segoe UI',Tahoma,sans-serif;}
 
 body{
   background:linear-gradient(135deg,#eef2f7,#dce8f0);
@@ -171,8 +178,8 @@ header .contact i{color:var(--accent);margin-left:4px;}
 .options{display:flex;flex-direction:column;gap:0;flex:1;}
 .opt-btn{
   width:100%;flex:1;
-  text-align:right;font-size:clamp(15px,1.9vw,22px);
-  padding:0 clamp(50px,6vw,64px) 0 16px;
+  text-align:right;font-size:clamp(18px,2.6vw,30px);
+  padding:0 clamp(60px,7vw,80px) 0 18px;
   transition:var(--tr);display:flex;align-items:center;
   border-radius:0;margin:0;position:relative;
   font-family:inherit;white-space:normal;line-height:1.5;
@@ -182,12 +189,12 @@ header .contact i{color:var(--accent);margin-left:4px;}
 .opt-btn:first-child{border-radius:10px 10px 0 0;}
 .opt-btn:last-child {border-radius:0 0 10px 10px;border-bottom:none;}
 .opt-btn::before{
-  content:attr(data-opt);position:absolute;right:12px;top:50%;
+  content:attr(data-opt);position:absolute;right:14px;top:50%;
   transform:translateY(-50%);
-  width:clamp(30px,3.5vw,42px);height:clamp(30px,3.5vw,42px);
+  width:clamp(36px,4.5vw,54px);height:clamp(36px,4.5vw,54px);
   background:rgba(0,0,0,0.25);color:white;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
-  font-weight:800;font-size:clamp(13px,1.5vw,18px);flex-shrink:0;
+  font-weight:800;font-size:clamp(15px,1.9vw,22px);flex-shrink:0;
 }
 .opt-btn:hover{filter:brightness(1.1);}
 .opt-btn.selected{background:var(--grad-warn);color:var(--dark);}
@@ -201,11 +208,11 @@ header .contact i{color:var(--accent);margin-left:4px;}
 }
 .nav-btn,.submit-btn,.home-btn{
   color:white;border:none;
-  padding:clamp(12px,1.4vw,17px) clamp(16px,1.8vw,26px);
-  border-radius:10px;cursor:pointer;font-size:clamp(14px,1.6vw,19px);
+  padding:clamp(14px,1.8vw,22px) clamp(18px,2.2vw,30px);
+  border-radius:10px;cursor:pointer;font-size:clamp(16px,2vw,24px);
   font-weight:700;font-family:inherit;transition:var(--tr);
-  display:inline-flex;align-items:center;gap:7px;
-  box-shadow:var(--sh);flex:1;justify-content:center;max-width:180px;
+  display:inline-flex;align-items:center;gap:8px;
+  box-shadow:var(--sh);flex:1;justify-content:center;max-width:200px;
 }
 .nav-btn{background:var(--grad);}
 .nav-btn.prev{background:var(--grad-nprev);}
@@ -217,18 +224,18 @@ header .contact i{color:var(--accent);margin-left:4px;}
 
 .num-grid{
   display:flex;flex-wrap:wrap;justify-content:center;
-  gap:6px;padding:10px;
+  gap:7px;padding:10px;
   background:linear-gradient(135deg,#f0f4f8,#e4ecf4);
   border-radius:10px;direction:ltr;
 }
 .num-btn{
-  width:clamp(36px,4.5vw,48px);height:clamp(36px,4.5vw,48px);
-  font-size:clamp(13px,1.5vw,18px);font-weight:800;
+  width:clamp(42px,5.5vw,60px);height:clamp(42px,5.5vw,60px);
+  font-size:clamp(15px,1.9vw,22px);font-weight:800;
   display:flex;align-items:center;justify-content:center;
   border-radius:50%;transition:var(--tr);background:var(--grad);
   color:white;border:none;cursor:pointer;box-shadow:var(--sh);
 }
-.num-btn.selected {background:var(--grad-warn);color:var(--dark);transform:scale(1.15);}
+.num-btn.selected {background:var(--grad-warn);color:var(--dark);transform:scale(1.18);}
 .num-btn.answered {background:var(--grad-ans);}
 .num-btn.correct  {background:var(--grad-ok);}
 .num-btn.incorrect{background:var(--grad-err);}
@@ -457,25 +464,25 @@ footer{
     <!-- ⑤ صفحه آزمون -->
     <div id="secQuiz" style="display:none;width:100%;min-height:100vh;display:none;flex-direction:column;">
       <!-- هدر آزمون -->
-      <div style="background:var(--grad);color:white;padding:10px 14px;border-radius:12px 12px 0 0;flex-shrink:0;">
+      <div style="background:var(--grad);color:white;padding:14px 18px;border-radius:12px 12px 0 0;flex-shrink:0;">
         <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;">
-          <div id="quizTitle" style="font-size:clamp(12px,1.5vw,16px);font-weight:800;"></div>
-          <div id="timer" style="font-size:clamp(12px,1.4vw,15px);font-weight:700;background:rgba(0,0,0,0.2);padding:4px 12px;border-radius:20px;">⏱️ 30:00</div>
+          <div id="quizTitle" style="font-size:clamp(16px,2vw,24px);font-weight:800;"></div>
+          <div id="timer" style="font-size:clamp(16px,2vw,22px);font-weight:700;background:rgba(0,0,0,0.2);padding:6px 16px;border-radius:20px;">⏱️ 30:00</div>
         </div>
-        <div class="progress-wrap" style="margin-top:7px;"><div class="progress-bar" id="progressBar"></div></div>
+        <div class="progress-wrap" style="margin-top:9px;"><div class="progress-bar" id="progressBar"></div></div>
       </div>
 
       <!-- سوال -->
-      <div style="flex:1;display:flex;flex-direction:column;padding:12px 14px 8px;gap:10px;overflow:hidden;">
+      <div style="flex:1;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
         <div id="questionBox" style="
-          font-size:clamp(14px,1.8vw,20px);font-weight:700;
-          line-height:1.7;text-align:right;
+          font-size:clamp(18px,2.4vw,28px);font-weight:700;
+          line-height:1.8;text-align:right;
           background:linear-gradient(135deg,#f8f9fa,#edf2f7);
-          border-right:4px solid var(--primary);
-          border-radius:10px;padding:14px 18px;flex-shrink:0;
+          border-right:5px solid var(--primary);
+          border-radius:12px;padding:18px 22px;flex-shrink:0;
         "></div>
         <!-- گزینه‌ها -->
-        <div class="options" id="optionsBox" style="flex:1;border-radius:10px;overflow:hidden;">
+        <div class="options" id="optionsBox" style="flex:1;border-radius:12px;overflow:hidden;">
           <button class="opt-btn" id="op0" onclick="selectOpt(0)" data-opt="الف"></button>
           <button class="opt-btn" id="op1" onclick="selectOpt(1)" data-opt="ب"></button>
           <button class="opt-btn" id="op2" onclick="selectOpt(2)" data-opt="ج"></button>
@@ -484,39 +491,39 @@ footer{
       </div>
 
       <!-- فوتر آزمون: دکمه‌ها + شماره‌ها -->
-      <div style="background:white;border-top:2px solid #eee;padding:10px 12px;flex-shrink:0;border-radius:0 0 12px 12px;">
-        <div class="nav-row" style="margin:0 0 8px;">
+      <div style="background:white;border-top:2px solid #eee;padding:12px 14px;flex-shrink:0;border-radius:0 0 12px 12px;">
+        <div class="nav-row" style="margin:0 0 10px;">
           <button class="nav-btn prev" id="prevBtn" onclick="prevQ()"><i class="fas fa-arrow-right"></i> قبلی</button>
           <button class="submit-btn" onclick="submitQuiz()"><i class="fas fa-check-circle"></i> پایان</button>
           <button class="nav-btn next" id="nextBtn" onclick="nextQ()">بعدی <i class="fas fa-arrow-left"></i></button>
         </div>
-        <div class="num-grid" id="numGrid" style="margin:0;padding:6px;background:#f8f9fa;border-radius:8px;"></div>
+        <div class="num-grid" id="numGrid" style="margin:0;padding:8px;background:#f0f4f8;border-radius:10px;"></div>
       </div>
     </div>
 
     <!-- ⑥ صفحه نتایج -->
     <div id="secResults" style="display:none;width:100%;min-height:100vh;flex-direction:column;">
       <!-- هدر نتایج -->
-      <div style="background:var(--grad);color:white;padding:10px 14px;border-radius:12px 12px 0 0;flex-shrink:0;">
-        <div id="resTitle" style="font-size:clamp(13px,1.5vw,17px);font-weight:800;text-align:center;"></div>
-        <div id="summaryBar" style="margin-top:6px;background:rgba(0,0,0,0.2);border-radius:8px;padding:6px 10px;font-size:clamp(11px,1.2vw,13px);font-weight:700;text-align:center;"></div>
-        <div style="display:flex;justify-content:space-around;margin-top:8px;">
-          <div style="text-align:center;"><div id="cntOk"  style="font-size:clamp(18px,2.5vw,26px);font-weight:900;">0</div><div style="font-size:11px;opacity:.8;">✅ درست</div></div>
-          <div style="text-align:center;"><div id="cntErr" style="font-size:clamp(18px,2.5vw,26px);font-weight:900;">0</div><div style="font-size:11px;opacity:.8;">❌ غلط</div></div>
-          <div style="text-align:center;"><div id="cntNone"style="font-size:clamp(18px,2.5vw,26px);font-weight:900;">0</div><div style="font-size:11px;opacity:.8;">⬜ بی‌پاسخ</div></div>
+      <div style="background:var(--grad);color:white;padding:14px 18px;border-radius:12px 12px 0 0;flex-shrink:0;">
+        <div id="resTitle" style="font-size:clamp(17px,2vw,24px);font-weight:800;text-align:center;"></div>
+        <div id="summaryBar" style="margin-top:8px;background:rgba(0,0,0,0.2);border-radius:10px;padding:8px 14px;font-size:clamp(14px,1.6vw,18px);font-weight:700;text-align:center;"></div>
+        <div style="display:flex;justify-content:space-around;margin-top:10px;">
+          <div style="text-align:center;"><div id="cntOk"  style="font-size:clamp(26px,3.5vw,40px);font-weight:900;">0</div><div style="font-size:clamp(13px,1.4vw,16px);opacity:.9;">✅ درست</div></div>
+          <div style="text-align:center;"><div id="cntErr" style="font-size:clamp(26px,3.5vw,40px);font-weight:900;">0</div><div style="font-size:clamp(13px,1.4vw,16px);opacity:.9;">❌ غلط</div></div>
+          <div style="text-align:center;"><div id="cntNone"style="font-size:clamp(26px,3.5vw,40px);font-weight:900;">0</div><div style="font-size:clamp(13px,1.4vw,16px);opacity:.9;">⬜ بی‌پاسخ</div></div>
         </div>
       </div>
 
       <!-- سوال نتایج -->
-      <div style="flex:1;display:flex;flex-direction:column;padding:12px 14px 8px;gap:10px;overflow:hidden;">
+      <div style="flex:1;display:flex;flex-direction:column;padding:14px 16px 10px;gap:12px;overflow:hidden;">
         <div id="resQuestion" style="
-          font-size:clamp(14px,1.8vw,20px);font-weight:700;
-          line-height:1.7;text-align:right;
+          font-size:clamp(18px,2.4vw,28px);font-weight:700;
+          line-height:1.8;text-align:right;
           background:linear-gradient(135deg,#f8f9fa,#edf2f7);
-          border-right:4px solid var(--primary);
-          border-radius:10px;padding:14px 18px;flex-shrink:0;
+          border-right:5px solid var(--primary);
+          border-radius:12px;padding:18px 22px;flex-shrink:0;
         "></div>
-        <div class="options" id="resOptions" style="flex:1;border-radius:10px;overflow:hidden;">
+        <div class="options" id="resOptions" style="flex:1;border-radius:12px;overflow:hidden;">
           <button class="opt-btn" id="ro0" disabled data-opt="الف"></button>
           <button class="opt-btn" id="ro1" disabled data-opt="ب"></button>
           <button class="opt-btn" id="ro2" disabled data-opt="ج"></button>
@@ -525,14 +532,14 @@ footer{
       </div>
 
       <!-- فوتر نتایج -->
-      <div style="background:white;border-top:2px solid #eee;padding:10px 12px;flex-shrink:0;border-radius:0 0 12px 12px;">
-        <div class="nav-row" style="margin:0 0 8px;">
+      <div style="background:white;border-top:2px solid #eee;padding:12px 14px;flex-shrink:0;border-radius:0 0 12px 12px;">
+        <div class="nav-row" style="margin:0 0 10px;">
           <button class="nav-btn prev" id="resPrev" onclick="prevRes()"><i class="fas fa-arrow-right"></i> قبلی</button>
           <button class="home-btn" onclick="goMenu()"><i class="fas fa-home"></i> منو</button>
           <button class="nav-btn" style="background:var(--grad);" onclick="retryExam()"><i class="fas fa-redo"></i> دوباره</button>
           <button class="nav-btn next" id="resNext" onclick="nextRes()">بعدی <i class="fas fa-arrow-left"></i></button>
         </div>
-        <div class="num-grid" id="resGrid" style="margin:0;padding:6px;background:#f8f9fa;border-radius:8px;"></div>
+        <div class="num-grid" id="resGrid" style="margin:0;padding:8px;background:#f0f4f8;border-radius:10px;"></div>
       </div>
     </div>
 
