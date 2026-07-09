@@ -31,6 +31,7 @@
   --grad-nprev:linear-gradient(135deg,#2196F3,#1976D2);
   --grad-nnext:linear-gradient(135deg,#9C27B0,#7B1FA2);
   --grad-graf: linear-gradient(135deg,#FF5722,#E64A19);
+  --grad-py:   linear-gradient(135deg,#3776AB,#FFD43B);
   --sh: 0 2px 8px rgba(0,0,0,0.08);
   --shh:0 4px 16px rgba(0,0,0,0.18);
   --tr: all 0.2s ease;
@@ -143,6 +144,7 @@ header .contact i{color:var(--accent);margin-left:4px;}
 .exam-btn:hover{transform:translateY(-3px);box-shadow:var(--shh);}
 .icdl-btn{background:var(--grad-icdl);}
 .dip-btn {background:var(--grad-dip);}
+.py-btn  {background:var(--grad-py);}
 
 
 
@@ -436,6 +438,9 @@ footer{
         <button class="exam-btn dip-btn" onclick="openDip()">
           <i class="fas fa-user-graduate"></i> آزمون دیپلم
         </button>
+        <button class="exam-btn py-btn" onclick="openPy()">
+          <i class="fab fa-python"></i> آزمون پایتون
+        </button>
       </div>
     </div>
 
@@ -465,6 +470,29 @@ footer{
       </div>
       <p id="dipStatus" style="margin-top:8px;font-size:11px;color:#aaa;"></p>
       <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
+    </div>
+
+    <!-- ④.۵ منوی پایتون -->
+    <div class="section" id="secPyMenu" style="display:none;">
+      <h2><i class="fab fa-python"></i> آزمون پایتون</h2>
+      <div class="exam-btns" style="margin-top:10px;">
+        <button class="exam-btn py-btn" onclick="startPy()">
+          <i class="fas fa-play-circle"></i> شروع آزمون پایتون
+        </button>
+      </div>
+      <p id="pyStatus" style="margin-top:10px;font-size:11px;color:#aaa;"></p>
+      <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
+    </div>
+
+    <!-- ④.۶ فرم دریافت نام قبل از ثبت نتایج -->
+    <div class="section" id="secNameForm" style="display:none;max-width:420px;">
+      <h2><i class="fas fa-user"></i> ثبت نام‌ونام‌خانوادگی</h2>
+      <p>برای مشاهده و ثبت نتیجه، نام و نام خانوادگی خود را وارد کنید</p>
+      <input class="login-input" type="text" id="studentNameInput" placeholder="نام و نام خانوادگی" autocomplete="off">
+      <button class="home-btn" style="width:100%;justify-content:center;" onclick="confirmNameAndShowResults()">
+        <i class="fas fa-check"></i> ثبت و مشاهده نتیجه
+      </button>
+      <p id="nameFormMsg" class="login-msg"></p>
     </div>
 
     <!-- ⑤ صفحه آزمون -->
@@ -608,7 +636,7 @@ document.getElementById('passInput').focus();
 /* ═══════════════════════════════════════════
    NAVIGATION HELPERS
 ═══════════════════════════════════════════ */
-const ALL_SECS=['secLogin','secSelect','secICDLMenu','secDipMenu','secQuiz','secResults'];
+const ALL_SECS=['secLogin','secSelect','secICDLMenu','secDipMenu','secPyMenu','secNameForm','secQuiz','secResults'];
 function show(id,vis){
   const el=document.getElementById(id);
   if(!vis){el.style.display='none';return;}
@@ -620,6 +648,7 @@ function showOnly(...ids){ALL_SECS.forEach(s=>show(s,ids.includes(s)));}
 function goSelect(){showOnly('secSelect');}
 function openICDL(){showOnly('secICDLMenu');if(!icdlLoaded)loadICDL();}
 function openDip() {showOnly('secDipMenu');if(!dipLoaded)loadDip();}
+function openPy()  {showOnly('secPyMenu'); if(!pyLoaded)loadPy();}
 function setAds(visible){
   document.getElementById('bannerLeft').style.display=visible?'block':'none';
   document.getElementById('bannerRight').style.display=visible?'block':'none';
@@ -633,6 +662,7 @@ function goMenu(){
   stopTimer();curQs=[];curIdx=0;userAns=[];
   setAds(true);
   if(activeMode==='icdl') showOnly('secICDLMenu');
+  else if(activeMode==='python') showOnly('secPyMenu');
   else showOnly('secDipMenu');
 }
 
@@ -713,6 +743,37 @@ function startDip(type){
   setAds(false);
   showOnly('secQuiz');
   document.getElementById('quizTitle').textContent=dipTitles[type]||'آزمون دیپلم';
+  renderQuestion();
+}
+
+/* ═══════════════════════════════════════════
+   PYTHON
+═══════════════════════════════════════════ */
+let pyQs=[], pyLoaded=false;
+
+async function loadPy(){
+  try{
+    const txt=await fetchTxt('qizPy.txt');
+    pyQs=parseTxt(txt,'python');
+  } catch(e){
+    document.getElementById('pyStatus').textContent='❌ فایل qizPy.txt پیدا نشد';
+  } finally {
+    pyLoaded=true;
+  }
+}
+
+function startPy(){
+  if(!pyLoaded||pyQs.length===0){alert('سوالات پایتون بارگذاری نشده‌اند!');return;}
+  activeMode='python';
+  const count=Math.min(30,pyQs.length);
+  curQs=pickRandom(pyQs,count).map(shuffleOpts);
+  userAns=new Array(curQs.length).fill(null);
+  curIdx=0;
+  buildNumGrid('numGrid');
+  startTimer();
+  setAds(false);
+  showOnly('secQuiz');
+  document.getElementById('quizTitle').textContent='🐍 آزمون پایتون';
   renderQuestion();
 }
 
@@ -853,8 +914,39 @@ function submitQuiz(){
       startTimer();return;
     }
   }
-  showResults();
+  askNameThenShowResults();
 }
+
+/* ═══════════════════════════════════════════
+   نام هنرجو قبل از نمایش نتایج
+═══════════════════════════════════════════ */
+function askNameThenShowResults(){
+  setAds(false);
+  document.getElementById('studentNameInput').value='';
+  document.getElementById('nameFormMsg').textContent='';
+  showOnly('secNameForm');
+  setTimeout(()=>document.getElementById('studentNameInput').focus(),50);
+}
+
+function confirmNameAndShowResults(){
+  const inp=document.getElementById('studentNameInput');
+  const msg=document.getElementById('nameFormMsg');
+  const name=inp.value.trim();
+  if(!name){
+    msg.textContent='❌ لطفاً نام و نام خانوادگی را وارد کنید';
+    msg.style.color='var(--danger)';
+    inp.focus();
+    return;
+  }
+  window.currentStudentName=name;
+  showResults();
+  saveResultToGithub(name);
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const el=document.getElementById('studentNameInput');
+  if(el)el.addEventListener('keypress',e=>{if(e.key==='Enter'){e.preventDefault();confirmNameAndShowResults();}});
+});
 
 function showResults(){
   let ok=0,err=0,none=0;
@@ -864,12 +956,15 @@ function showResults(){
     else err++;
   });
   const pct=Math.round(ok/curQs.length*100);
+  const hasPassThresh=activeMode!=='python';
   const passThresh=activeMode==='icdl'?20:6;
-  const passed=ok>=passThresh;
+  const passed=hasPassThresh?(ok>=passThresh):null;
 
-  document.getElementById('resTitle').textContent=(activeMode==='icdl'?'🎲':'📊')+' نتایج آزمون';
+  const titleIcon=activeMode==='icdl'?'🎲':(activeMode==='python'?'🐍':'📊');
+  document.getElementById('resTitle').textContent=titleIcon+' نتایج آزمون';
   const sb=document.getElementById('summaryBar');
-  sb.textContent=`🎯 درست: ${ok} از ${curQs.length} | 📊 درصد: ${pct}% | ${passed?'✅ قبول شدید!':'❌ مردود شدید!'}`;
+  sb.textContent=`🎯 درست: ${ok} از ${curQs.length} | 📊 درصد: ${pct}%`+
+    (hasPassThresh?` | ${passed?'✅ قبول شدید!':'❌ مردود شدید!'}`:'');
   sb.className='summary-bar'+(passed?' pass':'');
   document.getElementById('cntOk').textContent=ok;
   document.getElementById('cntErr').textContent=err;
@@ -916,7 +1011,96 @@ function nextRes(){if(curIdx<curQs.length-1){curIdx++;renderResult();}}
 function retryExam(){
   stopTimer();
   if(activeMode==='icdl')startICDL();
+  else if(activeMode==='python')startPy();
   else startDip(activeMode.replace('dip_',''));
+}
+
+/* ═══════════════════════════════════════════
+   ثبت نتیجه در گیت‌هاب (data.json)
+   ⚠️ توکن گیت‌هاب را در GITHUB_TOKEN وارد کنید (Personal Access Token
+   با دسترسی repo/contents). owner/repo/path را هم مطابق ریپوی خودتان
+   تنظیم کنید.
+═══════════════════════════════════════════ */
+const GITHUB_TOKEN = 'PUT_YOUR_GITHUB_TOKEN_HERE';
+const GITHUB_OWNER = 'your-github-username';
+const GITHUB_REPO  = 'your-repo-name';
+const GITHUB_PATH  = 'data.json'; // مسیر فایل داخل ریپو
+const GITHUB_BRANCH = 'main';
+
+async function ghApi(path,options={}){
+  return fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`,{
+    ...options,
+    headers:{
+      'Authorization':`token ${GITHUB_TOKEN}`,
+      'Accept':'application/vnd.github+json',
+      ...(options.headers||{})
+    }
+  });
+}
+
+function b64EncodeUnicode(str){
+  return btoa(unescape(encodeURIComponent(str)));
+}
+function b64DecodeUnicode(str){
+  return decodeURIComponent(escape(atob(str)));
+}
+
+async function saveResultToGithub(name){
+  if(!GITHUB_TOKEN||GITHUB_TOKEN==='PUT_YOUR_GITHUB_TOKEN_HERE'){
+    console.warn('GitHub token تنظیم نشده؛ نتیجه ذخیره نشد.');
+    return;
+  }
+  try{
+    let sha=null, data=[];
+    const getRes=await ghApi(GITHUB_PATH);
+    if(getRes.ok){
+      const j=await getRes.json();
+      sha=j.sha;
+      try{ data=JSON.parse(b64DecodeUnicode(j.content.replace(/\n/g,''))); }
+      catch(_){ data=[]; }
+      if(!Array.isArray(data))data=[];
+    }
+
+    let ok=0,err=0,none=0;
+    curQs.forEach((q,i)=>{
+      if(userAns[i]===null)none++;
+      else if(userAns[i]===q.correctIdx)ok++;
+      else err++;
+    });
+
+    const record={
+      name,
+      exam: activeMode,
+      score: ok,
+      total: curQs.length,
+      percent: Math.round(ok/curQs.length*100),
+      wrong: err,
+      unanswered: none,
+      answers: curQs.map((q,i)=>({
+        question:q.question,
+        selected: userAns[i]===null?null:(q.shuffledOpts||q.options)[userAns[i]],
+        correct: (q.shuffledOpts||q.options)[q.correctIdx]
+      })),
+      date: new Date().toISOString()
+    };
+
+    data.push(record);
+
+    const body={
+      message:`ثبت نتیجه آزمون ${activeMode} برای ${name}`,
+      content:b64EncodeUnicode(JSON.stringify(data,null,2)),
+      branch:GITHUB_BRANCH
+    };
+    if(sha)body.sha=sha;
+
+    const putRes=await ghApi(GITHUB_PATH,{method:'PUT',body:JSON.stringify(body),headers:{'Content-Type':'application/json'}});
+    if(!putRes.ok){
+      const t=await putRes.text();
+      console.error('خطا در ذخیره نتیجه در گیت‌هاب:',t);
+    }
+  }catch(e){
+    console.error('خطا در ارتباط با گیت‌هاب:',e);
+  }
 }
 
 /* ═══════════════════════════════════════════
