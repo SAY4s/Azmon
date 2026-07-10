@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>پاسخ‌برگ | نمایشگر نتایج آزمون</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+  --paper: #f2ecdd;
+  --paper-dark: #e9e0c9;
+  --ink: #232733;
+  --ink-soft: #545a6b;
+  --red: #b23a2e;
+  --red-soft: #c96257;
+  --green: #2f6844;
+  --gold: #b5893a;
+  --line: rgba(35,39,51,0.12);
+  --margin-line: rgba(178,58,46,0.35);
+}
+
+*{box-sizing:border-box; margin:0; padding:0;}
+
+body{
+  font-family:'Vazirmatn', sans-serif;
+  background:
+    repeating-linear-gradient(var(--paper) 0px, var(--paper) 33px, var(--line) 34px),
+    var(--paper);
+  color:var(--ink);
+  min-height:100vh;
+  position:relative;
+  overflow-x:hidden;
+}
+
+body::before{
+  content:'';
+  position:fixed;
+  top:0; bottom:0; right:64px;
+  width:2px;
+  background:var(--margin-line);
+  z-index:0;
+  pointer-events:none;
+}
+
+/* ---------- Drop zone ---------- */
+#dropzone{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:28px;
+  padding:40px 24px;
+  position:relative;
+  z-index:1;
+  text-align:center;
+}
+
+.stamp-title{
+  font-size:clamp(28px, 5vw, 46px);
+  font-weight:900;
+  color:var(--ink);
+  letter-spacing:-0.5px;
+}
+.stamp-title span{
+  color:var(--red);
+}
+
+.subtitle{
+  color:var(--ink-soft);
+  font-size:16px;
+  font-weight:500;
+  max-width:440px;
+  line-height:1.9;
+}
+
+.drop-card{
+  width:min(560px, 88vw);
+  border:3px dashed rgba(35,39,51,0.28);
+  border-radius:6px;
+  background:rgba(255,255,255,0.35);
+  padding:56px 28px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+  cursor:pointer;
+  transition:all .25s ease;
+  position:relative;
+}
+.drop-card.dragover{
+  border-color:var(--red);
+  background:rgba(178,58,46,0.06);
+  transform:scale(1.015);
+}
+.drop-card svg{width:52px; height:52px; stroke:var(--ink-soft); transition:stroke .25s;}
+.drop-card.dragover svg{stroke:var(--red);}
+
+.drop-card .cta{
+  font-size:18px;
+  font-weight:700;
+  color:var(--ink);
+}
+.drop-card .hint{
+  font-size:13px;
+  color:var(--ink-soft);
+  font-weight:500;
+}
+.drop-card input{display:none;}
+
+.error-msg{
+  color:var(--red);
+  font-weight:600;
+  font-size:14px;
+  display:none;
+}
+
+/* ---------- Topic selection view ---------- */
+#topicView{
+  display:none;
+  min-height:100vh;
+  max-width:680px;
+  margin:0 auto;
+  padding:64px 24px 80px;
+  position:relative;
+  z-index:1;
+  text-align:center;
+}
+#topicView .subtitle{margin:0 auto 32px;}
+#topicRows{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  text-align:right;
+}
+.topic-card{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-right:4px solid var(--gold);
+  border-radius:8px;
+  padding:20px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.topic-card:hover{
+  border-color:var(--red-soft);
+  border-right-color:var(--red);
+  background:rgba(255,255,255,0.85);
+  transform:translateX(-3px);
+}
+.topic-card .t-name{
+  font-weight:800;
+  font-size:17px;
+}
+.topic-card .t-count{
+  font-size:13px;
+  color:var(--ink-soft);
+  font-weight:600;
+  background:var(--paper-dark);
+  padding:4px 12px;
+  border-radius:20px;
+  flex-shrink:0;
+}
+
+/* ---------- Paper list (multi-student) ---------- */
+#listView{
+  display:none;
+  max-width:760px;
+  margin:0 auto;
+  padding:48px 24px 80px;
+  position:relative;
+  z-index:1;
+}
+.list-header{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  margin-bottom:28px;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.list-header h1{
+  font-size:24px;
+  font-weight:800;
+}
+.list-header .count{
+  color:var(--ink-soft);
+  font-size:14px;
+  font-weight:600;
+}
+
+.date-filter{
+  background:rgba(255,255,255,0.45);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:16px 18px;
+  margin-bottom:22px;
+}
+.date-filter .df-title{
+  font-size:13px;
+  font-weight:700;
+  color:var(--ink-soft);
+  margin-bottom:12px;
+}
+.df-rows{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.df-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.df-row .df-label{
+  font-size:13px;
+  font-weight:700;
+  min-width:32px;
+  color:var(--ink);
+}
+.df-row select{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:600;
+  padding:7px 10px;
+  border-radius:6px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  color:var(--ink);
+  cursor:pointer;
+}
+.df-actions{
+  display:flex;
+  gap:8px;
+  margin-top:12px;
+}
+.df-btn{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:7px 16px;
+  border-radius:20px;
+  border:1.5px solid var(--ink);
+  background:var(--ink);
+  color:var(--paper);
+  cursor:pointer;
+}
+.df-btn.secondary{
+  background:transparent;
+  color:var(--ink-soft);
+  border-color:var(--line);
+}
+.df-empty{
+  text-align:center;
+  padding:30px 20px;
+  color:var(--ink-soft);
+  font-weight:600;
+  display:none;
+}
+
+.date-group{
+  margin-bottom:26px;
+}
+.date-group-title{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:14px;
+  font-weight:800;
+  color:var(--red);
+  margin-bottom:12px;
+  padding-bottom:6px;
+  border-bottom:1.5px dashed var(--line);
+}
+.date-group-title .cnt{
+  font-weight:600;
+  font-size:12px;
+  color:var(--ink-soft);
+}
+
+.sheet-row{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:18px 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:12px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.sheet-row:hover{
+  border-color:var(--red-soft);
+  background:rgba(255,255,255,0.8);
+  transform:translateX(-3px);
+}
+.sheet-row .who{display:flex; flex-direction:column; gap:4px;}
+.sheet-row .name{font-weight:700; font-size:16px;}
+.sheet-row .meta{font-size:13px; color:var(--ink-soft); font-weight:500;}
+.sheet-row .score-badge{
+  font-weight:900;
+  font-size:20px;
+  min-width:56px;
+  text-align:center;
+}
+
+/* ---------- Detail view ---------- */
+#detailView{
+  display:none;
+  max-width:820px;
+  margin:0 auto;
+  padding:36px 24px 100px;
+  position:relative;
+  z-index:1;
+}
+
+.back-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:none;
+  border:none;
+  font-family:inherit;
+  font-size:14px;
+  font-weight:700;
+  color:var(--ink-soft);
+  cursor:pointer;
+  margin-bottom:24px;
+  padding:6px 2px;
+}
+.back-btn:hover{color:var(--red);}
+
+.report-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:24px;
+  flex-wrap:wrap;
+  margin-bottom:8px;
+}
+.report-head .id{
+  flex:1;
+  min-width:200px;
+}
+.report-head h1{
+  font-size:clamp(22px,4vw,30px);
+  font-weight:800;
+  margin-bottom:6px;
+}
+.report-head .exam-name{
+  display:inline-block;
+  background:var(--ink);
+  color:var(--paper);
+  font-size:12px;
+  font-weight:700;
+  padding:4px 12px;
+  border-radius:20px;
+  margin-left:8px;
+}
+.report-head .date{
+  color:var(--ink-soft);
+  font-size:13px;
+  font-weight:500;
+  margin-top:8px;
+}
+
+.stamp{
+  width:112px;
+  height:112px;
+  border-radius:50%;
+  border:3px dashed var(--red);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  transform:rotate(-9deg);
+  color:var(--red);
+  flex-shrink:0;
+  background:rgba(178,58,46,0.04);
+}
+.stamp.pass{border-color:var(--green); color:var(--green); background:rgba(47,104,68,0.05);}
+.stamp .pct{font-size:28px; font-weight:900; line-height:1;}
+.stamp .pct::after{content:'٪';}
+.stamp .lbl{font-size:10px; font-weight:700; margin-top:2px; letter-spacing:1px;}
+
+.stats-row{
+  display:flex;
+  gap:10px;
+  margin:28px 0 8px;
+  flex-wrap:wrap;
+}
+.stat{
+  flex:1;
+  min-width:100px;
+  background:rgba(255,255,255,0.45);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:14px 16px;
+  text-align:center;
+}
+.stat .num{font-size:22px; font-weight:900;}
+.stat .lab{font-size:12px; color:var(--ink-soft); font-weight:600; margin-top:2px;}
+.stat.correct .num{color:var(--green);}
+.stat.wrong .num{color:var(--red);}
+.stat.blank .num{color:var(--gold);}
+
+.filter-bar{
+  display:flex;
+  gap:8px;
+  margin:26px 0 18px;
+  flex-wrap:wrap;
+}
+.filter-btn{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:8px 16px;
+  border-radius:20px;
+  border:1.5px solid var(--line);
+  background:transparent;
+  color:var(--ink-soft);
+  cursor:pointer;
+  transition:all .15s ease;
+}
+.filter-btn.active{
+  background:var(--ink);
+  border-color:var(--ink);
+  color:var(--paper);
+}
+
+.q-list{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.q-item{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-right:4px solid var(--ink-soft);
+  border-radius:6px;
+  padding:16px 20px;
+  position:relative;
+}
+.q-item.correct{border-right-color:var(--green);}
+.q-item.wrong{border-right-color:var(--red);}
+.q-item.blank{border-right-color:var(--gold);}
+
+.q-top{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+}
+.q-num{
+  font-size:12px;
+  font-weight:700;
+  color:var(--ink-soft);
+  margin-left:8px;
+}
+.q-text{
+  font-size:15px;
+  font-weight:600;
+  line-height:1.8;
+  flex:1;
+}
+.q-icon{
+  flex-shrink:0;
+  width:26px;
+  height:26px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:14px;
+}
+.q-item.correct .q-icon{background:rgba(47,104,68,0.12); color:var(--green);}
+.q-item.wrong .q-icon{background:rgba(178,58,46,0.12); color:var(--red);}
+.q-item.blank .q-icon{background:rgba(181,137,58,0.14); color:var(--gold);}
+
+.q-answers{
+  margin-top:12px;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  font-size:13.5px;
+}
+.ans-row{
+  display:flex;
+  gap:6px;
+}
+.ans-row .k{color:var(--ink-soft); font-weight:600; flex-shrink:0;}
+.ans-row .v{font-weight:600;}
+.q-item.wrong .ans-row.selected .v{color:var(--red); text-decoration:wavy underline var(--red-soft) 2px; text-underline-offset:4px;}
+.q-item.blank .ans-row.selected .v{color:var(--ink-soft); font-style:italic;}
+.q-item .ans-row.correct-row .v{color:var(--green);}
+
+.empty-filter{
+  text-align:center;
+  padding:40px 20px;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+
+@media (max-width:640px){
+  body::before{right:20px;}
+  .report-head{flex-direction:column;}
+  .stamp{align-self:flex-start;}
+}
+</style>
+</head>
+<body>
+
+<!-- DROP ZONE -->
+<div id="dropzone">
+  <div class="stamp-title">پاسخ‌<span>برگ</span></div>
+  <p class="subtitle">فایل JSON نتایج آزمون را اینجا رها کن تا مثل یک برگه‌ی تصحیح‌شده نمایش داده بشه.</p>
+  <label class="drop-card" id="dropCard">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
+    <div class="cta">فایل را بکش و رها کن</div>
+    <div class="hint">یا کلیک کن برای انتخاب فایل (.json)</div>
+    <input type="file" id="fileInput" accept="application/json,.json">
+  </label>
+  <p class="error-msg" id="errorMsg">فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.</p>
+</div>
+
+<!-- TOPIC SELECTION VIEW -->
+<div id="topicView">
+  <div class="stamp-title" style="font-size:clamp(24px,4vw,34px);">انتخاب <span style="color:var(--red);">مبحث</span></div>
+  <p class="subtitle">این فایل چند مبحث مختلف داره؛ اول انتخاب کن کدوم رو می‌خوای ببینی.</p>
+  <div id="topicRows"></div>
+</div>
+
+<!-- LIST VIEW (multiple entries) -->
+<div id="listView">
+  <button class="back-btn" id="listBackBtn" style="display:none;">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+    بازگشت به انتخاب مبحث
+  </button>
+  <div class="list-header">
+    <h1 id="listTitle">پاسخ‌برگ‌ها</h1>
+    <span class="count" id="listCount"></span>
+  </div>
+
+  <div class="date-filter">
+    <div class="df-title">بازه‌ی تاریخ (شمسی)</div>
+    <div class="df-rows">
+      <div class="df-row">
+        <span class="df-label">از:</span>
+        <select id="fromDay"></select>
+        <select id="fromMonth"></select>
+        <select id="fromYear"></select>
+      </div>
+      <div class="df-row">
+        <span class="df-label">تا:</span>
+        <select id="toDay"></select>
+        <select id="toMonth"></select>
+        <select id="toYear"></select>
+      </div>
+    </div>
+    <div class="df-actions">
+      <button class="df-btn" id="applyDateFilter">اعمال بازه</button>
+      <button class="df-btn secondary" id="clearDateFilter">پاک‌کردن</button>
+    </div>
+  </div>
+
+  <div id="sheetRows"></div>
+  <div class="df-empty" id="dfEmpty">هیچ پاسخ‌برگی توی این بازه‌ی تاریخ پیدا نشد.</div>
+</div>
+
+<!-- DETAIL VIEW -->
+<div id="detailView">
+  <button class="back-btn" id="backBtn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+    بازگشت به فهرست
+  </button>
+
+  <div class="report-head">
+    <div class="id">
+      <h1 id="studentName"></h1>
+      <span class="exam-name" id="examName"></span>
+      <div class="date" id="examDate"></div>
+    </div>
+    <div class="stamp" id="stamp">
+      <div class="pct" id="pctNum"></div>
+      <div class="lbl">نتیجه</div>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat"><div class="num" id="statScore"></div><div class="lab">نمره</div></div>
+    <div class="stat correct"><div class="num" id="statCorrect"></div><div class="lab">درست</div></div>
+    <div class="stat wrong"><div class="num" id="statWrong"></div><div class="lab">غلط</div></div>
+    <div class="stat blank"><div class="num" id="statBlank"></div><div class="lab">بی‌پاسخ</div></div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">همه</button>
+    <button class="filter-btn" data-filter="wrong">فقط غلط‌ها</button>
+    <button class="filter-btn" data-filter="blank">فقط بی‌پاسخ</button>
+    <button class="filter-btn" data-filter="correct">فقط درست‌ها</button>
+  </div>
+
+  <div class="q-list" id="qList"></div>
+  <div class="empty-filter" id="emptyFilter" style="display:none;">در این دسته سوالی وجود نداره 🎉</div>
+</div>
+
+<script>
+/* ---------- Jalali (Shamsi) calendar conversion ---------- */
+const PERSIAN_MONTHS = ['فروردین','اردیبهشت','خرداد','تیر','مرداد','شهریور','مهر','آبان','آذر','دی','بهمن','اسفند'];
+
+function jdiv(a,b){ return Math.trunc(a/b); }
+function jmod(a,b){ return a - Math.trunc(a/b)*b; }
+function jalCal(jy){
+  const breaks = [-61,9,38,199,426,686,756,818,1111,1181,1210,1635,2060,2097,2192,2262,2324,2394,2456,3178];
+  const bl = breaks.length;
+  const gy = jy + 621;
+  let leapJ = -14, jp = breaks[0], jm, jump = 0, leap, n, i;
+  for (i=1; i<bl; i+=1){
+    jm = breaks[i];
+    jump = jm - jp;
+    if (jy < jm) break;
+    leapJ = leapJ + jdiv(jump,33)*8 + jdiv(jmod(jump,33),4);
+    jp = jm;
+  }
+  n = jy - jp;
+  leapJ = leapJ + jdiv(n,33)*8 + jdiv(jmod(n,33)+3,4);
+  if (jmod(jump,33) === 4 && jump - n === 4) leapJ += 1;
+  const leapG = jdiv(gy,4) - jdiv((jdiv(gy,100)+1)*3,4) - 150;
+  const march = 20 + leapJ - leapG;
+  if (jump - n < 6) n = n - jump + jdiv(jump+4,33)*33;
+  leap = jmod(jmod(n+1,33)-1,4);
+  if (leap === -1) leap = 4;
+  return { leap, gy, march };
+}
+function g2d(gy,gm,gd){
+  let d = jdiv((gy+jdiv(gm-8,6)+100100)*1461,4) + jdiv(153*jmod(gm+9,12)+2,5) + gd - 34840408;
+  d = d - jdiv(jdiv(gy+100100+jdiv(gm-8,6),100)*3,4) + 752;
+  return d;
+}
+function d2g(jdn){
+  let j = 4*jdn + 139361631;
+  j = j + jdiv(jdiv(4*jdn+183187720,146097)*3,4)*4 - 3908;
+  const i = jdiv(jmod(j,1461),4)*5+308;
+  const gd = jdiv(jmod(i,153),5)+1;
+  const gm = jmod(jdiv(i,153),12)+1;
+  const gy = jdiv(j,1461)-100100+jdiv(8-gm,6);
+  return [gy,gm,gd];
+}
+function j2d(jy,jm,jd){
+  const r = jalCal(jy);
+  return g2d(r.gy,3,r.march) + (jm-1)*31 - jdiv(jm,7)*(jm-7) + jd - 1;
+}
+function d2j(jdn){
+  const gy0 = d2g(jdn)[0];
+  let jy = gy0 - 621;
+  const r = jalCal(jy);
+  const jdn1f = g2d(r.gy,3,r.march);
+  let k = jdn - jdn1f, jm, jd;
+  if (k >= 0){
+    if (k <= 185){
+      jm = 1 + jdiv(k,31);
+      jd = jmod(k,31) + 1;
+      return [jy, jm, jd];
+    } else {
+      k -= 186;
+    }
+  } else {
+    jy -= 1;
+    k += 179;
+    if (r.leap === 1) k += 1;
+  }
+  jm = 7 + jdiv(k,30);
+  jd = jmod(k,30) + 1;
+  return [jy, jm, jd];
+}
+function gregorianToJalali(gy,gm,gd){
+  return d2j(g2d(gy,gm,gd));
+}
+function jalaliToGregorian(jy,jm,jd){
+  return d2g(j2d(jy,jm,jd));
+}
+function toJalali(dateObj){
+  return gregorianToJalali(dateObj.getFullYear(), dateObj.getMonth()+1, dateObj.getDate());
+}
+function jalaliKey(jy,jm,jd){ return jy*10000 + jm*100 + jd; }
+
+let fullData = [];
+let currentData = [];
+let selectedTopic = null;
+let currentFilter = 'all';
+let currentEntry = null;
+let dateRange = null; // {from:[jy,jm,jd], to:[jy,jm,jd]}
+
+const dropzone = document.getElementById('dropzone');
+const dropCard = document.getElementById('dropCard');
+const fileInput = document.getElementById('fileInput');
+const errorMsg = document.getElementById('errorMsg');
+const topicView = document.getElementById('topicView');
+const listView = document.getElementById('listView');
+const detailView = document.getElementById('detailView');
+
+function showError(msg){
+  errorMsg.textContent = msg || 'فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.';
+  errorMsg.style.display = 'block';
+}
+
+['dragenter','dragover'].forEach(ev=>{
+  dropCard.addEventListener(ev, e=>{
+    e.preventDefault(); e.stopPropagation();
+    dropCard.classList.add('dragover');
+  });
+});
+['dragleave','drop'].forEach(ev=>{
+  dropCard.addEventListener(ev, e=>{
+    e.preventDefault(); e.stopPropagation();
+    dropCard.classList.remove('dragover');
+  });
+});
+dropCard.addEventListener('drop', e=>{
+  const file = e.dataTransfer.files[0];
+  if(file) handleFile(file);
+});
+fileInput.addEventListener('change', e=>{
+  const file = e.target.files[0];
+  if(file) handleFile(file);
+});
+
+// allow dropping anywhere on page too
+window.addEventListener('dragover', e=>e.preventDefault());
+window.addEventListener('drop', e=>{
+  e.preventDefault();
+  if(dropzone.style.display !== 'none' && e.dataTransfer.files[0]){
+    handleFile(e.dataTransfer.files[0]);
+  }
+});
+
+function uniqueTopics(data){
+  const map = new Map();
+  data.forEach(entry=>{
+    const key = entry.exam || 'بدون‌عنوان';
+    map.set(key, (map.get(key) || 0) + 1);
+  });
+  return map; // topicName -> count
+}
+
+function handleFile(file){
+  errorMsg.style.display = 'none';
+  const reader = new FileReader();
+  reader.onload = e=>{
+    try{
+      let data = JSON.parse(e.target.result);
+      if(!Array.isArray(data)) data = [data];
+      if(data.length === 0) throw new Error('empty');
+      fullData = data;
+      dateRange = null;
+      selectedTopic = null;
+      dropzone.style.display = 'none';
+
+      if(data.length === 1){
+        currentData = data;
+        openDetail(data[0]);
+        return;
+      }
+      const topics = uniqueTopics(data);
+      if(topics.size <= 1){
+        currentData = data;
+        openList(data);
+      } else {
+        openTopicView(data);
+      }
+    } catch(err){
+      showError();
+    }
+  };
+  reader.onerror = ()=>showError('خواندن فایل با خطا مواجه شد.');
+  reader.readAsText(file, 'utf-8');
+}
+
+function openTopicView(data){
+  listView.style.display = 'none';
+  detailView.style.display = 'none';
+  topicView.style.display = 'block';
+  window.scrollTo(0,0);
+  const topics = uniqueTopics(data);
+  const rowsEl = document.getElementById('topicRows');
+  rowsEl.innerHTML = '';
+  Array.from(topics.entries()).forEach(([name, count])=>{
+    const card = document.createElement('div');
+    card.className = 'topic-card';
+    card.innerHTML = `
+      <div class="t-name">${escapeHtml(name)}</div>
+      <div class="t-count">${count} پاسخ‌برگ</div>
+    `;
+    card.addEventListener('click', ()=>{
+      selectedTopic = name;
+      currentData = data.filter(entry=>(entry.exam || 'بدون‌عنوان') === name);
+      openList(currentData);
+    });
+    rowsEl.appendChild(card);
+  });
+}
+
+function fmtDate(iso){
+  if(!iso) return '';
+  try{
+    const d = new Date(iso);
+    const [jy,jm,jd] = toJalali(d);
+    const hh = String(d.getHours()).padStart(2,'0');
+    const mm = String(d.getMinutes()).padStart(2,'0');
+    return `${jd} ${PERSIAN_MONTHS[jm-1]} ${jy} — ساعت ${hh}:${mm}`;
+  } catch(e){ return iso; }
+}
+function fmtDateShort(iso){
+  if(!iso) return '';
+  try{
+    const d = new Date(iso);
+    const [jy,jm,jd] = toJalali(d);
+    return `${jd} ${PERSIAN_MONTHS[jm-1]} ${jy}`;
+  } catch(e){ return iso; }
+}
+
+function entryJalali(entry){
+  if(!entry.date) return null;
+  const d = new Date(entry.date);
+  if(isNaN(d.getTime())) return null;
+  return toJalali(d);
+}
+
+function buildSheetRow(entry){
+  const row = document.createElement('div');
+  row.className = 'sheet-row';
+  const color = entry.percent >= 50 ? 'var(--green)' : 'var(--red)';
+  row.innerHTML = `
+    <div class="who">
+      <div class="name">${escapeHtml(entry.name || 'بدون نام')}</div>
+      <div class="meta">${escapeHtml(entry.exam || '')} · ${fmtDate(entry.date)}</div>
+    </div>
+    <div class="score-badge" style="color:${color}">${entry.percent ?? '-'}٪</div>
+  `;
+  row.addEventListener('click', ()=>openDetail(entry));
+  return row;
+}
+
+function populateDateSelects(){
+  const dayEls = [document.getElementById('fromDay'), document.getElementById('toDay')];
+  const monthEls = [document.getElementById('fromMonth'), document.getElementById('toMonth')];
+  const yearEls = [document.getElementById('fromYear'), document.getElementById('toYear')];
+
+  // gather jalali years present in the data (fallback to current year)
+  const today = new Date();
+  const [curJy] = toJalali(today);
+  let years = currentData.map(entryJalali).filter(Boolean).map(j=>j[0]);
+  if(years.length === 0) years = [curJy];
+  const minY = Math.min(...years) - 1;
+  const maxY = Math.max(...years, curJy);
+
+  dayEls.forEach(el=>{
+    el.innerHTML = '';
+    for(let d=1; d<=31; d++){
+      const o = document.createElement('option');
+      o.value = d; o.textContent = d;
+      el.appendChild(o);
+    }
+  });
+  monthEls.forEach(el=>{
+    el.innerHTML = '';
+    PERSIAN_MONTHS.forEach((m,i)=>{
+      const o = document.createElement('option');
+      o.value = i+1; o.textContent = m;
+      el.appendChild(o);
+    });
+  });
+  yearEls.forEach(el=>{
+    el.innerHTML = '';
+    for(let y=maxY; y>=minY; y--){
+      const o = document.createElement('option');
+      o.value = y; o.textContent = y;
+      el.appendChild(o);
+    }
+  });
+
+  // default: from = earliest date in data, to = latest date in data
+  const jalis = currentData.map(entryJalali).filter(Boolean);
+  if(jalis.length){
+    const keys = jalis.map(j=>jalaliKey(j[0],j[1],j[2]));
+    const minJ = jalis[keys.indexOf(Math.min(...keys))];
+    const maxJ = jalis[keys.indexOf(Math.max(...keys))];
+    document.getElementById('fromYear').value = minJ[0];
+    document.getElementById('fromMonth').value = minJ[1];
+    document.getElementById('fromDay').value = minJ[2];
+    document.getElementById('toYear').value = maxJ[0];
+    document.getElementById('toMonth').value = maxJ[1];
+    document.getElementById('toDay').value = maxJ[2];
+  }
+}
+
+function openList(data){
+  topicView.style.display = 'none';
+  detailView.style.display = 'none';
+  listView.style.display = 'block';
+  window.scrollTo(0,0);
+
+  const hasTopics = uniqueTopics(fullData).size > 1;
+  document.getElementById('listBackBtn').style.display = hasTopics ? 'inline-flex' : 'none';
+  document.getElementById('listTitle').textContent = selectedTopic ? selectedTopic : 'پاسخ‌برگ‌ها';
+
+  populateDateSelects();
+  renderList();
+}
+
+function renderList(){
+  const data = currentData;
+  const rowsEl = document.getElementById('sheetRows');
+  const dfEmpty = document.getElementById('dfEmpty');
+  rowsEl.innerHTML = '';
+
+  let filtered = data;
+  if(dateRange){
+    const fromKey = jalaliKey(...dateRange.from);
+    const toKey = jalaliKey(...dateRange.to);
+    filtered = data.filter(entry=>{
+      const j = entryJalali(entry);
+      if(!j) return false;
+      const k = jalaliKey(j[0],j[1],j[2]);
+      return k >= fromKey && k <= toKey;
+    });
+  }
+
+  document.getElementById('listCount').textContent = filtered.length + ' از ' + data.length + ' نفر';
+
+  if(filtered.length === 0){
+    dfEmpty.style.display = 'block';
+    return;
+  }
+  dfEmpty.style.display = 'none';
+
+  // group by jalali day, most recent first
+  const groups = new Map(); // key -> {label, items:[]}
+  filtered.forEach(entry=>{
+    const j = entryJalali(entry);
+    const key = j ? jalaliKey(j[0],j[1],j[2]) : -1;
+    const label = j ? fmtDateShort(entry.date) : 'بدون تاریخ';
+    if(!groups.has(key)) groups.set(key, {label, items:[]});
+    groups.get(key).items.push(entry);
+  });
+
+  const sortedKeys = Array.from(groups.keys()).sort((a,b)=>b-a);
+  sortedKeys.forEach(key=>{
+    const group = groups.get(key);
+    const wrap = document.createElement('div');
+    wrap.className = 'date-group';
+    wrap.innerHTML = `<div class="date-group-title">${group.label} <span class="cnt">(${group.items.length} پاسخ‌برگ)</span></div>`;
+    group.items.forEach(entry=>wrap.appendChild(buildSheetRow(entry)));
+    rowsEl.appendChild(wrap);
+  });
+}
+
+document.getElementById('listBackBtn').addEventListener('click', ()=>{
+  openTopicView(fullData);
+});
+document.getElementById('applyDateFilter').addEventListener('click', ()=>{
+  dateRange = {
+    from: [+document.getElementById('fromYear').value, +document.getElementById('fromMonth').value, +document.getElementById('fromDay').value],
+    to: [+document.getElementById('toYear').value, +document.getElementById('toMonth').value, +document.getElementById('toDay').value]
+  };
+  renderList();
+});
+document.getElementById('clearDateFilter').addEventListener('click', ()=>{
+  dateRange = null;
+  populateDateSelects();
+  renderList();
+});
+
+function openDetail(entry){
+  currentEntry = entry;
+  currentFilter = 'all';
+  listView.style.display = 'none';
+  detailView.style.display = 'block';
+  window.scrollTo(0,0);
+
+  document.getElementById('studentName').textContent = entry.name || 'بدون نام';
+  document.getElementById('examName').textContent = entry.exam || '';
+  document.getElementById('examDate').textContent = fmtDate(entry.date);
+
+  const pct = entry.percent ?? 0;
+  const stampEl = document.getElementById('stamp');
+  stampEl.classList.toggle('pass', pct >= 50);
+  document.getElementById('pctNum').textContent = pct;
+
+  document.getElementById('statScore').textContent = `${entry.score ?? 0} / ${entry.total ?? 0}`;
+  const answers = entry.answers || [];
+  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+  const blankCount = answers.filter(a=>a.selected === null).length;
+  document.getElementById('statCorrect').textContent = correctCount;
+  document.getElementById('statWrong').textContent = wrongCount;
+  document.getElementById('statBlank').textContent = blankCount;
+
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.toggle('active', b.dataset.filter==='all'));
+
+  renderQuestions();
+
+  // show back button only if we came from a list
+  document.getElementById('backBtn').style.display = (currentData.length > 1 || uniqueTopics(fullData).size > 1) ? 'inline-flex' : 'none';
+}
+
+function statusOf(a){
+  if(a.selected === null) return 'blank';
+  return a.selected === a.correct ? 'correct' : 'wrong';
+}
+
+function renderQuestions(){
+  const answers = (currentEntry.answers || []);
+  const qList = document.getElementById('qList');
+  const emptyEl = document.getElementById('emptyFilter');
+  qList.innerHTML = '';
+
+  const filtered = answers.filter(a=>{
+    if(currentFilter === 'all') return true;
+    return statusOf(a) === currentFilter;
+  });
+
+  if(filtered.length === 0){
+    emptyEl.style.display = 'block';
+    return;
+  }
+  emptyEl.style.display = 'none';
+
+  filtered.forEach((a)=>{
+    const realIndex = answers.indexOf(a) + 1;
+    const status = statusOf(a);
+    const icon = status === 'correct' ? '✓' : status === 'wrong' ? '✗' : '—';
+    const item = document.createElement('div');
+    item.className = `q-item ${status}`;
+    item.innerHTML = `
+      <div class="q-top">
+        <div class="q-text"><span class="q-num">${realIndex}.</span>${escapeHtml(a.question || '')}</div>
+        <div class="q-icon">${icon}</div>
+      </div>
+      <div class="q-answers">
+        ${a.selected !== null ? `<div class="ans-row selected"><span class="k">پاسخ داده‌شده:</span><span class="v">${escapeHtml(a.selected)}</span></div>` : `<div class="ans-row selected"><span class="k">پاسخ داده‌شده:</span><span class="v">بدون پاسخ</span></div>`}
+        ${status !== 'correct' ? `<div class="ans-row correct-row"><span class="k">پاسخ درست:</span><span class="v">${escapeHtml(a.correct)}</span></div>` : ''}
+      </div>
+    `;
+    qList.appendChild(item);
+  });
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderQuestions();
+  });
+});
+
+document.getElementById('backBtn').addEventListener('click', ()=>{
+  detailView.style.display = 'none';
+  const hasTopics = uniqueTopics(fullData).size > 1;
+  if(currentData.length > 1){
+    openList(currentData);
+  } else if(hasTopics){
+    openTopicView(fullData);
+  } else {
+    dropzone.style.display = 'flex';
+  }
+});
+
+function escapeHtml(str){
+  if(str === null || str === undefined) return '';
+  return String(str)
+    .replaceAll('&','&amp;')
+    .replaceAll('<','&lt;')
+    .replaceAll('>','&gt;')
+    .replaceAll('"','&quot;');
+}
+</script>
+</body>
+</html>
