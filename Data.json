@@ -335,5 +335,87 @@
     "unanswered": 0,
     "answers": [],
     "date": "2026-07-10T11:39:47.514Z"
+  },
+  {
+    "name": "5",
+    "exam": "dip_graphics",
+    "score": 0,
+    "total": 14,
+    "percent": 0,
+    "wrong": 0,
+    "unanswered": 14,
+    "answers": [
+      {
+        "question": "به ترکیب چند عکس یا تصویر مختلف چه می‌گویند؟",
+        "selected": null,
+        "correct": "کلاژ"
+      },
+      {
+        "question": "پنجره‌ی جلوه‌های ویژه لایه چه نام دارد؟",
+        "selected": null,
+        "correct": "Layer Style"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان الگوهای از پیش طراحی‌شده را روی یک تصویر مانند یک مُهر انداخت؟",
+        "selected": null,
+        "correct": "Pattern Stamp"
+      },
+      {
+        "question": "با استفاده از کدام گزینه در نرم‌افزار کورل می‌توان شی را برجسته‌کاری کرد؟",
+        "selected": null,
+        "correct": "Extrude"
+      },
+      {
+        "question": "کدام ابزار به ابزار ترمیم معروف است؟",
+        "selected": null,
+        "correct": "Healing Brush"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان میزان شفافیت قسمت محافظت‌شده در برش را تعیین کرد؟",
+        "selected": null,
+        "correct": "Opacity"
+      },
+      {
+        "question": "با استفاده از کدام فیلتر در مجموعه‌ی Filter Gallery می‌توان سطح تصویر را دارای بافت کرد؟",
+        "selected": null,
+        "correct": "Texture"
+      },
+      {
+        "question": "برای درج صفحه بعد از صفحه‌ی جاری در نرم‌افزار کورل کدام گزینه کاربرد دارد؟",
+        "selected": null,
+        "correct": "Insert Page After"
+      },
+      {
+        "question": "برای کپی کردن قسمت انتخاب‌شده در هنگام استفاده از ابزار Move کدام کلید را باید نگه داشت؟",
+        "selected": null,
+        "correct": "Alt"
+      },
+      {
+        "question": "جامع‌ترین مدل رنگی کدام گزینه می‌باشد؟",
+        "selected": null,
+        "correct": "LAB"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان نویز و خراشیدگی تصویر را بیشتر کرد؟",
+        "selected": null,
+        "correct": "Sharpen Tool"
+      },
+      {
+        "question": "در پنجره‌ی تصحیح لبه‌های تصویر، با تغییر کدام نوار لبه‌های قسمت انتخاب‌شده نرم‌تر می‌شود؟",
+        "selected": null,
+        "correct": "Smooth"
+      },
+      {
+        "question": "با فعال بودن کدام گزینه، انتخاب جدید به انتخاب قبلی می‌چسبد (اضافه می‌شود)؟",
+        "selected": null,
+        "correct": "Add To Selection"
+      },
+      {
+        "question": "برای برش قسمتی از شئ و حذف کردن بقیه‌ی قسمت‌ها از کدام ابزار در کورل استفاده می‌شود؟",
+        "selected": null,
+        "correct": "Crop Tool"
+      }
+    ],
+    "date": "2026-07-10T11:39:52.046Z"
   }
 ]
