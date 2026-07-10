@@ -160,5 +160,87 @@
       }
     ],
     "date": "2026-07-10T11:25:27.933Z"
+  },
+  {
+    "name": "1",
+    "exam": "dip_typing",
+    "score": 0,
+    "total": 14,
+    "percent": 0,
+    "wrong": 0,
+    "unanswered": 14,
+    "answers": [
+      {
+        "question": "کلید میان بر Hyperlink کدام گزینه است؟",
+        "selected": null,
+        "correct": "Ctrl +K"
+      },
+      {
+        "question": "از کدام گزینه برای تعیین نحوه ی نمایش و قالب بندی شماره ها استفاده میشود؟",
+        "selected": null,
+        "correct": "Number Format"
+      },
+      {
+        "question": "در کادر محاوره ای Border and Shading چه عملی را نمی توان انجام داد؟",
+        "selected": null,
+        "correct": "تعیین رنگ متن داخل جدول"
+      },
+      {
+        "question": "با انتخاب کدام گزینه فقط صفحه ای که در آن هستید چاپ می شود؟",
+        "selected": null,
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "کدام مورد برای تبدیل جدول به متن و برعکس میباشد؟",
+        "selected": null,
+        "correct": "Convert to text"
+      },
+      {
+        "question": "برای تقسیم یک جدول به دو جدول از کدام گزینه استفاده میشود؟",
+        "selected": null,
+        "correct": "Split Table"
+      },
+      {
+        "question": "در پنجره ی Font با انتخاب کدام گزینه حروف انگلیسی بزرگ نمایش داده میشوند و حرف اول از لحاظ گرافیکی بزرگتر میشود؟",
+        "selected": null,
+        "correct": "Small Caps"
+      },
+      {
+        "question": "برای درج سطر یا سطرها در پایین سطر جاری کدام گزینه کاربرد دارد؟",
+        "selected": null,
+        "correct": "Insert Rows Below"
+      },
+      {
+        "question": "جهت درج هاشور و الگو روی پس زمینه از کدام گزینه استفاده میشود؟",
+        "selected": null,
+        "correct": "Pattern"
+      },
+      {
+        "question": "اندازه ی پیش فرض Tab چند سانتی متر میباشد؟",
+        "selected": null,
+        "correct": "1.27"
+      },
+      {
+        "question": "با نگه داشتن کدام کلید و دابل کلیک کردن در خانه خالی کل جدول انتخاب می شود؟",
+        "selected": null,
+        "correct": "Alt"
+      },
+      {
+        "question": "کدام گزینه برای حذف یک کار از صف چاپ به کار میرود؟",
+        "selected": null,
+        "correct": "Cancel"
+      },
+      {
+        "question": "کدام گزینه جهت انتخاب یک ستون از جدول است؟",
+        "selected": null,
+        "correct": "Select Column"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه ی مشترک برای تمام صفحه های سند کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "Header & Footer"
+      }
+    ],
+    "date": "2026-07-10T11:39:33.352Z"
   }
 ]
