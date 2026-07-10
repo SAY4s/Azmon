@@ -586,11 +586,11 @@ body::before{
 <!-- DROP ZONE -->
 <div id="dropzone">
   <div class="stamp-title">پاسخ‌<span>برگ</span></div>
-  <p class="subtitle" id="mainSubtitle">داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...</p>
+  <p class="subtitle" id="mainSubtitle">یه لحظه منتظر بمون ...</p>
 
   <div class="sync-status" id="syncStatus">
     <div class="spinner"></div>
-    <span id="syncText">در حال اتصال به GitHub…</span>
+    <span id="syncText">در حال اتصال…</span>
   </div>
 
   <div class="gh-actions" id="ghActions" style="display:none;">
@@ -886,8 +886,8 @@ function setSync(state, text){
 async function fetchFromGitHub(){
   ghActions.style.display = 'none';
   manualSection.style.display = 'none';
-  mainSubtitle.textContent = 'داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...';
-  setSync('loading', 'در حال اتصال به GitHub…');
+  mainSubtitle.textContent = 'یه لحظه منتظر بمون ...';
+  setSync('loading', 'در حال اتصال…');
   try{
     const res = await fetch(GITHUB_RAW_URL + '?t=' + Date.now(), { cache: 'no-store' });
     if(!res.ok) throw new Error('http-' + res.status);
