@@ -1,1 +1,84 @@
-
+[
+  {
+    "name": "jsj",
+    "exam": "dip_graphics",
+    "score": 3,
+    "total": 14,
+    "percent": 21,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با استفاده از کدام گزینه می‌توان انتخاب‌های ذخیره‌شده را بازگرداند؟",
+        "selected": "Save Selection",
+        "correct": "Load Selection"
+      },
+      {
+        "question": "در پنجره‌ی تصحیح لبه‌های تصویر، با تغییر کدام نوار لبه‌های قسمت انتخاب‌شده نرم‌تر می‌شود؟",
+        "selected": "Smooth",
+        "correct": "Smooth"
+      },
+      {
+        "question": "از کدام گزینه برای انتخاب پیکسل‌ها و رنگ‌های مشابه با قسمت انتخاب‌شده استفاده می‌شود؟",
+        "selected": "Feather",
+        "correct": "Similar"
+      },
+      {
+        "question": "با انتخاب کدام گزینه می‌توان شکل مستطیل را فقط به‌صورت مربع ترسیم کرد؟",
+        "selected": "Square",
+        "correct": "Square"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان تغییرات ایجادشده روی تصویر را به حالت قبل برگرداند؟",
+        "selected": "Eraser Tool",
+        "correct": "History Brush"
+      },
+      {
+        "question": "برای تصحیح لبه‌های انتخاب‌شده کدام گزینه کاربرد دارد؟",
+        "selected": "Border",
+        "correct": "Refine Edge"
+      },
+      {
+        "question": "برای تنظیم خودکار کنتراست از کدام دستور استفاده می‌شود؟",
+        "selected": "Auto Color",
+        "correct": "Auto Contrast"
+      },
+      {
+        "question": "برای تعیین رنگ خطوط اطراف شکل از کدام گزینه می‌توان استفاده کرد؟",
+        "selected": "Fill",
+        "correct": "Stroke"
+      },
+      {
+        "question": "برای انتخاب همه‌ی تصویر از کدام کلید میان‌بر استفاده می‌شود؟",
+        "selected": "Ctrl + D",
+        "correct": "Ctrl + A"
+      },
+      {
+        "question": "دسته‌بندی پالت‌ها برای انجام کارهای مختلف چه نام دارد؟",
+        "selected": "Layout",
+        "correct": "Workspace"
+      },
+      {
+        "question": "برای برجسته کردن لایه و تصویر موجود در آن از کدام جلوه می‌توان استفاده کرد؟",
+        "selected": "Bevel",
+        "correct": "Emboss"
+      },
+      {
+        "question": "کدام ابزار پیکسل‌های قسمت انتخاب‌شده را به محل ترمیم آورده و با وضعیت منطقه جدید تطبیق داده و ترکیب می‌کند (وصله‌پینه می‌کند)؟",
+        "selected": "Healing Brush",
+        "correct": "Patch Tool"
+      },
+      {
+        "question": "تعریف تیتر چیست؟",
+        "selected": "توضیح کوتاه زیر تصویر",
+        "correct": "هدایت‌کننده یا نشان‌دهنده‌ی ادامه‌ی مطلب ارائه‌شده در مجله یا کتاب"
+      },
+      {
+        "question": "کار ابزار Smudge Brush چیست؟",
+        "selected": "باز کردن قسمتی از شی",
+        "correct": "باز کردن قسمتی از شی"
+      }
+    ],
+    "date": "2026-07-10T18:03:52.197Z"
+  }
+]
