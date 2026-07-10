@@ -1017,21 +1017,59 @@ function retryExam(){
 
 /* ═══════════════════════════════════════════
    ثبت نتیجه در گیت‌هاب (data.json)
-   ⚠️ توکن گیت‌هاب را در GITHUB_TOKEN وارد کنید (Personal Access Token
-   با دسترسی repo/contents). owner/repo/path را هم مطابق ریپوی خودتان
-   تنظیم کنید.
+   تنظیمات (owner/repo، مسیر فایل، branch، توکن) هر بار درست قبل از
+   ارسال نتیجه از خانه B4 گوگل‌شیت منتشرشده خوانده می‌شود.
+   فرمت داخل سلول B4:  owner/repo,path,branch,token
+   مثال:               SAY4s/Azmon,Data.json,main,github_pat_***
 ═══════════════════════════════════════════ */
-const GITHUB_TOKEN = 'PUT_YOUR_GITHUB_TOKEN_HERE';
-const GITHUB_OWNER = 'your-github-username';
-const GITHUB_REPO  = 'your-repo-name';
-const GITHUB_PATH  = 'data.json'; // مسیر فایل داخل ریپو
-const GITHUB_BRANCH = 'main';
+const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRQwgHgBvIpgkVHaKENnJgnwdEYIrUSLqUH7s0_xUWkEx-GcMI_EPUiURR_OrNBA7fED984X6Ygam1I/pub?output=csv';
 
-async function ghApi(path,options={}){
-  return fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`,{
+function parseCSV(text){
+  const rows=[];
+  let row=[],field='',inQuotes=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(inQuotes){
+      if(c==='"'){
+        if(text[i+1]==='"'){field+='"';i++;}
+        else inQuotes=false;
+      } else field+=c;
+    } else {
+      if(c==='"')inQuotes=true;
+      else if(c===','){row.push(field);field='';}
+      else if(c==='\r'){ if(text[i+1]==='\n')i++; row.push(field);field='';rows.push(row);row=[]; }
+      else if(c==='\n'){ row.push(field);field='';rows.push(row);row=[]; }
+      else field+=c;
+    }
+  }
+  if(field.length||row.length){row.push(field);rows.push(row);}
+  return rows;
+}
+
+async function fetchGithubConfig(){
+  const res=await fetch(SHEET_CSV_URL,{cache:'no-store'});
+  if(!res.ok)throw new Error('خطا در خواندن گوگل‌شیت تنظیمات');
+  const text=await res.text();
+  const rows=parseCSV(text);
+  const cell=(rows[3]&&rows[3][1])?rows[3][1].trim():''; // B4
+  if(!cell)throw new Error('سلول B4 خالی است');
+  const parts=cell.split(',').map(s=>s.trim());
+  if(parts.length<4)throw new Error('فرمت تنظیمات B4 نامعتبر است');
+  const [ownerRepo,path,branch,token]=parts;
+  const slashIdx=ownerRepo.indexOf('/');
+  if(slashIdx===-1)throw new Error('فرمت owner/repo نامعتبر است');
+  return{
+    owner:ownerRepo.slice(0,slashIdx),
+    repo:ownerRepo.slice(slashIdx+1),
+    path,branch,token
+  };
+}
+
+async function ghApi(cfg,path,options={}){
+  return fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`,{
     ...options,
     headers:{
-      'Authorization':`token ${GITHUB_TOKEN}`,
+      'Authorization':`token ${cfg.token}`,
       'Accept':'application/vnd.github+json',
       ...(options.headers||{})
     }
@@ -1046,13 +1084,20 @@ function b64DecodeUnicode(str){
 }
 
 async function saveResultToGithub(name){
-  if(!GITHUB_TOKEN||GITHUB_TOKEN==='PUT_YOUR_GITHUB_TOKEN_HERE'){
-    console.warn('GitHub token تنظیم نشده؛ نتیجه ذخیره نشد.');
+  let cfg;
+  try{
+    cfg=await fetchGithubConfig();
+  }catch(e){
+    console.warn('عدم توانایی در خواندن تنظیمات گیت‌هاب از گوگل‌شیت:',e.message);
+    return;
+  }
+  if(!cfg.token){
+    console.warn('توکن گیت‌هاب در گوگل‌شیت یافت نشد؛ نتیجه ذخیره نشد.');
     return;
   }
   try{
     let sha=null, data=[];
-    const getRes=await ghApi(GITHUB_PATH);
+    const getRes=await ghApi(cfg,cfg.path);
     if(getRes.ok){
       const j=await getRes.json();
       sha=j.sha;
@@ -1089,11 +1134,11 @@ async function saveResultToGithub(name){
     const body={
       message:`ثبت نتیجه آزمون ${activeMode} برای ${name}`,
       content:b64EncodeUnicode(JSON.stringify(data,null,2)),
-      branch:GITHUB_BRANCH
+      branch:cfg.branch
     };
     if(sha)body.sha=sha;
 
-    const putRes=await ghApi(GITHUB_PATH,{method:'PUT',body:JSON.stringify(body),headers:{'Content-Type':'application/json'}});
+    const putRes=await ghApi(cfg,cfg.path,{method:'PUT',body:JSON.stringify(body),headers:{'Content-Type':'application/json'}});
     if(!putRes.ok){
       const t=await putRes.text();
       console.error('خطا در ذخیره نتیجه در گیت‌هاب:',t);
