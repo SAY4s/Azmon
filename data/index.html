@@ -116,6 +116,69 @@ body::before{
   display:none;
 }
 
+.sync-status{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--ink-soft);
+  min-height:24px;
+}
+.sync-status .spinner{
+  width:16px; height:16px;
+  border-radius:50%;
+  border:2.5px solid var(--line);
+  border-top-color:var(--red);
+  animation:spin .8s linear infinite;
+  flex-shrink:0;
+}
+@keyframes spin{ to{ transform:rotate(360deg); } }
+.sync-status.ok{ color:var(--green); }
+.sync-status.err{ color:var(--red); }
+
+.gh-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.gh-btn{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:9px 18px;
+  border-radius:20px;
+  border:1.5px solid var(--ink);
+  background:var(--ink);
+  color:var(--paper);
+  cursor:pointer;
+}
+.gh-btn.secondary{
+  background:transparent;
+  color:var(--ink-soft);
+  border-color:var(--line);
+}
+
+.manual-toggle{
+  font-size:13px;
+  font-weight:700;
+  color:var(--ink-soft);
+  text-decoration:underline;
+  text-underline-offset:3px;
+  cursor:pointer;
+  background:none;
+  border:none;
+  font-family:inherit;
+}
+
+#manualSection{
+  display:none;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+}
+
 /* ---------- Topic selection view ---------- */
 #topicView{
   display:none;
@@ -523,14 +586,27 @@ body::before{
 <!-- DROP ZONE -->
 <div id="dropzone">
   <div class="stamp-title">پاسخ‌<span>برگ</span></div>
-  <p class="subtitle">فایل JSON نتایج آزمون را اینجا رها کن تا مثل یک برگه‌ی تصحیح‌شده نمایش داده بشه.</p>
-  <label class="drop-card" id="dropCard">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
-    <div class="cta">فایل را بکش و رها کن</div>
-    <div class="hint">یا کلیک کن برای انتخاب فایل (.json)</div>
-    <input type="file" id="fileInput" accept="application/json,.json">
-  </label>
-  <p class="error-msg" id="errorMsg">فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.</p>
+  <p class="subtitle" id="mainSubtitle">داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...</p>
+
+  <div class="sync-status" id="syncStatus">
+    <div class="spinner"></div>
+    <span id="syncText">در حال اتصال به GitHub…</span>
+  </div>
+
+  <div class="gh-actions" id="ghActions" style="display:none;">
+    <button class="gh-btn" id="retryGhBtn">🔄 دوباره تلاش کن</button>
+    <button class="gh-btn secondary" id="showManualBtn">بارگذاری دستی فایل</button>
+  </div>
+
+  <div id="manualSection">
+    <label class="drop-card" id="dropCard">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
+      <div class="cta">فایل را بکش و رها کن</div>
+      <div class="hint">یا کلیک کن برای انتخاب فایل (.json)</div>
+      <input type="file" id="fileInput" accept="application/json,.json">
+    </label>
+    <p class="error-msg" id="errorMsg">فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.</p>
+  </div>
 </div>
 
 <!-- TOPIC SELECTION VIEW -->
@@ -708,6 +784,13 @@ const errorMsg = document.getElementById('errorMsg');
 const topicView = document.getElementById('topicView');
 const listView = document.getElementById('listView');
 const detailView = document.getElementById('detailView');
+const syncStatus = document.getElementById('syncStatus');
+const syncText = document.getElementById('syncText');
+const ghActions = document.getElementById('ghActions');
+const manualSection = document.getElementById('manualSection');
+const mainSubtitle = document.getElementById('mainSubtitle');
+
+const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/SAY4s/Azmon/main/Data.json';
 
 function showError(msg){
   errorMsg.textContent = msg || 'فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.';
@@ -753,31 +836,36 @@ function uniqueTopics(data){
   return map; // topicName -> count
 }
 
+// Parses raw JSON text and routes to the right view. Throws on invalid/empty JSON.
+function processDataArray(rawText){
+  let data = JSON.parse(rawText);
+  if(!Array.isArray(data)) data = [data];
+  if(data.length === 0) throw new Error('empty');
+  fullData = data;
+  dateRange = null;
+  selectedTopic = null;
+  dropzone.style.display = 'none';
+
+  if(data.length === 1){
+    currentData = data;
+    openDetail(data[0]);
+    return;
+  }
+  const topics = uniqueTopics(data);
+  if(topics.size <= 1){
+    currentData = data;
+    openList(data);
+  } else {
+    openTopicView(data);
+  }
+}
+
 function handleFile(file){
   errorMsg.style.display = 'none';
   const reader = new FileReader();
   reader.onload = e=>{
     try{
-      let data = JSON.parse(e.target.result);
-      if(!Array.isArray(data)) data = [data];
-      if(data.length === 0) throw new Error('empty');
-      fullData = data;
-      dateRange = null;
-      selectedTopic = null;
-      dropzone.style.display = 'none';
-
-      if(data.length === 1){
-        currentData = data;
-        openDetail(data[0]);
-        return;
-      }
-      const topics = uniqueTopics(data);
-      if(topics.size <= 1){
-        currentData = data;
-        openList(data);
-      } else {
-        openTopicView(data);
-      }
+      processDataArray(e.target.result);
     } catch(err){
       showError();
     }
@@ -785,6 +873,47 @@ function handleFile(file){
   reader.onerror = ()=>showError('خواندن فایل با خطا مواجه شد.');
   reader.readAsText(file, 'utf-8');
 }
+
+function setSync(state, text){
+  syncStatus.className = 'sync-status' + (state ? ' ' + state : '');
+  syncStatus.style.display = 'flex';
+  syncText.textContent = text;
+  if(state === 'loading'){
+    syncStatus.innerHTML = `<div class="spinner"></div><span>${text}</span>`;
+  }
+}
+
+async function fetchFromGitHub(){
+  ghActions.style.display = 'none';
+  manualSection.style.display = 'none';
+  mainSubtitle.textContent = 'داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...';
+  setSync('loading', 'در حال اتصال به GitHub…');
+  try{
+    const res = await fetch(GITHUB_RAW_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    if(!res.ok) throw new Error('http-' + res.status);
+    const text = await res.text();
+    if(!text || !text.trim()){
+      setSync('err', 'فایل روی گیت‌هاب فعلاً خالیه — هنوز پاسخ‌برگی ثبت نشده.');
+      ghActions.style.display = 'flex';
+      return;
+    }
+    processDataArray(text);
+    setSync('ok', 'با موفقیت از GitHub خونده شد ✓');
+    setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1800);
+  } catch(err){
+    setSync('err', 'نشد از گیت‌هاب بخونه. اتصال یا آدرس فایل رو چک کن.');
+    ghActions.style.display = 'flex';
+  }
+}
+
+document.getElementById('retryGhBtn').addEventListener('click', fetchFromGitHub);
+document.getElementById('showManualBtn').addEventListener('click', ()=>{
+  manualSection.style.display = 'flex';
+  mainSubtitle.textContent = 'فایل JSON نتایج آزمون را اینجا رها کن تا مثل یک برگه‌ی تصحیح‌شده نمایش داده بشه.';
+});
+
+// kick off automatically on load
+fetchFromGitHub();
 
 function openTopicView(data){
   listView.style.display = 'none';
