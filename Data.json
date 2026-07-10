@@ -160,5 +160,167 @@
       }
     ],
     "date": "2026-07-10T12:11:07.001Z"
+  },
+  {
+    "name": "و",
+    "exam": "python",
+    "score": 7,
+    "total": 30,
+    "percent": 23,
+    "wrong": 23,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "تصاویر سیاه و سفید به‌طور خودکار در نرم‌افزار فتوشاپ با کدام مد رنگ تعریف می‌شوند؟",
+        "selected": "Lab",
+        "correct": "Grayscale"
+      },
+      {
+        "question": "کار ابزار Smudge Brush چیست؟",
+        "selected": "حذف قسمتی از شی",
+        "correct": "باز کردن قسمتی از شی"
+      },
+      {
+        "question": "با کدام گزینه می‌توان رنگ‌های پیکسل تصویر را در کورل برعکس کرد؟",
+        "selected": "Threshold",
+        "correct": "Invert"
+      },
+      {
+        "question": "جامع‌ترین مدل رنگی کدام گزینه می‌باشد؟",
+        "selected": "RGB",
+        "correct": "LAB"
+      },
+      {
+        "question": "با استفاده از کدام فیلتر در مجموعه‌ی Filter Gallery می‌توان سطح تصویر را دارای بافت کرد؟",
+        "selected": "Artistic",
+        "correct": "Texture"
+      },
+      {
+        "question": "در هنگام کار با ابزارهای انتخاب، فعال کردن کدام گزینه سبب می‌شود انتخاب‌های جدید از محدوده انتخاب‌های قبلی کم شود؟",
+        "selected": "Add To Selection",
+        "correct": "Subtract from Selection"
+      },
+      {
+        "question": "کدام ابزار باعث تیره‌تر شدن تصویر می‌شود؟",
+        "selected": "Smudge",
+        "correct": "Burn"
+      },
+      {
+        "question": "برای ایجاد درخشندگی داخلی کدام گزینه کاربرد دارد؟",
+        "selected": "Outer Glow",
+        "correct": "Inner Glow"
+      },
+      {
+        "question": "برای معکوس کردن فضای انتخاب از کدام گزینه استفاده می‌کنند؟",
+        "selected": "Reselect",
+        "correct": "Inverse"
+      },
+      {
+        "question": "در کدام نوع اسکنر برگه‌ای که اسکن می‌شود روی نوار حرکت کرده و نوار حسگر نوری بی‌حرکت است؟",
+        "selected": "اسکنرهای طبل دوار",
+        "correct": "اسکنرهای برگه‌خور"
+      },
+      {
+        "question": "برنامه فتوشاپ با کدام نمونه‌های رنگی سازگاری دارد؟",
+        "selected": "فقط RGB",
+        "correct": "همه موارد"
+      },
+      {
+        "question": "با استفاده از کدام گزینه در پنجره‌ی Image Size می‌توان وضوح تصویر را تغییر داد؟",
+        "selected": "Resample",
+        "correct": "Resolution"
+      },
+      {
+        "question": "برای رسم شکل مارپیچ کدام ابزار استفاده می‌شود؟",
+        "selected": "Freehand",
+        "correct": "Spiral"
+      },
+      {
+        "question": "در ابزار برش با انتخاب کدام گزینه کادر برش به‌صورت خطوط شبکه‌ای دیده می‌شود؟",
+        "selected": "Golden Ratio",
+        "correct": "Grid"
+      },
+      {
+        "question": "برای رسم منحنی در نرم‌افزار کورل از کدام ابزار می‌توان استفاده کرد؟",
+        "selected": "Line",
+        "correct": "Curve"
+      },
+      {
+        "question": "به مجموعه‌ی اطلاعات درباره‌ی محصولات شرکت که به‌صورت کاتالوگ است چه می‌گویند؟",
+        "selected": "آرم",
+        "correct": "بروشور"
+      },
+      {
+        "question": "کدام ابزار برای کپی‌ زدن قسمتی از تصویر بر روی قسمت دیگر استفاده می‌شود؟",
+        "selected": "Healing Brush",
+        "correct": "Clone Stamp"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان انتخاب‌های ذخیره‌شده را بازگرداند؟",
+        "selected": "Refine Edge",
+        "correct": "Load Selection"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان یک سطر از پیکسل‌ها را انتخاب کرد؟",
+        "selected": "Single Column Marquee Tool",
+        "correct": "Single Row Marquee Tool"
+      },
+      {
+        "question": "برای چیدن رنگ تصویر و انتخاب آن به‌عنوان رنگ پیش‌فرض از کدام ابزار استفاده می‌شود؟",
+        "selected": "Eyedropper Tool",
+        "correct": "Eyedropper Tool"
+      },
+      {
+        "question": "برای یکی کردن و تخت نمودن تمامی لایه‌ها از کدام گزینه استفاده می‌شود؟",
+        "selected": "Group Layers",
+        "correct": "Flatten Image"
+      },
+      {
+        "question": "برای ایجاد سایه‌ی بیرونی بر روی لایه از کدام گزینه استفاده می‌شود؟",
+        "selected": "Inner Glow",
+        "correct": "Drop Shadow"
+      },
+      {
+        "question": "پوسترهای مربوط به قوانین رانندگی جز کدام نوع پوسترهاست؟",
+        "selected": "پوستر تبلیغاتی",
+        "correct": "پوستر آموزشی"
+      },
+      {
+        "question": "برای وارد کردن فایلی که در نرم‌افزار دیگری ایجاد شده و جز پسوندهای قابل پشتیبانی فتوشاپ نیست، از کدام روش استفاده می‌شود؟",
+        "selected": "Import",
+        "correct": "Import"
+      },
+      {
+        "question": "ابزار Pick Tool برای چه کاری استفاده می‌شود؟",
+        "selected": "ابزار گزینش ماوس عادی",
+        "correct": "ابزار گزینش ماوس عادی"
+      },
+      {
+        "question": "برای برقراری اتصال بین لایه‌ها از کدام گزینه استفاده می‌شود؟",
+        "selected": "Link Layers",
+        "correct": "Link Layers"
+      },
+      {
+        "question": "انتخاب کدام گزینه باعث می‌شود محتویات لایه قفل شده و نتوان لایه را جابه‌جا کرد؟",
+        "selected": "Lock Position",
+        "correct": "Lock Position"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان تصویر را بزرگ‌تر کرد؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "جهت انتخاب یک محدوده به‌صورت بیضی از کدام ابزار می‌توان استفاده کرد؟",
+        "selected": "Elliptical Marquee Tool",
+        "correct": "Elliptical Marquee Tool"
+      },
+      {
+        "question": "به میزان روشنایی دو نقطه‌ی مختلف نسبت به هم در تصویر چه می‌گویند؟",
+        "selected": "درخشندگی",
+        "correct": "کنتراست"
+      }
+    ],
+    "date": "2026-07-10T12:12:51.580Z"
   }
 ]
