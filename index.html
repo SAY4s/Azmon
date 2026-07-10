@@ -97,6 +97,10 @@ header .contact i{color:var(--accent);margin-left:4px;}
   text-align:center;padding:12px;
 }
 .banner-ph i{font-size:38px;}
+.banner-default{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;opacity:0;transition:opacity .35s ease;
+}
 
 /* ──── CENTER ──── */
 .center-col{
@@ -370,6 +374,7 @@ footer{
   <!-- بنر چپ -->
   <div class="banner-slot" id="bannerLeft">
     <div class="banner-ph"><i class="fas fa-image"></i><span>بنر A4 عمودی<br>از پوشه poster</span></div>
+    <img class="banner-default" alt="">
   </div>
 
   <!-- مرکز -->
@@ -438,8 +443,8 @@ footer{
         <button class="exam-btn dip-btn" onclick="openDip()">
           <i class="fas fa-user-graduate"></i> آزمون دیپلم
         </button>
-        <button class="exam-btn py-btn" onclick="openPys()">
-          <i class="fab fa-python"></i> آزمون پایتون ( درحال توسعه )
+        <button class="exam-btn py-btn" onclick="openPy()">
+          <i class="fab fa-python"></i> آزمون پایتون
         </button>
       </div>
     </div>
@@ -584,6 +589,7 @@ footer{
   <!-- بنر راست -->
   <div class="banner-slot" id="bannerRight">
     <div class="banner-ph"><i class="fas fa-image"></i><span>بنر A4 عمودی<br>از پوشه poster</span></div>
+    <img class="banner-default" alt="">
   </div>
 
 </div><!-- /page-body -->
@@ -1238,6 +1244,29 @@ async function initSlides(){
   new Slideshow('bannerLeft', names, 4500);
   new Slideshow('bannerRight',names, 5800);
 }
+/* نمایش فوری یک پوستر پیش‌فرض، بدون نیاز به اسکن کامل پوشه (سریع) */
+function showDefaultPosterInstant(elId){
+  const el=document.getElementById(elId);
+  if(!el)return;
+  const img=el.querySelector('.banner-default');
+  if(!img)return;
+  const candidates=[];
+  for(let i=1;i<=6;i++)for(const e of['jpg','jpeg','png','webp']) candidates.push(`poster${i}.${e}`,`${i}.${e}`);
+  let i=0;
+  function tryNext(){
+    if(i>=candidates.length)return;
+    img.onload=()=>{
+      img.style.opacity='1';
+      const ph=el.querySelector('.banner-ph');if(ph)ph.style.display='none';
+    };
+    img.onerror=()=>{i++;tryNext();};
+    img.src=POSTER+candidates[i];
+  }
+  tryNext();
+}
+showDefaultPosterInstant('bannerLeft');
+showDefaultPosterInstant('bannerRight');
+
 initSlides();
 </script>
 </body>
