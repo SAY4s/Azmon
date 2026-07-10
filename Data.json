@@ -1,1 +1,164 @@
-
+[
+  {
+    "name": "رضا ایوبی",
+    "exam": "python",
+    "score": 6,
+    "total": 30,
+    "percent": 20,
+    "wrong": 24,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تبدیل اشکال توپر به گرافیک از کدام گزینه می‌توان استفاده کرد؟",
+        "selected": "Trace Bitmap",
+        "correct": "Fill Content"
+      },
+      {
+        "question": "پوسترهای مربوط به قوانین رانندگی جز کدام نوع پوسترهاست؟",
+        "selected": "پوستر فرهنگی",
+        "correct": "پوستر آموزشی"
+      },
+      {
+        "question": "برای تعیین اندازه‌ی بین دو نقطه و نمایش آن روی صفحه در کورل از کدام گزینه استفاده می‌شود؟",
+        "selected": "Measure Tool",
+        "correct": "Dimension Tool"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان تصویر را روشن‌تر کرد؟",
+        "selected": "Burn Tool",
+        "correct": "Dodge Tool"
+      },
+      {
+        "question": "در کدام یک از مدل‌های رنگ، نمایش رنگ‌ها به دستگاه نمایش وابسته نیست؟",
+        "selected": "HSB",
+        "correct": "LAB"
+      },
+      {
+        "question": "جهت ادغام لایه‌های انتخاب‌شده کدام گزینه کاربرد دارد؟",
+        "selected": "Flatten Image",
+        "correct": "Merge Layers"
+      },
+      {
+        "question": "با استفاده از کدام گزینه شکل‌های ترسیم‌شده با یکدیگر ترکیب می‌شوند؟",
+        "selected": "Join Curves",
+        "correct": "Combine Shape"
+      },
+      {
+        "question": "با فشردن کدام کلید نوار منو در یک پنجره نمایش داده می‌شود؟",
+        "selected": "Shift",
+        "correct": "Alt"
+      },
+      {
+        "question": "در ابزار Distort در نرم‌افزار کورل، به فشرده شدن شی و به بیرون‌زدگی شی چه گفته می‌شود؟",
+        "selected": "Twist , Zipper",
+        "correct": "Push , Pull"
+      },
+      {
+        "question": "به طرح ایجاد شده روی نشانه چه می‌گویند؟",
+        "selected": "برند",
+        "correct": "آرم"
+      },
+      {
+        "question": "انتخاب کدام گزینه باعث می‌شود محتویات لایه قفل شده و نتوان لایه را جابه‌جا کرد؟",
+        "selected": "Lock Image Pixels",
+        "correct": "Lock Position"
+      },
+      {
+        "question": "در نرم‌افزار کورل کدام گزینه عمل تبدیل تصویر پیکسلی به برداری را سریع انجام می‌دهد؟",
+        "selected": "Outline Trace",
+        "correct": "Quick Trace"
+      },
+      {
+        "question": "با کدام گزینه می‌توان رنگ‌های پیکسل تصویر را در کورل برعکس کرد؟",
+        "selected": "Invert",
+        "correct": "Invert"
+      },
+      {
+        "question": "در مدل رنگ HSB مقدار Hue نشان‌دهنده‌ی چیست؟",
+        "selected": "میزان اشباع رنگ",
+        "correct": "سایه رنگ"
+      },
+      {
+        "question": "برای ایجاد درخشندگی داخلی کدام گزینه کاربرد دارد؟",
+        "selected": "Inner Glow",
+        "correct": "Inner Glow"
+      },
+      {
+        "question": "برای اجرای آخرین فیلتر اعمال‌شده از کدام کلید میان‌بر استفاده می‌شود؟",
+        "selected": "Ctrl + Alt + F",
+        "correct": "Ctrl + F"
+      },
+      {
+        "question": "برای تنظیم دستی رنگ و نور تصویر از کدام گزینه می‌توان استفاده کرد؟",
+        "selected": "Hue/Saturation",
+        "correct": "Color Balance"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان رنگ موجود در هر قسمت از تصویر را با رنگ انتخابی جایگزین کرد؟",
+        "selected": "Paint Bucket Tool",
+        "correct": "Color Replacement Tool"
+      },
+      {
+        "question": "تصاویر سیاه و سفید به‌طور خودکار در نرم‌افزار فتوشاپ با کدام مد رنگ تعریف می‌شوند؟",
+        "selected": "RGB",
+        "correct": "Grayscale"
+      },
+      {
+        "question": "برای یکی کردن و تخت نمودن تمامی لایه‌ها از کدام گزینه استفاده می‌شود؟",
+        "selected": "Flatten Image",
+        "correct": "Flatten Image"
+      },
+      {
+        "question": "برای پاک کردن قسمت دلخواه از کدام ابزار می‌توان استفاده کرد؟",
+        "selected": "Patch Tool",
+        "correct": "Eraser Tool"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان تصویر را بزرگ‌تر کرد؟",
+        "selected": "Zoom Out",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "برای برجسته کردن لایه و تصویر موجود در آن از کدام جلوه می‌توان استفاده کرد؟",
+        "selected": "Drop Shadow",
+        "correct": "Emboss"
+      },
+      {
+        "question": "برای ادغام لایه‌های نمایش داده‌شده از کدام گزینه استفاده می‌شود؟",
+        "selected": "Flatten Image",
+        "correct": "Merge Visible"
+      },
+      {
+        "question": "انتخاب کدام گزینه لایه ماسک را روی تصویر اصلی اعمال می‌کند؟",
+        "selected": "Apply Mask",
+        "correct": "Apply Mask"
+      },
+      {
+        "question": "پسوند اصلی فایل‌های فتوشاپ چیست؟",
+        "selected": "PSD",
+        "correct": "PSD"
+      },
+      {
+        "question": "هنگام کلیک بر روی شکل لایه، با نگه‌داشتن کدام کلید متن درون لایه به‌صورت پیکسلی انتخاب می‌شود؟",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "در کدام نوع اسکنر برگه‌ای که اسکن می‌شود روی نوار حرکت کرده و نوار حسگر نوری بی‌حرکت است؟",
+        "selected": "اسکنرهای تخت‌خواب",
+        "correct": "اسکنرهای برگه‌خور"
+      },
+      {
+        "question": "برای ترسیم بیضی از کدام ابزار می‌توان استفاده کرد؟",
+        "selected": "Ellipse",
+        "correct": "Ellipse"
+      },
+      {
+        "question": "به مجموعه اطلاعات یا جمع‌بندی از یک سری کارهای کلی درباره‌ی یک شرکت چه می‌گویند؟",
+        "selected": "کاتالوگ",
+        "correct": "بروشور"
+      }
+    ],
+    "date": "2026-07-10T18:08:26.008Z"
+  }
+]
