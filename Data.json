@@ -210,5 +210,87 @@
       }
     ],
     "date": "2026-07-11T03:11:31.047Z"
+  },
+  {
+    "name": "محمد حسین محمد بیگی",
+    "exam": "dip_graphics",
+    "score": 5,
+    "total": 14,
+    "percent": 36,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای لک کردن تصویر یا کشیده کردن پیکسل‌های قسمتی از تصویر از کدام گزینه می‌توان استفاده کرد؟",
+        "selected": "Sharpen",
+        "correct": "Smudge"
+      },
+      {
+        "question": "برای برقراری اتصال بین لایه‌ها از کدام گزینه استفاده می‌شود؟",
+        "selected": "Link Layers",
+        "correct": "Link Layers"
+      },
+      {
+        "question": "کدام ابزار به ابزار ترمیم معروف است؟",
+        "selected": "Healing Brush",
+        "correct": "Healing Brush"
+      },
+      {
+        "question": "به فضای خارجی که امکان نصب آگهی در آن باشد چه می‌گویند؟",
+        "selected": "همه موارد",
+        "correct": "همه موارد"
+      },
+      {
+        "question": "در مدل رنگ HSB مقدار Hue نشان‌دهنده‌ی چیست؟",
+        "selected": "عمق رنگ",
+        "correct": "سایه رنگ"
+      },
+      {
+        "question": "از کدام مد رنگ برای ایجاد تصاویر تلویزیون و صفحه نمایش استفاده می‌شود؟",
+        "selected": "CMYK",
+        "correct": "RGB"
+      },
+      {
+        "question": "برای ذخیره‌سازی مجدد فایل‌ها از کدام گزینه استفاده می‌شود؟",
+        "selected": "Save",
+        "correct": "Save As"
+      },
+      {
+        "question": "با انتخاب کدام گزینه می‌توان شکل مستطیل را فقط به‌صورت مربع ترسیم کرد؟",
+        "selected": "Rounded Rectangle",
+        "correct": "Square"
+      },
+      {
+        "question": "ابعاد مجله و نشریه معمولاً در چه اندازه‌ای هستند؟",
+        "selected": "رحلی",
+        "correct": "رحلی"
+      },
+      {
+        "question": "به جلدهای کتابی که از انواع مقواهای نازک مانند گلاسه است چه می‌گویند؟",
+        "selected": "جلد سخت",
+        "correct": "شومیز"
+      },
+      {
+        "question": "جهت مدیریت و سازمان‌دهی فرمت‌های مختلف تصویر، کدام نرم‌افزار مناسب است؟",
+        "selected": "Illustrator",
+        "correct": "ACDSee"
+      },
+      {
+        "question": "در قسمت Orientation مربوط به پنجره‌ی چاپ کدام گزینه برای چاپ کاغذ به‌صورت ایستاده استفاده می‌شود؟",
+        "selected": "Portrait",
+        "correct": "Portrait"
+      },
+      {
+        "question": "برای درج صفحه بعد از صفحه‌ی جاری در نرم‌افزار کورل کدام گزینه کاربرد دارد؟",
+        "selected": "Duplicate Page",
+        "correct": "Insert Page After"
+      },
+      {
+        "question": "در پنجره‌ی Selective Color کدام نوار رنگ ارغوانی را افزایش یا کاهش می‌دهد؟",
+        "selected": "Cyan",
+        "correct": "Magenta"
+      }
+    ],
+    "date": "2026-07-11T06:42:51.833Z"
   }
 ]
