@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>پاسخ‌برگ | نمایشگر نتایج آزمون</title>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
 
@@ -693,11 +693,11 @@ body::before{
 <!-- DROP ZONE -->
 <div id="dropzone">
   <div class="stamp-title">پاسخ‌<span>برگ</span></div>
-  <p class="subtitle" id="mainSubtitle">چند لحظه منتظر بمون...</p>
+  <p class="subtitle" id="mainSubtitle">داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...</p>
 
   <div class="sync-status" id="syncStatus">
     <div class="spinner"></div>
-    <span id="syncText">در حال اتصال …</span>
+    <span id="syncText">در حال اتصال به GitHub…</span>
   </div>
 
   <div class="gh-actions" id="ghActions" style="display:none;">
@@ -1368,45 +1368,197 @@ function escapeHtml(str){
     .replaceAll('"','&quot;');
 }
 
-/* ---------- Excel export ---------- */
-let excelExportState = null; // { headers, rows, filename, sheetName }
+/* ---------- Excel export (styled via ExcelJS) ---------- */
+let excelExportState = null; // { kind, payload, filename }
 const excelModalOverlay = document.getElementById('excelModalOverlay');
 
-function openExcelModal(title, headers, rows, filename, sheetName, hint){
-  excelExportState = { headers, rows, filename, sheetName };
-  document.getElementById('excelModalTitle').textContent = title;
-  document.getElementById('excelModalHint').textContent = hint || '';
+const THIN_BORDER = {
+  top:{style:'thin', color:{argb:'FFD8D2C0'}},
+  left:{style:'thin', color:{argb:'FFD8D2C0'}},
+  bottom:{style:'thin', color:{argb:'FFD8D2C0'}},
+  right:{style:'thin', color:{argb:'FFD8D2C0'}}
+};
+function styleHeaderRow(row){
+  row.eachCell(cell=>{
+    cell.fill = {type:'pattern', pattern:'solid', fgColor:{argb:'FF232733'}};
+    cell.font = {bold:true, color:{argb:'FFFFFFFF'}, size:11, name:'Arial'};
+    cell.alignment = {vertical:'middle', horizontal:'center', wrapText:true};
+    cell.border = THIN_BORDER;
+  });
+  row.height = 26;
+}
+
+function openExcelModal(opts){
+  excelExportState = { kind: opts.kind, payload: opts.payload, filename: opts.filename };
+  document.getElementById('excelModalTitle').textContent = opts.title;
+  document.getElementById('excelModalHint').textContent = opts.hint || '';
 
   const headEl = document.getElementById('excelPreviewHead');
   const bodyEl = document.getElementById('excelPreviewBody');
-  headEl.innerHTML = `<tr>${headers.map(h=>`<th>${escapeHtml(h)}</th>`).join('')}</tr>`;
-  bodyEl.innerHTML = rows.map(r=>`<tr>${r.map(c=>`<td>${escapeHtml(c)}</td>`).join('')}</tr>`).join('');
+  headEl.innerHTML = `<tr>${opts.headers.map(h=>`<th>${escapeHtml(h)}</th>`).join('')}</tr>`;
+  bodyEl.innerHTML = opts.rows.map(r=>`<tr>${r.map(c=>`<td>${escapeHtml(c)}</td>`).join('')}</tr>`).join('');
 
   excelModalOverlay.classList.add('open');
 }
-
 function closeExcelModal(){
   excelModalOverlay.classList.remove('open');
   excelExportState = null;
 }
-
 document.getElementById('excelModalClose').addEventListener('click', closeExcelModal);
 excelModalOverlay.addEventListener('click', e=>{
   if(e.target === excelModalOverlay) closeExcelModal();
 });
 
-document.getElementById('excelDownloadBtn').addEventListener('click', ()=>{
-  if(!excelExportState) return;
-  const { headers, rows, filename, sheetName } = excelExportState;
-  const wsData = [headers, ...rows];
-  const ws = XLSX.utils.aoa_to_sheet(wsData);
-  ws['!cols'] = headers.map((h,i)=>{
-    const maxLen = Math.max(String(h).length, ...rows.map(r=>String(r[i] ?? '').length));
-    return { wch: Math.min(Math.max(maxLen + 2, 10), 60) };
+async function buildListWorkbook(filtered, topicLabel){
+  const wb = new ExcelJS.Workbook();
+  wb.creator = 'پاسخ‌برگ';
+  wb.created = new Date();
+  const ws = wb.addWorksheet('نتایج', { views:[{ rightToLeft:true, state:'frozen', ySplit:2 }] });
+
+  ws.mergeCells('A1:J1');
+  const titleCell = ws.getCell('A1');
+  titleCell.value = `نتایج آزمون — ${topicLabel}`;
+  titleCell.font = { bold:true, size:14, color:{argb:'FFFFFFFF'} };
+  titleCell.alignment = { vertical:'middle', horizontal:'center' };
+  titleCell.fill = { type:'pattern', pattern:'solid', fgColor:{argb:'FFB23A2E'} };
+  ws.getRow(1).height = 32;
+
+  const headers = ['ردیف','نام','مبحث','تاریخ','نمره','از','درصد','درست','غلط','بی‌پاسخ'];
+  styleHeaderRow(ws.addRow(headers));
+
+  filtered.forEach((entry, i)=>{
+    const answers = entry.answers || [];
+    const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+    const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+    const blankCount = answers.filter(a=>a.selected === null).length;
+    const row = ws.addRow([
+      i+1, entry.name || 'بدون نام', entry.exam || '', fmtDateShort(entry.date),
+      entry.score ?? 0, entry.total ?? 0, (entry.percent ?? 0)/100,
+      correctCount, wrongCount, blankCount
+    ]);
+    const zebra = i % 2 === 1;
+    row.eachCell((cell, colNum)=>{
+      cell.border = THIN_BORDER;
+      cell.alignment = { vertical:'middle', horizontal: colNum===2 ? 'right' : 'center' };
+      if(zebra) cell.fill = { type:'pattern', pattern:'solid', fgColor:{argb:'FFF2ECDD'} };
+    });
+    row.getCell(2).font = { bold:true };
+    const pctCell = row.getCell(7);
+    pctCell.numFmt = '0%';
+    const pass = (entry.percent ?? 0) >= 50;
+    pctCell.font = { bold:true, color:{argb: pass ? 'FF2F6844' : 'FFB23A2E'} };
+    row.getCell(8).font = { color:{argb:'FF2F6844'}, bold:true };
+    row.getCell(9).font = { color:{argb:'FFB23A2E'}, bold:true };
+    row.getCell(10).font = { color:{argb:'FFB5893A'}, bold:true };
+    row.height = 20;
   });
-  const wb = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(wb, ws, sheetName.slice(0,31));
-  XLSX.writeFile(wb, filename);
+
+  ws.columns = [{width:6},{width:22},{width:16},{width:16},{width:8},{width:8},{width:9},{width:8},{width:8},{width:10}];
+  ws.autoFilter = { from:{row:2, column:1}, to:{row:2, column:10} };
+  return wb;
+}
+
+async function buildDetailWorkbook(entry, filteredAnswers, allAnswers){
+  const wb = new ExcelJS.Workbook();
+  wb.creator = 'پاسخ‌برگ';
+  wb.created = new Date();
+
+  const sws = wb.addWorksheet('خلاصه', { views:[{ rightToLeft:true }] });
+  sws.mergeCells('A1:B1');
+  const t = sws.getCell('A1');
+  t.value = entry.name || 'بدون نام';
+  t.font = { bold:true, size:16, color:{argb:'FFFFFFFF'} };
+  t.alignment = { vertical:'middle', horizontal:'center' };
+  t.fill = { type:'pattern', pattern:'solid', fgColor:{argb:'FF232733'} };
+  sws.getRow(1).height = 34;
+
+  const answers = entry.answers || [];
+  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+  const blankCount = answers.filter(a=>a.selected === null).length;
+
+  const infoRows = [
+    ['مبحث', entry.exam || ''],
+    ['تاریخ', fmtDate(entry.date)],
+    ['نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`],
+    ['درصد', (entry.percent ?? 0)/100],
+    ['تعداد درست', correctCount],
+    ['تعداد غلط', wrongCount],
+    ['بی‌پاسخ', blankCount]
+  ];
+  infoRows.forEach(([k,v], idx)=>{
+    const r = sws.addRow([k, v]);
+    r.getCell(1).font = { bold:true, color:{argb:'FF545A6B'} };
+    r.eachCell(c=>{ c.border = THIN_BORDER; c.alignment = { horizontal:'right', vertical:'middle' }; });
+    r.height = 20;
+    if(idx === 3){
+      r.getCell(2).numFmt = '0%';
+      r.getCell(2).font = { bold:true, color:{argb: (entry.percent ?? 0) >= 50 ? 'FF2F6844' : 'FFB23A2E'} };
+    }
+    if(idx === 4) r.getCell(2).font = { bold:true, color:{argb:'FF2F6844'} };
+    if(idx === 5) r.getCell(2).font = { bold:true, color:{argb:'FFB23A2E'} };
+    if(idx === 6) r.getCell(2).font = { bold:true, color:{argb:'FFB5893A'} };
+  });
+  sws.columns = [{width:16},{width:30}];
+
+  const aws = wb.addWorksheet('پاسخ‌ها', { views:[{ rightToLeft:true, state:'frozen', ySplit:1 }] });
+  styleHeaderRow(aws.addRow(['ردیف','سوال','پاسخ داده‌شده','پاسخ درست','وضعیت']));
+
+  const statusLabel = { correct:'درست', wrong:'غلط', blank:'بی‌پاسخ' };
+  const statusColor = { correct:'FF2F6844', wrong:'FFB23A2E', blank:'FFB5893A' };
+  const statusBg = { correct:'FFE7F1EA', wrong:'FFF8E2E0', blank:'FFF6EDDD' };
+
+  filteredAnswers.forEach(a=>{
+    const idx = allAnswers.indexOf(a) + 1;
+    const status = statusOf(a);
+    const row = aws.addRow([
+      idx, a.question || '',
+      a.selected !== null ? a.selected : 'بدون پاسخ',
+      a.correct || '', statusLabel[status]
+    ]);
+    row.eachCell((cell, colNum)=>{
+      cell.border = THIN_BORDER;
+      cell.alignment = { vertical:'middle', horizontal: colNum===2 ? 'right' : 'center', wrapText: colNum===2 };
+      cell.fill = { type:'pattern', pattern:'solid', fgColor:{argb: statusBg[status]} };
+    });
+    row.getCell(5).font = { bold:true, color:{argb: statusColor[status]} };
+    row.height = 22;
+  });
+
+  aws.columns = [{width:6},{width:55},{width:26},{width:26},{width:12}];
+  aws.autoFilter = { from:{row:1, column:1}, to:{row:1, column:5} };
+  return wb;
+}
+
+document.getElementById('excelDownloadBtn').addEventListener('click', async ()=>{
+  if(!excelExportState) return;
+  const btn = document.getElementById('excelDownloadBtn');
+  const originalHtml = btn.innerHTML;
+  btn.disabled = true;
+  btn.textContent = 'در حال ساخت فایل…';
+  try{
+    let wb;
+    if(excelExportState.kind === 'list'){
+      const { filtered, topicLabel } = excelExportState.payload;
+      wb = await buildListWorkbook(filtered, topicLabel);
+    } else {
+      const { entry, filteredAnswers, allAnswers } = excelExportState.payload;
+      wb = await buildDetailWorkbook(entry, filteredAnswers, allAnswers);
+    }
+    const buffer = await wb.xlsx.writeBuffer();
+    const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = excelExportState.filename;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(()=>URL.revokeObjectURL(url), 2000);
+  } catch(err){
+    console.error(err);
+    alert('ساخت فایل اکسل با خطا مواجه شد.');
+  } finally{
+    btn.disabled = false;
+    btn.innerHTML = originalHtml;
+  }
 });
 
 document.getElementById('exportListBtn').addEventListener('click', ()=>{
@@ -1421,28 +1573,17 @@ document.getElementById('exportListBtn').addEventListener('click', ()=>{
     const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
     const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
     const blankCount = answers.filter(a=>a.selected === null).length;
-    return [
-      i+1,
-      entry.name || 'بدون نام',
-      entry.exam || '',
-      fmtDateShort(entry.date),
-      entry.score ?? 0,
-      entry.total ?? 0,
-      entry.percent ?? 0,
-      correctCount,
-      wrongCount,
-      blankCount
-    ];
+    return [i+1, entry.name || 'بدون نام', entry.exam || '', fmtDateShort(entry.date), entry.score ?? 0, entry.total ?? 0, entry.percent ?? 0, correctCount, wrongCount, blankCount];
   });
   const topicLabel = selectedTopic ? selectedTopic.replace(/[\\/?*[\]:]/g,'') : 'نتایج';
-  openExcelModal(
-    `پیش‌نمایش خروجی اکسل — ${topicLabel}`,
-    headers,
-    rows,
-    `${topicLabel}.xlsx`,
-    topicLabel || 'نتایج',
-    `${rows.length} ردیف آماده‌ی دانلوده.`
-  );
+  openExcelModal({
+    title: `پیش‌نمایش خروجی اکسل — ${topicLabel}`,
+    headers, rows,
+    filename: `${topicLabel}.xlsx`,
+    hint: `${rows.length} ردیف آماده‌ی دانلوده.`,
+    kind: 'list',
+    payload: { filtered, topicLabel: topicLabel || 'نتایج' }
+  });
 });
 
 document.getElementById('exportDetailBtn').addEventListener('click', ()=>{
@@ -1451,29 +1592,24 @@ document.getElementById('exportDetailBtn').addEventListener('click', ()=>{
     alert('چیزی برای خروجی گرفتن وجود نداره.');
     return;
   }
-  const answers = (currentEntry.answers || []);
+  const allAnswers = (currentEntry.answers || []);
   const headers = ['ردیف','سوال','پاسخ داده‌شده','پاسخ درست','وضعیت'];
   const statusLabel = { correct:'درست', wrong:'غلط', blank:'بی‌پاسخ' };
   const rows = filtered.map(a=>{
-    const realIndex = answers.indexOf(a) + 1;
-    return [
-      realIndex,
-      a.question || '',
-      a.selected !== null ? a.selected : 'بدون پاسخ',
-      a.correct || '',
-      statusLabel[statusOf(a)]
-    ];
+    const realIndex = allAnswers.indexOf(a) + 1;
+    return [realIndex, a.question || '', a.selected !== null ? a.selected : 'بدون پاسخ', a.correct || '', statusLabel[statusOf(a)]];
   });
   const nameLabel = (currentEntry.name || 'پاسخ‌برگ').replace(/[\\/?*[\]:]/g,'');
-  openExcelModal(
-    `پیش‌نمایش خروجی اکسل — ${currentEntry.name || 'بدون نام'}`,
-    headers,
-    rows,
-    `${nameLabel}.xlsx`,
-    nameLabel || 'پاسخ‌برگ',
-    `${rows.length} سوال آماده‌ی دانلوده.`
-  );
+  openExcelModal({
+    title: `پیش‌نمایش خروجی اکسل — ${currentEntry.name || 'بدون نام'}`,
+    headers, rows,
+    filename: `${nameLabel}.xlsx`,
+    hint: `${rows.length} سوال آماده‌ی دانلوده.`,
+    kind: 'detail',
+    payload: { entry: currentEntry, filteredAnswers: filtered, allAnswers }
+  });
 });
+
 
 </script>
 </body>
