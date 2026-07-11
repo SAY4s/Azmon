@@ -504,5 +504,167 @@
       }
     ],
     "date": "2026-07-11T06:44:10.824Z"
+  },
+  {
+    "name": "رضا ایوبی",
+    "exam": "python",
+    "score": 6,
+    "total": 30,
+    "percent": 20,
+    "wrong": 24,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در پنجره‌ی Selective Color کدام نوار رنگ ارغوانی را افزایش یا کاهش می‌دهد؟",
+        "selected": "Magenta",
+        "correct": "Magenta"
+      },
+      {
+        "question": "ابزار Interactive Blend Tool در نرم‌افزار کورل برای چه کاری استفاده می‌شود؟",
+        "selected": "برای برش دادن یک شی",
+        "correct": "برای مخلوط کردن دو شی"
+      },
+      {
+        "question": "برای وارد کردن فایلی که در نرم‌افزار دیگری ایجاد شده و جز پسوندهای قابل پشتیبانی فتوشاپ نیست، از کدام روش استفاده می‌شود؟",
+        "selected": "Import",
+        "correct": "Import"
+      },
+      {
+        "question": "با کدام گزینه می‌توان رنگ‌های پیکسل تصویر را در کورل برعکس کرد؟",
+        "selected": "Posterize",
+        "correct": "Invert"
+      },
+      {
+        "question": "پسوند فایل‌های کورل چه می‌باشد؟",
+        "selected": "EPS",
+        "correct": "CDR"
+      },
+      {
+        "question": "تصاویر سیاه و سفید به‌طور خودکار در نرم‌افزار فتوشاپ با کدام مد رنگ تعریف می‌شوند؟",
+        "selected": "Lab",
+        "correct": "Grayscale"
+      },
+      {
+        "question": "به میزان روشنایی دو نقطه‌ی مختلف نسبت به هم در تصویر چه می‌گویند؟",
+        "selected": "اشباع رنگ",
+        "correct": "کنتراست"
+      },
+      {
+        "question": "در پنجره‌ی تصحیح لبه‌های تصویر، با تغییر کدام نوار لبه‌های قسمت انتخاب‌شده نرم‌تر می‌شود؟",
+        "selected": "Contrast",
+        "correct": "Smooth"
+      },
+      {
+        "question": "برای برش قسمتی از شئ و حذف کردن بقیه‌ی قسمت‌ها از کدام ابزار در کورل استفاده می‌شود؟",
+        "selected": "Knife Tool",
+        "correct": "Crop Tool"
+      },
+      {
+        "question": "در پنجره‌ی Gallery Filter کدام دسته فیلترهای هنری هستند و کار شبیه‌سازی نقاشی را انجام می‌دهند؟",
+        "selected": "Sketch",
+        "correct": "Artistic"
+      },
+      {
+        "question": "برای رسم شکل مارپیچ کدام ابزار استفاده می‌شود؟",
+        "selected": "Spiral",
+        "correct": "Spiral"
+      },
+      {
+        "question": "در تنظیمات ماسک سریع، با انتخاب کدام گزینه رنگ ماسک سریع نشان‌دهنده‌ی بخش محافظت‌شده خواهد بود؟",
+        "selected": "Color Indicates",
+        "correct": "Masked Areas"
+      },
+      {
+        "question": "با استفاده از کدام گزینه در پنجره‌ی Image Size می‌توان وضوح تصویر را تغییر داد؟",
+        "selected": "Constrain Proportions",
+        "correct": "Resolution"
+      },
+      {
+        "question": "برای انتخاب همه‌ی تصویر از کدام کلید میان‌بر استفاده می‌شود؟",
+        "selected": "Ctrl + I",
+        "correct": "Ctrl + A"
+      },
+      {
+        "question": "انتخاب کدام گزینه سبب نمایش تمام صفحه بدون منو نرم‌افزار می‌شود؟",
+        "selected": "Standard Screen Mode",
+        "correct": "Full Screen Mode"
+      },
+      {
+        "question": "در نرم‌افزار کورل با استفاده از کدام ابزار می‌توان عمل تغییر شکل یک شئ را انجام داد؟",
+        "selected": "Smudge Tool",
+        "correct": "Shape Tool"
+      },
+      {
+        "question": "ابزار Pick Tool برای چه کاری استفاده می‌شود؟",
+        "selected": "ابزار گزینش ماوس عادی",
+        "correct": "ابزار گزینش ماوس عادی"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان یک حاشیه‌ی تورفته و ضربه‌خورده ایجاد کرد؟",
+        "selected": "Stroke",
+        "correct": "Stroke"
+      },
+      {
+        "question": "برای طراحی گراف، ماتریس یا جدول در نرم‌افزار کورل از کدام کلید میان‌بر استفاده می‌شود؟",
+        "selected": "M",
+        "correct": "D"
+      },
+      {
+        "question": "در ابزار برش با انتخاب کدام گزینه کادر برش به‌صورت خطوط شبکه‌ای دیده می‌شود؟",
+        "selected": "Grid",
+        "correct": "Grid"
+      },
+      {
+        "question": "کدام ابزار برای کپی‌ زدن قسمتی از تصویر بر روی قسمت دیگر استفاده می‌شود؟",
+        "selected": "Patch Tool",
+        "correct": "Clone Stamp"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان تغییرات ایجادشده روی تصویر را به حالت قبل برگرداند؟",
+        "selected": "Clone Stamp",
+        "correct": "History Brush"
+      },
+      {
+        "question": "اگر بخواهید فقط شی لایه یا محتویات لایه شفاف شوند و جلوه‌های ویژه اعمال‌شده روی آن تغییری نکنند، کدام زبانه در پالت لایه‌ها کاربرد دارد؟",
+        "selected": "Opacity",
+        "correct": "Fill"
+      },
+      {
+        "question": "با فعال بودن کدام گزینه، انتخاب جدید به انتخاب قبلی می‌چسبد (اضافه می‌شود)؟",
+        "selected": "Intersect With Selection",
+        "correct": "Add To Selection"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان محتوای لایه را کج کرد؟",
+        "selected": "Distort",
+        "correct": "Skew"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان تصویر را بزرگ‌تر کرد؟",
+        "selected": "Actual Pixels",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "برای حذف قسمت انتخاب‌شده از منوی Edit کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Delete Layer",
+        "correct": "Clear"
+      },
+      {
+        "question": "کلید میان‌بر Ctrl + V برای انجام چه عملی به کار می‌رود؟",
+        "selected": "Cut",
+        "correct": "Paste"
+      },
+      {
+        "question": "ابعاد مجله و نشریه معمولاً در چه اندازه‌ای هستند؟",
+        "selected": "جیبی",
+        "correct": "رحلی"
+      },
+      {
+        "question": "برای برجسته کردن لایه و تصویر موجود در آن از کدام جلوه می‌توان استفاده کرد؟",
+        "selected": "Drop Shadow",
+        "correct": "Emboss"
+      }
+    ],
+    "date": "2026-07-11T07:03:56.208Z"
   }
 ]
