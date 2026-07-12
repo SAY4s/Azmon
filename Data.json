@@ -370,5 +370,16 @@
     "unanswered": 0,
     "answers": [],
     "date": "2026-07-12T06:28:58.318Z"
+  },
+  {
+    "name": "شخص تایپ دو",
+    "exam": "dip_typing",
+    "score": 0,
+    "total": 0,
+    "percent": null,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [],
+    "date": "2026-07-12T06:30:44.812Z"
   }
 ]
