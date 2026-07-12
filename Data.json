@@ -567,5 +567,87 @@
       }
     ],
     "date": "2026-07-12T07:16:28.758Z"
+  },
+  {
+    "name": "ت",
+    "exam": "dip_typing",
+    "score": 4,
+    "total": 14,
+    "percent": 29,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با کلیک بر روی کدام گزینه متن در بالا و سمت راست خانه در جدول قرار میگیرد؟",
+        "selected": "Align Top Right",
+        "correct": "Align Top Right"
+      },
+      {
+        "question": "برای درج ستون یا ستونها در سمت چپ ستون جاری در یک جدول از کدام گزینه استفاده میشود؟",
+        "selected": "Insert Left",
+        "correct": "Insert Left"
+      },
+      {
+        "question": "برای ایجاد یک سند جدید در Word از کدام گزینه استفاده میکنید؟",
+        "selected": "Save",
+        "correct": "New"
+      },
+      {
+        "question": "کدام گزینه سبب میشود تا یک خانه به جدول اضافه شود و بقیه ی خانه ها به پایین حرکت کنند؟",
+        "selected": "Shift Cells Down",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "کدام گزینه یک سطر به بالای سطر انتخاب شده اضافه می کند",
+        "selected": "Insert Column to the Left",
+        "correct": "Insert Rows Above"
+      },
+      {
+        "question": "برای ایجاد یک پس زمینه محو شده بر روی صفحات از کدام دستور استفاده میشود؟",
+        "selected": "Fill Effects",
+        "correct": "Watermark"
+      },
+      {
+        "question": "جهت درج هاشور و الگو روی پس زمینه از کدام گزینه استفاده میشود؟",
+        "selected": "Gradient",
+        "correct": "Pattern"
+      },
+      {
+        "question": "کلید میان بر گزینه ی Redo چیست؟",
+        "selected": "Ctrl + Z",
+        "correct": "Ctrl + Y"
+      },
+      {
+        "question": "کلید میانبر جهت زیر خط دار کردن متن کدام گزینه است؟",
+        "selected": "Ctrl + E",
+        "correct": "Ctrl + U"
+      },
+      {
+        "question": "در نمای Print Layout. ........سند به همان صورتی که چاپ می شود به نمایش در می آید.",
+        "selected": "هیچکدام",
+        "correct": "صحیح"
+      },
+      {
+        "question": "بهترین تعریف برای ادغام پستی چیست؟",
+        "selected": "ایجاد برچسب",
+        "correct": "ادغام کردن دو سند و تبدیل به یک سند"
+      },
+      {
+        "question": "جهت تنظیم Tab از کدام گزینه می توان استفاده نمود؟",
+        "selected": "Clear",
+        "correct": "Set"
+      },
+      {
+        "question": "تفاوت حاشیه و تورفتگی چیست؟",
+        "selected": "حاشیه فقط برای جدول است.",
+        "correct": "تورفتگی برای پاراگراف خاصی است ولی حاشیه برای کل صفحه است."
+      },
+      {
+        "question": "کلید میان بر گزینه ی Word Count کدام مورد است؟",
+        "selected": "Ctrl + Shift + G",
+        "correct": "Ctrl + Shift + G"
+      }
+    ],
+    "date": "2026-07-12T07:16:42.496Z"
   }
 ]
