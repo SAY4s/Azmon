@@ -255,5 +255,16 @@
       }
     ],
     "date": "2026-07-12T06:27:24.386Z"
+  },
+  {
+    "name": "شخص سیاه سفید",
+    "exam": "dip_blackwhite",
+    "score": 0,
+    "total": 0,
+    "percent": null,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [],
+    "date": "2026-07-12T06:27:37.498Z"
   }
 ]
