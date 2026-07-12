@@ -205,37 +205,6 @@ body::before{
 }
 .excel-btn svg{width:15px; height:15px; flex-shrink:0;}
 
-.day-nav{
-  display:flex;
-  align-items:center;
-  gap:8px;
-  margin-top:12px;
-}
-.day-nav-btn{
-  font-family:inherit;
-  font-size:12.5px;
-  font-weight:700;
-  padding:6px 14px;
-  border-radius:20px;
-  border:1.5px solid var(--line);
-  background:rgba(255,255,255,0.5);
-  color:var(--ink);
-  cursor:pointer;
-  transition:all .15s ease;
-  display:inline-flex;
-  align-items:center;
-  gap:5px;
-}
-.day-nav-btn:hover:not(:disabled){
-  border-color:var(--red-soft);
-  background:rgba(178,58,46,0.08);
-  color:var(--red);
-}
-.day-nav-btn:disabled{
-  opacity:0.35;
-  cursor:not-allowed;
-}
-
 .pdf-btn{
   border-color:var(--red);
   background:rgba(178,58,46,0.08);
@@ -850,10 +819,6 @@ body::before{
       <h1 id="studentName"></h1>
       <span class="exam-name" id="examName"></span>
       <div class="date" id="examDate"></div>
-      <div class="day-nav">
-        <button class="day-nav-btn" id="prevDayBtn">‹ روز قبل</button>
-        <button class="day-nav-btn" id="nextDayBtn">روز بعد ›</button>
-      </div>
     </div>
     <div class="stamp" id="stamp">
       <div class="pct" id="pctNum"></div>
@@ -1376,8 +1341,6 @@ function openDetail(entry){
 
   // show back button only if we came from a list
   document.getElementById('backBtn').style.display = (currentData.length > 1 || uniqueTopics(fullData).size > 1) ? 'inline-flex' : 'none';
-
-  updateDayNavButtons();
 }
 
 function statusOf(a){
@@ -1698,85 +1661,6 @@ document.getElementById('exportDetailBtn').addEventListener('click', ()=>{
     payload: { entry: currentEntry, filteredAnswers: filtered, allAnswers }
   });
 });
-
-/* ---------- Prev/Next day navigation ---------- */
-
-function scopeData(){
-  return selectedTopic ? fullData.filter(e=>(e.exam || 'بدون‌عنوان') === selectedTopic) : fullData;
-}
-function dayKeyOf(entry){
-  const j = entryJalali(entry);
-  return j ? jalaliKey(j[0],j[1],j[2]) : null;
-}
-function groupByDay(data){
-  const map = new Map();
-  data.forEach(entry=>{
-    const j = entryJalali(entry);
-    if(!j) return;
-    const key = jalaliKey(j[0],j[1],j[2]);
-    if(!map.has(key)) map.set(key, { key, j, entries: [] });
-    map.get(key).entries.push(entry);
-  });
-  return Array.from(map.values()).sort((a,b)=>a.key-b.key);
-}
-
-function updateDayNavButtons(){
-  const prevBtn = document.getElementById('prevDayBtn');
-  const nextBtn = document.getElementById('nextDayBtn');
-  const groups = groupByDay(scopeData());
-  const curKey = dayKeyOf(currentEntry);
-  let idx = groups.findIndex(g=>g.key === curKey);
-  if(idx === -1){
-    prevBtn.disabled = true;
-    nextBtn.disabled = true;
-    return;
-  }
-  prevBtn.disabled = idx <= 0;
-  nextBtn.disabled = idx >= groups.length - 1;
-}
-
-function openListForDay(scope, group){
-  currentData = scope;
-  dateRange = { from:[group.j[0],group.j[1],group.j[2]], to:[group.j[0],group.j[1],group.j[2]] };
-  topicView.style.display = 'none';
-  detailView.style.display = 'none';
-  listView.style.display = 'block';
-  window.scrollTo(0,0);
-
-  const hasTopics = uniqueTopics(fullData).size > 1;
-  document.getElementById('listBackBtn').style.display = hasTopics ? 'inline-flex' : 'none';
-  document.getElementById('listTitle').textContent = selectedTopic ? selectedTopic : 'پاسخ‌برگ‌ها';
-
-  populateDateSelects();
-  document.getElementById('fromYear').value = group.j[0];
-  document.getElementById('fromMonth').value = group.j[1];
-  document.getElementById('fromDay').value = group.j[2];
-  document.getElementById('toYear').value = group.j[0];
-  document.getElementById('toMonth').value = group.j[1];
-  document.getElementById('toDay').value = group.j[2];
-  renderList();
-}
-
-function navigateDay(direction){
-  const scope = scopeData();
-  const groups = groupByDay(scope);
-  if(groups.length === 0) return;
-  const curKey = dayKeyOf(currentEntry);
-  let idx = groups.findIndex(g=>g.key === curKey);
-  if(idx === -1) return;
-  const targetIdx = idx + direction;
-  if(targetIdx < 0 || targetIdx >= groups.length) return;
-  const group = groups[targetIdx];
-  if(group.entries.length === 1){
-    currentData = group.entries;
-    openDetail(group.entries[0]);
-  } else {
-    openListForDay(scope, group);
-  }
-}
-
-document.getElementById('prevDayBtn').addEventListener('click', ()=>navigateDay(-1));
-document.getElementById('nextDayBtn').addEventListener('click', ()=>navigateDay(1));
 
 
 function sanitizeFilename(name){
