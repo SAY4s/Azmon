@@ -649,5 +649,87 @@
       }
     ],
     "date": "2026-07-12T07:16:42.496Z"
+  },
+  {
+    "name": "گگ",
+    "exam": "dip_graphics",
+    "score": 3,
+    "total": 14,
+    "percent": 21,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "تعریف تیتر چیست؟",
+        "selected": "عنوان اصلی روی جلد مجله",
+        "correct": "هدایت‌کننده یا نشان‌دهنده‌ی ادامه‌ی مطلب ارائه‌شده در مجله یا کتاب"
+      },
+      {
+        "question": "با کدام گزینه می‌توان رنگ‌های پیکسل تصویر را در کورل برعکس کرد؟",
+        "selected": "Desaturate",
+        "correct": "Invert"
+      },
+      {
+        "question": "برای ذخیره‌سازی مجدد فایل‌ها از کدام گزینه استفاده می‌شود؟",
+        "selected": "Save As",
+        "correct": "Save As"
+      },
+      {
+        "question": "برای برجسته کردن لایه و تصویر موجود در آن از کدام جلوه می‌توان استفاده کرد؟",
+        "selected": "Drop Shadow",
+        "correct": "Emboss"
+      },
+      {
+        "question": "با استفاده از کدام گزینه شکل‌های ترسیم‌شده با یکدیگر ترکیب می‌شوند؟",
+        "selected": "Group",
+        "correct": "Combine Shape"
+      },
+      {
+        "question": "پسوند فایل‌های کورل چه می‌باشد؟",
+        "selected": "EPS",
+        "correct": "CDR"
+      },
+      {
+        "question": "برای درج صفحه بعد از صفحه‌ی جاری در نرم‌افزار کورل کدام گزینه کاربرد دارد؟",
+        "selected": "Delete Page",
+        "correct": "Insert Page After"
+      },
+      {
+        "question": "در نرم‌افزار کورل با استفاده از کدام ابزار می‌توان عمل تغییر شکل یک شئ را انجام داد؟",
+        "selected": "Knife Tool",
+        "correct": "Shape Tool"
+      },
+      {
+        "question": "برای تعیین اندازه‌ی بین دو نقطه و نمایش آن روی صفحه در کورل از کدام گزینه استفاده می‌شود؟",
+        "selected": "Measure Tool",
+        "correct": "Dimension Tool"
+      },
+      {
+        "question": "برای بازگرداندن آخرین انتخاب‌های خارج‌شده از حالت انتخاب، کدام دستور کاربرد دارد؟",
+        "selected": "Reselect",
+        "correct": "Reselect"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان یک سطر از پیکسل‌ها را انتخاب کرد؟",
+        "selected": "Rectangular Marquee Tool",
+        "correct": "Single Row Marquee Tool"
+      },
+      {
+        "question": "کدام ابزار به ابزار چشم قرمز معروف است؟",
+        "selected": "Red Eye Tool",
+        "correct": "Red Eye Tool"
+      },
+      {
+        "question": "با فعال بودن کدام گزینه، انتخاب جدید به انتخاب قبلی می‌چسبد (اضافه می‌شود)؟",
+        "selected": "Subtract From Selection",
+        "correct": "Add To Selection"
+      },
+      {
+        "question": "برای ادغام لایه‌های نمایش داده‌شده از کدام گزینه استفاده می‌شود؟",
+        "selected": "Merge Down",
+        "correct": "Merge Visible"
+      }
+    ],
+    "date": "2026-07-12T07:17:44.457Z"
   }
 ]
