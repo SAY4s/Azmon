@@ -348,5 +348,16 @@
       }
     ],
     "date": "2026-07-12T06:27:50.978Z"
+  },
+  {
+    "name": "شخص رنگی",
+    "exam": "dip_colordesign",
+    "score": 0,
+    "total": 0,
+    "percent": null,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [],
+    "date": "2026-07-12T06:28:04.352Z"
   }
 ]
