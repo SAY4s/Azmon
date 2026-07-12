@@ -91,5 +91,87 @@
       }
     ],
     "date": "2026-07-12T06:26:23.778Z"
+  },
+  {
+    "name": "شخص کاربر",
+    "exam": "dip_typing",
+    "score": 0,
+    "total": 14,
+    "percent": 0,
+    "wrong": 0,
+    "unanswered": 14,
+    "answers": [
+      {
+        "question": "کلید میانبر پنجره ی Font جهت تنظیمات قالب بندی کدام گزینه است؟",
+        "selected": null,
+        "correct": "Ctrl + D"
+      },
+      {
+        "question": "کدام فرمان برای رفتن به سطر یا صفحه ای دیگر از یک سند استفاده می شود",
+        "selected": null,
+        "correct": "Go To"
+      },
+      {
+        "question": "برای درج شماره صفحه از کدام گزینه می توان استفاده کرد؟",
+        "selected": null,
+        "correct": "Page Number"
+      },
+      {
+        "question": "کدام گزینه سبب میشود متن به صورت کج و مورب نمایش داده شود؟",
+        "selected": null,
+        "correct": "Italic"
+      },
+      {
+        "question": "بعد از رسم جدول کدام زبانه ها به Ribbon اضافه میشوند؟",
+        "selected": null,
+        "correct": "Layout -- Design"
+      },
+      {
+        "question": "کلید میان بر گزینه ی Spelling & Grammar کدام گزینه است؟",
+        "selected": null,
+        "correct": "F7"
+      },
+      {
+        "question": "کدام دستور برای تقسیم کردن یک سلول به چند سلول مناسب است؟",
+        "selected": null,
+        "correct": "دستور Split Cells"
+      },
+      {
+        "question": "Insert Symbol برای چه کاری کاربرد دارد؟",
+        "selected": null,
+        "correct": "درج علائم ویژه"
+      },
+      {
+        "question": "در نمای Print Layout. ........سند به همان صورتی که چاپ می شود به نمایش در می آید.",
+        "selected": null,
+        "correct": "صحیح"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Tab نمیباشد؟",
+        "selected": null,
+        "correct": "شماره بندی"
+      },
+      {
+        "question": "کدام گزینه سبب اضافه شدن یک موجودیت می شود؟",
+        "selected": null,
+        "correct": "New Entry"
+      },
+      {
+        "question": "با کلیک بر روی کدام گزینه متن در بالا و سمت راست خانه در جدول قرار میگیرد؟",
+        "selected": null,
+        "correct": "Align Top Right"
+      },
+      {
+        "question": "کدام گزینه در حاشیه قرار می گیرد؟",
+        "selected": null,
+        "correct": "هر سه مورد (سرصفحه، پاصفحه، شماره صفحه)"
+      },
+      {
+        "question": "آیکن در گوشه پایین جدول چه عملی انجام میدهد؟",
+        "selected": null,
+        "correct": "گزینه ۱ و ۲"
+      }
+    ],
+    "date": "2026-07-12T06:26:57.139Z"
   }
 ]
