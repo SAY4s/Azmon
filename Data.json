@@ -3130,5 +3130,87 @@
       }
     ],
     "date": "2026-07-14T18:23:02.195Z"
+  },
+  {
+    "name": "گلچهره سلطانشاه",
+    "exam": "dip_user",
+    "score": 3,
+    "total": 14,
+    "percent": 21,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کلید میان بر برای چاپ یک فایل چیست؟",
+        "selected": "Ctrl+ S",
+        "correct": "Ctrl+ P"
+      },
+      {
+        "question": "کلید میانبر برای نمایش پنجره Help and support چیست؟",
+        "selected": "F2",
+        "correct": "F1"
+      },
+      {
+        "question": "جهت خالی نمودن صندوق بازیافت به صورت یکجا از کدام گزینه می توان استفاده نمود؟",
+        "selected": "Delete",
+        "correct": "Empty Recycle Bin"
+      },
+      {
+        "question": "کلید میان بر جهت تغییر نام آیکن ها کدام گزینه می باشد؟",
+        "selected": "F5",
+        "correct": "F2"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش دائمی تذکرهای برنامه ی فعال در سینی نوار وظیفه می باشد؟",
+        "selected": "Show all icons",
+        "correct": "Show icon and notification"
+      },
+      {
+        "question": "کدام برنامه مخرب نیاز به برنامه ی میزبان ندارد و بدون استفاده از یک برنامه ی حامل به تمامی سطوح سیستم رایانه ای خزیده و نفوذ میکنند؟",
+        "selected": "Virus",
+        "correct": "Worm"
+      },
+      {
+        "question": "کدام گزینه از وظایف سیستم عامل نمیباشد؟",
+        "selected": "ویروس یابی سیستم",
+        "correct": "ویروس یابی سیستم"
+      },
+      {
+        "question": "به بارگزاری فایل برروی اینترنت چه گویند؟",
+        "selected": "Download",
+        "correct": "Upload"
+      },
+      {
+        "question": "جهت سنجاق کردن آیکن یک برنامه به نوار وظیفه با کلیک راست بر روی آن از کدام گزینه میتوان استفاده کرد؟",
+        "selected": "Pin to Taskbar",
+        "correct": "Pin to Taskbar"
+      },
+      {
+        "question": "کدام گزینه از متداول ترین دستگاههای ورودی است که برای واردکردن داده ها و دستورات به رایانه استفاده می شود؟",
+        "selected": "Keyboard",
+        "correct": "Keyboard"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای نام یک پوشه مجاز است؟",
+        "selected": "con",
+        "correct": "pbn.exe"
+      },
+      {
+        "question": "جهت لغو فرمان و بستن کادرهای محاورهای از کدام کلید میتوان استفاده کرد؟",
+        "selected": "Enter",
+        "correct": "Esc"
+      },
+      {
+        "question": "در ویروس یاب ها، کدام گزینه سبب میشود که عمل بروزرسانی انجام شود؟",
+        "selected": "Quarantine",
+        "correct": "Update"
+      },
+      {
+        "question": "جهت حذف آیکن ها بصورتی که به صندوق بازیافت منتقل نشود کدام کلید در هنگام حذف باید نگه داشته شود؟",
+        "selected": "Ctrl",
+        "correct": "Shift"
+      }
+    ],
+    "date": "2026-07-14T18:30:09.357Z"
   }
 ]
