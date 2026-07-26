@@ -778,6 +778,10 @@ body::before{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
         PDF 
       </button>
+      <button class="excel-btn karnameh-btn" id="exportKarnamehZipBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg>
+        کارنامه‌ی همه (PDF)
+      </button>
     </div>
   </div>
 
@@ -825,6 +829,10 @@ body::before{
     <button class="excel-btn karnameh-btn" id="printKarnamehBtn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg>
       چاپ کارنامه
+    </button>
+    <button class="excel-btn karnameh-btn" id="downloadKarnamehPdfBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
+      PDF کارنامه
     </button>
   </div>
 
@@ -1743,8 +1751,7 @@ function buildReportElement(entry){
   return wrap;
 }
 
-async function buildPdfBlobForEntry(entry){
-  const el = buildReportElement(entry);
+async function renderElementToPdfBlob(el){
   el.style.position = 'fixed';
   el.style.top = '0';
   el.style.left = '-10000px';
@@ -1778,6 +1785,10 @@ async function buildPdfBlobForEntry(entry){
     heightLeft -= pageHeight;
   }
   return pdf.output('blob');
+}
+
+async function buildPdfBlobForEntry(entry){
+  return renderElementToPdfBlob(buildReportElement(entry));
 }
 
 function triggerDownload(blob, filename){
@@ -1987,6 +1998,124 @@ document.getElementById('printKarnamehBtn').addEventListener('click', ()=>{
   win.document.open();
   win.document.write(html);
   win.document.close();
+});
+
+/* ---------- Karnameh as a downloadable PDF (single + bulk zip) ---------- */
+
+function buildKarnamehElement(entry){
+  const answers = entry.answers || [];
+  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+  const blankCount = answers.filter(a=>a.selected === null).length;
+  const pass = (entry.percent ?? 0) >= 50;
+  const verdict = pass ? 'قبول' : 'نیاز به تلاش بیشتر';
+  const verdictColor = pass ? '#2f6844' : '#b23a2e';
+
+  const wrap = document.createElement('div');
+  wrap.style.cssText = 'width:680px; padding:46px 50px; background:#f2ecdd; font-family:"Vazirmatn",sans-serif; color:#232733; direction:rtl; border:2px solid #232733; box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;';
+
+  const statBox = (num, lab, color) => `
+    <div style="text-align:center; border:1.5px solid rgba(35,39,51,0.18); border-radius:8px; padding:14px 8px;">
+      <div style="font-size:20px; font-weight:900; ${color ? `color:${color};` : ''}">${num}</div>
+      <div style="font-size:11px; color:#545a6b; font-weight:600; margin-top:3px;">${lab}</div>
+    </div>`;
+
+  const infoItem = (label, value) => `
+    <div>
+      <div style="font-size:11.5px; color:#545a6b; font-weight:700; margin-bottom:3px;">${label}</div>
+      <div style="font-size:16px; font-weight:800;">${value}</div>
+    </div>`;
+
+  wrap.innerHTML = `
+    <div style="height:6px; background:linear-gradient(90deg,#b23a2e,#b5893a,#2f6844); margin:-46px -50px 32px;"></div>
+    <h1 style="text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; margin:0;">کارنامه آزمون</h1>
+    <div style="text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px;">این برگه به‌عنوان گواهی نتیجه‌ی آزمون صادر شده است</div>
+    <div style="height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0;"></div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px;">
+      ${infoItem('نام و نام خانوادگی', escapeHtml(entry.name || 'بدون نام'))}
+      ${infoItem('تاریخ آزمون', fmtDate(entry.date))}
+      ${infoItem('عنوان آزمون', escapeHtml(entry.exam || ''))}
+      ${infoItem('نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`)}
+    </div>
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:30px;">
+      <div style="width:126px; height:126px; border-radius:50%; border:3px dashed ${verdictColor}; color:${verdictColor}; display:flex; flex-direction:column; align-items:center; justify-content:center; transform:rotate(-8deg); flex-shrink:0;">
+        <div style="font-size:32px; font-weight:900;">${entry.percent ?? 0}٪</div>
+        <div style="font-size:10px; font-weight:700; margin-top:2px;">درصد قبولی</div>
+      </div>
+      <div style="flex:1; text-align:center;">
+        <div style="font-size:13px; color:#545a6b; font-weight:700;">نتیجه‌ی نهایی</div>
+        <div style="font-size:24px; font-weight:900; color:${verdictColor}; margin-top:6px;">${verdict}</div>
+      </div>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:44px;">
+      ${statBox(answers.length, 'کل سوالات')}
+      ${statBox(correctCount, 'پاسخ درست', '#2f6844')}
+      ${statBox(wrongCount, 'پاسخ غلط', '#b23a2e')}
+      ${statBox(blankCount, 'بی‌پاسخ', '#b5893a')}
+    </div>
+    <div style="display:flex; justify-content:space-between; margin-top:40px;">
+      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضای مدرس</div></div>
+      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضای مسئول آموزش</div></div>
+    </div>
+  `;
+  return wrap;
+}
+
+async function buildKarnamehPdfBlobForEntry(entry){
+  return renderElementToPdfBlob(buildKarnamehElement(entry));
+}
+
+document.getElementById('downloadKarnamehPdfBtn').addEventListener('click', async ()=>{
+  const btn = document.getElementById('downloadKarnamehPdfBtn');
+  const original = btn.innerHTML;
+  btn.disabled = true;
+  btn.textContent = 'در حال ساخت…';
+  try{
+    const blob = await buildKarnamehPdfBlobForEntry(currentEntry);
+    const name = sanitizeFilename(currentEntry.name) || 'بدون نام';
+    triggerDownload(blob, `کارنامه-${name}.pdf`);
+  } catch(err){
+    console.error(err);
+    alert('ساخت PDF کارنامه با خطا مواجه شد.');
+  } finally{
+    btn.disabled = false;
+    btn.innerHTML = original;
+  }
+});
+
+document.getElementById('exportKarnamehZipBtn').addEventListener('click', async ()=>{
+  const filtered = getFilteredListEntries();
+  if(filtered.length === 0){
+    alert('چیزی برای خروجی گرفتن وجود نداره.');
+    return;
+  }
+  const btn = document.getElementById('exportKarnamehZipBtn');
+  btn.disabled = true;
+  showPdfProgress();
+  try{
+    const zip = new JSZip();
+    const usedNames = new Set();
+    for(let i=0; i<filtered.length; i++){
+      const entry = filtered[i];
+      updatePdfProgress(i, filtered.length, entry.name || '');
+      const blob = await buildKarnamehPdfBlobForEntry(entry);
+      let base = sanitizeFilename(entry.name) || `کارنامه-${i+1}`;
+      let filename = base, n = 2;
+      while(usedNames.has(filename)){ filename = `${base} (${n})`; n++; }
+      usedNames.add(filename);
+      zip.file(`${filename}.pdf`, blob);
+      updatePdfProgress(i+1, filtered.length, entry.name || '');
+    }
+    const zipBlob = await zip.generateAsync({ type:'blob' });
+    const topicLabel = selectedTopic ? sanitizeFilename(selectedTopic) : 'نتایج';
+    triggerDownload(zipBlob, `کارنامه-${topicLabel || 'نتایج'}.zip`);
+    finishPdfProgress(`${filtered.length} کارنامه ساخته و دانلود شد ✓`);
+  } catch(err){
+    console.error(err);
+    finishPdfProgress('ساخت فایل‌ها با خطا مواجه شد.');
+  } finally{
+    btn.disabled = false;
+  }
 });
 
 </script>
