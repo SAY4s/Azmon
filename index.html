@@ -489,11 +489,11 @@ footer{
       <button class="home-btn" style="margin-top:10px;" onclick="goSelect()"><i class="fas fa-arrow-right"></i> بازگشت</button>
     </div>
 
-    <!-- ④.۶ فرم دریافت نام قبل از ثبت نتایج -->
+    <!-- ④.۶ فرم دریافت کد ملی قبل از ثبت نتایج -->
     <div class="section" id="secNameForm" style="display:none;max-width:420px;">
-      <h2><i class="fas fa-user"></i> ثبت نام‌ونام‌خانوادگی</h2>
-      <p>برای مشاهده و ثبت نتیجه، نام و نام خانوادگی خود را وارد کنید</p>
-      <input class="login-input" type="text" id="studentNameInput" placeholder="نام و نام خانوادگی" autocomplete="off">
+      <h2><i class="fas fa-id-card"></i> ثبت کد ملی</h2>
+      <p>برای مشاهده و ثبت نتیجه، کد ملی خود را وارد کنید</p>
+      <input class="login-input" type="text" id="studentNameInput" inputmode="numeric" placeholder="کد ملی (۱۰ رقم)" maxlength="10" autocomplete="off">
       <button class="home-btn" style="width:100%;justify-content:center;" onclick="confirmNameAndShowResults()">
         <i class="fas fa-check"></i> ثبت و مشاهده نتیجه
       </button>
@@ -924,7 +924,7 @@ function submitQuiz(){
 }
 
 /* ═══════════════════════════════════════════
-   نام هنرجو قبل از نمایش نتایج
+   کد ملی هنرجو قبل از نمایش نتایج
 ═══════════════════════════════════════════ */
 function askNameThenShowResults(){
   setAds(false);
@@ -934,19 +934,62 @@ function askNameThenShowResults(){
   setTimeout(()=>document.getElementById('studentNameInput').focus(),50);
 }
 
-function confirmNameAndShowResults(){
+/* لیست کدهای ملی مجاز (اختیاری) — اگر kodemeli.txt کنار سایت وجود داشته باشد،
+   کد وارد شده باید داخل آن باشد؛ اگر فایل پیدا نشد، فقط فرمت چک می‌شود. */
+let kodemeliList=null; // null = هنوز لود نشده, Set = لود شده
+async function loadKodemeliOnce(){
+  if(kodemeliList!==null) return kodemeliList;
+  try{
+    const r=await fetch('kodemeli.txt',{cache:'no-store'});
+    if(!r.ok) throw 0;
+    const t=await r.text();
+    kodemeliList=new Set(t.split(/\r?\n/).map(normalizeNationalCode).filter(Boolean));
+  }catch(_){
+    kodemeliList=false; // فایل پیدا نشد؛ گیت غیرفعال می‌ماند
+  }
+  return kodemeliList;
+}
+loadKodemeliOnce();
+
+function normalizeNationalCode(str){
+  if(!str) return '';
+  const fa='۰۱۲۳۴۵۶۷۸۹', ar='٠١٢٣٤٥٦٧٨٩';
+  let out=String(str).trim();
+  out=out.replace(/[۰-۹]/g,d=>String(fa.indexOf(d)));
+  out=out.replace(/[٠-٩]/g,d=>String(ar.indexOf(d)));
+  out=out.replace(/\D/g,'');
+  if(out && out.length<10) out=out.padStart(10,'0');
+  return out;
+}
+
+async function confirmNameAndShowResults(){
   const inp=document.getElementById('studentNameInput');
+  const btn=document.querySelector('#secNameForm .home-btn');
   const msg=document.getElementById('nameFormMsg');
-  const name=inp.value.trim();
-  if(!name){
-    msg.textContent='❌ لطفاً نام و نام خانوادگی را وارد کنید';
+  const code=normalizeNationalCode(inp.value);
+
+  if(!code||code.length!==10){
+    msg.textContent='❌ لطفاً کد ملی را درست وارد کنید (۱۰ رقم)';
     msg.style.color='var(--danger)';
     inp.focus();
     return;
   }
-  window.currentStudentName=name;
+
+  const original=btn?btn.innerHTML:null;
+  if(btn){btn.disabled=true;btn.textContent='در حال بررسی…';}
+  const list=await loadKodemeliOnce();
+  if(btn){btn.disabled=false;btn.innerHTML=original;}
+
+  if(list instanceof Set && !list.has(code)){
+    msg.textContent='❌ این کد ملی در لیست هنرجویان مجاز پیدا نشد';
+    msg.style.color='var(--danger)';
+    inp.focus();
+    return;
+  }
+
+  window.currentStudentName=code;
   showResults();
-  saveResultToGithub(name);
+  saveResultToGithub(code);
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
