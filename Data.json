@@ -12964,5 +12964,217 @@
       }
     ],
     "date": "2026-07-29T11:45:22.280Z"
+  },
+  {
+    "name": "سید جواد حسینی",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Shadow Slide",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "کلید میان بر وسط چین نمودن متن کدام است؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+E"
+      },
+      {
+        "question": "کلیک بر روی کدام دکمه IE فهرستی از تمام سایت هایی را که در روزهای اخیر مشاهده کرده اید نشان می دهد؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Match",
+        "correct": "Search"
+      },
+      {
+        "question": "از چه طریقی می توان به همراه نامه الکترونیکی یک فایل ضمیمه کرده و ارسال کرد؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": "Slide Show",
+        "correct": "Normal"
+      },
+      {
+        "question": "برای اجرای سریع فرمان redo کلیدهای ......... مورد استفاده قرار می گیرند.",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE بطور اتوماتیک نمایش داده می شود چه نامیده می شود؟",
+        "selected": "Startup page",
+        "correct": "Last page"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Outline",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "اگر بخواهیم صفحاتی جستجو شود که کلمه exercise در عبارت جستجو نباشد، عبارت exercise access را چگونه می توان search نمود؟",
+        "selected": "access not exercise",
+        "correct": "access not exercise"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": "Page Header",
+        "correct": "Page Header"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "پنجره Control Panel و گزینه Add Hardware",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "آرایش فیزیکی رایانه ها در شبکه",
+        "correct": "قانون تبادلات اطلاعات در شبکه"
+      },
+      {
+        "question": "کلید میانبر فرمان paste چیست؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+V"
+      },
+      {
+        "question": "کدام یک از اسامی زیر برای نام پوشه غیر مجاز است؟",
+        "selected": "Con",
+        "correct": "Con"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "docx",
+        "correct": "accdb"
+      },
+      {
+        "question": "کدام فرمان برای باز کردن یک سند موجود به کار می رود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Apply Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید اول",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "All Program",
+        "correct": "All Program"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "برای اینکه در پرس و جو، شرط ورودی را موقع اجرا درخواست کند، از کدام علامت استفاده می کنید؟",
+        "selected": "[ ]",
+        "correct": "[ ]"
+      },
+      {
+        "question": "برای جستجو فایل های .gif باید از چه معیاری استفاده کرد؟",
+        "selected": "gif.*",
+        "correct": "*.gif"
+      },
+      {
+        "question": "کلیپ بورد چیست؟",
+        "selected": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد",
+        "correct": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "اگر بخواهیم جدول را طوری تنظیم کنیم که با خالی رها کردن یک فیلد از طرف سیستم پیغام اخطار ظاهر شود از کدام مشخصه استفاده می کنیم؟",
+        "selected": "Format",
+        "correct": "Required"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Scientific",
+        "correct": "Percentage"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Shortcut key",
+        "correct": "Shortcut key"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      }
+    ],
+    "date": "2026-07-30T20:17:48.295Z"
   }
 ]
