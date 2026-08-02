@@ -14024,5 +14024,217 @@
       }
     ],
     "date": "2026-08-02T13:14:49.807Z"
+  },
+  {
+    "name": "آرسین چگینی",
+    "exam": "icdl",
+    "score": 13,
+    "total": 40,
+    "percent": 33,
+    "wrong": 27,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "در مهارت های هفتگانه ICDL کدام نرم افزار به عنوان صفحه گسترده تدریس می شود؟",
+        "selected": "MS_EXCEL",
+        "correct": "MS_EXCEL"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Computer / Printer",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Numbering",
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Reset",
+        "correct": "Section"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Shapes",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Sort",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Type",
+        "correct": "Date modified"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Require",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": "از فرمان Save As در منوی File",
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": "برای تصحیح خودکار کلمات اشتباه آن ها را به کدام بخش اضافه می کنیم؟",
+        "selected": "Language",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE بطور اتوماتیک نمایش داده می شود چه نامیده می شود؟",
+        "selected": "Home page",
+        "correct": "Last page"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "انجام محاسبات با دقت بالا",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "پوشه Outbox شامل ........... است.",
+        "selected": "لیست نامه های حذف شده است",
+        "correct": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است"
+      },
+      {
+        "question": "پسوند Txt مربوط به فایل های ....................و پسوند Wave مربوط به فایل های ................است",
+        "selected": "متنی - تصویری",
+        "correct": "متنی - صوتی"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "From",
+        "correct": "To"
+      },
+      {
+        "question": "گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟",
+        "selected": "تغییر رنگ زمینه سلول",
+        "correct": "تغییر رنگ زمینه سلول"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Character Spacing از Paragraph",
+        "correct": "زبانه Line and Page Breaks از Paragraph"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "اگر بخواهیم اولین حرف از هر کلمه انگلیسی کوچک باشد، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Toggle Case",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Page Setup -> Line Number",
+        "correct": "Page Layout -> Page Border"
+      },
+      {
+        "question": "برای تغییر زبان انگلیسی به فارسی و برعکس از ترکیب چه کلیدهایی استفاده می شود؟",
+        "selected": "Alt+Shift",
+        "correct": "Alt+Shift"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Memo",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "Ram",
+        "correct": "CMOS"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "فاکتور فروش",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Number Slide",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": "Show Desktop Icon",
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": "Last Week",
+        "correct": "Last Month"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Caption",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Quick Access Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "با استفاده از کلیدهای ترکیبی Ctrl+Home مکان نما به کجا منتقل می شود؟",
+        "selected": "مکان نما به اولین فیلد متنی منتقل می شود",
+        "correct": "مکان نما به اولین فیلد رکورد اول منتقل می شود"
+      },
+      {
+        "question": "کدامیک از فرمت های فایل زیر برای تصویر زمینه ویندوز قابل استفاده است؟",
+        "selected": "Docx",
+        "correct": "JPG"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Home",
+        "correct": "Transition"
+      },
+      {
+        "question": "با دستور ..... می توان تغییرات یک فایل را با همان نام قبلی ذخیره و با دستور ..... می توان اطلاعات فایل فعلی را با نام دیگری ذخیره کرد؟ (از راست به چپ)",
+        "selected": "Save as - Save",
+        "correct": "Save as - Save"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "File / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "کدام یک از موارد زیر را در Criteria قرار دهیم باعث خواهد شد که رکوردهایی پیدا شوند که فیلد «شخصیت» آنها مخالف \"Nice\" است؟",
+        "selected": "><\"Nice\"",
+        "correct": "Not Nice"
+      }
+    ],
+    "date": "2026-08-02T13:35:23.184Z"
   }
 ]
