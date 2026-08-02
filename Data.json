@@ -15932,5 +15932,217 @@
       }
     ],
     "date": "2026-08-02T21:07:51.168Z"
+  },
+  {
+    "name": "سید جواد حسینی",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "MAN",
+        "correct": "Gateways"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "CPU > Ram > Hard > Floppy",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس",
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "با استفاده از گزینه ............. می توانیم تعیین کنیم متن از حاشیه سلول چقدر فاصله داشته باشد.",
+        "selected": "Cell Alignment",
+        "correct": "Cell Margins"
+      },
+      {
+        "question": "کدام گزینه غلط است؟",
+        "selected": "اکسل داده های تاریخی را به عنوان عدد با قابلیت شرکت در عملیات ریاضی در نظر می گیرد",
+        "correct": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Line",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Align Right",
+        "correct": "Right"
+      },
+      {
+        "question": "نامه های ناتمام معمولا در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Filter By Selection",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Database",
+        "correct": "Database"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب اعشاری",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "دسیمال",
+        "correct": "باینری"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "ثبات (Register)",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پلاترها",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "After Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": "خاصیت Required را روی No تنظیم کنیم",
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Fill Color",
+        "correct": "Shading"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "پسوند Txt مربوط به فایل های ....................و پسوند Wave مربوط به فایل های ................است",
+        "selected": "متنی - صوتی",
+        "correct": "متنی - صوتی"
+      },
+      {
+        "question": "برای اینکه تصویر پشت متن قرار گیرد کدام گزینه از بخش Wrap Text انتخاب می شود؟",
+        "selected": "Tight",
+        "correct": "Behind Text"
+      },
+      {
+        "question": "با استفاده از کدام گزینه زیر، عمل موردگذاری انجام می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Direction از گروه Alignment",
+        "correct": "Text Direction از گروه Cell Size"
+      },
+      {
+        "question": "Blank Page از گروه Pages چه کاربردی دارد؟",
+        "selected": "یک صفحه خالی درج می کند",
+        "correct": "یک صفحه خالی درج می کند"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "کدام گزینه نادرست می باشد؟",
+        "selected": "قطاع: دایره های هم مرکز با شعاع برابر",
+        "correct": "قطاع: دایره های هم مرکز با شعاع برابر"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "برای درج جدول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Table",
+        "correct": "سربرگ Insert گروه Table"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای یک .............. است؟",
+        "selected": "Field",
+        "correct": "Table"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "برای به حداقل رساندن اندازه ی پنجره از کدام گزینه استفاده می کنیم؟",
+        "selected": "Maximize",
+        "correct": "Minimize"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      }
+    ],
+    "date": "2026-08-02T21:09:27.928Z"
   }
 ]
