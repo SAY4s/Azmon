@@ -16356,5 +16356,217 @@
       }
     ],
     "date": "2026-08-02T21:13:35.131Z"
+  },
+  {
+    "name": "...",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "انتقال دادن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر متنی",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      },
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": "خاصیت Format را روی No تنظیم کنیم",
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "هنگام تایپ متن اشاره گر موس تبدیل به .......... می شود.",
+        "selected": "Cursor",
+        "correct": "پنهان"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Chart Layout",
+        "correct": "Data Label"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس ایمیل (E-mail) منحصر به فرد است",
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Scrollbars",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "برای تجزیه یک سلول به چند سطر و ستون از کدام دستور استفاده می کنیم؟",
+        "selected": "Split Cells",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "واژه پرداز",
+        "correct": "واژه پرداز"
+      },
+      {
+        "question": "برای بازیابی فایل یا پوشه از سطل بازیافت از فرمان ........................... استفاده می کنیم.",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "کلید میان بر وسط چین نمودن متن کدام است؟",
+        "selected": "Ctrl+L",
+        "correct": "Ctrl+E"
+      },
+      {
+        "question": "از گزینه Count Number جهت محاسبه .............. استفاده می شود.",
+        "selected": "شمارش تعداد اعداد",
+        "correct": "شمارش تعداد اعداد"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر معرف سازمان دولتی است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "آدرس منحصر به فرد در هر صفحه وب چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Properties",
+        "correct": "Read Only"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Large Icons",
+        "correct": "Details"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "جمع",
+        "correct": "جمع"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": "گزینه Split از سربرگ Insert",
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن سایه دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "بانک اطلاعات چیست؟",
+        "selected": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند",
+        "correct": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Character Spacing از Paragraph",
+        "correct": "زبانه Line and Page Breaks از Paragraph"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Link",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "در صفحه کلید برای تایپ علائم بالای کلید، کدام کلید را باید پایین نگه داشت؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "کدام گزینه زیر یک موتور جستجوگر می باشد؟",
+        "selected": "Google",
+        "correct": "Google"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر قابل برنامه ریزی و قابل پاک شدن با اشعه ماوراء بنفش است؟",
+        "selected": "Eprom",
+        "correct": "Eprom"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد جدول جدید بدون استفاده از ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query تمام فیلدهای جدول را شامل می شود",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "کدام گزینه از اجزای بانک اطلاعاتی access نمی باشد؟",
+        "selected": "Database",
+        "correct": "Database"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "از کادر محاوره ای Tabs گزینه Tab Remove را برمی گزینیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      }
+    ],
+    "date": "2026-08-02T21:15:22.205Z"
   }
 ]
