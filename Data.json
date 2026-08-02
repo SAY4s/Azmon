@@ -15720,5 +15720,217 @@
       }
     ],
     "date": "2026-08-02T20:51:36.124Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Table, Design",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "برای اجرای سریع فرمان redo کلیدهای ......... مورد استفاده قرار می گیرند.",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای مشاهده ظرفیت یک فایل روی آن راست کلیک کرده و گزینه ................. را انتخاب می کنیم.",
+        "selected": "Capacity",
+        "correct": "Properties"
+      },
+      {
+        "question": "برای بازیابی پوشه و یا فایل حذف شده باید از کدام فرمان استفاده کرد؟",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "اطلاعات حذف شده در کجا نگهداری می شوند؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر در مورد DVD صحیح می باشد؟",
+        "selected": "دیسک سخت",
+        "correct": "دیسک ویدیویی دیجیتال"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Ctrl+]",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در طراحی اسلایدها کدام گزینه برای طراحی الگوی نسخه چاپی اسلایدهای فایل ارائه مطلب برای حاضرین در جلسه به کار می رود؟",
+        "selected": "Master View",
+        "correct": "Handout Master"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اکسترانت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "AERO",
+        "correct": "AERO"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "LAN",
+        "correct": "Intranet"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "کدام یک از موارد زیر را در Criteria قرار دهیم باعث خواهد شد که رکوردهایی پیدا شوند که فیلد «شخصیت» آنها مخالف \"Nice\" است؟",
+        "selected": "Not Nice",
+        "correct": "Not Nice"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت چپ",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود",
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "یادداشت",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پلاترها",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پالتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Number",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "کدام دستور می تواند کار چند تابع را انجام دهد؟",
+        "selected": "Subtotals",
+        "correct": "Subtotals"
+      },
+      {
+        "question": "سریع ترین و راحت ترین روش برای ایجاد فایل نمایشی کدام است؟",
+        "selected": "فشردن کلیدهای Ctrl+N",
+        "correct": "فشردن کلیدهای Ctrl+N"
+      },
+      {
+        "question": "از کدام روش می توان نماها را در ورد تغییر داد؟",
+        "selected": "از زبانه View گروه Show می توان فعال کرد",
+        "correct": "از طریق دکمه هایی که در گوشه پایین و سمت راست محیط Word قرار دارند"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Envelopes",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      }
+    ],
+    "date": "2026-08-02T21:07:51.168Z"
   }
 ]
