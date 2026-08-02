@@ -7270,3 +7270,1683 @@ Documents
 Microsoft Word
 Program File
 الف
+
+برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟
+Split Cells
+Split Table
+Merge Cells
+Merge Table
+ج
+
+برای اینکه تصویر پشت متن قرار گیرد کدام گزینه از بخش Wrap Text انتخاب می شود؟
+Tight
+Square
+Behind Text
+Through
+ج
+
+برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.
+Page Number-Design
+Page Number-Review
+Page Number-Home
+Page Number-Insert
+د
+
+برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟
+Add To Dictionary
+Ignore
+Deny
+Cancel
+ب
+
+برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟
+Ignore
+Ignore Total
+Ignore All
+Deny
+ج
+
+Blank Page از گروه Pages چه کاربردی دارد؟
+یک صفحه خالی درج می کند
+یک کاور برای سند ایجاد می کند
+به صفحه بعد در سند می رود
+یک سند الگو ایجاد می کند
+الف
+
+کاربرد دستور Page Break در گروه Pages چیست؟
+یک صفحه خالی درج می کند
+یک کاور برای سند ایجاد می کند
+ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند
+یک سند الگو ایجاد می کند
+ج
+
+برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟
+زبانه Home گروه Editing دستور Cover Page
+زبانه Insert گروه Pages دستور Page Cover
+زبانه Page Layout دستور Cover Page
+زبانه Design گروه Page Border دستور Cover Page
+ب
+
+برای ایجاد متن کم رنگ روی صفحه و پشت نوشته ها کدام دستور مناسب است؟
+Page Color
+Text Color
+Background Color
+Watermark
+د
+
+برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟
+Word Art
+Screenshot
+Shape
+Smart Art
+د
+
+ستون ها در جدول نرم افزار Word چه نامیده می شوند؟
+Columns
+Rows
+Cells
+Table
+الف
+
+سلول هایی که به صورت افقی در جدول قرار دارند چه نامیده می شوند؟
+Cells
+Columns
+Rows
+Table
+ج
+
+به هر خانه جدول یک ................... گفته می شود.
+Rows
+Columns
+Table
+Cell
+د
+
+برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟
+Draw Table از زبانه Insert
+کلیک روی Table از زبانه Insert و انتخاب Insert Table
+Input Table از زبانه Insert
+Insert Table از زبانه Home
+ب
+
+در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟
+Number Of Columns
+Fixed Column Width
+Number Of Rows
+Number Of Cells
+ج
+
+بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟
+Format, Layout
+Table, Design
+Design, Table
+Design, Layout
+د
+
+در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟
+Banded Rows
+Header Row
+Total Row
+Last Row
+ب
+
+در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟
+Info
+Share
+Export
+Account
+الف
+
+کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟
+Print Preview
+Print All Page
+Print Selection
+Print Current Page
+ب
+
+اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟
+Odd Page
+Print All Page
+Even Page
+Print Current Page
+ج
+
+برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟
+Custom Print
+Print All Page
+Print Selection
+Print Current Page
+ج
+
+برای درج Comment (توضیحات) در متن.......
+View>New Comment
+Insert>New Comment
+Home>New Comment
+Review>New Comment
+د
+
+برای سفارشی کردن بزرگ نمایی صفحه در محیط نرم افزار Word از کدام مورد استفاده می کنیم؟
+Custom
+Review>Zoom
+View>Zoom
+View>Setting
+ج
+
+کاربرد Font چیست؟
+با استفاده از این گزینه می توانیم اندازه متن را تعیین کنیم
+با استفاده از این گزینه می توانیم شکل متن انتخابی را تغییر دهیم
+با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم
+برای فرمت دادن به متن از این مورد استفاده می کنیم
+ج
+
+برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟
+Change Case
+Remove Format
+Clear All Formatting
+Delete Formatting
+ج
+
+دستور Strikethrough چه کاری انجام می دهد؟
+روی متن یک خط درج می کند
+یک خط زیر متن درج می کند
+متن را مایل و کج می کند
+متن را توپر می کند
+الف
+
+برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟
+Filter
+Increase Alphabet
+Sort
+Asset
+ج
+
+برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟
+End Note
+Footnote
+Footer
+Header
+ب
+
+گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟
+اعمال سبک بر خطوط جدول
+ایجاد سلول های جدید
+اعمال سبک روی جدول
+اعمال سبک روی تصویر
+ج
+
+برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟
+Table Color
+Border
+Fill Color
+Shading
+د
+
+برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟
+Select Cell
+Select Column
+Select Row
+Select Table
+ج
+
+برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟
+Select Cell
+Select Column
+Select Row
+Select Table
+ب
+
+برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟
+Select Cell
+Select Column
+Select Row
+Select Table
+الف
+
+برای انتخاب کل جدول کدام یک از دستورات Select را انتخاب می کنید؟
+Select Cell
+Select Column
+Select Row
+Select Table
+د
+
+دستور Select Row از گروه Select چه کاری انجام می دهد؟
+سلول را انتخاب می کند
+ستون جدول را انتخاب می کند
+سطر جدول را انتخاب می کند
+کل جدول را انتخاب می کند
+ج
+
+در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.
+Table Option
+Table Setting
+Table Properties
+View Gridlines
+ج
+
+گزینه Eraser از گروه Draw چه کاربردی دارد؟
+رسم ستون و سطر جدول
+تبدیل جدول به متن
+تعیین جهت نوشته های جدول
+حذف قسمت مورد نظر جدول
+د
+
+برای پاک کردن قسمت مورد نظر جدول از کدام دستور استفاده می شود؟
+Draw
+Clear
+Remove
+Eraser
+د
+
+برای حذف ستون های جدول کدام دستور از گروه Delete را برمی گزینیم؟
+Delete Cells
+Delete Columns
+Delete Rows
+Delete Table
+ب
+
+برای حذف سطرهای جدول کدام دستور از گروه Delete را برمی گزینیم؟
+Delete Cells
+Delete Columns
+Delete Rows
+Delete Table
+ج
+
+برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟
+Delete Cells
+Delete Columns
+Delete Rows
+Delete Table
+الف
+
+برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟
+Delete Cells
+Delete Columns
+Delete Rows
+Delete Table
+د
+
+برای تجزیه یک سلول به چند سطر و ستون از کدام دستور استفاده می کنیم؟
+Merge Cells
+Split Cells
+Split Table
+Split Column
+ب
+
+برای تقسیم جدول به دو بخش کدام دستور مناسب است؟
+Merge Cells
+Split Table
+Split Cells
+Separate Table
+ب
+
+توسط این گزینه می توانیم ارتفاع جدول را تعیین کنیم:
+Height
+Weight
+Width
+Vertical
+الف
+
+توسط این گزینه می توان عرض جدول را تعیین کرد:
+Height
+Weight
+Width
+Vertical
+ج
+
+هرگاه اندازه سطرهای جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟
+Distribute Columns
+Distribute Rows
+Distribute Cell
+Distribute Table
+ب
+
+هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟
+Distribute Columns
+Distribute Rows
+Distribute Cell
+Distribute Table
+الف
+
+چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟
+Text Orientation از گروه Table
+Text Indentation از گروه Sort
+Text Direction از گروه Alignment
+Text Direction از گروه Cell Size
+د
+
+با استفاده از گزینه ............. می توانیم تعیین کنیم متن از حاشیه سلول چقدر فاصله داشته باشد.
+Cell Direction
+Cell Alignment
+Cell Indention
+Cell Margins
+د
+
+برای تکرار عنوان سطر جدول در هر صفحه از کدام ابزار می توان استفاده نمود؟
+Convert To Text
+Repeat Header Column
+Repeat Header Row
+Repeat Header Cell
+ج
+
+دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟
+جدول را به متن تبدیل می کند
+می توانیم فرمول بنویسیم
+برای سطرها عنوان ایجاد می کند
+در هر صفحه عنوان جدول را تکرار می کند
+د
+
+کدام گزینه برای درج تصویر به کار می رود؟
+Illustrate
+Shape
+Image
+Picture
+د
+
+با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.
+Format
+Picture
+Design
+Layout
+ج
+
+نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟
+برنامه نویسی
+بانک اطلاعات
+واژه پرداز
+صفحه گسترده
+ج
+
+نرم افزار Word در کدام مورد کاربرد دارد؟
+برنامه نویسی
+امور مالی
+امور گرافیکی
+تهیه و ویرایش کتاب و مقاله
+د
+
+برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟
+کپی کردن متن
+Duplicate کردن نوشته
+استفاده از Format Painter
+Copy Formatting
+ج
+
+برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟
+سربرگ View گزینه Style
+سربرگ Insert گزینه Clipart
+سربرگ Insert گزینه Object
+سربرگ Insert گزینه Symbol
+د
+
+کلید میانبر فرمان Redo کدام است؟
+Ctrl+Z
+Ctrl+S
+Ctrl+Y
+Alt+D
+ج
+
+کلید میانبر Copy کدام گزینه است؟
+Ctrl+A
+Ctrl+X
+Alt+C
+Ctrl+C
+د
+
+............... از جمله نرم افزارهای بسته Office بوده که بیشتر برای نوشتن و ویرایش کتاب، مجلات و اسناد و.... از آن استفاده می شود.
+Excel
+Word
+Access
+PowerPoint
+ب
+
+برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟
+Quick Print
+Print
+Print Preview
+Print Page
+ج
+
+آسان ترین شیوه برای ایجاد یک سند در Word استفاده از کلیدهای ترکیبی ............... است.
+Ctrl+M
+Alt+N
+Ctrl+O
+Ctrl+N
+د
+
+به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟
+Pattern
+Template
+Recent
+Blank
+ب
+
+آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.
+Ctrl+N
+Alt+N
+Ctrl+O
+Ctrl+R
+ج
+
+برای ذخیره سند از چه کلیدهایی استفاده می شود؟
+Ctrl+X
+Ctrl+C
+Ctrl+W
+Ctrl+S
+د
+
+برای مدیریت سندها از کدام گزینه استفاده می شود؟
+Insert
+Page Layout
+File
+Design
+ج
+
+کاربرد بخش File در Word چیست؟
+درج اشیا و نمودار
+مدیریت پاراگراف و متن
+بازبینی سند قبل از چاپ
+مدیریت سند
+د
+
+فرمت .......... فایل را به صورت غیرقابل تغییر در می آورد و با نرم افزار Word قابل اجرا نیست.
+PDF
+DOCM
+DOC
+DOCX
+الف
+
+زمانی که شما نیاز داشته باشید تا به سند خود آدرس ذخیره سازی داده و برای آن نامی را تعیین کنید بهتر است از کدام گزینه استفاده کنید؟
+Save As
+Save
+Export
+Share
+الف
+
+چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟
+ویرایش جدول در سند
+ایجاد سند جدید
+جستجوی سند
+بازبینی سند
+ج
+
+برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟
+Option>Customize Ribbon
+کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar
+Option>Advanced>Editing Option
+زبانه View گروه Window
+ب
+
+برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟
+Option>Add-in
+Option>Customize Ribbon
+Option>Quick Access Toolbar
+Option>Edit>Toolbar
+ج
+
+با استفاده از ................... می توانیم سند خود را چاپ کنیم.
+Print
+Save
+Info
+Open
+الف
+
+از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟
+Print All Page
+Quick Print
+Number Of Pages
+Copies
+د
+
+برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟
+Print Selection
+Print Current Page
+Print First Page
+Print All Pages
+ب
+
+برای چاپ تمام صفحات سند بهترین گزینه کدام است؟
+Print Current Page
+Print Pages
+Print Selection
+Print All Pages
+د
+
+با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟
+Pages
+Print Current Pages
+Custom Print
+Print From ... To ...
+د
+
+برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟
+Print Selected Text
+Print Section
+Print Current Text
+Print Selection
+د
+
+با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟
+Export
+Publish
+Print
+Share
+د
+
+کاربرد گزینه Export چیست؟
+انتشار سند در دیگر فرمت ها
+انتشار سند
+پیش نمایش سند
+وارد کردن سند با فرمت خاص
+الف
+
+کلید میانبر برای بستن سند کدام است؟
+Ctrl+C
+Ctrl+W
+Alt+F4
+Alt+W
+ب
+
+برای بستن سند از چه دستوری استفاده می شود؟
+Exit
+Eject
+Close
+Close Document
+ج
+
+برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟
+File>New>Account
+File>Open>Account
+File>Account
+File>Option>Account
+ج
+
+برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟
+Sign Up
+Sign In
+Sign Out
+Sign At
+ب
+
+برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.
+Account
+Info
+Customize Word
+Options
+د
+
+برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟
+Insert
+Home
+Design
+Layout
+ج
+
+مزیت الگو (Template) چیست؟
+قابل تغییر نیست
+فقط در Word 2013 قابل اجراست
+صرفه جویی در زمان ویرایش
+دارای جدول و اشیا است
+ج
+
+توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟
+Cut
+Paste
+Copy
+Format Painter
+الف
+
+هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟
+Cut
+Copy Format
+Format Painter
+Paste Format
+ج
+
+برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟
+Watermark
+Page Color
+Page Border Color
+Background Color
+ب
+
+برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟
+Paste
+Clipboard
+Replace
+Find
+الف
+
+برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟
+Multi Columns
+Page Layout>Columns
+Page Layout>Line Numbers
+Page Layout>Margins
+ب
+
+برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟
+Preset
+Width And Spacing
+Number Of Columns
+Apply To
+ج
+
+برای قرار دادن خط بین ستون ها کدام گزینه از کادر محاوره ای Columns را انتخاب می کنیم؟
+Line Spacing
+Line Between
+Line In Middle
+Line In Right
+ب
+
+کاربرد گزینه Change Case چیست؟
+تغییر زبان صفحه کلید
+اعمال تغییرات روی حاشیه سند
+تغییر حروف لاتین از بزرگ به کوچک و بالعکس
+تغییر فرمت نوشته های لاتین
+ج
+
+از دستور Font به چه منظور استفاده می کنیم؟
+تغییر کوچک یا بزرگی متن
+تغییر فرمت جمله
+حذف فرمت نوشته
+برای تعیین نوع قلم
+د
+
+برای بزرگ کردن اندازه نوشته کدام گزینه به کار می رود؟
+Change Font Size
+Font
+Increase Font Size
+Decrease Font Size
+ج
+
+برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟
+Decrease Font Size
+Small Font
+Increase Font Size
+Change Font Size
+الف
+
+برای اینکه بخواهیم حرف اول کلمه هر جمله با حروف بزرگ لاتین نوشته شود، باید کدام گزینه را برگزینیم؟
+Uppercase
+Lowercase
+Capitalize Each Word
+Sentence Case
+د
+
+اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟
+Lowercase
+Sentence Case
+Toggle Case
+Uppercase
+د
+
+برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟
+Lowercase
+Uppercase
+Capitalize Each Word
+Sentence Case
+الف
+
+اگر بخواهیم اولین حرف از هر کلمه انگلیسی کوچک باشد، کدام گزینه را انتخاب می کنیم؟
+Sentence Case
+Capitalize Each Word
+Toggle Case
+Lowercase
+د
+
+برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟
+Underline
+Italic
+Strikethrough
+Bold
+د
+
+از گزینه Underline برای ................... متن استفاده می شود.
+زیرخط دار کردن
+مورب کردن
+توپر کردن
+جلوه دار کردن
+الف
+
+برای مورب کردن متن از کدام گزینه استفاده می کنیم؟
+Bold
+Italic
+Underline
+Effect
+ب
+
+کاربرد سبک Italic چیست؟
+توپر کردن نوشته
+زیرخط دار کردن نوشته
+مورب کردن نوشته
+ایجاد خط روی نوشته
+ج
+
+برای نوشتن توان یک عدد از چه گزینه ای استفاده می کنیم؟
+Superscript
+Subscript
+Strikethrough
+Bold
+الف
+
+برای اندیس گذاری (زیرنویس) چه گزینه ای مناسب است؟
+Superscript
+Subscript
+Strikethrough
+Bold
+ب
+
+برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟
+Text Style
+Text Option
+Text Effects
+Font
+ج
+
+با این دستور می توانیم رنگ متن را تغییر دهیم:
+Highlighter
+Color
+Typography
+Font Color
+د
+
+برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟
+Font Color
+Fore Color
+Highlight
+Line Color
+ج
+
+برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟
+Bullets
+Numbering
+Multilevel List
+Table Of Content
+ج
+
+زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟
+Define New Number Format
+Define New Multilevel List
+Change List Level
+Define New Bullet
+د
+
+ابزار ایجاد فهرست در Word کدام است؟
+Multilevel List
+Table Of Contents
+Number List
+List Of Content
+ب
+
+کدامیک از دستورات Alignment متن را وسط چین می کند؟
+Center
+Right
+Left
+Justify
+الف
+
+برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟
+Center
+Right
+Left
+Justify
+ب
+
+برای ترازبندی متن از سمت راست کدام دستور مناسب است؟
+Align Right
+Alignment
+Right
+Indent To Right
+ج
+
+گزینه .......................... برای ترازبندی متن کاربرد دارد.
+Indentation
+Justify
+Line Spacing
+Direction
+ب
+
+کدام یک از دستورات Alignment برای منظم کردن متن کاربرد دارد؟
+Center
+Right
+Margins
+Justify
+د
+
+برای کم کردن فاصله پاراگراف از حاشیه باید چه دستوری را اجرا کنیم؟
+Left Indention
+Increase Indent
+Decrease Indent
+High Indention
+ج
+
+گزینه Increase Indent به چه منظوری به کار می رود؟
+کم کردن فاصله پاراگراف از حاشیه
+زیاد کردن فاصله پاراگراف از حاشیه
+برای افزایش حاشیه
+برای کاهش حاشیه
+ب
+
+جهت نوشته با کدام دستور تغییر می کند؟
+Direction
+Indentation
+Alignment
+Sort
+الف
+
+کدام گزینه برای نوشتن متون فارسی به کار می رود؟
+Left To Right Text Direction
+Right To Left Text Direction
+Right Indention
+Left Indention
+ب
+
+کدام دستور فاصله بین خطوط را تعیین می کند؟
+Text Spacing
+Paragraph Spacing
+Character Spacing
+Line And Paragraph Spacing
+د
+
+ابزار Line and Paragraph Spacing چه کاربردی دارد؟
+ترازبندی خطوط و پاراگراف
+تورفتگی خطوط و پاراگراف
+تنظیم فاصله خطوط و پاراگراف
+ایجاد خطوط جدید و پاراگراف
+ج
+
+چه زمانی از ابزار Border استفاده می کنید؟
+برای تنظیم حاشیه برگه استفاده می شود
+برای تغییر حاشیه جدول استفاده می شود
+برای ایجاد کادر دور متن و جدول استفاده می شود
+برای انتخاب سبک نوشته استفاده می شود
+ج
+
+Shading برای ................ به کار می رود.
+تنظیم فاصله خط و پاراگراف
+ایجاد حاشیه و کادر
+مرتب سازی متون
+تعیین رنگ و طرح زمینه داخل کادر
+د
+
+برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟
+Remove Formatting
+Clear Formatting
+Delete Formatting
+Change Formatting
+ب
+
+با استفاده از کدام گزینه می توان سبک جدید و سفارشی ایجاد نمود؟
+Create A New Style
+Define New Style
+Apply Style
+Save As New Style Set
+الف
+
+Apply Styles چه کاری انجام می دهد؟
+سبک جدید ایجاد می کند
+سبک قبل را حذف می کند
+سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم
+سبک های موجود را ویرایش می کند
+ج
+
+به چه روشی می توانیم نوع Tab را تغییر دهیم؟
+با کلیک کردن روی خط کش
+از سربرگ View انتخاب گزینه Change Tab
+از سربرگ View انتخاب گزینه Types Of Tab
+با کلیک روی مربع مربوط به Tab ها در سمت چپ خط کش
+د
+
+برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟
+در مکان دلخواه در خط کش افقی کلیک می کنیم
+با درگ کردن خط کش
+روی صفحه در حین تایپ کردن دکمه Caps Lock را می فشاریم
+با فشردن دکمه Scroll Bar
+الف
+
+کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟
+Right Tab
+Left Tab
+Center Tab
+Decimal Tab
+ب
+
+کدام تب برای وسط چین کردن به کار می رود؟
+Right Tab
+Bar Tab
+Center Tab
+Decimal Tab
+ج
+
+Center Tab به چه نوع تبی گفته می شود؟
+تب اعشاری
+تب راست
+تب وسط
+تب بار
+ج
+
+برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟
+Hanging Indent
+First Line Indent
+First Line Tab
+Decimal Tab
+ب
+
+برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟
+Center Tab
+Decimal Tab
+Bar Tab
+Right Tab
+ب
+
+Bar Tab چه کاری انجام می دهد؟
+ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب
+قرار دادن یک خط در محل ایجاد تب
+ایجاد تب در خط کش افقی از سمت راست
+قرار دادن اعشار اعداد در یک راستا
+ب
+
+کاربرد Decimal Tab چیست؟
+ایجاد تب راست
+ایجاد تب وسط
+ایجاد تب چپ
+ایجاد تب اعشاری
+د
+
+First Line Indent چه کاربردی دارد؟
+برای وسط چین کردن اعداد اعشاری به کار می رود
+برای ایجاد تورفتگی کل پاراگراف به کار می رود
+برای ایجاد تورفتگی خط اول پاراگراف به کار می رود
+برای ایجاد فاصله بین خطوط به کار می رود
+ج
+
+از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟
+Special Character
+Line And Paragraph Spacing
+Line And Paragraph Indent
+Each Character Spacing
+ب
+
+کلید میانبر Find کدام است؟
+F3
+Ctrl+J
+Ctrl+R
+Ctrl+F
+د
+
+توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟
+Find
+Replace
+Search
+Google
+الف
+
+کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟
+Replace
+Find
+Object
+Search
+الف
+
+در قسمت .............. از پنجره Find and Replace عبارتی را که می خواهیم ورد آن را برای جایگزینی انتخاب کند (پیدا کند)، می نویسیم.
+Replace With
+Find With
+Find What
+Search Word
+ج
+
+در منوی کشویی Find What چه می نویسیم؟
+متن جدید برای جایگزین شدن
+متنی که می خواهیم جستجو کنیم
+متنی را که می خواهیم توپر کنیم
+متنی که می خواهیم فرمت آن را پاک کنیم
+ب
+
+در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟
+Search Box
+Find What
+Replace With
+Replace All
+ج
+
+با استفاده از کدام دکمه در کادر Find and Replace می توانید تمام کلمات انتخاب شده را جایگزین کنید؟
+More
+Replace All
+Replace
+Find What
+ب
+
+برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟
+Find Previous
+Replace
+Find What
+Find Next
+د
+
+برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟
+Replace All
+Single Replace
+Find Next
+Replace
+د
+
+برای نمایش خط کش کدام سربرگ را انتخاب می کنید؟
+Reference
+View
+Layout
+Insert
+ب
+
+برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟
+Gridline
+Eraser
+Ruler
+Wrap
+ج
+
+توسط کدام دستور اندازه صفحه را تغییر می دهیم؟
+Width
+Paper
+Page Layout
+Size
+د
+
+برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟
+Width
+Weight
+Height
+Paper
+ج
+
+گزینه Width در سربرگ Paper چه کاربردی دارد؟
+ارتفاع صفحه را تغییر می دهد
+عرض صفحه را تعیین می کند
+اندازه کل صفحه را تعیین می کند
+اندازه حاشیه را تعیین می کند
+ب
+
+کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟
+Orientation
+Margins
+Size
+Columns
+الف
+
+کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟
+Ctrl+)
+Ctrl+(
+Ctrl+]
+Ctrl+[
+د
+
+می خواهیم عبارت (x+5)^2 را تایپ نماییم، پس از انتخاب (x+5) کدام گزینه از Font موجب می شود تا عبارت به درستی تایپ شود؟
+Strikethrough
+Superscript
+Subscript
+Engrave
+ب
+
+کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟
+Format Painter
+Position
+Effect
+Paragraph
+الف
+
+کلید ترکیبی Go To کدام است؟
+Ctrl+C
+Ctrl+G
+Alt+C
+Alt+G
+ب
+
+برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟
+Insert
+Font
+Page Layout
+Review
+ب
+
+برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟
+کلید Shift همراه با کلیدهای جهتی
+کلید Alt همراه با کلیدهای جهتی
+کلید Ctrl همراه با کلیدهای جهتی
+کلید Scroll Bar و انتخاب خطوط
+الف
+
+برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟
+Alt
+Ctrl
+Shift
+Tab
+ب
+
+حافظه های اصلی کامپیوتر را نام ببرید؟
+CD-ROM - DVD-ROM
+ROM - RAM
+EPROM - Hard Disk
+Hard Disk - RAM
+ب
+
+کدام مورد یک دستگاه خروجی است؟
+صفحه کلید
+ماوس
+اسکنر
+چاپگر
+د
+
+برای تبدیل دستورات غیرقابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟
+سیستم عامل
+مترجم ها
+نرم افزارهای کاربردی
+نرم افزارهای کمکی
+ب
+
+برای نگهداری موقت داده های در حال پردازش از کدام مورد استفاده می شود؟
+CU
+ALU
+Register
+Cache
+ج
+
+کدام یک از گزینه های زیر بیانگر اجزای فیزیکی یک سیستم کامپیوتری است؟
+سخت افزار (Hardware)
+نرم افزار رایگان (Freeware)
+نرم افزار (Software)
+ابزار آموزشی (Warecourse)
+الف
+
+کدام یک از عبارت های زیر صحیح است؟
+یک گیگابایت کمتر از یک مگابایت است
+یک کیلوبایت کمتر از یک مگابایت است
+یک بایت کمتر از یک بیت است
+یک ترابایت کمتر از یک گیگابایت است
+ب
+
+کدام عبارت در مورد RAM صحیح است؟
+RAM هنگامی که کامپیوتر خاموش می شود داده ها را حفظ می کند
+RAM یک حافظه خواندنی نوشتنی است
+RAM حافظه فقط نوشتنی است
+RAM را در هیچ کامپیوتری نمی توان افزایش داد
+ب
+
+بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟
+PC
+Mainframe
+Laptop
+Super Computer
+د
+
+یک برنامه به منظور اجرا در کجا قرار می گیرد؟
+RAM
+ROM
+Hard Disk
+Cache Memory
+الف
+
+کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟
+Gateways
+WAN
+MAN
+LAN
+الف
+
+یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟
+سخت افزار و حافظه جانبی
+نرم افزار و میان افزار
+سخت افزار و میان افزار
+سخت افزار و نرم افزار و میان افزار
+د
+
+از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟
+پلاترها
+پرینترها
+دستگاه های فتوکپی
+ماشین های تکثیر
+الف
+
+کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟
+Cache
+Register
+CU
+ALU
+الف
+
+کدام گزینه دستگاه ورودی نمی باشد؟
+Speaker
+Mouse
+Light Pen
+Scanner
+الف
+
+برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟
+کارت صدا
+مودم
+فایل صوتی یا ویدئویی
+بلندگو (Speaker)
+ب
+
+کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟
+Micro Computer
+Super Computer
+Mini Computer
+Server Computer
+د
+
+به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟
+E-Tejarat
+E-Commerce
+E-Training
+E-Banking
+ب
+
+ویروس کامپیوتری عبارت است از:
+یک ویروس بیماری زا
+یک سخت افزار موجود در کامپیوتر
+یک برنامه کامپیوتری مخرب
+یک نرم افزار موجود در کامپیوتر
+ج
+
+برای جستجوی فایل های 5 حرفی که به P ختم می شود در کادر جستجو چگونه باید تایپ کرد؟
+*p
+p*
+p????
+????p
+د
+
+در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.
+Capacity
+Backup Now
+Free Space
+Type
+ج
+
+برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟
+Restore
+Close
+Undo
+Redo
+ج
+
+پسوند فایل های متنی کدام است؟
+Txt
+Bmp
+Jpg
+Rtf
+الف
+
+برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.
+Ctrl+Alt+Delete
+Shift+Ctrl+Alt
+Shift+Ctrl+A
+Alt+Delete+Y
+الف
+
+برای به حداقل رساندن اندازه ی پنجره از کدام گزینه استفاده می کنیم؟
+Minimize
+Maximize
+Close
+Restore Down
+الف
+
+حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟
+Computer
+Recycle Bin
+از بین می روند
+در حافظه موقت Clipboard قرار می گیرند
+ب
+
+برای بستن پنجره ها از کدام گزینه نمی توان استفاده کرد؟
+از منوی File گزینه Close را کلیک کنیم
+روی علامت ضربدر سمت راست گوشه بالای پنجره کلیک کنیم
+از کلید ترکیبی Alt+F4 استفاده می کنیم
+از کلید ترکیبی Alt+Tab استفاده می کنیم
+د
+
+به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟
+Drag
+Click
+Double Click
+Drop
+الف
+
+به نوار رنگی بالای پنجره ها چه می گویند؟
+نوار آدرس
+نوار منو
+نوار عنوان
+نوار وضعیت
+ج
+
+................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.
+Domain
+Address Site
+URL
+Https
+ج
+
+کدام گزینه زیر یک موتور جستجوگر می باشد؟
+Yahoo
+Google
+Ask
+TVTO
+ب
+
+کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟
+Inbox
+Draft
+Outbox
+Sent Item
+الف
+
+سایت هایی هستند که در آن سایت ها از نظر موضوعی طبقه بندی شده اند؟
+موتور جستجوی زبان طبیعی
+موتورهای جستجو
+موتورهای فراجستجو
+وب سایت های فهرست
+د
+
+تاریخچه اینترنت کدام است؟
+Back
+History
+Favorites
+Forward
+ب
+
+به جای علامت + در جستجوی عبارت ها کدام عملگر را می توان استفاده کرد؟
+Or
+And
+Not
+Xor
+ب
+
+پسوند سایت های مربوط به موسسات دولتی کدام است؟
+Com
+Edu
+Gov
+Mil
+ج
+
+کدام پوشه در برگیرنده پیام های حذف شده می باشد؟
+Inbox
+Draft
+Outbox
+Trash
+د
+
+برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟
+IE/View/Text Size
+IE/View/Status Bar
+IE/View/Explorer Bar
+IE/View/Tool Bar
+الف
+
+کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟
+Internet Explorer
+Mozilla Firefox
+Windows Explorer
+Internet Explorer - Mozilla Firefox
+د
+
+برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟
+Split Cells
+Merge Cells
+Table Split
+Merge Table
+ب
+
+برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟
+Ctrl+]
+Shift+[
+Shift+]
+Ctrl+[
+د
+
+نرم افزار Word چه نوع نرم افزاری است؟
+یک نرم افزار گرافیکی است
+یک نرم افزار آماری است
+یک نرم افزار واژه پرداز است
+یک نرم افزار صفحه گستر است
+ج
+
+کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟
+Open
+New
+Save
+Save As
+ب
+
+برای تنظیم فاصله بین خطوط از کدام گزینه استفاده می شود؟
+Line Color
+Line Style
+Line Spacing
+Border
+ج
+
+اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟
+Justify
+Center
+Align Left
+Align Right
+الف
+
+برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟
+Shapes
+Picture
+Smart Art
+Chart
+الف
+
+برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟
+Portrait
+Portrait Flipped
+Landscape
+Landscape Flipped
+ج
+
+از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟
+گزینه Split از سربرگ Insert
+گزینه Split Cells از سربرگ Layout
+گزینه Merge از سربرگ Insert
+گزینه Merge از سربرگ وابسته Layout
+ب
+
+پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟
+PDF
+DOTX
+DOCX
+XPS
+ب
+
+جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟
+Bullets
+Numbering
+Table
+Symbol
+الف
+
+معادل کلید ترکیبی Redo کدام است؟
+Ctrl+B
+Ctrl+Y
+Ctrl+Z
+Ctrl+Shift+Z
+ب
+
+کدام تابع اعداد موجود در یک ناحیه از سلول ها را شمارش می کند؟
+Round
+Count
+Counta
+Len
+ب
+
+با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟
+50
+60
+40
+30
+ب
+
+چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟
+Strike
+Merge Cells
+Shrink To Fit
+Wrap Text
+د
+
+کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟
+#VALUE
+#DIV
+#####
+#NAME
+ج
+
+کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟
+Special
+Currency
+Text
+Fraction
+ب
+
+کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟
+Sum
+Count
+Average
+Countif
+الف
+
+جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟
+؟
+$
+#
+&
+ب
+
+گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟
+پر کردن یک خانه با واژه مورد نظر
+تغییر رنگ زمینه سلول
+فشرده سازی داخل سلول
+ترازبندی اطلاعات داخل سلول
+ب
+
+کدام نوع داده ی زیر برای نمایش قالب متنی کاربرد دارد؟
+Currency
+Number
+Text
+General
+ج
+
+میانبر ساخت نمودار کدام است؟
+F1
+F2
+F10
+F11
+د
+
+Chart چیست؟
+یک تابع است
+نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود
+یک نمودار سازمانی است
+برای درج تصاویر گرافیکی استفاده می شود
+ب
+
+نتیجه حاصل از فرمول روبرو در اکسل چه عددی است؟ D=2^3*2+4/2
+144
+66
+10
+18
+د
+
+کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟
+2AZ
+ZA
+AZ2
+A1
+د
+
+آدرس مطلق سلول K6 کدام است؟
+$K$6
+K$6$
+$K6
+K6$
+الف
+
+هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.
+سلول
+Row
+Column
+Line
+الف
+
+برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟
+Sort A To Z
+Sort Z To A
+Custom Sort
+Descending
+الف
+
+جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟
+فیلد
+رکورد
+جدول
+بانک اطلاعاتی
+الف
+
+فیلد تاریخ تولد از چه نوعی معرفی می شود؟
+Text
+Memo
+Date & Time
+Yes/No
+ج
+
+با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟
+Form
+Database
+Report
+Macro
+ج
+
+اندازه نوع داده Yes/No چقدر است؟
+یک بایت
+یک مگابایت
+8 بایت
+یک بیت
+د
+
+کدام نوع داده زیر برای اعداد استفاده می شود؟
+Text
+Memo
+Number
+Caption
+ج
+
+هر پایگاه داده حداقل دارای چند جدول است؟
+3
+1
+0
+2
+ب
+
+جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟
+Home
+Create
+Design
+Database Tools
+ب
+
+کدام گزینه، روش ایجاد فرم به صورت دستی است؟
+Form Wizard
+Form Design
+Split Form
+Multiple Form
+ب
+
+از کدام یک از اجزای بانک اطلاعاتی برای استخراج مجموعه ای از داده های ذخیره شده در بانک اطلاعاتی استفاده می شود؟
+Query
+Table
+Form
+Macro
+الف
+
+صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟
+Caption
+Validation Rule
+Index
+Default Value
+ب
