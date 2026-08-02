@@ -16780,5 +16780,217 @@
       }
     ],
     "date": "2026-08-02T21:19:13.895Z"
+  },
+  {
+    "name": "سید جواد حسینی",
+    "exam": "icdl",
+    "score": 20,
+    "total": 40,
+    "percent": 50,
+    "wrong": 20,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Templates",
+        "correct": "Templates"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Star و Wan و LAN",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "با انتخاب کدام یک از حالات زیر کامپیوتر در حالت کم مصرف قرار می گیرد و مانیتور و دیسک سخت خاموش می شوند؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Shadow Slide",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "دسترسی به اطلاعات در حافظه Ram به چه صورت است؟",
+        "selected": "سری",
+        "correct": "تصادفی"
+      },
+      {
+        "question": "برای ایجاد فیلد کلید اصلی از گزینه ................. استفاده می کنیم.",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Sort",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(a1=kh,\"t\",\"f\")",
+        "selected": "4",
+        "correct": "F"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Type",
+        "correct": "Date modified"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Touch",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": "ALU",
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "ROM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "جدول چیست؟",
+        "selected": "به مجموعه ای از رکوردها که دارای فیلد باشد، گویند",
+        "correct": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Type",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": "Title Only",
+        "correct": "Blank"
+      },
+      {
+        "question": "برای انتخاب کل جدول کدام یک از دستورات Select را انتخاب می کنید؟",
+        "selected": "Select Table",
+        "correct": "Select Table"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "حالت بزرگ نمایی چه تاثیری بر سند می گذارد؟",
+        "selected": "هیچ گونه تاثیری بر چگونگی چاپ ندارد",
+        "correct": "هیچ گونه تاثیری بر چگونگی چاپ ندارد"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر",
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Double"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Shift+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "Single User",
+        "correct": "DOS"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Wizard",
+        "correct": "Form Design"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "سخت افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "در هنگام درج خانه، برای اینکه خانه انتخاب شده به پایین حرکت کند و خانه جدید جای آن را بگیرد کدام مورد را از کادر محاوره ای Insert باید انتخاب نمود؟",
+        "selected": "Shift Cells Down",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم",
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "به چه روشی می توانیم نوع Tab را تغییر دهیم؟",
+        "selected": "از سربرگ View انتخاب گزینه Types Of Tab",
+        "correct": "با کلیک روی مربع مربوط به Tab ها در سمت چپ خط کش"
+      },
+      {
+        "question": "کدام نما برای نمایش فرم ها نمی باشد؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "در کادر محاوره ای Internet Option کلیک بر روی دکمه Use Current در بخش General چه عملی انجام می شود؟",
+        "selected": "صفحه وبی که در هنگام نصب IE به عنوان Home Page قرار داده شده است را به عنوان Home Page قرار می دهد",
+        "correct": "آدرس صفحه جاری را به عنوان صفحه Home Page درنظر می گیرد"
+      },
+      {
+        "question": "برای جستجوی فایل های 5 حرفی که به P ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "p????",
+        "correct": "????p"
+      }
+    ],
+    "date": "2026-08-02T22:32:24.934Z"
   }
 ]
