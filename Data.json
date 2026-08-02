@@ -13600,5 +13600,217 @@
       }
     ],
     "date": "2026-08-01T19:57:05.284Z"
+  },
+  {
+    "name": "ارمیا کاظم پور",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "از این نوار برای بستن و کوچک کردن نرم افزار استفاده می شود.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "دکمه های کنترلی"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های پست الکترونیک نمی باشد؟",
+        "selected": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند",
+        "correct": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط خواندنی و پایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Sent Item",
+        "correct": "Draft"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "تراشه (IC)",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "برای ذخیره نمودن تصاویر در وب پس از راست کلیک از چه گزینه ای استفاده می شود؟",
+        "selected": "Load as picture",
+        "correct": "Save picture as"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Priority",
+        "correct": "Attach"
+      },
+      {
+        "question": "توسط کدام ابزار در سربرگ Insert می توان مجموعه ای از تصاویر را به صورت آلبوم ایجاد کرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Apply Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "از ابزار Change Case به چه منظور استفاده می شود؟",
+        "selected": "تعیین فاصله بین کاراکترهای متن",
+        "correct": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Draw Table",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Tools > Primary key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "txt",
+        "correct": "docx"
+      },
+      {
+        "question": "از این ابزار در گروه Paragraph برای تعیین جهت متن در کادر متنی استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "اطلاعات کدام یک از حافظه های زیر در نبود برق از بین می رود؟",
+        "selected": "EEPROM",
+        "correct": "Ram"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Com",
+        "correct": "Edu"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می شود؟",
+        "selected": "Insert \\ Picture",
+        "correct": "Insert \\ Picture"
+      },
+      {
+        "question": "برای انتخاب چند سطر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای تایپ نیم فاصله از کدام کلید ترکیبی در صفحه کلید استاندارد استفاده می شود؟",
+        "selected": "Spacebar+Shift",
+        "correct": "Spacebar+Shift"
+      },
+      {
+        "question": "با انتخاب کدام یک از حالات زیر کامپیوتر در حالت کم مصرف قرار می گیرد و مانیتور و دیسک سخت خاموش می شوند؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Table to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "استفاده از دکمه Insert Table در چیدمان اسلاید برای درج .......... می باشد.",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "حالت بزرگ نمایی چه تاثیری بر سند می گذارد؟",
+        "selected": "سند را با بزرگ نمایی چاپ می کند",
+        "correct": "هیچ گونه تاثیری بر چگونگی چاپ ندارد"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "فرم های اشتراک در اینترنت را ISP گویند",
+        "correct": "شرکت های ارائه خدمات اینترنت"
+      },
+      {
+        "question": "برای درج متن از چه روشی استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Windows Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Comparison",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Show desktop icons",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Home>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "کلیپ بورد چیست؟",
+        "selected": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد",
+        "correct": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Page Layout گروه Background Page گزینه Page Border",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "Favorites چه کاربردی دارد؟",
+        "selected": "فعال سازی لیست سایت های مورد علاقه",
+        "correct": "فعال سازی لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      }
+    ],
+    "date": "2026-08-02T08:25:57.850Z"
   }
 ]
