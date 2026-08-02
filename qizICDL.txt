@@ -10490,3 +10490,45 @@ Outline
 Slideshow
 Normal
 د
+
+برای تعیین محدوده چاپ از کدام گزینه استفاده می شود؟
+Print Title
+All
+Print
+Set Print Area
+نامشخص (علامت‌گذاری در منبع یافت نشد)
+
+با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟
+Frame
+Duration
+Delay
+Reorder Animation
+د
+
+کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟
+F4
+Shift+F4
+Shift+F3
+F3
+ج
+
+از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟
+Shapes
+Run
+Begin Type
+Action Buttons
+د
+
+جهت چاپ چند اسلاید به صورت کوچک در یک کاغذ از کدام گزینه استفاده می شود؟
+Frame Slide
+Handouts
+Outline
+Pages
+ب
+
+برای نمایش اسلایدها از اسلاید جاری، کلیدهای ........... را همزمان می فشاریم.
+Alt+F3
+Alt+F5
+Shift+F3
+Shift+F5
+د
