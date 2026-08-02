@@ -15084,5 +15084,217 @@
       }
     ],
     "date": "2026-08-02T18:48:33.137Z"
+  },
+  {
+    "name": "زندی",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 14,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "برای ایجاد متن کم رنگ روی صفحه و پشت نوشته ها کدام دستور مناسب است؟",
+        "selected": "Watermark",
+        "correct": "Watermark"
+      },
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Edit>Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "در قسمت Subject نامه چه می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": "Define New Bullet",
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": "یک Table می تواند تنها یک Primary Key داشته باشد",
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Arrange Icons",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "برای استفاده از دستور جایگزینی یا Replace به سربرگ .............. گروه ............ مراجعه کرده و ابزار را انتخاب می کنیم.",
+        "selected": "Home (Editing) Replace",
+        "correct": "Home (Editing) Replace"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "پروتکل",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "کلیدهای میانبر جهت باز کردن پنجره چاپ کدام است؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "کدام گزینه معرف نرم افزار پاورپوینت است؟",
+        "selected": "یک نرم افزار گرافیکی است",
+        "correct": "یک نرم افزار ارائه مطلب است"
+      },
+      {
+        "question": "پسوند فایل ها در نرم افزار پایگاه داده اکسس 2013 کدام است؟",
+        "selected": "Accdb",
+        "correct": "Accdb"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Field Size",
+        "correct": "Field Size"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward To All",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "انواع نرم افزار کدام گزینه است؟",
+        "selected": "سطح بالا - سطح پایین",
+        "correct": "کاربردی - سیستمی"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "برنامه ها جهت اجرا در کدام واحد قرار می گیرند؟",
+        "selected": "واحد خروجی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Picture \\ home",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": null,
+        "correct": "No Value"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند و مجددا راه اندازی می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Reports",
+        "correct": "Macro"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر با مقداردهی در کادر عددی آن موجب تاخیر در نمایش انیمیشن می شود؟",
+        "selected": "Delay",
+        "correct": "Delay"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Delay",
+        "correct": "Duration"
+      },
+      {
+        "question": "حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Currency",
+        "correct": "Text"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": null,
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Sort Z To A",
+        "correct": "Sort A To Z"
+      },
+      {
+        "question": "در ویندوز 7 برنامه های کوچکی که برای ارائه سریع و آسان اطلاعات مختلف در میزکار پیش بینی شده اند، ...... نامیده می شوند.",
+        "selected": "Taskbar",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": null,
+        "correct": "Slide layout"
+      },
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      }
+    ],
+    "date": "2026-08-02T18:57:00.911Z"
   }
 ]
