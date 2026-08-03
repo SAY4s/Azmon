@@ -16992,5 +16992,217 @@
       }
     ],
     "date": "2026-08-02T22:32:24.934Z"
+  },
+  {
+    "name": "ز",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 14,
+    "unanswered": 5,
+    "answers": [
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "ماشین های تکثیر",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Doc-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Design View",
+        "correct": "Form View"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Doc-document",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "به نمودار ستونی چه گفته می شود؟",
+        "selected": "Column",
+        "correct": "Column"
+      },
+      {
+        "question": "ستون ها در جدول نرم افزار Word چه نامیده می شوند؟",
+        "selected": "Columns",
+        "correct": "Columns"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Table",
+        "correct": "Home"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": "پردازشی",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "سرعت پردازش و ظرفیت ذخیره سازی اطلاعات در کدام نوع از کامپیوترهای زیر بیشتر است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد",
+        "correct": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "آدرس خانه فعال در کجا قابل رویت است؟",
+        "selected": "در داخل ریبون",
+        "correct": "در کادر Name Box"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تعیین عنوان نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Auto Arrange",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": "Object In",
+        "correct": "Object In"
+      },
+      {
+        "question": "برای تعیین نحوه نمایش فایل ها از کدام گزینه نوار ابزار استفاده می کنیم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "از کدام یک از اجزای بانک اطلاعاتی برای استخراج مجموعه ای از داده های ذخیره شده در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Form",
+        "correct": "Query"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Numbering",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "برای خروج کامل از ویندوز کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Shut Down",
+        "correct": "Shut Down"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Line",
+        "correct": "Borders"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": null,
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "کاربرها برای راحتی کار یا کاربرانی که حرفه ای نیستند برای ایجاد فرم، گزارش و .............. بهتر است از کدام روش استفاده نمایند؟",
+        "selected": "Wizard",
+        "correct": "Wizard"
+      },
+      {
+        "question": "برای باز کردن کتابچه آدرس کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tools/Address Book",
+        "correct": "Tools/Address Book"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Descending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "برای کم کردن فاصله پاراگراف از حاشیه باید چه دستوری را اجرا کنیم؟",
+        "selected": null,
+        "correct": "Decrease Indent"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": null,
+        "correct": "F2"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": null,
+        "correct": "Db"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از گزینه................ استفاده می شود.",
+        "selected": null,
+        "correct": "Margins"
+      }
+    ],
+    "date": "2026-08-03T05:33:06.023Z"
   }
 ]
