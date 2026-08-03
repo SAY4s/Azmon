@@ -18052,5 +18052,217 @@
       }
     ],
     "date": "2026-08-03T09:20:42.688Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Outbox",
+        "correct": "Outbox"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": "Open Each Folder in the Same Window",
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "غلطک وسط موس برای چه منظوری است؟",
+        "selected": "مرور محتویات پنجره ها",
+        "correct": "مرور محتویات پنجره ها"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Content With Caption",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "برای بستن پنجره فعال از ترکیب کلیدهای ............... استفاده می شود؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": "ورودی/خروجی",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "ابزار Format Painter چه عملی انجام می دهد؟",
+        "selected": "قالب متن را کپی می کند",
+        "correct": "قالب متن را کپی می کند"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": "Form",
+        "correct": "Report"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "داده هایی که از دستگاه ورودی به کامپیوتر می دهیم",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 2 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟",
+        "selected": "Insert",
+        "correct": "Design"
+      },
+      {
+        "question": "برای ذخیره سازی یک کاراکتر (حرف) چند Bit نیاز است؟",
+        "selected": "4",
+        "correct": "8"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "جدول چیست؟",
+        "selected": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند",
+        "correct": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟",
+        "selected": "Duration",
+        "correct": "Reorder Animation"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای انتخاب سلول های همجوار و درج در تابع از کدام علامت استفاده می گردد؟",
+        "selected": ";",
+        "correct": ":"
+      },
+      {
+        "question": "در صفحه کلید برای تایپ علائم بالای کلید، کدام کلید را باید پایین نگه داشت؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Sort A To Z",
+        "correct": "Sort A To Z"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "می خواهیم عبارت (x+5)^2 را تایپ نماییم، پس از انتخاب (x+5) کدام گزینه از Font موجب می شود تا عبارت به درستی تایپ شود؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "کدام گزینه برای انتخاب آیتم های همجوار استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Scanner",
+        "correct": "Speaker"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "کوچکترین عنصر در بانک که حاوی اطلاعات است چه می گویند؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      }
+    ],
+    "date": "2026-08-03T13:13:42.096Z"
   }
 ]
