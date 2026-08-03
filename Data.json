@@ -17628,5 +17628,217 @@
       }
     ],
     "date": "2026-08-03T09:07:09.076Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "دوبار کلیک بر روی آیکن برنامه باعث ................ می شود.",
+        "selected": "اجرای برنامه",
+        "correct": "اجرای برنامه"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Delete sheet Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "چنانچه گزارش ما بیش از یک صفحه بوده و بخواهیم یک عبارت ثابت را فقط در ابتدای اولین صفحه از گزارش ببینیم، آن عبارت را می بایستی در کدام بخش قرار داد؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "پسوند فایل های صفحه گسترده Xls است",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "توسط کدام ابزار در سربرگ Insert می توان مجموعه ای از تصاویر را به صورت آلبوم ایجاد کرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Arrange Icons",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "کدامیک از چاپگرهای زیر سرعت بیشتری دارد؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای ایجاد یک لیست علامت گذاری شده از کدام ابزار گروه Paragraph استفاده می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه Chart Type",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "با انتخاب کدام گزینه از پنجره Find در نرم افزار Word Pad می توان در هنگام جستجو بین حروف بزرگ و کوچک تفاوت قائل شد؟",
+        "selected": "Case Sensitive",
+        "correct": "Case Sensitive"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Field Size",
+        "correct": "Field Size"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Insert گروه Link گزینه Watermark",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Book",
+        "correct": "Book"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C2+B3+C3",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#NAME",
+        "correct": "#####"
+      },
+      {
+        "question": "فیلد از نوع Long Text در کدام یک از موارد زیر کاربرد دارد؟",
+        "selected": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند",
+        "correct": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Bar",
+        "correct": "Bar"
+      },
+      {
+        "question": "فشردن کدام یک از کلیدهای ترکیبی زیر قسمت های مورد نیاز یک آدرس اینترنتی با پسوند COM را بجز نام آدرس اضافه می نماید؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query تمام فیلدهای جدول را شامل می شود",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "File",
+        "correct": "View"
+      },
+      {
+        "question": "اگر بخواهیم تمام فیلدها در یک رکورد از جدول پر شود و هیچ یک خالی رد نشود کدام خصوصیت از فیلدها باید فعال شود؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Quick Access Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "برای ایجاد متن کم رنگ روی صفحه و پشت نوشته ها کدام دستور مناسب است؟",
+        "selected": "Watermark",
+        "correct": "Watermark"
+      },
+      {
+        "question": "برای تعیین چاپگر به عنوان چاپگر پیش فرض گزینه ...... را انتخاب می کنیم.",
+        "selected": "Set as default printer",
+        "correct": "Set as default printer"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Special Characters",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "برای اینکه استایل های تعریف شده از Work Book باز را در Work Book جاری استفاده کنیم بر روی چه گزینه ای کلیک کنیم؟",
+        "selected": "Modify",
+        "correct": "Merge Style"
+      },
+      {
+        "question": "منظور از توپولوژی شبکه چیست؟",
+        "selected": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است",
+        "correct": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "دایره بالای شکل",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "گزینه Row Entire از پنجره Delete چه کاری را انجام می دهد؟",
+        "selected": "یک سطر را به طور کامل پاک می کند",
+        "correct": "یک سطر را به طور کامل پاک می کند"
+      },
+      {
+        "question": "برای مشاهده پیش از عمل چاپ از کلید میانبر .......... در صفحه کلید استفاده می نماییم.",
+        "selected": "Ctrl+F2",
+        "correct": "Ctrl+F2"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      }
+    ],
+    "date": "2026-08-03T09:14:51.305Z"
   }
 ]
