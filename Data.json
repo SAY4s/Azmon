@@ -19536,5 +19536,217 @@
       }
     ],
     "date": "2026-08-04T09:19:53.986Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Wan",
+        "correct": "Lan"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Cache",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "کدام یک جزء اجزای داخلی CPU نیست؟",
+        "selected": "واحد کنترل",
+        "correct": "Ram"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "کدامیک از فیلدهای زیر برای Primary Key مناسب تر است؟",
+        "selected": "فیلد شماره عضویت فرد در کتابخانه",
+        "correct": "فیلد شماره عضویت فرد در کتابخانه"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": "Pages",
+        "correct": "Pages"
+      },
+      {
+        "question": "از کدام گزینه برای توپر شدن متن استفاده می شود؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "ارسال و دریافت ایمیل",
+        "correct": "ارسال و دریافت ایمیل"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "در مهارت های هفتگانه ICDL کدام نرم افزار به عنوان صفحه گسترده تدریس می شود؟",
+        "selected": "MS_EXCEL",
+        "correct": "MS_EXCEL"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اکسترانت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": "یک بایت",
+        "correct": "2 بایت"
+      },
+      {
+        "question": "برای ذخیره نمودن تصاویر در وب پس از راست کلیک از چه گزینه ای استفاده می شود؟",
+        "selected": "Save picture as",
+        "correct": "Save picture as"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "برای نمایش تمام یا بخشی از اطلاعات در بانک اطلاعاتی از ................ استفاده می نماییم.",
+        "selected": "پرس و جو",
+        "correct": "پرس و جو"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "ستون ها در جدول نرم افزار Word چه نامیده می شوند؟",
+        "selected": "Columns",
+        "correct": "Columns"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query تمام فیلدهای جدول را شامل می شود",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Cells",
+        "correct": "Fields"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی و تاریخی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "برای چاپ فایل ها از .............. استفاده می کنیم.",
+        "selected": "Insert / Print",
+        "correct": "File / Print"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "در کدام ناحیه از اسلاید فعال می توانیم آن را اصلاح کنیم؟",
+        "selected": "ناحیه ویرایش اسلاید",
+        "correct": "ناحیه ویرایش اسلاید"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Primary",
+        "correct": "Primary"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر با کلیک ماوس اجرا شود کدام گزینه از Start را انتخاب می کنیم؟",
+        "selected": "On Click",
+        "correct": "On Click"
+      },
+      {
+        "question": "برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Row",
+        "correct": "Select Row"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "کلیک بر روی نوار ابزار Create Mail",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "کلیک بر روی کدام دکمه IE فهرستی از تمام سایت هایی را که در روزهای اخیر مشاهده کرده اید نشان می دهد؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "بر روی تب مورد نظر اشاره کرده و کلید Delete را فشار می دهیم",
+        "correct": "از کادر محاوره ای Tabs پس از انتخاب تب مورد نظر بر روی دکمه Clear کلیک می کنیم"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "فرمان ...... کاربرگ فعال را حذف می کند؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Print Preview",
+        "correct": "Report View"
+      },
+      {
+        "question": "برای اعمال پس زمینه بر روی تمامی اسلاید از کدام گزینه استفاده می کنیم؟",
+        "selected": "Apply To All",
+        "correct": "Apply To All"
+      },
+      {
+        "question": "کلیدهای میانبر فرمان Copy و Paste کدام است؟",
+        "selected": "Ctrl+C ، Ctrl+V",
+        "correct": "Ctrl+C ، Ctrl+V"
+      }
+    ],
+    "date": "2026-08-04T10:04:26.930Z"
   }
 ]
