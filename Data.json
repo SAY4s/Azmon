@@ -19960,5 +19960,217 @@
       }
     ],
     "date": "2026-08-04T10:23:05.898Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 35,
+    "total": 40,
+    "percent": 88,
+    "wrong": 5,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "این چیدمان شامل یک نگه دارنده تصویر، یک نگه دارنده عنوان و یک نگه دارنده متن است.",
+        "selected": "Picture With Caption",
+        "correct": "Picture With Caption"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE به طور اتوماتیک نمایش داده می شود ....... نام دارد",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "کدام گزینه کلید تابعی نیست؟",
+        "selected": "Alt",
+        "correct": "Alt"
+      },
+      {
+        "question": "کدام گروه از نرم افزارهای رایگان نیست؟",
+        "selected": "نرم افزارهای دارای حق کپی",
+        "correct": "نرم افزارهای دارای حق کپی"
+      },
+      {
+        "question": "هارد دیسک از نظر روش دستیابی به اطلاعات جزء کدام گروه است؟",
+        "selected": "دستیابی مستقیم",
+        "correct": "دستیابی تصادفی"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "کدام گزینه برای تنظیم شروع شماره صفحات از عدد خاصی است؟",
+        "selected": "Start at",
+        "correct": "Start at"
+      },
+      {
+        "question": "برای انتخاب سلول های همجوار و درج در تابع از کدام علامت استفاده می گردد؟",
+        "selected": ":",
+        "correct": ":"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Unlock the Taskbar",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "کدام سربرگ برای درج پاورقی است؟",
+        "selected": "References",
+        "correct": "References"
+      },
+      {
+        "question": "ابزار ایجاد فهرست در Word کدام است؟",
+        "selected": "List Of Content",
+        "correct": "Table Of Contents"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Summary",
+        "correct": "Summary"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": "برای ذخیره سند از چه کلیدهایی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "واژه پرداز",
+        "correct": "واژه پرداز"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "برای خطایابی املایی و گرامری از سربرگ ........................ گزینه ............................... را انتخاب می کنیم.",
+        "selected": "Review > Spelling & Grammar",
+        "correct": "Review > Spelling & Grammar"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter-Selection و Advanced Filter/Sort",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "\"Reset\" کردن همان ......... است.",
+        "selected": "راه اندازی مجدد کامپیوتر",
+        "correct": "راه اندازی مجدد کامپیوتر"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "Decimal Place برای کدام نوع داده قابل دسترسی بوده است؟",
+        "selected": "عددی",
+        "correct": "عددی"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "هنگام تایپ متن اشاره گر موس تبدیل به .......... می شود.",
+        "selected": "پنهان",
+        "correct": "پنهان"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Book",
+        "correct": "Book"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "کارت صدا",
+        "correct": "مودم"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Transition",
+        "correct": "Transition"
+      },
+      {
+        "question": "در پنجره Spelling & Grammar جهت نادیده گرفتن غلط املایی، کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس پست الکترونیک منحصر به فرد است",
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Multilevel List",
+        "correct": "Multilevel List"
+      }
+    ],
+    "date": "2026-08-04T11:34:22.343Z"
   }
 ]
