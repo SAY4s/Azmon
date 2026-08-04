@@ -19112,5 +19112,217 @@
       }
     ],
     "date": "2026-08-04T08:44:05.084Z"
+  },
+  {
+    "name": "2070",
+    "exam": "icdl",
+    "score": 0,
+    "total": 40,
+    "percent": 0,
+    "wrong": 1,
+    "unanswered": 39,
+    "answers": [
+      {
+        "question": "وضوح صفحه نمایش (Screen Resolution) چیست؟",
+        "selected": "اندازه مانیتور",
+        "correct": "میزان تراکم پیکسل های صفحه نمایش"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": null,
+        "correct": "مودم"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home گروه Slides به منظور بازنشانی تمام تنظیمات یک اسلاید استفاده می شود؟",
+        "selected": null,
+        "correct": "Reset"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.",
+        "selected": null,
+        "correct": "Page Number-Insert"
+      },
+      {
+        "question": "برای تغییر رنگ زمینه سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Pattern"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": null,
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "برای ارسال رونوشت یک نامه به فرستنده دیگر به طوری که گیرنده اصلی از موضوع نامه مطلع شود، آدرس آن را در کدام قسمت وارد می کنید؟",
+        "selected": null,
+        "correct": "CC"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": null,
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": null,
+        "correct": "accdb"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": null,
+        "correct": "مترجم"
+      },
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": null,
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام گزینه برای حذف فیلد در نمای Data Sheet درست است؟",
+        "selected": null,
+        "correct": "فیلد را انتخاب نموده و از کلیک راست گزینه Delete را انتخاب می کنیم"
+      },
+      {
+        "question": "برای جستجوی کلیه فایل ها با پسوند txt از کدام گزینه زیر استفاده می کنیم؟",
+        "selected": null,
+        "correct": "*.txt"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "Outline"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": null,
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": null,
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "فرمان ...... کاربرگ فعال را حذف می کند؟",
+        "selected": null,
+        "correct": "Delete"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Form Design"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": null,
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "کدام فرمان برای باز کردن یک سند موجود به کار می رود؟",
+        "selected": null,
+        "correct": "Open"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": null,
+        "correct": "Paste"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": null,
+        "correct": "Summary Section"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": null,
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "منظور از (Screen Saver) چیست؟",
+        "selected": null,
+        "correct": "محافظ صفحه نمایش"
+      },
+      {
+        "question": "اگر A1=14 باشد نتیجه فرمول زیر چیست؟ IF(A1=14),\"Ok\",\"No\")",
+        "selected": null,
+        "correct": "Ok"
+      },
+      {
+        "question": "برای تکرار عنوان سطر جدول در هر صفحه از کدام ابزار می توان استفاده نمود؟",
+        "selected": null,
+        "correct": "Repeat Header Row"
+      },
+      {
+        "question": "برای خروج کامل از ویندوز کدام گزینه را انتخاب می نماییم؟",
+        "selected": null,
+        "correct": "Shut Down"
+      },
+      {
+        "question": "علامت قرمز برنامه آنتی ویروس نشانه چیست؟",
+        "selected": null,
+        "correct": "به روز نبودن آنتی ویروس"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": null,
+        "correct": "Design"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای جابجایی پنجره در میزکار از گزینه ...... از منوی کنترل پنجره استفاده می نماییم.",
+        "selected": null,
+        "correct": "Move"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": null,
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "پسوند سایت های مربوط به موسسات دولتی کدام است؟",
+        "selected": null,
+        "correct": "Gov"
+      },
+      {
+        "question": "کدامیک از پسوندهای زیر در برنامه PowerPoint 2013 قابل انتخاب نمی باشد؟",
+        "selected": null,
+        "correct": "TXT"
+      },
+      {
+        "question": "پیش فرض برنامه ی مرورگر وب، در سیستم عامل ویندوز، ........ می باشد.",
+        "selected": null,
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": null,
+        "correct": "URL"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": null,
+        "correct": "Word Art"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": null,
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "Set as Default Theme"
+      }
+    ],
+    "date": "2026-08-04T09:19:20.509Z"
   }
 ]
