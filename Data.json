@@ -210,5 +210,217 @@
       }
     ],
     "date": "2026-08-05T00:21:50.028Z"
+  },
+  {
+    "name": "Nm",
+    "exam": "icdl",
+    "score": 11,
+    "total": 40,
+    "percent": 28,
+    "wrong": 29,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "نام سرویس دهنده پست الکترونیک",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": "خالی بودن پوشه",
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print First Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "کلید میان بر برای چاپ کدام مورد می باشد؟",
+        "selected": "Ctrl+L",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها بسته به انتخاب کاربر می تواند برابر تعداد سطرها یا برابر ستون ها باشد",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM هنگامی که کامپیوتر خاموش می شود داده ها را حفظ می کند",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Notes Page",
+        "correct": "Template"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "کلیدهای جهتی قسمت تایپ را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "در صورتی که بخواهیم به Transition اسلاید صدای مورد نظر خودمان را اضافه کنیم از ابزار ..... گزینه ..... را انتخاب می کنیم",
+        "selected": "Sound (Other Sound)",
+        "correct": "Sound (Other Sound)"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F1",
+        "correct": "F2"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Custom View",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "با استفاده از کدام کلیدها تمام موضوعات موجود در یک سند را انتخاب می کنیم؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "CC"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "بزرگتری",
+        "correct": "جمع"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Right Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Small Icons",
+        "correct": "Details"
+      },
+      {
+        "question": "پس از درج جدول توسط کدام ابزار می توان مدل خطوط را تغییر داد؟",
+        "selected": "Eraser",
+        "correct": "Pen Style"
+      },
+      {
+        "question": "برای درج داده هایی مانند ردیف از ........ و داده های عددی که احتیاج به محاسبات دارند از نوع داده .... استفاده می کنیم؟ (از راست به چپ)",
+        "selected": "Number - Auto Number",
+        "correct": "Number - Auto Number"
+      },
+      {
+        "question": "برای نوشتن توان یک عدد از چه گزینه ای استفاده می کنیم؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن سایه دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "جهت مشخص نمودن سایت های تجاری، کمپانی، موسسات و سازمان های تجاری از دامنه با نام ....... استفاده می کنیم؟",
+        "selected": "End",
+        "correct": "Com"
+      },
+      {
+        "question": "از ابزار Object به منظور ......",
+        "selected": "درج متن گرافیکی و سه بعدی",
+        "correct": "درج فایل هایی از داخل حافظه دیسک سخت از قبیل فایل های نرم افزارهای غیرمرتبط"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": "Pages",
+        "correct": "Pages"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Start",
+        "correct": "Duration"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "وارد کردن داده در برنامه و آزمایش و پالایش آن",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "بهترین راه برای جلوگیری از سرایت ویروس به سیستم کامپیوتری چیست؟",
+        "selected": "داشتن یک ویروس یاب که توانایی به روز شدن را داشته باشد",
+        "correct": "داشتن یک ویروس یاب که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Comment",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": "AcdSee",
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Table",
+        "correct": "Bullets"
+      },
+      {
+        "question": "کدام یک از کارت های زیر مربوط به کیفیت تصویر می باشد؟",
+        "selected": "VGA",
+        "correct": "VGA"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Super Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Total Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Layout",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "در ترسیم نمودار مفهوم گزینه Data Labels چیست؟",
+        "selected": "نمایش جدول داده ها در نمودار",
+        "correct": "نمایش اسامی داده ها"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "اطلاعات Information - داده Data",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Even Page"
+      }
+    ],
+    "date": "2026-08-05T03:32:44.251Z"
   }
 ]
