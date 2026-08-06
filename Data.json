@@ -846,5 +846,217 @@
       }
     ],
     "date": "2026-08-05T12:59:05.019Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "الزامی است",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "برای بدست آوردن جمع محتویات دو سلول اکسل کدام فرمول صحیح است؟",
+        "selected": "=A1+B5",
+        "correct": "=A1+B5"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "اگر بخواهیم شرطی بین 100 تا 500 را برای ورود داده ها در فیلد عددی وارد نماییم، عبارت مقابل را مقابل کدام یک از خصوصیات درج می کنیم؟ (>=100 and <=500)",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "برای اجرای Windows Explorer از چه مسیری استفاده می کنیم؟",
+        "selected": "در همه پنجره های ویندوز قابل دسترسی است",
+        "correct": "در همه پنجره های ویندوز قابل دسترسی است"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای باز کردن کتابچه آدرس کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tools/Address Book",
+        "correct": "Tools/Address Book"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Print Current Page",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "جهت تغییر شکل آیکن Computer کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Change Desktop Icon",
+        "correct": "Change Desktop Icon"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های پست الکترونیک نمی باشد؟",
+        "selected": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند",
+        "correct": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند"
+      },
+      {
+        "question": "انتخاب کدام یک از گزینه های زیر باعث نوشته شدن متنی به صورت زیر خط دار می شود؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Unique سازی فیلدهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Caption",
+        "correct": "Caption"
+      },
+      {
+        "question": "برای ویرایش متن بهترین وضعیت، استفاده از کدام نما می باشد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Queries",
+        "correct": "Macro"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟",
+        "selected": "Decrease Font Size",
+        "correct": "Decrease Font Size"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": "Save As",
+        "correct": "New"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M*S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "برای چاپ صفحه کاری جاری از کادر محاوره ای Print کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Print Current Sheet",
+        "correct": "Active Sheet Print"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": "Nod32",
+        "correct": "Nod32"
+      },
+      {
+        "question": "در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.",
+        "selected": "Capacity",
+        "correct": "Free Space"
+      },
+      {
+        "question": "Hibernate یعنی .......",
+        "selected": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد",
+        "correct": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد"
+      },
+      {
+        "question": "برای نمایش گرافیکی داده های عددی از کدام گزینه استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین جداول بانک اطلاعاتی نیازمند ............ هستیم.",
+        "selected": "یک فیلد کلیدی",
+        "correct": "یک فیلد کلیدی"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه شیارهایی از دیسک سخت که دارای یک شعاع نیستند",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "کدامیک از سیستم عامل های زیر تک کاربره می باشد؟",
+        "selected": "Dos",
+        "correct": "Dos"
+      }
+    ],
+    "date": "2026-08-06T08:11:26.675Z"
   }
 ]
