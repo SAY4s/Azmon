@@ -1270,5 +1270,87 @@
       }
     ],
     "date": "2026-08-06T08:16:22.588Z"
+  },
+  {
+    "name": "بهکام آقابزرگی",
+    "exam": "dip_typing",
+    "score": 5,
+    "total": 14,
+    "percent": 36,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با استفاده از کدام ابزار می توان قالب بندی یک متن را روی متن دیگر کپی کرد؟",
+        "selected": "Paste Special",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کدام دستور برای تقسیم کردن یک سلول به چند سلول مناسب است؟",
+        "selected": "دستور Merge Cells",
+        "correct": "دستور Split Cells"
+      },
+      {
+        "question": "برای داشتن انتخاب ،آزاد کدام کلید را هنگام انتخاب باید پایین نگه داشت؟",
+        "selected": "Shift",
+        "correct": "Alt"
+      },
+      {
+        "question": "بعد از رسم جدول کدام زبانه ها به Ribbon اضافه میشوند؟",
+        "selected": "Layout -- Design",
+        "correct": "Layout -- Design"
+      },
+      {
+        "question": "برای ذخیره یک فایل با نام دیگر و یا در مسیر دیگر کدام گزینه مناسب است؟",
+        "selected": "Save As",
+        "correct": "Save As"
+      },
+      {
+        "question": "مفهوم کلمه ی Distribute Rows کدام گزینه است؟",
+        "selected": "اضافه کردن سطر",
+        "correct": "یکسان سازی ارتفاع سطرها"
+      },
+      {
+        "question": "کلید میان برای چاپ سند کدام گزینه است؟",
+        "selected": "Ctrl + O",
+        "correct": "Ctrl + P"
+      },
+      {
+        "question": "برای ایجاد فاصله خالی به اندازه یک کاراکتر در ،متن کدام کلید مناسب است؟",
+        "selected": "Enter",
+        "correct": "Space"
+      },
+      {
+        "question": "برای تایپ سریع برآمدگیهای کوچک روی صفحه کلید بر روی کدام کلیدها قرار دارند؟",
+        "selected": "D,K",
+        "correct": "F,J"
+      },
+      {
+        "question": "کدام گزینه برای تعیین و تغییر رنگ خطوط جدول مناسب است؟",
+        "selected": "Pen Color",
+        "correct": "Pen Color"
+      },
+      {
+        "question": "کدام گزینه باعث به وجود آمدن خطوط جدا کننده در بین متن های چند ستونی میشود؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "جهت تعیین فاصله ی بین خطوط به صورت دقیق با یک عدد از کدام گزینه استفاده می شود؟",
+        "selected": "Exactly",
+        "correct": "Exactly"
+      },
+      {
+        "question": "نوع خط چین تب در کدام قسمت مشخص میشود؟",
+        "selected": "Default Tab Stops",
+        "correct": "Leader"
+      },
+      {
+        "question": "برای تنظیم تضاد رنگ تصویر از کدام ابزار استفاده میشود؟",
+        "selected": "Recolor",
+        "correct": "Contrast"
+      }
+    ],
+    "date": "2026-08-06T12:53:34.429Z"
   }
 ]
