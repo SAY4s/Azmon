@@ -1009,45 +1009,61 @@ const mainSubtitle = document.getElementById('mainSubtitle');
 const GITHUB_OWNER = 'SAY4s';
 const GITHUB_REPO = 'Azmon';
 const GITHUB_BRANCH = 'main';
-// هر مبحث توی پوشه‌ی مخصوص خودش، و هر هفته یک فایل جیسون جدا (مثل DataICDL/DataICDLAugW1.json)
-const DATA_TOPIC_FOLDERS = [
-  'DataICDL','DataPython',
-  'DataDipUser','DataDipTyping','DataDipBlackWhite','DataDipGraphics','DataDipColorDesign'
-];
+// نگاشت پوشه‌ی هر مبحث به همون نامی که در ساخت فایل هفتگی استفاده می‌شه
+// (باید دقیقاً با TOPIC_MAP توی index.html هماهنگ باشه)
+const DATA_TOPIC_FOLDERS = {
+  DataICDL: 'ICDL',
+  DataPython: 'Python',
+  DataDipUser: 'DipUser',
+  DataDipTyping: 'DipTyping',
+  DataDipBlackWhite: 'DipBlackWhite',
+  DataDipGraphics: 'DipGraphics',
+  DataDipColorDesign: 'DipColorDesign',
+  DataOther: 'Other'
+};
+const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
-// لیست فایل‌های json داخل یک پوشه‌ی مبحث را از GitHub API می‌گیرد (اگر پوشه هنوز ساخته نشده باشد، آرایه خالی برمی‌گرداند)
-async function fetchTopicFolderFiles(folder){
-  const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${folder}?ref=${GITHUB_BRANCH}`;
-  const res = await fetch(apiUrl, { cache: 'no-store' });
-  if(!res.ok) return [];
-  const list = await res.json();
-  if(!Array.isArray(list)) return [];
-  return list.filter(f => f.type === 'file' && f.name.toLowerCase().endsWith('.json'));
+// لیبل تمام هفته‌های چند ماه اخیر را برمی‌گرداند (هر ماه ۴ هفته: W1 تا W4)
+function getRecentWeekLabels(monthsBack = 6){
+  const labels = [];
+  const now = new Date();
+  for(let m = 0; m < monthsBack; m++){
+    const d = new Date(now.getFullYear(), now.getMonth() - m, 1);
+    const abbr = MONTH_ABBR[d.getMonth()];
+    for(let w = 1; w <= 4; w++) labels.push(abbr + 'W' + w);
+  }
+  return labels;
 }
 
-// محتوای همه‌ی فایل‌های json همه‌ی پوشه‌های مبحث را می‌خواند و یک آرایه‌ی واحد از رکوردها برمی‌گرداند
+// به‌جای گرفتن لیست فایل‌ها از GitHub API (که برای درخواست‌های بدون توکن
+// سقف ۶۰ درخواست در ساعت داره و پشت VPN با IP مشترک خیلی زود پر می‌شه)،
+// مستقیماً بر اساس الگوی نام‌گذاری هفته، فایل‌های چند ماه اخیر هر مبحث را
+// به‌صورت موازی از raw.githubusercontent.com می‌خوانیم.
 async function fetchAllResultsFromGithub(){
-  let allEntries = [];
-  for(const folder of DATA_TOPIC_FOLDERS){
-    let files = [];
-    try{ files = await fetchTopicFolderFiles(folder); }
-    catch(e){ console.warn('خطا در خواندن لیست پوشه‌ی ' + folder, e); }
+  const weekLabels = getRecentWeekLabels(6);
+  const jobs = [];
 
-    for(const f of files){
-      try{
-        const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${folder}/${f.name}?t=${Date.now()}`;
-        const r = await fetch(rawUrl, { cache: 'no-store' });
-        if(!r.ok) continue;
-        const text = await r.text();
-        if(!text || !text.trim()) continue;
-        const arr = JSON.parse(text);
-        if(Array.isArray(arr)) allEntries = allEntries.concat(arr);
-      } catch(e){
-        console.warn('خطا در خواندن ' + folder + '/' + f.name, e);
-      }
-    }
-  }
-  return allEntries;
+  Object.entries(DATA_TOPIC_FOLDERS).forEach(([folder, name])=>{
+    weekLabels.forEach(label=>{
+      const fileName = `Data${name}${label}.json`;
+      const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${folder}/${fileName}?t=${Date.now()}`;
+      jobs.push(
+        fetch(rawUrl, { cache: 'no-store' })
+          .then(r => r.ok ? r.text() : null)
+          .then(text=>{
+            if(!text || !text.trim()) return [];
+            try{
+              const arr = JSON.parse(text);
+              return Array.isArray(arr) ? arr : [];
+            } catch(e){ return []; }
+          })
+          .catch(()=>[])
+      );
+    });
+  });
+
+  const results = await Promise.all(jobs);
+  return results.flat();
 }
 
 function showError(msg){
