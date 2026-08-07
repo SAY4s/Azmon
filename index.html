@@ -1089,6 +1089,33 @@ function b64DecodeUnicode(str){
   return decodeURIComponent(escape(atob(str)));
 }
 
+/* ═══════════════════════════════════════════
+   نگاشت هر مبحث به پوشه‌ی مخصوص خودش + نام‌گذاری
+   هفتگی فایل جیسون (مثل DataICDL/DataICDLAugW1.json)
+═══════════════════════════════════════════ */
+const TOPIC_MAP={
+  icdl:            {folder:'DataICDL',           name:'ICDL'},
+  python:          {folder:'DataPython',         name:'Python'},
+  dip_user:        {folder:'DataDipUser',        name:'DipUser'},
+  dip_typing:      {folder:'DataDipTyping',      name:'DipTyping'},
+  dip_blackwhite:  {folder:'DataDipBlackWhite',  name:'DipBlackWhite'},
+  dip_graphics:    {folder:'DataDipGraphics',    name:'DipGraphics'},
+  dip_colordesign: {folder:'DataDipColorDesign', name:'DipColorDesign'}
+};
+const MONTH_ABBR=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+function getWeekLabel(d=new Date()){
+  const day=d.getDate();
+  const week=Math.min(4,Math.ceil(day/7)); // روز ۱-۷=هفته۱ … ۲۲-۳۱=هفته۴
+  return MONTH_ABBR[d.getMonth()]+'W'+week;
+}
+
+function getDataFilePath(mode){
+  const topic=TOPIC_MAP[mode]||{folder:'DataOther',name:'Other'};
+  const fileName=`Data${topic.name}${getWeekLabel()}.json`;
+  return `${topic.folder}/${fileName}`;
+}
+
 async function saveResultToGithub(name){
   let cfg;
   try{
@@ -1101,9 +1128,10 @@ async function saveResultToGithub(name){
     console.warn('توکن گیت‌هاب در گوگل‌شیت یافت نشد؛ نتیجه ذخیره نشد.');
     return;
   }
+  const dataPath=getDataFilePath(activeMode);
   try{
     let sha=null, data=[];
-    const getRes=await ghApi(cfg,cfg.path);
+    const getRes=await ghApi(cfg,dataPath);
     if(getRes.ok){
       const j=await getRes.json();
       sha=j.sha;
@@ -1138,13 +1166,13 @@ async function saveResultToGithub(name){
     data.push(record);
 
     const body={
-      message:`ثبت نتیجه آزمون ${activeMode} برای ${name}`,
+      message:`ثبت نتیجه آزمون ${activeMode} برای ${name} (${dataPath})`,
       content:b64EncodeUnicode(JSON.stringify(data,null,2)),
       branch:cfg.branch
     };
     if(sha)body.sha=sha;
 
-    const putRes=await ghApi(cfg,cfg.path,{method:'PUT',body:JSON.stringify(body),headers:{'Content-Type':'application/json'}});
+    const putRes=await ghApi(cfg,dataPath,{method:'PUT',body:JSON.stringify(body),headers:{'Content-Type':'application/json'}});
     if(!putRes.ok){
       const t=await putRes.text();
       console.error('خطا در ذخیره نتیجه در گیت‌هاب:',t);
