@@ -422,5 +422,217 @@
       }
     ],
     "date": "2026-08-07T11:34:48.769Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Date modified",
+        "correct": "Date modified"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "جهت محافظت کاربرگ ابتدا راست کلیک سپس کدام فرمان را انتخاب می نماییم؟",
+        "selected": "Protect Sheet",
+        "correct": "Protect Sheet"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "کدام گزینه در مورد فشرده سازی صحیح است؟",
+        "selected": "روشی برای کاهش حجم فایل",
+        "correct": "روشی برای کاهش حجم فایل"
+      },
+      {
+        "question": "کلیدهای میانبر جهت باز کردن پنجره چاپ کدام است؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "CPU به واحد ......... اطلاق می شود.",
+        "selected": "پردازشگر مرکزی",
+        "correct": "پردازشگر مرکزی"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": "وجود علامت @",
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "برای شکستن خطوط یک پاراگراف با حفظ تراز و عدم بهم خوردگی متن از کدام کلید استفاده می شود؟",
+        "selected": "Shift+Enter",
+        "correct": "Shift+Enter"
+      },
+      {
+        "question": "در کدام روش می توان پرس و جو را با شرط تعیین شده ایجاد نمود؟",
+        "selected": "Query Design",
+        "correct": "Query Design"
+      },
+      {
+        "question": "در پنجره Spelling & Grammar جهت نادیده گرفتن غلط املایی، کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "در تنظیمات پاراگراف، تورفتگی ابتدای آن را از کدام بخش انجام می دهیم؟",
+        "selected": "Indentation",
+        "correct": "Indentation"
+      },
+      {
+        "question": "به ورودی های خام سیستم چه می گویند؟",
+        "selected": "داده",
+        "correct": "داده"
+      },
+      {
+        "question": "منظور از توپولوژی شبکه چیست؟",
+        "selected": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است",
+        "correct": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است"
+      },
+      {
+        "question": "کدام یک از خصوصیات زیر درمورد فیلدها تعیین کننده مقدار پیش فرض می باشد؟",
+        "selected": "Default value",
+        "correct": "Default value"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود",
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت General گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Ole",
+        "correct": "Text"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "از نمای ................. در نرم افزار می توان برای نمایش اسلایدهای طراحی شده به شرکت کنندگان در جلسه استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Slide Show"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "No Value",
+        "correct": "No Value"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "چنانچه تقسیم بر صفر انجام شود، کدام پیغام خطا ظاهر می شود؟",
+        "selected": "#DIV/0!",
+        "correct": "#DIV/0!"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Set as Default Theme",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی All Program",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "USER ID همان ........ و PASSWORD همان ............... است.",
+        "selected": "نام کاربری و کلمه عبور",
+        "correct": "نام کاربری و کلمه عبور"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "در منوی کشویی Find What چه می نویسیم؟",
+        "selected": "متنی که می خواهیم جستجو کنیم",
+        "correct": "متنی که می خواهیم جستجو کنیم"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Tools > Primary key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "در قسمت Subject نامه چه می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "در هنگام درج نمودار دو سربرگ وابسته ............. و .......... نیز به سربرگ دستورات نرم افزار اضافه می شود.",
+        "selected": "Design - Format",
+        "correct": "Design - Format"
+      }
+    ],
+    "date": "2026-08-07T13:08:46.193Z"
   }
 ]
