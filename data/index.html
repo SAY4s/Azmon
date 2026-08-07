@@ -1006,7 +1006,49 @@ const ghActions = document.getElementById('ghActions');
 const manualSection = document.getElementById('manualSection');
 const mainSubtitle = document.getElementById('mainSubtitle');
 
-const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/SAY4s/Azmon/main/Data.json';
+const GITHUB_OWNER = 'SAY4s';
+const GITHUB_REPO = 'Azmon';
+const GITHUB_BRANCH = 'main';
+// هر مبحث توی پوشه‌ی مخصوص خودش، و هر هفته یک فایل جیسون جدا (مثل DataICDL/DataICDLAugW1.json)
+const DATA_TOPIC_FOLDERS = [
+  'DataICDL','DataPython',
+  'DataDipUser','DataDipTyping','DataDipBlackWhite','DataDipGraphics','DataDipColorDesign'
+];
+
+// لیست فایل‌های json داخل یک پوشه‌ی مبحث را از GitHub API می‌گیرد (اگر پوشه هنوز ساخته نشده باشد، آرایه خالی برمی‌گرداند)
+async function fetchTopicFolderFiles(folder){
+  const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${folder}?ref=${GITHUB_BRANCH}`;
+  const res = await fetch(apiUrl, { cache: 'no-store' });
+  if(!res.ok) return [];
+  const list = await res.json();
+  if(!Array.isArray(list)) return [];
+  return list.filter(f => f.type === 'file' && f.name.toLowerCase().endsWith('.json'));
+}
+
+// محتوای همه‌ی فایل‌های json همه‌ی پوشه‌های مبحث را می‌خواند و یک آرایه‌ی واحد از رکوردها برمی‌گرداند
+async function fetchAllResultsFromGithub(){
+  let allEntries = [];
+  for(const folder of DATA_TOPIC_FOLDERS){
+    let files = [];
+    try{ files = await fetchTopicFolderFiles(folder); }
+    catch(e){ console.warn('خطا در خواندن لیست پوشه‌ی ' + folder, e); }
+
+    for(const f of files){
+      try{
+        const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${folder}/${f.name}?t=${Date.now()}`;
+        const r = await fetch(rawUrl, { cache: 'no-store' });
+        if(!r.ok) continue;
+        const text = await r.text();
+        if(!text || !text.trim()) continue;
+        const arr = JSON.parse(text);
+        if(Array.isArray(arr)) allEntries = allEntries.concat(arr);
+      } catch(e){
+        console.warn('خطا در خواندن ' + folder + '/' + f.name, e);
+      }
+    }
+  }
+  return allEntries;
+}
 
 function showError(msg){
   errorMsg.textContent = msg || 'فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.';
@@ -1105,19 +1147,17 @@ async function fetchFromGitHub(){
   mainSubtitle.textContent = 'داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...';
   setSync('loading', 'در حال اتصال به GitHub…');
   try{
-    const res = await fetch(GITHUB_RAW_URL + '?t=' + Date.now(), { cache: 'no-store' });
-    if(!res.ok) throw new Error('http-' + res.status);
-    const text = await res.text();
-    if(!text || !text.trim()){
-      setSync('err', 'فایل روی گیت‌هاب فعلاً خالیه — هنوز پاسخ‌برگی ثبت نشده.');
+    const allEntries = await fetchAllResultsFromGithub();
+    if(!allEntries.length){
+      setSync('err', 'فایل‌های روی گیت‌هاب فعلاً خالی‌اند — هنوز پاسخ‌برگی ثبت نشده.');
       ghActions.style.display = 'flex';
       return;
     }
-    processDataArray(text);
+    processDataArray(JSON.stringify(allEntries));
     setSync('ok', 'با موفقیت از GitHub خونده شد ✓');
     setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1800);
   } catch(err){
-    setSync('err', 'نشد از گیت‌هاب بخونه. اتصال یا آدرس فایل رو چک کن.');
+    setSync('err', 'نشد از گیت‌هاب بخونه. اتصال یا آدرس فایل‌ها رو چک کن.');
     ghActions.style.display = 'flex';
   }
 }
