@@ -1,0 +1,214 @@
+[
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "فیلد Short Text چه نوع داده هایی را قبول می کند؟",
+        "selected": "متن و اعداد کمتر از 255 کاراکتر",
+        "correct": "متن و اعداد کمتر از 255 کاراکتر"
+      },
+      {
+        "question": "کدام یک از دستگاه زیر ترکیبی از مودم و دستگاه اسکنر می باشد؟",
+        "selected": "ISDN",
+        "correct": "فاکس"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "برنامه های کوچکی که به یک برنامه اجرایی حمله کرده و اجرای آن را مختل می کنند چه نامیده می شود؟",
+        "selected": "Virus",
+        "correct": "Virus"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Menu",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "Reply",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "راهنما",
+        "correct": "راهنما"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "کدام فیلد عددی برای ستون سن مناسب است؟",
+        "selected": "Integer",
+        "correct": "Byte"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": "Formula Bar از گروه Show تب View",
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "با استفاده از کدام کلیدها تمام موضوعات موجود در یک سند را انتخاب می کنیم؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Macros",
+        "correct": "Macros"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "After Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "با استفاده از کلیدهای ترکیبی Ctrl+Home مکان نما به کجا منتقل می شود؟",
+        "selected": "مکان نما به اولین فیلد رکورد اول منتقل می شود",
+        "correct": "مکان نما به اولین فیلد رکورد اول منتقل می شود"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Below از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "بالا",
+        "correct": "پایین"
+      },
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "از طریق Create - Form Wizard",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "از این نوار برای بستن و کوچک کردن نرم افزار استفاده می شود.",
+        "selected": "دکمه های کنترلی",
+        "correct": "دکمه های کنترلی"
+      },
+      {
+        "question": "کدام گزینه در مورد بایت درست می باشد؟",
+        "selected": "کوچکترین واحد حافظه قابل آدرس دهی",
+        "correct": "کوچکترین واحد حافظه قابل آدرس دهی"
+      },
+      {
+        "question": "کدام روش مرتب سازی باعث می شود که تمامی پنجره ها روی هم قرار گرفته و تنها نوار عنوان آنها قابل مشاهده باشد؟",
+        "selected": "Cascade Windows (به صورت آبشاری)",
+        "correct": "Cascade Windows (به صورت آبشاری)"
+      },
+      {
+        "question": "برای چاپ صفحه کاری جاری از کادر محاوره ای Print کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Print Current Sheet",
+        "correct": "Active Sheet Print"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query تمام فیلدهای جدول را شامل می شود",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Insert header and footer",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": "4 بایت",
+        "correct": "2 بایت"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Title and Content",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.mp3",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به معنی قطع ارتباط با اینترنت می باشد؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (یا نامه) به چه منظوری به کار می رود؟",
+        "selected": "برای فرستادن رونوشت نامه به صورت محرمانه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "هنگامی که دو عبارت شرطی در Criteria نوشته شود، برای دارا بودن هر دو شرط عملگر بین آنها، کدام است؟",
+        "selected": "And",
+        "correct": "And"
+      }
+    ],
+    "date": "2026-08-08T14:11:29.895Z"
+  }
+]
