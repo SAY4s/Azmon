@@ -422,5 +422,217 @@
       }
     ],
     "date": "2026-08-08T14:17:16.069Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Date/Time",
+        "correct": "Number"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": "سرعت و کیفیت چاپ",
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Caption",
+        "correct": "Caption"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": "Nod32",
+        "correct": "Nod32"
+      },
+      {
+        "question": "جهت ایجاد مقدار پیش فرض فیلدها از کدام گزینه استفاده می گردد؟",
+        "selected": "Default Value",
+        "correct": "Default Value"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن تصاویر گرافیکی هوشمند استفاده می شود؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "IT",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای جابجایی پنجره در میزکار از گزینه ...... از منوی کنترل پنجره استفاده می نماییم.",
+        "selected": "Move",
+        "correct": "Move"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "برای ترسیم جدول با استفاده از مداد از چه دستوری استفاده می شود؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک کیلوبایت کمتر از یک مگابایت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه پهن",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Alt+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "کدام گزینه به معنای تجارت الکترونیکی می باشد؟",
+        "selected": "E-commerce",
+        "correct": "E-commerce"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر به معنی شبکه می باشد؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "خروجی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Width",
+        "correct": "Width"
+      },
+      {
+        "question": "برای ایجاد گزارش از کدام گزینه استفاده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Outbox",
+        "correct": "Outbox"
+      },
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Book",
+        "correct": "Book"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": "یک خط زیر متن درج می کند",
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "کدام فرمول میانگین A1 تا A6 را محاسبه نمی کند؟",
+        "selected": "=Average(A1:A6)",
+        "correct": "=Average(A1;A6)"
+      },
+      {
+        "question": "یک نسخه از نامه های ارسالی به عنوان بایگانی در کدامیک از پوشه های زیر ذخیره می شود؟",
+        "selected": "Sent Item",
+        "correct": "Sent Item"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Group & Sort",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پلاترها",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟",
+        "selected": "Reorder Animation",
+        "correct": "Reorder Animation"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "در صورتی که بخواهیم رنگ پس زمینه با ترکیب دو رنگ متفاوت باشد گزینه ....... را در پنجره ی Format Background فعال می کنیم؟",
+        "selected": "Gradient Fill",
+        "correct": "Gradient Fill"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Descending",
+        "correct": "Descending"
+      }
+    ],
+    "date": "2026-08-09T16:10:49.595Z"
   }
 ]
