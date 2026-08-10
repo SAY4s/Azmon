@@ -634,5 +634,217 @@
       }
     ],
     "date": "2026-08-09T16:10:49.595Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 35,
+    "total": 40,
+    "percent": 88,
+    "wrong": 5,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter-Selection و Advanced Filter/Sort",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "کلید میانبر برای بستن سند کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Ctrl+W"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "تفاوت دکمه های OK و Apply در چیست؟",
+        "selected": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد",
+        "correct": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "پلاتر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footnote",
+        "correct": "Footnote"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر صحیح نیست؟",
+        "selected": "سیستم عامل ممکن است چند وظیفه یا یک وظیفه داشته باشد",
+        "correct": "سیستم عامل ممکن است چند وظیفه یا یک وظیفه داشته باشد"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selection",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C2+B3+C3=",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "اگر جدول بخواهد با جدول دیگر در ارتباط باشد؟",
+        "selected": "باید یک کلید اولیه داشته باشد",
+        "correct": "باید یک کلید اولیه داشته باشد"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "All Program",
+        "correct": "All Program"
+      },
+      {
+        "question": "کدام کنترل زیر در طراحی گزارش برای نمایش متن فیلدها استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "نمای Data Sheet View و Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Documents",
+        "correct": "Templates"
+      },
+      {
+        "question": "برای تصحیح خودکار کلمات اشتباه آن ها را به کدام بخش اضافه می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Arrange Icons",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "کدام نوع داده زیر برای متن های طولانی استفاده می شود؟",
+        "selected": "long text",
+        "correct": "long text"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت کروشه",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "By Item Type",
+        "correct": "By Item Type"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "درج کاربرگ جدید",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "در طراحی اسلایدها کدام گزینه برای طراحی الگوی نسخه چاپی اسلایدهای فایل ارائه مطلب برای حاضرین در جلسه به کار می رود؟",
+        "selected": "Note Master",
+        "correct": "Handout Master"
+      },
+      {
+        "question": "از ابزار Line Spacing به چه منظور استفاده می شود؟",
+        "selected": "تعیین فاصله بین خطوط",
+        "correct": "تعیین فاصله بین خطوط"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Shortcut key",
+        "correct": "Shortcut key"
+      }
+    ],
+    "date": "2026-08-10T09:57:12.967Z"
   }
 ]
