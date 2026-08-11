@@ -1270,5 +1270,217 @@
       }
     ],
     "date": "2026-08-10T15:27:48.765Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save Target As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Home > Slide > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Decimal Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Insert Table",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Row",
+        "correct": "Row"
+      },
+      {
+        "question": "Boot شدن یعنی چه؟",
+        "selected": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر",
+        "correct": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر"
+      },
+      {
+        "question": "توسط این گزینه می توانیم ارتفاع جدول را تعیین کنیم:",
+        "selected": "Width",
+        "correct": "Height"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query رکوردهای جدول را بر اساس دستوری که تعیین می کند Sort می کند",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "View>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کدام یک از موارد زیر را در Criteria قرار دهیم باعث خواهد شد که رکوردهایی پیدا شوند که فیلد «شخصیت» آنها مخالف \"Nice\" است؟",
+        "selected": "Not Nice",
+        "correct": "Not Nice"
+      },
+      {
+        "question": "برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Reports",
+        "correct": "Macro"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر نادرست است؟",
+        "selected": "Lock the taskbar نوار کار ویندوز را مخفی می کند",
+        "correct": "Lock the taskbar نوار کار ویندوز را مخفی می کند"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "Control Panel / Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print All Page",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Blank Presentation",
+        "correct": "Template"
+      },
+      {
+        "question": "\"Reset\" کردن همان ......... است.",
+        "selected": "راه اندازی مجدد کامپیوتر",
+        "correct": "راه اندازی مجدد کامپیوتر"
+      },
+      {
+        "question": "برای وارد کردن تصاویر به کامپیوتر از کدام سخت افزار استفاده می شود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Commerce",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": "ورودی/خروجی",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Information",
+        "correct": "Information"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط متن های هر اسلاید چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Note Pages",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Yes/No",
+        "correct": "Yes/No"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Account",
+        "correct": "File>Account"
+      }
+    ],
+    "date": "2026-08-11T12:59:59.502Z"
   }
 ]
