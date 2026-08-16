@@ -634,5 +634,217 @@
       }
     ],
     "date": "2026-08-16T07:56:12.400Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form و Datasheet",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "جدول از مجموعه ای از رکورد ساخته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "کدام دستور می تواند کار چند تابع را انجام دهد؟",
+        "selected": "Subtotals",
+        "correct": "Subtotals"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "گزینه مناسب برای زیرخط دار کردن نوشته کدام است؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Network",
+        "correct": "Wireless"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "گیره",
+        "correct": "پرچم"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به معنی قطع ارتباط با اینترنت می باشد؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Txt File",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Break Preview",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "برای تغییر نوع نمودار از کدام گزینه استفاده می کنیم؟",
+        "selected": "Change Chart Type",
+        "correct": "Change Chart Type"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "C#",
+        "correct": "C#"
+      },
+      {
+        "question": "برای تبدیل نوشته های جدول به نوشته های بدون کادر از کدام دستور استفاده می کنیم؟",
+        "selected": "Convert To Text",
+        "correct": "Convert To Text"
+      },
+      {
+        "question": "در کدام نما نمی توان متن یا تصویر به اسلاید اضافه نمود؟",
+        "selected": "Normal",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "سریع ترین راه برای فراخوانی دستور Replace کلیدهای ترکیبی ................ و .................. است.",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Footnotes",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Section",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": "4 بایت",
+        "correct": "2 بایت"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "کدام نما برای ایجاد و طراحی اسلایدها استفاده می شود؟",
+        "selected": "Slide Show",
+        "correct": "Normal"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "Control Panel / Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "فایل (File) به چه معنا است؟",
+        "selected": "محلی برای نگهداری و سازماندهی فایل ها و برنامه ها",
+        "correct": "به همه اطلاعات موجود در رایانه می گویند"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.",
+        "selected": "Options",
+        "correct": "Options"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Picture/Graphic",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "Register",
+        "correct": "Cache"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر",
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "موتور جستجویی که واژه مورد جستجوی شما را در چند موتور جستجو قرار می دهد و نتایج جستجوی آنها را برای شما لیست می کنند چه نامیده می شوند؟",
+        "selected": "Search Engines",
+        "correct": "Meta Search Engines"
+      },
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "کلیه نامه هایی که به آدرس شما ارسال می گردد در کدام پوشه ذخیره می شود؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "از گزینه Pattern Fill در پنجره ی Format Background چه زمانی استفاده می شود؟",
+        "selected": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه",
+        "correct": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه"
+      }
+    ],
+    "date": "2026-08-16T08:02:01.989Z"
   }
 ]
