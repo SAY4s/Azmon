@@ -422,5 +422,217 @@
       }
     ],
     "date": "2026-08-16T07:49:57.729Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟",
+        "selected": "زبانه Insert گروه Pages دستور Page Cover",
+        "correct": "زبانه Insert گروه Pages دستور Page Cover"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "File / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": "با فشردن دکمه Scroll Bar",
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "برای انتخاب گروهی آیکن های پراکنده باید از کدام یک از کلید های زیر به همراه کلیک کردن استفاده کرد؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Background Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Custom Print",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ........................... است.",
+        "selected": "حجم فایل ارسالی",
+        "correct": "حجم فایل ارسالی"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "به هر یک از اطلاعات مربوط به موجودیت جدول گفته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس ایمیل (E-mail) منحصر به فرد است",
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "در چیدمان Slide ها از چیدمان ....... برای نگهداری عنوان و نگهداری متن استفاده می شود؟",
+        "selected": "Title and Content",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "برای بزرگ کردن اندازه نوشته کدام گزینه به کار می رود؟",
+        "selected": "Increase Font Size",
+        "correct": "Increase Font Size"
+      },
+      {
+        "question": "برای اینکه هنگام اجرای Query توسط یک کادر محاوره ای سؤالی مبنی بر تعیین معیار پرسیده شود در سطر Criteria کدام مورد زیر را می توان قرار داد؟",
+        "selected": "{?}",
+        "correct": "{?}"
+      },
+      {
+        "question": "کدامیک از موارد زیر باعث کاهش آلودگی های زیست محیطی می شود؟",
+        "selected": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده",
+        "correct": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد یک جدول جدید به صورت ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟",
+        "selected": "Duration",
+        "correct": "Reorder Animation"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Web Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Date modified",
+        "correct": "Date modified"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخابی را روی همه اسلایدها اعمال کنیم با راست کلیک بر روی تم مورد نظر کدام گزینه مناسب است؟",
+        "selected": "Apply to All Slides",
+        "correct": "Apply to All Slides"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Media",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "برای بدست آوردن جمع محتویات دو سلول اکسل کدام فرمول صحیح است؟",
+        "selected": "=A1+B5",
+        "correct": "=A1+B5"
+      },
+      {
+        "question": "برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.",
+        "selected": "Page Number-Insert",
+        "correct": "Page Number-Insert"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "()",
+        "correct": "!"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "0",
+        "correct": "1"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Bus",
+        "correct": "Bus"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": "Cd Rom",
+        "correct": "Ram"
+      },
+      {
+        "question": "ویروس همان ................... است.",
+        "selected": "برنامه مخرب",
+        "correct": "برنامه مخرب"
+      }
+    ],
+    "date": "2026-08-16T07:56:12.400Z"
   }
 ]
