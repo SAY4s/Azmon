@@ -2330,5 +2330,217 @@
       }
     ],
     "date": "2026-08-17T11:10:07.489Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تنظیم میزان فرورفتگی از کدام گزینه استفاده می شود؟",
+        "selected": "Indent",
+        "correct": "Indent"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign In",
+        "correct": "Sign In"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "زبان استاندارد طراحی صفحات کدام یک از موارد زیر است؟",
+        "selected": "HTML",
+        "correct": "HTML"
+      },
+      {
+        "question": "جهت فعال نمودن Folder Option از کدام روش استفاده می کنیم؟",
+        "selected": "از مسیر Start | Control Panel | Folder Option اقدام می نماییم",
+        "correct": "استفاده از منوی Tools در هر پنجره ای"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Multilevel List",
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Comparison",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟",
+        "selected": "تغییر رنگ زمینه سلول",
+        "correct": "تغییر رنگ زمینه سلول"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Editing گزینه Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Fill",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟",
+        "selected": "زبانه Insert گروه Pages دستور Page Cover",
+        "correct": "زبانه Insert گروه Pages دستور Page Cover"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select Object",
+        "correct": "Select Object"
+      },
+      {
+        "question": "هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "گزارش از نظر طرح بندی (Layout) به طور پیش فرض دارای چه وضعیتی است؟",
+        "selected": "Form",
+        "correct": "Columnar"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "پیش نمایش سند",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "از این ابزار برای کپی کردن Animation بر روی عناصر دیگر اسلایدها استفاده می شود.",
+        "selected": "Animation Painter",
+        "correct": "Animation Painter"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "کدام پسوند یک وب سایت آموزشی را نشان می دهد؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای بستن پنجره فعال از ترکیب کلیدهای ............... استفاده می شود؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": "Gb",
+        "correct": "Db"
+      },
+      {
+        "question": "USER ID همان ........ و PASSWORD همان ............... است.",
+        "selected": "نام کاربری و کلمه عبور",
+        "correct": "نام کاربری و کلمه عبور"
+      },
+      {
+        "question": "کدام یک از گزینه زیر تعریف کامپیوتر است؟",
+        "selected": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد",
+        "correct": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "!",
+        "correct": "!"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "از کدام فرمان جهت مشاهده فایل های ذخیره شده استفاده می شود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Borders",
+        "correct": "Borders"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Shortcut key",
+        "correct": "Shortcut key"
+      },
+      {
+        "question": "\"Reset\" کردن همان ......... است.",
+        "selected": "راه اندازی مجدد کامپیوتر",
+        "correct": "راه اندازی مجدد کامپیوتر"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      }
+    ],
+    "date": "2026-08-17T20:33:29.575Z"
   }
 ]
