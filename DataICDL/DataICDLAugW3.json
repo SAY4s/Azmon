@@ -2118,5 +2118,217 @@
       }
     ],
     "date": "2026-08-17T11:03:54.048Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "برای حذف محتویات یک سلول از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Contents",
+        "correct": "سربرگ Home گزینه Clear Contents"
+      },
+      {
+        "question": "مزیت الگو (Template) چیست؟",
+        "selected": "صرفه جویی در زمان ویرایش",
+        "correct": "صرفه جویی در زمان ویرایش"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "ویروس همان ................... است.",
+        "selected": "برنامه مخرب",
+        "correct": "برنامه مخرب"
+      },
+      {
+        "question": "در کدام ناحیه از اسلاید فعال می توانیم آن را اصلاح کنیم؟",
+        "selected": "ناحیه ویرایش اسلاید",
+        "correct": "ناحیه ویرایش اسلاید"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Outline",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "قانون تبادلات اطلاعات در شبکه",
+        "correct": "قانون تبادلات اطلاعات در شبکه"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای تکرار عنوان سطر جدول در هر صفحه از کدام ابزار می توان استفاده نمود؟",
+        "selected": "Repeat Header Row",
+        "correct": "Repeat Header Row"
+      },
+      {
+        "question": "برای بالانویسی کدام دکمه را به کار می بریم؟",
+        "selected": "Subscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "برای انتخاب چند خط از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلیک کردن بر مبدا و کشیدن ماوس به طرف انتها",
+        "correct": "کلیک کردن بر مبدا و کشیدن ماوس به طرف انتها"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به عنوان متن در نظر گرفته می شود؟",
+        "selected": "3+2=",
+        "correct": "2+3"
+      },
+      {
+        "question": "برای انصراف از آخرین عمل انجام شده چه دستوری استفاده می شود؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط خواندنی و پایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "تصاویر در کدام گروه از زبانه insert قرار دارند؟",
+        "selected": "Illustrations",
+        "correct": "Illustrations"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "All Program",
+        "correct": "All Program"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Data \\ Sort",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Objects",
+        "correct": "Tables"
+      },
+      {
+        "question": "به نحوه قرار گرفتن محتوای اسلایدها ....... می گویند.",
+        "selected": "Slide Sorter",
+        "correct": "Slide Layout"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها بسته به انتخاب کاربر می تواند برابر تعداد سطرها یا برابر ستون ها باشد",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Gradient",
+        "correct": "Gradient"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "........ حافظه ای با دسترسی تصادفی و ................ حافظه ای فقط خواندنی می باشد. (از راست به چپ)",
+        "selected": "Ram و Rom",
+        "correct": "Ram و Rom"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "برای وارد کردن تصاویر به کامپیوتر از کدام سخت افزار استفاده می شود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Left To Right Text Direction",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "از ابزار Word Art به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن گرافیکی",
+        "correct": "ایجاد متن گرافیکی"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cache",
+        "correct": "Cu"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "در نوار ابزار IE دکمه ستاره، کدام فرمان زیر را اجرا می کند؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان سبک جدید و سفارشی ایجاد نمود؟",
+        "selected": "Save As New Style Set",
+        "correct": "Create A New Style"
+      }
+    ],
+    "date": "2026-08-17T11:10:07.489Z"
   }
 ]
