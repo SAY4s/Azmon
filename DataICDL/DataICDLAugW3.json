@@ -3602,5 +3602,217 @@
       }
     ],
     "date": "2026-08-19T06:30:21.984Z"
+  },
+  {
+    "name": "مهسا سوری",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": "Close",
+        "correct": "Remove"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Taskbar Location on Screen",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Text Effects",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "معاونی و سازمان دهی اطلاعات در چند سطر که در مورد یک موجودیت می باشد را .............. گویند؟",
+        "selected": "پایگاه داده",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Background Style",
+        "correct": "Background Style"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "کلیک بر روی آیکن صدا بر روی نوار کار",
+        "correct": "All Program / Accessories / Sound Recorder"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Man و Lan و Wan",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان سبک جدید و سفارشی ایجاد نمود؟",
+        "selected": "Create A New Style",
+        "correct": "Create A New Style"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Group",
+        "correct": "Group"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "کدام نوع داده زیر برای اعداد استفاده می شود؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Utility",
+        "correct": "Operating system"
+      },
+      {
+        "question": "جهت شکستن متن اضافی در یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "Merge & Center",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "در نمای Outline با فشردن کدام کلید بر روی عناوین اسلاید، اسلایدی جدید ایجاد می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "برای نمایش محتوای پنجره ها به صورت پشت سرهم کدام گزینه صحیح است؟",
+        "selected": "List",
+        "correct": "List"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Outbox"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "\"Reset\" کردن همان ......... است.",
+        "selected": "راه اندازی مجدد کامپیوتر",
+        "correct": "راه اندازی مجدد کامپیوتر"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": "انتخاب فیلدهایی که می خواهید در فرم یا گزارش ظاهر شوند",
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "بر روی کدام یک از نوع فیلدها نمی توان ایندکس ایجاد کرد؟",
+        "selected": "Ole",
+        "correct": "Ole"
+      },
+      {
+        "question": "برای استفاده از دستور جایگزینی یا Replace به سربرگ .............. گروه ............ مراجعه کرده و ابزار را انتخاب می کنیم.",
+        "selected": "Design (Editing) Replace",
+        "correct": "Home (Editing) Replace"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با کشیدن ماوس بر روی سلول های انتخاب شده سری مقادیر تعریف شده نوشته می شوند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "میان افزار",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "سرعت انتقال داده ها در CPU از حافظه اصلی Ram ............ می باشد به همین جهت از حافظه های .............. استفاده می کنند.",
+        "selected": "بیشتر - Cache",
+        "correct": "کمتر - Cache"
+      },
+      {
+        "question": "برای جایگزینی عبارتی در اسناد از .......... استفاده می شود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Read Only",
+        "correct": "Read Only"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "Gateways",
+        "correct": "Gateways"
+      },
+      {
+        "question": "نرم افزار اکسل در کدام مورد کاربرد دارد؟",
+        "selected": "در امور مهندسی و کارهای مربوط به امور مالی",
+        "correct": "در امور مهندسی و کارهای مربوط به امور مالی"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "رجیستر به چه معناست؟",
+        "selected": "حافظه جانبی را گویند",
+        "correct": "حافظه کوچک در داخل CPU"
+      },
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "به مجموعه ای از رکوردها که دارای عناوین فیلد یکسان هستند ................. گفته می شود؟",
+        "selected": "پایگاه داده",
+        "correct": "جدول"
+      }
+    ],
+    "date": "2026-08-19T06:45:21.880Z"
   }
 ]
