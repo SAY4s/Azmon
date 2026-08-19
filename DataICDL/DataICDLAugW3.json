@@ -3390,5 +3390,217 @@
       }
     ],
     "date": "2026-08-19T05:55:07.778Z"
+  },
+  {
+    "name": "مهسا سوری",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Mpg",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Table",
+        "correct": "Database"
+      },
+      {
+        "question": "پس از ورود داده در سلول B1 و فشار کلید Enter کدام سلول به طور پیش فرض فعال خواهد شد؟",
+        "selected": "سلول B2",
+        "correct": "سلول B2"
+      },
+      {
+        "question": "USER ID همان ........ و PASSWORD همان ............... است.",
+        "selected": "نام کاربری و کلمه عبور",
+        "correct": "نام کاربری و کلمه عبور"
+      },
+      {
+        "question": "با استفاده از گزینه ............. می توانیم تعیین کنیم متن از حاشیه سلول چقدر فاصله داشته باشد.",
+        "selected": "Cell Alignment",
+        "correct": "Cell Margins"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر به معنی شبکه می باشد؟",
+        "selected": "LNB",
+        "correct": "Network"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Insert - Formulas",
+        "correct": "Formulas - Function"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای مشاهده مشخصات پوشه ها باید از چه روشی استفاده کرد؟",
+        "selected": "کلیک راست روی آیکن پوشه و انتخاب گزینه Properties",
+        "correct": "کلیک راست روی آیکن پوشه و انتخاب گزینه Properties"
+      },
+      {
+        "question": "با استفاده از .......... می توانیم اسلایدها را در زمانی که محتوای آن بزرگتر از اندازه ی پنجره است در راستای عمودی و افقی پیمایش کنیم.",
+        "selected": "نوار عنوان",
+        "correct": "نوارهای پیمایش"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Art",
+        "correct": "Style"
+      },
+      {
+        "question": "برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Selection Filter",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت General گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "کدام یک از شبکه های زیر معمولا برای اتصال دفاتر یک سازمان در یک شهر صورت می گیرد؟",
+        "selected": "Lan",
+        "correct": "Man"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Orientation از گروه Table",
+        "correct": "Text Direction از گروه Cell Size"
+      },
+      {
+        "question": "این تعریف مربوط به کدام گزینه زیر می باشد؟ (کلیه برنامه ها و دستورالعمل هایی که باعث عملکرد سیستم می شود)",
+        "selected": "نرم افزار Software",
+        "correct": "نرم افزار Software"
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Center",
+        "correct": "Stretch"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "ROM",
+        "correct": "ROM"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Autocontent Wizard",
+        "correct": "Template"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "<=20 And >=50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Blank",
+        "correct": "Form Design"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "برای ارسال رونوشت یک نامه به فرستنده دیگر به طوری که گیرنده اصلی از موضوع نامه مطلع شود، آدرس آن را در کدام قسمت وارد می کنید؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "برای جستجوی کلیه فایل ها با پسوند txt از کدام گزینه زیر استفاده می کنیم؟",
+        "selected": "txt.*",
+        "correct": "*.txt"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "WAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "برای قالب بندی فهرست علائم نمودار، در نوار ابزار Chart و از لیست اجزای نمودار کدام مورد صحیح است؟",
+        "selected": "Chart Area",
+        "correct": "Legend"
+      }
+    ],
+    "date": "2026-08-19T06:30:21.984Z"
   }
 ]
