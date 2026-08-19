@@ -3814,5 +3814,217 @@
       }
     ],
     "date": "2026-08-19T06:45:21.880Z"
+  },
+  {
+    "name": "مهسا",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~T * S",
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Notes Page",
+        "correct": "Template"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "برای اینکه نتوان محل نوار وظیفه را تغییر داد باید کدام گزینه را از کادر محاوره ای Taskbar and Start Menu Properties انتخاب نمود؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "OLE Object",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Short Text",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Right",
+        "correct": "Right"
+      },
+      {
+        "question": "فایل های محیط word 2013 با چه پسوندی ذخیره می شوند؟",
+        "selected": "docx",
+        "correct": "docx"
+      },
+      {
+        "question": "برای برگشتن به صفحه قبلی ملاحظه شده بر روی کدام دکمه باید کلیک کرد؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "چگونه می توان چند فایل پراکنده یک پوشه را انتخاب کرد؟",
+        "selected": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت",
+        "correct": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت"
+      },
+      {
+        "question": "در طراحی اسلاید اصلی در ابزار Slide Master می توانیم .........",
+        "selected": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم",
+        "correct": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟",
+        "selected": "ترازبندی اطلاعات داخل سلول",
+        "correct": "تغییر رنگ زمینه سلول"
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است",
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Shift همراه با کلیدهای جهتی",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (یا نامه) به چه منظوری به کار می رود؟",
+        "selected": "برای فرستادن رونوشت نامه به صورت محرمانه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد",
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Above از سربرگ Layout، 5 سطر در ................. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "پایین",
+        "correct": "بالا"
+      },
+      {
+        "question": "کدام یک از خصوصیات زیر درمورد فیلدها تعیین کننده مقدار پیش فرض می باشد؟",
+        "selected": "Input mask",
+        "correct": "Default value"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": "از فرمان Save As در منوی File",
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار اسلاید",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "Table Setting",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "برای ایجاد یک لیست علامت گذاری شده از کدام ابزار گروه Paragraph استفاده می شود؟",
+        "selected": "Arrange",
+        "correct": "Bullets"
+      },
+      {
+        "question": "برای چاپ فایل ها از .............. استفاده می کنیم.",
+        "selected": "File / Print",
+        "correct": "File / Print"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Report Header",
+        "correct": "Summary"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Network",
+        "correct": "Wireless"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Required",
+        "correct": "Field Size"
+      },
+      {
+        "question": "ویروس همان ................... است.",
+        "selected": "برنامه مخرب",
+        "correct": "برنامه مخرب"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C3=",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیز را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      }
+    ],
+    "date": "2026-08-19T07:51:15.235Z"
   }
 ]
