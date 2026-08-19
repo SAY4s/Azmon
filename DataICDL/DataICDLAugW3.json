@@ -5510,5 +5510,217 @@
       }
     ],
     "date": "2026-08-19T13:55:54.705Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "جهت چاپ گزارش بر روی کاغذ",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Double"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Shift+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج سر صفحه و پا صفحه بر روی اسلایدها مناسب است؟",
+        "selected": "Header and Footer",
+        "correct": "Header and Footer"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "به ورودی های خام سیستم چه می گویند؟",
+        "selected": "داده",
+        "correct": "داده"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "در ویندوز 7 برنامه های کوچکی که برای ارائه سریع و آسان اطلاعات مختلف در میزکار پیش بینی شده اند، ...... نامیده می شوند.",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "کدام گزینه غلط است؟",
+        "selected": "اکسل داده های تاریخی را به عنوان عدد با قابلیت شرکت در عملیات ریاضی در نظر می گیرد",
+        "correct": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند"
+      },
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Columns",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "برای بدست آوردن ضرب محتویات دو سلول اکسل چه فرمولی باید نوشت؟",
+        "selected": "=A1*B5",
+        "correct": "=A1*B5"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "ویندوز ماهیت چند وظیفه ای دارد به چه معناست؟",
+        "selected": "می تواند تعداد زیادی برنامه را همزمان اجرا کند",
+        "correct": "می تواند تعداد زیادی برنامه را همزمان اجرا کند"
+      },
+      {
+        "question": "برای بروزرسانی صفحه وب از کدام گزینه استفاده می شود؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "از کدام گزینه در بخش Size برای چاپ روی پاکت نامه استفاده می کنیم؟",
+        "selected": "Envelope",
+        "correct": "Envelope"
+      },
+      {
+        "question": "کلید میان بر برای چاپ کدام مورد می باشد؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "در صورت وجود غلط های املایی در متن اسلایدها کدام یک از روش ها برای برطرف کردن غلط های املایی مناسب است؟",
+        "selected": "Double Click بر روی واژه اشتباه",
+        "correct": "سربرگ Review گزینه Spelling"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برای نمایش خطوط راهنما و شبکه ای کدام گزینه ها را فعال می کنیم؟",
+        "selected": "Grid Line - Guides",
+        "correct": "Grid Line - Guides"
+      },
+      {
+        "question": "در یک Query به کمک کدامیک از گزینه های زیر می توان شرط مورد نظر در ستون مربوط وارد کرد؟",
+        "selected": "Criteria",
+        "correct": "Criteria"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول های A2 تا C5 و سلول D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "گزارش از نظر طرح بندی (Layout) به طور پیش فرض دارای چه وضعیتی است؟",
+        "selected": "Report Layout",
+        "correct": "Columnar"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Line and Page Breaks از Font",
+        "correct": "زبانه Line and Page Breaks از Paragraph"
+      },
+      {
+        "question": "عناوین سطرها و ستون ها با کدامیک از موارد زیر مشخص می شود؟",
+        "selected": "ستون ها با حروف الفبای لاتین و سطرها با اعداد",
+        "correct": "ستون ها با حروف الفبای لاتین و سطرها با اعداد"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Insert گروه Link گزینه Watermark",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Menu",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "از این سربرگ برای طراحی اسلاید، تنظیم رنگ پس زمینه و سایز اسلاید و غیره استفاده می شود.",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Group & Sort",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Taskbar Location on Screen",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "جهت جابجایی بین پنجره های باز از ترکیب کلیدهای .......................... استفاده می شود.",
+        "selected": "Alt+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "255",
+        "correct": "255"
+      }
+    ],
+    "date": "2026-08-19T14:01:39.774Z"
   }
 ]
