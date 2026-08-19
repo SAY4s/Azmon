@@ -4662,5 +4662,217 @@
       }
     ],
     "date": "2026-08-19T10:40:40.386Z"
+  },
+  {
+    "name": "سوری",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "کلیدهای ترکیبی Alt+F4",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "به مجموعه ای از رکوردها که دارای عناوین فیلد یکسان هستند ................. گفته می شود؟",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "عمل پیمایش (scroll) چیست؟",
+        "selected": "به عمل چرخاندن کلید وسط موس برای مشاهده محتویات پنجره گفته می شود",
+        "correct": "به عمل چرخاندن کلید وسط موس برای مشاهده محتویات پنجره گفته می شود"
+      },
+      {
+        "question": "با استفاده از .......... می توانیم اسلایدها را در زمانی که محتوای آن بزرگتر از اندازه ی پنجره است در راستای عمودی و افقی پیمایش کنیم.",
+        "selected": "نوارهای پیمایش",
+        "correct": "نوارهای پیمایش"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "پست الکترونیکی، آموزش الکترونیکی",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام تابع زیر برای محاسبه میانگین بکار می رود؟",
+        "selected": "AVERAGE",
+        "correct": "AVERAGE"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": "Shape Outline",
+        "correct": "Arrange"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Delete Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "برای اجرای سریع فرمان redo کلیدهای ......... مورد استفاده قرار می گیرند.",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "کوچکترین عنصر در بانک که حاوی اطلاعات است چه می گویند؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "به نمادهای تصویری در ویندوز، ...................... می گویند.",
+        "selected": "Icon",
+        "correct": "Icon"
+      },
+      {
+        "question": "کدام نوع داده زیر برای اعداد استفاده می شود؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Worksheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "اگر بخواهیم متحرک سازی یک شی همراه با متحرک سازی قبلی اجرا شود، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "با تغییر نوع نمودار در یک اسلاید کدام گزینه از منوی مربوط به نمودار باید انتخاب شود؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Insert",
+        "correct": "Home"
+      },
+      {
+        "question": "کدامیک از موارد زیر خصوصیت نرم افزار به شمار می رود؟",
+        "selected": "شامل دستورالعمل هایی جهت استفاده از کامپیوتر است",
+        "correct": "شامل دستورالعمل هایی جهت استفاده از کامپیوتر است"
+      },
+      {
+        "question": "کدام گزینه در مورد دولت الکترونیکی بکار می رود؟",
+        "selected": "E-Government",
+        "correct": "E-Government"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Web Layout",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Summary",
+        "correct": "Summary"
+      },
+      {
+        "question": "برنامه اکسل جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "صفحه گسترده",
+        "correct": "صفحه گسترده"
+      },
+      {
+        "question": "در صورتی که بخواهیم عبارت های یافت شده از نظر بزرگی و کوچکی حروف با عبارت مورد جستجو یکسان باشد کدام گزینه را فعال می کنیم؟",
+        "selected": "Match Case",
+        "correct": "Match Case"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Unlock the Taskbar",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "From Current Slide",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore All"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر ناپایدار است؟",
+        "selected": "Cd-Rom",
+        "correct": "Ram"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Replace With",
+        "correct": "Replace With"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "Query",
+        "correct": "گزارش"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "برای نمایش خط کش کدام سربرگ را انتخاب می کنید؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "File/Message/New Message",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "تک وظیفه",
+        "correct": "AERO"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Look Up Wizard",
+        "correct": "Ole"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "if",
+        "correct": "count if"
+      },
+      {
+        "question": "کدام گزینه به معنای تجارت الکترونیکی می باشد؟",
+        "selected": "E-commerce",
+        "correct": "E-commerce"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      }
+    ],
+    "date": "2026-08-19T10:49:20.843Z"
   }
 ]
