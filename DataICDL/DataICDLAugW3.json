@@ -5086,5 +5086,217 @@
       }
     ],
     "date": "2026-08-19T13:45:19.888Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از کدام روش می توان نماها را در ورد تغییر داد؟",
+        "selected": "از زبانه Insert می توان فعال کرد",
+        "correct": "از طریق دکمه هایی که در گوشه پایین و سمت راست محیط Word قرار دارند"
+      },
+      {
+        "question": "برای جستجوی کلیه فایل ها با پسوند txt از کدام گزینه زیر استفاده می کنیم؟",
+        "selected": "*.txt",
+        "correct": "*.txt"
+      },
+      {
+        "question": "Chart چیست؟",
+        "selected": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود",
+        "correct": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟",
+        "selected": "Increase Alphabet",
+        "correct": "Sort"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "از کدام گزینه در بخش Size برای چاپ روی پاکت نامه استفاده می کنیم؟",
+        "selected": "Mailing",
+        "correct": "Envelope"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "در سربرگ Animation و در قسمت Timing، کدام گزینه زیر زمان تاخیر برای حرکت موضوع را می توان وارد کرد؟",
+        "selected": "Delay",
+        "correct": "Delay"
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "ارسال و دریافت ایمیل",
+        "correct": "ارسال و دریافت ایمیل"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "Bar Tab چه کاری انجام می دهد؟",
+        "selected": "قرار دادن یک خط در محل ایجاد تب",
+        "correct": "قرار دادن یک خط در محل ایجاد تب"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": "Number Of Rows",
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "حالت بزرگ نمایی چه تاثیری بر سند می گذارد؟",
+        "selected": "هیچ گونه تاثیری بر چگونگی چاپ ندارد",
+        "correct": "هیچ گونه تاثیری بر چگونگی چاپ ندارد"
+      },
+      {
+        "question": "نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "واژه پرداز",
+        "correct": "واژه پرداز"
+      },
+      {
+        "question": "از نظر امنیتی باز کردن چه ایمیل هایی می تواند خطرناک باشد؟",
+        "selected": "ایمیل هایی که موضوعات جالب دارند ولی فرستنده برای ما ناشناس است",
+        "correct": "ایمیل هایی که موضوعات جالب دارند ولی فرستنده برای ما ناشناس است"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "کاربرد سبک Italic چیست؟",
+        "selected": "مورب کردن نوشته",
+        "correct": "مورب کردن نوشته"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر بیانگر اجزای فیزیکی یک سیستم کامپیوتری است؟",
+        "selected": "سخت افزار (Hardware)",
+        "correct": "سخت افزار (Hardware)"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Data Label",
+        "correct": "Data Label"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "از ابزار Start Recording From Beginning به چه منظور استفاده می شود؟",
+        "selected": "ضبط صدا بر روی اولین تا آخرین اسلاید",
+        "correct": "ضبط صدا بر روی اولین تا آخرین اسلاید"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Borders",
+        "correct": "Borders"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": "کامپیوترهای Laptop قابل حمل هستند",
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "کدامیک از موارد زیر را نمی توان در Data Sheet View انجام داد؟",
+        "selected": "ایجاد فرم",
+        "correct": "ایجاد فرم"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Set as Default Theme",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Right To Left Text Direction",
+        "correct": "Right To Left Text Direction"
+      }
+    ],
+    "date": "2026-08-19T13:50:49.292Z"
   }
 ]
