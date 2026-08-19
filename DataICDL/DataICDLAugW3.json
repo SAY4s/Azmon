@@ -4026,5 +4026,217 @@
       }
     ],
     "date": "2026-08-19T07:51:15.235Z"
+  },
+  {
+    "name": "نوری",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "گزینه .......................... برای ترازبندی متن کاربرد دارد.",
+        "selected": "Indentation",
+        "correct": "Justify"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "کدام گزینه آیکن های درون پنجره را بر اساس تاریخ آخرین اصلاح مرتب می کند؟",
+        "selected": "Date Modified",
+        "correct": "Date Modified"
+      },
+      {
+        "question": "کلید میان بر وسط چین نمودن متن کدام است؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+E"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Entrance",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "Control Panel / Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start و انتخاب Restart از پنجره Shut down windows",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "سیستم عامل",
+        "correct": "مودم"
+      },
+      {
+        "question": "در یک Query به کمک کدامیک از گزینه های زیر می توان شرط مورد نظر در ستون مربوط وارد کرد؟",
+        "selected": "Sort",
+        "correct": "Criteria"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر",
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "Decimal Place برای کدام نوع داده قابل دسترسی بوده است؟",
+        "selected": "عددی",
+        "correct": "عددی"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M?S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F4",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "پست الکترونیک به کدام گزینه معروف است؟",
+        "selected": "Chat",
+        "correct": "Chat"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "هویت یک فایل از ....................... شناسائی می گردد.",
+        "selected": "نام فایل",
+        "correct": "پسوند فایل"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": "Filter",
+        "correct": "Report"
+      },
+      {
+        "question": "به نوار رنگی بالای پنجره ها چه می گویند؟",
+        "selected": "نوار آدرس",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": "Input Mask",
+        "correct": "Caption"
+      },
+      {
+        "question": "کدام منو در نرم افزار Powerpoint برای ایجاد انیمیشن کاربرد دارد؟",
+        "selected": "Animations",
+        "correct": "Animations"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "قلم نوری",
+        "correct": "Cd"
+      },
+      {
+        "question": "در کدام نما نمی توان متن یا تصویر به اسلاید اضافه نمود؟",
+        "selected": "Slide Sorter",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": "از دست رفتن اطلاعات",
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها برابر مجموع تعداد سطرها و ستون هاست",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Shift",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "برای تغییر نوع نمودار از کدام گزینه استفاده می کنیم؟",
+        "selected": "Change Chart Type",
+        "correct": "Change Chart Type"
+      },
+      {
+        "question": "از این نوار برای بستن و کوچک کردن نرم افزار استفاده می شود.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "دکمه های کنترلی"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Tejarat",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "کدام وسیله ورودی می تواند تصاویر را به صفر و یک تبدیل کرده و وارد کامپیوتر می نماید؟",
+        "selected": "پلاتر",
+        "correct": "اسکنر"
+      }
+    ],
+    "date": "2026-08-19T09:26:55.180Z"
   }
 ]
