@@ -5934,5 +5934,217 @@
       }
     ],
     "date": "2026-08-19T14:26:24.375Z"
+  },
+  {
+    "name": "مهسا بختیاری",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "فرامین Copy و Paste به چه منظور مورد استفاده قرار می گیرند؟",
+        "selected": "جابجایی اطلاعات",
+        "correct": "کپی اطلاعات"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Design",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "کدام یک از امکانات نرم افزار پایگاه داده Access نمی باشد؟",
+        "selected": "دسترسی تعداد کاربران زیاد",
+        "correct": "دسترسی تعداد کاربران زیاد"
+      },
+      {
+        "question": "برای تعیین کلید اولیه در هنگام طراحی بانک اطلاعاتی پس از انتخاب فیلد مورد نظر بر روی کدام دکمه از نوار ابزار باید کلیک نمود؟",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "در سربرگ Animation و در قسمت Timing، کدام گزینه زیر زمان تاخیر برای حرکت موضوع را می توان وارد کرد؟",
+        "selected": "Speed",
+        "correct": "Delay"
+      },
+      {
+        "question": "هرگاه اندازه سطرهای جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Table",
+        "correct": "Distribute Rows"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": "یک Table می تواند تنها یک Primary Key داشته باشد",
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Floppy",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "توسط نرم افزار فشرده سازی، می توان حجم فایل را تا ...... کاهش داد.",
+        "selected": "%50",
+        "correct": "%50"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "کدام گزینه یک نوع داده در محیط اکسس محسوب نمی شود؟",
+        "selected": "Text",
+        "correct": "Form"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Layout View",
+        "correct": "Form View"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از Data Sheet",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک فایل ارائه مطالب در نسخه های قبلی (2003) برنامه قابل اجرا باشد از چه پسوندی استفاده می کنیم؟",
+        "selected": "PPS",
+        "correct": "PPT"
+      },
+      {
+        "question": "کدام گزینه برای درج تصویر به کار می رود؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Criteria",
+        "correct": "Show"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Direction از گروه Alignment",
+        "correct": "Text Direction از گروه Cell Size"
+      },
+      {
+        "question": "نامه های ناتمام معمولا در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود",
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Cell",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "Shiraz - University",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Review گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "ویروس همان ................... است.",
+        "selected": "برنامه مخرب",
+        "correct": "برنامه مخرب"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Report Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "توسط کدام دستور اندازه صفحه را تغییر می دهیم؟",
+        "selected": "Size",
+        "correct": "Size"
+      }
+    ],
+    "date": "2026-08-19T21:12:02.529Z"
   }
 ]
