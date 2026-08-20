@@ -6570,5 +6570,217 @@
       }
     ],
     "date": "2026-08-20T07:40:52.929Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "کدام یک از دستورات Alignment برای منظم کردن متن کاربرد دارد؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Formula",
+        "correct": "Formula"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "اگر بخواهیم تمام فیلدها در یک رکورد از جدول پر شود و هیچ یک خالی رد نشود کدام خصوصیت از فیلدها باید فعال شود؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Start Mail Merge",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر بیانگر اجزای فیزیکی یک سیستم کامپیوتری است؟",
+        "selected": "سخت افزار (Hardware)",
+        "correct": "سخت افزار (Hardware)"
+      },
+      {
+        "question": "کدام گزینه در مورد فشرده سازی صحیح است؟",
+        "selected": "روشی برای کاهش حجم فایل",
+        "correct": "روشی برای کاهش حجم فایل"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Layout",
+        "correct": "Group"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Detail",
+        "correct": "Summary"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Man و Lan و Wan",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای ذخیره سازی دائم اطلاعات مناسب است؟",
+        "selected": "حافظه ثانویه",
+        "correct": "حافظه ثانویه"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "برای سطرها عنوان ایجاد می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "خروجی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "برای حذف ستون های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Columns",
+        "correct": "Delete Columns"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول",
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "CPU > Hard > Ram > Floppy",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "خط تیره",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "برای ذخیره سند از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "از کدام فرمان برای ایجاد یک فایل صفحه گسترده جدید استفاده می کنیم؟",
+        "selected": "New",
+        "correct": "New"
+      }
+    ],
+    "date": "2026-08-20T14:33:23.937Z"
   }
 ]
