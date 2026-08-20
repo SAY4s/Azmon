@@ -6146,5 +6146,217 @@
       }
     ],
     "date": "2026-08-19T21:12:02.529Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "برای درج داده هایی مانند ردیف از ........ و داده های عددی که احتیاج به محاسبات دارند از نوع داده .... استفاده می کنیم؟ (از راست به چپ)",
+        "selected": "Number - Auto Number",
+        "correct": "Number - Auto Number"
+      },
+      {
+        "question": "از ابزار Date and Time به چه منظور استفاده می شود؟",
+        "selected": "درج تاریخ و زمان",
+        "correct": "درج تاریخ و زمان"
+      },
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": "خاصیت Required را روی No تنظیم کنیم",
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Default Value",
+        "correct": "No-Required"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "منظور از (Screen Saver) چیست؟",
+        "selected": "محافظ صفحه نمایش",
+        "correct": "محافظ صفحه نمایش"
+      },
+      {
+        "question": "پسوند فایل های اکسل 2013 کدام است؟",
+        "selected": "xlsx",
+        "correct": "xlsx"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": "Paste",
+        "correct": "Paste"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": "@",
+        "correct": "@"
+      },
+      {
+        "question": "برای انتخاب چند اسلاید از چه دکمه ای می توان استفاده کرد؟",
+        "selected": "برای انتخاب چند اسلاید متوالی Shift را نگهداشته و روی اولین و آخرین اسلاید مورد نظر کلیک می کنیم",
+        "correct": "برای انتخاب چند اسلاید متوالی Shift را نگهداشته و روی اولین و آخرین اسلاید مورد نظر کلیک می کنیم"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "تفاوت دکمه های OK و Apply در چیست؟",
+        "selected": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد",
+        "correct": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "نمای Data Sheet View و Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "جهت زمانبندی کردن تعویض اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Preview",
+        "correct": "Advanced Slide"
+      },
+      {
+        "question": "هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Columns",
+        "correct": "Distribute Columns"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "گزینه مناسب اجرای فرمان جستجوی واژه ها کدام است؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Clear Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Descending",
+        "correct": "Descending"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Alt+F1",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": "از فرمان Save As در منوی File",
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Worksheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Background Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Customize > Format Background",
+        "correct": "Design > Variants > Colors"
+      },
+      {
+        "question": "به منبع انرژی غیرقابل توقف.........",
+        "selected": "Power",
+        "correct": "UPS"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج معادلات ریاضی",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "اجزای اصلی کامپیوترهای شخصی کدام است؟",
+        "selected": "Cpu - Memory - Input Unit - Output Unit",
+        "correct": "Cpu - Memory - Input Unit - Output Unit"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar",
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "Cd",
+        "correct": "Cd"
+      }
+    ],
+    "date": "2026-08-20T07:35:19.117Z"
   }
 ]
