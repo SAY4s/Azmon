@@ -634,5 +634,217 @@
       }
     ],
     "date": "2026-08-22T15:37:31.646Z"
+  },
+  {
+    "name": "آ",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "18",
+        "correct": "18"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Ctrl+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "از کدام گزینه جهت افزودن اعشار استفاده می کنیم؟",
+        "selected": "Decimal",
+        "correct": "Increase Decimal"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "هریک از خانه ها در صفحه کاری چه نام دارد؟",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M?S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Row",
+        "correct": "Select Column"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Hotmail",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Right از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "سمت راست"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "CRT",
+        "correct": "CRT"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "انتقال دادن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار ابزار (Standard)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "انجام امور نشر رومیزی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "کدام نوع رابطه در بین جداول اشتباه است؟",
+        "selected": "رابطه چند به یک",
+        "correct": "رابطه چند به یک"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "Apply Styles چه کاری انجام می دهد؟",
+        "selected": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم",
+        "correct": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم"
+      },
+      {
+        "question": "از ابزار Word Art به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن گرافیکی",
+        "correct": "ایجاد متن گرافیکی"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "برای مشاهده پیش از عمل چاپ از کلید میانبر .......... در صفحه کلید استفاده می نماییم.",
+        "selected": "F2",
+        "correct": "Ctrl+F2"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "کلیک بر روی نوار ابزار Create Mail",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "کامپیوترهای شخصی از کدام نوع کامپیوترها هستند؟",
+        "selected": "Mini Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر",
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "انتخاب کدام گزینه کامپیوتر را در حالت آماده باش قرار می دهد؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "برای نمایش تمام یا بخشی از اطلاعات در بانک اطلاعاتی از ................ استفاده می نماییم.",
+        "selected": "گزارش",
+        "correct": "پرس و جو"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Sheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "از کدام روش می توان نماها را در ورد تغییر داد؟",
+        "selected": "از زبانه Insert می توان فعال کرد",
+        "correct": "از طریق دکمه هایی که در گوشه پایین و سمت راست محیط Word قرار دارند"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Web Page, HTML Only",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Webcam",
+        "correct": "Webcam"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": "Save",
+        "correct": "New"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Row Height",
+        "correct": "Column Width"
+      }
+    ],
+    "date": "2026-08-22T19:08:44.635Z"
   }
 ]
