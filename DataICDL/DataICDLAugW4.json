@@ -422,5 +422,217 @@
       }
     ],
     "date": "2026-08-22T11:38:34.306Z"
+  },
+  {
+    "name": "D",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 11,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "برای اضافه نمودن عنوان به نمودار از کدام گزینه استفاده می نماییم؟",
+        "selected": "Data Labels",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": null,
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": null,
+        "correct": "Database"
+      },
+      {
+        "question": "کدام نوع داده ی زیر برای نمایش قالب متنی کاربرد دارد؟",
+        "selected": "Text",
+        "correct": "Text"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "پرانتز",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": "Shape Outline",
+        "correct": "Arrange"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "درختی - جدول",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "0",
+        "correct": "1"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE به طور اتوماتیک نمایش داده می شود ....... نام دارد",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "دریافت فایل",
+        "correct": "ارسال و دریافت ایمیل"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای بازیابی پوشه و یا فایل حذف شده باید از کدام فرمان استفاده کرد؟",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "Boot شدن یعنی چه؟",
+        "selected": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر",
+        "correct": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select Object",
+        "correct": "Select Object"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج سر صفحه و پا صفحه بر روی اسلایدها مناسب است؟",
+        "selected": "Header and Footer",
+        "correct": "Header and Footer"
+      },
+      {
+        "question": "پسوند فایل ها در نرم افزار پایگاه داده اکسس 2013 کدام است؟",
+        "selected": "Accdb",
+        "correct": "Accdb"
+      },
+      {
+        "question": "برای درج خودکار سری داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Auto Fill",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "با استفاده از کدام تب از کادر محاوره ای Format Cell می توان خطوط کادر خانه ها را تنظیم نمود؟",
+        "selected": "Border",
+        "correct": "Border"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد",
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "برای ایجاد متن به سبک خاص و کوتاه از گزینه........................ استفاده می نماییم.",
+        "selected": "Text Box",
+        "correct": "Word Art"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Split Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "برای درج یک فیلد در ساختار بانک اطلاعاتی از کدام روش باید استفاده نمود؟",
+        "selected": "Design - Insert Rows",
+        "correct": "Design - Insert Rows"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Design",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "اگر بخواهیم باز شدن صفحه ای را در IE متوقف کنیم چه دکمه ای را از نوار ابزار کلیک می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Stop"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Summary Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "کدام گزینه صحیح می باشد؟",
+        "selected": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم",
+        "correct": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "در تنظیمات پاراگراف، تورفتگی ابتدای آن را از کدام بخش انجام می دهیم؟",
+        "selected": "Indentation",
+        "correct": "Indentation"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save File As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      }
+    ],
+    "date": "2026-08-22T15:37:31.646Z"
   }
 ]
