@@ -210,5 +210,217 @@
       }
     ],
     "date": "2026-08-22T09:11:10.330Z"
+  },
+  {
+    "name": "مبینا دودانگه",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 18,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Sort کردن فیلدهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Home",
+        "correct": "Create"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "نامه",
+        "correct": "نامه"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "گروه بندی رکوردها",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard and Mouse",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024B",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": "با اجرای دستور قالب بندی دیسک سخت، کلیه اطلاعات موجود پاک می شود",
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": "Number Of Rows",
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "با فشار کدام کلیدها می توان یک کپی از اسلاید را بعد از همان اسلاید ایجاد کرد؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+D"
+      },
+      {
+        "question": "برای قرار دادن خط بین ستون ها کدام گزینه از کادر محاوره ای Columns را انتخاب می کنیم؟",
+        "selected": "Line In Right",
+        "correct": "Line Between"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Or, If",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Page Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "برای حذف یک سطر جدول از …… استفاده می کنیم.",
+        "selected": "گزینه Delete Rows و Clean Rows",
+        "correct": "گزینه Delete Rows"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "وب جهان گستر",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "جهت نمایش درایوها و پوشه ها با جزئیات از کدام گزینه استفاده می نماییم؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "به ناحیه نمایش ساعت، وضعیت بلندگو و غیره در روی نوار کار ..................... گویند.",
+        "selected": "Notification",
+        "correct": "Notification"
+      },
+      {
+        "question": "PDA چیست؟",
+        "selected": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود",
+        "correct": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Page Layout گروه Background Page گزینه Page Border",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "Bar Tab چه کاری انجام می دهد؟",
+        "selected": null,
+        "correct": "قرار دادن یک خط در محل ایجاد تب"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Home",
+        "correct": "Page layout"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Forms",
+        "correct": "Queries"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": null,
+        "correct": "Ruler"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد میانبرها صحیح نیست؟",
+        "selected": "بعضی از برنامه های کاربردی پس از نصب یک میانبر در Desktop ایجاد می نمایند",
+        "correct": "با پاک شدن آن برنامه اصلی نیز پاک می شود"
+      },
+      {
+        "question": "از این ابزار برای درج ویدیو از طریق اینترنت به اسلاید مورد استفاده قرار می گیرد",
+        "selected": "Online Video",
+        "correct": "Online Video"
+      },
+      {
+        "question": "کدامیک از گزینه ها در رابطه با ایجاد جدول به روش ترسیم صحیح است؟",
+        "selected": "انتخاب Draw Table از سربرگ Insert گروه Table",
+        "correct": "انتخاب Draw Table از سربرگ Insert گروه Table"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      }
+    ],
+    "date": "2026-08-22T11:38:34.306Z"
   }
 ]
