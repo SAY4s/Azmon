@@ -2118,5 +2118,217 @@
       }
     ],
     "date": "2026-08-23T09:05:58.518Z"
+  },
+  {
+    "name": "۱",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "اگر بخواهیم اولین حرف از هر کلمه انگلیسی کوچک باشد، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Modules",
+        "correct": "Macros"
+      },
+      {
+        "question": "جهت تغییر شکل آیکن Computer کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Change Desktop Icon",
+        "correct": "Change Desktop Icon"
+      },
+      {
+        "question": "برای اینکه نتوان محتوای خانه های (Cell) صفحه کاری را تغییر داد چه باید کرد؟",
+        "selected": "ابتدا سلول را Locked می کنیم و سپس از سربرگ Review گزینه Protect Sheet را کلیک می کنیم و کلمه رمز قرار می دهیم",
+        "correct": "ابتدا سلول را Locked می کنیم و سپس از سربرگ Review گزینه Protect Sheet را کلیک می کنیم و کلمه رمز قرار می دهیم"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "توسط کدامیک از روش های زیر می توان به پنجره Control Panel دسترسی پیدا کرد؟",
+        "selected": "Start Menu",
+        "correct": "Start Menu"
+      },
+      {
+        "question": "اگر بخواهیم تمام فیلدها در یک رکورد از جدول پر شود و هیچ یک خالی رد نشود کدام خصوصیت از فیلدها باید فعال شود؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "کدام گزینه از کادر Format Cell موجب پر شدن یک سلول با خطوط هاشور می شود؟",
+        "selected": "Gridlines",
+        "correct": "Pattern"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Pie",
+        "correct": "Bar"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "الزامی نیست",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "برای اینکه در پرس و جو، شرط ورودی را موقع اجرا درخواست کند، از کدام علامت استفاده می کنید؟",
+        "selected": "[ ]",
+        "correct": "[ ]"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Row",
+        "correct": "Row"
+      },
+      {
+        "question": "کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟",
+        "selected": "سرعت بالای حافظه های ثانویه",
+        "correct": "سرعت بالای حافظه های ثانویه"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Edit Header",
+        "correct": "Header"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": "ویرایش جدول در سند",
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Layout View",
+        "correct": "Report View"
+      },
+      {
+        "question": "ابزار Line and Paragraph Spacing چه کاربردی دارد؟",
+        "selected": "تنظیم فاصله خطوط و پاراگراف",
+        "correct": "تنظیم فاصله خطوط و پاراگراف"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "(A1,B5)=min",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "توسط کدام کلید ترکیبی بانک اطلاعاتی جاری بسته می شود؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول",
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "برای درج یک معیار از کدام قسمت در یک پرس و جو استفاده می شود؟",
+        "selected": "Criteria & Or",
+        "correct": "Criteria & Or"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide layout",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "در Windows کدام نرم افزار قابلیت ایجاد فایل را ندارد؟",
+        "selected": "Calculator",
+        "correct": "Calculator"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Sort A To Z",
+        "correct": "Sort A To Z"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Read Mode",
+        "correct": "Outline"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "کدام یک جزء اجزای داخلی CPU نیست؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای باز کردن کتابچه آدرس کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tools/Address Book",
+        "correct": "Tools/Address Book"
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F9",
+        "correct": "F11"
+      },
+      {
+        "question": "Favorites چه کاربردی دارد؟",
+        "selected": "فعال سازی لیست سایت های مورد علاقه",
+        "correct": "فعال سازی لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      }
+    ],
+    "date": "2026-08-23T10:37:31.412Z"
   }
 ]
