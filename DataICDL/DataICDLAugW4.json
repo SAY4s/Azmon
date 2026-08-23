@@ -2754,5 +2754,217 @@
       }
     ],
     "date": "2026-08-23T14:16:52.908Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Page Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "در کدام نما، همزمان با اینکه داده ها در گزارش نمایش داده می شوند می توانیم گزارش را قالب بندی کنیم؟",
+        "selected": "Print Preview",
+        "correct": "Layout View"
+      },
+      {
+        "question": "از گزینه Count Number جهت محاسبه .............. استفاده می شود.",
+        "selected": "شمارش تعداد اعداد",
+        "correct": "شمارش تعداد اعداد"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "برای اینکه تصویر پشت متن قرار گیرد کدام گزینه از بخش Wrap Text انتخاب می شود؟",
+        "selected": "Behind Text",
+        "correct": "Behind Text"
+      },
+      {
+        "question": "جهت مرتب نمودن داده های جدول گزینه Sort را از تب ............ انتخاب می کنیم.",
+        "selected": "Database Tools",
+        "correct": "Home"
+      },
+      {
+        "question": "چنانچه تقسیم بر صفر انجام شود، کدام پیغام خطا ظاهر می شود؟",
+        "selected": "#DIV/0!",
+        "correct": "#DIV/0!"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K$6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "برای اینکه اعلام کنیم که اعداد بزرگتر از 50 برای یک فیلد در نظر گرفته شوند، شرط را برای کدام خاصیت از فیلد باید اعلام نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": "ویرایش جدول در سند",
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی Home",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ...................... است.",
+        "selected": "حجم",
+        "correct": "حجم"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "برای ایجاد متن به سبک خاص و کوتاه از گزینه........................ استفاده می نماییم.",
+        "selected": "Text Box",
+        "correct": "Word Art"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "برای حذف دائم یک فایل به طوری که در سطل بازیافت قرار نگیرد از کدام کلید همراه دکمه Delete استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "فایل (File) به چه معنا است؟",
+        "selected": "به همه اطلاعات موجود در رایانه می گویند",
+        "correct": "به همه اطلاعات موجود در رایانه می گویند"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "اعداد قسمت ماشین حساب را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "برای خطایابی املایی و گرامری از سربرگ ........................ گزینه ............................... را انتخاب می کنیم.",
+        "selected": "Review > Spelling & Grammar",
+        "correct": "Review > Spelling & Grammar"
+      },
+      {
+        "question": "با استفاده از کدام دکمه در کادر Find and Replace می توانید تمام کلمات انتخاب شده را جایگزین کنید؟",
+        "selected": "Replace All",
+        "correct": "Replace All"
+      },
+      {
+        "question": "از این ابزار به منظور نمایش اسلایدها از اسلاید جاری استفاده می شود.",
+        "selected": "From Current Slide",
+        "correct": "From Current Slide"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Wizard",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "برای تعیین چاپگر به عنوان چاپگر پیش فرض گزینه ...... را انتخاب می کنیم.",
+        "selected": "Set as default printer",
+        "correct": "Set as default printer"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "View",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "در نرم افزار Notepad برای تنظیمات کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Page setup",
+        "correct": "Page setup"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با تغییر سلول های مبدا سلول های مقصد تغییر کند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "Control Panel / Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Decimal Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Cells",
+        "correct": "Split Cells"
+      }
+    ],
+    "date": "2026-08-23T14:20:07.859Z"
   }
 ]
