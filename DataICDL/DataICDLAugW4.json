@@ -4238,5 +4238,217 @@
       }
     ],
     "date": "2026-08-23T17:58:34.168Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "منظور از (Screen Saver) چیست؟",
+        "selected": "محافظ صفحه نمایش",
+        "correct": "محافظ صفحه نمایش"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده تصویر، یک نگه دارنده عنوان و یک نگه دارنده متن است.",
+        "selected": "Picture With Caption",
+        "correct": "Picture With Caption"
+      },
+      {
+        "question": "برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "در هنگام درج خانه، برای اینکه خانه انتخاب شده به پایین حرکت کند و خانه جدید جای آن را بگیرد کدام مورد را از کادر محاوره ای Insert باید انتخاب نمود؟",
+        "selected": "Shift Cells Down",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Mailings"
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Stretch",
+        "correct": "Stretch"
+      },
+      {
+        "question": "کدام گزینه یک نوع داده در محیط اکسس محسوب نمی شود؟",
+        "selected": "Form",
+        "correct": "Form"
+      },
+      {
+        "question": "پسوند فایل های اکسل 2013 کدام است؟",
+        "selected": "xlsx",
+        "correct": "xlsx"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "گزینه Eraser از گروه Draw چه کاربردی دارد؟",
+        "selected": "حذف قسمت مورد نظر جدول",
+        "correct": "حذف قسمت مورد نظر جدول"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "$",
+        "correct": "$"
+      },
+      {
+        "question": "هر فایل ارائه مطلب حداقل ....... اسلاید دارد.",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Text Effects",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "کلیک بر روی نوار ابزار Create Mail",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "ابزار ایجاد فهرست در Word کدام است؟",
+        "selected": "Number List",
+        "correct": "Table Of Contents"
+      },
+      {
+        "question": "با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟",
+        "selected": "Share",
+        "correct": "Share"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد",
+        "correct": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "پنجره File New Database باز می شود تا نام بانک اطلاعات جدید را وارد کنیم",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "در صورتی که بخواهیم اسلایدهای فایل ارائه مطلب همراه با نکات آن چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Note Pages",
+        "correct": "Note Pages"
+      },
+      {
+        "question": "جهت مشاهده مجدد صفحات وب ویزیت شده در هفته پیش از چه دکمه ای استفاده می کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Wait",
+        "correct": "Wait"
+      },
+      {
+        "question": "معاونی و سازمان دهی اطلاعات در چند سطر که در مورد یک موجودیت می باشد را .............. گویند؟",
+        "selected": "فیلد",
+        "correct": "جدول"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "پلاتر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home گروه Slides به منظور بازنشانی تمام تنظیمات یک اسلاید استفاده می شود؟",
+        "selected": "Reset",
+        "correct": "Reset"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Clear Formatting",
+        "correct": "Clear Formatting"
+      }
+    ],
+    "date": "2026-08-23T20:48:34.271Z"
   }
 ]
