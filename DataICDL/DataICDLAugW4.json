@@ -1906,5 +1906,217 @@
       }
     ],
     "date": "2026-08-23T07:34:58.627Z"
+  },
+  {
+    "name": "همایون",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Tables",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~S * T",
+        "correct": "~S * T"
+      },
+      {
+        "question": "برای ارسال رونوشت یک نامه به فرستنده دیگر به طوری که گیرنده اصلی از موضوع نامه مطلع شود، آدرس آن را در کدام قسمت وارد می کنید؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "برای ایجاد گزارش از کدام گزینه استفاده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Flip 3D",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Fit To Window",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "کدام نمودار زیر از نوع دایره ای می باشد؟",
+        "selected": "Bundle",
+        "correct": "Pie"
+      },
+      {
+        "question": "جهت محافظت کاربرگ ابتدا راست کلیک سپس کدام فرمان را انتخاب می نماییم؟",
+        "selected": "Protect Sheet",
+        "correct": "Protect Sheet"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "کانال انتقال - Server",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار ابزار (Standard)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "8 بایت",
+        "correct": "یک بیت"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده تصویر، یک نگه دارنده عنوان و یک نگه دارنده متن است.",
+        "selected": "Content and Caption",
+        "correct": "Picture With Caption"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Bold",
+        "correct": "Italic"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Explorer Bar",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "برای انتخاب یک محدوده مشخص می توان............؟",
+        "selected": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم",
+        "correct": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "قرینه - کپی",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "هویت یک فایل از ....................... شناسائی می گردد.",
+        "selected": "پسوند فایل",
+        "correct": "پسوند فایل"
+      },
+      {
+        "question": "در کدام نما، همزمان با اینکه داده ها در گزارش نمایش داده می شوند می توانیم گزارش را قالب بندی کنیم؟",
+        "selected": "Print Preview",
+        "correct": "Layout View"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide layout",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "Gateways",
+        "correct": "Gateways"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "برای ارسال رونوشت نامه به فرد دیگر به صورتی که فرد گیرنده اصلی از آن باخبر باشد، آن را در کدام کادر می نویسیم؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "Cpu مخفف چه کلماتی است؟",
+        "selected": "Central Processing Unit",
+        "correct": "Central Processing Unit"
+      },
+      {
+        "question": "برای تایپ حروف بزرگ لاتین باید دکمه...................... را فعال نمود.",
+        "selected": "Caps Lock",
+        "correct": "Caps Lock"
+      },
+      {
+        "question": "پس از درج جدول توسط کدام ابزار می توان مدل خطوط را تغییر داد؟",
+        "selected": "Table Style",
+        "correct": "Pen Style"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "برای سایت های تجاری الزامی است",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "کدام نما برای ایجاد و طراحی اسلایدها استفاده می شود؟",
+        "selected": "Slide Sorter",
+        "correct": "Normal"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Layout",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "بانک اطلاعات چیست؟",
+        "selected": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند",
+        "correct": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "کامپیوترهای شخصی از کدام نوع کامپیوترها هستند؟",
+        "selected": "Mini Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "AERO",
+        "correct": "AERO"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      }
+    ],
+    "date": "2026-08-23T09:05:58.518Z"
   }
 ]
