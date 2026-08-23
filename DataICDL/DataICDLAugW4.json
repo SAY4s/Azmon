@@ -3814,5 +3814,217 @@
       }
     ],
     "date": "2026-08-23T17:00:04.945Z"
+  },
+  {
+    "name": "هستی یوسفی",
+    "exam": "icdl",
+    "score": 18,
+    "total": 40,
+    "percent": 45,
+    "wrong": 22,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در نرم افزار Notepad برای تنظیمات کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Print preview",
+        "correct": "Page setup"
+      },
+      {
+        "question": "برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.",
+        "selected": "Page Number-Design",
+        "correct": "Page Number-Insert"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "جدول از مجموعه ای از رکورد ساخته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ home گزینه relationships",
+        "correct": "سربرگ create گزینه form"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find What",
+        "correct": "Find Next"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Man",
+        "correct": "Lan"
+      },
+      {
+        "question": "برای ایجاد یک لیست علامت گذاری شده از کدام ابزار گروه Paragraph استفاده می شود؟",
+        "selected": "Numbering",
+        "correct": "Bullets"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "به نمادهای تصویری در ویندوز، ...................... می گویند.",
+        "selected": "Icon",
+        "correct": "Icon"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "اصلی ترین نرم افزار در کامپیوتر ..................... است.",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Layout",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": "از Cell Style بر روی Add کلیک می کنیم",
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "اکسل",
+        "correct": "C#"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Insert \\ Sort",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Txt File",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Column",
+        "correct": "Pie"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Table, Database",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "برای تغییر زبان انگلیسی به فارسی و برعکس از ترکیب چه کلیدهایی استفاده می شود؟",
+        "selected": "Alt+Shift",
+        "correct": "Alt+Shift"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Excel Spreadsheet",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F4",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Find",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "Decimal Place برای کدام نوع داده قابل دسترسی بوده است؟",
+        "selected": "عددی",
+        "correct": "عددی"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟",
+        "selected": "Database",
+        "correct": "Report"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "از ابزار Word Art به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن گرافیکی",
+        "correct": "ایجاد متن گرافیکی"
+      },
+      {
+        "question": "برنامه های کوچکی که به یک برنامه اجرایی حمله کرده و اجرای آن را مختل می کنند چه نامیده می شود؟",
+        "selected": "Virus",
+        "correct": "Virus"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "New Slide",
+        "correct": "Section"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Currency",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "Https",
+        "correct": "URL"
+      },
+      {
+        "question": "با استفاده از کدام تب از کادر محاوره ای Format Cell می توان خطوط کادر خانه ها را تنظیم نمود؟",
+        "selected": "Border",
+        "correct": "Border"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی View",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Organization Chart",
+        "correct": "Smart Art"
+      }
+    ],
+    "date": "2026-08-23T17:03:13.688Z"
   }
 ]
