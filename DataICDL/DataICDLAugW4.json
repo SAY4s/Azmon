@@ -1694,5 +1694,217 @@
       }
     ],
     "date": "2026-08-23T07:57:24.578Z"
+  },
+  {
+    "name": "همایونی",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 18,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F10",
+        "correct": "F11"
+      },
+      {
+        "question": "ستون ها در جدول نرم افزار Word چه نامیده می شوند؟",
+        "selected": "Rows",
+        "correct": "Columns"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "LAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+End",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "مفهوم گزینه Wrap Text چیست؟",
+        "selected": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند",
+        "correct": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~S * T",
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "یک قانون اعتبار (Validation Rule)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": "Remove",
+        "correct": "Remove"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "Https",
+        "correct": "URL"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخابی را روی همه اسلایدها اعمال کنیم با راست کلیک بر روی تم مورد نظر کدام گزینه مناسب است؟",
+        "selected": "Apply to All Slides",
+        "correct": "Apply to All Slides"
+      },
+      {
+        "question": "برای اینکه طرح زمینه انتخاب شده در مرکز صفحه مانیتور باشد باید ............. انتخاب نماییم.",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Column",
+        "correct": "Row"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "کدام گزینه نادرست می باشد؟",
+        "selected": "قطاع: هر دایره روی دیسک از چند قطاع تشکیل می شود",
+        "correct": "قطاع: دایره های هم مرکز با شعاع برابر"
+      },
+      {
+        "question": "برای مرتب سازی صعودی از کدام گزینه استفاده می شود؟",
+        "selected": "Date Modified",
+        "correct": "Ascending"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footer",
+        "correct": "Footnote"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟",
+        "selected": "زبانه Page Layout دستور Cover Page",
+        "correct": "زبانه Insert گروه Pages دستور Page Cover"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Home",
+        "correct": "Create"
+      },
+      {
+        "question": "دوبار کلیک بر روی آیکن برنامه باعث ................ می شود.",
+        "selected": "اجرای برنامه",
+        "correct": "اجرای برنامه"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Decimal Places"
+      },
+      {
+        "question": "برای درج متن از چه روشی استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "اندازه داده نوع متنی چقدر می باشد؟",
+        "selected": "محدودیتی ندارد",
+        "correct": "255 بایت"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Start",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Socket",
+        "correct": "Bus"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Reading View"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی و تاریخی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "کدام یک از گزینه زیر تعریف کامپیوتر است؟",
+        "selected": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد",
+        "correct": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard and Mouse",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "داده هایی که از دستگاه ورودی به کامپیوتر می دهیم",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      }
+    ],
+    "date": "2026-08-23T07:34:58.627Z"
   }
 ]
