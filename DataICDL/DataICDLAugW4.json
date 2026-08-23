@@ -2330,5 +2330,217 @@
       }
     ],
     "date": "2026-08-23T10:37:31.412Z"
+  },
+  {
+    "name": "۱",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در Windows کدام نرم افزار قابلیت ایجاد فایل را ندارد؟",
+        "selected": "Calculator",
+        "correct": "Calculator"
+      },
+      {
+        "question": "کدام گزینه در مورد فشرده سازی صحیح است؟",
+        "selected": "روشی برای کاهش حجم فایل",
+        "correct": "روشی برای کاهش حجم فایل"
+      },
+      {
+        "question": "این تعریف مربوط به کدام گزینه زیر می باشد؟ (کلیه برنامه ها و دستورالعمل هایی که باعث عملکرد سیستم می شود)",
+        "selected": "نرم افزار Software",
+        "correct": "نرم افزار Software"
+      },
+      {
+        "question": "پس از ورود داده در سلول B1 و فشار کلید Enter کدام سلول به طور پیش فرض فعال خواهد شد؟",
+        "selected": "سلول C1",
+        "correct": "سلول B2"
+      },
+      {
+        "question": "غلطک وسط موس برای چه منظوری است؟",
+        "selected": "مرور محتویات پنجره ها",
+        "correct": "مرور محتویات پنجره ها"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": "یک نرم افزار واژه پرداز است",
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "برای اضافه نمودن عنوان به نمودار از کدام گزینه استفاده می نماییم؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار پیمایش",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard and Mouse",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Replace With",
+        "correct": "Replace With"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Current Page",
+        "correct": "Current Page"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+Shift+=",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "مستندسازی",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "ریبون",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": "Home - Find",
+        "correct": "Query"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Shift+Ctrl+Alt",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای نرمال دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "در ترسیم نمودار مفهوم گزینه Data Labels چیست؟",
+        "selected": "نمایش جدول داده ها در نمودار",
+        "correct": "نمایش اسامی داده ها"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "*",
+        "correct": "!"
+      },
+      {
+        "question": "جهت ایجاد مقدار پیش فرض فیلدها از کدام گزینه استفاده می گردد؟",
+        "selected": "Default Value",
+        "correct": "Default Value"
+      },
+      {
+        "question": "جهت چاپ چند اسلاید به صورت کوچک در یک کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Outline",
+        "correct": "Handouts"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از Design View",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "کدام گزینه برای تنظیم شروع شماره صفحات از عدد خاصی است؟",
+        "selected": "Start at",
+        "correct": "Start at"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Toggle Case",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": "Page Header",
+        "correct": "Page Header"
+      },
+      {
+        "question": "برای اینکه استایل های تعریف شده از Work Book باز را در Work Book جاری استفاده کنیم بر روی چه گزینه ای کلیک کنیم؟",
+        "selected": "Modify",
+        "correct": "Merge Style"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Layout View",
+        "correct": "Report View"
+      },
+      {
+        "question": "آسان ترین شیوه برای ایجاد یک سند در Word استفاده از کلیدهای ترکیبی ............... است.",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      }
+    ],
+    "date": "2026-08-23T13:44:28.997Z"
   }
 ]
