@@ -4450,5 +4450,217 @@
       }
     ],
     "date": "2026-08-23T20:48:34.271Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای نوشتن توان یک عدد از چه گزینه ای استفاده می کنیم؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "View",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": "Open",
+        "correct": "New"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "دستور Select Row از گروه Select چه کاری انجام می دهد؟",
+        "selected": "سطر جدول را انتخاب می کند",
+        "correct": "سطر جدول را انتخاب می کند"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "برای حذف سوابق صفحات ویزیت شده از کدام دکمه استفاده می کنیم؟",
+        "selected": "Clear History",
+        "correct": "Clear History"
+      },
+      {
+        "question": "خط آبی در زیر کلمات چه معنایی دارد؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "برای جابجایی پنجره در میزکار از گزینه ...... از منوی کنترل پنجره استفاده می نماییم.",
+        "selected": "Move",
+        "correct": "Move"
+      },
+      {
+        "question": "بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "در تنظیمات پاراگراف، تورفتگی ابتدای آن را از کدام بخش انجام می دهیم؟",
+        "selected": "Indentation",
+        "correct": "Indentation"
+      },
+      {
+        "question": "برنامه Excel زیر مجموعه کدام یک از انواع برنامه هاست؟",
+        "selected": "برنامه های صفحه گسترده",
+        "correct": "برنامه های صفحه گسترده"
+      },
+      {
+        "question": "در هنگام طراحی فرم با Form Wizard کلیک بر روی کدام دکمه باعث انتقال تمام فیلدها از لیست Available Selected Fields می شود؟",
+        "selected": "<<",
+        "correct": "<<"
+      },
+      {
+        "question": "دسترسی به اطلاعات از طریق کدام روش سریع تر است؟",
+        "selected": "بستگی به نوع حافظه دارد",
+        "correct": "مستقیم"
+      },
+      {
+        "question": "چنانچه گزارش ما بیش از یک صفحه بوده و بخواهیم یک عبارت ثابت را فقط در ابتدای اولین صفحه از گزارش ببینیم، آن عبارت را می بایستی در کدام بخش قرار داد؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Descending",
+        "correct": "Descending"
+      },
+      {
+        "question": "کدام یک از کارت های زیر مربوط به کیفیت تصویر می باشد؟",
+        "selected": "VGA",
+        "correct": "VGA"
+      },
+      {
+        "question": "اگر آدرس یک پست الکترونیک را اشتباه بنویسیم چه اتفاقی می افتد؟",
+        "selected": "نامه با پیام مناسب برگشت داده می شود",
+        "correct": "نامه با پیام مناسب برگشت داده می شود"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      },
+      {
+        "question": "پسوند فایل های پشتیبان چیست؟",
+        "selected": "bkf",
+        "correct": "bkf"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پالتر",
+        "correct": "چاپگر - صفحه نمایش - پالتر"
+      },
+      {
+        "question": "برای قرار دادن خط بین ستون ها کدام گزینه از کادر محاوره ای Columns را انتخاب می کنیم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Create-----Form-------Form Wizard",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Bit",
+        "correct": "Bit"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Sheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "C#",
+        "correct": "C#"
+      },
+      {
+        "question": "برای تنظیم حاشیه های سند از کدام دکمه استفاده می شود؟",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "با انتخاب کدام گزینه از پنجره Find در نرم افزار Word Pad می توان در هنگام جستجو بین حروف بزرگ و کوچک تفاوت قائل شد؟",
+        "selected": "Case Sensitive",
+        "correct": "Case Sensitive"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      }
+    ],
+    "date": "2026-08-23T20:52:58.477Z"
   }
 ]
