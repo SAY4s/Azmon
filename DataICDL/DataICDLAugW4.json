@@ -5722,5 +5722,217 @@
       }
     ],
     "date": "2026-08-24T12:40:16.476Z"
+  },
+  {
+    "name": "۱",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Queries",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "برای مرتب کردن آیکن های میز کار بر اساس نوع، از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Item Type",
+        "correct": "Item Type"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد",
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای ذخیره سازی دائم اطلاعات مناسب است؟",
+        "selected": "حافظه ثانویه",
+        "correct": "حافظه ثانویه"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "18",
+        "correct": "18"
+      },
+      {
+        "question": "برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.",
+        "selected": "Options",
+        "correct": "Options"
+      },
+      {
+        "question": "از نظر امنیتی باز کردن چه ایمیل هایی می تواند خطرناک باشد؟",
+        "selected": "ایمیل هایی که موضوعات جالب دارند ولی فرستنده برای ما ناشناس است",
+        "correct": "ایمیل هایی که موضوعات جالب دارند ولی فرستنده برای ما ناشناس است"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Windows Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی Home",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "برای اعمال پس زمینه بر روی تمامی اسلاید از کدام گزینه استفاده می کنیم؟",
+        "selected": "Apply To All",
+        "correct": "Apply To All"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "کلید میانبر فرمان paste چیست؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+V"
+      },
+      {
+        "question": "برای برقراری ارتباط با اینترنت خط تلفن به کدام قسمت کامپیوتر متصل می شود؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت های ارائه خدمات اینترنت",
+        "correct": "شرکت های ارائه خدمات اینترنت"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F11",
+        "correct": "F11"
+      },
+      {
+        "question": "برای انتخاب کل جدول کدام یک از دستورات Select را انتخاب می کنید؟",
+        "selected": "Select Table",
+        "correct": "Select Table"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Left Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Borders",
+        "correct": "Borders"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "پیش فرض برنامه ی مرورگر وب، در سیستم عامل ویندوز، ........ می باشد.",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "از ابزار Slide Number به چه منظور استفاده می شود؟",
+        "selected": "درج شماره اسلاید",
+        "correct": "درج شماره اسلاید"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "کدام نمودار زیر از نوع دایره ای می باشد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "پوشه Outbox شامل ........... است.",
+        "selected": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است",
+        "correct": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر محل ذخیره موقت اطلاعات است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "برای ذخیره آدرس و مشخصات افراد از …… استفاده می شود؟",
+        "selected": "Address Book",
+        "correct": "Address Book"
+      },
+      {
+        "question": "با تغییر نوع نمودار در یک اسلاید کدام گزینه از منوی مربوط به نمودار باید انتخاب شود؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Alt+F",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      }
+    ],
+    "date": "2026-08-24T15:24:20.776Z"
   }
 ]
