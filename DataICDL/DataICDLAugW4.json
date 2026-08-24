@@ -5086,5 +5086,217 @@
       }
     ],
     "date": "2026-08-24T05:40:39.045Z"
+  },
+  {
+    "name": "سوری",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Presentation",
+        "correct": "Presentation"
+      },
+      {
+        "question": "در صورتی که بخواهیم رنگ پس زمینه با ترکیب دو رنگ متفاوت باشد گزینه ....... را در پنجره ی Format Background فعال می کنیم؟",
+        "selected": "Gradient Fill",
+        "correct": "Gradient Fill"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "بالاترین نوار در نرم افزار نوار ........ است که مشخصات و نوع فایل را نشان می دهد.",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "جهت نوشته با کدام دستور تغییر می کند؟",
+        "selected": "Indentation",
+        "correct": "Direction"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Filter By Selection",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای برگشتن به صفحه قبلی ملاحظه شده بر روی کدام دکمه باید کلیک کرد؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Data گزینه Delete columns",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "برای تعیین کلید اولیه در هنگام طراحی بانک اطلاعاتی پس از انتخاب فیلد مورد نظر بر روی کدام دکمه از نوار ابزار باید کلیک نمود؟",
+        "selected": "Build",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "ایجاد یک کپی از کاربرگ",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "............... برنامه های کوچکی هستند که عملا به برنامه اجرایی و یا نواحی سیستمی دیسک متصل شده و بر روی آنها اثرات نامطلوب می گذارند.",
+        "selected": "ویروس ها",
+        "correct": "ویروس ها"
+      },
+      {
+        "question": "کدام گزینه برای درج تصویر به کار می رود؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "در نمای Outline با فشردن کدام کلید بر روی عناوین اسلاید، اسلایدی جدید ایجاد می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "موتور جستجویی که واژه مورد جستجوی شما را در چند موتور جستجو قرار می دهد و نتایج جستجوی آنها را برای شما لیست می کنند چه نامیده می شوند؟",
+        "selected": "Search Dictionary",
+        "correct": "Meta Search Engines"
+      },
+      {
+        "question": "برای اینکه استایل های تعریف شده از Work Book باز را در Work Book جاری استفاده کنیم بر روی چه گزینه ای کلیک کنیم؟",
+        "selected": "Modify",
+        "correct": "Merge Style"
+      },
+      {
+        "question": "برای مرتب نمودن آیکن های پنجره بر اساس نوع فایل ها از کدام گزینه استفاده می شود؟",
+        "selected": "Type",
+        "correct": "Type"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های انتخاب شده",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "توسط کدامیک از روش های زیر می توان به پنجره Control Panel دسترسی پیدا کرد؟",
+        "selected": "Start Menu",
+        "correct": "Start Menu"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز بالایی آن را به طرف بالا درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Queries",
+        "correct": "Macro"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت ندارد",
+        "correct": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد"
+      },
+      {
+        "question": "پسوند سایت های مربوط به موسسات دولتی کدام است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Scrollbars",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "در محیط برنامه های کاربردی ویندوز چگونه می توانیم مطالب را درون یک فایل ذخیره سازیم؟",
+        "selected": "File / Save",
+        "correct": "File / Save"
+      },
+      {
+        "question": "کدام تابع زیر برای محاسبه میانگین بکار می رود؟",
+        "selected": "AVERAGE",
+        "correct": "AVERAGE"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": "DBL",
+        "correct": "Data Base"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "نرم افزارهایی که مدیریت سخت افزار را به عهده دارند چه می نامند؟",
+        "selected": "سیستمی",
+        "correct": "سیستمی"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Insert",
+        "correct": "Home"
+      }
+    ],
+    "date": "2026-08-24T06:17:56.895Z"
   }
 ]
