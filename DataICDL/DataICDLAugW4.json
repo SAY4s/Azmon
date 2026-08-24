@@ -4662,5 +4662,217 @@
       }
     ],
     "date": "2026-08-23T20:52:58.477Z"
+  },
+  {
+    "name": "امیرحسین سهرابی",
+    "exam": "icdl",
+    "score": 35,
+    "total": 40,
+    "percent": 88,
+    "wrong": 5,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ...................... است.",
+        "selected": "حجم",
+        "correct": "حجم"
+      },
+      {
+        "question": "بهترین راه برای جلوگیری از سرایت ویروس به سیستم کامپیوتری چیست؟",
+        "selected": "داشتن یک ویروس یاب که توانایی به روز شدن را داشته باشد",
+        "correct": "داشتن یک ویروس یاب که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "کدام نوع داده زیر برای متن های طولانی استفاده می شود؟",
+        "selected": "long text",
+        "correct": "long text"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Shortcut key",
+        "correct": "Shortcut key"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "پسوند Mp3، جزء پسوندهای ................... است.",
+        "selected": "صوتی",
+        "correct": "صوتی"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide",
+        "correct": "Next Slide"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Bit",
+        "correct": "Bit"
+      },
+      {
+        "question": "از ابزار Date and Time به چه منظور استفاده می شود؟",
+        "selected": "درج تاریخ و زمان",
+        "correct": "درج تاریخ و زمان"
+      },
+      {
+        "question": "برای چاپ فایل ها از .............. استفاده می کنیم.",
+        "selected": "File / Print",
+        "correct": "File / Print"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ database tools گزینه relationships",
+        "correct": "سربرگ create گزینه form"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "کدامیک از موارد زیر یک سیستم عامل محسوب می شوند؟",
+        "selected": "Windows 10",
+        "correct": "Windows 10"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "کاربرها برای راحتی کار یا کاربرانی که حرفه ای نیستند برای ایجاد فرم، گزارش و .............. بهتر است از کدام روش استفاده نمایند؟",
+        "selected": "Create-Form",
+        "correct": "Wizard"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      },
+      {
+        "question": "در کادر Format Cell از تب Alignment گزینه Shrink To Fit چه عملی انجام می دهد؟",
+        "selected": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد",
+        "correct": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد"
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "دسترسی به اطلاعات از طریق کدام روش سریع تر است؟",
+        "selected": "مستقیم",
+        "correct": "مستقیم"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Gradient",
+        "correct": "Gradient"
+      },
+      {
+        "question": "به نحوه قرار گرفتن محتوای اسلایدها ....... می گویند.",
+        "selected": "Slide Layout",
+        "correct": "Slide Layout"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": "Caption",
+        "correct": "Caption"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Action Buttons",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Columns",
+        "correct": "Distribute Columns"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "After Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "سلول هایی که به صورت افقی در جدول قرار دارند چه نامیده می شوند؟",
+        "selected": "Rows",
+        "correct": "Rows"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Custom Print",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "وضوح صفحه نمایش (Screen Resolution) چیست؟",
+        "selected": "شفافیت صفحه نمایش",
+        "correct": "میزان تراکم پیکسل های صفحه نمایش"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": "Remove",
+        "correct": "Remove"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "کوچکترین عنصر صفحه نمایش چه نام دارد؟",
+        "selected": "Pixel",
+        "correct": "Pixel"
+      }
+    ],
+    "date": "2026-08-24T05:35:48.654Z"
   }
 ]
