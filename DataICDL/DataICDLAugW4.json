@@ -5510,5 +5510,217 @@
       }
     ],
     "date": "2026-08-24T07:23:43.761Z"
+  },
+  {
+    "name": "۱",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "کدام گزینه، روش ایجاد فرم به صورت دستی است؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از نوار ابزار Table & Border",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "با استفاده از گزینه ............. می توانیم تعیین کنیم متن از حاشیه سلول چقدر فاصله داشته باشد.",
+        "selected": "Cell Margins",
+        "correct": "Cell Margins"
+      },
+      {
+        "question": "IT به معنای چیست؟",
+        "selected": "فناوری اطلاعات",
+        "correct": "فناوری اطلاعات"
+      },
+      {
+        "question": "کدام نوع داده زیر برای متن های طولانی استفاده می شود؟",
+        "selected": "long text",
+        "correct": "long text"
+      },
+      {
+        "question": "از کدام گزینه برای توپر شدن متن استفاده می شود؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "شیرازه یعنی چه؟",
+        "selected": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی",
+        "correct": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم",
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان سبک جدید و سفارشی ایجاد نمود؟",
+        "selected": "Create A New Style",
+        "correct": "Create A New Style"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر محل ذخیره موقت اطلاعات است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Outline",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Uppercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "دایره بالای شکل",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Text Size",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "کدام کلید مکان نما را به اولین فیلد رکورد جاری منتقل می کند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Criteria",
+        "correct": "Show"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "AERO",
+        "correct": "AERO"
+      },
+      {
+        "question": "کدام گزینه برای ایجاد اسلاید در پاورپوینت صحیح است؟",
+        "selected": "New Slide",
+        "correct": "New Slide"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "پس از ورود داده در سلول B1 و فشار کلید Enter کدام سلول به طور پیش فرض فعال خواهد شد؟",
+        "selected": "سلول B2",
+        "correct": "سلول B2"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Design",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب وسط",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی All Program",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Insert - Formulas",
+        "correct": "Formulas - Function"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": "Object In",
+        "correct": "Object In"
+      },
+      {
+        "question": "جهت ایجاد ترازبندی از طرفین، از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "نوع داده متنی با طول زیاد کدام یک از گزینه های زیر می باشد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "!",
+        "correct": "!"
+      }
+    ],
+    "date": "2026-08-24T12:40:16.476Z"
   }
 ]
