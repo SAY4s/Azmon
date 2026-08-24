@@ -5934,5 +5934,217 @@
       }
     ],
     "date": "2026-08-24T15:24:20.776Z"
+  },
+  {
+    "name": "۱",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F3",
+        "correct": "F1"
+      },
+      {
+        "question": "Cpu از چه قسمت هایی تشکیل شده است؟",
+        "selected": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان",
+        "correct": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "LAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب وسط",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "برای نوشتن توان یک عدد از چه گزینه ای استفاده می کنیم؟",
+        "selected": "Strikethrough",
+        "correct": "Superscript"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Outline",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام یک از ابزارها در گروه Master View برای تعیین نمای ظاهری نکات ارائه دهنده ی اسلایدهای فایل ارائه مطلب مورد استفاده قرار می گیرد؟",
+        "selected": "Slide Master",
+        "correct": "Note Master"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "سرعت پردازش و ظرفیت ذخیره سازی اطلاعات در کدام نوع از کامپیوترهای زیر بیشتر است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "جهت نمایش درایوها و پوشه ها با جزئیات از کدام گزینه استفاده می نماییم؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی دکمه New کلیک می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "برای تصحیح خطاهای املایی از کدام ابزار استفاده می گردد؟",
+        "selected": "Spelling & Grammar",
+        "correct": "Spelling & Grammar"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Read Only",
+        "correct": "Read Only"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "کدامیک از موارد زیر از توانایی های برنامه های صفحه گسترده نمی باشد؟",
+        "selected": "تولید یک برنامه اجرایی مستقل کامپیوتری",
+        "correct": "تولید یک برنامه اجرایی مستقل کامپیوتری"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.",
+        "selected": "Free Space",
+        "correct": "Free Space"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "اطلاعات کدام یک از حافظه های زیر در نبود برق از بین می رود؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Media",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر به معنی شبکه می باشد؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Design View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر به امور سلامتی هنگام کار با کامپیوتر مربوط نیست؟",
+        "selected": "ذخیره کردن مرتب کار",
+        "correct": "ذخیره کردن مرتب کار"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدام گزینه از کادر Format Cell موجب پر شدن یک سلول با خطوط هاشور می شود؟",
+        "selected": "Pattern",
+        "correct": "Pattern"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F7",
+        "correct": "F1"
+      },
+      {
+        "question": "در Windows کدام نرم افزار قابلیت ایجاد فایل را ندارد؟",
+        "selected": "Calculator",
+        "correct": "Calculator"
+      },
+      {
+        "question": "کاربرد دستور Page Break در گروه Pages چیست؟",
+        "selected": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند",
+        "correct": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "برای کم کردن فاصله پاراگراف از حاشیه باید چه دستوری را اجرا کنیم؟",
+        "selected": "Left Indention",
+        "correct": "Decrease Indent"
+      }
+    ],
+    "date": "2026-08-24T16:44:46.445Z"
   }
 ]
