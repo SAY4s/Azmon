@@ -8478,5 +8478,217 @@
       }
     ],
     "date": "2026-08-27T09:04:24.972Z"
+  },
+  {
+    "name": "سوری",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تعیین نوع داده ها از چه گزینه ای استفاده می شود؟",
+        "selected": "Data Type",
+        "correct": "Data Type"
+      },
+      {
+        "question": "جهت چاپ صفحات خاصی از فرم یا گزارش در پنجره Print و در قسمت Print Range کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Page From … To …",
+        "correct": "Page From … To …"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "کدام یک از موارد زیر سیستم عامل محسوب نمی شود؟",
+        "selected": "Word",
+        "correct": "Word"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج کاراکترها و علائم ویژه",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "A1=A2+A3",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F11",
+        "correct": "F11"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "K$6$",
+        "correct": "$K$6"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "LAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": "پست الکترونیکی",
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "Apply Styles چه کاری انجام می دهد؟",
+        "selected": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم",
+        "correct": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "گزینه Eraser از گروه Draw چه کاربردی دارد؟",
+        "selected": "حذف قسمت مورد نظر جدول",
+        "correct": "حذف قسمت مورد نظر جدول"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با تغییر سلول های مبدا سلول های مقصد تغییر کند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "کدام یک از بخش های cpu واحد مناسب عملیات ریاضی و منطقی نامیده می شود؟",
+        "selected": "Alu",
+        "correct": "Alu"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "نام سرویس دهنده پست الکترونیک",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Insert",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze All Column",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Page Layout -> Page Border",
+        "correct": "Page Layout -> Page Border"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "برای بالانویسی کدام دکمه را به کار می بریم؟",
+        "selected": "Shadow",
+        "correct": "Superscript"
+      },
+      {
+        "question": "برای اندیس گذاری (زیرنویس) چه گزینه ای مناسب است؟",
+        "selected": "Subscript",
+        "correct": "Subscript"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط لغات مستقل در کادر جستجو پیدا شوند کدام گزینه را فعال می کنیم؟",
+        "selected": "Find Whole Words Only",
+        "correct": "Find Whole Words Only"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Find",
+        "correct": "Replace"
+      },
+      {
+        "question": "در ویندوز 7 برنامه های کوچکی که برای ارائه سریع و آسان اطلاعات مختلف در میزکار پیش بینی شده اند، ...... نامیده می شوند.",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Open Table",
+        "correct": "Tables"
+      },
+      {
+        "question": "موتور جستجویی که واژه مورد جستجوی شما را در چند موتور جستجو قرار می دهد و نتایج جستجوی آنها را برای شما لیست می کنند چه نامیده می شوند؟",
+        "selected": "Search Dictionary",
+        "correct": "Meta Search Engines"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "MAN",
+        "correct": "Format"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      }
+    ],
+    "date": "2026-08-27T12:11:51.499Z"
   }
 ]
