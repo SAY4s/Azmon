@@ -10174,5 +10174,217 @@
       }
     ],
     "date": "2026-08-28T11:14:50.693Z"
+  },
+  {
+    "name": "ارمیا کاظم پور",
+    "exam": "icdl",
+    "score": 18,
+    "total": 40,
+    "percent": 45,
+    "wrong": 22,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند کدام گزینه را انتخاب می کنید؟",
+        "selected": "آدرس آن را در قسمت To وارد می کنیم",
+        "correct": "آدرس آن را در قسمت BCC وارد می کنیم"
+      },
+      {
+        "question": "به شرکت سرویس دهنده خدمات اینترنت چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "From",
+        "correct": "CC"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Alt+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "پالتر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "هر صفحه کاری در یک فایل ذخیره می شود",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": "New Value",
+        "correct": "Caption"
+      },
+      {
+        "question": "برای اینکه طرح زمینه انتخاب شده در مرکز صفحه مانیتور باشد باید ............. انتخاب نماییم.",
+        "selected": "Stretch",
+        "correct": "Center"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Engrave",
+        "correct": "Shadow"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Number",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Line Numbers",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Alt+Shift",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "جهت چاپ صفحات خاصی از فرم یا گزارش در پنجره Print و در قسمت Print Range کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Page From … To …",
+        "correct": "Page From … To …"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "Hard Disk",
+        "correct": "RAM"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": "Receive",
+        "correct": "Create New Account"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": "Sentence Case",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "برنامه ها جهت اجرا در کدام واحد قرار می گیرند؟",
+        "selected": "حافظه کمکی ثانویه",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": "Podcast",
+        "correct": "RSS"
+      },
+      {
+        "question": "تفاوت دکمه های OK و Apply در چیست؟",
+        "selected": "OK تغییرات را ثبت کرده و پنجره را باز نگه می دارد ولی Apply تغییرات را ثبت و پنجره را می بندد",
+        "correct": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از گزینه................ استفاده می شود.",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "برای حذف ستون های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Columns",
+        "correct": "Delete Columns"
+      },
+      {
+        "question": "در چیدمان Slide ها از چیدمان ....... برای نگهداری عنوان و نگهداری متن استفاده می شود؟",
+        "selected": "Title Slide",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "در کدام نما می توان ترتیب اسلایدها را تغییر داد؟",
+        "selected": "Notes Page",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "شبکه",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ database tools گزینه relationships",
+        "correct": "سربرگ create گزینه form"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "جدول از مجموعه ای از رکورد ساخته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Auto Filter از تب Data",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "یک جدول جدید ایجاد می گردد",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Report",
+        "correct": "Database"
+      },
+      {
+        "question": "برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟",
+        "selected": "Duplicate کردن نوشته",
+        "correct": "استفاده از Format Painter"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Themes",
+        "correct": "Background Style"
+      }
+    ],
+    "date": "2026-08-28T14:49:01.138Z"
   }
 ]
