@@ -10598,5 +10598,217 @@
       }
     ],
     "date": "2026-08-29T08:12:47.251Z"
+  },
+  {
+    "name": "سوری",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "نام گیرنده فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Ctrl+Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "در قسمت Subject نامه چه می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "برای تنظیم فاصله بین خطوط از کدام گزینه استفاده می شود؟",
+        "selected": "Line Spacing",
+        "correct": "Line Spacing"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "255",
+        "correct": "255"
+      },
+      {
+        "question": "در برنامه های ویرایشگر متن برای ایجاد سطر خالی بین دو سطر نوشته شده چه باید کرد؟",
+        "selected": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم",
+        "correct": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم"
+      },
+      {
+        "question": "از کدام گزینه جهت افزودن اعشار استفاده می کنیم؟",
+        "selected": "Increase Decimal",
+        "correct": "Increase Decimal"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می شود؟",
+        "selected": "Insert \\ Picture",
+        "correct": "Insert \\ Picture"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای اینکه بخواهیم حرف اول کلمه هر جمله با حروف بزرگ لاتین نوشته شود، باید کدام گزینه را برگزینیم؟",
+        "selected": "Uppercase",
+        "correct": "Sentence Case"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": "Option>Advanced>Editing Option",
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "کوچکترین جزء اطلاعاتی در پایگاه داده چه گفته می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - Clients",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "کدامیک نشان دهنده آدرس نسبی است؟",
+        "selected": "$C$1",
+        "correct": "C1"
+      },
+      {
+        "question": "اگر در یک query برای فیلد تاریخ تولد عبارت 1360<= and <=1367 به کار رود در لیست نتیجه کدام مورد زیر ظاهر می شود؟",
+        "selected": "اطلاعات افرادی که تاریخ تولد آنها از 1367 کمتر و از 1360 بیشتر است (بین 1360 تا 1367)",
+        "correct": "اطلاعات افرادی که تولد آنها از 1360 تا 1367 است"
+      },
+      {
+        "question": "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیرقابل استفاده می شود، چه می گویند؟",
+        "selected": "Share ware",
+        "correct": "Share ware"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Indent To Right",
+        "correct": "Right"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "Between 1.1.2005 And 12.30.2006",
+        "correct": "No Value"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی System از منوی Accessories",
+        "correct": "All Program"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "کدام یک از شبکه های زیر معمولا برای اتصال دفاتر یک سازمان در یک شهر صورت می گیرد؟",
+        "selected": "Lan",
+        "correct": "Man"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Blank Presentation",
+        "correct": "Template"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Justify",
+        "correct": "Center"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "کلید F9",
+        "correct": "F5"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "Format",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Strikethrough",
+        "correct": "Bold"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Text Size",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "اطلاعات کدام یک از حافظه های زیر در نبود برق از بین می رود؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر با مقداردهی در کادر عددی آن موجب تاخیر در نمایش انیمیشن می شود؟",
+        "selected": "Delay",
+        "correct": "Delay"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save File As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "به هنگام تعریف داده های عددی کدام نوع جهت عددهای اعشاری مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "برای ایجاد یک پرس و جو کدام گزینه مورد استفاده قرار می گیرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر تکراری و مقادیر تهی (Null)",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      }
+    ],
+    "date": "2026-08-29T14:51:30.070Z"
   }
 ]
