@@ -11022,5 +11022,217 @@
       }
     ],
     "date": "2026-08-30T03:07:17.431Z"
+  },
+  {
+    "name": "ارشیا اسماعیلی",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 13,
+    "unanswered": 5,
+    "answers": [
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Table",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "به فرآیندی که فایلی را از اینترنت بر روی کامپیوتر خود قرار می دهیم چه می گویند؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Design, Layout",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "برای ایجاد یک پرس و جو کدام گزینه مورد استفاده قرار می گیرد؟",
+        "selected": "Report",
+        "correct": "Query"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Clear",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Toolbars",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.",
+        "selected": "Customize Word",
+        "correct": "Options"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": "Db",
+        "correct": "Db"
+      },
+      {
+        "question": "برای ارسال مجدد یک نامه الکترونیکی به سایر افراد از کدام گزینه استفاده می نماییم؟",
+        "selected": "Forward",
+        "correct": "Forward"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Mit",
+        "correct": "Edu"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Report",
+        "correct": "Tables"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند ......",
+        "selected": "آدرس آن را در قسمت cc وارد می کنیم",
+        "correct": "آدرس آن را در قسمت Bcc وارد می کنیم"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "End",
+        "correct": "Esc"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": "سرعت و کیفیت چاپ",
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "این تعریف مربوط به کدام گزینه زیر می باشد؟ (کلیه برنامه ها و دستورالعمل هایی که باعث عملکرد سیستم می شود)",
+        "selected": "ورودی Input",
+        "correct": "نرم افزار Software"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort By Name",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": null,
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "برای انتخاب خانه های غیرمجاور در Excel، از کلید .................. استفاده می کنیم.",
+        "selected": "Alt",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Upload",
+        "correct": "Download"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": null,
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "در کادر Format Cell از تب Alignment گزینه Shrink To Fit چه عملی انجام می دهد؟",
+        "selected": null,
+        "correct": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": null,
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": null,
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Worksheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Data \\ Sort",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "Cpu از چه قسمت هایی تشکیل شده است؟",
+        "selected": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان",
+        "correct": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان"
+      },
+      {
+        "question": "کدامیک از موارد زیر یک سیستم عامل محسوب می شوند؟",
+        "selected": "Windows 10",
+        "correct": "Windows 10"
+      },
+      {
+        "question": "حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      }
+    ],
+    "date": "2026-08-31T09:20:34.598Z"
   }
 ]
