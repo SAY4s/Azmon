@@ -1,0 +1,84 @@
+[
+  {
+    "name": "اسماعیل محمد جهانی",
+    "exam": "dip_user",
+    "score": 14,
+    "total": 14,
+    "percent": 100,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از موارد زیر برای نام یک پوشه مجاز است؟",
+        "selected": "pbn.exe",
+        "correct": "pbn.exe"
+      },
+      {
+        "question": "کلید میان بر گزینه copy کدام گزینه است؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر در قوانین نام گذاری صحیح نمی باشد؟",
+        "selected": "حداقل طول نام باید 255 کاراکتر باشد",
+        "correct": "حداقل طول نام باید 255 کاراکتر باشد"
+      },
+      {
+        "question": "کدام گزینه برای حذف یک کار از صف چاپ به کار میرود؟",
+        "selected": "Cancel",
+        "correct": "Cancel"
+      },
+      {
+        "question": "کلید میانبر برای نمایش پنجره Help and support چیست؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "کار ابزار Rotate در برنامه Paint چیست؟",
+        "selected": "چرخاندن تمام یا بخشی از تصویر",
+        "correct": "چرخاندن تمام یا بخشی از تصویر"
+      },
+      {
+        "question": "کاربرد برنامه Disk Defragmenter چیست؟",
+        "selected": "یکپارچه سازی فضای سخت",
+        "correct": "یکپارچه سازی فضای سخت"
+      },
+      {
+        "question": "کدام دستور در Run برنامه ی مرکز کنترل را باز می کند؟",
+        "selected": "Control",
+        "correct": "Control"
+      },
+      {
+        "question": "کدام دستگاه سیگنال های آنالوگ را به دیجیتال (وبالعکس) تبدیل می کند؟",
+        "selected": "Modem",
+        "correct": "Modem"
+      },
+      {
+        "question": "کدام کادر محل قرارگرفتن آدرس گیرنده اصلی است؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "کدام ابزار در نقاشی جهت تایپ متن استفاده می شود؟",
+        "selected": "Text",
+        "correct": "Text"
+      },
+      {
+        "question": "کدام گزینه جهت تنظیم محافظ صفحه نمایش کاربرد دارد؟",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "مسیر پوشه جاری در کدام نوار در پنجره ها نمایش داده میشود؟",
+        "selected": "Address Bar",
+        "correct": "Address Bar"
+      },
+      {
+        "question": "در خصوصیات درایو کدام قسمت نشان دهنده فضای استفاده شده درایو است ؟",
+        "selected": "Used Space",
+        "correct": "Used Space"
+      }
+    ],
+    "date": "2026-09-02T06:52:46.583Z"
+  }
+]
