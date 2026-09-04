@@ -210,5 +210,217 @@
       }
     ],
     "date": "2026-09-01T08:23:23.188Z"
+  },
+  {
+    "name": "حنانه نجاری",
+    "exam": "icdl",
+    "score": 9,
+    "total": 40,
+    "percent": 23,
+    "wrong": 31,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "انتخاب Wizard Form از ریبون Home",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Power Option",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "Home",
+        "correct": "Create"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ home گزینه relationships",
+        "correct": "سربرگ create گزینه form"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": "Define New Bullet",
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Box",
+        "correct": "Style"
+      },
+      {
+        "question": "CPU به واحد ......... اطلاق می شود.",
+        "selected": "حافظه",
+        "correct": "پردازشگر مرکزی"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Font",
+        "correct": "Font"
+      },
+      {
+        "question": "کدام کلید مکان نما را به اولین فیلد رکورد جاری منتقل می کند؟",
+        "selected": "Page Up",
+        "correct": "Home"
+      },
+      {
+        "question": "در صورتی که بخواهیم عبارت های یافت شده از نظر بزرگی و کوچکی حروف با عبارت مورد جستجو یکسان باشد کدام گزینه را فعال می کنیم؟",
+        "selected": "Find Whole Words Only",
+        "correct": "Match Case"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "دکمه Back در نوار ابزار",
+        "correct": "F5"
+      },
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "کدام یک از شبکه های زیر معمولا برای اتصال دفاتر یک سازمان در یک شهر صورت می گیرد؟",
+        "selected": "شبکه اینترنت",
+        "correct": "Man"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": "Filter By Selection",
+        "correct": "Apply Filter-Sort"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای تجاری از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "ایمیل",
+        "correct": "Spam"
+      },
+      {
+        "question": "سریع ترین و راحت ترین روش برای ایجاد فایل نمایشی کدام است؟",
+        "selected": "انتخاب گزینه Recent Document از منوی Office",
+        "correct": "فشردن کلیدهای Ctrl+N"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Delay",
+        "correct": "Repeat"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Fore Color",
+        "correct": "Highlight"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Download , Upload",
+        "correct": "Upload , Download"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "دستگاه های فتوکپی",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Net",
+        "correct": "Edu"
+      },
+      {
+        "question": "اجزای اصلی کامپیوترهای شخصی کدام است؟",
+        "selected": "Cpu - Memory - Keyboard - Case",
+        "correct": "Cpu - Memory - Input Unit - Output Unit"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "if",
+        "correct": "count if"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Tejarat",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Memo",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "برای ویرایش متن بهترین وضعیت، استفاده از کدام نما می باشد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "برای ذخیره سند با نام جدید از کدام گزینه استفاده می شود؟",
+        "selected": "Save",
+        "correct": "Save As"
+      },
+      {
+        "question": "برای تایپ حروف بزرگ لاتین باید دکمه...................... را فعال نمود.",
+        "selected": "Scroll Lock",
+        "correct": "Caps Lock"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "برای برقراری ارتباط با اینترنت خط تلفن به کدام قسمت کامپیوتر متصل می شود؟",
+        "selected": "کارت صدا",
+        "correct": "مودم"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Save",
+        "correct": "Replace"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "انتقال دادن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "جهت مشخص نمودن سایت های تجاری، کمپانی، موسسات و سازمان های تجاری از دامنه با نام ....... استفاده می کنیم؟",
+        "selected": "Gov",
+        "correct": "Com"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط خواندنی و ناپایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "متن نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Restart",
+        "correct": "Switch User"
+      }
+    ],
+    "date": "2026-09-04T14:46:25.656Z"
   }
 ]
