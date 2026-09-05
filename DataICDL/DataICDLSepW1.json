@@ -1058,5 +1058,217 @@
       }
     ],
     "date": "2026-09-05T09:21:24.529Z"
+  },
+  {
+    "name": "سوری",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "یادداشت",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~S * T",
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "پلاسما",
+        "correct": "CRT"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه شیارهایی از دیسک سخت که دارای یک شعاع نیستند",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "MAN",
+        "correct": "Intranet"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی System Tools از پنجره Computer",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "Gateways",
+        "correct": "Gateways"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "در برنامه های ویرایشگر متن برای ایجاد سطر خالی بین دو سطر نوشته شده چه باید کرد؟",
+        "selected": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم",
+        "correct": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم"
+      },
+      {
+        "question": "از کدام گزینه جهت افزودن اعشار استفاده می کنیم؟",
+        "selected": "Increase Decimal",
+        "correct": "Increase Decimal"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود",
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": "کامپیوترهای Laptop قابل حمل هستند",
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "به کامپیوتری که در یک شبکه به کامپیوترهای دیگر سرویس دهد چه می گویند؟",
+        "selected": "Sever",
+        "correct": "Sever"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": "حافظه دائمی است که با قطع جریان برق اطلاعات آن از بین نمی رود",
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی و تاریخی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "برای ایجاد فایل در پاورپوینت کدام کلیدهای ترکیبی را می فشاریم؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای انتخاب یک جمله از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Advanced Filter/Sort",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Sort",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Ctrl+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "مزیت الگو (Template) چیست؟",
+        "selected": "صرفه جویی در زمان ویرایش",
+        "correct": "صرفه جویی در زمان ویرایش"
+      },
+      {
+        "question": "برای تنظیم حاشیه های سند از کدام دکمه استفاده می شود؟",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "نام گیرنده فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف بالا درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "[ ]",
+        "correct": "\" \""
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "کدام گزینه زیر یک موتور جستجوگر می باشد؟",
+        "selected": "Google",
+        "correct": "Google"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      }
+    ],
+    "date": "2026-09-05T09:33:02.031Z"
   }
 ]
