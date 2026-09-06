@@ -1270,5 +1270,217 @@
       }
     ],
     "date": "2026-09-05T09:33:02.031Z"
+  },
+  {
+    "name": "حنانه نجاری",
+    "exam": "icdl",
+    "score": 12,
+    "total": 40,
+    "percent": 30,
+    "wrong": 28,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": "خاصیت Format را روی Yes تنظیم کنیم",
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "برای تمایز افرادی که دارای نام یا نام خانوادگی یکسانی هستند بهتر است.......................؟",
+        "selected": "آنها را در فیلدهای جداگانه ذخیره نماییم",
+        "correct": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Refresh",
+        "correct": "Back"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد یک جدول جدید به صورت ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های پست الکترونیک نمی باشد؟",
+        "selected": "ارسال و دریافت نامه از یک نرم افزار پست الکترونیکی استفاده کنیم",
+        "correct": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند"
+      },
+      {
+        "question": "برای مرتب کردن داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "Register",
+        "correct": "Cache"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Decimal Places"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "AERO",
+        "correct": "AERO"
+      },
+      {
+        "question": "برای قرار دادن خط بین ستون ها کدام گزینه از کادر محاوره ای Columns را انتخاب می کنیم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "پس از انتخاب قسمتی از متن یک صفحه ی وب و فشردن کلید Ctrl+C متن انتخاب شده به ...... انتقال می یابد.",
+        "selected": "حافظه RAM",
+        "correct": "حافظه ی موقت ویندوز (clipboard)"
+      },
+      {
+        "question": "برای اضافه کردن نام سایت به لیست علاقه مندی خود از کدام گزینه استفاده می کنیم؟",
+        "selected": "History",
+        "correct": "Add To Favorites"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "IT",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه Chart Type",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "فرمان Forward To All",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "پرس و جو بر اساس یک معیار در اکسس چه نامیده می شود؟",
+        "selected": "Search",
+        "correct": "Query"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Table",
+        "correct": "Cell"
+      },
+      {
+        "question": "برای تعیین چاپگر به عنوان چاپگر پیش فرض گزینه ...... را انتخاب می کنیم.",
+        "selected": "Set as default printer",
+        "correct": "Set as default printer"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Begin Type",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "ISDN",
+        "correct": "فاکس"
+      },
+      {
+        "question": "برای اینکه بخواهیم حرف اول کلمه هر جمله با حروف بزرگ لاتین نوشته شود، باید کدام گزینه را برگزینیم؟",
+        "selected": "Capitalize Each Word",
+        "correct": "Sentence Case"
+      },
+      {
+        "question": "حافظه های اصلی کامپیوتر را نام ببرید؟",
+        "selected": "CD-ROM - DVD-ROM",
+        "correct": "ROM - RAM"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Group & Sort",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Web Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟",
+        "selected": "Print",
+        "correct": "Share"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F4",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای تعیین خصوصیات یک فیلد می توان جدول را در دو نمای ............. یا ............... نشان دهیم.",
+        "selected": "Data Sheet",
+        "correct": "Design"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Export",
+        "correct": "Info"
+      },
+      {
+        "question": "کدام گزینه یک نوع داده در محیط اکسس محسوب نمی شود؟",
+        "selected": "Memo",
+        "correct": "Form"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گزینه Ruler و سربرگ View گزینه Ruler و سربرگ Review گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "عدم اعتماد به وب سایت",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Bing",
+        "correct": "Yahoo"
+      }
+    ],
+    "date": "2026-09-06T16:17:57.218Z"
   }
 ]
