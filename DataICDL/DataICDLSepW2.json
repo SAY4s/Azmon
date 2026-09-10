@@ -1,0 +1,214 @@
+[
+  {
+    "name": "رقیه شیرمحمدی",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 14,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "اگر خانه های A1=5، B1=Ali، C1=6 باشد حاصل تابع زیر کدام است؟ =Sum(Ali; A1; C1)",
+        "selected": "11",
+        "correct": "11"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "کدام نوع داده ی زیر برای نمایش قالب متنی کاربرد دارد؟",
+        "selected": "Text",
+        "correct": "Text"
+      },
+      {
+        "question": "برای انتخاب یک جمله باید از کلید ترکیبی ..... استفاده کرد.",
+        "selected": "Ctrl+Alt",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "کدام گزینه برای انتخاب آیتم های همجوار استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "آدرس خانه فعال در کجا قابل رویت است؟",
+        "selected": "در سطر وضعیت",
+        "correct": "در کادر Name Box"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "Ram",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Borders",
+        "correct": "Borders"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Sound & Image",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "چگونه می توان چند فایل پراکنده یک پوشه را انتخاب کرد؟",
+        "selected": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت",
+        "correct": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Data Label",
+        "correct": "Data Label"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Shift",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Zoom",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "جهت چرخاندن اشکال کدام یک از مراحل زیر صحیح است؟",
+        "selected": "Format -> Rotate",
+        "correct": "Format -> Rotate"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت کروشه",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Inter Net Technology است و به معنای فناوری اطلاعات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": null,
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر تهی (Null)",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      },
+      {
+        "question": "کدام گزینه در مورد آرگونومی بکار می رود؟",
+        "selected": "حفظ سلامت انسان در محیط کار",
+        "correct": "حفظ سلامت انسان در محیط کار"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "رجیستر به چه معناست؟",
+        "selected": null,
+        "correct": "حافظه کوچک در داخل CPU"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Copy",
+        "correct": "Cut"
+      },
+      {
+        "question": "کدامیک از پسوندهای زیر در برنامه PowerPoint 2013 قابل انتخاب نمی باشد؟",
+        "selected": "TXT",
+        "correct": "TXT"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Quick Access Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "پسوند Txt مربوط به فایل های ....................و پسوند Wave مربوط به فایل های ................است",
+        "selected": "متنی - تصویری",
+        "correct": "متنی - صوتی"
+      },
+      {
+        "question": "استفاده از دکمه Insert Table در چیدمان اسلاید برای درج .......... می باشد.",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "جهت نوشته با کدام دستور تغییر می کند؟",
+        "selected": "Sort",
+        "correct": "Direction"
+      },
+      {
+        "question": "گزینه مناسب اجرای فرمان جستجوی واژه ها کدام است؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "توسط نرم افزار فشرده سازی، می توان حجم فایل را تا ...... کاهش داد.",
+        "selected": "%50",
+        "correct": "%50"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از نوار ابزار Table & Border",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "کدام فرمول میانگین A1 تا A6 را محاسبه نمی کند؟",
+        "selected": "=Sum(A1:A6)/Count(A1:A6)",
+        "correct": "=Average(A1;A6)"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      }
+    ],
+    "date": "2026-09-10T10:25:11.591Z"
+  }
+]
