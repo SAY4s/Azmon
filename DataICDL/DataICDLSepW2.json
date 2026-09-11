@@ -2118,5 +2118,217 @@
       }
     ],
     "date": "2026-09-11T22:27:31.439Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از گزینه های زیر جزء حافظه های جانبی نیست؟",
+        "selected": "نوار مغناطیسی",
+        "correct": "Rom"
+      },
+      {
+        "question": "پس از تکمیل فرم اطلاعات، باید توسط چه گزینه ای تایید شود؟",
+        "selected": "Submit",
+        "correct": "Submit"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند کدام گزینه را انتخاب می کنید؟",
+        "selected": "آدرس آن را در قسمت BCC وارد می کنیم",
+        "correct": "آدرس آن را در قسمت BCC وارد می کنیم"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Descending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOTX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "با کدام ترکیب کلید می توان کل محتوای یک پوشه را انتخاب کرد؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "این تعریف مربوط به کدام گزینه زیر می باشد؟ (کلیه برنامه ها و دستورالعمل هایی که باعث عملکرد سیستم می شود)",
+        "selected": "نرم افزار Software",
+        "correct": "نرم افزار Software"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Date modified",
+        "correct": "Date modified"
+      },
+      {
+        "question": "عناوین سطرها و ستون ها با کدامیک از موارد زیر مشخص می شود؟",
+        "selected": "ستون ها با حروف الفبای لاتین و سطرها با اعداد",
+        "correct": "ستون ها با حروف الفبای لاتین و سطرها با اعداد"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": "Open Each Folder in the Same Window",
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟",
+        "selected": "Share",
+        "correct": "Share"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - Clients",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Columns",
+        "correct": "Distribute Columns"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Tools > Primary key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Decimal Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "$",
+        "correct": "$"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "اگر بخواهیم برچسب داده های نمودار را داخل و در انتهای آن ایجاد نماییم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Inside End",
+        "correct": "Inside End"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Outline",
+        "correct": "Outline"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F1",
+        "correct": "F11"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "File/Message/New Message",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "تهیه و ویرایش کتاب و مقاله",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "به نرم افزارهایی که مصرف کننده برای یک مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کنند ................. گفته می شود؟",
+        "selected": "نرم افزارهای اشتراکی",
+        "correct": "نرم افزارهای اشتراکی"
+      },
+      {
+        "question": "جهت چرخاندن اشکال کدام یک از مراحل زیر صحیح است؟",
+        "selected": "Format -> Rotate",
+        "correct": "Format -> Rotate"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "RAM",
+        "correct": "ROM"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "برای حذف ستون های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Columns",
+        "correct": "Delete Columns"
+      },
+      {
+        "question": "برای به حداقل رساندن اندازه ی پنجره از کدام گزینه استفاده می کنیم؟",
+        "selected": "Minimize",
+        "correct": "Minimize"
+      },
+      {
+        "question": "چنانچه بخواهیم نام یکی از کاربرگ های موجود در کارپوشه را تغییر دهیم از چه دستوری استفاده می کنیم؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "برای انتخاب یک محدوده مشخص می توان............؟",
+        "selected": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم",
+        "correct": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "DOS",
+        "correct": "DOS"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      }
+    ],
+    "date": "2026-09-11T22:36:10.032Z"
   }
 ]
