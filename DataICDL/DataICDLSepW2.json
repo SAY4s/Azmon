@@ -1694,5 +1694,217 @@
       }
     ],
     "date": "2026-09-11T20:47:22.409Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "هر صفحه کاری در یک فایل ذخیره می شود",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Text",
+        "correct": "Text"
+      },
+      {
+        "question": "فرمت .......... فایل را به صورت غیرقابل تغییر در می آورد و با نرم افزار Word قابل اجرا نیست.",
+        "selected": "PDF",
+        "correct": "PDF"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": "Apply Filter-Sort",
+        "correct": "Apply Filter-Sort"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~T * S",
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "$",
+        "correct": "$"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک روی جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "برای ارسال یک نامه دریافت شده به اشخاص دیگر از کدام گزینه استفاده می شود؟",
+        "selected": "forward",
+        "correct": "forward"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت چپ",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Table",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Report Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Properties",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟",
+        "selected": "Print From ... To ...",
+        "correct": "Print From ... To ..."
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": "گزینه Split Cells از سربرگ Layout",
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخابی را روی همه اسلایدها اعمال کنیم با راست کلیک بر روی تم مورد نظر کدام گزینه مناسب است؟",
+        "selected": "Apply to All Slides",
+        "correct": "Apply to All Slides"
+      },
+      {
+        "question": "کدام گزینه در مورد فشرده سازی صحیح است؟",
+        "selected": "روشی برای کاهش حجم فایل",
+        "correct": "روشی برای کاهش حجم فایل"
+      },
+      {
+        "question": "در کدام یک از موارد زیر امکان به حد اکثر رساندن پنجره وجود دارد؟",
+        "selected": "پنجره معمولی",
+        "correct": "پنجره معمولی"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Show"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "از کدام گزینه در بخش Size برای چاپ روی پاکت نامه استفاده می کنیم؟",
+        "selected": "Envelope",
+        "correct": "Envelope"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Action Buttons",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم کلیه صفحات وب سایت های مشاهده شده قبلی را مشاهده نماییم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": "برای ایجاد کادر دور متن و جدول استفاده می شود",
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      }
+    ],
+    "date": "2026-09-11T20:53:57.210Z"
   }
 ]
