@@ -2754,5 +2754,217 @@
       }
     ],
     "date": "2026-09-12T10:00:56.392Z"
+  },
+  {
+    "name": "ارمیا کاظم پور",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "برای انتخاب یک جمله از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "از ابزار Object به منظور ......",
+        "selected": "درج تصاویری که توسط نرم افزارها و دوربین های دیجیتال ایجاد شده اند و به صورت فایل بر روی دیسک سخت قرار دارند",
+        "correct": "درج فایل هایی از داخل حافظه دیسک سخت از قبیل فایل های نرم افزارهای غیرمرتبط"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Image",
+        "correct": "Insert"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Open>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "برای نوشتن توان یک عدد از چه گزینه ای استفاده می کنیم؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Workbook",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": "Uni Code",
+        "correct": "Uni Code"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Mailings",
+        "correct": "Mailings"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پالتر",
+        "correct": "چاپگر - صفحه نمایش - پالتر"
+      },
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Width",
+        "correct": "Width"
+      },
+      {
+        "question": "برنامه ها جهت اجرا در کدام واحد قرار می گیرند؟",
+        "selected": "حافظه اصلی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "الزامی نیست",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟",
+        "selected": "Custom Print",
+        "correct": "Print From ... To ..."
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Windows Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "برای نمایش اسلایدها از اسلاید جاری، کلیدهای ........... را همزمان می فشاریم.",
+        "selected": "Shift+F5",
+        "correct": "Shift+F5"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Header Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": "از Cell Style بر روی Add کلیک می کنیم",
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "از کدام یک از اجزای بانک اطلاعاتی برای استخراج مجموعه ای از داده های ذخیره شده در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F2",
+        "correct": "F11"
+      },
+      {
+        "question": "برای درج یک معیار از کدام قسمت در یک پرس و جو استفاده می شود؟",
+        "selected": "Show",
+        "correct": "Criteria & Or"
+      }
+    ],
+    "date": "2026-09-12T11:14:03.954Z"
   }
 ]
