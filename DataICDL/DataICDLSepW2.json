@@ -2330,5 +2330,217 @@
       }
     ],
     "date": "2026-09-11T22:36:10.032Z"
+  },
+  {
+    "name": "مهدیه علی قلی ها",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه As New Sheet",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "کدام گزینه به معنای Sort Descending می باشد؟",
+        "selected": "مرتب سازی به روش نزولی",
+        "correct": "مرتب سازی به روش نزولی"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Picture/Graphic",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها بسته به انتخاب کاربر می تواند برابر تعداد سطرها یا برابر ستون ها باشد",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "برای تکرار عنوان سطر جدول در هر صفحه از کدام ابزار می توان استفاده نمود؟",
+        "selected": "Repeat Header Row",
+        "correct": "Repeat Header Row"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": "Remove",
+        "correct": "Remove"
+      },
+      {
+        "question": "توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟",
+        "selected": "Replace",
+        "correct": "Find"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "کلیدهای ترکیبی Ctrl+W",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "در سربرگ Home از این گروه برای تنظیمات نوع فونت نوشتاری و سایز و رنگ متن استفاده می شود.",
+        "selected": "Font",
+        "correct": "Font"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "جهت جابجایی بین پنجره های باز از ترکیب کلیدهای .......................... استفاده می شود.",
+        "selected": "Ctrl+Z",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "255 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "کدام کلید سبب پرش مکان نما به ابتدای سند می گردد؟",
+        "selected": "Ctrl+Home",
+        "correct": "End"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه کلید تابعی نیست؟",
+        "selected": "Alt",
+        "correct": "Alt"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Section",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Page",
+        "correct": "Page"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کدام گزینه برای حذف فیلد در نمای Data Sheet درست است؟",
+        "selected": "بر روی فیلد کلیک راست کرده و سپس کلید Delete Field را فشار می دهیم",
+        "correct": "فیلد را انتخاب نموده و از کلیک راست گزینه Delete را انتخاب می کنیم"
+      },
+      {
+        "question": "برای حذف محتویات یک سلول از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گروه Clear گزینه Clear Format",
+        "correct": "سربرگ Home گزینه Clear Contents"
+      },
+      {
+        "question": "برای درج خودکار سری داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Auto Fill",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Yes/No",
+        "correct": "Yes/No"
+      },
+      {
+        "question": "تفاوت دکمه های OK و Apply در چیست؟",
+        "selected": "OK تغییرات را ثبت کرده و پنجره را باز نگه می دارد ولی Apply تغییرات را ثبت و پنجره را می بندد",
+        "correct": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Unique سازی فیلدهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Delay",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک گیگابایت کمتر از یک مگابایت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": "Db",
+        "correct": "Db"
+      },
+      {
+        "question": "شیرازه یعنی چه؟",
+        "selected": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی",
+        "correct": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "کدام گزینه برای استفاده از جلوه های آماده متحرک سازی است؟",
+        "selected": "Slide Transition",
+        "correct": "Slide Transition"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "کدام پسوند یک وب سایت آموزشی را نشان می دهد؟",
+        "selected": "Gov",
+        "correct": "Edu"
+      }
+    ],
+    "date": "2026-09-12T09:13:28.635Z"
   }
 ]
