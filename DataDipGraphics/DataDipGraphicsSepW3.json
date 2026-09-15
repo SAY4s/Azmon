@@ -1,0 +1,84 @@
+[
+  {
+    "name": "محمدرضا خمسه",
+    "exam": "dip_graphics",
+    "score": 14,
+    "total": 14,
+    "percent": 100,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با فشردن کدام کلید نوار منو در یک پنجره نمایش داده می‌شود؟",
+        "selected": "Alt",
+        "correct": "Alt"
+      },
+      {
+        "question": "به طرح ایجاد شده روی نشانه چه می‌گویند؟",
+        "selected": "آرم",
+        "correct": "آرم"
+      },
+      {
+        "question": "کدام ابزار برای کپی‌ زدن قسمتی از تصویر بر روی قسمت دیگر استفاده می‌شود؟",
+        "selected": "Clone Stamp",
+        "correct": "Clone Stamp"
+      },
+      {
+        "question": "برای وارد کردن فایلی که در نرم‌افزار دیگری ایجاد شده و جز پسوندهای قابل پشتیبانی فتوشاپ نیست، از کدام روش استفاده می‌شود؟",
+        "selected": "Import",
+        "correct": "Import"
+      },
+      {
+        "question": "به جلدهای کتابی که از انواع مقواهای نازک مانند گلاسه است چه می‌گویند؟",
+        "selected": "شومیز",
+        "correct": "شومیز"
+      },
+      {
+        "question": "با استفاده از کدام فیلتر در مجموعه‌ی Filter Gallery می‌توان سطح تصویر را دارای بافت کرد؟",
+        "selected": "Texture",
+        "correct": "Texture"
+      },
+      {
+        "question": "در قسمت Orientation مربوط به پنجره‌ی چاپ کدام گزینه برای چاپ کاغذ به‌صورت ایستاده استفاده می‌شود؟",
+        "selected": "Portrait",
+        "correct": "Portrait"
+      },
+      {
+        "question": "برای رسم ستاره از کدام ابزار در نرم‌افزار کورل استفاده می‌شود؟",
+        "selected": "Star",
+        "correct": "Star"
+      },
+      {
+        "question": "در کدام حالت کورل تصویر نقشه بیتی وارد شده را بهتر ردیابی می‌کند؟",
+        "selected": "کیفیت بالاتر",
+        "correct": "کیفیت بالاتر"
+      },
+      {
+        "question": "در پنجره‌ی تصحیح لبه‌های تصویر، با تغییر کدام نوار لبه‌های قسمت انتخاب‌شده نرم‌تر می‌شود؟",
+        "selected": "Smooth",
+        "correct": "Smooth"
+      },
+      {
+        "question": "انتخاب کدام گزینه سبب نمایش تمام صفحه بدون منو نرم‌افزار می‌شود؟",
+        "selected": "Full Screen Mode",
+        "correct": "Full Screen Mode"
+      },
+      {
+        "question": "در جلوه‌ی ویژه‌ی Bevel And Emboss با انتخاب کدام حالت، برجستگی‌ها پرداخت سخت و خشن پیدا خواهند کرد؟",
+        "selected": "Chisel Hard",
+        "correct": "Chisel Hard"
+      },
+      {
+        "question": "فیلتر Motion Blur چه عملی انجام می‌دهد؟",
+        "selected": "مات کردن تصویر به همراه کشش",
+        "correct": "مات کردن تصویر به همراه کشش"
+      },
+      {
+        "question": "در پنجره‌ی Gallery Filter کدام دسته فیلترهای هنری هستند و کار شبیه‌سازی نقاشی را انجام می‌دهند؟",
+        "selected": "Artistic",
+        "correct": "Artistic"
+      }
+    ],
+    "date": "2026-09-15T08:17:28.579Z"
+  }
+]
