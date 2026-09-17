@@ -634,5 +634,217 @@
       }
     ],
     "date": "2026-09-16T08:29:58.233Z"
+  },
+  {
+    "name": "سوری",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Review گزینه Header",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "به منظور افزودن یک کاربرگ جدید به صفحه کاری جاری و قبل از Sheet3 چه عملی انجام می دهید؟",
+        "selected": "بر روی Sheet2 راست کلیک کرده و گزینه Insert را انتخاب می کنیم",
+        "correct": "بر روی Sheet3 راست کلیک کرده و گزینه Insert را انتخاب می کنیم"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Back",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "با فشار کدام کلیدها می توان یک کپی از اسلاید را بعد از همان اسلاید ایجاد کرد؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+D"
+      },
+      {
+        "question": "برای تغییر رنگ زمینه سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Protection",
+        "correct": "Pattern"
+      },
+      {
+        "question": "جهت جمع آوری و سازماندهی اطلاعات در مورد یک موضوع از کدام نرم افزار استفاده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "بانک اطلاعاتی"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": "Apply Filter-Sort",
+        "correct": "Apply Filter-Sort"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Justify",
+        "correct": "Center"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "سرعت پردازش و ظرفیت ذخیره سازی اطلاعات در کدام نوع از کامپیوترهای زیر بیشتر است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "سیستم",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر نمودار تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "برای انتقال فایل و پوشه ها به کدام گزینه مراجعه می کنیم؟",
+        "selected": "Print",
+        "correct": "Organize"
+      },
+      {
+        "question": "جهت مرتب نمودن داده های جدول گزینه Sort را از تب ............ انتخاب می کنیم.",
+        "selected": "Database Tools",
+        "correct": "Home"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ table گزینه create",
+        "correct": "سربرگ create گزینه form"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس",
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": "از دست رفتن اطلاعات",
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "در هنگام درج نمودار دو سربرگ وابسته ............. و .......... نیز به سربرگ دستورات نرم افزار اضافه می شود.",
+        "selected": "Design - Format",
+        "correct": "Design - Format"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "All Program / Accessories / Sound Recorder",
+        "correct": "All Program / Accessories / Sound Recorder"
+      },
+      {
+        "question": "برای نمایش محتوای پنجره ها به صورت پشت سرهم کدام گزینه صحیح است؟",
+        "selected": "List",
+        "correct": "List"
+      },
+      {
+        "question": "هر فایل ارائه مطلب حداقل ....... اسلاید دارد.",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "برای تغییر زبان انگلیسی به فارسی و برعکس از ترکیب چه کلیدهایی استفاده می شود؟",
+        "selected": "Alt+Shift",
+        "correct": "Alt+Shift"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "سلول های مجاور هم را به طور افقی سطر نامند",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": "Wizard",
+        "correct": "Design"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "اگر خانه های A1=5، B1=Ali، C1=6 باشد حاصل تابع زیر کدام است؟ =Sum(Ali; A1; C1)",
+        "selected": "11",
+        "correct": "11"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "Data Sheet",
+        "correct": "گزارش"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "قانون تبادلات اطلاعات در شبکه",
+        "correct": "قانون تبادلات اطلاعات در شبکه"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": "ورودی",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "=min(A1:B5)",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Info",
+        "correct": "Info"
+      }
+    ],
+    "date": "2026-09-17T06:44:33.694Z"
   }
 ]
