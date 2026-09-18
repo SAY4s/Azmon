@@ -4450,5 +4450,217 @@
       }
     ],
     "date": "2026-09-18T16:07:01.075Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت قرار دادن سیستم در حالتی که برنامه ها باز بوده ولی سیستم به صورت موقت خاموش گردد، چه گزینه ای را انتخاب می کنید؟",
+        "selected": "Sleep",
+        "correct": "Hibernate"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Server Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی بر روی کدام دکمه از نوار ابزار کلیک می نمایید؟",
+        "selected": "Reply All",
+        "correct": "Reply All"
+      },
+      {
+        "question": "از ابزار Symbol در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج کاراکترها و علائم ویژه",
+        "correct": "درج کاراکترها و علائم ویژه"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": "پست الکترونیکی",
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "در محیط برنامه های کاربردی ویندوز چگونه می توانیم مطالب را درون یک فایل ذخیره سازیم؟",
+        "selected": "File / Save",
+        "correct": "File / Save"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - Clients",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Format",
+        "correct": "Design"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "کدام خواص زیر در فیلدها قالب نمایش فیلد را مشخص می کند، مثلا اینکه با حروف کوچک یا بزرگ نمایش داده شود؟",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "جهت مشخص نمودن سایت های تجاری، کمپانی، موسسات و سازمان های تجاری از دامنه با نام ....... استفاده می کنیم؟",
+        "selected": "Com",
+        "correct": "Com"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کدام گزینه غلط است؟",
+        "selected": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند",
+        "correct": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "برای مرتب سازی صعودی از کدام گزینه استفاده می شود؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "از این ابزار در گروه Paragraph برای تعیین جهت متن در کادر متنی استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Show"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Reports",
+        "correct": "Reports"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F3",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "کدام تابع زیر برای محاسبه میانگین بکار می رود؟",
+        "selected": "AVERAGE",
+        "correct": "AVERAGE"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "Hibernate یعنی .......",
+        "selected": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد",
+        "correct": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد"
+      },
+      {
+        "question": "برای انتخاب سلول های همجوار و درج در تابع از کدام علامت استفاده می گردد؟",
+        "selected": ":",
+        "correct": ":"
+      }
+    ],
+    "date": "2026-09-18T19:03:43.832Z"
   }
 ]
