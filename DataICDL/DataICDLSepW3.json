@@ -5086,5 +5086,217 @@
       }
     ],
     "date": "2026-09-18T20:06:00.541Z"
+  },
+  {
+    "name": "مائده کاظم پور",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "صعودی و نزولی بودن رکوردها",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      },
+      {
+        "question": "برای مخفی کردن یک اسلاید از گزینه ................. استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "برای خروج کامل از ویندوز کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Log Off",
+        "correct": "Shut Down"
+      },
+      {
+        "question": "کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های پست الکترونیک نمی باشد؟",
+        "selected": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند",
+        "correct": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند"
+      },
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "نام گیرنده فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "ستون هایی دارد که هر کدام یک فیلد را نشان می دهد",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": "سرعت و کیفیت چاپ",
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Queries",
+        "correct": "Tables"
+      },
+      {
+        "question": "با تغییر نوع نمودار در یک اسلاید کدام گزینه از منوی مربوط به نمودار باید انتخاب شود؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "پنجره Control Panel و گزینه Add Hardware",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "با استفاده از دکمه ............. می توان از صفحه نمایش عکس گرفت.",
+        "selected": "Print Screen",
+        "correct": "Print Screen"
+      },
+      {
+        "question": "پوشه sent شامل ...... است.",
+        "selected": "لیست نامه های ارسال شده است",
+        "correct": "لیست نامه های ارسال شده است"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "در صورتی که بخواهیم اسلایدهای فایل ارائه مطلب همراه با نکات آن چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Note Pages",
+        "correct": "Note Pages"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": "2",
+        "correct": "1"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Datasheet View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Convert > Table to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "Custom Slide Show",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "پست الکترونیک به کدام گزینه معروف است؟",
+        "selected": "Chat",
+        "correct": "Chat"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "کلیک روی Table از زبانه Insert و انتخاب Insert Table",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از گزینه................ استفاده می شود.",
+        "selected": "Size",
+        "correct": "Margins"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر تکراری و مقادیر تهی (Null)",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      },
+      {
+        "question": "CPU به واحد ......... اطلاق می شود.",
+        "selected": "پردازشگر مرکزی",
+        "correct": "پردازشگر مرکزی"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "جمع",
+        "correct": "جمع"
+      },
+      {
+        "question": "هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Columns",
+        "correct": "Distribute Columns"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "به نرم افزارهایی که مصرف کننده برای یک مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کنند ................. گفته می شود؟",
+        "selected": "نرم افزارهای اشتراکی",
+        "correct": "نرم افزارهای اشتراکی"
+      },
+      {
+        "question": "برای تنظیم فاصله بین خطوط از کدام گزینه استفاده می شود؟",
+        "selected": "Line Spacing",
+        "correct": "Line Spacing"
+      },
+      {
+        "question": "فایل های محیط word 2013 با چه پسوندی ذخیره می شوند؟",
+        "selected": "docx",
+        "correct": "docx"
+      }
+    ],
+    "date": "2026-09-18T20:22:42.767Z"
   }
 ]
