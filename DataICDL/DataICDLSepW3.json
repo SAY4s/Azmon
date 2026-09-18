@@ -4026,5 +4026,217 @@
       }
     ],
     "date": "2026-09-18T15:51:03.877Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای نمایش اسلایدها از اسلاید جاری، کلیدهای ........... را همزمان می فشاریم.",
+        "selected": "Shift+F5",
+        "correct": "Shift+F5"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "گزینه Increase Indent به چه منظوری به کار می رود؟",
+        "selected": "زیاد کردن فاصله پاراگراف از حاشیه",
+        "correct": "زیاد کردن فاصله پاراگراف از حاشیه"
+      },
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Quick Access Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "کدام خواص زیر در فیلدها قالب نمایش فیلد را مشخص می کند، مثلا اینکه با حروف کوچک یا بزرگ نمایش داده شود؟",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیرقابل استفاده می شود، چه می گویند؟",
+        "selected": "Share ware",
+        "correct": "Share ware"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "برای انتخاب چند سطر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام یک از گزینه های یک آدرس صندوق پستی صحیح می باشد؟",
+        "selected": "bayat@irantvto.ir",
+        "correct": "bayat@irantvto.ir"
+      },
+      {
+        "question": "جهت چاپ صفحات خاصی از فرم یا گزارش در پنجره Print و در قسمت Print Range کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Page From … To …",
+        "correct": "Page From … To …"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Primary",
+        "correct": "Primary"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "هویت یک فایل از ....................... شناسائی می گردد.",
+        "selected": "پسوند فایل",
+        "correct": "پسوند فایل"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "پرانتز",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح نیست؟",
+        "selected": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید",
+        "correct": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید"
+      },
+      {
+        "question": "برای نمایش خطوط راهنما و شبکه ای کدام گزینه ها را فعال می کنیم؟",
+        "selected": "Grid Line - Guides",
+        "correct": "Grid Line - Guides"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": "ورودی/خروجی",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar",
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "یک بیت",
+        "correct": "یک بیت"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام فرمان برای باز کردن یک سند موجود به کار می رود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "کدامیک از موارد زیر را نمی توان در Data Sheet View انجام داد؟",
+        "selected": "ایجاد فرم",
+        "correct": "ایجاد فرم"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": "Page Header",
+        "correct": "Page Header"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Attach",
+        "correct": "Attach"
+      },
+      {
+        "question": "کدام ابزار برای ایجاد لیست شماره گذاری مورد استفاده قرار می گیرد.",
+        "selected": "Numbering",
+        "correct": "Numbering"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "جهت جابجایی بین پنجره های باز از ترکیب کلیدهای .......................... استفاده می شود.",
+        "selected": "Alt+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "برای فراخوانی مجدد صفحه وب کنونی از کدام دکمه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      }
+    ],
+    "date": "2026-09-18T16:01:44.897Z"
   }
 ]
