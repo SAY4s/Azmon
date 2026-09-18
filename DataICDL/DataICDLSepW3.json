@@ -2966,5 +2966,217 @@
       }
     ],
     "date": "2026-09-18T10:12:55.677Z"
+  },
+  {
+    "name": "مائده کاظم پور",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر رنگ پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "برای مخفی کردن یک اسلاید از گزینه ................. استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Split Table",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Landscape",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "برای اضافه کردن توضیحات به یک سلول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "گزینه Insert Comment سربرگ View",
+        "correct": "گزینه new Comment از سربرگ Review"
+      },
+      {
+        "question": "از کدام دستور برای چرخش تصویر استفاده می شود؟",
+        "selected": "Rotate",
+        "correct": "Rotate"
+      },
+      {
+        "question": "کدام یک از گزینه های موجود در زبانه number از کادر محاوره Cells Format امکان اضافه کردن % (درصد) را به اعداد می دهد؟",
+        "selected": "Number",
+        "correct": "Percentage"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی بر روی کدام دکمه از نوار ابزار کلیک می نمایید؟",
+        "selected": "Reply All",
+        "correct": "Reply All"
+      },
+      {
+        "question": "کدامیک از گزینه ها در نرم افزار Paint جهت تغییر حاشیه ها، نوع کاغذ و تعیین اندازه کاغذ و نوع کاغذ بکار می رود؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~S * T",
+        "correct": "~S * T"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "نوار مغناطیسی",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدامیک از موارد زیر باعث کاهش آلودگی های زیست محیطی می شود؟",
+        "selected": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده",
+        "correct": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "برای اینکه ارتباط کاربر فعلی با کامپیوتر قطع شود و کاربر دیگری وارد سیستم شود بهتر است از کدام گزینه استفاده کنیم؟",
+        "selected": "انتخاب Shut Down از پنجره Turn Off",
+        "correct": "انتخاب Log Off"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Edit Footer",
+        "correct": "Header"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Design View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Replace",
+        "correct": "Find Next"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F11",
+        "correct": "F5"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط نوشتنی و پایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Number",
+        "correct": "Backup"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Average",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای اینکه در پرس و جو، شرط ورودی را موقع اجرا درخواست کند، از کدام علامت استفاده می کنید؟",
+        "selected": "[ ]",
+        "correct": "[ ]"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Currency",
+        "correct": "Percentage"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Home-----Form-------Form Design",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save as name",
+        "correct": "save as type"
+      },
+      {
+        "question": "هویت یک فایل از ....................... شناسائی می گردد.",
+        "selected": "نام فایل",
+        "correct": "پسوند فایل"
+      },
+      {
+        "question": "Chart چیست؟",
+        "selected": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود",
+        "correct": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود"
+      }
+    ],
+    "date": "2026-09-18T12:35:55.733Z"
   }
 ]
