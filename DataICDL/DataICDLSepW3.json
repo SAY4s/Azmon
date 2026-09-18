@@ -3390,5 +3390,217 @@
       }
     ],
     "date": "2026-09-18T13:50:28.240Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Print Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": "Shape Outline",
+        "correct": "Arrange"
+      },
+      {
+        "question": "کدام کلید مکان نما را به اولین فیلد رکورد جاری منتقل می کند؟",
+        "selected": "End",
+        "correct": "Home"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "فاکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Image",
+        "correct": "Insert"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Gradient",
+        "correct": "Gradient"
+      },
+      {
+        "question": "برای بدست آوردن جمع محتویات دو سلول اکسل کدام فرمول صحیح است؟",
+        "selected": "=A1+B5",
+        "correct": "=A1+B5"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Break Preview",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "برای انتخاب کلمات همجوار و پشت سر هم از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدامیک از پرونده های زیر را نمی توان به عنوان تصویر زمینه ویندوز استفاده کرد؟",
+        "selected": "*.dat",
+        "correct": "*.dat"
+      },
+      {
+        "question": "از کدام دستگاه زیر جهت چاپ نتایج عملیات و گزارشات بر روی کاغذ استفاده می شود؟",
+        "selected": "پرینتر",
+        "correct": "پرینتر"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Title Slide",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "ایجاد یک کپی از کاربرگ",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "برای تایپ حروف بزرگ لاتین باید دکمه...................... را فعال نمود.",
+        "selected": "Caps Lock",
+        "correct": "Caps Lock"
+      },
+      {
+        "question": "جهت نمایش محتوای فایل های شناسایی نشده توسط ویندوز کدام گزینه صحیح است؟",
+        "selected": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید",
+        "correct": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "جهت نوشته با کدام دستور تغییر می کند؟",
+        "selected": "Direction",
+        "correct": "Direction"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Single",
+        "correct": "Decimal"
+      },
+      {
+        "question": "برای بزرگ کردن اندازه نوشته کدام گزینه به کار می رود؟",
+        "selected": "Increase Font Size",
+        "correct": "Increase Font Size"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Row",
+        "correct": "Row"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد",
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "CD-ROM",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": "Create New Account",
+        "correct": "Create New Account"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "به نوار رنگی بالای پنجره ها چه می گویند؟",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار اسلاید",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "جهت چاپ گزارش بر روی کاغذ",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      }
+    ],
+    "date": "2026-09-18T15:40:08.143Z"
   }
 ]
