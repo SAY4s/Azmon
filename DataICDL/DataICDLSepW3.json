@@ -1906,5 +1906,217 @@
       }
     ],
     "date": "2026-09-18T07:13:57.881Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "F4",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "کدام گزینه معرف نرم افزار پاورپوینت است؟",
+        "selected": "یک نرم افزار ارائه مطلب است",
+        "correct": "یک نرم افزار ارائه مطلب است"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "در دستگاه های زیر چند دستگاه خروجی وجود دارد؟ (صفحه نمایش - کیبورد - ماوس - رسام - چاپگر - اسکنر - قلم نوری - بلندگو)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Background Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "برای حذف یک سطر جدول از …… استفاده می کنیم.",
+        "selected": "گزینه Delete Rows",
+        "correct": "گزینه Delete Rows"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": "Data Base",
+        "correct": "Data Base"
+      },
+      {
+        "question": "پیش فرض برنامه ی مرورگر وب، در سیستم عامل ویندوز، ........ می باشد.",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "تصاویر در کدام گروه از زبانه insert قرار دارند؟",
+        "selected": "Illustrations",
+        "correct": "Illustrations"
+      },
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Width",
+        "correct": "Width"
+      },
+      {
+        "question": "جهت تغییر شکل آیکن Computer کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Change Desktop Icon",
+        "correct": "Change Desktop Icon"
+      },
+      {
+        "question": "کدام گزینه در مورد بایت درست می باشد؟",
+        "selected": "کوچکترین واحد حافظه قابل آدرس دهی",
+        "correct": "کوچکترین واحد حافظه قابل آدرس دهی"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Outline",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Mini Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "کدام روش مرتب سازی باعث می شود که تمامی پنجره ها روی هم قرار گرفته و تنها نوار عنوان آنها قابل مشاهده باشد؟",
+        "selected": "Cascade Windows (به صورت آبشاری)",
+        "correct": "Cascade Windows (به صورت آبشاری)"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "عملکرد تابع IF چیست؟",
+        "selected": "بر روی سلول های انتخابی شرط می گذارد، در صورت درست بودن شرط پیام مناسب می دهد",
+        "correct": "بر روی سلول های انتخابی شرط می گذارد، در صورت درست بودن شرط پیام مناسب می دهد"
+      },
+      {
+        "question": "پوشه Outbox شامل ........... است.",
+        "selected": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است",
+        "correct": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است"
+      },
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM یک حافظه خواندنی نوشتنی است",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدام گزینه در مورد آرگونومی بکار می رود؟",
+        "selected": "حفظ سلامت انسان در محیط کار",
+        "correct": "حفظ سلامت انسان در محیط کار"
+      },
+      {
+        "question": "برای بدست آوردن ضرب محتویات دو سلول اکسل چه فرمولی باید نوشت؟",
+        "selected": "=A1*B5",
+        "correct": "=A1*B5"
+      },
+      {
+        "question": "برای وارد کردن تصاویر به کامپیوتر از کدام سخت افزار استفاده می شود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Summary Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": "Query",
+        "correct": "Report"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Home > Slide > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "زبان استاندارد طراحی صفحات کدام یک از موارد زیر است؟",
+        "selected": "HTML",
+        "correct": "HTML"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Home",
+        "correct": "Create"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Direction از گروه Alignment",
+        "correct": "Text Direction از گروه Cell Size"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter-Selection و Advanced Filter/Sort",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      }
+    ],
+    "date": "2026-09-18T09:46:45.704Z"
   }
 ]
