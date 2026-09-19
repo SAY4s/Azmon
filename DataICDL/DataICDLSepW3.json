@@ -5722,5 +5722,217 @@
       }
     ],
     "date": "2026-09-19T13:33:11.120Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Info",
+        "correct": "Info"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": "از فرمان Save As در منوی File",
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "خط تیره",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "برای چرخش متن در جدول از کدام گزینه استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "به چه دلیل از حافظه های جانبی استفاده می شود؟",
+        "selected": "پاک شدن محتوای حافظه Ram هنگام قطع برق",
+        "correct": "پاک شدن محتوای حافظه Ram هنگام قطع برق"
+      },
+      {
+        "question": "برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": "Pages",
+        "correct": "Pages"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "CMOS",
+        "correct": "CMOS"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "کدام گزینه از کادر Format Cell موجب پر شدن یک سلول با خطوط هاشور می شود؟",
+        "selected": "Pattern",
+        "correct": "Pattern"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": "Open Each Folder in the Same Window",
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "با فشار کدام کلیدها می توان یک کپی از اسلاید را بعد از همان اسلاید ایجاد کرد؟",
+        "selected": "Ctrl+D",
+        "correct": "Ctrl+D"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Right To Left Text Direction",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت General گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "به نوار رنگی بالای پنجره ها چه می گویند؟",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "C#",
+        "correct": "C#"
+      },
+      {
+        "question": "برای اینکه نتوان محل نوار وظیفه را تغییر داد باید کدام گزینه را از کادر محاوره ای Taskbar and Start Menu Properties انتخاب نمود؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر تکراری و مقادیر تهی (Null)",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      },
+      {
+        "question": "در قسمت .............. از پنجره Find and Replace عبارتی را که می خواهیم ورد آن را برای جایگزینی انتخاب کند (پیدا کند)، می نویسیم.",
+        "selected": "Replace With",
+        "correct": "Find What"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه برای تنظیم شروع شماره صفحات از عدد خاصی است؟",
+        "selected": "Start at",
+        "correct": "Start at"
+      },
+      {
+        "question": "در برنامه های ویرایشگر متن برای ایجاد سطر خالی بین دو سطر نوشته شده چه باید کرد؟",
+        "selected": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم",
+        "correct": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم"
+      },
+      {
+        "question": "کدام نما برای ایجاد و طراحی اسلایدها استفاده می شود؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      }
+    ],
+    "date": "2026-09-19T14:46:35.798Z"
   }
 ]
