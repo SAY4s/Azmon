@@ -6782,5 +6782,217 @@
       }
     ],
     "date": "2026-09-19T21:06:55.936Z"
+  },
+  {
+    "name": "فاطمه رازقی",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Below از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "بالا",
+        "correct": "پایین"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "یادداشت",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر به معنی شبکه می باشد؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام گزینه در مورد دولت الکترونیکی بکار می رود؟",
+        "selected": "E-Government",
+        "correct": "E-Government"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "یک بایت",
+        "correct": "یک بیت"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "در صورتی که بخواهیم تمام اسلایدهای فایل ارائه مطلب را چاپ کنیم کدام گزینه را در پنجره Print انتخاب می کنیم؟",
+        "selected": "Print All Slide",
+        "correct": "Print All Slide"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Summary",
+        "correct": "Summary"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": "Show Desktop Icon",
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "بر روی تب مورد نظر اشاره کرده و کلید Delete را فشار می دهیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "برای تغییر نوع نمودار از کدام گزینه استفاده می کنیم؟",
+        "selected": "Templates",
+        "correct": "Change Chart Type"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Ctrl همراه با کلیدهای جهتی",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "در طراحی اسلاید اصلی در ابزار Slide Master می توانیم .........",
+        "selected": "در طراحی اسلاید اصلی هیچ تغییری نمی توان ایجاد کرد",
+        "correct": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط لغات مستقل در کادر جستجو پیدا شوند کدام گزینه را فعال می کنیم؟",
+        "selected": "Find Whole Words Only",
+        "correct": "Find Whole Words Only"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Set as Default Theme",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت چپ",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "نام سایتی که وارد آن شده ایم در کجا مشاهده می شود؟",
+        "selected": "در نوار آدرس مرورگر مشاهده می شود",
+        "correct": "در نوار آدرس مرورگر مشاهده می شود"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Home",
+        "correct": "Page layout"
+      },
+      {
+        "question": "جهت نمایش محتوای فایل های شناسایی نشده توسط ویندوز کدام گزینه صحیح است؟",
+        "selected": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید",
+        "correct": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Shapes",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "برای جستجوی فایل های 5 حرفی که به P ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "p????",
+        "correct": "????p"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه ای از شیارها با شعاع یکسان",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "کدام گزینه شامل کلیدهای کنترلی می شود؟",
+        "selected": "Ctrl-Shift-Alt-Esc",
+        "correct": "Ctrl-Shift-Alt-Esc"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "کاربرد دستور Page Break در گروه Pages چیست؟",
+        "selected": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند",
+        "correct": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن تصاویر گرافیکی هوشمند استفاده می شود؟",
+        "selected": "Hyper Link",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      }
+    ],
+    "date": "2026-09-19T21:35:40.523Z"
   }
 ]
