@@ -6358,5 +6358,217 @@
       }
     ],
     "date": "2026-09-19T14:57:59.719Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در قسمت Subject نامه چه چیز را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "در صورتی که بخواهیم اسلایدهای فایل ارائه مطلب همراه با نکات آن چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Note Pages",
+        "correct": "Note Pages"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "به عنصری از بانک اطلاعاتی که جهت ورود یا تغییر اطلاعات به کار می رود چه می گویند؟",
+        "selected": "Form",
+        "correct": "Form"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Direction از گروه Alignment",
+        "correct": "Text Direction از گروه Cell Size"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "Favorites چه کاربردی دارد؟",
+        "selected": "فعال سازی لیست سایت های مورد علاقه",
+        "correct": "فعال سازی لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Home گروه Editing گزینه Filter & Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس پست الکترونیک منحصر به فرد است",
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "کدام یک از دستورات Alignment برای منظم کردن متن کاربرد دارد؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "به منظور ورود به محل ایمیل شخصی در سایت Yahoo از کدام گزینه استفاده می شود؟",
+        "selected": "Sign in",
+        "correct": "Sign in"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Group",
+        "correct": "Group"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "برای انتخاب یک محدوده مشخص می توان............؟",
+        "selected": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم",
+        "correct": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم"
+      },
+      {
+        "question": "سرعت انتقال داده ها در CPU از حافظه اصلی Ram ............ می باشد به همین جهت از حافظه های .............. استفاده می کنند.",
+        "selected": "کمتر - Cache",
+        "correct": "کمتر - Cache"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Picture/Graphic",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "یک جدول جدید ایجاد می گردد",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "کدام نوع رابطه در بین جداول اشتباه است؟",
+        "selected": "رابطه چند به یک",
+        "correct": "رابطه چند به یک"
+      },
+      {
+        "question": "هرگاه اندازه سطرهای جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Rows",
+        "correct": "Distribute Rows"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخابی را روی همه اسلایدها اعمال کنیم با راست کلیک بر روی تم مورد نظر کدام گزینه مناسب است؟",
+        "selected": "Apply to All Slides",
+        "correct": "Apply to All Slides"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "وارد کردن داده در برنامه و آزمایش و پالایش آن",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک روی جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس ایمیل (E-mail) منحصر به فرد است",
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "اعداد قسمت ماشین حساب را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Delete sheet Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Shading",
+        "correct": "Gradient"
+      },
+      {
+        "question": "اگر آدرس یک پست الکترونیک را اشتباه بنویسیم چه اتفاقی می افتد؟",
+        "selected": "نامه با پیام مناسب برگشت داده می شود",
+        "correct": "نامه با پیام مناسب برگشت داده می شود"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "خط تیره",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش آیکن ها با جزئیات بکار می رود؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "اگر خانه های A1=5، B1=Ali، C1=6 باشد حاصل تابع زیر کدام است؟ =Sum(Ali; A1; C1)",
+        "selected": "خطای Name",
+        "correct": "11"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کوچکترین عنصر در بانک که حاوی اطلاعات است چه می گویند؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      }
+    ],
+    "date": "2026-09-19T15:03:13.351Z"
   }
 ]
