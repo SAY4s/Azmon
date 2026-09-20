@@ -13990,5 +13990,217 @@
       }
     ],
     "date": "2026-09-20T21:46:35.414Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Datasheet View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "UPS",
+        "correct": "UPS"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "شیرازه یعنی چه؟",
+        "selected": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی",
+        "correct": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس ایمیل (E-mail) منحصر به فرد است",
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Auto Hide the Task Bar",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "کدام یک از موارد زیر تعریف کامپیوتر می باشد؟",
+        "selected": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند",
+        "correct": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "برای ایجاد فیلد کلید اصلی از گزینه ................. استفاده می کنیم.",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Info",
+        "correct": "Info"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "جهت مرتب نمودن داده های جدول گزینه Sort را از تب ............ انتخاب می کنیم.",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Unique سازی فیلدهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Fill",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Copies",
+        "correct": "Copies"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form و Datasheet",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "کدامیک از پرونده های زیر را نمی توان به عنوان تصویر زمینه ویندوز استفاده کرد؟",
+        "selected": "*.dat",
+        "correct": "*.dat"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Page Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "با استفاده از کدام تب از کادر محاوره ای Format Cell می توان خطوط کادر خانه ها را تنظیم نمود؟",
+        "selected": "Border",
+        "correct": "Border"
+      },
+      {
+        "question": "تعریف نرم افزار کدام گزینه زیر می باشد؟",
+        "selected": "داده ها و دستورالعمل ها",
+        "correct": "داده ها و دستورالعمل ها"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (رایانامه) به چه منظوری به کار می رود؟",
+        "selected": "برای فرستادن رونوشت نامه به صورت محرمانه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "کدام کنترل زیر در طراحی گزارش برای نمایش متن فیلدها استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "در کدام نما نمی توان متن یا تصویر به اسلاید اضافه نمود؟",
+        "selected": "Note Page",
+        "correct": "Slide Sorter"
+      }
+    ],
+    "date": "2026-09-20T21:50:58.180Z"
   }
 ]
