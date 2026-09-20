@@ -13778,5 +13778,217 @@
       }
     ],
     "date": "2026-09-20T21:42:30.219Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "برای سفارشی کردن بزرگ نمایی صفحه در محیط نرم افزار Word از کدام مورد استفاده می کنیم؟",
+        "selected": "View>Zoom",
+        "correct": "View>Zoom"
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است",
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "ROM",
+        "correct": "ROM"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "یک جدول جدید ایجاد می گردد",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOTX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Search",
+        "correct": "Search"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Transition",
+        "correct": "Transition"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "پیغام های دریافت شده در Outlook Express در کدام پوشه قرار دارند؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "کدام یک از گزینه های موجود در زبانه number از کادر محاوره Cells Format امکان اضافه کردن % (درصد) را به اعداد می دهد؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "جهت چاپ چند اسلاید به صورت کوچک در یک کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Handouts",
+        "correct": "Handouts"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد میانبرها صحیح نیست؟",
+        "selected": "با پاک شدن آن برنامه اصلی نیز پاک می شود",
+        "correct": "با پاک شدن آن برنامه اصلی نیز پاک می شود"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیز را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Page Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "کدام گزینه برای انتخاب آیتم های همجوار استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Fields",
+        "correct": "Fields"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "پست الکترونیک به کدام گزینه معروف است؟",
+        "selected": "E-Mail",
+        "correct": "Chat"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "درپنجره Internet انتخاب کدام گزینه ها موجب می شود صفحه خانگی یک صفحه خالی باشد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از مزایای کامپیوتر نمی باشد؟",
+        "selected": "ضریب خطای بالا",
+        "correct": "ضریب خطای بالا"
+      },
+      {
+        "question": "برای انتخاب چند سطر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "به چه روشی می توانیم نوع Tab را تغییر دهیم؟",
+        "selected": "با کلیک روی مربع مربوط به Tab ها در سمت چپ خط کش",
+        "correct": "با کلیک روی مربع مربوط به Tab ها در سمت چپ خط کش"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K$6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "کدامیک از موارد زیر از توانایی های برنامه های صفحه گسترده نمی باشد؟",
+        "selected": "تولید یک برنامه اجرایی مستقل کامپیوتری",
+        "correct": "تولید یک برنامه اجرایی مستقل کامپیوتری"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Right",
+        "correct": "Right"
+      }
+    ],
+    "date": "2026-09-20T21:46:35.414Z"
   }
 ]
