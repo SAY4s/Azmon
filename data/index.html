@@ -2120,7 +2120,7 @@ async function renderElementToPdfBlob(el){
     imgPxHeight = h;
   } catch(err){
     console.error('dom-to-image failed, falling back to html2canvas', err);
-    const canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
+    const canvas = await html2canvas(el, { scale:4, backgroundColor:'#f2ecdd', useCORS:true });
     imgData = canvas.toDataURL('image/png');
     imgPxWidth = canvas.width;
     imgPxHeight = canvas.height;
