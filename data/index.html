@@ -2099,18 +2099,27 @@ async function renderElementToPdfBlob(el){
   }
   await new Promise(r=>setTimeout(r, 60));
 
+  const scale = 3;
   const w = el.offsetWidth;
   const h = el.offsetHeight;
 
   let imgData, imgPxWidth, imgPxHeight;
   try{
-    imgData = await domtoimage.toJpeg(el, { quality: 0.95, bgcolor: '#f2ecdd', width: w, height: h });
-    imgPxWidth = w;
-    imgPxHeight = h;
+    imgData = await domtoimage.toPng(el, {
+      bgcolor: '#f2ecdd',
+      width: w * scale,
+      height: h * scale,
+      style: {
+        transform: `scale(${scale})`,
+        transformOrigin: 'top left'
+      }
+    });
+    imgPxWidth = w * scale;
+    imgPxHeight = h * scale;
   } catch(err){
     console.error('dom-to-image failed, falling back to html2canvas', err);
     const canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
-    imgData = canvas.toDataURL('image/jpeg', 0.92);
+    imgData = canvas.toDataURL('image/png');
     imgPxWidth = canvas.width;
     imgPxHeight = canvas.height;
   } finally {
@@ -2126,12 +2135,12 @@ async function renderElementToPdfBlob(el){
 
   let heightLeft = imgHeight;
   let position = 0;
-  pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+  pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
   heightLeft -= pageHeight;
   while(heightLeft > 0){
     position = heightLeft - imgHeight;
     pdf.addPage();
-    pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
     heightLeft -= pageHeight;
   }
   return pdf.output('blob');
