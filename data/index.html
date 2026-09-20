@@ -2106,7 +2106,7 @@ async function renderElementToPdfBlob(el){
   // library decides to capture. CSS `zoom`, by contrast, genuinely changes
   // layout (offsetWidth/offsetHeight grow for real), so there's nothing left
   // that can get out of sync — dom-to-image just sees a bigger element.
-  const scale = 1;
+  const scale = 2.5;
   el.style.zoom = scale;
   await new Promise(r=>setTimeout(r, 30)); // let the zoomed layout settle
 
@@ -2120,7 +2120,7 @@ async function renderElementToPdfBlob(el){
     imgPxHeight = h;
   } catch(err){
     console.error('dom-to-image failed, falling back to html2canvas', err);
-    const canvas = await html2canvas(el, { scale:4, backgroundColor:'#f2ecdd', useCORS:true });
+    const canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
     imgData = canvas.toDataURL('image/png');
     imgPxWidth = canvas.width;
     imgPxHeight = canvas.height;
