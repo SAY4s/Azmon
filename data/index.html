@@ -2103,17 +2103,24 @@ async function renderElementToPdfBlob(el){
   const w = el.offsetWidth;
   const h = el.offsetHeight;
 
+  // Passing dom-to-image's own width/height + style options (to render at a
+  // higher resolution) came back blank — it seems the library's internal
+  // computed-style copy happens after merging our override, wiping the
+  // transform out. So instead we scale el ourselves, directly, with a plain
+  // inline style, inside a wrapper sized to exactly fit the scaled-up result;
+  // dom-to-image is then just asked to capture that wrapper at its natural
+  // (already-scaled) size, with no special options to go wrong.
+  const scaler = document.createElement('div');
+  scaler.style.cssText = `width:${w * scale}px; height:${h * scale}px; overflow:hidden;`;
+  el.style.transform = `scale(${scale})`;
+  el.style.transformOrigin = 'top left';
+  hider.removeChild(el);
+  scaler.appendChild(el);
+  hider.appendChild(scaler);
+
   let imgData, imgPxWidth, imgPxHeight;
   try{
-    imgData = await domtoimage.toPng(el, {
-      bgcolor: '#f2ecdd',
-      width: w * scale,
-      height: h * scale,
-      style: {
-        transform: `scale(${scale})`,
-        transformOrigin: 'top left'
-      }
-    });
+    imgData = await domtoimage.toPng(scaler, { bgcolor: '#f2ecdd' });
     imgPxWidth = w * scale;
     imgPxHeight = h * scale;
   } catch(err){
