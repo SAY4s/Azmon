@@ -2099,25 +2099,38 @@ async function renderElementToPdfBlob(el){
   }
   await new Promise(r=>setTimeout(r, 60));
 
-  // A transform-based scale-up (even done ourselves, outside dom-to-image's
-  // own width/height option) turned out to only partially capture the result:
-  // transform is paint-only and doesn't change the element's actual layout
-  // size, so it's easy for it to end up out of sync with whatever box the
-  // library decides to capture. CSS `zoom`, by contrast, genuinely changes
-  // layout (offsetWidth/offsetHeight grow for real), so there's nothing left
-  // that can get out of sync — dom-to-image just sees a bigger element.
-  const scale = 2.5;
-  el.style.zoom = scale;
-  await new Promise(r=>setTimeout(r, 30)); // let the zoomed layout settle
-
   const w = el.offsetWidth;
   const h = el.offsetHeight;
+  const scale = 3;
 
+  // Every attempt at asking dom-to-image itself to render el at a larger
+  // size (via width/height+style, or by scaling/zooming el before handing
+  // it over) has hit a different bug, because the library measures/clones el
+  // itself and something about that scaling leaks into the measurement.
+  // So el is captured completely untouched, at its natural size — the exact
+  // configuration already confirmed to render correctly — as an SVG (fonts
+  // embedded). We then do the upscaling ourselves, by drawing that SVG onto
+  // a larger canvas; since the source is vector (SVG), the browser re-renders
+  // it crisply at the target size instead of blurrily stretching a raster.
   let imgData, imgPxWidth, imgPxHeight;
   try{
-    imgData = await domtoimage.toPng(el, { bgcolor: '#f2ecdd' });
-    imgPxWidth = w;
-    imgPxHeight = h;
+    const svgDataUrl = await domtoimage.toSvg(el, { bgcolor: '#f2ecdd' });
+    const img = new Image();
+    await new Promise((resolve, reject)=>{
+      img.onload = resolve;
+      img.onerror = () => reject(new Error('svg-image-load-failed'));
+      img.src = svgDataUrl;
+    });
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.max(1, Math.ceil(w * scale));
+    canvas.height = Math.max(1, Math.ceil(h * scale));
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#f2ecdd';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    imgData = canvas.toDataURL('image/png');
+    imgPxWidth = canvas.width;
+    imgPxHeight = canvas.height;
   } catch(err){
     console.error('dom-to-image failed, falling back to html2canvas', err);
     const canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
