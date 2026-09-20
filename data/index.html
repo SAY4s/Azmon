@@ -2099,30 +2099,25 @@ async function renderElementToPdfBlob(el){
   }
   await new Promise(r=>setTimeout(r, 60));
 
-  const scale = 3;
+  // A transform-based scale-up (even done ourselves, outside dom-to-image's
+  // own width/height option) turned out to only partially capture the result:
+  // transform is paint-only and doesn't change the element's actual layout
+  // size, so it's easy for it to end up out of sync with whatever box the
+  // library decides to capture. CSS `zoom`, by contrast, genuinely changes
+  // layout (offsetWidth/offsetHeight grow for real), so there's nothing left
+  // that can get out of sync — dom-to-image just sees a bigger element.
+  const scale = 2.5;
+  el.style.zoom = scale;
+  await new Promise(r=>setTimeout(r, 30)); // let the zoomed layout settle
+
   const w = el.offsetWidth;
   const h = el.offsetHeight;
 
-  // Passing dom-to-image's own width/height + style options (to render at a
-  // higher resolution) came back blank — it seems the library's internal
-  // computed-style copy happens after merging our override, wiping the
-  // transform out. So instead we scale el ourselves, directly, with a plain
-  // inline style, inside a wrapper sized to exactly fit the scaled-up result;
-  // dom-to-image is then just asked to capture that wrapper at its natural
-  // (already-scaled) size, with no special options to go wrong.
-  const scaler = document.createElement('div');
-  scaler.style.cssText = `width:${w * scale}px; height:${h * scale}px; overflow:hidden;`;
-  el.style.transform = `scale(${scale})`;
-  el.style.transformOrigin = 'top left';
-  hider.removeChild(el);
-  scaler.appendChild(el);
-  hider.appendChild(scaler);
-
   let imgData, imgPxWidth, imgPxHeight;
   try{
-    imgData = await domtoimage.toPng(scaler, { bgcolor: '#f2ecdd' });
-    imgPxWidth = w * scale;
-    imgPxHeight = h * scale;
+    imgData = await domtoimage.toPng(el, { bgcolor: '#f2ecdd' });
+    imgPxWidth = w;
+    imgPxHeight = h;
   } catch(err){
     console.error('dom-to-image failed, falling back to html2canvas', err);
     const canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
