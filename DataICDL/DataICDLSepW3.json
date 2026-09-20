@@ -14202,5 +14202,217 @@
       }
     ],
     "date": "2026-09-20T21:50:58.180Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Desktop - Laptop",
+        "correct": "Desktop - Laptop"
+      },
+      {
+        "question": "برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.",
+        "selected": "Page Number-Insert",
+        "correct": "Page Number-Insert"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "DOS",
+        "correct": "DOS"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی و تاریخی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "انتخاب یک سبک از کدام روش صورت می گیرد؟",
+        "selected": "انتخاب Style از زبانه Home",
+        "correct": "انتخاب Style از زبانه Home"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "از این ابزار برای مخفی کردن اسلایدها در حالت نمایش استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "جهت محافظت کاربرگ ابتدا راست کلیک سپس کدام فرمان را انتخاب می نماییم؟",
+        "selected": "Protect Sheet",
+        "correct": "Protect Sheet"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (یا نامه) به چه منظوری به کار می رود؟",
+        "selected": "برای فرستادن رونوشت نامه به صورت محرمانه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Current Page",
+        "correct": "Current Page"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "راهنما",
+        "correct": "راهنما"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Ctrl+F1",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "کلیدهای میانبر فرمان Copy و Paste کدام است؟",
+        "selected": "Ctrl+C ، Ctrl+V",
+        "correct": "Ctrl+C ، Ctrl+V"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد",
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "اگر بخواهیم باز شدن صفحه ای را در IE متوقف کنیم چه دکمه ای را از نوار ابزار کلیک می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت General گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد",
+        "correct": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد"
+      },
+      {
+        "question": "اگر در یک query برای فیلد تاریخ تولد عبارت 1360<= and <=1367 به کار رود در لیست نتیجه کدام مورد زیر ظاهر می شود؟",
+        "selected": "اطلاعات افرادی که تولد آنها از 1360 تا 1367 است",
+        "correct": "اطلاعات افرادی که تولد آنها از 1360 تا 1367 است"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Bar",
+        "correct": "Bar"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "فاکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "برای بستن پنجره فعال از ترکیب کلیدهای ............... استفاده می شود؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Create-Form Design",
+        "correct": "Create-Form Design"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "شیرازه یعنی چه؟",
+        "selected": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی",
+        "correct": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی"
+      },
+      {
+        "question": "برای اینکه اعلام کنیم که اعداد بزرگتر از 50 برای یک فیلد در نظر گرفته شوند، شرط را برای کدام خاصیت از فیلد باید اعلام نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      }
+    ],
+    "date": "2026-09-20T21:56:03.824Z"
   }
 ]
