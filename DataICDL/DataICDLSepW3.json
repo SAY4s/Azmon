@@ -8266,5 +8266,217 @@
       }
     ],
     "date": "2026-09-20T10:10:42.084Z"
+  },
+  {
+    "name": "فاطمه رازقی",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "سرعت دریافت فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "در هنگام طراحی فرم با Form Wizard کلیک بر روی کدام دکمه باعث انتقال تمام فیلدها از لیست Available Selected Fields می شود؟",
+        "selected": "<<",
+        "correct": "<<"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Information",
+        "correct": "Information"
+      },
+      {
+        "question": "کدام فرمول میانگین A1 تا A6 را محاسبه نمی کند؟",
+        "selected": "=Sum(A1:A6)/Count(A1:A6)",
+        "correct": "=Average(A1;A6)"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": "تغییر فرمت نوشته های لاتین",
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "Apply Styles چه کاری انجام می دهد؟",
+        "selected": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم",
+        "correct": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم"
+      },
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند کدام گزینه را انتخاب می کنید؟",
+        "selected": "آدرس آن را در قسمت BCC وارد می کنیم",
+        "correct": "آدرس آن را در قسمت BCC وارد می کنیم"
+      },
+      {
+        "question": "سربرگ Format در پنجره خصوصیات فرم جهت تغییر یا تعیین ...............؟",
+        "selected": "خصوصیات قالب بندی کنترل به کار می رود",
+        "correct": "خصوصیات قالب بندی کنترل به کار می رود"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "LED",
+        "correct": "CRT"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Text Size",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "جهت ایجاد مقدار پیش فرض فیلدها از کدام گزینه استفاده می گردد؟",
+        "selected": "Default Value",
+        "correct": "Default Value"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(a1=kh,\"t\",\"f\")",
+        "selected": "F",
+        "correct": "F"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "برای رفتن به ابتدای فایل باید از کلید ترکیبی …….. استفاده کرد.",
+        "selected": "Ctrl+Home",
+        "correct": "Ctrl+Home"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "از ابزار Object به منظور ......",
+        "selected": "درج تصاویری که توسط نرم افزارها و دوربین های دیجیتال ایجاد شده اند و به صورت فایل بر روی دیسک سخت قرار دارند",
+        "correct": "درج فایل هایی از داخل حافظه دیسک سخت از قبیل فایل های نرم افزارهای غیرمرتبط"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "برای اضافه کردن نام سایت به لیست علاقه مندی خود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Add To Favorites",
+        "correct": "Add To Favorites"
+      },
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Microsoft Word",
+        "correct": "Templates"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "برای انجام عمل جستجو در اینترنت توسط IE از کدام سایت ها نمی توان استفاده کرد؟",
+        "selected": "Blogfa",
+        "correct": "Blogfa"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Character Spacing از Paragraph",
+        "correct": "زبانه Line and Page Breaks از Paragraph"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "به نوار رنگی بالای پنجره ها چه می گویند؟",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "یک قانون اعتبار (Validation Rule)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": "خصوصیت Required تعیین می کند کاربر باید در فیلد مقدار وارد کند یا نه",
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": "واحد ورودی",
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیرقابل استفاده می شود، چه می گویند؟",
+        "selected": "Free Ware",
+        "correct": "Share ware"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Required",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای قالب بندی فهرست علائم نمودار، در نوار ابزار Chart و از لیست اجزای نمودار کدام مورد صحیح است؟",
+        "selected": "Chart Area",
+        "correct": "Legend"
+      }
+    ],
+    "date": "2026-09-20T10:15:32.355Z"
   }
 ]
