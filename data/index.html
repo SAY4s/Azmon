@@ -2084,31 +2084,29 @@ function buildReportElement(entry){
 // isolated image context (which is why a plain @import approach silently failed
 // and fell back to the broken html2canvas path).
 async function renderElementToPdfBlob(el){
-  el.style.position = 'fixed';
-  el.style.top = '0';
-  el.style.left = '-10000px';
-  el.style.zIndex = '-1';
-  document.body.appendChild(el);
+  // dom-to-image copies the element's *computed* style onto its clone. Styling
+  // `el` itself as position:fixed/left:-10000px (to hide it off-screen) means
+  // that offscreen position gets baked into the clone too, which then renders
+  // completely outside the isolated SVG's visible area — a blank image. So we
+  // hide it via a wrapper instead, leaving el's own computed style untouched.
+  const hider = document.createElement('div');
+  hider.style.cssText = 'position:fixed; top:0; left:0; width:0; height:0; overflow:hidden;';
+  hider.appendChild(el);
+  document.body.appendChild(hider);
+
   if(document.fonts && document.fonts.ready){
     try{ await document.fonts.ready; } catch(e){}
   }
   await new Promise(r=>setTimeout(r, 60));
 
-  const scale = 2;
   const w = el.offsetWidth;
   const h = el.offsetHeight;
 
   let imgData, imgPxWidth, imgPxHeight;
   try{
-    imgData = await domtoimage.toJpeg(el, {
-      quality: 0.95,
-      bgcolor: '#f2ecdd',
-      width: w * scale,
-      height: h * scale,
-      style: { transform: `scale(${scale})`, transformOrigin: 'top left' }
-    });
-    imgPxWidth = w * scale;
-    imgPxHeight = h * scale;
+    imgData = await domtoimage.toJpeg(el, { quality: 0.95, bgcolor: '#f2ecdd', width: w, height: h });
+    imgPxWidth = w;
+    imgPxHeight = h;
   } catch(err){
     console.error('dom-to-image failed, falling back to html2canvas', err);
     const canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
@@ -2116,7 +2114,7 @@ async function renderElementToPdfBlob(el){
     imgPxWidth = canvas.width;
     imgPxHeight = canvas.height;
   } finally {
-    document.body.removeChild(el);
+    document.body.removeChild(hider);
   }
 
   const { jsPDF } = window.jspdf;
