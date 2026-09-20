@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>پاسخ‌برگ | نمایشگر نتایج آزمون</title>
+<title>پاسخ‌برگ | نمايشگر نتايج آزمون</title>
 <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
@@ -374,6 +374,145 @@ body::before{
   flex-shrink:0;
 }
 
+/* ---------- People search (global) ---------- */
+.people-search{
+  position:relative;
+  margin:0 0 30px;
+  text-align:right;
+}
+.people-search .ps-input-wrap{
+  position:relative;
+}
+.people-search svg.ps-icon{
+  position:absolute;
+  top:50%; right:16px;
+  transform:translateY(-50%);
+  width:18px; height:18px;
+  stroke:var(--ink-soft);
+  pointer-events:none;
+}
+.people-search input{
+  width:100%;
+  font-family:inherit;
+  font-size:15px;
+  font-weight:600;
+  padding:13px 44px 13px 16px;
+  border-radius:24px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  color:var(--ink);
+  outline:none;
+  transition:border-color .15s ease;
+}
+.people-search input:focus{
+  border-color:var(--red-soft);
+}
+.people-search .ps-clear{
+  position:absolute;
+  top:50%; left:12px;
+  transform:translateY(-50%);
+  width:22px; height:22px;
+  border-radius:50%;
+  border:none;
+  background:var(--paper-dark);
+  color:var(--ink-soft);
+  font-size:13px;
+  font-weight:700;
+  cursor:pointer;
+  display:none;
+  align-items:center;
+  justify-content:center;
+}
+.people-search .ps-results{
+  display:none;
+  flex-direction:column;
+  gap:10px;
+  margin-top:18px;
+}
+.people-search .ps-row{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-right:4px solid var(--gold);
+  border-radius:8px;
+  padding:14px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.people-search .ps-row:hover{
+  border-color:var(--red-soft);
+  border-right-color:var(--red);
+  background:rgba(255,255,255,0.85);
+  transform:translateX(-3px);
+}
+.people-search .ps-row .who{display:flex; flex-direction:column; gap:5px;}
+.people-search .ps-row .name{font-weight:700; font-size:15px;}
+.people-search .ps-row .meta{font-size:12.5px; color:var(--ink-soft); font-weight:500; display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
+.people-search .ps-row .exam-badge{
+  display:inline-block;
+  background:var(--ink);
+  color:var(--paper);
+  font-size:11px;
+  font-weight:700;
+  padding:2px 10px;
+  border-radius:20px;
+}
+.people-search .ps-row .score-badge{
+  font-weight:900;
+  font-size:18px;
+  min-width:50px;
+  text-align:center;
+  flex-shrink:0;
+}
+.people-search .ps-empty{
+  display:none;
+  text-align:center;
+  padding:22px 16px;
+  color:var(--ink-soft);
+  font-weight:600;
+  font-size:14px;
+}
+.people-search .ps-more{
+  text-align:center;
+  color:var(--ink-soft);
+  font-size:12.5px;
+  font-weight:600;
+  margin-top:2px;
+}
+.list-search{
+  margin-bottom:14px;
+}
+.list-search input{
+  width:100%;
+  font-family:inherit;
+  font-size:14px;
+  font-weight:600;
+  padding:11px 40px 11px 14px;
+  border-radius:22px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  color:var(--ink);
+  outline:none;
+  transition:border-color .15s ease;
+}
+.list-search input:focus{
+  border-color:var(--red-soft);
+}
+.list-search{
+  position:relative;
+}
+.list-search svg.ls-icon{
+  position:absolute;
+  top:50%; right:14px;
+  transform:translateY(-50%);
+  width:16px; height:16px;
+  stroke:var(--ink-soft);
+  pointer-events:none;
+}
+
 /* ---------- Paper list (multi-student) ---------- */
 #listView{
   display:none;
@@ -595,7 +734,7 @@ body::before{
 }
 .stamp.pass{border-color:var(--green); color:var(--green); background:rgba(47,104,68,0.05);}
 .stamp .pct{font-size:28px; font-weight:900; line-height:1;}
-.stamp .pct::after{content:'٪';}
+.stamp .pct::after{content:'%';}
 .stamp .lbl{font-size:10px; font-weight:700; margin-top:2px; letter-spacing:1px;}
 
 .stats-row{
@@ -730,7 +869,7 @@ body::before{
 <!-- DROP ZONE -->
 <div id="dropzone">
   <div class="stamp-title">پاسخ‌<span>برگ</span></div>
-  <p class="subtitle" id="mainSubtitle">داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...</p>
+  <p class="subtitle" id="mainSubtitle">داره از مخزن Azmon روي گيت‌هاب خونده مي‌شه...</p>
 
   <div class="sync-status" id="syncStatus">
     <div class="spinner"></div>
@@ -738,25 +877,37 @@ body::before{
   </div>
 
   <div class="gh-actions" id="ghActions" style="display:none;">
-    <button class="gh-btn" id="retryGhBtn">🔄 دوباره تلاش کن</button>
-    <button class="gh-btn secondary" id="showManualBtn">بارگذاری دستی فایل</button>
+    <button class="gh-btn" id="retryGhBtn">?? دوباره تلاش کن</button>
+    <button class="gh-btn secondary" id="showManualBtn">بارگذاري دستي فايل</button>
   </div>
 
   <div id="manualSection">
     <label class="drop-card" id="dropCard">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
-      <div class="cta">فایل را بکش و رها کن</div>
-      <div class="hint">یا کلیک کن برای انتخاب فایل (.json)</div>
+      <div class="cta">فايل را بکش و رها کن</div>
+      <div class="hint">يا کليک کن براي انتخاب فايل (.json)</div>
       <input type="file" id="fileInput" accept="application/json,.json">
     </label>
-    <p class="error-msg" id="errorMsg">فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.</p>
+    <p class="error-msg" id="errorMsg">فايل معتبر نبود. لطفاً يک خروجي JSON درست انتخاب کن.</p>
   </div>
 </div>
 
 <!-- TOPIC SELECTION VIEW -->
 <div id="topicView">
   <div class="stamp-title" style="font-size:clamp(24px,4vw,34px);">انتخاب <span style="color:var(--red);">مبحث</span></div>
-  <p class="subtitle">این فایل چند مبحث مختلف داره؛ اول انتخاب کن کدوم رو می‌خوای ببینی.</p>
+  <p class="subtitle">اين فايل چند مبحث مختلف داره؛ اول انتخاب کن کدوم رو مي‌خواي ببيني.</p>
+
+  <div class="people-search">
+    <div class="ps-input-wrap">
+      <svg class="ps-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="peopleSearchInput" placeholder="جستجوي نام يک نفر در همه‌ي مباحث…" autocomplete="off">
+      <button class="ps-clear" id="peopleSearchClear" type="button">✕</button>
+    </div>
+    <div class="ps-results" id="peopleSearchResults"></div>
+    <div class="ps-empty" id="peopleSearchEmpty">کسي با اين اسم پيدا نشد.</div>
+    <div class="ps-more" id="peopleSearchMore" style="display:none;"></div>
+  </div>
+
   <div id="topicRows"></div>
 </div>
 
@@ -780,13 +931,18 @@ body::before{
       </button>
       <button class="excel-btn karnameh-btn" id="exportKarnamehZipBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg>
-        کارنامه‌ی همه (PDF)
+        کارنامه‌ي همه (PDF)
       </button>
     </div>
   </div>
 
+  <div class="list-search">
+    <svg class="ls-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" id="listSearchInput" placeholder="جستجوي نام در همين مبحث…" autocomplete="off">
+  </div>
+
   <div class="date-filter">
-    <div class="df-title">بازه‌ی تاریخ (شمسی)</div>
+    <div class="df-title">بازه‌ي تاريخ (شمسي)</div>
     <div class="df-rows">
       <div class="df-row">
         <span class="df-label">از:</span>
@@ -808,7 +964,7 @@ body::before{
   </div>
 
   <div id="sheetRows"></div>
-  <div class="df-empty" id="dfEmpty">هیچ پاسخ‌برگی توی این بازه‌ی تاریخ پیدا نشد.</div>
+  <div class="df-empty" id="dfEmpty">هيچ پاسخ‌برگي توي اين بازه‌ي تاريخ پيدا نشد.</div>
 </div>
 
 <!-- DETAIL VIEW -->
@@ -844,7 +1000,7 @@ body::before{
     </div>
     <div class="stamp" id="stamp">
       <div class="pct" id="pctNum"></div>
-      <div class="lbl">نتیجه</div>
+      <div class="lbl">نتيجه</div>
     </div>
   </div>
 
@@ -852,26 +1008,26 @@ body::before{
     <div class="stat"><div class="num" id="statScore"></div><div class="lab">نمره</div></div>
     <div class="stat correct"><div class="num" id="statCorrect"></div><div class="lab">درست</div></div>
     <div class="stat wrong"><div class="num" id="statWrong"></div><div class="lab">غلط</div></div>
-    <div class="stat blank"><div class="num" id="statBlank"></div><div class="lab">بی‌پاسخ</div></div>
+    <div class="stat blank"><div class="num" id="statBlank"></div><div class="lab">بي‌پاسخ</div></div>
   </div>
 
   <div class="filter-bar">
     <button class="filter-btn active" data-filter="all">همه</button>
     <button class="filter-btn" data-filter="wrong">فقط غلط‌ها</button>
-    <button class="filter-btn" data-filter="blank">فقط بی‌پاسخ</button>
+    <button class="filter-btn" data-filter="blank">فقط بي‌پاسخ</button>
     <button class="filter-btn" data-filter="correct">فقط درست‌ها</button>
   </div>
 
   <div class="q-list" id="qList"></div>
-  <div class="empty-filter" id="emptyFilter" style="display:none;">در این دسته سوالی وجود نداره 🎉</div>
+  <div class="empty-filter" id="emptyFilter" style="display:none;">در اين دسته سوالي وجود نداره ??</div>
 </div>
 
 <!-- EXCEL PREVIEW MODAL -->
 <div class="modal-overlay" id="excelModalOverlay">
   <div class="modal-box">
     <div class="modal-head">
-      <h3 id="excelModalTitle">پیش‌نمایش خروجی اکسل</h3>
-      <button class="modal-close" id="excelModalClose">✕</button>
+      <h3 id="excelModalTitle">پيش‌نمايش خروجي اکسل</h3>
+      <button class="modal-close" id="excelModalClose">?</button>
     </div>
     <div class="modal-body">
       <table id="excelPreviewTable">
@@ -883,7 +1039,7 @@ body::before{
       <span class="hint" id="excelModalHint"></span>
       <button class="excel-btn" id="excelDownloadBtn" style="background:var(--green); color:#fff;">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-        دانلود فایل اکسل
+        دانلود فايل اکسل
       </button>
     </div>
   </div>
@@ -893,7 +1049,7 @@ body::before{
 <div class="modal-overlay" id="pdfProgressOverlay">
   <div class="modal-box" style="max-width:420px;">
     <div class="modal-head">
-      <h3>در حال ساخت فایل‌های PDF</h3>
+      <h3>در حال ساخت فايل‌هاي PDF</h3>
     </div>
     <div class="modal-body" style="text-align:center; padding:32px 24px;">
       <div class="spinner" style="width:32px; height:32px; border-width:3px; margin:0 auto 16px;"></div>
@@ -908,7 +1064,7 @@ body::before{
 
 <script>
 /* ---------- Jalali (Shamsi) calendar conversion ---------- */
-const PERSIAN_MONTHS = ['فروردین','اردیبهشت','خرداد','تیر','مرداد','شهریور','مهر','آبان','آذر','دی','بهمن','اسفند'];
+const PERSIAN_MONTHS = ['فروردين','ارديبهشت','خرداد','تير','مرداد','شهريور','مهر','آبان','آذر','دي','بهمن','اسفند'];
 
 function jdiv(a,b){ return Math.trunc(a/b); }
 function jmod(a,b){ return a - Math.trunc(a/b)*b; }
@@ -1009,8 +1165,8 @@ const mainSubtitle = document.getElementById('mainSubtitle');
 const GITHUB_OWNER = 'SAY4s';
 const GITHUB_REPO = 'Azmon';
 const GITHUB_BRANCH = 'main';
-// نگاشت پوشه‌ی هر مبحث به همون نامی که در ساخت فایل هفتگی استفاده می‌شه
-// (باید دقیقاً با TOPIC_MAP توی index.html هماهنگ باشه)
+// نگاشت پوشه‌ي هر مبحث به همون نامي که در ساخت فايل هفتگي استفاده مي‌شه
+// (بايد دقيقاً با TOPIC_MAP توي index.html هماهنگ باشه)
 const DATA_TOPIC_FOLDERS = {
   DataICDL: 'ICDL',
   DataPython: 'Python',
@@ -1023,7 +1179,7 @@ const DATA_TOPIC_FOLDERS = {
 };
 const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
-// لیبل تمام هفته‌های چند ماه اخیر را برمی‌گرداند (هر ماه ۴ هفته: W1 تا W4)
+// ليبل تمام هفته‌هاي چند ماه اخير را برمي‌گرداند (هر ماه ? هفته: W1 تا W4)
 function getRecentWeekLabels(monthsBack = 6){
   const labels = [];
   const now = new Date();
@@ -1035,10 +1191,10 @@ function getRecentWeekLabels(monthsBack = 6){
   return labels;
 }
 
-// به‌جای گرفتن لیست فایل‌ها از GitHub API (که برای درخواست‌های بدون توکن
-// سقف ۶۰ درخواست در ساعت داره و پشت VPN با IP مشترک خیلی زود پر می‌شه)،
-// مستقیماً بر اساس الگوی نام‌گذاری هفته، فایل‌های چند ماه اخیر هر مبحث را
-// به‌صورت موازی از raw.githubusercontent.com می‌خوانیم.
+// به‌جاي گرفتن ليست فايل‌ها از GitHub API (که براي درخواست‌هاي بدون توکن
+// سقف ?? درخواست در ساعت داره و پشت VPN با IP مشترک خيلي زود پر مي‌شه)،
+// مستقيماً بر اساس الگوي نام‌گذاري هفته، فايل‌هاي چند ماه اخير هر مبحث را
+// به‌صورت موازي از raw.githubusercontent.com مي‌خوانيم.
 async function fetchAllResultsFromGithub(){
   const weekLabels = getRecentWeekLabels(6);
   const jobs = [];
@@ -1067,7 +1223,7 @@ async function fetchAllResultsFromGithub(){
 }
 
 function showError(msg){
-  errorMsg.textContent = msg || 'فایل معتبر نبود. لطفاً یک خروجی JSON درست انتخاب کن.';
+  errorMsg.textContent = msg || 'فايل معتبر نبود. لطفاً يک خروجي JSON درست انتخاب کن.';
   errorMsg.style.display = 'block';
 }
 
@@ -1100,6 +1256,20 @@ window.addEventListener('drop', e=>{
     handleFile(e.dataTransfer.files[0]);
   }
 });
+
+function normalizeFa(str){
+  return String(str || '')
+    .toLowerCase()
+    .replaceAll('ي','ی')
+    .replaceAll('ك','ک')
+    .replaceAll('ة','ه')
+    .replaceAll('أ','ا')
+    .replaceAll('إ','ا')
+    .replaceAll('آ','ا')
+    .replace(/[\u064B-\u065F\u0640]/g,'') // strip tashkeel/tatweel
+    .replace(/\s+/g,' ')
+    .trim();
+}
 
 function uniqueTopics(data){
   const map = new Map();
@@ -1144,7 +1314,7 @@ function handleFile(file){
       showError();
     }
   };
-  reader.onerror = ()=>showError('خواندن فایل با خطا مواجه شد.');
+  reader.onerror = ()=>showError('خواندن فايل با خطا مواجه شد.');
   reader.readAsText(file, 'utf-8');
 }
 
@@ -1160,20 +1330,20 @@ function setSync(state, text){
 async function fetchFromGitHub(){
   ghActions.style.display = 'none';
   manualSection.style.display = 'none';
-  mainSubtitle.textContent = 'داره از مخزن Azmon روی گیت‌هاب خونده می‌شه...';
+  mainSubtitle.textContent = 'داره از مخزن Azmon روي گيت‌هاب خونده مي‌شه...';
   setSync('loading', 'در حال اتصال به GitHub…');
   try{
     const allEntries = await fetchAllResultsFromGithub();
     if(!allEntries.length){
-      setSync('err', 'فایل‌های روی گیت‌هاب فعلاً خالی‌اند — هنوز پاسخ‌برگی ثبت نشده.');
+      setSync('err', 'فايل‌هاي روي گيت‌هاب فعلاً خالي‌اند — هنوز پاسخ‌برگي ثبت نشده.');
       ghActions.style.display = 'flex';
       return;
     }
     processDataArray(JSON.stringify(allEntries));
-    setSync('ok', 'با موفقیت از GitHub خونده شد ✓');
+    setSync('ok', 'با موفقيت از GitHub خونده شد ?');
     setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1800);
   } catch(err){
-    setSync('err', 'نشد از گیت‌هاب بخونه. اتصال یا آدرس فایل‌ها رو چک کن.');
+    setSync('err', 'نشد از گيت‌هاب بخونه. اتصال يا آدرس فايل‌ها رو چک کن.');
     ghActions.style.display = 'flex';
   }
 }
@@ -1181,7 +1351,7 @@ async function fetchFromGitHub(){
 document.getElementById('retryGhBtn').addEventListener('click', fetchFromGitHub);
 document.getElementById('showManualBtn').addEventListener('click', ()=>{
   manualSection.style.display = 'flex';
-  mainSubtitle.textContent = 'فایل JSON نتایج آزمون را اینجا رها کن تا مثل یک برگه‌ی تصحیح‌شده نمایش داده بشه.';
+  mainSubtitle.textContent = 'فايل JSON نتايج آزمون را اينجا رها کن تا مثل يک برگه‌ي تصحيح‌شده نمايش داده بشه.';
 });
 
 // kick off automatically on load
@@ -1192,6 +1362,11 @@ function openTopicView(data){
   detailView.style.display = 'none';
   topicView.style.display = 'block';
   window.scrollTo(0,0);
+
+  const psInput = document.getElementById('peopleSearchInput');
+  if(psInput) psInput.value = '';
+  renderPeopleSearch('');
+
   const topics = uniqueTopics(data);
   const rowsEl = document.getElementById('topicRows');
   rowsEl.innerHTML = '';
@@ -1210,6 +1385,88 @@ function openTopicView(data){
     rowsEl.appendChild(card);
   });
 }
+
+/* ---------- Global people search (across all topics) ---------- */
+const PEOPLE_SEARCH_LIMIT = 40;
+
+function buildPeopleSearchRow(entry){
+  const row = document.createElement('div');
+  row.className = 'ps-row';
+  const color = entry.percent >= 50 ? 'var(--green)' : 'var(--red)';
+  row.innerHTML = `
+    <div class="who">
+      <div class="name">${escapeHtml(entry.name || 'بدون نام')}</div>
+      <div class="meta">
+        <span class="exam-badge">${escapeHtml(entry.exam || 'بدون‌عنوان')}</span>
+        <span>${fmtDate(entry.date)}</span>
+      </div>
+    </div>
+    <div class="score-badge" style="color:${color}">${entry.percent ?? '-'}%</div>
+  `;
+  row.addEventListener('click', ()=>{
+    selectedTopic = entry.exam || 'بدون‌عنوان';
+    currentData = fullData.filter(e=>(e.exam || 'بدون‌عنوان') === selectedTopic);
+    openDetail(entry);
+  });
+  return row;
+}
+
+function renderPeopleSearch(rawQuery){
+  const resultsEl = document.getElementById('peopleSearchResults');
+  const emptyEl = document.getElementById('peopleSearchEmpty');
+  const moreEl = document.getElementById('peopleSearchMore');
+  const clearBtn = document.getElementById('peopleSearchClear');
+  const topicRows = document.getElementById('topicRows');
+  const query = normalizeFa(rawQuery);
+
+  clearBtn.style.display = rawQuery ? 'flex' : 'none';
+
+  if(!query){
+    resultsEl.style.display = 'none';
+    emptyEl.style.display = 'none';
+    moreEl.style.display = 'none';
+    topicRows.style.display = 'flex';
+    return;
+  }
+
+  topicRows.style.display = 'none';
+
+  const matches = fullData
+    .filter(entry=>normalizeFa(entry.name).includes(query))
+    .sort((a,b)=>new Date(b.date || 0) - new Date(a.date || 0));
+
+  resultsEl.innerHTML = '';
+
+  if(matches.length === 0){
+    resultsEl.style.display = 'none';
+    moreEl.style.display = 'none';
+    emptyEl.style.display = 'block';
+    return;
+  }
+  emptyEl.style.display = 'none';
+  resultsEl.style.display = 'flex';
+
+  matches.slice(0, PEOPLE_SEARCH_LIMIT).forEach(entry=>{
+    resultsEl.appendChild(buildPeopleSearchRow(entry));
+  });
+
+  if(matches.length > PEOPLE_SEARCH_LIMIT){
+    moreEl.style.display = 'block';
+    moreEl.textContent = `و ${matches.length - PEOPLE_SEARCH_LIMIT} نتيجه‌ي ديگه… براي محدودتر کردن، اسم دقيق‌تري وارد کن.`;
+  } else {
+    moreEl.style.display = 'none';
+  }
+}
+
+document.getElementById('peopleSearchInput').addEventListener('input', e=>{
+  renderPeopleSearch(e.target.value);
+});
+document.getElementById('peopleSearchClear').addEventListener('click', ()=>{
+  const input = document.getElementById('peopleSearchInput');
+  input.value = '';
+  renderPeopleSearch('');
+  input.focus();
+});
 
 function fmtDate(iso){
   if(!iso) return '';
@@ -1246,7 +1503,7 @@ function buildSheetRow(entry){
       <div class="name">${escapeHtml(entry.name || 'بدون نام')}</div>
       <div class="meta">${escapeHtml(entry.exam || '')} · ${fmtDate(entry.date)}</div>
     </div>
-    <div class="score-badge" style="color:${color}">${entry.percent ?? '-'}٪</div>
+    <div class="score-badge" style="color:${color}">${entry.percent ?? '-'}%</div>
   `;
   row.addEventListener('click', ()=>openDetail(entry));
   return row;
@@ -1315,6 +1572,9 @@ function openList(data){
   document.getElementById('listBackBtn').style.display = hasTopics ? 'inline-flex' : 'none';
   document.getElementById('listTitle').textContent = selectedTopic ? selectedTopic : 'پاسخ‌برگ‌ها';
 
+  const listSearchInput = document.getElementById('listSearchInput');
+  if(listSearchInput) listSearchInput.value = '';
+
   populateDateSelects();
   renderList();
 }
@@ -1322,6 +1582,11 @@ function openList(data){
 function getFilteredListEntries(){
   const data = currentData;
   let filtered = data;
+  const listSearchInput = document.getElementById('listSearchInput');
+  const nameQuery = listSearchInput ? normalizeFa(listSearchInput.value) : '';
+  if(nameQuery){
+    filtered = filtered.filter(entry=>normalizeFa(entry.name).includes(nameQuery));
+  }
   if(dateRange){
     const fromKey = jalaliKey(...dateRange.from);
     const toKey = jalaliKey(...dateRange.to);
@@ -1356,7 +1621,7 @@ function renderList(){
   filtered.forEach(entry=>{
     const j = entryJalali(entry);
     const key = j ? jalaliKey(j[0],j[1],j[2]) : -1;
-    const label = j ? fmtDateShort(entry.date) : 'بدون تاریخ';
+    const label = j ? fmtDateShort(entry.date) : 'بدون تاريخ';
     if(!groups.has(key)) groups.set(key, {label, items:[]});
     groups.get(key).items.push(entry);
   });
@@ -1375,6 +1640,7 @@ function renderList(){
 document.getElementById('listBackBtn').addEventListener('click', ()=>{
   openTopicView(fullData);
 });
+document.getElementById('listSearchInput').addEventListener('input', renderList);
 document.getElementById('applyDateFilter').addEventListener('click', ()=>{
   dateRange = {
     from: [+document.getElementById('fromYear').value, +document.getElementById('fromMonth').value, +document.getElementById('fromDay').value],
@@ -1391,6 +1657,7 @@ document.getElementById('clearDateFilter').addEventListener('click', ()=>{
 function openDetail(entry){
   currentEntry = entry;
   currentFilter = 'all';
+  topicView.style.display = 'none';
   listView.style.display = 'none';
   detailView.style.display = 'block';
   window.scrollTo(0,0);
@@ -1451,7 +1718,7 @@ function renderQuestions(){
   filtered.forEach((a)=>{
     const realIndex = answers.indexOf(a) + 1;
     const status = statusOf(a);
-    const icon = status === 'correct' ? '✓' : status === 'wrong' ? '✗' : '—';
+    const icon = status === 'correct' ? '?' : status === 'wrong' ? '?' : '—';
     const item = document.createElement('div');
     item.className = `q-item ${status}`;
     item.innerHTML = `
@@ -1543,17 +1810,17 @@ async function buildListWorkbook(filtered, topicLabel){
   const wb = new ExcelJS.Workbook();
   wb.creator = 'پاسخ‌برگ';
   wb.created = new Date();
-  const ws = wb.addWorksheet('نتایج', { views:[{ rightToLeft:true, state:'frozen', ySplit:2 }] });
+  const ws = wb.addWorksheet('نتايج', { views:[{ rightToLeft:true, state:'frozen', ySplit:2 }] });
 
   ws.mergeCells('A1:J1');
   const titleCell = ws.getCell('A1');
-  titleCell.value = `نتایج آزمون — ${topicLabel}`;
+  titleCell.value = `نتايج آزمون — ${topicLabel}`;
   titleCell.font = { bold:true, size:14, color:{argb:'FFFFFFFF'} };
   titleCell.alignment = { vertical:'middle', horizontal:'center' };
   titleCell.fill = { type:'pattern', pattern:'solid', fgColor:{argb:'FFB23A2E'} };
   ws.getRow(1).height = 32;
 
-  const headers = ['ردیف','نام','مبحث','تاریخ','نمره','از','درصد','درست','غلط','بی‌پاسخ'];
+  const headers = ['رديف','نام','مبحث','تاريخ','نمره','از','درصد','درست','غلط','بي‌پاسخ'];
   styleHeaderRow(ws.addRow(headers));
 
   filtered.forEach((entry, i)=>{
@@ -1609,12 +1876,12 @@ async function buildDetailWorkbook(entry, filteredAnswers, allAnswers){
 
   const infoRows = [
     ['مبحث', entry.exam || ''],
-    ['تاریخ', fmtDate(entry.date)],
+    ['تاريخ', fmtDate(entry.date)],
     ['نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`],
     ['درصد', (entry.percent ?? 0)/100],
     ['تعداد درست', correctCount],
     ['تعداد غلط', wrongCount],
-    ['بی‌پاسخ', blankCount]
+    ['بي‌پاسخ', blankCount]
   ];
   infoRows.forEach(([k,v], idx)=>{
     const r = sws.addRow([k, v]);
@@ -1632,9 +1899,9 @@ async function buildDetailWorkbook(entry, filteredAnswers, allAnswers){
   sws.columns = [{width:16},{width:30}];
 
   const aws = wb.addWorksheet('پاسخ‌ها', { views:[{ rightToLeft:true, state:'frozen', ySplit:1 }] });
-  styleHeaderRow(aws.addRow(['ردیف','سوال','پاسخ داده‌شده','پاسخ درست','وضعیت']));
+  styleHeaderRow(aws.addRow(['رديف','سوال','پاسخ داده‌شده','پاسخ درست','وضعيت']));
 
-  const statusLabel = { correct:'درست', wrong:'غلط', blank:'بی‌پاسخ' };
+  const statusLabel = { correct:'درست', wrong:'غلط', blank:'بي‌پاسخ' };
   const statusColor = { correct:'FF2F6844', wrong:'FFB23A2E', blank:'FFB5893A' };
   const statusBg = { correct:'FFE7F1EA', wrong:'FFF8E2E0', blank:'FFF6EDDD' };
 
@@ -1665,7 +1932,7 @@ document.getElementById('excelDownloadBtn').addEventListener('click', async ()=>
   const btn = document.getElementById('excelDownloadBtn');
   const originalHtml = btn.innerHTML;
   btn.disabled = true;
-  btn.textContent = 'در حال ساخت فایل…';
+  btn.textContent = 'در حال ساخت فايل…';
   try{
     let wb;
     if(excelExportState.kind === 'list'){
@@ -1684,7 +1951,7 @@ document.getElementById('excelDownloadBtn').addEventListener('click', async ()=>
     setTimeout(()=>URL.revokeObjectURL(url), 2000);
   } catch(err){
     console.error(err);
-    alert('ساخت فایل اکسل با خطا مواجه شد.');
+    alert('ساخت فايل اکسل با خطا مواجه شد.');
   } finally{
     btn.disabled = false;
     btn.innerHTML = originalHtml;
@@ -1694,10 +1961,10 @@ document.getElementById('excelDownloadBtn').addEventListener('click', async ()=>
 document.getElementById('exportListBtn').addEventListener('click', ()=>{
   const filtered = getFilteredListEntries();
   if(filtered.length === 0){
-    alert('چیزی برای خروجی گرفتن وجود نداره.');
+    alert('چيزي براي خروجي گرفتن وجود نداره.');
     return;
   }
-  const headers = ['ردیف','نام','مبحث','تاریخ','نمره','از','درصد','درست','غلط','بی‌پاسخ'];
+  const headers = ['رديف','نام','مبحث','تاريخ','نمره','از','درصد','درست','غلط','بي‌پاسخ'];
   const rows = filtered.map((entry, i)=>{
     const answers = entry.answers || [];
     const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
@@ -1705,36 +1972,36 @@ document.getElementById('exportListBtn').addEventListener('click', ()=>{
     const blankCount = answers.filter(a=>a.selected === null).length;
     return [i+1, entry.name || 'بدون نام', entry.exam || '', fmtDateShort(entry.date), entry.score ?? 0, entry.total ?? 0, entry.percent ?? 0, correctCount, wrongCount, blankCount];
   });
-  const topicLabel = selectedTopic ? selectedTopic.replace(/[\\/?*[\]:]/g,'') : 'نتایج';
+  const topicLabel = selectedTopic ? selectedTopic.replace(/[\\/?*[\]:]/g,'') : 'نتايج';
   openExcelModal({
-    title: `پیش‌نمایش خروجی اکسل — ${topicLabel}`,
+    title: `پيش‌نمايش خروجي اکسل — ${topicLabel}`,
     headers, rows,
     filename: `${topicLabel}.xlsx`,
-    hint: `${rows.length} ردیف آماده‌ی دانلوده.`,
+    hint: `${rows.length} رديف آماده‌ي دانلوده.`,
     kind: 'list',
-    payload: { filtered, topicLabel: topicLabel || 'نتایج' }
+    payload: { filtered, topicLabel: topicLabel || 'نتايج' }
   });
 });
 
 document.getElementById('exportDetailBtn').addEventListener('click', ()=>{
   const filtered = getFilteredQuestions();
   if(filtered.length === 0){
-    alert('چیزی برای خروجی گرفتن وجود نداره.');
+    alert('چيزي براي خروجي گرفتن وجود نداره.');
     return;
   }
   const allAnswers = (currentEntry.answers || []);
-  const headers = ['ردیف','سوال','پاسخ داده‌شده','پاسخ درست','وضعیت'];
-  const statusLabel = { correct:'درست', wrong:'غلط', blank:'بی‌پاسخ' };
+  const headers = ['رديف','سوال','پاسخ داده‌شده','پاسخ درست','وضعيت'];
+  const statusLabel = { correct:'درست', wrong:'غلط', blank:'بي‌پاسخ' };
   const rows = filtered.map(a=>{
     const realIndex = allAnswers.indexOf(a) + 1;
     return [realIndex, a.question || '', a.selected !== null ? a.selected : 'بدون پاسخ', a.correct || '', statusLabel[statusOf(a)]];
   });
   const nameLabel = (currentEntry.name || 'پاسخ‌برگ').replace(/[\\/?*[\]:]/g,'');
   openExcelModal({
-    title: `پیش‌نمایش خروجی اکسل — ${currentEntry.name || 'بدون نام'}`,
+    title: `پيش‌نمايش خروجي اکسل — ${currentEntry.name || 'بدون نام'}`,
     headers, rows,
     filename: `${nameLabel}.xlsx`,
-    hint: `${rows.length} سوال آماده‌ی دانلوده.`,
+    hint: `${rows.length} سوال آماده‌ي دانلوده.`,
     kind: 'detail',
     payload: { entry: currentEntry, filteredAnswers: filtered, allAnswers }
   });
@@ -1754,7 +2021,7 @@ function buildReportElement(entry){
   const stampColor = pass ? '#2f6844' : '#b23a2e';
 
   const wrap = document.createElement('div');
-  wrap.style.cssText = 'width:740px; padding:38px 36px; background:#f2ecdd; font-family:"Vazirmatn",sans-serif; color:#232733; direction:rtl; border-right:4px solid #b23a2e;';
+  wrap.style.cssText = 'width:740px; padding:38px 36px; background:#f2ecdd; font-family:"Vazirmatn",Tahoma,sans-serif; color:#232733; direction:rtl; border-right:4px solid #b23a2e;';
 
   const statHtml = (num, lab, color) => `
     <div style="flex:1; background:rgba(255,255,255,0.55); border:1px solid rgba(35,39,51,0.12); border-radius:8px; padding:12px 10px; text-align:center;">
@@ -1765,7 +2032,7 @@ function buildReportElement(entry){
   const qHtml = answers.map((a, i)=>{
     const status = statusOf(a);
     const borderColor = status==='correct' ? '#2f6844' : status==='wrong' ? '#b23a2e' : '#b5893a';
-    const icon = status==='correct' ? '✓' : status==='wrong' ? '✗' : '—';
+    const icon = status==='correct' ? '?' : status==='wrong' ? '?' : '—';
     const iconBg = status==='correct' ? 'rgba(47,104,68,0.12)' : status==='wrong' ? 'rgba(178,58,46,0.12)' : 'rgba(181,137,58,0.14)';
     const selectedText = a.selected !== null ? escapeHtml(a.selected) : 'بدون پاسخ';
     const selectedStyle = status==='wrong'
@@ -1792,19 +2059,68 @@ function buildReportElement(entry){
         <div style="color:#545a6b; font-size:12.5px; margin-top:9px; font-weight:500;">${fmtDate(entry.date)}</div>
       </div>
       <div style="width:100px; height:100px; flex-shrink:0; border-radius:50%; border:3px dashed ${stampColor}; display:flex; flex-direction:column; align-items:center; justify-content:center; color:${stampColor}; transform:rotate(-8deg);">
-        <div style="font-size:25px; font-weight:900; line-height:1;">${entry.percent ?? 0}٪</div>
-        <div style="font-size:9px; font-weight:700; margin-top:2px;">نتیجه</div>
+        <div style="font-size:25px; font-weight:900; line-height:1;">${entry.percent ?? 0}%</div>
+        <div style="font-size:9px; font-weight:700; margin-top:2px;">نتيجه</div>
       </div>
     </div>
     <div style="display:flex; gap:8px; margin:22px 0 26px;">
       ${statHtml((entry.score ?? 0) + ' / ' + (entry.total ?? 0), 'نمره')}
       ${statHtml(correctCount, 'درست', '#2f6844')}
       ${statHtml(wrongCount, 'غلط', '#b23a2e')}
-      ${statHtml(blankCount, 'بی‌پاسخ', '#b5893a')}
+      ${statHtml(blankCount, 'بي‌پاسخ', '#b5893a')}
     </div>
     <div>${qHtml}</div>
   `;
   return wrap;
+}
+
+// html2canvas re-implements text layout itself and is well known to scramble
+// Persian/Arabic text (especially text-align:center, which this app uses a lot):
+// letters lose their joined shapes or get reordered. Instead we rasterize the
+// element the same way the working "چاپ" path effectively does: by letting the
+// browser's own renderer draw the HTML (via an SVG <foreignObject>), then read
+// that back onto a canvas. This keeps Persian text correctly shaped every time.
+async function domElementToCanvas(el, scale){
+  scale = scale || 2;
+  const width = el.offsetWidth;
+  const height = el.offsetHeight;
+  const bgColor = getComputedStyle(el).backgroundColor || '#f2ecdd';
+
+  const clone = el.cloneNode(true);
+  clone.setAttribute('xmlns', 'http://www.w3.org/1999/xhtml');
+
+  const fontImport = `@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');`;
+
+  const svgMarkup =
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+      `<foreignObject width="100%" height="100%">` +
+        `<div xmlns="http://www.w3.org/1999/xhtml"><style>${fontImport}</style>${new XMLSerializer().serializeToString(clone)}</div>` +
+      `</foreignObject>` +
+    `</svg>`;
+
+  const svgBlob = new Blob([svgMarkup], { type: 'image/svg+xml;charset=utf-8' });
+  const url = URL.createObjectURL(svgBlob);
+
+  try{
+    const img = new Image();
+    await new Promise((resolve, reject)=>{
+      img.onload = resolve;
+      img.onerror = () => reject(new Error('svg-render-failed'));
+      img.src = url;
+    });
+
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.max(1, Math.ceil(width * scale));
+    canvas.height = Math.max(1, Math.ceil(height * scale));
+    const ctx = canvas.getContext('2d');
+    ctx.scale(scale, scale);
+    ctx.fillStyle = bgColor;
+    ctx.fillRect(0, 0, width, height);
+    ctx.drawImage(img, 0, 0, width, height);
+    return canvas;
+  } finally {
+    URL.revokeObjectURL(url);
+  }
 }
 
 async function renderElementToPdfBlob(el){
@@ -1813,10 +2129,16 @@ async function renderElementToPdfBlob(el){
   el.style.left = '-10000px';
   el.style.zIndex = '-1';
   document.body.appendChild(el);
+  if(document.fonts && document.fonts.ready){
+    try{ await document.fonts.ready; } catch(e){}
+  }
   await new Promise(r=>setTimeout(r, 60));
 
   let canvas;
   try{
+    canvas = await domElementToCanvas(el, 2);
+  } catch(err){
+    // fallback, in case the browser can't rasterize the SVG (e.g. very old browsers)
     canvas = await html2canvas(el, { scale:2, backgroundColor:'#f2ecdd', useCORS:true });
   } finally {
     document.body.removeChild(el);
@@ -1863,7 +2185,7 @@ const pdfProgressFoot = document.getElementById('pdfProgressFoot');
 function showPdfProgress(){
   pdfProgressFoot.style.display = 'none';
   pdfProgressFill.style.width = '0%';
-  pdfProgressText.textContent = 'در حال آماده‌سازی…';
+  pdfProgressText.textContent = 'در حال آماده‌سازي…';
   pdfProgressOverlay.classList.add('open');
 }
 function updatePdfProgress(done, total, label){
@@ -1900,7 +2222,7 @@ document.getElementById('exportPdfDetailBtn').addEventListener('click', async ()
 document.getElementById('exportPdfListBtn').addEventListener('click', async ()=>{
   const filtered = getFilteredListEntries();
   if(filtered.length === 0){
-    alert('چیزی برای خروجی گرفتن وجود نداره.');
+    alert('چيزي براي خروجي گرفتن وجود نداره.');
     return;
   }
   const btn = document.getElementById('exportPdfListBtn');
@@ -1921,12 +2243,12 @@ document.getElementById('exportPdfListBtn').addEventListener('click', async ()=>
       updatePdfProgress(i+1, filtered.length, entry.name || '');
     }
     const zipBlob = await zip.generateAsync({ type:'blob' });
-    const topicLabel = selectedTopic ? sanitizeFilename(selectedTopic) : 'نتایج';
-    triggerDownload(zipBlob, `${topicLabel || 'نتایج'}-PDF.zip`);
-    finishPdfProgress(`${filtered.length} فایل PDF ساخته و دانلود شد ✓`);
+    const topicLabel = selectedTopic ? sanitizeFilename(selectedTopic) : 'نتايج';
+    triggerDownload(zipBlob, `${topicLabel || 'نتايج'}-PDF.zip`);
+    finishPdfProgress(`${filtered.length} فايل PDF ساخته و دانلود شد ?`);
   } catch(err){
     console.error(err);
-    finishPdfProgress('ساخت فایل‌ها با خطا مواجه شد.');
+    finishPdfProgress('ساخت فايل‌ها با خطا مواجه شد.');
   } finally{
     btn.disabled = false;
   }
@@ -1940,7 +2262,7 @@ function buildKarnamehHTML(entry){
   const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
   const blankCount = answers.filter(a=>a.selected === null).length;
   const pass = (entry.percent ?? 0) >= 50;
-  const verdict = pass ? 'قبول' : 'نیاز به تلاش بیشتر';
+  const verdict = pass ? 'قبول' : 'نياز به تلاش بيشتر';
   const verdictColor = pass ? '#2f6844' : '#b23a2e';
   const dateStr = fmtDate(entry.date);
 
@@ -2010,18 +2332,18 @@ h1{ text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; }
   <div class="sheet">
     <div class="top-bar"></div>
     <h1>کارنامه آزمون</h1>
-    <div class="subtitle">این برگه به‌عنوان گواهی نتیجه‌ی آزمون صادر شده است</div>
+    <div class="subtitle">اين برگه به‌عنوان گواهي نتيجه‌ي آزمون صادر شده است</div>
     <div class="divider"></div>
     <div class="info-grid">
-      <div class="info-item"><div class="label">نام و نام خانوادگی</div><div class="value">${escapeHtml(entry.name || 'بدون نام')}</div></div>
-      <div class="info-item"><div class="label">تاریخ آزمون</div><div class="value">${dateStr}</div></div>
+      <div class="info-item"><div class="label">نام و نام خانوادگي</div><div class="value">${escapeHtml(entry.name || 'بدون نام')}</div></div>
+      <div class="info-item"><div class="label">تاريخ آزمون</div><div class="value">${dateStr}</div></div>
       <div class="info-item"><div class="label">عنوان آزمون</div><div class="value">${escapeHtml(entry.exam || '')}</div></div>
       <div class="info-item"><div class="label">نمره</div><div class="value">${entry.score ?? 0} از ${entry.total ?? 0}</div></div>
     </div>
     <div class="mid-row">
-      <div class="stamp"><div class="pct">${entry.percent ?? 0}٪</div><div class="lbl">درصد قبولی</div></div>
+      <div class="stamp"><div class="pct">${entry.percent ?? 0}%</div><div class="lbl">درصد قبولي</div></div>
       <div class="verdict">
-        <div class="v-label">نتیجه‌ی نهایی</div>
+        <div class="v-label">نتيجه‌ي نهايي</div>
         <div class="v-value">${verdict}</div>
       </div>
     </div>
@@ -2029,13 +2351,13 @@ h1{ text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; }
       <div class="stat-box"><div class="num">${answers.length}</div><div class="lab">کل سوالات</div></div>
       <div class="stat-box"><div class="num" style="color:#2f6844;">${correctCount}</div><div class="lab">پاسخ درست</div></div>
       <div class="stat-box"><div class="num" style="color:#b23a2e;">${wrongCount}</div><div class="lab">پاسخ غلط</div></div>
-      <div class="stat-box"><div class="num" style="color:#b5893a;">${blankCount}</div><div class="lab">بی‌پاسخ</div></div>
+      <div class="stat-box"><div class="num" style="color:#b5893a;">${blankCount}</div><div class="lab">بي‌پاسخ</div></div>
     </div>
     <div class="sign-row">
-      <div class="sign-box"><div class="sign-line">امضای مدرس</div></div>
-      <div class="sign-box"><div class="sign-line">امضای مسئول آموزش</div></div>
+      <div class="sign-box"><div class="sign-line">امضاي مدرس</div></div>
+      <div class="sign-box"><div class="sign-line">امضاي مسئول آموزش</div></div>
     </div>
-    <button class="print-btn" onclick="window.print()">🖨 چاپ کارنامه</button>
+    <button class="print-btn" onclick="window.print()">?? چاپ کارنامه</button>
   </div>
 <script>
   window.addEventListener('load', ()=>{ setTimeout(()=>{ window.focus(); window.print(); }, 350); });
@@ -2048,7 +2370,7 @@ document.getElementById('printKarnamehBtn').addEventListener('click', ()=>{
   const html = buildKarnamehHTML(currentEntry);
   const win = window.open('', '_blank');
   if(!win){
-    alert('مرورگر اجازه‌ی باز شدن پنجره‌ی چاپ رو نداد. لطفاً popup blocker رو برای این صفحه غیرفعال کن و دوباره امتحان کن.');
+    alert('مرورگر اجازه‌ي باز شدن پنجره‌ي چاپ رو نداد. لطفاً popup blocker رو براي اين صفحه غيرفعال کن و دوباره امتحان کن.');
     return;
   }
   win.document.open();
@@ -2064,11 +2386,11 @@ function buildKarnamehElement(entry){
   const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
   const blankCount = answers.filter(a=>a.selected === null).length;
   const pass = (entry.percent ?? 0) >= 50;
-  const verdict = pass ? 'قبول' : 'نیاز به تلاش بیشتر';
+  const verdict = pass ? 'قبول' : 'نياز به تلاش بيشتر';
   const verdictColor = pass ? '#2f6844' : '#b23a2e';
 
   const wrap = document.createElement('div');
-  wrap.style.cssText = 'width:680px; padding:46px 50px; background:#f2ecdd; font-family:"Vazirmatn",sans-serif; color:#232733; direction:rtl; border:2px solid #232733; box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;';
+  wrap.style.cssText = 'width:680px; padding:46px 50px; background:#f2ecdd; font-family:"Vazirmatn",Tahoma,sans-serif; color:#232733; direction:rtl; border:2px solid #232733; box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;';
 
   const statBox = (num, lab, color) => `
     <div style="text-align:center; border:1.5px solid rgba(35,39,51,0.18); border-radius:8px; padding:14px 8px;">
@@ -2085,21 +2407,21 @@ function buildKarnamehElement(entry){
   wrap.innerHTML = `
     <div style="height:6px; background:linear-gradient(90deg,#b23a2e,#b5893a,#2f6844); margin:-46px -50px 32px;"></div>
     <h1 style="text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; margin:0;">کارنامه آزمون</h1>
-    <div style="text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px;">این برگه به‌عنوان گواهی نتیجه‌ی آزمون صادر شده است</div>
+    <div style="text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px;">اين برگه به‌عنوان گواهي نتيجه‌ي آزمون صادر شده است</div>
     <div style="height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0;"></div>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px;">
-      ${infoItem('نام و نام خانوادگی', escapeHtml(entry.name || 'بدون نام'))}
-      ${infoItem('تاریخ آزمون', fmtDate(entry.date))}
+      ${infoItem('نام و نام خانوادگي', escapeHtml(entry.name || 'بدون نام'))}
+      ${infoItem('تاريخ آزمون', fmtDate(entry.date))}
       ${infoItem('عنوان آزمون', escapeHtml(entry.exam || ''))}
       ${infoItem('نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`)}
     </div>
     <div style="display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:30px;">
       <div style="width:126px; height:126px; border-radius:50%; border:3px dashed ${verdictColor}; color:${verdictColor}; display:flex; flex-direction:column; align-items:center; justify-content:center; transform:rotate(-8deg); flex-shrink:0;">
-        <div style="font-size:32px; font-weight:900;">${entry.percent ?? 0}٪</div>
-        <div style="font-size:10px; font-weight:700; margin-top:2px;">درصد قبولی</div>
+        <div style="font-size:32px; font-weight:900;">${entry.percent ?? 0}%</div>
+        <div style="font-size:10px; font-weight:700; margin-top:2px;">درصد قبولي</div>
       </div>
       <div style="flex:1; text-align:center;">
-        <div style="font-size:13px; color:#545a6b; font-weight:700;">نتیجه‌ی نهایی</div>
+        <div style="font-size:13px; color:#545a6b; font-weight:700;">نتيجه‌ي نهايي</div>
         <div style="font-size:24px; font-weight:900; color:${verdictColor}; margin-top:6px;">${verdict}</div>
       </div>
     </div>
@@ -2107,11 +2429,11 @@ function buildKarnamehElement(entry){
       ${statBox(answers.length, 'کل سوالات')}
       ${statBox(correctCount, 'پاسخ درست', '#2f6844')}
       ${statBox(wrongCount, 'پاسخ غلط', '#b23a2e')}
-      ${statBox(blankCount, 'بی‌پاسخ', '#b5893a')}
+      ${statBox(blankCount, 'بي‌پاسخ', '#b5893a')}
     </div>
     <div style="display:flex; justify-content:space-between; margin-top:40px;">
-      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضای مدرس</div></div>
-      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضای مسئول آموزش</div></div>
+      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضاي مدرس</div></div>
+      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضاي مسئول آموزش</div></div>
     </div>
   `;
   return wrap;
@@ -2142,7 +2464,7 @@ document.getElementById('downloadKarnamehPdfBtn').addEventListener('click', asyn
 document.getElementById('exportKarnamehZipBtn').addEventListener('click', async ()=>{
   const filtered = getFilteredListEntries();
   if(filtered.length === 0){
-    alert('چیزی برای خروجی گرفتن وجود نداره.');
+    alert('چيزي براي خروجي گرفتن وجود نداره.');
     return;
   }
   const btn = document.getElementById('exportKarnamehZipBtn');
@@ -2163,12 +2485,12 @@ document.getElementById('exportKarnamehZipBtn').addEventListener('click', async 
       updatePdfProgress(i+1, filtered.length, entry.name || '');
     }
     const zipBlob = await zip.generateAsync({ type:'blob' });
-    const topicLabel = selectedTopic ? sanitizeFilename(selectedTopic) : 'نتایج';
-    triggerDownload(zipBlob, `کارنامه-${topicLabel || 'نتایج'}.zip`);
-    finishPdfProgress(`${filtered.length} کارنامه ساخته و دانلود شد ✓`);
+    const topicLabel = selectedTopic ? sanitizeFilename(selectedTopic) : 'نتايج';
+    triggerDownload(zipBlob, `کارنامه-${topicLabel || 'نتايج'}.zip`);
+    finishPdfProgress(`${filtered.length} کارنامه ساخته و دانلود شد ?`);
   } catch(err){
     console.error(err);
-    finishPdfProgress('ساخت فایل‌ها با خطا مواجه شد.');
+    finishPdfProgress('ساخت فايل‌ها با خطا مواجه شد.');
   } finally{
     btn.disabled = false;
   }
