@@ -10810,5 +10810,217 @@
       }
     ],
     "date": "2026-09-20T18:31:36.349Z"
+  },
+  {
+    "name": "بهنام",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 10,
+    "unanswered": 4,
+    "answers": [
+      {
+        "question": "پسوند فایل های اکسل 2013 کدام است؟",
+        "selected": "xlsx",
+        "correct": "xlsx"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Wireless",
+        "correct": "Wireless"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": null,
+        "correct": "$K$6"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Fit To Window",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Required",
+        "correct": "No-Required"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "به نمادهای تصویری در ویندوز، ...................... می گویند.",
+        "selected": "Icon",
+        "correct": "Icon"
+      },
+      {
+        "question": "کدام گزینه درست نمی باشد؟",
+        "selected": "ظرفیت حافظه های جانبی از حافظه های اصلی به مراتب بیشتر است",
+        "correct": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است"
+      },
+      {
+        "question": "از گزینه Pattern Fill در پنجره ی Format Background چه زمانی استفاده می شود؟",
+        "selected": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه",
+        "correct": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه"
+      },
+      {
+        "question": "برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "برای تنظیم میزان فرورفتگی از کدام گزینه استفاده می شود؟",
+        "selected": "Indent",
+        "correct": "Indent"
+      },
+      {
+        "question": "برای جستجوی فایل های 5 حرفی که به P ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "p????",
+        "correct": "????p"
+      },
+      {
+        "question": "با انتخاب فیلد Number به طور پیش فرض ................. برای آن در نظر گرفته می شود؟",
+        "selected": "Long Integer",
+        "correct": "Long Integer"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "در کادر محاوره ای Format Cells و از تب Alignment انتخاب Fill چه عملی انجام می دهد؟",
+        "selected": "باعث تکرار متن می شود تا عرض خانه را پر کند",
+        "correct": "باعث تکرار متن می شود تا عرض خانه را پر کند"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Date/Time",
+        "correct": "Number"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Home > New > Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "Shiraz - University",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Templates",
+        "correct": "Templates"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Arrange Icons",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - کانال انتقال",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "آدرس خانه فعال در کجا قابل رویت است؟",
+        "selected": "در نوار فرمول",
+        "correct": "در کادر Name Box"
+      },
+      {
+        "question": "برای اضافه نمودن یک اسلاید جدید با استفاده از طرح های اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Master←View",
+        "correct": "New Slide←Home"
+      },
+      {
+        "question": "برای اضافه نمودن عنوان به نمودار از کدام گزینه استفاده می نماییم؟",
+        "selected": "Data Labels",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": null,
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "کدام گزینه به معنای Sort Descending می باشد؟",
+        "selected": "مرتب سازی به روش نزولی",
+        "correct": "مرتب سازی به روش نزولی"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Tables"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": null,
+        "correct": "Form View"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Cells",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "ساختار جدول را در Access نمی توان تغییر داد",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "از گزینه Count Number جهت محاسبه .............. استفاده می شود.",
+        "selected": "شمارش تعداد اعداد",
+        "correct": "شمارش تعداد اعداد"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": "Create-Form",
+        "correct": "Design"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      }
+    ],
+    "date": "2026-09-20T19:13:14.633Z"
   }
 ]
