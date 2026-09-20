@@ -11870,5 +11870,217 @@
       }
     ],
     "date": "2026-09-20T19:59:18.272Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 38,
+    "total": 40,
+    "percent": 95,
+    "wrong": 2,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide layout",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه ای از شیارها با شعاع یکسان",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای اینکه اعلام کنیم که اعداد بزرگتر از 50 برای یک فیلد در نظر گرفته شوند، شرط را برای کدام خاصیت از فیلد باید اعلام نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از نوار ابزار Table & Border",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "Set Up Slide Show",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "All Program",
+        "correct": "All Program"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "به منظور ورود به محل ایمیل شخصی در سایت Yahoo از کدام گزینه استفاده می شود؟",
+        "selected": "Sign in",
+        "correct": "Sign in"
+      },
+      {
+        "question": "در هنگام درج خانه، برای اینکه خانه انتخاب شده به پایین حرکت کند و خانه جدید جای آن را بگیرد کدام مورد را از کادر محاوره ای Insert باید انتخاب نمود؟",
+        "selected": "Shift Cells Down",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "تب مورد نظر را به بیرون از خط کش درگ می کنیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "پروتکل",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "CMOS",
+        "correct": "CMOS"
+      },
+      {
+        "question": "کدامیک از موارد زیر را نمی توان در Data Sheet View انجام داد؟",
+        "selected": "ایجاد فرم",
+        "correct": "ایجاد فرم"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "وارد کردن داده در برنامه و آزمایش و پالایش آن",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "قابلیت کوچک نمایی برای مشاهده کل اطلاعات به صورت یکجا را ....... می گویند.",
+        "selected": "Fit",
+        "correct": "Fit"
+      },
+      {
+        "question": "برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انتخاب گزینه Arrange از تب View",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "کدام یک از دستگاه زیر ترکیبی از مودم و دستگاه اسکنر می باشد؟",
+        "selected": "فاکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "زبان استاندارد طراحی صفحات کدام یک از موارد زیر است؟",
+        "selected": "HTML",
+        "correct": "HTML"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Print Current Page",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "برای جابجایی بین پنجره های باز از کلیدهای ...... استفاده می کنیم.",
+        "selected": "Ctrl+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "در کدام روش می توان پرس و جو را با شرط تعیین شده ایجاد نمود؟",
+        "selected": "Query Design",
+        "correct": "Query Design"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Replace With",
+        "correct": "Replace With"
+      },
+      {
+        "question": "کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟",
+        "selected": "سرعت بالای حافظه های ثانویه",
+        "correct": "سرعت بالای حافظه های ثانویه"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "کوچکترین جزء اطلاعاتی در پایگاه داده چه گفته می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": "Average",
+        "correct": "Average"
+      }
+    ],
+    "date": "2026-09-20T20:03:28.980Z"
   }
 ]
