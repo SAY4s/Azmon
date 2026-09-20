@@ -12506,5 +12506,217 @@
       }
     ],
     "date": "2026-09-20T20:11:56.391Z"
+  },
+  {
+    "name": "ریحانه شمس",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای تایپ نیم فاصله از کدام کلید ترکیبی در صفحه کلید استاندارد استفاده می شود؟",
+        "selected": "Spacebar+Shift",
+        "correct": "Spacebar+Shift"
+      },
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم",
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی بر روی کدام دکمه از نوار ابزار کلیک می نمایید؟",
+        "selected": "Reply All",
+        "correct": "Reply All"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Advanced Filter/Sort",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح نیست؟",
+        "selected": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید",
+        "correct": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید"
+      },
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Book",
+        "correct": "Book"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای تجاری از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Header Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Columns",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "برای ارسال پاسخ به تمام فرستندگان یک نامه از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Forward",
+        "correct": "Reply all"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
+        "selected": "DVD و CD",
+        "correct": "DVD و CD"
+      },
+      {
+        "question": "پسوند سایت های مربوط به موسسات دولتی کدام است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Title and Content",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "آدرس های عددی مورد استفاده در شبکه را اصطلاحا چه می نامند؟",
+        "selected": "IP",
+        "correct": "IP"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Bit",
+        "correct": "Bit"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Descending",
+        "correct": "Descending"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Scrollbars",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج معادلات ریاضی",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Reading View",
+        "correct": "Template"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "count",
+        "correct": "count if"
+      }
+    ],
+    "date": "2026-09-20T20:15:43.360Z"
   }
 ]
