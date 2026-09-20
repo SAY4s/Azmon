@@ -10386,5 +10386,217 @@
       }
     ],
     "date": "2026-09-20T18:27:40.162Z"
+  },
+  {
+    "name": "بهنام بهتویی",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 8,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "UPS",
+        "correct": "UPS"
+      },
+      {
+        "question": "برای اینکه در پرس و جو، شرط ورودی را موقع اجرا درخواست کند، از کدام علامت استفاده می کنید؟",
+        "selected": "[ ]",
+        "correct": "[ ]"
+      },
+      {
+        "question": "در ترسیم نمودار مفهوم گزینه Data Labels چیست؟",
+        "selected": "عنوان نمودار و محورها",
+        "correct": "نمایش اسامی داده ها"
+      },
+      {
+        "question": "در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.",
+        "selected": "Free Space",
+        "correct": "Free Space"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "کدام نما برای نمایش فرم ها نمی باشد؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "انتخاب کدام یک از گزینه های زیر باعث نوشته شدن متنی به صورت زیر خط دار می شود؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "جهت چاپ مطالب صفحه وب نیاز به ....................... داریم.",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه ای از شیارها با شعاع یکسان",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "از ابزار Object به منظور ......",
+        "selected": "درج متن گرافیکی و سه بعدی",
+        "correct": "درج فایل هایی از داخل حافظه دیسک سخت از قبیل فایل های نرم افزارهای غیرمرتبط"
+      },
+      {
+        "question": "برای نمایش محتوای پنجره ها به صورت پشت سرهم کدام گزینه صحیح است؟",
+        "selected": "List",
+        "correct": "List"
+      },
+      {
+        "question": "اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟",
+        "selected": "Even Page",
+        "correct": "Even Page"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "Shut Down چیست؟",
+        "selected": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند",
+        "correct": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند"
+      },
+      {
+        "question": "برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Yes/No",
+        "correct": "Yes/No"
+      },
+      {
+        "question": "برای اینکه نتوان محتوای خانه های (Cell) صفحه کاری را تغییر داد چه باید کرد؟",
+        "selected": "از کادر محاوره ای Format Cells تب Protection را فعال کرده و گزینه Locked را انتخاب نماییم",
+        "correct": "ابتدا سلول را Locked می کنیم و سپس از سربرگ Review گزینه Protect Sheet را کلیک می کنیم و کلمه رمز قرار می دهیم"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پلاترها",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "کدام ابزار برای ایجاد لیست شماره گذاری مورد استفاده قرار می گیرد.",
+        "selected": "Numbering",
+        "correct": "Numbering"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "انتشار سند در دیگر فرمت ها",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Fill",
+        "correct": "Stretch"
+      },
+      {
+        "question": "اگر بخواهیم صفحاتی جستجو شود که کلمه exercise در عبارت جستجو نباشد، عبارت exercise access را چگونه می توان search نمود؟",
+        "selected": "access not exercise",
+        "correct": "access not exercise"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "کلید اولیه (Primary Key)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "در منوی کشویی Find What چه می نویسیم؟",
+        "selected": "متنی که می خواهیم جستجو کنیم",
+        "correct": "متنی که می خواهیم جستجو کنیم"
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Insert - Formulas",
+        "correct": "Formulas - Function"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save File As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": null,
+        "correct": "2 بایت"
+      },
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "24",
+        "correct": "18"
+      }
+    ],
+    "date": "2026-09-20T18:28:39.971Z"
   }
 ]
