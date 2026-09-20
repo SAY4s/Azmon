@@ -8902,5 +8902,217 @@
       }
     ],
     "date": "2026-09-20T13:41:05.370Z"
+  },
+  {
+    "name": "سارا",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟",
+        "selected": "Shape",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "با فشردن کدام کلید تابعی مکان نما از حالت متن خارج و سربرگ ها فعال و در کنار سربرگ ها یک عدد یا یک حرف قرار می گیرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": "As New Sheet",
+        "correct": "Object In"
+      },
+      {
+        "question": "کلید میانبر فرمان paste چیست؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+V"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M?S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم کلیه صفحات وب سایت های مشاهده شده قبلی را مشاهده نماییم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Notes Page",
+        "correct": "Template"
+      },
+      {
+        "question": "برای اضافه نمودن عنوان به نمودار از کدام گزینه استفاده می نماییم؟",
+        "selected": "More Title Options",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "برای جستجو فایل های .gif باید از چه معیاری استفاده کرد؟",
+        "selected": "gif.*",
+        "correct": "*.gif"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Hotmail",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "#",
+        "correct": "$"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Server Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Reports",
+        "correct": "Macro"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column",
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "گزینه مناسب برای زیرخط دار کردن نوشته کدام است؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "کدام یک از موارد زیر درست می باشد؟",
+        "selected": "کامپیوترهای Mini همانند کامپیوترهای Pc تک کاربره هستند",
+        "correct": "کامپیوترهای Mini همانند کامپیوترهای Pc تک کاربره هستند"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "کلیدهای میانبر جهت باز کردن پنجره چاپ کدام است؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "Single User",
+        "correct": "DOS"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "برای جایگزینی عبارتی در اسناد از .......... استفاده می شود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Ctrl+Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "تهیه و ویرایش کتاب و مقاله",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "اگر بخواهیم صفحاتی جستجو شود که کلمه exercise در عبارت جستجو نباشد، عبارت exercise access را چگونه می توان search نمود؟",
+        "selected": "access not exercise",
+        "correct": "access not exercise"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Right",
+        "correct": "Right"
+      },
+      {
+        "question": "رجیستر به چه معناست؟",
+        "selected": "حافظه کوچک در داخل CPU",
+        "correct": "حافظه کوچک در داخل CPU"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Center Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": "Caption",
+        "correct": "Caption"
+      },
+      {
+        "question": "برای تمایز افرادی که دارای نام یا نام خانوادگی یکسانی هستند بهتر است.......................؟",
+        "selected": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم",
+        "correct": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم"
+      }
+    ],
+    "date": "2026-09-20T13:57:26.764Z"
   }
 ]
