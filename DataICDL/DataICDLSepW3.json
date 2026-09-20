@@ -8690,5 +8690,217 @@
       }
     ],
     "date": "2026-09-20T13:24:43.479Z"
+  },
+  {
+    "name": "الینا محمودی",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Style Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای درج یک معیار از کدام قسمت در یک پرس و جو استفاده می شود؟",
+        "selected": "Criteria & Or",
+        "correct": "Criteria & Or"
+      },
+      {
+        "question": "در صورتی که بخواهیم به Transition اسلاید صدای مورد نظر خودمان را اضافه کنیم از ابزار ..... گزینه ..... را انتخاب می کنیم",
+        "selected": "Sound (Other Sound)",
+        "correct": "Sound (Other Sound)"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "الزامی است",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار اسلاید",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Report View",
+        "correct": "Report View"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Justify",
+        "correct": "Center"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "شناسه کاربر",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Gradient",
+        "correct": "Gradient"
+      },
+      {
+        "question": "اگر آدرس یک پست الکترونیک را اشتباه بنویسیم چه اتفاقی می افتد؟",
+        "selected": "نامه با پیام مناسب برگشت داده می شود",
+        "correct": "نامه با پیام مناسب برگشت داده می شود"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "متنی",
+        "correct": "AERO"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "تبدیل گزارش به کدام نوع خروجی امکان پذیر نمی باشد؟",
+        "selected": "Xlsx",
+        "correct": "Bmp"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "اگر A1=14 باشد نتیجه فرمول زیر چیست؟ IF(A1=14),\"Ok\",\"No\")",
+        "selected": "Ok",
+        "correct": "Ok"
+      },
+      {
+        "question": "کدام تابع اعداد موجود در یک ناحیه از سلول ها را شمارش می کند؟",
+        "selected": "Count",
+        "correct": "Count"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Sort"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": "Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F7",
+        "correct": "F5"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "Single User",
+        "correct": "DOS"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      }
+    ],
+    "date": "2026-09-20T13:41:05.370Z"
   }
 ]
