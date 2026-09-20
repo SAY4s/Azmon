@@ -7630,5 +7630,217 @@
       }
     ],
     "date": "2026-09-20T06:27:00.125Z"
+  },
+  {
+    "name": "محمدرضا غیاثوند",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 21,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "روش های تغییر نما در Word را می توان:",
+        "selected": "از زبانه View فعال کرد",
+        "correct": "از زبانه View فعال کرد"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Sort"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟",
+        "selected": "Macro",
+        "correct": "Report"
+      },
+      {
+        "question": "برای قالب بندی فهرست علائم نمودار، در نوار ابزار Chart و از لیست اجزای نمودار کدام مورد صحیح است؟",
+        "selected": "Chart Area",
+        "correct": "Legend"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Content With Caption",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "جهت ایجاد مقدار پیش فرض فیلدها از کدام گزینه استفاده می گردد؟",
+        "selected": "Default Value",
+        "correct": "Default Value"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Ascending",
+        "correct": "Descending"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Yahoo",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "برای تنظیم حاشیه های سند از کدام دکمه استفاده می شود؟",
+        "selected": "Column",
+        "correct": "Margins"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Insert header and footer",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font",
+        "correct": "Font Color"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "جهت چاپ صفحات خاصی از فرم یا گزارش در پنجره Print و در قسمت Print Range کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Page From … To …",
+        "correct": "Page From … To …"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک بایت کمتر از یک بیت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "پس از انتخاب قسمتی از متن یک صفحه ی وب و فشردن کلید Ctrl+C متن انتخاب شده به ...... انتقال می یابد.",
+        "selected": "حافظه ی موقت ویندوز (clipboard)",
+        "correct": "حافظه ی موقت ویندوز (clipboard)"
+      },
+      {
+        "question": "اگر در یک query برای فیلد تاریخ تولد عبارت 1360<= and <=1367 به کار رود در لیست نتیجه کدام مورد زیر ظاهر می شود؟",
+        "selected": "اطلاعات افرادی که تولد آنها از 1360 تا 1367 است",
+        "correct": "اطلاعات افرادی که تولد آنها از 1360 تا 1367 است"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      },
+      {
+        "question": "Cpu از چه قسمت هایی تشکیل شده است؟",
+        "selected": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان",
+        "correct": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "کدامیک از موارد زیر از توانایی های برنامه های صفحه گسترده نمی باشد؟",
+        "selected": "تولید یک برنامه اجرایی مستقل کامپیوتری",
+        "correct": "تولید یک برنامه اجرایی مستقل کامپیوتری"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query تمام فیلدهای جدول را شامل می شود",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": "Query",
+        "correct": "Report"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Account",
+        "correct": "Info"
+      },
+      {
+        "question": "کدام گزینه برای ایجاد اسلاید در پاورپوینت صحیح است؟",
+        "selected": "New Slide",
+        "correct": "New Slide"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Rows",
+        "correct": "Fields"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "General",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "رایانه را قفل می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "انتخاب خاصیت Yes (Duplicate Ok) از خاصیت Indexed فیلد باعث ..................؟",
+        "selected": "ایجاد ایندکس بر روی فیلد می شود و این فیلد در رکوردهای جدول نمی تواند تکراری باشد",
+        "correct": "ایجاد ایندکس بر روی فیلد می شود و این فیلد در رکوردهای جدول می تواند تکراری باشد"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Clear",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Condition Format",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Priority",
+        "correct": "Attach"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Download , Upload",
+        "correct": "Upload , Download"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "From",
+        "correct": "To"
+      }
+    ],
+    "date": "2026-09-20T06:28:37.112Z"
   }
 ]
