@@ -8478,5 +8478,217 @@
       }
     ],
     "date": "2026-09-20T10:15:32.355Z"
+  },
+  {
+    "name": "الینا محمودی",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از گزینه زیر تعریف کامپیوتر است؟",
+        "selected": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد",
+        "correct": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "جابجایی کاربرگ",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Network",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "خریدار مالک نرم افزار است و حق تکثیر آن را دارد",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای اینکه نتوان محل نوار وظیفه را تغییر داد باید کدام گزینه را از کادر محاوره ای Taskbar and Start Menu Properties انتخاب نمود؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه ای از شیارها با شعاع یکسان",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "استفاده از دکمه Insert Table در چیدمان اسلاید برای درج .......... می باشد.",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای تجاری از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "مفهوم گزینه Wrap Text چیست؟",
+        "selected": "متن طولانی به صورت چند سطری نشان داده شود",
+        "correct": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - کانال انتقال",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Status Bar",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "Ram > CPU > Hard > Floppy",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "در محیط برنامه های کاربردی ویندوز چگونه می توانیم مطالب را درون یک فایل ذخیره سازیم؟",
+        "selected": "File / Save",
+        "correct": "File / Save"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "کدام یک از موارد زیر سیستم عامل محسوب نمی شود؟",
+        "selected": "Unix",
+        "correct": "Word"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "برای اجرای فرمان cut و paste از کدام کلیدهای میانبر زیر استفاده می شود؟",
+        "selected": "Ctrl+C - Ctrl+V",
+        "correct": "Ctrl+V - Ctrl+X"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Left To Right Text Direction",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "جهت مرتب نمودن داده های جدول گزینه Sort را از تب ............ انتخاب می کنیم.",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی و تاریخی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "نتیجه تابع =Round(435.23;1) چیست؟",
+        "selected": "435.23",
+        "correct": "435.2"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "From",
+        "correct": "To"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "پس از تکمیل فرم اطلاعات، باید توسط چه گزینه ای تایید شود؟",
+        "selected": "Agree Form",
+        "correct": "Submit"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print All Page",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب اعشاری",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Design, Layout",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Queries",
+        "correct": "Reports"
+      }
+    ],
+    "date": "2026-09-20T13:24:43.479Z"
   }
 ]
