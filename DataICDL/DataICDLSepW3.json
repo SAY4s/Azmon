@@ -15686,5 +15686,217 @@
       }
     ],
     "date": "2026-09-21T10:18:26.256Z"
+  },
+  {
+    "name": "دیانا کلاسی",
+    "exam": "icdl",
+    "score": 20,
+    "total": 40,
+    "percent": 50,
+    "wrong": 20,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای رفتن به ابتدای فایل باید از کلید ترکیبی …….. استفاده کرد.",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Home"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Hotmail",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "برای تصحیح خطاهای املایی از کدام ابزار استفاده می گردد؟",
+        "selected": "Spelling & Grammar",
+        "correct": "Spelling & Grammar"
+      },
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Workbook",
+        "correct": "Book"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Insert",
+        "correct": "Home"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "از ابزار Change Case به چه منظور استفاده می شود؟",
+        "selected": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک",
+        "correct": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F10",
+        "correct": "F11"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "EPROM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک بایت کمتر از یک بیت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Clear Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "در هنگام درج نمودار دو سربرگ وابسته ............. و .......... نیز به سربرگ دستورات نرم افزار اضافه می شود.",
+        "selected": "Design - Format",
+        "correct": "Design - Format"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Customize > Format Background",
+        "correct": "Design > Variants > Colors"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "کپی کردن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - صفحه کلید",
+        "correct": "چاپگر - صفحه نمایش - پالتر"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "By Item Type",
+        "correct": "By Item Type"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "تعجب",
+        "correct": "پرچم"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به معنی قطع ارتباط با اینترنت می باشد؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "Boot شدن یعنی چه؟",
+        "selected": "پر شدن حافظه به دلیل مقیم شدن برنامه های مختلف",
+        "correct": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر"
+      },
+      {
+        "question": "کدام یک از جملات زیر صحیح نیست؟",
+        "selected": "فایل ها بدون پسوند هستند",
+        "correct": "فایل ها بدون پسوند هستند"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "Hard Disk",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "3-D Style",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "txt",
+        "correct": "docx"
+      },
+      {
+        "question": "تعریف نرم افزار کدام گزینه زیر می باشد؟",
+        "selected": "داده ها و دستورالعمل ها",
+        "correct": "داده ها و دستورالعمل ها"
+      },
+      {
+        "question": "گزینه مناسب برای زیرخط دار کردن نوشته کدام است؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "تعریف زیر معرف کدام یک از موارد زیر است؟ \"محدود کردن نمایش اطلاعات بانک اطلاعاتی به رکوردها و فیلدهایی که برای تطبیق مشخص شده اند.\"",
+        "selected": "فیلتر",
+        "correct": "فیلتر"
+      },
+      {
+        "question": "در کدام ناحیه از اسلاید فعال می توانیم آن را اصلاح کنیم؟",
+        "selected": "ناحیه ویرایش اسلاید",
+        "correct": "ناحیه ویرایش اسلاید"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "Memory Secondary",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": "Https",
+        "correct": "RSS"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": "یک نرم افزار صفحه گستر است",
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "در چیدمان Slide ها از چیدمان ....... برای نگهداری عنوان و نگهداری متن استفاده می شود؟",
+        "selected": "Title Slide",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Home > Slide > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Report Header Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Top The Ribbon",
+        "correct": "Pin The Ribbon"
+      }
+    ],
+    "date": "2026-09-21T20:29:11.594Z"
   }
 ]
