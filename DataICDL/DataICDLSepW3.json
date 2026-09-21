@@ -15050,5 +15050,217 @@
       }
     ],
     "date": "2026-09-21T05:33:39.568Z"
+  },
+  {
+    "name": "متین",
+    "exam": "icdl",
+    "score": 17,
+    "total": 40,
+    "percent": 43,
+    "wrong": 23,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "انتخاب Wizard Form از ریبون Home",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "پس از تکمیل فرم اطلاعات، باید توسط چه گزینه ای تایید شود؟",
+        "selected": "Agree Form",
+        "correct": "Submit"
+      },
+      {
+        "question": "Blank Page از گروه Pages چه کاربردی دارد؟",
+        "selected": "یک سند الگو ایجاد می کند",
+        "correct": "یک صفحه خالی درج می کند"
+      },
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Table",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "8 بایت",
+        "correct": "یک بیت"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "در محیط برنامه های کاربردی ویندوز چگونه می توانیم مطالب را درون یک فایل ذخیره سازیم؟",
+        "selected": "File / Save",
+        "correct": "File / Save"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Scanner",
+        "correct": "Webcam"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Properties"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "View",
+        "correct": "Properties"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Wizard",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "گزینه مناسب اجرای فرمان جستجوی واژه ها کدام است؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ View گزینه Style",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "در کدام نما می توان ترتیب اسلایدها را تغییر داد؟",
+        "selected": "Slide Show",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Apply Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین جداول بانک اطلاعاتی نیازمند ............ هستیم.",
+        "selected": "یک فیلد ارتباطی",
+        "correct": "یک فیلد کلیدی"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Toolbar",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها برابر مجموع تعداد سطرها و ستون هاست",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Tejarat",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "First page",
+        "correct": "Web page"
+      },
+      {
+        "question": "توسط کدام دستور اندازه صفحه را تغییر می دهیم؟",
+        "selected": "Size",
+        "correct": "Size"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "Edit / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Table Color",
+        "correct": "Shading"
+      },
+      {
+        "question": "از ابزار Symbol در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج کاراکترها و علائم ویژه",
+        "correct": "درج کاراکترها و علائم ویژه"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Show Quick Launch",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "View \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Content With Caption",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter By Form",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "برای ذخیره نمودن تصاویر در وب پس از راست کلیک از چه گزینه ای استفاده می شود؟",
+        "selected": "Save picture as",
+        "correct": "Save picture as"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "داشتن تصاویر بیش از حد در وب سایت",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      }
+    ],
+    "date": "2026-09-21T05:37:46.462Z"
   }
 ]
