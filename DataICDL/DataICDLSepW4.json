@@ -1,0 +1,214 @@
+[
+  {
+    "name": "اسماعیل اینانلو",
+    "exam": "icdl",
+    "score": 13,
+    "total": 40,
+    "percent": 33,
+    "wrong": 27,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Table",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "جهت شکستن متن اضافی در یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Margins گزینه Portrait",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Picture",
+        "correct": "Design"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "کلیک راست بر روی نوار کار و انتخاب Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد یک فرم جدید به صورت ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footer",
+        "correct": "Footnote"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ chart",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "برای انتخاب چند سطر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Space",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Sum",
+        "correct": "Average"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Inter Net Technology است و به معنای فناوری اطلاعات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Shut Down",
+        "correct": "Lock"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "3",
+        "correct": "1"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": "Last Month",
+        "correct": "Last Month"
+      },
+      {
+        "question": "کوچکترین عنصر صفحه نمایش چه نام دارد؟",
+        "selected": "Pin",
+        "correct": "Pixel"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": "گزینه Split از سربرگ Insert",
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "برای اینکه اعلام کنیم که اعداد بزرگتر از 50 برای یک فیلد در نظر گرفته شوند، شرط را برای کدام خاصیت از فیلد باید اعلام نمود؟",
+        "selected": "Required",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "کدام نوع داده برای متن و یا ترکیب متن و عدد مناسب است؟",
+        "selected": "Currency",
+        "correct": "Text"
+      },
+      {
+        "question": "گزینه Width در سربرگ Paper چه کاربردی دارد؟",
+        "selected": "اندازه کل صفحه را تعیین می کند",
+        "correct": "عرض صفحه را تعیین می کند"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "fcdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به عنوان متن در نظر گرفته می شود؟",
+        "selected": "4.3",
+        "correct": "2+3"
+      },
+      {
+        "question": "ابزار ایجاد فهرست در Word کدام است؟",
+        "selected": "Multilevel List",
+        "correct": "Table Of Contents"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر با مقداردهی در کادر عددی آن موجب تاخیر در نمایش انیمیشن می شود؟",
+        "selected": "Trigger",
+        "correct": "Delay"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Home > Slide > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Default Value",
+        "correct": "Decimal Places"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+]",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Open",
+        "correct": "Print"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Comparison",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Wan",
+        "correct": "Lan"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "کدام گزینه از اجزای بانک اطلاعاتی access نمی باشد؟",
+        "selected": "Database",
+        "correct": "Database"
+      }
+    ],
+    "date": "2026-09-22T05:05:01.525Z"
+  }
+]
