@@ -210,5 +210,217 @@
       }
     ],
     "date": "2026-09-22T05:05:01.525Z"
+  },
+  {
+    "name": "الینا محمودی",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "Blank Page از گروه Pages چه کاربردی دارد؟",
+        "selected": "یک صفحه خالی درج می کند",
+        "correct": "یک صفحه خالی درج می کند"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "CRT",
+        "correct": "CRT"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "ورد",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک فایل ارائه مطالب در نسخه های قبلی (2003) برنامه قابل اجرا باشد از چه پسوندی استفاده می کنیم؟",
+        "selected": "PPT",
+        "correct": "PPT"
+      },
+      {
+        "question": "برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟",
+        "selected": "Increase Alphabet",
+        "correct": "Sort"
+      },
+      {
+        "question": "رجیستر به چه معناست؟",
+        "selected": "حافظه کوچک در داخل CPU",
+        "correct": "حافظه کوچک در داخل CPU"
+      },
+      {
+        "question": "نتیجه تابع =Round(435.23;1) چیست؟",
+        "selected": "435.2",
+        "correct": "435.2"
+      },
+      {
+        "question": "با فشردن کدام کلید تابعی مکان نما از حالت متن خارج و سربرگ ها فعال و در کنار سربرگ ها یک عدد یا یک حرف قرار می گیرد؟",
+        "selected": "F8",
+        "correct": "F2"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "پس از تکمیل فرم اطلاعات، باید توسط چه گزینه ای تایید شود؟",
+        "selected": "Agree Form",
+        "correct": "Submit"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "Reply To All",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Center Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "کدام گزینه یک محیط گرافیکی را برای نرم افزارها ایجاد می نماید؟",
+        "selected": "واسط گرافیکی کاربر GUI",
+        "correct": "واسط گرافیکی کاربر GUI"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Toggle Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "در چیدمان slideها از چیدمان ....... برای نگهداری عنوان و نگهداری محتوای غیرمتنی استفاده می شود؟",
+        "selected": "Title Only",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Envelopes",
+        "correct": "Mailings"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش آیکن ها با جزئیات بکار می رود؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Order",
+        "correct": "Group"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "جهت مشخص نمودن سایت های تجاری، کمپانی، موسسات و سازمان های تجاری از دامنه با نام ....... استفاده می کنیم؟",
+        "selected": "Gov",
+        "correct": "Com"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "بر روی تب مورد نظر اشاره کرده و کلید Delete را فشار می دهیم",
+        "correct": "از کادر محاوره ای Tabs پس از انتخاب تب مورد نظر بر روی دکمه Clear کلیک می کنیم"
+      },
+      {
+        "question": "برای بروزرسانی صفحه وب از کدام گزینه استفاده می شود؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انتخاب گزینه Arrange از تب Review",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "1024",
+        "correct": "255"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟",
+        "selected": "Print From ... To ...",
+        "correct": "Print From ... To ..."
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Ole",
+        "correct": "Ole"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Sort A To Z",
+        "correct": "Sort A To Z"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C2+B3+C3=",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "در کدام نما، همزمان با اینکه داده ها در گزارش نمایش داده می شوند می توانیم گزارش را قالب بندی کنیم؟",
+        "selected": "Design View",
+        "correct": "Layout View"
+      },
+      {
+        "question": "تاریخچه اینترنت کدام است؟",
+        "selected": "History",
+        "correct": "History"
+      }
+    ],
+    "date": "2026-09-22T15:17:27.600Z"
   }
 ]
