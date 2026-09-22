@@ -846,5 +846,217 @@
       }
     ],
     "date": "2026-09-22T19:36:44.498Z"
+  },
+  {
+    "name": "فاطمه رازقی",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "درپنجره Internet انتخاب کدام گزینه ها موجب می شود صفحه خانگی یک صفحه خالی باشد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو در اکسل کافی است در لیست save as type گزینه ... را انتخاب کنید.",
+        "selected": "excel template",
+        "correct": "excel template"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن زیر خط دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Sentence Case",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "در صورتی که بخواهیم رنگ پس زمینه با ترکیب دو رنگ متفاوت باشد گزینه ....... را در پنجره ی Format Background فعال می کنیم؟",
+        "selected": "Pattern Fill",
+        "correct": "Gradient Fill"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "جهت حذف یک فایل می توان ............",
+        "selected": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود",
+        "correct": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide Design",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Register",
+        "correct": "Cu"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "کدام گزینه در مورد دولت الکترونیکی بکار می رود؟",
+        "selected": "E-Government",
+        "correct": "E-Government"
+      },
+      {
+        "question": "کدام فرمان برای اجرای مکرر دستورات استفاده می شود؟",
+        "selected": "Macro",
+        "correct": "Macro"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "ابزار ایجاد فهرست در Word کدام است؟",
+        "selected": "List Of Content",
+        "correct": "Table Of Contents"
+      },
+      {
+        "question": "برای درج متن از چه روشی استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط خواندنی و پایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      },
+      {
+        "question": "پس از درج جدول توسط کدام ابزار می توان مدل خطوط را تغییر داد؟",
+        "selected": "Table Style",
+        "correct": "Pen Style"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Bing",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "کدام یک از موارد زیر درست می باشد؟",
+        "selected": "قدرت پردازش Mini کامپیوتر از کامپیوترهای Pc بیشتر است",
+        "correct": "کامپیوترهای Mini همانند کامپیوترهای Pc تک کاربره هستند"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Modules",
+        "correct": "Macros"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": "کامپیوترهای Laptop قابل حمل هستند",
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "برای انتخاب خانه های غیرمجاور در Excel، از کلید .................. استفاده می کنیم.",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "جهت شکستن متن اضافی در یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "txt",
+        "correct": "docx"
+      },
+      {
+        "question": "منویی که با کلیک راست روی آیکن نمایش می یابد، چه نام دارد؟",
+        "selected": "منوی میانبر",
+        "correct": "منوی میانبر"
+      },
+      {
+        "question": "در سربرگ Animation و در قسمت Timing، کدام گزینه زیر زمان تاخیر برای حرکت موضوع را می توان وارد کرد؟",
+        "selected": "Delay",
+        "correct": "Delay"
+      }
+    ],
+    "date": "2026-09-22T20:01:15.391Z"
   }
 ]
