@@ -1482,5 +1482,217 @@
       }
     ],
     "date": "2026-09-23T12:39:51.372Z"
+  },
+  {
+    "name": "حنانه مختاری",
+    "exam": "icdl",
+    "score": 14,
+    "total": 40,
+    "percent": 35,
+    "wrong": 26,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "مودم",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "بلندگو",
+        "correct": "مودم"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "تجارت الکترونیک، پست الکترونیک",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Edit Footer",
+        "correct": "Header"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "کدام یک از کارت های زیر مربوط به کیفیت تصویر می باشد؟",
+        "selected": "VGA",
+        "correct": "VGA"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای اندیس گذاری (زیرنویس) چه گزینه ای مناسب است؟",
+        "selected": "Strikethrough",
+        "correct": "Subscript"
+      },
+      {
+        "question": "برای انتقال فایل و پوشه ها به کدام گزینه مراجعه می کنیم؟",
+        "selected": "Print",
+        "correct": "Organize"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "&",
+        "correct": "$"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Show"
+      },
+      {
+        "question": "در مهارت های هفتگانه ICDL کدام نرم افزار به عنوان صفحه گسترده تدریس می شود؟",
+        "selected": "Outlook express",
+        "correct": "MS_EXCEL"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "CPU > Ram > Hard > Floppy",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "اجزای اصلی کامپیوترهای شخصی کدام است؟",
+        "selected": "Cpu - Memory - Case - Monitor",
+        "correct": "Cpu - Memory - Input Unit - Output Unit"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Copy",
+        "correct": "Cut"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Table",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Form View, Table",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "به شرکت های ارائه دهنده خدمات اینترنتی چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F3",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "دسترسی به اطلاعات در حافظه Ram به چه صورت است؟",
+        "selected": "موازی",
+        "correct": "تصادفی"
+      },
+      {
+        "question": "با استفاده از دکمه ............. می توان از صفحه نمایش عکس گرفت.",
+        "selected": "Scroll Lock",
+        "correct": "Print Screen"
+      },
+      {
+        "question": "منظور از توپولوژی شبکه چیست؟",
+        "selected": "تعداد کامپیوترها جانبی در شبکه است",
+        "correct": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "اشتراک اینترنت به پایان رسیده باشد",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print Selection",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": "Format",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "عمل پیمایش (scroll) چیست؟",
+        "selected": "همان کشیدن و رها کردن است",
+        "correct": "به عمل چرخاندن کلید وسط موس برای مشاهده محتویات پنجره گفته می شود"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE به طور اتوماتیک نمایش داده می شود ....... نام دارد",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "Between 1.1.2005 And 12.30.2006",
+        "correct": "No Value"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Send",
+        "correct": "Reply"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Size",
+        "correct": "Date modified"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "دیسک مغناطیسی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Memo",
+        "correct": "Currency"
+      },
+      {
+        "question": "برنامه های کوچکی که به یک برنامه اجرایی حمله کرده و اجرای آن را مختل می کنند چه نامیده می شود؟",
+        "selected": "Scam",
+        "correct": "Virus"
+      },
+      {
+        "question": "برای مدیریت سندها از کدام گزینه استفاده می شود؟",
+        "selected": "File",
+        "correct": "File"
+      },
+      {
+        "question": "از این ابزار برای مخفی کردن اسلایدها در حالت نمایش استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Scale",
+        "correct": "Scale"
+      }
+    ],
+    "date": "2026-09-23T12:56:32.654Z"
   }
 ]
