@@ -2754,5 +2754,217 @@
       }
     ],
     "date": "2026-09-25T07:53:01.707Z"
+  },
+  {
+    "name": "کیارش منصوری",
+    "exam": "icdl",
+    "score": 16,
+    "total": 40,
+    "percent": 40,
+    "wrong": 21,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Shift",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "باینری",
+        "correct": "باینری"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "Field Size",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "برای بالانویسی کدام دکمه را به کار می بریم؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "برای ایجاد یک جدول با تعداد سطر و ستون دلخواه کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Draw Table",
+        "correct": "Insert Table"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Split Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Tables",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "جمع",
+        "correct": "جمع"
+      },
+      {
+        "question": "از این ابزار به منظور نمایش اسلایدها از اسلاید جاری استفاده می شود.",
+        "selected": "Custom Slide Show",
+        "correct": "From Current Slide"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Table",
+        "correct": "Database"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Convert to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "برای ارائه نهایی نمایش از کدام نما استفاده می شود؟",
+        "selected": "Slide Sorter",
+        "correct": "Slide Show"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": null,
+        "correct": "Caption"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای یک .............. است؟",
+        "selected": "Field",
+        "correct": "Table"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "سند",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": null,
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Wan",
+        "correct": "Lan"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "کلید میانبر فرمان paste چیست؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+V"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "برای چرخش متن در جدول از کدام گزینه استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": null,
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Right",
+        "correct": "Right"
+      },
+      {
+        "question": "برای اینکه در پرس و جو، شرط ورودی را موقع اجرا درخواست کند، از کدام علامت استفاده می کنید؟",
+        "selected": "( )",
+        "correct": "[ ]"
+      },
+      {
+        "question": "برای بستن پنجره فعال از ترکیب کلیدهای ............... استفاده می شود؟",
+        "selected": "Alt+C",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "World Wide Web",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "جهت تغییر اندازه تصویر، کدام سربرگ را انتخاب می کنیم؟",
+        "selected": "Layout",
+        "correct": "Format"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "برای نمایش خطوط راهنما و شبکه ای کدام گزینه ها را فعال می کنیم؟",
+        "selected": "Ruler - Guides",
+        "correct": "Grid Line - Guides"
+      },
+      {
+        "question": "هنگام اضافه کردن یک سلول گزینه Shift Cells Down چه عملی انجام می دهد؟",
+        "selected": "انتقال سایر خانه ها به پایین",
+        "correct": "انتقال سایر خانه ها به پایین"
+      },
+      {
+        "question": "کدام منو در نرم افزار Powerpoint برای ایجاد انیمیشن کاربرد دارد؟",
+        "selected": "Animations",
+        "correct": "Animations"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Title",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Currency",
+        "correct": "Text"
+      }
+    ],
+    "date": "2026-09-25T09:20:00.598Z"
   }
 ]
