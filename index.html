@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>مرکز آموزشی خوارزمی</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- ═══ PWA ═══ -->
+<link rel="manifest" href="/Azmon/manifest.json">
+<meta name="theme-color" content="#1a5f7a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="آزمون خوارزمی">
+<link rel="apple-touch-icon" href="/Azmon/icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/Azmon/icons/icon-192.png">
+
 <style>
 @font-face {
   font-family: 'SiteFont';
@@ -306,8 +317,6 @@ footer{
   }
   .banner-slot{width:82vw;height:calc(82vw * 1.414);margin:0 auto;}
 
-  /* فقط یک کادر تبلیغات (بنر چپ) نمایش داده شود و دقیقاً زیر بخش
-     «انتخاب آزمون» قرار بگیرد. بنر راست در موبایل کاملاً مخفی است. */
   #bannerRight{display:none !important;}
   #bannerLeft{order:2;margin-top:14px;}
   .center-col{order:1;}
@@ -610,6 +619,17 @@ footer{
 
 <script>
 /* ═══════════════════════════════════════════
+   PWA: ثبت Service Worker
+═══════════════════════════════════════════ */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/Azmon/sw.js")
+      .then((reg) => console.log("Service Worker ثبت شد:", reg.scope))
+      .catch((err) => console.warn("خطا در ثبت Service Worker:", err));
+  });
+}
+
+/* ═══════════════════════════════════════════
    LOGIN
 ═══════════════════════════════════════════ */
 let correctPass = null;
@@ -646,7 +666,6 @@ const ALL_SECS=['secLogin','secSelect','secICDLMenu','secDipMenu','secPyMenu','s
 function show(id,vis){
   const el=document.getElementById(id);
   if(!vis){el.style.display='none';return;}
-  // quiz و results باید flex باشن
   el.style.display=(id==='secQuiz'||id==='secResults')?'flex':'block';
 }
 function showOnly(...ids){ALL_SECS.forEach(s=>show(s,ids.includes(s)));}
@@ -1023,10 +1042,6 @@ function retryExam(){
 
 /* ═══════════════════════════════════════════
    ثبت نتیجه در گیت‌هاب (data.json)
-   تنظیمات (owner/repo، مسیر فایل، branch، توکن) هر بار درست قبل از
-   ارسال نتیجه از خانه B4 گوگل‌شیت منتشرشده خوانده می‌شود.
-   فرمت داخل سلول B4:  owner/repo,path,branch,token
-   مثال:               SAY4s/Azmon,Data.json,main,github_pat_***
 ═══════════════════════════════════════════ */
 const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRQwgHgBvIpgkVHaKENnJgnwdEYIrUSLqUH7s0_xUWkEx-GcMI_EPUiURR_OrNBA7fED984X6Ygam1I/pub?output=csv';
 
@@ -1089,10 +1104,6 @@ function b64DecodeUnicode(str){
   return decodeURIComponent(escape(atob(str)));
 }
 
-/* ═══════════════════════════════════════════
-   نگاشت هر مبحث به پوشه‌ی مخصوص خودش + نام‌گذاری
-   هفتگی فایل جیسون (مثل DataICDL/DataICDLAugW1.json)
-═══════════════════════════════════════════ */
 const TOPIC_MAP={
   icdl:            {folder:'DataICDL',           name:'ICDL'},
   python:          {folder:'DataPython',         name:'Python'},
@@ -1106,7 +1117,7 @@ const MONTH_ABBR=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','N
 
 function getWeekLabel(d=new Date()){
   const day=d.getDate();
-  const week=Math.min(4,Math.ceil(day/7)); // روز ۱-۷=هفته۱ … ۲۲-۳۱=هفته۴
+  const week=Math.min(4,Math.ceil(day/7));
   return MONTH_ABBR[d.getMonth()]+'W'+week;
 }
 
@@ -1218,7 +1229,6 @@ class Slideshow{
     this._next();setInterval(()=>this._next(),this.ms);
   }
   _makeFrame(src,cb){
-    /* هر فریم: یک div شامل bg بلور + img فیت */
     const frame=document.createElement('div');
     frame.style.cssText='position:absolute;inset:0;opacity:0;transition:opacity 1s ease;';
 
@@ -1272,7 +1282,6 @@ async function initSlides(){
   new Slideshow('bannerLeft', names, 4500);
   new Slideshow('bannerRight',names, 5800);
 }
-/* نمایش فوری یک پوستر پیش‌فرض، بدون نیاز به اسکن کامل پوشه (سریع) */
 function showDefaultPosterInstant(elId){
   const el=document.getElementById(elId);
   if(!el)return;
