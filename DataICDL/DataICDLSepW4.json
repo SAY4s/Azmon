@@ -3390,5 +3390,217 @@
       }
     ],
     "date": "2026-09-25T09:42:51.364Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 18,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Alt+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Fill Color",
+        "correct": "Shading"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با کشیدن ماوس بر روی سلول های انتخاب شده سری مقادیر تعریف شده نوشته می شوند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "در کادر محاوره ای Internet Option کلیک بر روی دکمه Use Current در بخش General چه عملی انجام می شود؟",
+        "selected": "آدرس صفحه جاری را به عنوان صفحه Home Page درنظر می گیرد",
+        "correct": "آدرس صفحه جاری را به عنوان صفحه Home Page درنظر می گیرد"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column",
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Current Page",
+        "correct": "Current Page"
+      },
+      {
+        "question": "برای درج متن از چه روشی استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "پاک کردن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "برای باز کردن فایل فشرده کدام گزینه صحیح است؟",
+        "selected": "بر روی آن کلیک راست نموده و گزینه Properties را انتخاب نمایید",
+        "correct": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید"
+      },
+      {
+        "question": "برای حذف سوابق صفحات ویزیت شده از کدام دکمه استفاده می کنیم؟",
+        "selected": "Clear Cookie",
+        "correct": "Clear History"
+      },
+      {
+        "question": "با استفاده از کدام تب از کادر محاوره ای Format Cell می توان خطوط کادر خانه ها را تنظیم نمود؟",
+        "selected": "Border",
+        "correct": "Border"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": "Create New Account",
+        "correct": "Create New Account"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Formula",
+        "correct": "Formula"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Click",
+        "correct": "Drag"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Byte",
+        "correct": "Bit"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "View",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "کدام خواص زیر در فیلدها قالب نمایش فیلد را مشخص می کند، مثلا اینکه با حروف کوچک یا بزرگ نمایش داده شود؟",
+        "selected": null,
+        "correct": "Format"
+      },
+      {
+        "question": "در صورت وجود غلط های املایی در متن اسلایدها کدام یک از روش ها برای برطرف کردن غلط های املایی مناسب است؟",
+        "selected": "سربرگ Review گزینه Spelling",
+        "correct": "سربرگ Review گزینه Spelling"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "دسیمال",
+        "correct": "باینری"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "اگر بخواهیم نامه دریافت شده را برای افراد دیگری بفرستیم از کدام دکمه استفاده می کنیم؟",
+        "selected": "Send",
+        "correct": "Forward"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Presentation",
+        "correct": "Presentation"
+      },
+      {
+        "question": "برای مرتب کردن آیکن های میز کار بر اساس نوع، از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Item Type",
+        "correct": "Item Type"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide Design",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Sound",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Layout",
+        "correct": "Section"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "با انتخاب فیلد Number به طور پیش فرض ................. برای آن در نظر گرفته می شود؟",
+        "selected": "Single",
+        "correct": "Long Integer"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      }
+    ],
+    "date": "2026-09-27T12:14:59.441Z"
   }
 ]
