@@ -5510,5 +5510,217 @@
       }
     ],
     "date": "2026-09-28T17:46:23.949Z"
+  },
+  {
+    "name": "999",
+    "exam": "icdl",
+    "score": 0,
+    "total": 40,
+    "percent": 0,
+    "wrong": 1,
+    "unanswered": 39,
+    "answers": [
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Above از سربرگ Layout، 5 سطر در ................. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "پایین",
+        "correct": "بالا"
+      },
+      {
+        "question": "برای انتخاب چند سطر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": null,
+        "correct": "Shift"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": null,
+        "correct": "Form View"
+      },
+      {
+        "question": "برای ارسال مجدد یک نامه الکترونیکی به سایر افراد از کدام گزینه استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Forward"
+      },
+      {
+        "question": "هنگام اضافه کردن یک سلول گزینه Shift Cells Down چه عملی انجام می دهد؟",
+        "selected": null,
+        "correct": "انتقال سایر خانه ها به پایین"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Landscape"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": null,
+        "correct": "Uni Code"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای ذخیره سازی دائم اطلاعات مناسب است؟",
+        "selected": null,
+        "correct": "حافظه ثانویه"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": null,
+        "correct": "Desktop background"
+      },
+      {
+        "question": "در طراحی اسلایدها کدام گزینه برای طراحی الگوی نسخه چاپی اسلایدهای فایل ارائه مطلب برای حاضرین در جلسه به کار می رود؟",
+        "selected": null,
+        "correct": "Handout Master"
+      },
+      {
+        "question": "برنامه های در حال اجرا در محیط ویندوز در کدام قسمت نشان داده می شوند؟",
+        "selected": null,
+        "correct": "Task Manager"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": null,
+        "correct": "Query"
+      },
+      {
+        "question": "در کدام ناحیه از اسلاید فعال می توانیم آن را اصلاح کنیم؟",
+        "selected": null,
+        "correct": "ناحیه ویرایش اسلاید"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": null,
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": null,
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": null,
+        "correct": "Select Column"
+      },
+      {
+        "question": "در صورت عدم اطلاع از مکان فایل، می توان به چه روشی آن را اجرا کرد؟",
+        "selected": null,
+        "correct": "استفاده از Search"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": null,
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Remove"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": null,
+        "correct": "Search"
+      },
+      {
+        "question": "به فرآیندی که فایلی را از اینترنت بر روی کامپیوتر خود قرار می دهیم چه می گویند؟",
+        "selected": null,
+        "correct": "Download"
+      },
+      {
+        "question": "هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.",
+        "selected": null,
+        "correct": "سلول"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": null,
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": null,
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl"
+      },
+      {
+        "question": "اطلاعات کدام یک از حافظه های زیر در نبود برق از بین می رود؟",
+        "selected": null,
+        "correct": "Ram"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": null,
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": null,
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": null,
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "چنانچه بخواهیم نام یکی از کاربرگ های موجود در کارپوشه را تغییر دهیم از چه دستوری استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Rename"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "در Windows کدام نرم افزار قابلیت ایجاد فایل را ندارد؟",
+        "selected": null,
+        "correct": "Calculator"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": null,
+        "correct": "Esc"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": null,
+        "correct": "Page"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": null,
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": null,
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": null,
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "جهت مشاهده مجدد صفحات وب ویزیت شده در هفته پیش از چه دکمه ای استفاده می کنیم؟",
+        "selected": null,
+        "correct": "History"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": null,
+        "correct": "Clear Formatting"
+      }
+    ],
+    "date": "2026-09-28T17:47:10.642Z"
   }
 ]
