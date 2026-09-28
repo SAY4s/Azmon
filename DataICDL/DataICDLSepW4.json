@@ -5298,5 +5298,217 @@
       }
     ],
     "date": "2026-09-28T15:26:23.213Z"
+  },
+  {
+    "name": "999",
+    "exam": "icdl",
+    "score": 2,
+    "total": 40,
+    "percent": 5,
+    "wrong": 5,
+    "unanswered": 33,
+    "answers": [
+      {
+        "question": "برای اینکه نتوان محل نوار وظیفه را تغییر داد باید کدام گزینه را از کادر محاوره ای Taskbar and Start Menu Properties انتخاب نمود؟",
+        "selected": "Show Quick launch",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Cut",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "توان",
+        "correct": "جمع"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Split Query",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Right To Left Text Direction",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "CPU",
+        "correct": "UPS"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "Uppercase"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": null,
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": null,
+        "correct": "Ctrl"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": null,
+        "correct": "Title Slide"
+      },
+      {
+        "question": "Shut Down چیست؟",
+        "selected": null,
+        "correct": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند"
+      },
+      {
+        "question": "کدام صفحه نمایش تشعشعات مضر ندارد؟",
+        "selected": null,
+        "correct": "Plasma, LCD"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": null,
+        "correct": "از کادر محاوره ای Tabs پس از انتخاب تب مورد نظر بر روی دکمه Clear کلیک می کنیم"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": null,
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": null,
+        "correct": "count if"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": null,
+        "correct": "Design"
+      },
+      {
+        "question": "برای جستجوی کلیه فایل ها با پسوند txt از کدام گزینه زیر استفاده می کنیم؟",
+        "selected": null,
+        "correct": "*.txt"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": null,
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": null,
+        "correct": "Lan"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": null,
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": null,
+        "correct": "Date modified"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": null,
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "برای اضافه نمودن عنوان به نمودار از کدام گزینه استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Chart Title"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Format Painter"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": null,
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": null,
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": null,
+        "correct": "Lan"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Last Month"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر با کلیک ماوس اجرا شود کدام گزینه از Start را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "On Click"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": null,
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر صحیح نیست؟",
+        "selected": null,
+        "correct": "سیستم عامل ممکن است چند وظیفه یا یک وظیفه داشته باشد"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": null,
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": null,
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "برای تعیین نحوه نمایش فایل ها از کدام گزینه نوار ابزار استفاده می کنیم؟",
+        "selected": null,
+        "correct": "View"
+      },
+      {
+        "question": "کدام سربرگ برای درج پاورقی است؟",
+        "selected": null,
+        "correct": "References"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": null,
+        "correct": "F5"
+      },
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": null,
+        "correct": "Blank"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": null,
+        "correct": "Match Kashida"
+      }
+    ],
+    "date": "2026-09-28T17:46:23.949Z"
   }
 ]
