@@ -4450,5 +4450,217 @@
       }
     ],
     "date": "2026-09-27T20:06:45.675Z"
+  },
+  {
+    "name": "محمدرضا غیاثوند",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Effect",
+        "correct": "Italic"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Add To Dictionary",
+        "correct": "Ignore"
+      },
+      {
+        "question": "برای تولید اعداد متوالی اتوماتیک کدام نوع داده را برای فیلد باید تعریف نمود؟",
+        "selected": "Autonumber",
+        "correct": "Autonumber"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print All Page",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Convert to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer - Mozilla Firefox"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Equation",
+        "correct": "Formula"
+      },
+      {
+        "question": "تصاویر در کدام گروه از زبانه insert قرار دارند؟",
+        "selected": "Illustrations",
+        "correct": "Illustrations"
+      },
+      {
+        "question": "کاربرها برای راحتی کار یا کاربرانی که حرفه ای نیستند برای ایجاد فرم، گزارش و .............. بهتر است از کدام روش استفاده نمایند؟",
+        "selected": "Create-Form",
+        "correct": "Wizard"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": "Show Desktop Icon",
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Datasheet View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Caption",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Report",
+        "correct": "Query"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F7",
+        "correct": "F1"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Sound & Image",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "از کدام فرمان جهت مشاهده فایل های ذخیره شده استفاده می شود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(a1=kh,\"t\",\"f\")",
+        "selected": "4",
+        "correct": "F"
+      },
+      {
+        "question": "ابزار ایجاد فهرست در Word کدام است؟",
+        "selected": "Multilevel List",
+        "correct": "Table Of Contents"
+      },
+      {
+        "question": "کدامیک از گزینه ها در نرم افزار Paint جهت تغییر حاشیه ها، نوع کاغذ و تعیین اندازه کاغذ و نوع کاغذ بکار می رود؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "Auto Arrange",
+        "correct": "By Item Type"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign In",
+        "correct": "Sign In"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home گروه Slides به منظور بازنشانی تمام تنظیمات یک اسلاید استفاده می شود؟",
+        "selected": "New Slide",
+        "correct": "Reset"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Macro",
+        "correct": "Macro"
+      },
+      {
+        "question": "کدام یک نادرست است؟",
+        "selected": "ماکزیمم طول فیلد Memo برابر 255 است",
+        "correct": "ماکزیمم طول فیلد Memo برابر 255 است"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه Chart Option",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Shift+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Tile",
+        "correct": "Stretch"
+      }
+    ],
+    "date": "2026-09-28T08:08:53.344Z"
   }
 ]
