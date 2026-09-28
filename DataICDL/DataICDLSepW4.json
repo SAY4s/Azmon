@@ -6358,5 +6358,217 @@
       }
     ],
     "date": "2026-09-28T18:43:42.691Z"
+  },
+  {
+    "name": "زهرا",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "از کدام فرمان برای ایجاد یک فایل صفحه گسترده جدید استفاده می کنیم؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Design, Layout",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "به نمودار ستونی چه گفته می شود؟",
+        "selected": "Column",
+        "correct": "Column"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "End",
+        "correct": "Esc"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "برای انتخاب کل جدول کدام یک از دستورات Select را انتخاب می کنید؟",
+        "selected": "Select Table",
+        "correct": "Select Table"
+      },
+      {
+        "question": "کدام یک از انواع نرم افزار برای ویرایش متن مناسب است؟",
+        "selected": "واژه پردازها",
+        "correct": "واژه پردازها"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "حافظه فلش یک دستگاه ...................است؟",
+        "selected": "حافظه",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "برای خروج کامل از ویندوز کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Shut Down",
+        "correct": "Shut Down"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای مرتب کردن داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "برای بازیابی فایل یا پوشه از سطل بازیافت از فرمان ........................... استفاده می کنیم.",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اکسترانت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "After Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Copies",
+        "correct": "Copies"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Back",
+        "correct": "Stop"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "E-Learning کدام یک از موارد زیر می باشد؟",
+        "selected": "آموزش الکترونیکی",
+        "correct": "آموزش الکترونیکی"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "به چه روشی می توانیم نوع Tab را تغییر دهیم؟",
+        "selected": "از سربرگ View انتخاب گزینه Change Tab",
+        "correct": "با کلیک روی مربع مربوط به Tab ها در سمت چپ خط کش"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Summary",
+        "correct": "Summary"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "کلمه عبور در صفحه ورود به ویندوز کلیدهای تابعی را نیز می پذیرد",
+        "correct": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد"
+      },
+      {
+        "question": "نتیجه حاصل از فرمول روبرو در اکسل چه عددی است؟ D=2^3*2+4/2",
+        "selected": "18",
+        "correct": "18"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "به مجموعه ای از رکوردها که دارای عناوین فیلد یکسان هستند ................. گفته می شود؟",
+        "selected": "پایگاه داده",
+        "correct": "جدول"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "فرم (Form)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Each Character Spacing",
+        "correct": "Line And Paragraph Spacing"
+      }
+    ],
+    "date": "2026-09-28T19:13:06.684Z"
   }
 ]
