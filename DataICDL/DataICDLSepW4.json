@@ -7206,5 +7206,217 @@
       }
     ],
     "date": "2026-09-29T09:11:47.537Z"
+  },
+  {
+    "name": "سارا",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه پهن",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "جهت نوشته با کدام دستور تغییر می کند؟",
+        "selected": "Direction",
+        "correct": "Direction"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": "New Value",
+        "correct": "Caption"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter-Selection و Advanced Filter/Sort",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Formula",
+        "correct": "Formula"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Symbol",
+        "correct": "Shortcut key"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تعیین عنوان نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "پسوند فایل ها در نرم افزار پایگاه داده اکسس 2013 کدام است؟",
+        "selected": "Accdb",
+        "correct": "Accdb"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن یک فایل ارائه مطلب در نرم افزار Power Point چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": "Define New Bullet",
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "View",
+        "correct": "Page layout"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "برای چاپ صفحه کاری جاری از کادر محاوره ای Print کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Print Current Sheet",
+        "correct": "Active Sheet Print"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت تعجب",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Font"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.",
+        "selected": "Free Space",
+        "correct": "Free Space"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "بطور پیش فرض نام فایل نمایش در Power Point چیست؟",
+        "selected": "Presentation1",
+        "correct": "Presentation1"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "علامت قرمز برنامه آنتی ویروس نشانه چیست؟",
+        "selected": "به روز نبودن آنتی ویروس",
+        "correct": "به روز نبودن آنتی ویروس"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - قرینه",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      },
+      {
+        "question": "برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Row",
+        "correct": "Select Row"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها بسته به انتخاب کاربر می تواند برابر تعداد سطرها یا برابر ستون ها باشد",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Text Effects",
+        "correct": "Text Effects"
+      }
+    ],
+    "date": "2026-09-29T09:33:39.041Z"
   }
 ]
