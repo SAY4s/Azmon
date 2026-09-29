@@ -6570,5 +6570,217 @@
       }
     ],
     "date": "2026-09-28T19:13:06.684Z"
+  },
+  {
+    "name": "۹۹۹۹",
+    "exam": "icdl",
+    "score": 2,
+    "total": 40,
+    "percent": 5,
+    "wrong": 2,
+    "unanswered": 36,
+    "answers": [
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "کدام یک از دستورات Alignment برای منظم کردن متن کاربرد دارد؟",
+        "selected": "Right",
+        "correct": "Justify"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Inbox",
+        "correct": "Outbox"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Save Target As"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": null,
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Query"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": null,
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": null,
+        "correct": "Tables"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Remove"
+      },
+      {
+        "question": "حداقل تعداد کاراکترهای کلمه عبور در پست الکترونیکی کدام گزینه می باشد؟",
+        "selected": null,
+        "correct": "8"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": null,
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Mailings"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": null,
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "جهت جابجایی بین پنجره های باز از ترکیب کلیدهای .......................... استفاده می شود.",
+        "selected": null,
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": null,
+        "correct": "Lan"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": null,
+        "correct": "Nod32"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": null,
+        "correct": "Alt+F"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": null,
+        "correct": "Delete"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": null,
+        "correct": "Reading View"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": null,
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "برای ذخیره سند با نام جدید از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Save As"
+      },
+      {
+        "question": "برای بدست آوردن جمع محتویات دو سلول اکسل کدام فرمول صحیح است؟",
+        "selected": null,
+        "correct": "=A1+B5"
+      },
+      {
+        "question": "گزارش از نظر طرح بندی (Layout) به طور پیش فرض دارای چه وضعیتی است؟",
+        "selected": null,
+        "correct": "Columnar"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": null,
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": null,
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": null,
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کدام گزینه نادرست می باشد؟",
+        "selected": null,
+        "correct": "قطاع: دایره های هم مرکز با شعاع برابر"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": null,
+        "correct": "فاکس"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": null,
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "تصاویر در کدام گروه از زبانه insert قرار دارند؟",
+        "selected": null,
+        "correct": "Illustrations"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": null,
+        "correct": "Zoom In"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از کدام سربرگ و گزینه استفاده می شود؟ (چپ به راست)",
+        "selected": null,
+        "correct": "Page Layout--------Margins"
+      },
+      {
+        "question": "کاربرها برای راحتی کار یا کاربرانی که حرفه ای نیستند برای ایجاد فرم، گزارش و .............. بهتر است از کدام روش استفاده نمایند؟",
+        "selected": null,
+        "correct": "Wizard"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعاتی استفاده می شود؟",
+        "selected": null,
+        "correct": "Ole"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": null,
+        "correct": "Reply"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": null,
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": null,
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": null,
+        "correct": "Control Panel"
+      }
+    ],
+    "date": "2026-09-29T05:41:17.322Z"
   }
 ]
