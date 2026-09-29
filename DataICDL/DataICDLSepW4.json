@@ -8054,5 +8054,217 @@
       }
     ],
     "date": "2026-09-29T12:10:08.584Z"
+  },
+  {
+    "name": "شیوا",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج سر صفحه و پا صفحه بر روی اسلایدها مناسب است؟",
+        "selected": "Header and Footer",
+        "correct": "Header and Footer"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": "Nod32",
+        "correct": "Nod32"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای یک .............. است؟",
+        "selected": "Table",
+        "correct": "Table"
+      },
+      {
+        "question": "کدام نمودار زیر از نوع دایره ای می باشد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "کدام گزینه زیر یک موتور جستجوگر می باشد؟",
+        "selected": "TVTO",
+        "correct": "Google"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": "Apply Filter-Sort",
+        "correct": "Apply Filter-Sort"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "از کدام فرمان برای ایجاد یک فایل صفحه گسترده جدید استفاده می کنیم؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "کلیپ بورد چیست؟",
+        "selected": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد",
+        "correct": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد"
+      },
+      {
+        "question": "برای ذخیره سند از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "کدام یک از شبکه های زیر معمولا برای اتصال دفاتر یک سازمان در یک شهر صورت می گیرد؟",
+        "selected": "Man",
+        "correct": "Man"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select Object",
+        "correct": "Select Object"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پالتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Tools > Primary key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Create-Form Design",
+        "correct": "Create-Form Design"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "برنامه های کاربردی",
+        "correct": "برنامه های کاربردی"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "0",
+        "correct": "1"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "به ناحیه نمایش ساعت، وضعیت بلندگو و غیره در روی نوار کار ..................... گویند.",
+        "selected": "Notification",
+        "correct": "Notification"
+      },
+      {
+        "question": "جهت زمانبندی کردن تعویض اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Advanced Slide",
+        "correct": "Advanced Slide"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Sort A To Z",
+        "correct": "Sort A To Z"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": "فایل حذف شده هیچگاه بازیابی نمی شود",
+        "correct": "فایل حذف شده هیچگاه بازیابی نمی شود"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": "انتخاب فیلدهایی که می خواهید در فرم یا گزارش ظاهر شوند",
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Show desktop icons",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": "کامپیوترهای Laptop قابل حمل هستند",
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": "Ctrl+Alt+Del",
+        "correct": "Ctrl+Alt+Del"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "No Value",
+        "correct": "No Value"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      }
+    ],
+    "date": "2026-09-29T12:47:28.960Z"
   }
 ]
