@@ -8902,5 +8902,217 @@
       }
     ],
     "date": "2026-09-29T13:55:57.378Z"
+  },
+  {
+    "name": "سلاله مافی",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "برای ارسال پاسخ به تمام فرستندگان یک نامه از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Reply all",
+        "correct": "Reply all"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یادداشت بر روی اسلایدها مناسب است؟",
+        "selected": "Comment",
+        "correct": "Comment"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "کدام نما برای نمایش فرم ها نمی باشد؟",
+        "selected": "Layout View",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار وضعیت",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "برای تمایز افرادی که دارای نام یا نام خانوادگی یکسانی هستند بهتر است.......................؟",
+        "selected": "برای نام یا نام خانوادگی آنها رمز قرار دهیم",
+        "correct": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Image",
+        "correct": "Insert"
+      },
+      {
+        "question": "PDA چیست؟",
+        "selected": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود",
+        "correct": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "در چیدمان slideها از چیدمان ....... برای نگهداری عنوان و نگهداری محتوای غیرمتنی استفاده می شود؟",
+        "selected": "Title and Content",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "No Value",
+        "correct": "No Value"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Excel Spreadsheet",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "جهت چرخاندن اشکال کدام یک از مراحل زیر صحیح است؟",
+        "selected": "View -> Rotate",
+        "correct": "Format -> Rotate"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Alt",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "با کلیک بر روی این گزینه کامپیوتر در حالت آماده باش قرار می گیرد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "به منظور ورود به محل ایمیل شخصی در سایت Yahoo از کدام گزینه استفاده می شود؟",
+        "selected": "Sign in",
+        "correct": "Sign in"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Line Color",
+        "correct": "Highlight"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "کلید F9",
+        "correct": "F5"
+      },
+      {
+        "question": "از این سربرگ برای طراحی اسلاید، تنظیم رنگ پس زمینه و سایز اسلاید و غیره استفاده می شود.",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "All Program / Accessories / Sound Recorder",
+        "correct": "All Program / Accessories / Sound Recorder"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "در منوی کشویی Find What چه می نویسیم؟",
+        "selected": "متنی که می خواهیم جستجو کنیم",
+        "correct": "متنی که می خواهیم جستجو کنیم"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Fraction",
+        "correct": "Currency"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟",
+        "selected": "Reorder Animation",
+        "correct": "Reorder Animation"
+      },
+      {
+        "question": "اگر بخواهیم باز شدن صفحه ای را در IE متوقف کنیم چه دکمه ای را از نوار ابزار کلیک می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "با استفاده از کلیدهای ترکیبی Ctrl+Home مکان نما به کجا منتقل می شود؟",
+        "selected": "مکان نما به اولین فیلد متنی منتقل می شود",
+        "correct": "مکان نما به اولین فیلد رکورد اول منتقل می شود"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پرینترها",
+        "correct": "پلاترها"
+      }
+    ],
+    "date": "2026-09-29T20:20:56.155Z"
   }
 ]
