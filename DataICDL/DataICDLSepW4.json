@@ -6994,5 +6994,217 @@
       }
     ],
     "date": "2026-09-29T07:55:05.815Z"
+  },
+  {
+    "name": "زهرا",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Review>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "نامه",
+        "correct": "نامه"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Ascending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Ctrl+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Decimal Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "برنامه Excel زیر مجموعه کدام یک از انواع برنامه هاست؟",
+        "selected": "برنامه های صفحه گسترده",
+        "correct": "برنامه های صفحه گسترده"
+      },
+      {
+        "question": "از ابزار Word Art به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن گرافیکی",
+        "correct": "ایجاد متن گرافیکی"
+      },
+      {
+        "question": "جهت چرخاندن اشکال کدام یک از مراحل زیر صحیح است؟",
+        "selected": "Insert -> Rotate",
+        "correct": "Format -> Rotate"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "View Gridlines",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "در کدام نما می توان ترتیب اسلایدها را تغییر داد؟",
+        "selected": "Normal",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟",
+        "selected": "سرعت بالای حافظه های ثانویه",
+        "correct": "سرعت بالای حافظه های ثانویه"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Split Table",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": "برای ایجاد کادر دور متن و جدول استفاده می شود",
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "نمای Data Sheet View و Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Selection Header",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Show desktop icons",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "برای فراخوانی مجدد صفحه وب کنونی از کدام دکمه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "سایت هایی هستند که در آن سایت ها از نظر موضوعی طبقه بندی شده اند؟",
+        "selected": "وب سایت های فهرست",
+        "correct": "وب سایت های فهرست"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه پهن",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "با فشردن کدام کلید تابعی مکان نما از حالت متن خارج و سربرگ ها فعال و در کنار سربرگ ها یک عدد یا یک حرف قرار می گیرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "آدرس منحصر به فرد در هر صفحه وب چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "میان افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "برای سفارشی کردن بزرگ نمایی صفحه در محیط نرم افزار Word از کدام مورد استفاده می کنیم؟",
+        "selected": "View>Zoom",
+        "correct": "View>Zoom"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی بر روی کدام دکمه از نوار ابزار کلیک می نمایید؟",
+        "selected": "Reply All",
+        "correct": "Reply All"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Row",
+        "correct": "Row"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "برای ذخیره سازی می توان از گزینه Save یا Save As از دکمه Office استفاده کرد",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "سیستم عامل چیست؟",
+        "selected": "نرم افزاری است که مدیریت تمام منابع سخت افزاری و نرم افزاری سیستم را بر عهده دارد",
+        "correct": "نرم افزاری است که مدیریت تمام منابع سخت افزاری و نرم افزاری سیستم را بر عهده دارد"
+      },
+      {
+        "question": "در صورت وجود غلط های املایی در متن اسلایدها کدام یک از روش ها برای برطرف کردن غلط های املایی مناسب است؟",
+        "selected": "سربرگ Review گزینه Spelling",
+        "correct": "سربرگ Review گزینه Spelling"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Desktop - Laptop",
+        "correct": "Desktop - Laptop"
+      }
+    ],
+    "date": "2026-09-29T09:11:47.537Z"
   }
 ]
