@@ -7842,5 +7842,217 @@
       }
     ],
     "date": "2026-09-29T10:40:19.634Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "exam": "icdl",
+    "score": 20,
+    "total": 40,
+    "percent": 50,
+    "wrong": 20,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "Ram",
+        "correct": "CMOS"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Outline",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+>",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "پس از ورود داده در سلول B1 و فشار کلید Enter کدام سلول به طور پیش فرض فعال خواهد شد؟",
+        "selected": "سلول B2",
+        "correct": "سلول B2"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "برای جایگزینی عبارتی در اسناد از .......... استفاده می شود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": "5",
+        "correct": "1"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کدام نوع داده برای متن و یا ترکیب متن و عدد مناسب است؟",
+        "selected": "Auto Number",
+        "correct": "Text"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "CU",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C2+B3+C3",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن های گرافیکی",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "کدام یک از اسامی زیر برای نام پوشه غیر مجاز است؟",
+        "selected": "Listname",
+        "correct": "Con"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "کدام یک از شبکه های زیر معمولا برای اتصال دفاتر یک سازمان در یک شهر صورت می گیرد؟",
+        "selected": "شبکه اینترنت",
+        "correct": "Man"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با کشیدن ماوس بر روی سلول های انتخاب شده سری مقادیر تعریف شده نوشته می شوند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای تغییر نوع نمودار از کدام گزینه استفاده می کنیم؟",
+        "selected": "Change Chart Type",
+        "correct": "Change Chart Type"
+      },
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس",
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Character Spacing از Paragraph",
+        "correct": "زبانه Line and Page Breaks از Paragraph"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "از این ابزار برای درج ویدیو از طریق اینترنت به اسلاید مورد استفاده قرار می گیرد",
+        "selected": "Online Video",
+        "correct": "Online Video"
+      },
+      {
+        "question": "پس از انتخاب قسمتی از متن یک صفحه ی وب و فشردن کلید Ctrl+C متن انتخاب شده به ...... انتقال می یابد.",
+        "selected": "حافظه RAM",
+        "correct": "حافظه ی موقت ویندوز (clipboard)"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "برای اینکه تصویر پشت متن قرار گیرد کدام گزینه از بخش Wrap Text انتخاب می شود؟",
+        "selected": "Behind Text",
+        "correct": "Behind Text"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Style",
+        "correct": "Style"
+      },
+      {
+        "question": "برای قرار دادن خط بین ستون ها کدام گزینه از کادر محاوره ای Columns را انتخاب می کنیم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Banking",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "چگونه می توان چند فایل پراکنده یک پوشه را انتخاب کرد؟",
+        "selected": "هنگام کلیک کردن روی فایل های مورد نظر کلید Shift را پایین نگه داشت",
+        "correct": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت"
+      },
+      {
+        "question": "کلیه نامه هایی که به آدرس شما ارسال می گردد در کدام پوشه ذخیره می شود؟",
+        "selected": "Drafts",
+        "correct": "Inbox"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Delete",
+        "correct": "Shift+Delete"
+      }
+    ],
+    "date": "2026-09-29T12:10:08.584Z"
   }
 ]
