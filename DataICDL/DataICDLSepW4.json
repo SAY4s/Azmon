@@ -8266,5 +8266,217 @@
       }
     ],
     "date": "2026-09-29T12:47:28.960Z"
+  },
+  {
+    "name": "سارا",
+    "exam": "icdl",
+    "score": 20,
+    "total": 40,
+    "percent": 50,
+    "wrong": 20,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "ISP",
+        "correct": "Network"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "<=20 And >=50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Outbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "برای درج یک فیلد در ساختار بانک اطلاعاتی از کدام روش باید استفاده نمود؟",
+        "selected": "Insert - Rows Database",
+        "correct": "Design - Insert Rows"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Last Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Uppercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب وسط",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Report Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "E-Learning کدام یک از موارد زیر می باشد؟",
+        "selected": "پست الکترونیکی",
+        "correct": "آموزش الکترونیکی"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Presentation",
+        "correct": "Presentation"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Tools > Primary key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "Boot شدن یعنی چه؟",
+        "selected": "متوقف شدن عملیات سیستم به علت خرابی یکی از اجزای جانبی ماشین",
+        "correct": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": "Format",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": "خاصیت Required را روی No تنظیم کنیم",
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM هنگامی که کامپیوتر خاموش می شود داده ها را حفظ می کند",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "کدام گزینه برای انتخاب آیتم های همجوار استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Shift"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "اعداد قسمت ماشین حساب را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "نام سرویس دهنده پست الکترونیک",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "یک رکورد مجموعه ای از اطلاعات را درباره ................. ذخیره می کند.",
+        "selected": "چند موضوع",
+        "correct": "یک موضوع"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Character Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Alt+Shift",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد",
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Columnar",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Single Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": "Number Of Rows",
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "جهت حذف یک فایل می توان ............",
+        "selected": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود",
+        "correct": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود"
+      },
+      {
+        "question": "جهت مشاهده مجدد صفحات وب ویزیت شده در هفته پیش از چه دکمه ای استفاده می کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "به ورودی های خام سیستم چه می گویند؟",
+        "selected": "اطلاعات",
+        "correct": "داده"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Criteria",
+        "correct": "Sort"
+      },
+      {
+        "question": "با ایجاد فرم به صورت Tabular؟",
+        "selected": "می توانیم فرم را به صورت جدولی از فیلدها در رکوردها داشته باشیم",
+        "correct": "می توانیم فرم را به صورت جدولی از فیلدها در رکوردها داشته باشیم"
+      }
+    ],
+    "date": "2026-09-29T12:49:43.923Z"
   }
 ]
