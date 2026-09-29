@@ -7630,5 +7630,217 @@
       }
     ],
     "date": "2026-09-29T10:32:07.827Z"
+  },
+  {
+    "name": "سادنا حسن پور",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 21,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": "Win Rar و Win Zip",
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "کدام یک از جملات زیر صحیح نیست؟",
+        "selected": "فایل ها بدون پسوند هستند",
+        "correct": "فایل ها بدون پسوند هستند"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Deny",
+        "correct": "Ignore"
+      },
+      {
+        "question": "برای انتقال فایل و پوشه ها به کدام گزینه مراجعه می کنیم؟",
+        "selected": "Burn",
+        "correct": "Organize"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Com",
+        "correct": "Edu"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Table",
+        "correct": "Cell"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Split Table",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "List",
+        "correct": "Details"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Average(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "بهترین راه برای جلوگیری از سرایت ویروس به سیستم کامپیوتری چیست؟",
+        "selected": "استفاده از حافظه های جانبی",
+        "correct": "داشتن یک ویروس یاب که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "50 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Copy",
+        "correct": "Cut"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Full Screen",
+        "correct": "Draft"
+      },
+      {
+        "question": "کامپیوترهای شخصی از کدام نوع کامپیوترها هستند؟",
+        "selected": "Main Frame Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "From",
+        "correct": "CC"
+      },
+      {
+        "question": "برای تغییر زبان انگلیسی به فارسی و برعکس از ترکیب چه کلیدهایی استفاده می شود؟",
+        "selected": "Alt+Shift",
+        "correct": "Alt+Shift"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "3",
+        "correct": "1"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "برچسب",
+        "correct": "راهنما"
+      },
+      {
+        "question": "برای اجرای Windows Explorer از چه مسیری استفاده می کنیم؟",
+        "selected": "آیکن Windows Explorer",
+        "correct": "در همه پنجره های ویندوز قابل دسترسی است"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "اجزای شبکه",
+        "correct": "قانون تبادلات اطلاعات در شبکه"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "Shiraz - University",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "کپی - جابجا",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با تغییر سلول های مبدا سلول های مقصد تغییر کند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "کدامیک از فیلدهای زیر برای Primary Key مناسب تر است؟",
+        "selected": "فیلد Auto Number",
+        "correct": "فیلد شماره عضویت فرد در کتابخانه"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": "برای تنظیم حاشیه برگه استفاده می شود",
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      },
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Table",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "چگونه می توان پیش نمایش چاپ را مشاهده کرد؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Datasheet View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Quick Access",
+        "correct": "Formula Bar"
+      }
+    ],
+    "date": "2026-09-29T10:40:19.634Z"
   }
 ]
