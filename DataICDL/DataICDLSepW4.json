@@ -9962,5 +9962,217 @@
       }
     ],
     "date": "2026-09-30T02:07:37.123Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 21,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "دکمه File گزینه Exit",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Stop",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "برای حذف محتویات یک سلول از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Delete",
+        "correct": "سربرگ Home گزینه Clear Contents"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Align Right",
+        "correct": "Right"
+      },
+      {
+        "question": "از کدام دستگاه زیر جهت چاپ نتایج عملیات و گزارشات بر روی کاغذ استفاده می شود؟",
+        "selected": "اسکنر",
+        "correct": "پرینتر"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": "ویرایش جدول در سند",
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Delay",
+        "correct": "Repeat"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "K6$",
+        "correct": "$K$6"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOCX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "برای تقسیم جدول به دو بخش کدام دستور مناسب است؟",
+        "selected": "Split Table",
+        "correct": "Split Table"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Top The Ribbon",
+        "correct": "Pin The Ribbon"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "CU",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "با دستور ..... می توان تغییرات یک فایل را با همان نام قبلی ذخیره و با دستور ..... می توان اطلاعات فایل فعلی را با نام دیگری ذخیره کرد؟ (از راست به چپ)",
+        "selected": "Save as - Save",
+        "correct": "Save as - Save"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک فایل ارائه مطالب در نسخه های قبلی (2003) برنامه قابل اجرا باشد از چه پسوندی استفاده می کنیم؟",
+        "selected": "PPTX",
+        "correct": "PPT"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "کارت صدا",
+        "correct": "مودم"
+      },
+      {
+        "question": "کدام نما برای نمایش فرم ها نمی باشد؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Descending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "ستون ها در جدول نرم افزار Word چه نامیده می شوند؟",
+        "selected": "Columns",
+        "correct": "Columns"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": "کلیک راست روی نام فیلد در نمای Data Sheet",
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "مفهوم گزینه Wrap Text چیست؟",
+        "selected": "متن طولانی به صورت چند سطری نشان داده شود",
+        "correct": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "برای انتخاب یک جمله از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "به هنگام تعریف داده های عددی کدام نوع جهت عددهای اعشاری مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide"
+      },
+      {
+        "question": "برای تعیین کلید اولیه در هنگام طراحی بانک اطلاعاتی پس از انتخاب فیلد مورد نظر بر روی کدام دکمه از نوار ابزار باید کلیک نمود؟",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "در جدول Query سطر Criteria برای چه منظوری گذاشته شده است؟",
+        "selected": "برای معیار انتخاب رکوردها جهت نمایش",
+        "correct": "برای معیار انتخاب رکوردها جهت نمایش"
+      },
+      {
+        "question": "برای ذخیره سند با نام جدید از کدام گزینه استفاده می شود؟",
+        "selected": "Save As",
+        "correct": "Save As"
+      },
+      {
+        "question": "کدام یک از موارد زیر را در Criteria قرار دهیم باعث خواهد شد که رکوردهایی پیدا شوند که فیلد «شخصیت» آنها مخالف \"Nice\" است؟",
+        "selected": "Not Nice",
+        "correct": "Not Nice"
+      },
+      {
+        "question": "در کدام روش می توان پرس و جو را با شرط تعیین شده ایجاد نمود؟",
+        "selected": "Query",
+        "correct": "Query Design"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Web page"
+      }
+    ],
+    "date": "2026-09-30T02:30:42.707Z"
   }
 ]
