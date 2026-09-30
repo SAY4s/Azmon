@@ -10174,5 +10174,217 @@
       }
     ],
     "date": "2026-09-30T02:30:42.707Z"
+  },
+  {
+    "name": "۹۹۹",
+    "exam": "icdl",
+    "score": 1,
+    "total": 40,
+    "percent": 3,
+    "wrong": 3,
+    "unanswered": 36,
+    "answers": [
+      {
+        "question": "برای اینکه هنگام اجرای Query توسط یک کادر محاوره ای سؤالی مبنی بر تعیین معیار پرسیده شود در سطر Criteria کدام مورد زیر را می توان قرار داد؟",
+        "selected": "{?}",
+        "correct": "{?}"
+      },
+      {
+        "question": "برای چاپ کل سند از کادر محاوره ای Print کدام مورد را باید انتخاب کرد؟",
+        "selected": "List",
+        "correct": "Entire Work Book"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "file name",
+        "correct": "save as type"
+      },
+      {
+        "question": "آدرس خانه فعال در کجا قابل رویت است؟",
+        "selected": "در سطر وضعیت",
+        "correct": "در کادر Name Box"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": null,
+        "correct": "Title Slide"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Last Month"
+      },
+      {
+        "question": "به شرکت های ارائه دهنده خدمات اینترنتی چه می گویند؟",
+        "selected": null,
+        "correct": "ISP"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": null,
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "Cpu مخفف چه کلماتی است؟",
+        "selected": null,
+        "correct": "Central Processing Unit"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": null,
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "گزینه Increase Indent به چه منظوری به کار می رود؟",
+        "selected": null,
+        "correct": "زیاد کردن فاصله پاراگراف از حاشیه"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": null,
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": null,
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "کدام تابع اعداد موجود در یک ناحیه از سلول ها را شمارش می کند؟",
+        "selected": null,
+        "correct": "Count"
+      },
+      {
+        "question": "در جدول Query سطر Criteria برای چه منظوری گذاشته شده است؟",
+        "selected": null,
+        "correct": "برای معیار انتخاب رکوردها جهت نمایش"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": null,
+        "correct": "Pages"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": null,
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": null,
+        "correct": "Bit"
+      },
+      {
+        "question": "با استفاده از کدام گزینه زیر، عمل موردگذاری انجام می شود؟",
+        "selected": null,
+        "correct": "Bullets"
+      },
+      {
+        "question": "اگر بخواهیم برچسب داده های نمودار را داخل و در انتهای آن ایجاد نماییم کدام گزینه را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Inside End"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": null,
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": null,
+        "correct": "Inbox"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": null,
+        "correct": "@"
+      },
+      {
+        "question": "کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟",
+        "selected": null,
+        "correct": "Format Painter"
+      },
+      {
+        "question": "انتخاب خاصیت Yes (Duplicate Ok) از خاصیت Indexed فیلد باعث ..................؟",
+        "selected": null,
+        "correct": "ایجاد ایندکس بر روی فیلد می شود و این فیلد در رکوردهای جدول می تواند تکراری باشد"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": null,
+        "correct": "Notification area"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": null,
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": null,
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Repeat"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": null,
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": null,
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "از دستور Font به چه منظور استفاده می کنیم؟",
+        "selected": null,
+        "correct": "برای تعیین نوع قلم"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": null,
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": null,
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": null,
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "پسوند فایل ها در نرم افزار پایگاه داده اکسس 2013 کدام است؟",
+        "selected": null,
+        "correct": "Accdb"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": null,
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": null,
+        "correct": "حاشیه پهن"
+      }
+    ],
+    "date": "2026-09-30T06:43:46.635Z"
   }
 ]
