@@ -3390,5 +3390,217 @@
       }
     ],
     "date": "2026-10-01T20:16:24.313Z"
+  },
+  {
+    "name": "ابوالفضل عسگری",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "ایجاد یک کپی از کاربرگ",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "برای کم کردن فاصله پاراگراف از حاشیه باید چه دستوری را اجرا کنیم؟",
+        "selected": "Decrease Indent",
+        "correct": "Decrease Indent"
+      },
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Split Table",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "بهترین روش برای جلوگیری از ورود ویروس به سیستم کدام گزینه است؟",
+        "selected": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد",
+        "correct": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "هنگامی که دو عبارت شرطی در Criteria نوشته شود، برای دارا بودن هر دو شرط عملگر بین آنها، کدام است؟",
+        "selected": "Or",
+        "correct": "And"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOCX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "sum if",
+        "correct": "count if"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اینترنت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "کدام یک جزء اجزای داخلی CPU نیست؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Information",
+        "correct": "Information"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "از کدام کلیدهای صفحه کلید برای اجرای فرمان Undo استفاده می نماییم؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": "Formula Bar از گروه Data Tools و تب Data",
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "ایمیل",
+        "correct": "Spam"
+      },
+      {
+        "question": "در پنجره Spelling & Grammar جهت نادیده گرفتن غلط املایی، کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Web page"
+      },
+      {
+        "question": "از ابزار Symbol در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج کاراکترها و علائم ویژه",
+        "correct": "درج کاراکترها و علائم ویژه"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "K$6$",
+        "correct": "$K$6"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+=",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت چپ",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "3-D Style",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "مزیت الگو (Template) چیست؟",
+        "selected": "صرفه جویی در زمان ویرایش",
+        "correct": "صرفه جویی در زمان ویرایش"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ........................... است.",
+        "selected": "حجم فایل ارسالی",
+        "correct": "حجم فایل ارسالی"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": "Ctrl+Delete+Shift",
+        "correct": "Ctrl+Alt+Del"
+      }
+    ],
+    "date": "2026-10-01T20:30:33.161Z"
   }
 ]
