@@ -1482,5 +1482,217 @@
       }
     ],
     "date": "2026-10-01T14:25:45.408Z"
+  },
+  {
+    "name": "c",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "هگزا دسیمال",
+        "correct": "باینری"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار آدرس (Address Bar)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "برای نوشتن دستورات کامپیوتر بکار می رود",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "دکمه File گزینه Exit",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس پست الکترونیک منحصر به فرد است",
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "جدولی همانند جدول Datasheet در بالای پنجره ظاهر می شود",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "برای انتخاب چند سطر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Shift"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "تاریخچه اینترنت کدام است؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "Blank Page از گروه Pages چه کاربردی دارد؟",
+        "selected": "یک صفحه خالی درج می کند",
+        "correct": "یک صفحه خالی درج می کند"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Modules",
+        "correct": "Macros"
+      },
+      {
+        "question": "در سربرگ Home از این گروه برای تنظیمات نوع فونت نوشتاری و سایز و رنگ متن استفاده می شود.",
+        "selected": "Font",
+        "correct": "Font"
+      },
+      {
+        "question": "برای بستن پنجره فعال از ترکیب کلیدهای ............... استفاده می شود؟",
+        "selected": "Alt+Esc",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "سلول هایی که به صورت افقی در جدول قرار دارند چه نامیده می شوند؟",
+        "selected": "Columns",
+        "correct": "Rows"
+      },
+      {
+        "question": "با استفاده از گزینه ............. می توانیم تعیین کنیم متن از حاشیه سلول چقدر فاصله داشته باشد.",
+        "selected": "Cell Alignment",
+        "correct": "Cell Margins"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "از کادر محاوره ای Tabs پس از انتخاب تب مورد نظر بر روی دکمه Clear کلیک می کنیم",
+        "correct": "از کادر محاوره ای Tabs پس از انتخاب تب مورد نظر بر روی دکمه Clear کلیک می کنیم"
+      },
+      {
+        "question": "برای نمایش محتوای پنجره ها به صورت پشت سرهم کدام گزینه صحیح است؟",
+        "selected": "Details",
+        "correct": "List"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Highlight",
+        "correct": "Highlight"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس",
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Columnar",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "زبان استاندارد طراحی صفحات کدام یک از موارد زیر است؟",
+        "selected": "Word",
+        "correct": "HTML"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 2 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Wizard",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": "@",
+        "correct": "@"
+      },
+      {
+        "question": "جهت چاپ صفحات خاصی از فرم یا گزارش در پنجره Print و در قسمت Print Range کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Page From … To …",
+        "correct": "Page From … To …"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footnote",
+        "correct": "Footnote"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "قانون تبادلات اطلاعات در شبکه",
+        "correct": "قانون تبادلات اطلاعات در شبکه"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      }
+    ],
+    "date": "2026-10-01T14:48:53.438Z"
   }
 ]
