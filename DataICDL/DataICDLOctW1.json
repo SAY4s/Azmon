@@ -2542,5 +2542,217 @@
       }
     ],
     "date": "2026-10-01T16:50:30.745Z"
+  },
+  {
+    "name": "حنانه مختاری",
+    "exam": "icdl",
+    "score": 9,
+    "total": 40,
+    "percent": 23,
+    "wrong": 31,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای نمایش خطوط راهنما و شبکه ای کدام گزینه ها را فعال می کنیم؟",
+        "selected": "Note - Ruler",
+        "correct": "Grid Line - Guides"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Printer",
+        "correct": "Webcam"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Left To Right Text Direction",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Format",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "کدام نما برای ایجاد و طراحی اسلایدها استفاده می شود؟",
+        "selected": "Note Page",
+        "correct": "Normal"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Average",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Comment",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footer",
+        "correct": "Footnote"
+      },
+      {
+        "question": "با انتخاب کدام یک از حالات زیر کامپیوتر در حالت کم مصرف قرار می گیرد و مانیتور و دیسک سخت خاموش می شوند؟",
+        "selected": "Restart",
+        "correct": "Sleep"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Sort کردن رکوردهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": "@",
+        "correct": "@"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Toolbar",
+        "correct": "Notification area"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "E-mail",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Replace All",
+        "correct": "Replace"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Man و Lan و Wan",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Data گزینه Delete columns",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "برای نگهداری موقت داده های در حال پردازش از کدام مورد استفاده می شود؟",
+        "selected": "CU",
+        "correct": "Register"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": "برای ایجاد کادر دور متن و جدول استفاده می شود",
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "نیاز به پایین نگه داشتن کلید نیست",
+        "correct": "Shift"
+      },
+      {
+        "question": "در صورتی که بخواهیم تمام اسلایدهای فایل ارائه مطلب را چاپ کنیم کدام گزینه را در پنجره Print انتخاب می کنیم؟",
+        "selected": "Print Selection",
+        "correct": "Print All Slide"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "کدامیک جزء واحدهای اندازه گیری حافظه نیست؟",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "All",
+        "correct": "Page"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Web Art",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "برای انتخاب گروهی آیکن های پراکنده باید از کدام یک از کلید های زیر به همراه کلیک کردن استفاده کرد؟",
+        "selected": "Alt + Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Memo",
+        "correct": "Ole"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "Data Sheet",
+        "correct": "گزارش"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام گزینه به معنای تجارت الکترونیکی می باشد؟",
+        "selected": "E-Library",
+        "correct": "E-commerce"
+      },
+      {
+        "question": "جدول چیست؟",
+        "selected": "به مجموعه ای از فیلدها گویند",
+        "correct": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند"
+      },
+      {
+        "question": "کدامیک از موارد زیر را نمی توان در Data Sheet View انجام داد؟",
+        "selected": "اصلاح رکورد",
+        "correct": "ایجاد فرم"
+      },
+      {
+        "question": "از ابزار Change Case به چه منظور استفاده می شود؟",
+        "selected": "تعیین متن به صورت توان (X2)",
+        "correct": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "List",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام نوع داده زیر برای اعداد استفاده می شود؟",
+        "selected": "Text",
+        "correct": "Number"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Home-Form View",
+        "correct": "Create-Form Design"
+      }
+    ],
+    "date": "2026-10-01T18:29:16.788Z"
   }
 ]
