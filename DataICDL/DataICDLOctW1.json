@@ -3178,5 +3178,217 @@
       }
     ],
     "date": "2026-10-01T19:51:37.396Z"
+  },
+  {
+    "name": "ابوالفضل عسگری",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "فیلد تاریخ تولد از چه نوعی معرفی می شود؟",
+        "selected": "Date & Time",
+        "correct": "Date & Time"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Apply Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Action Buttons",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "برای درج متن از چه روشی استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "با کدام گزینه تصویر در زمینه میز کار به صورت کشیده قرار می گیرد؟",
+        "selected": "Tile",
+        "correct": "Stretch"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Delete Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Edit Header",
+        "correct": "Header"
+      },
+      {
+        "question": "Apply Styles چه کاری انجام می دهد؟",
+        "selected": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم",
+        "correct": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "در Windows کدام نرم افزار قابلیت ایجاد فایل را ندارد؟",
+        "selected": "Calculator",
+        "correct": "Calculator"
+      },
+      {
+        "question": "برای جستجوی رکوردی با مشخصات خاص در یک جدول از کدام فرمان استفاده می شود؟",
+        "selected": "Search",
+        "correct": "Filter"
+      },
+      {
+        "question": "کدام گزینه نادرست می باشد؟",
+        "selected": "قطاع: هر دایره روی دیسک از چند قطاع تشکیل می شود",
+        "correct": "قطاع: دایره های هم مرکز با شعاع برابر"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Validation Text",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": "حجم حافظه ثانویه یا فرعی در مقایسه با حافظه اصلی تقریبا نامحدود است",
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "در هنگام درج نمودار دو سربرگ وابسته ............. و .......... نیز به سربرگ دستورات نرم افزار اضافه می شود.",
+        "selected": "Home - Insert",
+        "correct": "Design - Format"
+      },
+      {
+        "question": "به عنصری از بانک اطلاعاتی که جهت ورود یا تغییر اطلاعات به کار می رود چه می گویند؟",
+        "selected": "Form",
+        "correct": "Form"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Print Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "صفحه کلید - بلندگو هر کدام جز دستگاه های .................... می باشند.",
+        "selected": "ورودی - خروجی",
+        "correct": "ورودی - خروجی"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "جهت ایجاد مقدار پیش فرض فیلدها از کدام گزینه استفاده می گردد؟",
+        "selected": "Default Value",
+        "correct": "Default Value"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Left Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای اینکه استایل های تعریف شده از Work Book باز را در Work Book جاری استفاده کنیم بر روی چه گزینه ای کلیک کنیم؟",
+        "selected": "Merge Style",
+        "correct": "Merge Style"
+      },
+      {
+        "question": "با ورود به چه پنجره ای می توانیم کلیه درایوها را مشاهده و مدیریت کنیم؟",
+        "selected": "Computer",
+        "correct": "Computer"
+      },
+      {
+        "question": "کدام امکان در پنجره خصوصیات فرم، کنترل را فعال یا غیر فعال می کند؟",
+        "selected": "Format",
+        "correct": "Enable"
+      },
+      {
+        "question": "کدام گزینه برای تنظیم شروع شماره صفحات از عدد خاصی است؟",
+        "selected": "Alignment",
+        "correct": "Start at"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن سایه دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "Sort",
+        "correct": "View"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "هنگام اضافه کردن یک سلول گزینه Shift Cells Down چه عملی انجام می دهد؟",
+        "selected": "انتقال سایر خانه ها به پایین",
+        "correct": "انتقال سایر خانه ها به پایین"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": "Create New Account",
+        "correct": "Create New Account"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Outline",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "موتور جستجویی که واژه مورد جستجوی شما را در چند موتور جستجو قرار می دهد و نتایج جستجوی آنها را برای شما لیست می کنند چه نامیده می شوند؟",
+        "selected": "Meta Search Engines",
+        "correct": "Meta Search Engines"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      }
+    ],
+    "date": "2026-10-01T20:16:24.313Z"
   }
 ]
