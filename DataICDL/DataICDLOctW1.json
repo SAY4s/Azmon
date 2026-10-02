@@ -3814,5 +3814,217 @@
       }
     ],
     "date": "2026-10-02T07:20:18.205Z"
+  },
+  {
+    "name": "حنانه مختاری",
+    "exam": "icdl",
+    "score": 14,
+    "total": 40,
+    "percent": 35,
+    "wrong": 26,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "با استفاده از کدام تب از کادر محاوره ای Format Cell می توان خطوط کادر خانه ها را تنظیم نمود؟",
+        "selected": "Alignment",
+        "correct": "Border"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد",
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Alu",
+        "correct": "Cu"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": "Last Week",
+        "correct": "Last Month"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "Register",
+        "correct": "Cache"
+      },
+      {
+        "question": "برای درج داده هایی مانند ردیف از ........ و داده های عددی که احتیاج به محاسبات دارند از نوع داده .... استفاده می کنیم؟ (از راست به چپ)",
+        "selected": "Text - Number",
+        "correct": "Number - Auto Number"
+      },
+      {
+        "question": "کدام سربرگ برای درج پاورقی است؟",
+        "selected": "Layout",
+        "correct": "References"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Pictures",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج سر صفحه و پا صفحه بر روی اسلایدها مناسب است؟",
+        "selected": "Comment",
+        "correct": "Header and Footer"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Upload , Download",
+        "correct": "Upload , Download"
+      },
+      {
+        "question": "گزینه Increase Indent به چه منظوری به کار می رود؟",
+        "selected": "برای کاهش حاشیه",
+        "correct": "زیاد کردن فاصله پاراگراف از حاشیه"
+      },
+      {
+        "question": "PDA چیست؟",
+        "selected": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود",
+        "correct": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر نمودار تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show All Files",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Report",
+        "correct": "Query"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Ram",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Page Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "برای ذخیره سند از چه کلیدهایی استفاده می شود؟",
+        "selected": "Ctrl+W",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Data Label",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Labels",
+        "correct": "Mailings"
+      },
+      {
+        "question": "هویت یک فایل از ....................... شناسائی می گردد.",
+        "selected": "پسوند فایل",
+        "correct": "پسوند فایل"
+      },
+      {
+        "question": "در سربرگ Animation و در قسمت Timing، کدام گزینه زیر زمان تاخیر برای حرکت موضوع را می توان وارد کرد؟",
+        "selected": "Speed",
+        "correct": "Delay"
+      },
+      {
+        "question": "پس از انتخاب قسمتی از متن یک صفحه ی وب و فشردن کلید Ctrl+C متن انتخاب شده به ...... انتقال می یابد.",
+        "selected": "حافظه RAM",
+        "correct": "حافظه ی موقت ویندوز (clipboard)"
+      },
+      {
+        "question": "کدام یک از گزینه های یک آدرس صندوق پستی صحیح می باشد؟",
+        "selected": "bayat@irantvto.ir",
+        "correct": "bayat@irantvto.ir"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "Save",
+        "correct": "New"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Satellite",
+        "correct": "Wireless"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Text Highlight",
+        "correct": "Font Color"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Home",
+        "correct": "Design"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter By Form",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Type",
+        "correct": "Date modified"
+      }
+    ],
+    "date": "2026-10-02T07:26:03.805Z"
   }
 ]
