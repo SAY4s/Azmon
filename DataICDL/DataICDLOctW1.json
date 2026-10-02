@@ -4238,5 +4238,217 @@
       }
     ],
     "date": "2026-10-02T07:35:22.715Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "با دستور ..... می توان تغییرات یک فایل را با همان نام قبلی ذخیره و با دستور ..... می توان اطلاعات فایل فعلی را با نام دیگری ذخیره کرد؟ (از راست به چپ)",
+        "selected": "Save as - Save",
+        "correct": "Save as - Save"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": "از دست رفتن اطلاعات",
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "پنجره Computer",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "در نمای Data Sheet جهت انتقال مکان نما به فیلد قبلی از کدام گزینه استفاده می شود؟",
+        "selected": "Shift+Tab - دکمه های جهتی صفحه کلید",
+        "correct": "Shift+Tab - دکمه های جهتی صفحه کلید"
+      },
+      {
+        "question": "برای جستجوی فایل های 5 حرفی که به P ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "p????",
+        "correct": "????p"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "سخت افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "برای ارائه نهایی نمایش از کدام نما استفاده می شود؟",
+        "selected": "Slide Show",
+        "correct": "Slide Show"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "نوری",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "گزینه Eraser از گروه Draw چه کاربردی دارد؟",
+        "selected": "حذف قسمت مورد نظر جدول",
+        "correct": "حذف قسمت مورد نظر جدول"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Shadow Slide",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "پوشه Spam محل نگهداری نامه های ورودی می باشد",
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "از کدام گزینه در بخش Size برای چاپ روی پاکت نامه استفاده می کنیم؟",
+        "selected": "Envelope",
+        "correct": "Envelope"
+      },
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Margins",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "هارد دیسک",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Noise",
+        "correct": "Spam"
+      },
+      {
+        "question": "کدام نوع داده زیر برای اعداد استفاده می شود؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "برای درج برچسب نامه از کدام ابزار استفاده می کنیم؟",
+        "selected": "Envelope",
+        "correct": "Labels"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": "Uni Code",
+        "correct": "Uni Code"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "واژه پرداز",
+        "correct": "واژه پرداز"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "انجام امور نشر رومیزی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "برای خطایابی املایی و گرامری از سربرگ ........................ گزینه ............................... را انتخاب می کنیم.",
+        "selected": "Insert > Spelling & Grammar",
+        "correct": "Review > Spelling & Grammar"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": "Count",
+        "correct": "Average"
+      },
+      {
+        "question": "به منظور ورود به محل ایمیل شخصی در سایت Yahoo از کدام گزینه استفاده می شود؟",
+        "selected": "Sign in",
+        "correct": "Sign in"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Symbol",
+        "correct": "Bullets"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "انتخاب کدام گزینه کامپیوتر را در حالت آماده باش قرار می دهد؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Background Style",
+        "correct": "Background Style"
+      },
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "24",
+        "correct": "18"
+      }
+    ],
+    "date": "2026-10-02T12:50:01.819Z"
   }
 ]
