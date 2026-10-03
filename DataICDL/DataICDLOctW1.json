@@ -6359,5 +6359,217 @@
       }
     ],
     "date": "2026-10-03T17:02:17.515Z"
+  },
+  {
+    "name": "الینا محمودی",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد",
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Left Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Design > New > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Presentation",
+        "correct": "Presentation"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Home>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Chart Title",
+        "correct": "Data Label"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "نام سرویس دهنده پست الکترونیک",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Queries",
+        "correct": "Macro"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "کلیک راست بر روی نوار کار و انتخاب Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر جزء حافظه های جانبی نیست؟",
+        "selected": "فلاپی",
+        "correct": "Rom"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "فایل (File) به چه معنا است؟",
+        "selected": "به همه اطلاعات موجود در رایانه می گویند",
+        "correct": "به همه اطلاعات موجود در رایانه می گویند"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Resume را برای توقف و گزینه Pause را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Man و Lan و Wan",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "به منظور افزودن یک کاربرگ جدید به صفحه کاری جاری و قبل از Sheet3 چه عملی انجام می دهید؟",
+        "selected": "بر روی Sheet2 راست کلیک کرده و گزینه Insert را انتخاب می کنیم",
+        "correct": "بر روی Sheet3 راست کلیک کرده و گزینه Insert را انتخاب می کنیم"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "برای ایجاد متن به سبک خاص و کوتاه از گزینه........................ استفاده می نماییم.",
+        "selected": "Text Box",
+        "correct": "Word Art"
+      },
+      {
+        "question": "در کدام یک از موارد زیر امکان به حد اکثر رساندن پنجره وجود دارد؟",
+        "selected": "پنجره معمولی",
+        "correct": "پنجره معمولی"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "کدامیک از فیلدهای زیر برای Primary Key مناسب تر است؟",
+        "selected": "فیلد شماره عضویت فرد در کتابخانه",
+        "correct": "فیلد شماره عضویت فرد در کتابخانه"
+      },
+      {
+        "question": "به منبع انرژی غیرقابل توقف.........",
+        "selected": "UPS",
+        "correct": "UPS"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Line and Page Breaks از Paragraph",
+        "correct": "زبانه Line and Page Breaks از Paragraph"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": "متن را توپر می کند",
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "برای تعیین نوع داده ها از چه گزینه ای استفاده می شود؟",
+        "selected": "Data Type",
+        "correct": "Data Type"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": "Ctrl+Alt+Del",
+        "correct": "Ctrl+Alt+Del"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "برای انجام کارهای خاص به کار می رود",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "برای حذف سوابق صفحات ویزیت شده از کدام دکمه استفاده می کنیم؟",
+        "selected": "Clear History",
+        "correct": "Clear History"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "AZ2",
+        "correct": "A1"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": "از Cell Style بر روی Merge کلیک می کنیم",
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Total Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "برای پاک کردن قسمت مورد نظر جدول از کدام دستور استفاده می شود؟",
+        "selected": "Eraser",
+        "correct": "Eraser"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024GB",
+        "correct": "1MB=1024KB"
+      }
+    ],
+    "date": "2026-10-03T17:29:31.253Z"
   }
 ]
