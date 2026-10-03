@@ -7419,5 +7419,217 @@
       }
     ],
     "date": "2026-10-03T17:54:36.230Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": "داشتن زیر پوشه",
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Shapes",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "اگر بخواهیم برچسب داده های نمودار را داخل و در انتهای آن ایجاد نماییم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Inside End",
+        "correct": "Inside End"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد",
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای یک .............. است؟",
+        "selected": "Field",
+        "correct": "Table"
+      },
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Templates",
+        "correct": "Templates"
+      },
+      {
+        "question": "کدام کنترل زیر در طراحی گزارش برای نمایش متن فیلدها استفاده می شود؟",
+        "selected": "Image",
+        "correct": "Text Box"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide layout",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "به منظور افزودن یک کاربرگ جدید به صفحه کاری جاری و قبل از Sheet3 چه عملی انجام می دهید؟",
+        "selected": "بر روی Sheet2 دوبار کلیک کرده و گزینه Insert را انتخاب می کنیم",
+        "correct": "بر روی Sheet3 راست کلیک کرده و گزینه Insert را انتخاب می کنیم"
+      },
+      {
+        "question": "ابزار Format Painter چه عملی انجام می دهد؟",
+        "selected": "متن را قالب بندی می کند",
+        "correct": "قالب متن را کپی می کند"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت تعجب",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "باینری",
+        "correct": "باینری"
+      },
+      {
+        "question": "کدام گزینه در مورد آرگونومی بکار می رود؟",
+        "selected": "استفاده از صندلی مناسب",
+        "correct": "حفظ سلامت انسان در محیط کار"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر",
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "راهنما",
+        "correct": "راهنما"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F11",
+        "correct": "F5"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": "Paste",
+        "correct": "Paste"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Unlock the Taskbar",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "از کدام دستور برای چرخش تصویر استفاده می شود؟",
+        "selected": "Rotate",
+        "correct": "Rotate"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Home",
+        "correct": "Stop"
+      },
+      {
+        "question": "از کدام مورد برای اتصال به اینترنت استفاده می شود؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "Gateways",
+        "correct": "Gateways"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Alu",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای انتخاب سلول های همجوار و درج در تابع از کدام علامت استفاده می گردد؟",
+        "selected": "$",
+        "correct": ":"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Blank Presentation",
+        "correct": "Template"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Open>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "برای اینکه بخواهیم حرف اول کلمه هر جمله با حروف بزرگ لاتین نوشته شود، باید کدام گزینه را برگزینیم؟",
+        "selected": "Uppercase",
+        "correct": "Sentence Case"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.mp3",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟",
+        "selected": "زبانه Page Layout دستور Cover Page",
+        "correct": "زبانه Insert گروه Pages دستور Page Cover"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Number",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "کدام گزینه برای ذخیره تصاویر استفاده می گردد؟",
+        "selected": "Save As Picture",
+        "correct": "Save Picture As"
+      }
+    ],
+    "date": "2026-10-03T17:59:32.129Z"
   }
 ]
