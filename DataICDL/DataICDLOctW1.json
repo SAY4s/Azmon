@@ -8691,5 +8691,217 @@
       }
     ],
     "date": "2026-10-03T19:33:48.691Z"
+  },
+  {
+    "name": "مائده کاظم پور",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Action Buttons",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Title Slide",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "مفهوم گزینه Wrap Text چیست؟",
+        "selected": "متن طولانی به صورت چند سطری نشان داده شود",
+        "correct": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "جهت مشاهده مجدد صفحات وب ویزیت شده در هفته پیش از چه دکمه ای استفاده می کنیم؟",
+        "selected": "Back",
+        "correct": "History"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "کلیک روی Table از زبانه Insert و انتخاب Insert Table",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "کدام یک از موارد زیر سیستم عامل محسوب نمی شود؟",
+        "selected": "Linux",
+        "correct": "Word"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar",
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های پست الکترونیک نمی باشد؟",
+        "selected": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند",
+        "correct": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Group",
+        "correct": "Group"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "به شرکت های ارائه دهنده خدمات اینترنتی چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "پرچم",
+        "correct": "پرچم"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Home-Number",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Server Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "برای ذخیره سند از چه کلیدهایی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "به نمادهای تصویری در ویندوز، ...................... می گویند.",
+        "selected": "Icon",
+        "correct": "Icon"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Group & Sort",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "برای تبدیل نوشته های جدول به نوشته های بدون کادر از کدام دستور استفاده می کنیم؟",
+        "selected": "Convert To Text",
+        "correct": "Convert To Text"
+      },
+      {
+        "question": "کدام گزینه برای ایجاد اسلاید در پاورپوینت صحیح است؟",
+        "selected": "New Slide",
+        "correct": "New Slide"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "=min(A1:B5)",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "کل نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "برای انصراف از آخرین عمل انجام شده چه دستوری استفاده می شود؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند کدام گزینه را انتخاب می کنید؟",
+        "selected": "آدرس آن را در قسمت BCC وارد می کنیم",
+        "correct": "آدرس آن را در قسمت BCC وارد می کنیم"
+      },
+      {
+        "question": "برای انتخاب یک جمله از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      }
+    ],
+    "date": "2026-10-03T19:44:35.331Z"
   }
 ]
