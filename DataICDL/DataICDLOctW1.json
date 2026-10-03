@@ -8055,5 +8055,217 @@
       }
     ],
     "date": "2026-10-03T18:54:11.945Z"
+  },
+  {
+    "name": "مائده کاظم پور",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس",
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "برای درج جدول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Table",
+        "correct": "سربرگ Insert گروه Table"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "کدام نوع رابطه در بین جداول اشتباه است؟",
+        "selected": "رابطه چند به یک",
+        "correct": "رابطه چند به یک"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "html",
+        "correct": "docx"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Formula",
+        "correct": "Formula"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "نامه",
+        "correct": "نامه"
+      },
+      {
+        "question": "کدام یک از شبکه های زیر معمولا برای اتصال دفاتر یک سازمان در یک شهر صورت می گیرد؟",
+        "selected": "Lan",
+        "correct": "Man"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "در نرم افزار Notepad برای تنظیمات کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Page setup",
+        "correct": "Page setup"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Web Art",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "برای جستجوی کلیه فایل ها با پسوند txt از کدام گزینه زیر استفاده می کنیم؟",
+        "selected": "txt.*",
+        "correct": "*.txt"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": "Remove",
+        "correct": "Remove"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "Draw Table از زبانه Insert",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      },
+      {
+        "question": "به منظور ورود به محل ایمیل شخصی در سایت Yahoo از کدام گزینه استفاده می شود؟",
+        "selected": "Sign in",
+        "correct": "Sign in"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Report View",
+        "correct": "Report View"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Upload",
+        "correct": "Download"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Search",
+        "correct": "Search"
+      },
+      {
+        "question": "گزینه .......................... برای ترازبندی متن کاربرد دارد.",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "With Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "برای انتخاب یک جمله باید از کلید ترکیبی ..... استفاده کرد.",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟",
+        "selected": "Decrease Font Size",
+        "correct": "Decrease Font Size"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟",
+        "selected": "Share",
+        "correct": "Share"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "برای مرتب کردن داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدام یک از گزینه های موجود در زبانه number از کادر محاوره Cells Format امکان اضافه کردن % (درصد) را به اعداد می دهد؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": "Data Base",
+        "correct": "Data Base"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      }
+    ],
+    "date": "2026-10-03T19:07:17.709Z"
   }
 ]
