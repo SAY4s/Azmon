@@ -6783,5 +6783,217 @@
       }
     ],
     "date": "2026-10-03T17:34:52.782Z"
+  },
+  {
+    "name": "سپهر اینانلو",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از موارد زیر از توانایی های برنامه های صفحه گسترده نمی باشد؟",
+        "selected": "حسابداری یک شرکت بازرگانی",
+        "correct": "تولید یک برنامه اجرایی مستقل کامپیوتری"
+      },
+      {
+        "question": "هر فایل ارائه مطلب حداقل ....... اسلاید دارد.",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب وسط",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "برنامه های کوچکی که به یک برنامه اجرایی حمله کرده و اجرای آن را مختل می کنند چه نامیده می شود؟",
+        "selected": "Virus",
+        "correct": "Virus"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "در مورد تعداد سری های موجود در یک نمودار ستونی کدام مطلب صحیح است؟",
+        "selected": "تعداد سری ها بسته به انتخاب کاربر می تواند برابر تعداد سطرها یا برابر ستون ها باشد",
+        "correct": "تعداد سری ها برابر تعداد ستون هاست"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Background Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "برای جابجایی بین پنجره های باز از کلیدهای ...... استفاده می کنیم.",
+        "selected": "Ctrl+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Set as Default Theme",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "Shiraz - University",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "تهیه و ویرایش کتاب و مقاله",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Right To Left Text Direction",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Shift+Ctrl+Alt",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select Object",
+        "correct": "Select Object"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "جدول از مجموعه ای از گزارش ها ساخته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Indent To Right",
+        "correct": "Right"
+      },
+      {
+        "question": "برای تبدیل دستورات غیرقابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟",
+        "selected": "مترجم ها",
+        "correct": "مترجم ها"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": "No",
+        "correct": "Uni Code"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "Floppy Disk",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "MAN",
+        "correct": "Gateways"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک فایل ارائه مطالب در نسخه های قبلی (2003) برنامه قابل اجرا باشد از چه پسوندی استفاده می کنیم؟",
+        "selected": "PPTX",
+        "correct": "PPT"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Vertically",
+        "correct": "Landscape"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Format",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "برای حذف یک سطر جدول از …… استفاده می کنیم.",
+        "selected": "Clean Rows",
+        "correct": "گزینه Delete Rows"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Notice",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "Hard Disk",
+        "correct": "ROM"
+      },
+      {
+        "question": "برای درج یک فیلد در ساختار بانک اطلاعاتی از کدام روش باید استفاده نمود؟",
+        "selected": "Insert - Rows Database",
+        "correct": "Design - Insert Rows"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Redo",
+        "correct": "Undo"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": "As New Work Book",
+        "correct": "Object In"
+      }
+    ],
+    "date": "2026-10-03T17:41:43.770Z"
   }
 ]
