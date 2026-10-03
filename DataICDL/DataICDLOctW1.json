@@ -7843,5 +7843,217 @@
       }
     ],
     "date": "2026-10-03T18:02:46.726Z"
+  },
+  {
+    "name": "مائده کاظم پور",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار ابزار دسترسی سریع",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": "بازبینی سند",
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "کدام گزینه از Change Case برای اولین کاراکتر تمام واژه های متن انتخاب شده از حروف کوچک استفاده می کند؟",
+        "selected": "Toggle Case",
+        "correct": "Toggle Case"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "برای ذخیره آدرس و مشخصات افراد از …… استفاده می شود؟",
+        "selected": "Address Book",
+        "correct": "Address Book"
+      },
+      {
+        "question": "کدام گزینه آیکن های درون پنجره را بر اساس تاریخ آخرین اصلاح مرتب می کند؟",
+        "selected": "Date Modified",
+        "correct": "Date Modified"
+      },
+      {
+        "question": "کدام یک جزء اجزای داخلی CPU نیست؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از گزینه................ استفاده می شود.",
+        "selected": "Orientation",
+        "correct": "Margins"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "A2+A3=",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "از کدام دستور برای چرخش تصویر استفاده می شود؟",
+        "selected": "Rotate",
+        "correct": "Rotate"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F11",
+        "correct": "F5"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "کدام یک از موارد زیر تعریف کامپیوتر می باشد؟",
+        "selected": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند",
+        "correct": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند"
+      },
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر صحیح نیست؟",
+        "selected": "سیستم عامل رابطه بین سخت افزار و نرم افزار و کاربر است",
+        "correct": "سیستم عامل ممکن است چند وظیفه یا یک وظیفه داشته باشد"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "به مجموعه ای از یک یا چند رکورد ............. می گویند.",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Wireless",
+        "correct": "Wireless"
+      },
+      {
+        "question": "به شرکت های ارائه دهنده خدمات اینترنتی چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "در صورت وجود غلط های املایی در متن اسلایدها کدام یک از روش ها برای برطرف کردن غلط های املایی مناسب است؟",
+        "selected": "سربرگ Review گزینه Grammar",
+        "correct": "سربرگ Review گزینه Spelling"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی View",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "برای اضافه نمودن عنوان به نمودار از کدام گزینه استفاده می نماییم؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Design View, Datasheet View",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(a1=kh,\"t\",\"f\")",
+        "selected": "4",
+        "correct": "F"
+      },
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": "Win Rar و Win Zip",
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Primary",
+        "correct": "Primary"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      }
+    ],
+    "date": "2026-10-03T18:54:11.945Z"
   }
 ]
