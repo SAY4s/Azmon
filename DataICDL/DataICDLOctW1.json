@@ -8903,5 +8903,217 @@
       }
     ],
     "date": "2026-10-03T19:44:35.331Z"
+  },
+  {
+    "name": "فاطمه رازقی",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "برای ذخیره سازی یک کاراکتر (حرف) چند Bit نیاز است؟",
+        "selected": "4",
+        "correct": "8"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": "!",
+        "correct": "@"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Current Page",
+        "correct": "Page"
+      },
+      {
+        "question": "آدرس های عددی مورد استفاده در شبکه را اصطلاحا چه می نامند؟",
+        "selected": "PASSWORD",
+        "correct": "IP"
+      },
+      {
+        "question": "کدام فرمان برای باز کردن یک سند موجود به کار می رود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر ناپایدار است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Set as Default Theme",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای باز کردن فایل فشرده کدام گزینه صحیح است؟",
+        "selected": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید",
+        "correct": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید"
+      },
+      {
+        "question": "کدام تابع زیر برای محاسبه میانگین بکار می رود؟",
+        "selected": "AVERAGE",
+        "correct": "AVERAGE"
+      },
+      {
+        "question": "جهت نمایش محتوای فایل های شناسایی نشده توسط ویندوز کدام گزینه صحیح است؟",
+        "selected": "بر روی فایل راست کلیک کرده و گزینه open را انتخاب نمایید",
+        "correct": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر مصداق کلمه Information است؟",
+        "selected": "به خروجی هایی که پس از پردازش داده ها تولید می شود",
+        "correct": "به خروجی هایی که پس از پردازش داده ها تولید می شود"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Computer / Printer",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM را در هیچ کامپیوتری نمی توان افزایش داد",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "Set Up Slide Show",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "کلیدهای ترکیبی Ctrl+W",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "کانال انتقال - Server",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "Cd",
+        "correct": "Cd"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "LAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Macro",
+        "correct": "Query"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Filter By Selection",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Multilevel List",
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "منویی که با کلیک راست روی آیکن نمایش می یابد، چه نام دارد؟",
+        "selected": "منوی میانبر",
+        "correct": "منوی میانبر"
+      },
+      {
+        "question": "برای تغییر خصوصیات یک فایل یا پوشه از کدام گزینه استفاده می شود؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "حجم دریافت شده فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "فیلد تاریخ تولد از چه نوعی معرفی می شود؟",
+        "selected": "Date & Time",
+        "correct": "Date & Time"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      }
+    ],
+    "date": "2026-10-03T20:16:04.488Z"
   }
 ]
