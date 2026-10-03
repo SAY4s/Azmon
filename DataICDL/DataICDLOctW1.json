@@ -7631,5 +7631,217 @@
       }
     ],
     "date": "2026-10-03T17:59:32.129Z"
+  },
+  {
+    "name": "سپهر اینانلو",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "هریک از خانه ها در صفحه کاری چه نام دارد؟",
+        "selected": "Sheet",
+        "correct": "Cell"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "کدام یک از بخش های cpu واحد مناسب عملیات ریاضی و منطقی نامیده می شود؟",
+        "selected": "Alu",
+        "correct": "Alu"
+      },
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM یک حافظه خواندنی نوشتنی است",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "پنجره Computer",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "اگر آدرس یک پست الکترونیک را اشتباه بنویسیم چه اتفاقی می افتد؟",
+        "selected": "بدون هیچ اتفاق خاصی نامه از بین می رود",
+        "correct": "نامه با پیام مناسب برگشت داده می شود"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "از ابزار Line Spacing به چه منظور استفاده می شود؟",
+        "selected": "تعیین فاصله بین خطوط",
+        "correct": "تعیین فاصله بین خطوط"
+      },
+      {
+        "question": "درپنجره Internet انتخاب کدام گزینه ها موجب می شود صفحه خانگی یک صفحه خالی باشد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "باینری",
+        "correct": "باینری"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "........ حافظه ای با دسترسی تصادفی و ................ حافظه ای فقط خواندنی می باشد. (از راست به چپ)",
+        "selected": "Ram و Rom",
+        "correct": "Ram و Rom"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "؟",
+        "correct": "$"
+      },
+      {
+        "question": "جهت فعال نمودن Folder Option از کدام روش استفاده می کنیم؟",
+        "selected": "با استفاده از کلیک راست ماوس بر روی Desktop",
+        "correct": "استفاده از منوی Tools در هر پنجره ای"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Title Only",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "برای بدست آوردن ضرب محتویات دو سلول اکسل چه فرمولی باید نوشت؟",
+        "selected": "=A1*B5",
+        "correct": "=A1*B5"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Current Page",
+        "correct": "Current Page"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "ایجاد حاشیه و کادر",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "کدام کلید مکان نما را به اولین فیلد رکورد جاری منتقل می کند؟",
+        "selected": "End",
+        "correct": "Home"
+      },
+      {
+        "question": "از ابزار Start Recording From Beginning به چه منظور استفاده می شود؟",
+        "selected": "ضبط صدا بر روی اولین تا آخرین اسلاید",
+        "correct": "ضبط صدا بر روی اولین تا آخرین اسلاید"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟",
+        "selected": "Shape",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Shift همراه با کلیدهای جهتی",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "کلیک بر روی آیکن صدا بر روی نوار کار",
+        "correct": "All Program / Accessories / Sound Recorder"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "0",
+        "correct": "1"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Organization Chart",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Custom Print",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Layout",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": "Page Header",
+        "correct": "Page Header"
+      }
+    ],
+    "date": "2026-10-03T18:02:46.726Z"
   }
 ]
