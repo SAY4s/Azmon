@@ -10598,5 +10598,218 @@
       }
     ],
     "date": "2026-10-04T11:32:41.895Z"
+  },
+  {
+    "name": "کارشناس دادگستری",
+    "nationalId": "1632163216",
+    "exam": "icdl",
+    "score": 9,
+    "total": 40,
+    "percent": 23,
+    "wrong": 31,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Workbook",
+        "correct": "Book"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "New",
+        "correct": "View"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای حذف یک سطر جدول از …… استفاده می کنیم.",
+        "selected": "Clean Rows",
+        "correct": "گزینه Delete Rows"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "AZ2",
+        "correct": "A1"
+      },
+      {
+        "question": "برای درج یک معیار از کدام قسمت در یک پرس و جو استفاده می شود؟",
+        "selected": "Criteria & Or",
+        "correct": "Criteria & Or"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "min(X=A1+b5)",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "برای ذخیره سند از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+Shift+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "فرمت .......... فایل را به صورت غیرقابل تغییر در می آورد و با نرم افزار Word قابل اجرا نیست.",
+        "selected": "DOC",
+        "correct": "PDF"
+      },
+      {
+        "question": "پسوند Mp3، جزء پسوندهای ................... است.",
+        "selected": "ویدئویی",
+        "correct": "صوتی"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Format",
+        "correct": "Caption"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "جدول را نمی توان به اسلاید اضافه کرد",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "کدام عبارت صحیح است؟",
+        "selected": "حافظه Rom جهت خواندن و نوشتن اطلاعات استفاده می شود",
+        "correct": "حافظه ثانویه قابلیت نگهداری دائمی اطلاعات را دارد"
+      },
+      {
+        "question": "چگونه می توان پیش نمایش چاپ را مشاهده کرد؟",
+        "selected": "Page Setup",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Design View",
+        "correct": "Report View"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "30",
+        "correct": "60"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Last Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "اجزای اصلی کامپیوترهای شخصی کدام است؟",
+        "selected": "Cpu - Ram - Hard - Case - Monitor - Keyboard",
+        "correct": "Cpu - Memory - Input Unit - Output Unit"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای جوهرافشان",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "CPU",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "بهترین روش برای جلوگیری از ورود ویروس به سیستم کدام گزینه است؟",
+        "selected": "حذف نامه های الکترونیکی که دارای فایل های الصاقی می باشد",
+        "correct": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "جهت حذف یک فیلتر روی کدام گزینه کلیک می کنیم؟",
+        "selected": "Delete Filter",
+        "correct": "Clear Filter"
+      },
+      {
+        "question": "برای بدست آوردن جمع محتویات دو سلول اکسل کدام فرمول صحیح است؟",
+        "selected": "A1+b5=x",
+        "correct": "=A1+B5"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Tables",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Clipart",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query تمام فیلدهای جدول را شامل می شود",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "راست کلیک در فضای خالی اسلایدها در نمای Normal یا Slide Sorter و زدن گزینه Paste",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Shift+Ctrl+Alt",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "به مجموعه ای از رکوردها که دارای عناوین فیلد یکسان هستند ................. گفته می شود؟",
+        "selected": "پایگاه داده",
+        "correct": "جدول"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "جابجایی کاربرگ",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "به نحوه قرار گرفتن محتوای اسلایدها ....... می گویند.",
+        "selected": "Slide Layout",
+        "correct": "Slide Layout"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": "E-Marketing",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "از طریق Create - Form Wizard",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "برای ایجاد یک جدول با تعداد سطر و ستون دلخواه کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Draw Table",
+        "correct": "Insert Table"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+H"
+      }
+    ],
+    "date": "2026-10-04T14:18:10.453Z"
   }
 ]
