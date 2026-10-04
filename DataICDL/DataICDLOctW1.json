@@ -14645,5 +14645,218 @@
       }
     ],
     "date": "2026-10-04T18:53:55.210Z"
+  },
+  {
+    "name": "احمدرضا نصیری",
+    "nationalId": "4311994583",
+    "exam": "icdl",
+    "score": 20,
+    "total": 40,
+    "percent": 50,
+    "wrong": 20,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "در پنجره آن کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "برای پاک کردن قسمت مورد نظر جدول از کدام دستور استفاده می شود؟",
+        "selected": "Remove",
+        "correct": "Eraser"
+      },
+      {
+        "question": "توسط کدامیک از روش های زیر می توان به پنجره Control Panel دسترسی پیدا کرد؟",
+        "selected": "Task Bar",
+        "correct": "Start Menu"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Copies",
+        "correct": "Copies"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Collate",
+        "correct": "Current page"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Pin The Ribbon",
+        "correct": "Pin The Ribbon"
+      },
+      {
+        "question": "پرس و جو بر اساس یک معیار در اکسس چه نامیده می شود؟",
+        "selected": "Search",
+        "correct": "Query"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "لیست فیلدها و جدولی همانند جدول Datasheet",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "تاریخچه اینترنت کدام است؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "برای درج داده هایی مانند ردیف از ........ و داده های عددی که احتیاج به محاسبات دارند از نوع داده .... استفاده می کنیم؟ (از راست به چپ)",
+        "selected": "Number - Auto Number",
+        "correct": "Number - Auto Number"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Calculated",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای اینکه نتوان محتوای خانه های (Cell) صفحه کاری را تغییر داد چه باید کرد؟",
+        "selected": "ابتدا سلول را Locked می کنیم و سپس از سربرگ Review گزینه Protect Workbook را کلیک می کنیم و کلمه رمز قرار می دهیم",
+        "correct": "ابتدا سلول را Locked می کنیم و سپس از سربرگ Review گزینه Protect Sheet را کلیک می کنیم و کلمه رمز قرار می دهیم"
+      },
+      {
+        "question": "برای درج برچسب نامه از کدام ابزار استفاده می کنیم؟",
+        "selected": "Labels",
+        "correct": "Labels"
+      },
+      {
+        "question": "برای اینکه طرح زمینه انتخاب شده در مرکز صفحه مانیتور باشد باید ............. انتخاب نماییم.",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "انتشار سند",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Clipart",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کار گزینه Hide Slide چیست؟",
+        "selected": "مخفی کردن اسلاید",
+        "correct": "مخفی کردن اسلاید"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که اکسل نمی تواند محتویات سلول را به فرم صحیح نمایش دهد زیرا پهنای ستون مناسب نمی باشد",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Text",
+        "correct": "Yes/No"
+      },
+      {
+        "question": "از کدام یک از اجزای بانک اطلاعاتی برای استخراج مجموعه ای از داده های ذخیره شده در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Form",
+        "correct": "Query"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "تعیین رنگ و طرح زمینه داخل کادر",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "ISDN",
+        "correct": "فاکس"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Ole Object",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "برای بروزرسانی صفحه وب از کدام گزینه استفاده می شود؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "برای درج خودکار سری داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Auto Complete",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F9",
+        "correct": "F11"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Justify",
+        "correct": "Right"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "برای ترسیم جدول با استفاده از مداد از چه دستوری استفاده می شود؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "سرعت انتقال داده ها در CPU از حافظه اصلی Ram ............ می باشد به همین جهت از حافظه های .............. استفاده می کنند.",
+        "selected": "بیشتر - Cache",
+        "correct": "کمتر - Cache"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Scrollbars",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      }
+    ],
+    "date": "2026-10-04T19:26:03.931Z"
   }
 ]
