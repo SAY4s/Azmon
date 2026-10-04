@@ -13580,5 +13580,218 @@
       }
     ],
     "date": "2026-10-04T18:22:32.821Z"
+  },
+  {
+    "name": "اتنا حسنی",
+    "nationalId": "0152725180",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 8,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Data \\ Sort",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Row",
+        "correct": "Row"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر جزء وسایل خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "تصاویر در کدام گروه از زبانه insert قرار دارند؟",
+        "selected": "Illustrations",
+        "correct": "Illustrations"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": null,
+        "correct": "Macros"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Design",
+        "correct": "Create"
+      },
+      {
+        "question": "برنامه Excel زیر مجموعه کدام یک از انواع برنامه هاست؟",
+        "selected": "برنامه های صفحه گسترده",
+        "correct": "برنامه های صفحه گسترده"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Font",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "به منظور ورود به محل ایمیل شخصی در سایت Yahoo از کدام گزینه استفاده می شود؟",
+        "selected": "Sign in",
+        "correct": "Sign in"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - کپی",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "جهت تغییر اندازه تصویر، کدام سربرگ را انتخاب می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Format"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک فایل ارائه مطالب در نسخه های قبلی (2003) برنامه قابل اجرا باشد از چه پسوندی استفاده می کنیم؟",
+        "selected": "PPTX",
+        "correct": "PPT"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Bus",
+        "correct": "Bus"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": "Align Text",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "(A1,B5)=min",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "ISP",
+        "correct": "Network"
+      },
+      {
+        "question": "جهت ایجاد ترازبندی از طرفین، از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "از این ابزار برای مخفی کردن اسلایدها در حالت نمایش استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "Apply Styles چه کاری انجام می دهد؟",
+        "selected": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم",
+        "correct": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "برنامه های کاربردی",
+        "correct": "برنامه های کاربردی"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "پرچم",
+        "correct": "پرچم"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "از کدام برگه در پنجره Properties می توان صفت یک پوشه (Attributes) را تغییر داد؟",
+        "selected": "General",
+        "correct": "General"
+      },
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "در ترسیم نمودار مفهوم گزینه Data Labels چیست؟",
+        "selected": "نمایش اسامی داده ها",
+        "correct": "نمایش اسامی داده ها"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOCX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      }
+    ],
+    "date": "2026-10-04T18:25:40.998Z"
   }
 ]
