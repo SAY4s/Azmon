@@ -10387,5 +10387,217 @@
       }
     ],
     "date": "2026-10-03T23:13:00.125Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با انتخاب کدام گزینه از پنجره Find در نرم افزار Word Pad می توان در هنگام جستجو بین حروف بزرگ و کوچک تفاوت قائل شد؟",
+        "selected": "Between",
+        "correct": "Case Sensitive"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "جهت قرار دادن سیستم در حالتی که برنامه ها باز بوده ولی سیستم به صورت موقت خاموش گردد، چه گزینه ای را انتخاب می کنید؟",
+        "selected": "Standby",
+        "correct": "Hibernate"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": "Create-Form",
+        "correct": "Design"
+      },
+      {
+        "question": "کدام روش برای حذف یک اسلاید مناسب است؟",
+        "selected": "در پنل اسلایدها روی اسلاید مورد نظر کلیک می کنیم و دکمه Delete کیبورد را می فشاریم",
+        "correct": "در پنل اسلایدها روی اسلاید مورد نظر کلیک می کنیم و دکمه Delete کیبورد را می فشاریم"
+      },
+      {
+        "question": "کدام یک کامپیوترهای زیر از نظر قدرت پردازش ضعیف تر است؟",
+        "selected": "Mini Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "جهت محافظت کاربرگ ابتدا راست کلیک سپس کدام فرمان را انتخاب می نماییم؟",
+        "selected": "Copy",
+        "correct": "Protect Sheet"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "برای ایجاد گزارش از کدام گزینه استفاده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "معاونی و سازمان دهی اطلاعات در چند سطر که در مورد یک موجودیت می باشد را .............. گویند؟",
+        "selected": "پایگاه داده",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای تبدیل دستورات غیرقابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟",
+        "selected": "مترجم ها",
+        "correct": "مترجم ها"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "Yes-Default Value",
+        "correct": "No-Required"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Cache",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Design گروه Page Background گزینه Watermark",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "C#",
+        "correct": "C#"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Print All Page",
+        "correct": "Copies"
+      },
+      {
+        "question": "IT به معنای چیست؟",
+        "selected": "فناوری اطلاعات",
+        "correct": "فناوری اطلاعات"
+      },
+      {
+        "question": "انتخاب کدام گزینه کامپیوتر را در حالت آماده باش قرار می دهد؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column",
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "قابلیت کوچک نمایی برای مشاهده کل اطلاعات به صورت یکجا را ....... می گویند.",
+        "selected": "Fit",
+        "correct": "Fit"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Reading View"
+      },
+      {
+        "question": "کدام یک از انواع نرم افزار برای ویرایش متن مناسب است؟",
+        "selected": "واژه پردازها",
+        "correct": "واژه پردازها"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Mpg",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "مودم",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "جهت تغییر اندازه تصویر، کدام سربرگ را انتخاب می کنیم؟",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "در کادر Format Cell از تب Alignment گزینه Shrink To Fit چه عملی انجام می دهد؟",
+        "selected": "کشیده شدن متن تا عرض خانه را پر می کند",
+        "correct": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد"
+      },
+      {
+        "question": "کدام گزینه در مورد فشرده سازی صحیح است؟",
+        "selected": "روشی برای کاهش حجم فایل",
+        "correct": "روشی برای کاهش حجم فایل"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Shift+M",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": "یک Table می تواند حاوی چند Primary Key باشد",
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      }
+    ],
+    "date": "2026-10-04T02:50:27.901Z"
   }
 ]
