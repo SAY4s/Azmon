@@ -10811,5 +10811,218 @@
       }
     ],
     "date": "2026-10-04T14:18:10.453Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "nationalId": "5089863164",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 18,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "اگر جدول بخواهد با جدول دیگر در ارتباط باشد؟",
+        "selected": "باید یک کلید اولیه داشته باشد",
+        "correct": "باید یک کلید اولیه داشته باشد"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Report Header Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر در مورد DVD صحیح می باشد؟",
+        "selected": "دیسک ویدیویی دیجیتال",
+        "correct": "دیسک ویدیویی دیجیتال"
+      },
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "برای تبدیل دستورات غیرقابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟",
+        "selected": "مترجم ها",
+        "correct": "مترجم ها"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Log Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Primary Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "کدام کلید سبب پرش مکان نما به ابتدای سند می گردد؟",
+        "selected": "Ctrl+Home",
+        "correct": "End"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "Gateways",
+        "correct": "Gateways"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Data \\ Sort",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "Back",
+        "correct": "History"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start و انتخاب Restart از پنجره Shut down windows",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "{ }",
+        "correct": "\" \""
+      },
+      {
+        "question": "توسط کدام کلید ترکیبی بانک اطلاعاتی جاری بسته می شود؟",
+        "selected": "Ctrl+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "با کدام گزینه تصویر در زمینه میز کار به صورت کشیده قرار می گیرد؟",
+        "selected": "Stretch",
+        "correct": "Stretch"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "پوشه Outbox شامل ........... است.",
+        "selected": "لیست نامه های حذف شده است",
+        "correct": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "PDF",
+        "correct": "DOTX"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "کدام گزینه غلط است؟",
+        "selected": "یک Work Book در اکسل 2013 در حالت پیش فرض شامل یک Work Sheet می باشد",
+        "correct": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": "یک نرم افزار واژه پرداز است",
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide"
+      },
+      {
+        "question": "کدام نوع داده زیر برای متن های طولانی استفاده می شود؟",
+        "selected": "long text",
+        "correct": "long text"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Unique (یکتا) کردن رکوردهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": "یک Table می تواند تنها دارای یک ایندکس باشد",
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Ignore All",
+        "correct": "Ignore All"
+      },
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": null,
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "در یک خانه چه نوع اطلاعاتی نمی توان وارد نمود؟",
+        "selected": "تصویر",
+        "correct": "تصویر"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Port",
+        "correct": "Bus"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "نیاز به پایین نگه داشتن کلید نیست",
+        "correct": "Shift"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Return To Back",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "پیش نمایش سند",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      }
+    ],
+    "date": "2026-10-04T14:31:56.592Z"
   }
 ]
