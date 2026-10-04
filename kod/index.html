@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ویرایشگر کد ملی (kodmeli.json)</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1b1f2a;--mu:#6b7280;--bd:#d9dde7;--ac:#2563eb;--er:#d92d20;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10131a;--card:#181c26;--tx:#e8eaf0;--mu:#9aa3b2;--bd:#2c3242;--ac:#5b8cff;--er:#ff6b5e}}
+:root[data-theme="dark"]{--bg:#10131a;--card:#181c26;--tx:#e8eaf0;--mu:#9aa3b2;--bd:#2c3242;--ac:#5b8cff;--er:#ff6b5e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Vazirmatn,Tahoma,"Segoe UI",sans-serif;line-height:1.6}
+main{max-width:900px;margin:auto;padding:16px;display:grid;gap:14px}
+h1{font-size:1.2rem;margin:0}
+section{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px}
+h2{font-size:1rem;margin:0 0 8px}
+textarea,input[type=text],input[type=search]{width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--bd);border-radius:8px;padding:8px;font:inherit}
+textarea{min-height:120px;resize:vertical}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
+button,label.btn{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}
+button.sec,label.btn.sec{background:transparent;color:var(--tx);border:1px solid var(--bd)}
+button.del{background:transparent;color:var(--er);border:1px solid var(--bd);padding:4px 10px}
+.tw{max-height:420px;overflow:auto;margin-top:8px;border:1px solid var(--bd);border-radius:8px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:4px 6px;border-bottom:1px solid var(--bd);text-align:right}
+th{position:sticky;top:0;background:var(--card);font-size:.85rem;color:var(--mu)}
+td input{border:1px solid transparent;background:transparent}
+td input:focus{border-color:var(--ac);background:var(--bg);outline:0}
+td input.bad{color:var(--er)}
+td input.code{direction:ltr;text-align:center;width:150px}
+#st{color:var(--mu);font-size:.9rem;margin-top:6px}
+pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px;max-height:240px;overflow:auto;margin:8px 0 0;font-size:.85rem;white-space:pre}
+.drop{outline:2px dashed var(--ac)}
+</style>
+</head>
+<body>
+<main>
+<h1>ویرایشگر کد ملی ← kodmeli.json</h1>
+
+<section>
+  <h2>چسباندن لیست (نام ⇥ نام خانوادگی ⇥ کد ملی) — هر نفر در یک خط</h2>
+  <textarea id="paste" placeholder="آریا&#9;کیانمهر&#9;265357274"></textarea>
+  <div class="row">
+    <button id="add">افزودن به لیست</button>
+    <label><input type="checkbox" id="pad"> کدهای ۹ رقمی را با صفر ابتدایی ۱۰ رقمی کن</label>
+  </div>
+  <div id="msg" class="row" style="color:var(--mu)"></div>
+</section>
+
+<section id="drop">
+  <h2>لیست</h2>
+  <div class="row" style="margin-top:0">
+    <input type="search" id="q" placeholder="جستجو..." style="flex:1;min-width:160px">
+    <button class="sec" id="new1">➕ ردیف جدید</button>
+    <label class="btn sec">باز کردن JSON<input type="file" id="file" accept=".json,application/json" hidden></label>
+    <button class="sec" id="clear">پاک کردن همه</button>
+  </div>
+  <div class="tw"><table><thead><tr><th>#</th><th>کد ملی</th><th>نام کامل</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
+  <div id="st"></div>
+</section>
+
+<section>
+  <h2>خروجی JSON</h2>
+  <div class="row" style="margin-top:0">
+    <button id="dl">⬇ دانلود kodmeli.json</button>
+    <button class="sec" id="cp">کپی</button>
+  </div>
+  <pre id="out"></pre>
+</section>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const fix=s=>s.replace(/[۰-۹]/g,c=>c.charCodeAt(0)-1776).replace(/[٠-٩]/g,c=>c.charCodeAt(0)-1632);
+const valid=c=>/^\d{10}$/.test(c);
+let items=[]; // {c, n}
+try{items=JSON.parse(localStorage.getItem("kodmeli_items")||"[]")}catch(e){items=[]}
+
+function toObj(){const o={};items.forEach(i=>{if(i.c)o[i.c]=i.n});return o}
+function save(){try{localStorage.setItem("kodmeli_items",JSON.stringify(items))}catch(e){}}
+function stats(){
+  const seen={},dup=new Set();
+  items.forEach(i=>{if(seen[i.c])dup.add(i.c);seen[i.c]=1});
+  const bad=items.filter(i=>!valid(i.c)).length;
+  $("st").textContent=items.length+" ردیف"+(bad?" | ⚠ "+bad+" کد نامعتبر":"")+(dup.size?" | ⚠ "+dup.size+" کد تکراری (آخری ذخیره می‌شود)":"");
+  $("out").textContent=JSON.stringify(toObj(),null,2);
+  save();
+}
+function render(){
+  const q=fix($("q").value.trim());
+  const tb=$("tb");tb.innerHTML="";
+  items.forEach((it,i)=>{
+    if(q&&!it.c.includes(q)&&!it.n.includes(q))return;
+    const tr=document.createElement("tr");
+    const td0=document.createElement("td");td0.textContent=i+1;
+    const c=document.createElement("input");c.type="text";c.className="code"+(valid(it.c)?"":" bad");c.value=it.c;
+    c.oninput=()=>{it.c=fix(c.value.trim());c.classList.toggle("bad",!valid(it.c));stats()};
+    const n=document.createElement("input");n.type="text";n.value=it.n;
+    n.oninput=()=>{it.n=n.value;stats()};
+    const d=document.createElement("button");d.className="del";d.textContent="حذف";
+    d.onclick=()=>{items.splice(i,1);render()};
+    [td0,c,n,d].forEach((e,k)=>{const td=k?document.createElement("td"):e;if(k){td.appendChild(e)}tr.appendChild(td)});
+    tb.appendChild(tr);
+  });
+  stats();
+}
+function parse(text,pad){
+  const rows=[],bad=[];
+  text.split(/\r?\n/).forEach(l=>{
+    l=l.trim();if(!l||l.includes("کد ملی")||l.includes("کدملی"))return;
+    let p=l.includes("\t")?l.split("\t"):l.split(/\s{2,}/);
+    p=p.map(s=>s.trim()).filter(Boolean);
+    if(p.length<2)p=l.split(/\s+/);
+    if(p.length<2){bad.push(l);return}
+    let c=fix(p[p.length-1]);
+    if(pad&&/^\d+$/.test(c)&&c.length<10)c=c.padStart(10,"0");
+    rows.push({c,n:p.slice(0,-1).join(" ").split(/\s+/).join(" ")});
+  });
+  return{rows,bad};
+}
+$("add").onclick=()=>{
+  const{rows,bad}=parse($("paste").value,$("pad").checked);
+  let a=0,u=0;
+  rows.forEach(r=>{const e=items.find(i=>i.c===r.c);if(e){e.n=r.n;u++}else{items.push(r);a++}});
+  $("msg").textContent=a+" مورد جدید، "+u+" به‌روزرسانی"+(bad.length?" | خطوط نامعتبر: "+bad.length:"");
+  if(!bad.length)$("paste").value="";
+  render();
+};
+$("new1").onclick=()=>{items.push({c:"",n:""});$("q").value="";render();const r=$("tb").querySelector("tr:last-child input");r&&r.focus()};
+$("clear").onclick=()=>{if(confirm("همه‌ی ردیف‌ها پاک شود؟")){items=[];render()}};
+$("q").oninput=render;
+function loadJSON(text){
+  try{
+    const o=JSON.parse(text);
+    if(!o||typeof o!=="object"||Array.isArray(o))throw 0;
+    items=Object.entries(o).map(([c,n])=>({c:String(c),n:String(n)}));render();
+  }catch(e){alert("فایل JSON معتبر نیست (باید به شکل {کد: نام} باشد).")}
+}
+$("file").onchange=e=>{const f=e.target.files[0];if(f)f.text().then(loadJSON);e.target.value=""};
+const dz=$("drop");
+dz.ondragover=e=>{e.preventDefault();dz.classList.add("drop")};
+dz.ondragleave=()=>dz.classList.remove("drop");
+dz.ondrop=e=>{e.preventDefault();dz.classList.remove("drop");const f=e.dataTransfer.files[0];if(f)f.text().then(loadJSON)};
+$("dl").onclick=()=>{
+  const b=new Blob([JSON.stringify(toObj(),null,2)],{type:"application/json;charset=utf-8"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="kodmeli.json";
+  document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+};
+$("cp").onclick=()=>navigator.clipboard.writeText($("out").textContent).then(()=>{$("cp").textContent="کپی شد ✓";setTimeout(()=>$("cp").textContent="کپی",1200)});
+render();
+</script>
+</body>
+</html>
