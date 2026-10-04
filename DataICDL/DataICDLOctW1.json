@@ -15071,5 +15071,218 @@
       }
     ],
     "date": "2026-10-04T20:00:44.925Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "nationalId": "5089863164",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 18,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "با استفاده از کدام گزینه زیر، عمل موردگذاری انجام می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "کدام گزینه برای حذف فیلد در نمای Data Sheet درست است؟",
+        "selected": "بر روی عنوان فیلد کلیک کرده سپس گزینه Delete Column را از ریبون Home انتخاب می کنیم",
+        "correct": "فیلد را انتخاب نموده و از کلیک راست گزینه Delete را انتخاب می کنیم"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "WAN",
+        "correct": "Intranet"
+      },
+      {
+        "question": "برای ذخیره سازی یک کاراکتر (حرف) چند Bit نیاز است؟",
+        "selected": "16",
+        "correct": "8"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Review>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "قابلیت کوچک نمایی برای مشاهده کل اطلاعات به صورت یکجا را ....... می گویند.",
+        "selected": "Fit",
+        "correct": "Fit"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "برای سطرها عنوان ایجاد می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از Design View",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": "پست الکترونیکی",
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "کدام مورد درباره تابع Round نادرست است؟",
+        "selected": "این تابع برای شمارش اعداد اعشاری می باشد",
+        "correct": "این تابع برای شمارش اعداد اعشاری می باشد"
+      },
+      {
+        "question": "برای اندیس گذاری (زیرنویس) چه گزینه ای مناسب است؟",
+        "selected": "Strikethrough",
+        "correct": "Subscript"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "OLE"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "پست الکترونیکی، آموزش الکترونیکی",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F4",
+        "correct": "Shift+F3"
+      },
+      {
+        "question": "برای اضافه کردن توضیحات به یک سلول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "گزینه Comment از سربرگ Insert",
+        "correct": "گزینه new Comment از سربرگ Review"
+      },
+      {
+        "question": "کدام فرمول میانگین A1 تا A6 را محاسبه نمی کند؟",
+        "selected": "=Average(A1;A6)",
+        "correct": "=Average(A1;A6)"
+      },
+      {
+        "question": "برای جابجایی پنجره در میزکار از گزینه ...... از منوی کنترل پنجره استفاده می نماییم.",
+        "selected": "Move",
+        "correct": "Move"
+      },
+      {
+        "question": "از ابزار Change Case به چه منظور استفاده می شود؟",
+        "selected": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک",
+        "correct": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Re Notice",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "کدام یک از موارد زیر درست می باشد؟",
+        "selected": "از لحاظ قدرت پردازش یکسان هستند اما از لحاظ حجم کامپیوترهای Mini کوچکتر است",
+        "correct": "کامپیوترهای Mini همانند کامپیوترهای Pc تک کاربره هستند"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "در نوار ابزار IE دکمه ستاره، کدام فرمان زیر را اجرا می کند؟",
+        "selected": null,
+        "correct": "Favorites"
+      },
+      {
+        "question": "اجزای اصلی کامپیوترهای شخصی کدام است؟",
+        "selected": "Cpu - Ram - Hard - Case - Monitor - Keyboard",
+        "correct": "Cpu - Memory - Input Unit - Output Unit"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Delay",
+        "correct": "Repeat"
+      },
+      {
+        "question": "تبدیل گزارش به کدام نوع خروجی امکان پذیر نمی باشد؟",
+        "selected": "Docx",
+        "correct": "Bmp"
+      },
+      {
+        "question": "توسط نرم افزار فشرده سازی، می توان حجم فایل را تا ...... کاهش داد.",
+        "selected": "%50",
+        "correct": "%50"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "PROM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "اگر بخواهیم چند فایل صفحه گسترده را با موقعیت و اندازه هر کدام در یک پنجره نمایش دهیم؟",
+        "selected": "انتخاب گزینه Protections از تب Review",
+        "correct": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window"
+      },
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Delete sheet Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "اگر خانه های A1=5، B1=Ali، C1=6 باشد حاصل تابع زیر کدام است؟ =Sum(Ali; A1; C1)",
+        "selected": "11",
+        "correct": "11"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "الزامی است",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "فایل (File) به چه معنا است؟",
+        "selected": "به همه اطلاعات موجود در رایانه می گویند",
+        "correct": "به همه اطلاعات موجود در رایانه می گویند"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پالتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      }
+    ],
+    "date": "2026-10-04T20:24:22.683Z"
   }
 ]
