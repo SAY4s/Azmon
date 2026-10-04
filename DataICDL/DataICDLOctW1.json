@@ -13793,5 +13793,218 @@
       }
     ],
     "date": "2026-10-04T18:25:40.998Z"
+  },
+  {
+    "name": "اتنا حسنی",
+    "nationalId": "0152725180",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 8,
+    "unanswered": 5,
+    "answers": [
+      {
+        "question": "گزینه مناسب برای زیرخط دار کردن نوشته کدام است؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Mailings"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Line",
+        "correct": "Borders"
+      },
+      {
+        "question": "کدام امکان در پنجره خصوصیات فرم، کنترل را فعال یا غیر فعال می کند؟",
+        "selected": "Enable",
+        "correct": "Enable"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Descending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Above از سربرگ Layout، 5 سطر در ................. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "پایین",
+        "correct": "بالا"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "File>Account"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": null,
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "تنظیم فاصله خط و پاراگراف",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": null,
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "جهت قرار دادن سیستم در حالتی که برنامه ها باز بوده ولی سیستم به صورت موقت خاموش گردد، چه گزینه ای را انتخاب می کنید؟",
+        "selected": "Sleep",
+        "correct": "Hibernate"
+      },
+      {
+        "question": "برای انتخاب کل جدول کدام یک از دستورات Select را انتخاب می کنید؟",
+        "selected": null,
+        "correct": "Select Table"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "count if",
+        "correct": "count if"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "فاکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "برای نمایش خط کش کدام سربرگ را انتخاب می کنید؟",
+        "selected": null,
+        "correct": "View"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print All Page",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "OLE Object",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدام گزینه به معنای تجارت الکترونیکی می باشد؟",
+        "selected": "E-commerce",
+        "correct": "E-commerce"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام گزینه در مورد بایت درست می باشد؟",
+        "selected": "کوچکترین واحد حافظه قابل آدرس دهی",
+        "correct": "کوچکترین واحد حافظه قابل آدرس دهی"
+      },
+      {
+        "question": "با کلیک بر روی این دکمه منوی نرم افزار باز می شود که به وسیله آن می توان به امکانات لازم برای مدیریت فایل ها دسترسی پیدا کرد.",
+        "selected": "File",
+        "correct": "File"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "برای مشاهده پیش از عمل چاپ از کلید میانبر .......... در صفحه کلید استفاده می نماییم.",
+        "selected": "Ctrl+F2",
+        "correct": "Ctrl+F2"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای اجرای Windows Explorer از چه مسیری استفاده می کنیم؟",
+        "selected": "در همه پنجره های ویندوز قابل دسترسی است",
+        "correct": "در همه پنجره های ویندوز قابل دسترسی است"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F2",
+        "correct": "F2"
+      },
+      {
+        "question": "از کدام مورد برای اتصال به اینترنت استفاده می شود؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "چنانچه بخواهیم نام یکی از کاربرگ های موجود در کارپوشه را تغییر دهیم از چه دستوری استفاده می کنیم؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه Chart Type",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": "Pages",
+        "correct": "Pages"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "!",
+        "correct": "!"
+      },
+      {
+        "question": "توسط کدام دستور اندازه صفحه را تغییر می دهیم؟",
+        "selected": "Page Layout",
+        "correct": "Size"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو در اکسل کافی است در لیست save as type گزینه ... را انتخاب کنید.",
+        "selected": "excel template",
+        "correct": "excel template"
+      }
+    ],
+    "date": "2026-10-04T18:33:53.470Z"
   }
 ]
