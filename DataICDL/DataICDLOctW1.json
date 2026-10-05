@@ -19970,5 +19970,218 @@
       }
     ],
     "date": "2026-10-05T09:53:36.071Z"
+  },
+  {
+    "name": "سارا نوری",
+    "nationalId": "7280068928",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "چنانچه تقسیم بر صفر انجام شود، کدام پیغام خطا ظاهر می شود؟",
+        "selected": "#DIV/0!",
+        "correct": "#DIV/0!"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر مصداق کلمه Information است؟",
+        "selected": "به خروجی هایی که پس از پردازش داده ها تولید می شود",
+        "correct": "به خروجی هایی که پس از پردازش داده ها تولید می شود"
+      },
+      {
+        "question": "اگر بخواهیم شرطی بین 100 تا 500 را برای ورود داده ها در فیلد عددی وارد نماییم، عبارت مقابل را مقابل کدام یک از خصوصیات درج می کنیم؟ (>=100 and <=500)",
+        "selected": "Validation Text",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Print Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": "Pages",
+        "correct": "Caption"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": "ALU",
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print Selection",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "برای مشاهده پیش از عمل چاپ از کلید میانبر .......... در صفحه کلید استفاده می نماییم.",
+        "selected": "Ctrl+F2",
+        "correct": "Ctrl+F2"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Text Size",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی بر روی کدام دکمه از نوار ابزار کلیک می نمایید؟",
+        "selected": "Reply All",
+        "correct": "Reply All"
+      },
+      {
+        "question": "برای بدست آوردن جمع محتویات دو سلول اکسل کدام فرمول صحیح است؟",
+        "selected": "=A1+B5",
+        "correct": "=A1+B5"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Open>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Report View",
+        "correct": "Report View"
+      },
+      {
+        "question": "برای اینکه عبارت مورد جستجو به همان شکل در اینترنت جستجو شود (دقیقا همان عبارت)، از کدام کاراکتر استفاده می شود؟",
+        "selected": "{ }",
+        "correct": "\" \""
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "به هنگام تعریف داده های عددی کدام نوع جهت عددهای اعشاری مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "در منوی کشویی Find What چه می نویسیم؟",
+        "selected": "متنی که می خواهیم جستجو کنیم",
+        "correct": "متنی که می خواهیم جستجو کنیم"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "اگر برای فیلدی کلید اولیه تعریف کنیم.......................",
+        "selected": "می توانیم دو داده مشابه و یا خالی داشته باشیم",
+        "correct": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "2AZ",
+        "correct": "A1"
+      },
+      {
+        "question": "از کدام دستگاه زیر جهت چاپ نتایج عملیات و گزارشات بر روی کاغذ استفاده می شود؟",
+        "selected": "پرینتر",
+        "correct": "پرینتر"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": "یک نرم افزار واژه پرداز است",
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Start Mail Merge",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "E-Learning کدام یک از موارد زیر می باشد؟",
+        "selected": "پست الکترونیکی",
+        "correct": "آموزش الکترونیکی"
+      },
+      {
+        "question": "می خواهیم عبارت (x+5)^2 را تایپ نماییم، پس از انتخاب عدد 2 کدام گزینه از Font موجب می شود تا عبارت به درستی تایپ شود؟",
+        "selected": "Strikethrough",
+        "correct": "Superscript"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "به اتصال اینترنت از طریق خط تلفن گویند",
+        "correct": "شرکت های ارائه خدمات اینترنت"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Required",
+        "correct": "No-Required"
+      },
+      {
+        "question": "کدام گزینه یک نوع داده در محیط اکسس محسوب نمی شود؟",
+        "selected": "Ole",
+        "correct": "Form"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Clear Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Design",
+        "correct": "Format"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Set as Default Theme",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "برای اینکه اعلام کنیم که اعداد بزرگتر از 50 برای یک فیلد در نظر گرفته شوند، شرط را برای کدام خاصیت از فیلد باید اعلام نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای تبدیل دستورات غیرقابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟",
+        "selected": "سیستم عامل",
+        "correct": "مترجم ها"
+      }
+    ],
+    "date": "2026-10-05T16:24:40.847Z"
   }
 ]
