@@ -18053,5 +18053,218 @@
       }
     ],
     "date": "2026-10-05T05:06:40.455Z"
+  },
+  {
+    "name": "رقیه شیرمحمدی",
+    "nationalId": "5089863164",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Margins",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Presentation",
+        "correct": "Presentation"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یادداشت بر روی اسلایدها مناسب است؟",
+        "selected": "Comment",
+        "correct": "Comment"
+      },
+      {
+        "question": "برای دیدن اطلاعات کامل از سبک مورد استفاده کلید ترکیبی ........................ را فشار می دهیم.",
+        "selected": "Shift+F1",
+        "correct": "Ctrl+Shift+S"
+      },
+      {
+        "question": "دوبار کلیک بر روی آیکن برنامه باعث ................ می شود.",
+        "selected": "اجرای برنامه",
+        "correct": "اجرای برنامه"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "از دستور Font به چه منظور استفاده می کنیم؟",
+        "selected": "برای تعیین نوع قلم",
+        "correct": "برای تعیین نوع قلم"
+      },
+      {
+        "question": "از ابزار Change Case به چه منظور استفاده می شود؟",
+        "selected": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک",
+        "correct": "برای تعیین نوشتن متن با حروف بزرگ یا کوچک"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "چنانچه بخواهیم نام یکی از کاربرگ های موجود در کارپوشه را تغییر دهیم از چه دستوری استفاده می کنیم؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign At",
+        "correct": "Sign In"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "دکمه History در نوار ابزار",
+        "correct": "F5"
+      },
+      {
+        "question": "مفهوم ظاهر شدن علامت # در یک سلول چیست؟",
+        "selected": "سلول قالب بندی متنی شده دارد",
+        "correct": "طول عدد نسبت به عرض سلول بزرگتر است"
+      },
+      {
+        "question": "از این ابزار در گروه Paragraph برای تعیین جهت متن در کادر متنی استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "با استفاده از کدام گزینه زیر، عمل موردگذاری انجام می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "کدام گزینه برای درج تصویر به کار می رود؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "کدام گزینه شامل کلیدهای کنترلی می شود؟",
+        "selected": "Numlock-Capslock-Scroll lock",
+        "correct": "Ctrl-Shift-Alt-Esc"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 2 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط نوشتنی و پایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین جداول بانک اطلاعاتی نیازمند ............ هستیم.",
+        "selected": "یک فیلد ارتباطی",
+        "correct": "یک فیلد کلیدی"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Home-----Form-------Form Design",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "به چه دلیل از حافظه های جانبی استفاده می شود؟",
+        "selected": "پاک شدن محتوای حافظه Ram هنگام قطع برق",
+        "correct": "پاک شدن محتوای حافظه Ram هنگام قطع برق"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Image",
+        "correct": "Insert"
+      },
+      {
+        "question": "جهت شکستن متن اضافی در یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "خط تیره",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "جهت قرار دادن سیستم در حالتی که برنامه ها باز بوده ولی سیستم به صورت موقت خاموش گردد، چه گزینه ای را انتخاب می کنید؟",
+        "selected": "Sleep",
+        "correct": "Hibernate"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Format",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای تجاری از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Double"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "RAM",
+        "correct": "ROM"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Cancel",
+        "correct": "Ignore"
+      }
+    ],
+    "date": "2026-10-05T05:11:42.037Z"
   }
 ]
