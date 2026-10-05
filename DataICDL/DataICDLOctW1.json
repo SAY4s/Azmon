@@ -19544,5 +19544,218 @@
       }
     ],
     "date": "2026-10-05T07:18:18.068Z"
+  },
+  {
+    "name": "محدثه اصفهانی",
+    "nationalId": "4311856059",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Mailings"
+      },
+      {
+        "question": "کدام یک از موارد زیر درست می باشد؟",
+        "selected": "قدرت پردازش کامپیوترهای Pc از کامپیوترهای Mini بیشتر است",
+        "correct": "قدرت پردازش Mini کامپیوتر از کامپیوترهای Pc بیشتر است"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Fill",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "از ابزار ..... در سربرگ Transition پیش نمایشی از حالت های عبور انتخاب شده در اسلاید مورد نظر مشاهده می شود؟",
+        "selected": "Transition To This Slide",
+        "correct": "Preview"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": "از فرمان Save از منوی File",
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "به مجموعه ای از یک یا چند رکورد ............. می گویند.",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "میان افزار",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "این تعریف مربوط به کدام گزینه زیر می باشد؟ (کلیه برنامه ها و دستورالعمل هایی که باعث عملکرد سیستم می شود)",
+        "selected": "نرم افزار Software",
+        "correct": "نرم افزار Software"
+      },
+      {
+        "question": "کدامیک از پرونده های زیر را نمی توان به عنوان تصویر زمینه ویندوز استفاده کرد؟",
+        "selected": "*.bmp",
+        "correct": "*.dat"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Design View, Datasheet View",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - Clients",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "برای انتخاب گروهی آیکن های پراکنده باید از کدام یک از کلید های زیر به همراه کلیک کردن استفاده کرد؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "هر فایل ارائه مطلب حداقل ....... اسلاید دارد.",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "فیلد تاریخ تولد از چه نوعی معرفی می شود؟",
+        "selected": "Date & Time",
+        "correct": "Date & Time"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Title Slide",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر مصداق کلمه Information است؟",
+        "selected": "داده های خام",
+        "correct": "به خروجی هایی که پس از پردازش داده ها تولید می شود"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Decimal Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Tab",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "برای اضافه کردن نام سایت به لیست علاقه مندی خود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Add To Favorites",
+        "correct": "Add To Favorites"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Alt",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "طراحی رابط کار",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": "Wordpad",
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "برای ثابت نگه داشتن تیتر جداول از کدام دستور استفاده می شود؟",
+        "selected": "Freeze",
+        "correct": "Freeze"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      }
+    ],
+    "date": "2026-10-05T09:37:43.969Z"
   }
 ]
