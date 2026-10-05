@@ -19118,5 +19118,218 @@
       }
     ],
     "date": "2026-10-05T06:29:13.797Z"
+  },
+  {
+    "name": "سپر اینانلو",
+    "nationalId": "5080236949",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Shading",
+        "correct": "Shading"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "0",
+        "correct": "0"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای درج یک فیلد در ساختار بانک اطلاعاتی از کدام روش باید استفاده نمود؟",
+        "selected": "Insert - Rows Database",
+        "correct": "Design - Insert Rows"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "$",
+        "correct": "$"
+      },
+      {
+        "question": "دستور Select Row از گروه Select چه کاری انجام می دهد؟",
+        "selected": "سطر جدول را انتخاب می کند",
+        "correct": "سطر جدول را انتخاب می کند"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش آیکن ها با جزئیات بکار می رود؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "داده هایی که از دستگاه ورودی به کامپیوتر می دهیم",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "تعریف نرم افزار کدام گزینه زیر می باشد؟",
+        "selected": "داده ها و دستورالعمل ها",
+        "correct": "داده ها و دستورالعمل ها"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "با ورود به چه پنجره ای می توانیم کلیه درایوها را مشاهده و مدیریت کنیم؟",
+        "selected": "Computer",
+        "correct": "Computer"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر بیانگر اجزای فیزیکی یک سیستم کامپیوتری است؟",
+        "selected": "سخت افزار (Hardware)",
+        "correct": "سخت افزار (Hardware)"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Read Only",
+        "correct": "Read Only"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار اسلاید",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": "Input Mask",
+        "correct": "Caption"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "انواع عملگرها در اکسل کدامند؟",
+        "selected": "عملگرهای منطقی - محاسباتی - آدرس",
+        "correct": "عملگرهای منطقی - محاسباتی - رشته ای - مقایسه ای"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "برای تغییر خصوصیات یک فایل یا پوشه از کدام گزینه استفاده می شود؟",
+        "selected": "View",
+        "correct": "Properties"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "به مجموعه ای از فیلدهای مربوط به یک موجودیت فرم گفته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "کدام یک کامپیوترهای زیر از نظر قدرت پردازش ضعیف تر است؟",
+        "selected": "Micro Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "راهنما",
+        "correct": "راهنما"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟",
+        "selected": "Even Page",
+        "correct": "Even Page"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": "از دست رفتن اطلاعات",
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "برای نمایش تمام یا بخشی از اطلاعات در بانک اطلاعاتی از ................ استفاده می نماییم.",
+        "selected": "جدول",
+        "correct": "پرس و جو"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "View",
+        "correct": "Insert"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای جایگزینی عبارتی در اسناد از .......... استفاده می شود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Home گروه Editing گزینه Filter & Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "فرم",
+        "correct": "گزارش"
+      }
+    ],
+    "date": "2026-10-05T06:57:58.600Z"
   }
 ]
