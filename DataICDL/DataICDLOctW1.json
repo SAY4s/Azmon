@@ -16136,5 +16136,218 @@
       }
     ],
     "date": "2026-10-05T03:03:57.516Z"
+  },
+  {
+    "name": "مائده کاظم پور",
+    "nationalId": "4311511833",
+    "exam": "icdl",
+    "score": 35,
+    "total": 40,
+    "percent": 88,
+    "wrong": 5,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "رجیستر به چه معناست؟",
+        "selected": "حافظه کوچک در داخل CPU",
+        "correct": "حافظه کوچک در داخل CPU"
+      },
+      {
+        "question": "جدول چیست؟",
+        "selected": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند",
+        "correct": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند"
+      },
+      {
+        "question": "برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس پست الکترونیک منحصر به فرد است",
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "برای مرتب نمودن آیکن های پنجره بر اساس نوع فایل ها از کدام گزینه استفاده می شود؟",
+        "selected": "Type",
+        "correct": "Type"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "سرعت انتقال داده ها در CPU از حافظه اصلی Ram ............ می باشد به همین جهت از حافظه های .............. استفاده می کنند.",
+        "selected": "کمتر - Cache",
+        "correct": "کمتر - Cache"
+      },
+      {
+        "question": "سریع ترین راه برای فراخوانی دستور Replace کلیدهای ترکیبی ................ و .................. است.",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "پلاتر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Pin The Ribbon",
+        "correct": "Pin The Ribbon"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Notes Page",
+        "correct": "Template"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Below از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "پایین",
+        "correct": "پایین"
+      },
+      {
+        "question": "برای ثابت نگه داشتن تیتر جداول از کدام دستور استفاده می شود؟",
+        "selected": "Freeze",
+        "correct": "Freeze"
+      },
+      {
+        "question": "برای نسخه برداری از قالب بندی متن مارک شده از کدام گزینه استفاده می شود؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "CPU > Ram > Hard > Floppy",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "2",
+        "correct": "1"
+      },
+      {
+        "question": "پوشه sent شامل ...... است.",
+        "selected": "لیست نامه های ارسال شده است",
+        "correct": "لیست نامه های ارسال شده است"
+      },
+      {
+        "question": "جهت قرار دادن سیستم در حالتی که برنامه ها باز بوده ولی سیستم به صورت موقت خاموش گردد، چه گزینه ای را انتخاب می کنید؟",
+        "selected": "Sleep",
+        "correct": "Hibernate"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Review",
+        "correct": "Font"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "جهت شکستن متن اضافی در یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      }
+    ],
+    "date": "2026-10-05T03:07:51.986Z"
   }
 ]
