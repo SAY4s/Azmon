@@ -22100,5 +22100,218 @@
       }
     ],
     "date": "2026-10-07T17:26:41.464Z"
+  },
+  {
+    "name": "کارشناس دادگستری",
+    "nationalId": "1632163216",
+    "exam": "icdl",
+    "score": 0,
+    "total": 40,
+    "percent": 0,
+    "wrong": 0,
+    "unanswered": 40,
+    "answers": [
+      {
+        "question": "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیرقابل استفاده می شود، چه می گویند؟",
+        "selected": null,
+        "correct": "Share ware"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": null,
+        "correct": "RAM"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": null,
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": null,
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": null,
+        "correct": "Row"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": null,
+        "correct": "To"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": null,
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": null,
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط متن های هر اسلاید چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Outline"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": null,
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": null,
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": null,
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": null,
+        "correct": "Ole Object"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": null,
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟",
+        "selected": null,
+        "correct": "Print From ... To ..."
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Find Next"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": null,
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "کاربرد سبک Italic چیست؟",
+        "selected": null,
+        "correct": "مورب کردن نوشته"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیز را می نویسیم؟",
+        "selected": null,
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "بر روی کدام یک از نوع فیلدها نمی توان ایندکس ایجاد کرد؟",
+        "selected": null,
+        "correct": "Ole"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Right از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": null,
+        "correct": "سمت راست"
+      },
+      {
+        "question": "PDA چیست؟",
+        "selected": null,
+        "correct": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Create"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": null,
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": null,
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدامیک از چاپگرهای زیر سرعت بیشتری دارد؟",
+        "selected": null,
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "تفاوت دکمه های OK و Apply در چیست؟",
+        "selected": null,
+        "correct": "OK تغییرات را ثبت کرده و بلافاصله پنجره بسته می شود ولی Apply تغییرات را ثبت ولی پنجره را نمی بندد"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": null,
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": null,
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": null,
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": null,
+        "correct": "Bus"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": null,
+        "correct": "Download"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": null,
+        "correct": "Pages"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": null,
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "Cpu مخفف چه کلماتی است؟",
+        "selected": null,
+        "correct": "Central Processing Unit"
+      },
+      {
+        "question": "کدام گروه از نرم افزارهای رایگان نیست؟",
+        "selected": null,
+        "correct": "نرم افزارهای دارای حق کپی"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": null,
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "برای انتخاب یک محدوده مشخص می توان............؟",
+        "selected": null,
+        "correct": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم"
+      }
+    ],
+    "date": "2026-10-07T18:45:22.154Z"
   }
 ]
