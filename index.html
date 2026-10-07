@@ -3,6 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+/* پیش‌بارگذاری پوستر اول، قبل از اینکه بقیه‌ی صفحه ساخته بشه */
+(function(){
+  var N=10, a=1+Math.floor(Math.random()*N), b=1+Math.floor(Math.random()*(N-1)); if(b>=a) b++;
+  window.__POSTER_COUNT=N; window.__FIRST=['poster'+a+'.jpg','poster'+b+'.jpg'];
+  function pre(n){ var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href='poster/'+n; l.setAttribute('fetchpriority','high'); document.head.appendChild(l); }
+  pre(window.__FIRST[0]);
+  if(window.matchMedia && window.matchMedia('(min-width:801px)').matches) pre(window.__FIRST[1]);
+})();
+</script>
 <title>مرکز آموزشی خوارزمی</title>
 <style id="fa-local">
 /* آیکن‌های Font Awesome به‌صورت داخلی (فقط همین ۲۶ آیکن) — بدون نیاز به CDN */
@@ -1002,8 +1012,8 @@ document.addEventListener('keydown', e => {
 });
 
 /* ════ اسلایدشو بنرها ════ */
-const POSTER   = 'poster/';
-const IMG_EXTS = ['jpg','jpeg','png','webp','gif'];
+const POSTER = 'poster/';
+const KNOWN_POSTERS = Array.from({length: window.__POSTER_COUNT || 10}, (_, i) => `poster${i+1}.jpg`);
 
 function shuffleArr(a) {
   const b = [...a];
@@ -1012,59 +1022,73 @@ function shuffleArr(a) {
 }
 
 class Slideshow {
-  constructor(id, names, ms) {
-    this.el   = document.getElementById(id);
+  constructor(id, names, ms, first) {
+    this.el = document.getElementById(id);
     if (!this.el) return;
-    this.list = shuffleArr(names); this.ms = ms; this.idx = 0; this.cur = null;
-    if (!this.list.length) return;
-    const ph = this.el.querySelector('.banner-ph'); if (ph) ph.style.display = 'none';
-    this._next(); setInterval(() => this._next(), this.ms);
+    this.ms = ms; this.idx = 0; this.cur = null; this.started = false;
+    // اولین پوستر همونیه که تو <head> پیش‌بارگذاری شده؛ بقیه تصادفی
+    this.list = [first, ...shuffleArr(names.filter(n => n !== first))];
+    this.tryStart();
+    if (!this.started) {            // بنرِ مخفی (مثلاً موبایل روی دسکتاپ) فقط وقتی دیده بشه شروع می‌کنه
+      this.watch = setInterval(() => this.tryStart(), 1500);
+      window.addEventListener('resize', () => this.tryStart());
+    }
   }
-  _next() {
+  visible() { return this.el.offsetParent !== null; }
+  tryStart() {
+    if (this.started || !this.visible()) return;
+    this.started = true; clearInterval(this.watch);
+    const ph = this.el.querySelector('.banner-ph'); if (ph) ph.style.display = 'none';
+    this._next(true, 0);
+    setInterval(() => this._next(false, 0), this.ms);
+  }
+  add(names) { names.forEach(n => { if (!this.list.includes(n)) this.list.push(n); }); }
+  _next(isFirst, tries) {
+    if (tries >= this.list.length) return;
     const src = POSTER + this.list[this.idx];
     this.idx  = (this.idx+1) % this.list.length;
     const prev = this.cur;
     const frame = document.createElement('div');
     frame.style.cssText = 'position:absolute;inset:0;opacity:0;transition:opacity 1s ease;';
     const bg = document.createElement('img');
+    bg.decoding = 'async';
     bg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(18px) brightness(.7);transform:scale(1.08);';
     bg.src = src;
     const fg = document.createElement('img');
+    fg.decoding = 'async';
     fg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:contain;';
-    fg.src = src;
     frame.appendChild(bg); frame.appendChild(fg);
     fg.onload = () => {
       this.el.appendChild(frame);
-      requestAnimationFrame(() => requestAnimationFrame(() => frame.style.opacity = '1'));
+      if (isFirst) { frame.style.transition = 'none'; frame.style.opacity = '1'; }       // اولین پوستر بدون محو‌شدن، فوراً
+      else requestAnimationFrame(() => requestAnimationFrame(() => frame.style.opacity = '1'));
       if (prev) { prev.style.opacity = '0'; setTimeout(() => prev.remove(), 1100); }
       this.cur = frame;
+      new Image().src = POSTER + this.list[this.idx];                                    // پوستر بعدی از قبل آماده بشه
     };
-    fg.onerror = () => { this.idx = (this.idx+1) % this.list.length; };
+    fg.onerror = () => { if (isFirst) this._next(true, tries + 1); };                    // خراب بود؟ فوراً بعدی
+    fg.src = src;
   }
 }
 
-async function initSlides() {
-  let names = [];
-  try {
-    const r = await fetch(POSTER, { cache:'no-store' });
-    if (r.ok) {
-      const doc = new DOMParser().parseFromString(await r.text(), 'text/html');
-      names = [...doc.querySelectorAll('a')]
-        .map(a => (a.getAttribute('href')||a.textContent).replace(/^.*\//,'').split('?')[0])
-        .filter(n => IMG_EXTS.some(e => n.toLowerCase().endsWith('.'+e)));
-    }
-  } catch(_) {}
-  if (!names.length) {
-    const probes = [];
-    for (let i=1; i<=30; i++) for (const e of ['jpg','png','jpeg','webp']) probes.push(`poster${i}.${e}`,`${i}.${e}`);
-    const res = await Promise.allSettled(probes.map(n => fetch(POSTER+n, { method:'HEAD', cache:'no-store' })));
-    probes.forEach((n,i) => { if (res[i].status==='fulfilled' && res[i].value.ok) names.push(n); });
+// بدون هیچ انتظار شبکه‌ای؛ لیست از قبل مشخصه
+const SLIDES = [
+  new Slideshow('bannerLeft',   KNOWN_POSTERS, 4500, window.__FIRST[0]),
+  new Slideshow('bannerRight',  KNOWN_POSTERS, 5800, window.__FIRST[1]),
+  new Slideshow('mobileBanner', KNOWN_POSTERS, 5000, window.__FIRST[0])
+];
+
+// اگه پوستر جدیدی (poster11.jpg، poster12.jpg، …) توی پوشه گذاشتی، بعد از لود صفحه خودش اضافه می‌شه
+async function discoverMorePosters() {
+  let n = KNOWN_POSTERS.length + 1;
+  while (n <= 60) {
+    const name = `poster${n}.jpg`;
+    try { const r = await fetch(POSTER + name, { method: 'HEAD' }); if (!r.ok) break; } catch (_) { break; }
+    SLIDES.forEach(s => s.add && s.add([name]));
+    n++;
   }
-  new Slideshow('bannerLeft',  names, 4500);
-  new Slideshow('bannerRight', names, 5800);
-  new Slideshow('mobileBanner', names, 5000);
 }
-initSlides();
+setTimeout(discoverMorePosters, 2500);
 </script>
 </body>
 </html>
