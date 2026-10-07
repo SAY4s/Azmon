@@ -889,6 +889,35 @@ body::before{
 .hist-row .h-pct{font-weight:900; min-width:48px; text-align:left;}
 .df-row input[type=number]{font-family:inherit; font-size:13px; font-weight:600; width:78px; padding:7px 10px; border-radius:6px; border:1.5px solid var(--line); background:#fff; color:var(--ink);}
 .df-row .df-sep{font-size:13px; font-weight:600; color:var(--ink-soft);}
+.toolbar{display:flex; flex-direction:column; gap:12px;}
+.tb-row{display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
+.tb-label{font-size:13px; font-weight:700; min-width:44px; color:var(--ink);}
+.chips{display:flex; gap:6px; flex-wrap:wrap;}
+.chip{font-family:inherit; font-size:12.5px; font-weight:700; padding:6px 14px; border-radius:20px; border:1.5px solid var(--line); background:#fff; color:var(--ink-soft); cursor:pointer; transition:all .15s ease;}
+.chip:hover{border-color:var(--red-soft);}
+.chip.active{background:var(--ink); border-color:var(--ink); color:var(--paper);}
+.tb-row input[type=number]{font-family:inherit; font-size:13px; font-weight:600; width:70px; padding:6px 10px; border-radius:20px; border:1.5px solid var(--line); background:#fff; color:var(--ink);}
+.cal-wrap{position:relative;}
+.date-btn{display:inline-flex; align-items:center; gap:8px; font-family:inherit; font-size:13px; font-weight:700; padding:7px 16px; border-radius:20px; border:1.5px solid var(--line); background:#fff; color:var(--ink); cursor:pointer;}
+.date-btn:hover,.date-btn.on{border-color:var(--red-soft);}
+.date-btn svg{width:15px; height:15px; stroke:var(--ink-soft);}
+.cal-pop{position:absolute; top:calc(100% + 8px); right:0; z-index:30; width:min(318px,88vw); background:var(--paper); border:1.5px solid var(--ink); border-radius:10px; box-shadow:0 14px 40px rgba(0,0,0,0.25); padding:12px;}
+.cal-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;}
+.cal-head button{width:30px; height:30px; border-radius:50%; border:none; background:var(--paper-dark); color:var(--ink); font-size:16px; font-weight:800; cursor:pointer; font-family:inherit;}
+.cal-head button:hover{background:var(--red); color:#fff;}
+.cal-title{font-weight:800; font-size:14px;}
+.cal-week,.cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:2px; text-align:center;}
+.cal-week span{font-size:11px; font-weight:700; color:var(--ink-soft); padding:4px 0;}
+.cal-day{position:relative; height:34px; border:none; background:transparent; border-radius:6px; font-family:inherit; font-size:13px; font-weight:600; color:var(--ink); cursor:pointer;}
+.cal-day:hover{background:var(--paper-dark);}
+.cal-day.today{outline:1.5px solid var(--gold);}
+.cal-day.in-range{background:rgba(178,58,46,0.14);}
+.cal-day.edge{background:var(--red); color:#fff;}
+.cal-day.has-data::after{content:''; position:absolute; bottom:4px; left:50%; width:4px; height:4px; margin-left:-2px; border-radius:50%; background:var(--green);}
+.cal-day.edge.has-data::after{background:#fff;}
+.cal-hint{font-size:11.5px; color:var(--ink-soft); font-weight:600; text-align:center; margin:8px 0 6px;}
+.cal-presets{display:flex; gap:6px; flex-wrap:wrap; justify-content:center; padding-top:8px; border-top:1.5px dashed var(--line);}
+.cal-presets .chip{padding:4px 11px; font-size:12px;}
 </style>
 </head>
 <body>
@@ -970,52 +999,40 @@ body::before{
     <input type="text" id="listSearchInput" placeholder="جستجوي نام در همين مبحث…" autocomplete="off">
   </div>
 
-  <div class="date-filter">
-    <div class="df-title">مرتب‌سازی و فیلتر</div>
-    <div class="df-rows">
-      <div class="df-row">
-        <span class="df-label">مرتب:</span>
-        <select id="sortSelect">
-          <option value="date">تاريخ (جديدترين)</option>
-          <option value="score-desc">نمره: زياد به کم</option>
-          <option value="score-asc">نمره: کم به زياد</option>
-          <option value="name">نام (الفبايي)</option>
-        </select>
-        <select id="statusSelect">
-          <option value="all">همه</option>
-          <option value="pass">فقط قبولي‌ها (۵۰٪ به بالا)</option>
-          <option value="fail">فقط مردودها (زير ۵۰٪)</option>
-        </select>
+  <div class="date-filter toolbar">
+    <div class="tb-row">
+      <span class="tb-label">تاريخ</span>
+      <div class="cal-wrap">
+        <button type="button" class="date-btn" id="dateRangeBtn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span id="dateRangeLabel">همه‌ي تاريخ‌ها</span></button>
+        <div class="cal-pop" id="calPop" style="display:none;"></div>
       </div>
-      <div class="df-row">
-        <span class="df-label">درصد:</span>
-        <span class="df-sep">از</span><input type="number" id="pctMin" min="0" max="100" placeholder="0">
-        <span class="df-sep">تا</span><input type="number" id="pctMax" min="0" max="100" placeholder="100">
-        <button class="df-btn secondary" id="resetViewFilter">پاک‌کردن</button>
+      <button type="button" class="chip" id="dateRangeClear" style="display:none;">✕ حذف بازه</button>
+    </div>
+    <div class="tb-row">
+      <span class="tb-label">مرتب</span>
+      <div class="chips" id="sortChips">
+        <button type="button" class="chip" data-v="date">جديدترين</button>
+        <button type="button" class="chip" data-v="score-desc">نمره ↓</button>
+        <button type="button" class="chip" data-v="score-asc">نمره ↑</button>
+        <button type="button" class="chip" data-v="name">نام</button>
       </div>
     </div>
-  </div>
-
-  <div class="date-filter">
-    <div class="df-title">بازه‌ي تاريخ (شمسي)</div>
-    <div class="df-rows">
-      <div class="df-row">
-        <span class="df-label">از:</span>
-        <select id="fromDay"></select>
-        <select id="fromMonth"></select>
-        <select id="fromYear"></select>
-      </div>
-      <div class="df-row">
-        <span class="df-label">تا:</span>
-        <select id="toDay"></select>
-        <select id="toMonth"></select>
-        <select id="toYear"></select>
+    <div class="tb-row">
+      <span class="tb-label">وضعيت</span>
+      <div class="chips" id="statusChips">
+        <button type="button" class="chip" data-v="all">همه</button>
+        <button type="button" class="chip" data-v="pass">قبولي (۵۰٪+)</button>
+        <button type="button" class="chip" data-v="fail">مردود</button>
       </div>
     </div>
-    <div class="df-actions">
-      <button class="df-btn" id="applyDateFilter">اعمال بازه</button>
-      <button class="df-btn secondary" id="clearDateFilter">پاک‌کردن</button>
+    <div class="tb-row">
+      <span class="tb-label">درصد</span>
+      <span class="tb-label" style="min-width:0;">از</span><input type="number" id="pctMin" min="0" max="100" placeholder="0">
+      <span class="tb-label" style="min-width:0;">تا</span><input type="number" id="pctMax" min="0" max="100" placeholder="100">
+      <button type="button" class="chip" id="resetViewFilter">پاک‌کردن همه‌ي فيلترها</button>
     </div>
+    <input type="hidden" id="sortSelect" value="date">
+    <input type="hidden" id="statusSelect" value="all">
   </div>
 
   <div id="sheetRows"></div>
@@ -1583,58 +1600,7 @@ function buildSheetRow(entry){
   return row;
 }
 
-function populateDateSelects(){
-  const dayEls = [document.getElementById('fromDay'), document.getElementById('toDay')];
-  const monthEls = [document.getElementById('fromMonth'), document.getElementById('toMonth')];
-  const yearEls = [document.getElementById('fromYear'), document.getElementById('toYear')];
-
-  // gather jalali years present in the data (fallback to current year)
-  const today = new Date();
-  const [curJy] = toJalali(today);
-  let years = currentData.map(entryJalali).filter(Boolean).map(j=>j[0]);
-  if(years.length === 0) years = [curJy];
-  const minY = Math.min(...years) - 1;
-  const maxY = Math.max(...years, curJy);
-
-  dayEls.forEach(el=>{
-    el.innerHTML = '';
-    for(let d=1; d<=31; d++){
-      const o = document.createElement('option');
-      o.value = d; o.textContent = d;
-      el.appendChild(o);
-    }
-  });
-  monthEls.forEach(el=>{
-    el.innerHTML = '';
-    PERSIAN_MONTHS.forEach((m,i)=>{
-      const o = document.createElement('option');
-      o.value = i+1; o.textContent = m;
-      el.appendChild(o);
-    });
-  });
-  yearEls.forEach(el=>{
-    el.innerHTML = '';
-    for(let y=maxY; y>=minY; y--){
-      const o = document.createElement('option');
-      o.value = y; o.textContent = y;
-      el.appendChild(o);
-    }
-  });
-
-  // default: from = earliest date in data, to = latest date in data
-  const jalis = currentData.map(entryJalali).filter(Boolean);
-  if(jalis.length){
-    const keys = jalis.map(j=>jalaliKey(j[0],j[1],j[2]));
-    const minJ = jalis[keys.indexOf(Math.min(...keys))];
-    const maxJ = jalis[keys.indexOf(Math.max(...keys))];
-    document.getElementById('fromYear').value = minJ[0];
-    document.getElementById('fromMonth').value = minJ[1];
-    document.getElementById('fromDay').value = minJ[2];
-    document.getElementById('toYear').value = maxJ[0];
-    document.getElementById('toMonth').value = maxJ[1];
-    document.getElementById('toDay').value = maxJ[2];
-  }
-}
+function populateDateSelects(){}
 
 function openList(data){
   updateHash({t:selectedTopic});
@@ -1654,15 +1620,6 @@ function openList(data){
     resetViewControls();
   }
 
-  populateDateSelects();
-  if(dateRange){
-    document.getElementById('fromYear').value = dateRange.from[0];
-    document.getElementById('fromMonth').value = dateRange.from[1];
-    document.getElementById('fromDay').value = dateRange.from[2];
-    document.getElementById('toYear').value = dateRange.to[0];
-    document.getElementById('toMonth').value = dateRange.to[1];
-    document.getElementById('toDay').value = dateRange.to[2];
-  }
   renderList();
 }
 
@@ -1706,6 +1663,7 @@ function getFilteredListEntries(){
 }
 
 function renderList(){
+  syncToolbar();
   const data = currentData;
   const rowsEl = document.getElementById('sheetRows');
   const dfEmpty = document.getElementById('dfEmpty');
@@ -1751,19 +1709,6 @@ document.getElementById('listBackBtn').addEventListener('click', ()=>{
   openTopicView(fullData);
 });
 document.getElementById('listSearchInput').addEventListener('input', renderList);
-document.getElementById('applyDateFilter').addEventListener('click', ()=>{
-  dateRange = {
-    from: [+document.getElementById('fromYear').value, +document.getElementById('fromMonth').value, +document.getElementById('fromDay').value],
-    to: [+document.getElementById('toYear').value, +document.getElementById('toMonth').value, +document.getElementById('toDay').value]
-  };
-  renderList();
-});
-document.getElementById('clearDateFilter').addEventListener('click', ()=>{
-  dateRange = null;
-  populateDateSelects();
-  renderList();
-});
-
 function openDetail(entry){
   updateHash({t:entry.exam, p:entry.name, d:entry.date});
   currentEntry = entry;
@@ -2857,6 +2802,158 @@ async function copyCurrentLink(btn){
 }
 document.getElementById('copyLinkListBtn').addEventListener('click', e=>copyCurrentLink(e.currentTarget));
 document.getElementById('copyLinkDetailBtn').addEventListener('click', e=>copyCurrentLink(e.currentTarget));
+
+
+/* ================= نوار فيلتر: چيپ‌ها + تقويم شمسي ================= */
+function fmtJ(j){ return `${j[2]} ${PERSIAN_MONTHS[j[1]-1]} ${j[0]}`; }
+
+function syncToolbar(){
+  [['sortChips','sortSelect'],['statusChips','statusSelect']].forEach(([chipsId, inputId])=>{
+    const val = document.getElementById(inputId).value;
+    document.querySelectorAll('#'+chipsId+' .chip').forEach(c=>c.classList.toggle('active', c.dataset.v === val));
+  });
+  const label = document.getElementById('dateRangeLabel');
+  const clr = document.getElementById('dateRangeClear');
+  if(dateRange){
+    const same = jalaliKey(...dateRange.from) === jalaliKey(...dateRange.to);
+    label.textContent = same ? fmtJ(dateRange.from) : `${fmtJ(dateRange.from)} تا ${fmtJ(dateRange.to)}`;
+    clr.style.display = 'inline-block';
+  } else {
+    label.textContent = 'همه‌ي تاريخ‌ها';
+    clr.style.display = 'none';
+  }
+}
+[['sortChips','sortSelect'],['statusChips','statusSelect']].forEach(([chipsId, inputId])=>{
+  document.querySelectorAll('#'+chipsId+' .chip').forEach(c=>{
+    c.addEventListener('click', ()=>{ document.getElementById(inputId).value = c.dataset.v; renderList(); });
+  });
+});
+
+const calPop = document.getElementById('calPop');
+const dateBtn = document.getElementById('dateRangeBtn');
+const calState = { y:0, m:1, start:null };
+
+function jDaysInMonth(y,m){
+  if(m <= 6) return 31;
+  if(m <= 11) return 30;
+  return j2d(y+1,1,1) - j2d(y,12,1);
+}
+function jWeekdayOffset(y,m){
+  const [gy,gm,gd] = d2g(j2d(y,m,1));
+  return (new Date(gy,gm-1,gd).getDay() + 1) % 7; // شنبه = ۰
+}
+function dataDayKeys(){
+  const set = new Set();
+  currentData.forEach(e=>{ const j = entryJalali(e); if(j) set.add(jalaliKey(j[0],j[1],j[2])); });
+  return set;
+}
+
+function renderCalendar(){
+  const {y,m,start} = calState;
+  const dim = jDaysInMonth(y,m), off = jWeekdayOffset(y,m);
+  const keys = dataDayKeys();
+  const todayKey = jalaliKey(...toJalali(new Date()));
+  let rf = null, rt = null;
+  if(start){ rf = rt = jalaliKey(...start); }
+  else if(dateRange){ rf = jalaliKey(...dateRange.from); rt = jalaliKey(...dateRange.to); }
+
+  let cells = '';
+  for(let i=0; i<off; i++) cells += '<span></span>';
+  for(let d=1; d<=dim; d++){
+    const k = jalaliKey(y,m,d);
+    const cls = ['cal-day'];
+    if(k === todayKey) cls.push('today');
+    if(keys.has(k)) cls.push('has-data');
+    if(rf !== null && k >= rf && k <= rt) cls.push('in-range');
+    if(k === rf || k === rt) cls.push('edge');
+    cells += `<button type="button" class="${cls.join(' ')}" data-day="${d}">${d}</button>`;
+  }
+  calPop.innerHTML = `
+    <div class="cal-head">
+      <button type="button" data-nav="-12" title="سال قبل">»</button>
+      <button type="button" data-nav="-1" title="ماه قبل">›</button>
+      <div class="cal-title">${PERSIAN_MONTHS[m-1]} ${y}</div>
+      <button type="button" data-nav="1" title="ماه بعد">‹</button>
+      <button type="button" data-nav="12" title="سال بعد">«</button>
+    </div>
+    <div class="cal-week">${['ش','ی','د','س','چ','پ','ج'].map(x=>`<span>${x}</span>`).join('')}</div>
+    <div class="cal-grid">${cells}</div>
+    <div class="cal-hint">${start ? 'حالا روز پايان را انتخاب کن' : 'روز شروع و بعد روز پايان را انتخاب کن (نقطه‌ي سبز = روزهاي داراي آزمون)'}</div>
+    <div class="cal-presets">
+      <button type="button" class="chip" data-preset="month">اين ماه</button>
+      <button type="button" class="chip" data-preset="prev">ماه قبل</button>
+      <button type="button" class="chip" data-preset="30">۳۰ روز اخير</button>
+      <button type="button" class="chip" data-preset="all">همه</button>
+    </div>`;
+}
+
+function openCal(){
+  let base = null;
+  if(dateRange) base = dateRange.from;
+  else {
+    const js = currentData.map(entryJalali).filter(Boolean);
+    if(js.length){
+      const ks = js.map(j=>jalaliKey(...j));
+      base = js[ks.indexOf(Math.max(...ks))];
+    }
+  }
+  if(!base) base = toJalali(new Date());
+  calState.y = base[0]; calState.m = base[1]; calState.start = null;
+  renderCalendar();
+  calPop.style.display = 'block';
+  dateBtn.classList.add('on');
+}
+function closeCal(){
+  calPop.style.display = 'none';
+  dateBtn.classList.remove('on');
+  calState.start = null;
+}
+
+dateBtn.addEventListener('click', e=>{
+  e.stopPropagation();
+  if(calPop.style.display === 'block') closeCal(); else openCal();
+});
+calPop.addEventListener('click', e=>{
+  e.stopPropagation(); // رندر مجدد تقويم نبايد باعث بسته‌شدن بشه
+  const nav = e.target.closest('[data-nav]');
+  const day = e.target.closest('[data-day]');
+  const preset = e.target.closest('[data-preset]');
+  if(nav){
+    const total = calState.y*12 + (calState.m-1) + Number(nav.dataset.nav);
+    calState.y = Math.floor(total/12);
+    calState.m = (total % 12) + 1;
+    renderCalendar();
+  } else if(day){
+    const dk = [calState.y, calState.m, Number(day.dataset.day)];
+    if(!calState.start){
+      calState.start = dk;
+      renderCalendar();
+    } else {
+      const a = calState.start;
+      const [f,t] = jalaliKey(...a) <= jalaliKey(...dk) ? [a,dk] : [dk,a];
+      dateRange = { from:f, to:t };
+      closeCal();
+      renderList();
+    }
+  } else if(preset){
+    const tj = toJalali(new Date());
+    const v = preset.dataset.preset;
+    if(v === 'all') dateRange = null;
+    else if(v === 'month') dateRange = { from:[tj[0],tj[1],1], to:[tj[0],tj[1],jDaysInMonth(tj[0],tj[1])] };
+    else if(v === 'prev'){
+      let py = tj[0], pm = tj[1]-1;
+      if(pm < 1){ pm = 12; py -= 1; }
+      dateRange = { from:[py,pm,1], to:[py,pm,jDaysInMonth(py,pm)] };
+    } else {
+      dateRange = { from:d2j(j2d(...tj)-29), to:tj };
+    }
+    closeCal();
+    renderList();
+  }
+});
+document.addEventListener('click', ()=>{ if(calPop.style.display === 'block') closeCal(); });
+document.addEventListener('keydown', e=>{ if(e.key === 'Escape' && calPop.style.display === 'block') closeCal(); });
+document.getElementById('dateRangeClear').addEventListener('click', ()=>{ dateRange = null; renderList(); });
 
 </script>
 </body>
