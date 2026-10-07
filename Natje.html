@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کارنامه‌ی من</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+  --paper: #f2ecdd;
+  --paper-dark: #e9e0c9;
+  --ink: #232733;
+  --ink-soft: #545a6b;
+  --red: #b23a2e;
+  --red-soft: #c96257;
+  --green: #2f6844;
+  --gold: #b5893a;
+  --line: rgba(35,39,51,0.12);
+  --margin-line: rgba(178,58,46,0.35);
+}
+
+*{box-sizing:border-box; margin:0; padding:0;}
+
+body{
+  font-family:'Vazirmatn', sans-serif;
+  background:
+    repeating-linear-gradient(var(--paper) 0px, var(--paper) 33px, var(--line) 34px),
+    var(--paper);
+  color:var(--ink);
+  min-height:100vh;
+  position:relative;
+  overflow-x:hidden;
+}
+
+body::before{
+  content:'';
+  position:fixed;
+  top:0; bottom:0; right:64px;
+  width:2px;
+  background:var(--margin-line);
+  z-index:0;
+  pointer-events:none;
+}
+
+/* ---------- Drop zone ---------- */
+#dropzone{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:28px;
+  padding:40px 24px;
+  position:relative;
+  z-index:1;
+  text-align:center;
+}
+
+.stamp-title{
+  font-size:clamp(28px, 5vw, 46px);
+  font-weight:900;
+  color:var(--ink);
+  letter-spacing:-0.5px;
+}
+.stamp-title span{
+  color:var(--red);
+}
+
+.subtitle{
+  color:var(--ink-soft);
+  font-size:16px;
+  font-weight:500;
+  max-width:440px;
+  line-height:1.9;
+}
+
+.drop-card{
+  width:min(560px, 88vw);
+  border:3px dashed rgba(35,39,51,0.28);
+  border-radius:6px;
+  background:rgba(255,255,255,0.35);
+  padding:56px 28px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+  cursor:pointer;
+  transition:all .25s ease;
+  position:relative;
+}
+.drop-card.dragover{
+  border-color:var(--red);
+  background:rgba(178,58,46,0.06);
+  transform:scale(1.015);
+}
+.drop-card svg{width:52px; height:52px; stroke:var(--ink-soft); transition:stroke .25s;}
+.drop-card.dragover svg{stroke:var(--red);}
+
+.drop-card .cta{
+  font-size:18px;
+  font-weight:700;
+  color:var(--ink);
+}
+.drop-card .hint{
+  font-size:13px;
+  color:var(--ink-soft);
+  font-weight:500;
+}
+.drop-card input{display:none;}
+
+.error-msg{
+  color:var(--red);
+  font-weight:600;
+  font-size:14px;
+  display:none;
+}
+
+.sync-status{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--ink-soft);
+  min-height:24px;
+}
+.sync-status .spinner{
+  width:16px; height:16px;
+  border-radius:50%;
+  border:2.5px solid var(--line);
+  border-top-color:var(--red);
+  animation:spin .8s linear infinite;
+  flex-shrink:0;
+}
+@keyframes spin{ to{ transform:rotate(360deg); } }
+.sync-status.ok{ color:var(--green); }
+.sync-status.err{ color:var(--red); }
+
+.gh-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.gh-btn{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:9px 18px;
+  border-radius:20px;
+  border:1.5px solid var(--ink);
+  background:var(--ink);
+  color:var(--paper);
+  cursor:pointer;
+}
+.gh-btn.secondary{
+  background:transparent;
+  color:var(--ink-soft);
+  border-color:var(--line);
+}
+
+.manual-toggle{
+  font-size:13px;
+  font-weight:700;
+  color:var(--ink-soft);
+  text-decoration:underline;
+  text-underline-offset:3px;
+  cursor:pointer;
+  background:none;
+  border:none;
+  font-family:inherit;
+}
+
+#manualSection{
+  display:none;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+}
+
+.excel-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:9px 16px;
+  border-radius:20px;
+  border:1.5px solid var(--green);
+  background:rgba(47,104,68,0.08);
+  color:var(--green);
+  cursor:pointer;
+  transition:all .15s ease;
+  white-space:nowrap;
+}
+.excel-btn:hover{
+  background:var(--green);
+  color:#fff;
+}
+.excel-btn svg{width:15px; height:15px; flex-shrink:0;}
+
+.pdf-btn{
+  border-color:var(--red);
+  background:rgba(178,58,46,0.08);
+  color:var(--red);
+}
+.pdf-btn:hover{
+  background:var(--red);
+  color:#fff;
+}
+
+.karnameh-btn{
+  border-color:var(--gold);
+  background:rgba(181,137,58,0.08);
+  color:var(--gold);
+}
+.karnameh-btn:hover{
+  background:var(--gold);
+  color:#fff;
+}
+
+.progress-track{
+  background:var(--paper-dark);
+  border-radius:8px;
+  height:10px;
+  overflow:hidden;
+  margin-top:14px;
+}
+.progress-fill{
+  height:100%;
+  background:var(--red);
+  width:0%;
+  transition:width .25s ease;
+}
+
+.modal-overlay{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(20,22,30,0.55);
+  z-index:50;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+}
+.modal-overlay.open{ display:flex; }
+.modal-box{
+  background:var(--paper);
+  border-radius:10px;
+  max-width:820px;
+  width:100%;
+  max-height:85vh;
+  display:flex;
+  flex-direction:column;
+  box-shadow:0 20px 60px rgba(0,0,0,0.35);
+  overflow:hidden;
+}
+.modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 22px;
+  border-bottom:1.5px dashed var(--line);
+  gap:12px;
+}
+.modal-head h3{
+  font-size:16px;
+  font-weight:800;
+}
+.modal-close{
+  background:none;
+  border:none;
+  font-size:20px;
+  line-height:1;
+  cursor:pointer;
+  color:var(--ink-soft);
+  padding:4px 8px;
+}
+.modal-close:hover{ color:var(--red); }
+.modal-body{
+  overflow:auto;
+  padding:18px 22px;
+  flex:1;
+}
+.modal-body table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:13px;
+}
+.modal-body th{
+  background:var(--paper-dark);
+  font-weight:700;
+  padding:9px 10px;
+  text-align:right;
+  position:sticky;
+  top:0;
+  white-space:nowrap;
+}
+.modal-body td{
+  padding:8px 10px;
+  border-bottom:1px solid var(--line);
+  white-space:nowrap;
+}
+.modal-body tr:last-child td{ border-bottom:none; }
+.modal-foot{
+  padding:16px 22px;
+  border-top:1.5px dashed var(--line);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.modal-foot .hint{
+  font-size:12px;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+
+/* ---------- Topic selection view ---------- */
+#topicView{
+  display:none;
+  min-height:100vh;
+  max-width:680px;
+  margin:0 auto;
+  padding:64px 24px 80px;
+  position:relative;
+  z-index:1;
+  text-align:center;
+}
+#topicView .subtitle{margin:0 auto 32px;}
+#topicRows{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  text-align:right;
+}
+.topic-card{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-right:4px solid var(--gold);
+  border-radius:8px;
+  padding:20px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.topic-card:hover{
+  border-color:var(--red-soft);
+  border-right-color:var(--red);
+  background:rgba(255,255,255,0.85);
+  transform:translateX(-3px);
+}
+.topic-card .t-name{
+  font-weight:800;
+  font-size:17px;
+}
+.topic-card .t-count{
+  font-size:13px;
+  color:var(--ink-soft);
+  font-weight:600;
+  background:var(--paper-dark);
+  padding:4px 12px;
+  border-radius:20px;
+  flex-shrink:0;
+}
+
+/* ---------- People search (global) ---------- */
+.people-search{
+  position:relative;
+  margin:0 0 30px;
+  text-align:right;
+}
+.people-search .ps-input-wrap{
+  position:relative;
+}
+.people-search svg.ps-icon{
+  position:absolute;
+  top:50%; right:16px;
+  transform:translateY(-50%);
+  width:18px; height:18px;
+  stroke:var(--ink-soft);
+  pointer-events:none;
+}
+.people-search input{
+  width:100%;
+  font-family:inherit;
+  font-size:15px;
+  font-weight:600;
+  padding:13px 44px 13px 16px;
+  border-radius:24px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  color:var(--ink);
+  outline:none;
+  transition:border-color .15s ease;
+}
+.people-search input:focus{
+  border-color:var(--red-soft);
+}
+.people-search .ps-clear{
+  position:absolute;
+  top:50%; left:12px;
+  transform:translateY(-50%);
+  width:22px; height:22px;
+  border-radius:50%;
+  border:none;
+  background:var(--paper-dark);
+  color:var(--ink-soft);
+  font-size:13px;
+  font-weight:700;
+  cursor:pointer;
+  display:none;
+  align-items:center;
+  justify-content:center;
+}
+.people-search .ps-results{
+  display:none;
+  flex-direction:column;
+  gap:10px;
+  margin-top:18px;
+}
+.people-search .ps-row{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-right:4px solid var(--gold);
+  border-radius:8px;
+  padding:14px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.people-search .ps-row:hover{
+  border-color:var(--red-soft);
+  border-right-color:var(--red);
+  background:rgba(255,255,255,0.85);
+  transform:translateX(-3px);
+}
+.people-search .ps-row .who{display:flex; flex-direction:column; gap:5px;}
+.people-search .ps-row .name{font-weight:700; font-size:15px;}
+.people-search .ps-row .meta{font-size:12.5px; color:var(--ink-soft); font-weight:500; display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
+.people-search .ps-row .exam-badge{
+  display:inline-block;
+  background:var(--ink);
+  color:var(--paper);
+  font-size:11px;
+  font-weight:700;
+  padding:2px 10px;
+  border-radius:20px;
+}
+.people-search .ps-row .score-badge{
+  font-weight:900;
+  font-size:18px;
+  min-width:50px;
+  text-align:center;
+  flex-shrink:0;
+}
+.people-search .ps-empty{
+  display:none;
+  text-align:center;
+  padding:22px 16px;
+  color:var(--ink-soft);
+  font-weight:600;
+  font-size:14px;
+}
+.people-search .ps-more{
+  text-align:center;
+  color:var(--ink-soft);
+  font-size:12.5px;
+  font-weight:600;
+  margin-top:2px;
+}
+.list-search{
+  margin-bottom:14px;
+}
+.list-search input{
+  width:100%;
+  font-family:inherit;
+  font-size:14px;
+  font-weight:600;
+  padding:11px 40px 11px 14px;
+  border-radius:22px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  color:var(--ink);
+  outline:none;
+  transition:border-color .15s ease;
+}
+.list-search input:focus{
+  border-color:var(--red-soft);
+}
+.list-search{
+  position:relative;
+}
+.list-search svg.ls-icon{
+  position:absolute;
+  top:50%; right:14px;
+  transform:translateY(-50%);
+  width:16px; height:16px;
+  stroke:var(--ink-soft);
+  pointer-events:none;
+}
+
+/* ---------- Paper list (multi-student) ---------- */
+#listView{
+  display:none;
+  max-width:760px;
+  margin:0 auto;
+  padding:48px 24px 80px;
+  position:relative;
+  z-index:1;
+}
+.list-header{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  margin-bottom:28px;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.list-header h1{
+  font-size:24px;
+  font-weight:800;
+}
+.list-header .count{
+  color:var(--ink-soft);
+  font-size:14px;
+  font-weight:600;
+}
+
+.date-filter{
+  background:rgba(255,255,255,0.45);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:16px 18px;
+  margin-bottom:22px;
+}
+.date-filter .df-title{
+  font-size:13px;
+  font-weight:700;
+  color:var(--ink-soft);
+  margin-bottom:12px;
+}
+.df-rows{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.df-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.df-row .df-label{
+  font-size:13px;
+  font-weight:700;
+  min-width:32px;
+  color:var(--ink);
+}
+.df-row select{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:600;
+  padding:7px 10px;
+  border-radius:6px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  color:var(--ink);
+  cursor:pointer;
+}
+.df-actions{
+  display:flex;
+  gap:8px;
+  margin-top:12px;
+}
+.df-btn{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:7px 16px;
+  border-radius:20px;
+  border:1.5px solid var(--ink);
+  background:var(--ink);
+  color:var(--paper);
+  cursor:pointer;
+}
+.df-btn.secondary{
+  background:transparent;
+  color:var(--ink-soft);
+  border-color:var(--line);
+}
+.df-empty{
+  text-align:center;
+  padding:30px 20px;
+  color:var(--ink-soft);
+  font-weight:600;
+  display:none;
+}
+
+.date-group{
+  margin-bottom:26px;
+}
+.date-group-title{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:14px;
+  font-weight:800;
+  color:var(--red);
+  margin-bottom:12px;
+  padding-bottom:6px;
+  border-bottom:1.5px dashed var(--line);
+}
+.date-group-title .cnt{
+  font-weight:600;
+  font-size:12px;
+  color:var(--ink-soft);
+}
+
+.sheet-row{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:18px 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:12px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.sheet-row:hover{
+  border-color:var(--red-soft);
+  background:rgba(255,255,255,0.8);
+  transform:translateX(-3px);
+}
+.sheet-row .who{display:flex; flex-direction:column; gap:4px;}
+.sheet-row .name{font-weight:700; font-size:16px;}
+.sheet-row .meta{font-size:13px; color:var(--ink-soft); font-weight:500;}
+.sheet-row .score-badge{
+  font-weight:900;
+  font-size:20px;
+  min-width:56px;
+  text-align:center;
+}
+
+/* ---------- Detail view ---------- */
+#detailView{
+  display:none;
+  max-width:820px;
+  margin:0 auto;
+  padding:36px 24px 100px;
+  position:relative;
+  z-index:1;
+}
+
+.back-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:none;
+  border:none;
+  font-family:inherit;
+  font-size:14px;
+  font-weight:700;
+  color:var(--ink-soft);
+  cursor:pointer;
+  margin-bottom:24px;
+  padding:6px 2px;
+}
+.back-btn:hover{color:var(--red);}
+
+.report-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:24px;
+  flex-wrap:wrap;
+  margin-bottom:8px;
+}
+.report-head .id{
+  flex:1;
+  min-width:200px;
+}
+.report-head h1{
+  font-size:clamp(22px,4vw,30px);
+  font-weight:800;
+  margin-bottom:6px;
+}
+.report-head .exam-name{
+  display:inline-block;
+  background:var(--ink);
+  color:var(--paper);
+  font-size:12px;
+  font-weight:700;
+  padding:4px 12px;
+  border-radius:20px;
+  margin-left:8px;
+}
+.report-head .date{
+  color:var(--ink-soft);
+  font-size:13px;
+  font-weight:500;
+  margin-top:8px;
+}
+
+.stamp{
+  width:112px;
+  height:112px;
+  border-radius:50%;
+  border:3px dashed var(--red);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  transform:rotate(-9deg);
+  color:var(--red);
+  flex-shrink:0;
+  background:rgba(178,58,46,0.04);
+}
+.stamp.pass{border-color:var(--green); color:var(--green); background:rgba(47,104,68,0.05);}
+.stamp .pct{font-size:28px; font-weight:900; line-height:1;}
+.stamp .pct::after{content:'%';}
+.stamp .lbl{font-size:10px; font-weight:700; margin-top:2px; letter-spacing:1px;}
+
+.stats-row{
+  display:flex;
+  gap:10px;
+  margin:28px 0 8px;
+  flex-wrap:wrap;
+}
+.stat{
+  flex:1;
+  min-width:100px;
+  background:rgba(255,255,255,0.45);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:14px 16px;
+  text-align:center;
+}
+.stat .num{font-size:22px; font-weight:900;}
+.stat .lab{font-size:12px; color:var(--ink-soft); font-weight:600; margin-top:2px;}
+.stat.correct .num{color:var(--green);}
+.stat.wrong .num{color:var(--red);}
+.stat.blank .num{color:var(--gold);}
+
+.filter-bar{
+  display:flex;
+  gap:8px;
+  margin:26px 0 18px;
+  flex-wrap:wrap;
+}
+.filter-btn{
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  padding:8px 16px;
+  border-radius:20px;
+  border:1.5px solid var(--line);
+  background:transparent;
+  color:var(--ink-soft);
+  cursor:pointer;
+  transition:all .15s ease;
+}
+.filter-btn.active{
+  background:var(--ink);
+  border-color:var(--ink);
+  color:var(--paper);
+}
+
+.q-list{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.q-item{
+  background:rgba(255,255,255,0.5);
+  border:1px solid var(--line);
+  border-right:4px solid var(--ink-soft);
+  border-radius:6px;
+  padding:16px 20px;
+  position:relative;
+}
+.q-item.correct{border-right-color:var(--green);}
+.q-item.wrong{border-right-color:var(--red);}
+.q-item.blank{border-right-color:var(--gold);}
+
+.q-top{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+}
+.q-num{
+  font-size:12px;
+  font-weight:700;
+  color:var(--ink-soft);
+  margin-left:8px;
+}
+.q-text{
+  font-size:15px;
+  font-weight:600;
+  line-height:1.8;
+  flex:1;
+}
+.q-icon{
+  flex-shrink:0;
+  width:26px;
+  height:26px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:14px;
+}
+.q-item.correct .q-icon{background:rgba(47,104,68,0.12); color:var(--green);}
+.q-item.wrong .q-icon{background:rgba(178,58,46,0.12); color:var(--red);}
+.q-item.blank .q-icon{background:rgba(181,137,58,0.14); color:var(--gold);}
+
+.q-answers{
+  margin-top:12px;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  font-size:13.5px;
+}
+.ans-row{
+  display:flex;
+  gap:6px;
+}
+.ans-row .k{color:var(--ink-soft); font-weight:600; flex-shrink:0;}
+.ans-row .v{font-weight:600;}
+.q-item.wrong .ans-row.selected .v{color:var(--red); text-decoration:wavy underline var(--red-soft) 2px; text-underline-offset:4px;}
+.q-item.blank .ans-row.selected .v{color:var(--ink-soft); font-style:italic;}
+.q-item .ans-row.correct-row .v{color:var(--green);}
+
+.empty-filter{
+  text-align:center;
+  padding:40px 20px;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+
+@media (max-width:640px){
+  body::before{right:20px;}
+  .report-head{flex-direction:column;}
+  .stamp{align-self:flex-start;}
+}
+
+/* ---------- Topic stats & person history ---------- */
+.t-sub{display:flex; gap:8px; flex-wrap:wrap; margin-top:7px; font-size:12px; font-weight:600; color:var(--ink-soft);}
+.t-sub b{font-weight:800;}
+.t-sub .pass{color:var(--green);} .t-sub .fail{color:var(--red);}
+.stats-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:10px; margin-bottom:18px;}
+.stats-grid .stat .num{font-size:20px;}
+.chart-box{background:rgba(255,255,255,0.5); border:1px solid var(--line); border-radius:8px; padding:14px 10px 6px;}
+.chart-box h4{font-size:13px; font-weight:800; color:var(--ink-soft); margin:0 8px 8px;}
+.chart-box svg{width:100%; height:auto; display:block; direction:ltr;}
+.chart-box svg text{font-family:'Vazirmatn',sans-serif;}
+.stats-note{font-size:12px; color:var(--ink-soft); font-weight:600; margin-top:12px; line-height:1.9;}
+.history-box{margin:26px 0 4px; background:rgba(255,255,255,0.4); border:1px solid var(--line); border-right:4px solid var(--gold); border-radius:8px; padding:18px 18px 12px;}
+.history-head{display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:12px;}
+.history-head h3{font-size:15px; font-weight:800;}
+.history-head .trend{font-size:12.5px; font-weight:700;}
+.hist-scope{display:flex; gap:6px;}
+.hist-scope .filter-btn{padding:5px 12px; font-size:12px;}
+.hist-list{display:flex; flex-direction:column; gap:6px; margin-top:12px;}
+.hist-row{display:flex; justify-content:space-between; align-items:center; gap:10px; padding:9px 12px; border-radius:6px; border:1px solid var(--line); background:rgba(255,255,255,0.55); cursor:pointer; font-size:13px; font-weight:600;}
+.hist-row:hover{border-color:var(--red-soft);}
+.hist-row.current{border-color:var(--ink); background:rgba(35,39,51,0.07); cursor:default;}
+.hist-row .h-exam{background:var(--ink); color:var(--paper); font-size:11px; padding:2px 10px; border-radius:20px; font-weight:700;}
+.hist-row .h-pct{font-weight:900; min-width:48px; text-align:left;}
+.df-row input[type=number]{font-family:inherit; font-size:13px; font-weight:600; width:78px; padding:7px 10px; border-radius:6px; border:1.5px solid var(--line); background:#fff; color:var(--ink);}
+.df-row .df-sep{font-size:13px; font-weight:600; color:var(--ink-soft);}
+.toolbar{display:flex; flex-direction:column; gap:12px;}
+.tb-row{display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
+.tb-label{font-size:13px; font-weight:700; min-width:44px; color:var(--ink);}
+.chips{display:flex; gap:6px; flex-wrap:wrap;}
+.chip{font-family:inherit; font-size:12.5px; font-weight:700; padding:6px 14px; border-radius:20px; border:1.5px solid var(--line); background:#fff; color:var(--ink-soft); cursor:pointer; transition:all .15s ease;}
+.chip:hover{border-color:var(--red-soft);}
+.chip.active{background:var(--ink); border-color:var(--ink); color:var(--paper);}
+.tb-row input[type=number]{font-family:inherit; font-size:13px; font-weight:600; width:70px; padding:6px 10px; border-radius:20px; border:1.5px solid var(--line); background:#fff; color:var(--ink);}
+.cal-wrap{position:relative;}
+.date-btn{display:inline-flex; align-items:center; gap:8px; font-family:inherit; font-size:13px; font-weight:700; padding:7px 16px; border-radius:20px; border:1.5px solid var(--line); background:#fff; color:var(--ink); cursor:pointer;}
+.date-btn:hover,.date-btn.on{border-color:var(--red-soft);}
+.date-btn svg{width:15px; height:15px; stroke:var(--ink-soft);}
+.cal-pop{position:absolute; top:calc(100% + 8px); right:0; z-index:30; width:min(318px,88vw); background:var(--paper); border:1.5px solid var(--ink); border-radius:10px; box-shadow:0 14px 40px rgba(0,0,0,0.25); padding:12px;}
+.cal-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;}
+.cal-head button{width:30px; height:30px; border-radius:50%; border:none; background:var(--paper-dark); color:var(--ink); font-size:16px; font-weight:800; cursor:pointer; font-family:inherit;}
+.cal-head button:hover{background:var(--red); color:#fff;}
+.cal-title{font-weight:800; font-size:14px;}
+.cal-week,.cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:2px; text-align:center;}
+.cal-week span{font-size:11px; font-weight:700; color:var(--ink-soft); padding:4px 0;}
+.cal-day{position:relative; height:34px; border:none; background:transparent; border-radius:6px; font-family:inherit; font-size:13px; font-weight:600; color:var(--ink); cursor:pointer;}
+.cal-day:hover{background:var(--paper-dark);}
+.cal-day.today{outline:1.5px solid var(--gold);}
+.cal-day.in-range{background:rgba(178,58,46,0.14);}
+.cal-day.edge{background:var(--red); color:#fff;}
+.cal-day.has-data::after{content:''; position:absolute; bottom:4px; left:50%; width:4px; height:4px; margin-left:-2px; border-radius:50%; background:var(--green);}
+.cal-day.edge.has-data::after{background:#fff;}
+.cal-hint{font-size:11.5px; color:var(--ink-soft); font-weight:600; text-align:center; margin:8px 0 6px;}
+.cal-presets{display:flex; gap:6px; flex-wrap:wrap; justify-content:center; padding-top:8px; border-top:1.5px dashed var(--line);}
+.cal-presets .chip{padding:4px 11px; font-size:12px;}
+
+.nid-card{width:min(420px,92vw); margin-top:18px; background:rgba(255,255,255,0.55); border:1.5px solid var(--ink); border-radius:10px; padding:22px; display:flex; flex-direction:column; gap:12px; text-align:center;}
+.nid-card label{font-weight:800; font-size:14px;}
+.nid-card input{font-family:inherit; font-size:22px; font-weight:800; letter-spacing:5px; text-align:center; padding:12px; border-radius:8px; border:1.5px solid var(--line); background:#fff; color:var(--ink);}
+.nid-card input:focus{outline:none; border-color:var(--ink);}
+.nid-card .gh-btn:disabled{opacity:.55; cursor:wait;}
+.nid-note{font-size:12px; font-weight:600; color:var(--ink-soft); line-height:1.9;}
+</style>
+</head>
+<body>
+
+<!-- LOOKUP -->
+<div id="dropzone">
+  <div class="stamp-title">کارنامه‌<span>من</span></div>
+  <p class="subtitle" id="mainSubtitle">کد ملی‌ات رو وارد کن تا نتیجه‌ی آزمون‌هات رو ببینی.</p>
+
+  <div class="nid-card">
+    <label for="nidInput">کد ملی</label>
+    <input id="nidInput" type="text" inputmode="numeric" maxlength="14" dir="ltr" placeholder="۰۰۰۰۰۰۰۰۰۰" autocomplete="off">
+    <button class="gh-btn" id="nidBtn" disabled>در حال بارگذاری…</button>
+    <p class="error-msg" id="nidError"></p>
+    <div class="nid-note">فقط نتیجه‌هایی نمایش داده می‌شن که کد ملی‌ات موقع آزمون ثبت شده باشه.</div>
+  </div>
+
+  <div class="sync-status" id="syncStatus">
+    <div class="spinner"></div>
+    <span id="syncText">در حال اتصال…</span>
+  </div>
+  <div class="gh-actions" id="ghActions" style="display:none;">
+    <button class="gh-btn" id="retryGhBtn">دوباره تلاش کن</button>
+  </div>
+</div>
+
+<!-- PERSON'S RESULTS -->
+<div id="listView">
+  <button class="back-btn" id="listBackBtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> کد ملی دیگر</button>
+  <div class="list-header">
+    <h1 id="listTitle"></h1>
+    <span class="count" id="listCount"></span>
+  </div>
+  <div class="stats-grid" id="personStats"></div>
+  <div class="chart-box" id="personChart" style="display:none; margin-bottom:18px;"></div>
+  <div id="sheetRows"></div>
+</div>
+
+<!-- DETAIL -->
+<div id="detailView">
+  <div style="display:flex; align-items:center; margin-bottom:8px;">
+    <button class="back-btn" id="backBtn" style="margin-bottom:0;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> بازگشت به فهرست</button>
+  </div>
+
+  <div class="report-head">
+    <div class="id">
+      <h1 id="studentName"></h1>
+      <span class="exam-name" id="examName"></span>
+      <div class="date" id="examDate"></div>
+    </div>
+    <div class="stamp" id="stamp">
+      <div class="pct" id="pctNum"></div>
+      <div class="lbl">نتيجه</div>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat"><div class="num" id="statScore"></div><div class="lab">نمره</div></div>
+    <div class="stat correct"><div class="num" id="statCorrect"></div><div class="lab">درست</div></div>
+    <div class="stat wrong"><div class="num" id="statWrong"></div><div class="lab">غلط</div></div>
+    <div class="stat blank"><div class="num" id="statBlank"></div><div class="lab">بي‌پاسخ</div></div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">همه</button>
+    <button class="filter-btn" data-filter="wrong">فقط غلط‌ها</button>
+    <button class="filter-btn" data-filter="blank">فقط بي‌پاسخ</button>
+    <button class="filter-btn" data-filter="correct">فقط درست‌ها</button>
+  </div>
+
+  <div class="q-list" id="qList"></div>
+  <div class="empty-filter" id="emptyFilter" style="display:none;">در اين دسته سوالي وجود نداره</div>
+</div>
+
+
+<script>
+/* ---------- Jalali (Shamsi) calendar conversion ---------- */
+const PERSIAN_MONTHS = ['فروردين','ارديبهشت','خرداد','تير','مرداد','شهريور','مهر','آبان','آذر','دي','بهمن','اسفند'];
+
+function jdiv(a,b){ return Math.trunc(a/b); }
+function jmod(a,b){ return a - Math.trunc(a/b)*b; }
+function jalCal(jy){
+  const breaks = [-61,9,38,199,426,686,756,818,1111,1181,1210,1635,2060,2097,2192,2262,2324,2394,2456,3178];
+  const bl = breaks.length;
+  const gy = jy + 621;
+  let leapJ = -14, jp = breaks[0], jm, jump = 0, leap, n, i;
+  for (i=1; i<bl; i+=1){
+    jm = breaks[i];
+    jump = jm - jp;
+    if (jy < jm) break;
+    leapJ = leapJ + jdiv(jump,33)*8 + jdiv(jmod(jump,33),4);
+    jp = jm;
+  }
+  n = jy - jp;
+  leapJ = leapJ + jdiv(n,33)*8 + jdiv(jmod(n,33)+3,4);
+  if (jmod(jump,33) === 4 && jump - n === 4) leapJ += 1;
+  const leapG = jdiv(gy,4) - jdiv((jdiv(gy,100)+1)*3,4) - 150;
+  const march = 20 + leapJ - leapG;
+  if (jump - n < 6) n = n - jump + jdiv(jump+4,33)*33;
+  leap = jmod(jmod(n+1,33)-1,4);
+  if (leap === -1) leap = 4;
+  return { leap, gy, march };
+}
+function g2d(gy,gm,gd){
+  let d = jdiv((gy+jdiv(gm-8,6)+100100)*1461,4) + jdiv(153*jmod(gm+9,12)+2,5) + gd - 34840408;
+  d = d - jdiv(jdiv(gy+100100+jdiv(gm-8,6),100)*3,4) + 752;
+  return d;
+}
+function d2g(jdn){
+  let j = 4*jdn + 139361631;
+  j = j + jdiv(jdiv(4*jdn+183187720,146097)*3,4)*4 - 3908;
+  const i = jdiv(jmod(j,1461),4)*5+308;
+  const gd = jdiv(jmod(i,153),5)+1;
+  const gm = jmod(jdiv(i,153),12)+1;
+  const gy = jdiv(j,1461)-100100+jdiv(8-gm,6);
+  return [gy,gm,gd];
+}
+function j2d(jy,jm,jd){
+  const r = jalCal(jy);
+  return g2d(r.gy,3,r.march) + (jm-1)*31 - jdiv(jm,7)*(jm-7) + jd - 1;
+}
+function d2j(jdn){
+  const gy0 = d2g(jdn)[0];
+  let jy = gy0 - 621;
+  const r = jalCal(jy);
+  const jdn1f = g2d(r.gy,3,r.march);
+  let k = jdn - jdn1f, jm, jd;
+  if (k >= 0){
+    if (k <= 185){
+      jm = 1 + jdiv(k,31);
+      jd = jmod(k,31) + 1;
+      return [jy, jm, jd];
+    } else {
+      k -= 186;
+    }
+  } else {
+    jy -= 1;
+    k += 179;
+    if (r.leap === 1) k += 1;
+  }
+  jm = 7 + jdiv(k,30);
+  jd = jmod(k,30) + 1;
+  return [jy, jm, jd];
+}
+function gregorianToJalali(gy,gm,gd){
+  return d2j(g2d(gy,gm,gd));
+}
+function jalaliToGregorian(jy,jm,jd){
+  return d2g(j2d(jy,jm,jd));
+}
+function toJalali(dateObj){
+  return gregorianToJalali(dateObj.getFullYear(), dateObj.getMonth()+1, dateObj.getDate());
+}
+function jalaliKey(jy,jm,jd){ return jy*10000 + jm*100 + jd; }
+
+
+const GITHUB_OWNER = 'SAY4s';
+const GITHUB_REPO = 'Azmon';
+const GITHUB_BRANCH = 'main';
+// نگاشت پوشه‌ي هر مبحث به همون نامي که در ساخت فايل هفتگي استفاده مي‌شه
+// (بايد دقيقاً با TOPIC_MAP توي index.html هماهنگ باشه)
+const DATA_TOPIC_FOLDERS = {
+  DataICDL: 'ICDL',
+  DataPython: 'Python',
+  DataDipUser: 'DipUser',
+  DataDipTyping: 'DipTyping',
+  DataDipBlackWhite: 'DipBlackWhite',
+  DataDipGraphics: 'DipGraphics',
+  DataDipColorDesign: 'DipColorDesign',
+  DataOther: 'Other'
+};
+const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+// ليبل تمام هفته‌هاي چند ماه اخير را برمي‌گرداند (هر ماه ? هفته: W1 تا W4)
+function getRecentWeekLabels(monthsBack = 6){
+  const labels = [];
+  const now = new Date();
+  for(let m = 0; m < monthsBack; m++){
+    const d = new Date(now.getFullYear(), now.getMonth() - m, 1);
+    const abbr = MONTH_ABBR[d.getMonth()];
+    for(let w = 1; w <= 4; w++) labels.push(abbr + 'W' + w);
+  }
+  return labels;
+}
+
+// به‌جاي گرفتن ليست فايل‌ها از GitHub API (که براي درخواست‌هاي بدون توکن
+// سقف ?? درخواست در ساعت داره و پشت VPN با IP مشترک خيلي زود پر مي‌شه)،
+// مستقيماً بر اساس الگوي نام‌گذاري هفته، فايل‌هاي چند ماه اخير هر مبحث را
+// به‌صورت موازي از raw.githubusercontent.com مي‌خوانيم.
+async function fetchAllResultsFromGithub(){
+  const weekLabels = getRecentWeekLabels(6);
+  const jobs = [];
+
+  Object.entries(DATA_TOPIC_FOLDERS).forEach(([folder, name])=>{
+    weekLabels.forEach(label=>{
+      const fileName = `Data${name}${label}.json`;
+      const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${folder}/${fileName}?t=${Date.now()}`;
+      jobs.push(
+        fetch(rawUrl, { cache: 'no-store' })
+          .then(r => r.ok ? r.text() : null)
+          .then(text=>{
+            if(!text || !text.trim()) return [];
+            try{
+              const arr = JSON.parse(text);
+              return Array.isArray(arr) ? arr : [];
+            } catch(e){ return []; }
+          })
+          .catch(()=>[])
+      );
+    });
+  });
+
+  const results = await Promise.all(jobs);
+  return results.flat();
+}
+
+
+function fmtDate(iso){
+  if(!iso) return '';
+  try{
+    const d = new Date(iso);
+    const [jy,jm,jd] = toJalali(d);
+    const hh = String(d.getHours()).padStart(2,'0');
+    const mm = String(d.getMinutes()).padStart(2,'0');
+    return `${jd} ${PERSIAN_MONTHS[jm-1]} ${jy} — ساعت ${hh}:${mm}`;
+  } catch(e){ return iso; }
+}
+function fmtDateShort(iso){
+  if(!iso) return '';
+  try{
+    const d = new Date(iso);
+    const [jy,jm,jd] = toJalali(d);
+    return `${jd} ${PERSIAN_MONTHS[jm-1]} ${jy}`;
+  } catch(e){ return iso; }
+}
+
+function entryJalali(entry){
+  if(!entry.date) return null;
+  const d = new Date(entry.date);
+  if(isNaN(d.getTime())) return null;
+  return toJalali(d);
+}
+
+
+function setSync(state, text){
+  syncStatus.className = 'sync-status' + (state ? ' ' + state : '');
+  syncStatus.style.display = 'flex';
+  syncText.textContent = text;
+  if(state === 'loading'){
+    syncStatus.innerHTML = `<div class="spinner"></div><span>${text}</span>`;
+  }
+}
+
+
+function buildTrendSvg(list, current){
+  const W=700, H=230, padL=34, padR=22, padT=24, padB=38;
+  const iw=W-padL-padR, ih=H-padT-padB;
+  const n=list.length;
+  const xAt = i => n===1 ? padL+iw/2 : padL + (i/(n-1))*iw;
+  const yAt = p => padT + ih - (Math.max(0,Math.min(100,p))/100)*ih;
+  let out = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  [0,25,50,75,100].forEach(v=>{
+    const y=yAt(v);
+    const is50 = v===50;
+    out += `<line x1="${padL}" x2="${W-padR}" y1="${y}" y2="${y}" stroke="${is50?'rgba(178,58,46,0.5)':'rgba(35,39,51,0.12)'}" ${is50?'stroke-dasharray="5 4"':''}/>`;
+    out += `<text x="${padL-6}" y="${y+4}" text-anchor="end" font-size="11" fill="#545a6b">${v}</text>`;
+  });
+  const pts = list.map((e,i)=>[xAt(i), yAt(Number(e.percent)||0)]);
+  out += `<polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="#232733" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>`;
+  const labelEvery = Math.ceil(n/8);
+  list.forEach((e,i)=>{
+    const [x,y] = pts[i];
+    const pct = Number(e.percent)||0;
+    const isCur = e === current;
+    const color = pct>=50 ? '#2f6844' : '#b23a2e';
+    out += `<circle cx="${x}" cy="${y}" r="${isCur?7:5}" fill="${color}" stroke="${isCur?'#232733':'#f2ecdd'}" stroke-width="${isCur?2.5:2}"/>`;
+    out += `<text x="${x}" y="${y-11}" text-anchor="middle" font-size="11.5" font-weight="800" fill="#232733">${pct}</text>`;
+    if(i%labelEvery===0 || i===n-1){
+      out += `<text x="${x}" y="${H-padB+16}" text-anchor="middle" font-size="10" fill="#545a6b">${escapeHtml(fmtDateShort(e.date))}</text>`;
+    }
+  });
+  out += `</svg>`;
+  return out;
+}
+
+
+function statusOf(a){
+  if(a.selected === null) return 'blank';
+  return a.selected === a.correct ? 'correct' : 'wrong';
+}
+
+function getFilteredQuestions(){
+  const answers = (currentEntry.answers || []);
+  return answers.filter(a=>{
+    if(currentFilter === 'all') return true;
+    return statusOf(a) === currentFilter;
+  });
+}
+
+function renderQuestions(){
+  const answers = (currentEntry.answers || []);
+  const qList = document.getElementById('qList');
+  const emptyEl = document.getElementById('emptyFilter');
+  qList.innerHTML = '';
+
+  const filtered = getFilteredQuestions();
+
+  if(filtered.length === 0){
+    emptyEl.style.display = 'block';
+    return;
+  }
+  emptyEl.style.display = 'none';
+
+  filtered.forEach((a)=>{
+    const realIndex = answers.indexOf(a) + 1;
+    const status = statusOf(a);
+    const icon = status === 'correct' ? '✓' : status === 'wrong' ? '✗' : '—';
+    const item = document.createElement('div');
+    item.className = `q-item ${status}`;
+    item.innerHTML = `
+      <div class="q-top">
+        <div class="q-text"><span class="q-num">${realIndex}.</span>${escapeHtml(a.question || '')}</div>
+        <div class="q-icon">${icon}</div>
+      </div>
+      <div class="q-answers">
+        ${a.selected !== null ? `<div class="ans-row selected"><span class="k">پاسخ داده‌شده:</span><span class="v">${escapeHtml(a.selected)}</span></div>` : `<div class="ans-row selected"><span class="k">پاسخ داده‌شده:</span><span class="v">بدون پاسخ</span></div>`}
+        ${status !== 'correct' ? `<div class="ans-row correct-row"><span class="k">پاسخ درست:</span><span class="v">${escapeHtml(a.correct)}</span></div>` : ''}
+      </div>
+    `;
+    qList.appendChild(item);
+  });
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderQuestions();
+  });
+});
+
+
+function escapeHtml(str){
+  if(str === null || str === undefined) return '';
+  return String(str)
+    .replaceAll('&','&amp;')
+    .replaceAll('<','&lt;')
+    .replaceAll('>','&gt;')
+    .replaceAll('"','&quot;');
+}
+
+
+const dropzone = document.getElementById('dropzone');
+const listView = document.getElementById('listView');
+const detailView = document.getElementById('detailView');
+const syncStatus = document.getElementById('syncStatus');
+const syncText = document.getElementById('syncText');
+const ghActions = document.getElementById('ghActions');
+const nidInput = document.getElementById('nidInput');
+const nidBtn = document.getElementById('nidBtn');
+const nidError = document.getElementById('nidError');
+
+let fullData = [];
+let currentFilter = 'all';
+let currentEntry = null;
+
+function cleanId(v){
+  return String(v ?? '')
+    .replace(/[۰-۹]/g, d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d))
+    .replace(/[٠-٩]/g, d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d))
+    .replace(/\D/g,'');
+}
+function showNidError(msg){ nidError.textContent = msg; nidError.style.display = 'block'; }
+
+async function loadData(){
+  ghActions.style.display = 'none';
+  nidBtn.disabled = true; nidBtn.textContent = 'در حال بارگذاری…';
+  setSync('loading','در حال دریافت نتایج…');
+  try{
+    const all = await fetchAllResultsFromGithub();
+    if(!all.length){
+      setSync('err','فعلاً نتیجه‌ای ثبت نشده یا اتصال برقرار نشد.');
+      ghActions.style.display = 'flex';
+      return;
+    }
+    fullData = all;
+    nidBtn.disabled = false; nidBtn.textContent = 'نمایش کارنامه';
+    setSync('ok','آماده شد');
+    setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1200);
+  } catch(err){
+    setSync('err','دریافت نتایج انجام نشد. اتصال اینترنت رو چک کن.');
+    ghActions.style.display = 'flex';
+  }
+}
+document.getElementById('retryGhBtn').addEventListener('click', loadData);
+
+function lookup(){
+  nidError.style.display = 'none';
+  const id = cleanId(nidInput.value);
+  if(id.length !== 10){ showNidError('کد ملی باید ۱۰ رقم باشه.'); return; }
+  const list = fullData
+    .filter(e=>cleanId(e.nationalId) === id)
+    .sort((a,b)=>new Date(a.date||0) - new Date(b.date||0));
+  if(!list.length){
+    showNidError('با این کد ملی نتیجه‌ای پیدا نشد. اگه قبلاً آزمون دادی، ممکنه کد ملی‌ات موقع آزمون ثبت نشده باشه.');
+    return;
+  }
+  openList(list);
+}
+nidBtn.addEventListener('click', lookup);
+nidInput.addEventListener('keydown', e=>{ if(e.key === 'Enter' && !nidBtn.disabled) lookup(); });
+
+let currentList = [];
+function openList(list){
+  currentList = list;
+  dropzone.style.display = 'none';
+  detailView.style.display = 'none';
+  listView.style.display = 'block';
+  window.scrollTo(0,0);
+
+  const latest = list[list.length-1];
+  document.getElementById('listTitle').textContent = 'کارنامه‌ی ' + (latest.name || '');
+  document.getElementById('listCount').textContent = list.length + ' آزمون';
+
+  const pcts = list.map(e=>Number(e.percent)||0);
+  const avg = Math.round(pcts.reduce((a,b)=>a+b,0)/pcts.length*10)/10;
+  const passed = pcts.filter(p=>p>=50).length;
+  const box = (num, lab, cls) => `<div class="stat ${cls||''}"><div class="num">${num}</div><div class="lab">${lab}</div></div>`;
+  document.getElementById('personStats').innerHTML =
+    box(list.length,'تعداد آزمون') + box(avg+'%','میانگین نمره') +
+    box(Math.max(...pcts)+'%','بهترین نمره') +
+    box(passed+' از '+list.length,'قبولی', passed === list.length ? 'correct' : '');
+
+  const chart = document.getElementById('personChart');
+  if(list.length >= 2){
+    chart.innerHTML = '<h4>روند نمره‌ها</h4>' + buildTrendSvg(list, null);
+    chart.style.display = 'block';
+  } else { chart.style.display = 'none'; chart.innerHTML = ''; }
+
+  const rows = document.getElementById('sheetRows');
+  rows.innerHTML = '';
+  list.slice().reverse().forEach(entry=>{
+    const pct = Number(entry.percent)||0;
+    const row = document.createElement('div');
+    row.className = 'sheet-row';
+    row.innerHTML = `
+      <div class="who">
+        <div class="name">${escapeHtml(entry.exam || 'بدون عنوان')}</div>
+        <div class="meta">${fmtDate(entry.date)} · ${entry.score ?? 0} از ${entry.total ?? 0}</div>
+      </div>
+      <div class="score-badge" style="color:${pct>=50?'var(--green)':'var(--red)'}">${pct}%</div>`;
+    row.addEventListener('click', ()=>openDetail(entry));
+    rows.appendChild(row);
+  });
+}
+document.getElementById('listBackBtn').addEventListener('click', ()=>{
+  listView.style.display = 'none';
+  dropzone.style.display = 'flex';
+  nidInput.value = ''; nidInput.focus();
+});
+
+function openDetail(entry){
+  currentEntry = entry;
+  currentFilter = 'all';
+  listView.style.display = 'none';
+  detailView.style.display = 'block';
+  window.scrollTo(0,0);
+
+  document.getElementById('studentName').textContent = entry.name || '';
+  document.getElementById('examName').textContent = entry.exam || '';
+  document.getElementById('examDate').textContent = fmtDate(entry.date);
+  const pct = entry.percent ?? 0;
+  document.getElementById('stamp').classList.toggle('pass', pct >= 50);
+  document.getElementById('pctNum').textContent = pct;
+  document.getElementById('statScore').textContent = `${entry.score ?? 0} / ${entry.total ?? 0}`;
+  const answers = entry.answers || [];
+  document.getElementById('statCorrect').textContent = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+  document.getElementById('statWrong').textContent = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+  document.getElementById('statBlank').textContent = answers.filter(a=>a.selected === null).length;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.toggle('active', b.dataset.filter === 'all'));
+  renderQuestions();
+}
+document.getElementById('backBtn').addEventListener('click', ()=>{
+  detailView.style.display = 'none';
+  listView.style.display = 'block';
+  window.scrollTo(0,0);
+});
+
+loadData();
+
+</script>
+</body>
+</html>
