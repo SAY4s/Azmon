@@ -887,6 +887,8 @@ body::before{
 .hist-row.current{border-color:var(--ink); background:rgba(35,39,51,0.07); cursor:default;}
 .hist-row .h-exam{background:var(--ink); color:var(--paper); font-size:11px; padding:2px 10px; border-radius:20px; font-weight:700;}
 .hist-row .h-pct{font-weight:900; min-width:48px; text-align:left;}
+.df-row input[type=number]{font-family:inherit; font-size:13px; font-weight:600; width:78px; padding:7px 10px; border-radius:6px; border:1.5px solid var(--line); background:#fff; color:var(--ink);}
+.df-row .df-sep{font-size:13px; font-weight:600; color:var(--ink-soft);}
 </style>
 </head>
 <body>
@@ -946,6 +948,7 @@ body::before{
     <h1 id="listTitle">پاسخ‌برگ‌ها</h1>
     <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
       <span class="count" id="listCount"></span>
+      <button class="excel-btn" id="copyLinkListBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg> کپي لينک</button>
       <button class="excel-btn karnameh-btn" id="statsBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg> آمار مبحث</button>
       <button class="excel-btn" id="exportListBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
@@ -965,6 +968,32 @@ body::before{
   <div class="list-search">
     <svg class="ls-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
     <input type="text" id="listSearchInput" placeholder="جستجوي نام در همين مبحث…" autocomplete="off">
+  </div>
+
+  <div class="date-filter">
+    <div class="df-title">مرتب‌سازی و فیلتر</div>
+    <div class="df-rows">
+      <div class="df-row">
+        <span class="df-label">مرتب:</span>
+        <select id="sortSelect">
+          <option value="date">تاريخ (جديدترين)</option>
+          <option value="score-desc">نمره: زياد به کم</option>
+          <option value="score-asc">نمره: کم به زياد</option>
+          <option value="name">نام (الفبايي)</option>
+        </select>
+        <select id="statusSelect">
+          <option value="all">همه</option>
+          <option value="pass">فقط قبولي‌ها (۵۰٪ به بالا)</option>
+          <option value="fail">فقط مردودها (زير ۵۰٪)</option>
+        </select>
+      </div>
+      <div class="df-row">
+        <span class="df-label">درصد:</span>
+        <span class="df-sep">از</span><input type="number" id="pctMin" min="0" max="100" placeholder="0">
+        <span class="df-sep">تا</span><input type="number" id="pctMax" min="0" max="100" placeholder="100">
+        <button class="df-btn secondary" id="resetViewFilter">پاک‌کردن</button>
+      </div>
+    </div>
   </div>
 
   <div class="date-filter">
@@ -990,7 +1019,7 @@ body::before{
   </div>
 
   <div id="sheetRows"></div>
-  <div class="df-empty" id="dfEmpty">هيچ پاسخ‌برگي توي اين بازه‌ي تاريخ پيدا نشد.</div>
+  <div class="df-empty" id="dfEmpty">هيچ پاسخ‌برگي با اين فيلترها پيدا نشد.</div>
 </div>
 
 <!-- DETAIL VIEW -->
@@ -1000,6 +1029,7 @@ body::before{
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
       بازگشت به فهرست
     </button>
+    <button class="excel-btn" id="copyLinkDetailBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg> کپي لينک</button>
     <button class="excel-btn" id="exportDetailBtn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
       EXCEL 
@@ -1181,6 +1211,8 @@ function toJalali(dateObj){
 }
 function jalaliKey(jy,jm,jd){ return jy*10000 + jm*100 + jd; }
 
+let pendingHash = location.hash;
+let lastListKey = null;
 let fullData = [];
 let currentData = [];
 let selectedTopic = null;
@@ -1349,6 +1381,7 @@ function handleFile(file){
   reader.onload = e=>{
     try{
       processDataArray(e.target.result);
+      applyPendingHash();
     } catch(err){
       showError();
     }
@@ -1379,6 +1412,7 @@ async function fetchFromGitHub(){
       return;
     }
     processDataArray(JSON.stringify(allEntries));
+    applyPendingHash();
     setSync('ok', 'با موفقيت از GitHub خونده شد ?');
     setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1800);
   } catch(err){
@@ -1397,6 +1431,7 @@ document.getElementById('showManualBtn').addEventListener('click', ()=>{
 fetchFromGitHub();
 
 function openTopicView(data){
+  updateHash({});
   listView.style.display = 'none';
   detailView.style.display = 'none';
   topicView.style.display = 'block';
@@ -1602,6 +1637,7 @@ function populateDateSelects(){
 }
 
 function openList(data){
+  updateHash({t:selectedTopic});
   topicView.style.display = 'none';
   detailView.style.display = 'none';
   listView.style.display = 'block';
@@ -1611,31 +1647,61 @@ function openList(data){
   document.getElementById('listBackBtn').style.display = hasTopics ? 'inline-flex' : 'none';
   document.getElementById('listTitle').textContent = selectedTopic ? selectedTopic : 'پاسخ‌برگ‌ها';
 
-  const listSearchInput = document.getElementById('listSearchInput');
-  if(listSearchInput) listSearchInput.value = '';
+  const listKey = selectedTopic || '';
+  if(listKey !== lastListKey){
+    lastListKey = listKey;
+    dateRange = null;
+    resetViewControls();
+  }
 
   populateDateSelects();
+  if(dateRange){
+    document.getElementById('fromYear').value = dateRange.from[0];
+    document.getElementById('fromMonth').value = dateRange.from[1];
+    document.getElementById('fromDay').value = dateRange.from[2];
+    document.getElementById('toYear').value = dateRange.to[0];
+    document.getElementById('toMonth').value = dateRange.to[1];
+    document.getElementById('toDay').value = dateRange.to[2];
+  }
   renderList();
 }
 
 function getFilteredListEntries(){
-  const data = currentData;
-  let filtered = data;
-  const listSearchInput = document.getElementById('listSearchInput');
-  const nameQuery = listSearchInput ? normalizeFa(listSearchInput.value) : '';
+  // هر فيلتر روي خروجي فيلتر قبلي اعمال مي‌شه (قبلاً فيلتر تاريخ دوباره از کل داده شروع مي‌کرد و جستجوي نام رو بي‌اثر مي‌کرد)
+  let filtered = currentData.slice();
+
+  const nameQuery = normalizeFa(document.getElementById('listSearchInput').value);
   if(nameQuery){
     filtered = filtered.filter(entry=>normalizeFa(entry.name).includes(nameQuery));
   }
+
   if(dateRange){
     const fromKey = jalaliKey(...dateRange.from);
     const toKey = jalaliKey(...dateRange.to);
-    filtered = data.filter(entry=>{
+    filtered = filtered.filter(entry=>{
       const j = entryJalali(entry);
       if(!j) return false;
       const k = jalaliKey(j[0],j[1],j[2]);
       return k >= fromKey && k <= toKey;
     });
   }
+
+  const status = document.getElementById('statusSelect').value;
+  if(status === 'pass') filtered = filtered.filter(e=>(Number(e.percent)||0) >= 50);
+  if(status === 'fail') filtered = filtered.filter(e=>(Number(e.percent)||0) < 50);
+
+  const minV = document.getElementById('pctMin').value;
+  const maxV = document.getElementById('pctMax').value;
+  if(minV !== '') filtered = filtered.filter(e=>(Number(e.percent)||0) >= Number(minV));
+  if(maxV !== '') filtered = filtered.filter(e=>(Number(e.percent)||0) <= Number(maxV));
+
+  const sort = document.getElementById('sortSelect').value;
+  const byDateDesc = (x,y)=>(new Date(y.date||0)) - (new Date(x.date||0));
+  if(sort === 'score-desc') filtered.sort((x,y)=>(Number(y.percent)||0)-(Number(x.percent)||0) || byDateDesc(x,y));
+  else if(sort === 'score-asc') filtered.sort((x,y)=>(Number(x.percent)||0)-(Number(y.percent)||0) || byDateDesc(x,y));
+  else if(sort === 'name') filtered.sort((x,y)=>String(x.name||'').localeCompare(String(y.name||''),'fa') || byDateDesc(x,y));
+  else filtered.sort(byDateDesc);
+
   return filtered;
 }
 
@@ -1654,6 +1720,11 @@ function renderList(){
     return;
   }
   dfEmpty.style.display = 'none';
+
+  if(document.getElementById('sortSelect').value !== 'date'){
+    filtered.forEach(entry=>rowsEl.appendChild(buildSheetRow(entry)));
+    return;
+  }
 
   // group by jalali day, most recent first
   const groups = new Map(); // key -> {label, items:[]}
@@ -1694,6 +1765,7 @@ document.getElementById('clearDateFilter').addEventListener('click', ()=>{
 });
 
 function openDetail(entry){
+  updateHash({t:entry.exam, p:entry.name, d:entry.date});
   currentEntry = entry;
   currentFilter = 'all';
   topicView.style.display = 'none';
@@ -2722,6 +2794,69 @@ function renderHistory(entry){
     b.addEventListener('click', ()=>{ historyScope = b.dataset.scope; renderHistory(entry); });
   });
 }
+
+
+/* ================= فيلتر/مرتب‌سازي ليست ================= */
+function resetViewControls(){
+  document.getElementById('listSearchInput').value = '';
+  document.getElementById('sortSelect').value = 'date';
+  document.getElementById('statusSelect').value = 'all';
+  document.getElementById('pctMin').value = '';
+  document.getElementById('pctMax').value = '';
+}
+['sortSelect','statusSelect'].forEach(id=>document.getElementById(id).addEventListener('change', renderList));
+['pctMin','pctMax'].forEach(id=>document.getElementById(id).addEventListener('input', renderList));
+document.getElementById('resetViewFilter').addEventListener('click', ()=>{
+  resetViewControls();
+  dateRange = null;
+  populateDateSelects();
+  renderList();
+});
+
+/* ================= لينک مستقيم (hash) ================= */
+let currentHashStr = '';
+function updateHash(params){
+  const sp = new URLSearchParams();
+  Object.entries(params).forEach(([k,v])=>{ if(v) sp.set(k, v); });
+  currentHashStr = sp.toString() ? '#' + sp.toString() : '';
+  try{
+    history.replaceState(null, '', location.pathname + location.search + currentHashStr);
+  } catch(e){}
+}
+
+function applyPendingHash(){
+  const h = pendingHash;
+  pendingHash = '';
+  if(!h || h.length < 2) return;
+  const sp = new URLSearchParams(h.slice(1));
+  const t = sp.get('t'), p = sp.get('p'), d = sp.get('d');
+  if(!t) return;
+  const topicData = fullData.filter(e=>(e.exam || 'بدون‌عنوان') === t);
+  if(!topicData.length) return;
+  selectedTopic = t;
+  currentData = topicData;
+  if(p){
+    const norm = normalizeFa(p);
+    const match = topicData.find(e=>normalizeFa(e.name) === norm && (!d || e.date === d))
+               || topicData.find(e=>normalizeFa(e.name) === norm);
+    if(match){ openDetail(match); return; }
+  }
+  openList(topicData);
+}
+
+async function copyCurrentLink(btn){
+  const url = location.href.split('#')[0] + currentHashStr;
+  const original = btn.innerHTML;
+  try{
+    await navigator.clipboard.writeText(url);
+    btn.textContent = 'کپي شد ✓';
+    setTimeout(()=>{ btn.innerHTML = original; }, 1600);
+  } catch(e){
+    window.prompt('لينک رو کپي کن:', url);
+  }
+}
+document.getElementById('copyLinkListBtn').addEventListener('click', e=>copyCurrentLink(e.currentTarget));
+document.getElementById('copyLinkDetailBtn').addEventListener('click', e=>copyCurrentLink(e.currentTarget));
 
 </script>
 </body>
