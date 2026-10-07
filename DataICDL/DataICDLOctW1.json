@@ -21248,5 +21248,218 @@
       }
     ],
     "date": "2026-10-06T18:03:38.901Z"
+  },
+  {
+    "name": "سارینا کبیری",
+    "nationalId": "7280214657",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اندازه داده نوع متنی چقدر می باشد؟",
+        "selected": "محدودیتی ندارد",
+        "correct": "255 بایت"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "در قسمت .............. از پنجره Find and Replace عبارتی را که می خواهیم ورد آن را برای جایگزینی انتخاب کند (پیدا کند)، می نویسیم.",
+        "selected": "Find What",
+        "correct": "Find What"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط متن های هر اسلاید چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Note Pages",
+        "correct": "Outline"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Properties",
+        "correct": "Wait"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.mp3",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "New Slide",
+        "correct": "Section"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Current Page",
+        "correct": "Current Page"
+      },
+      {
+        "question": "کدامیک از موارد زیر باعث کاهش آلودگی های زیست محیطی می شود؟",
+        "selected": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده",
+        "correct": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده"
+      },
+      {
+        "question": "برای بزرگ کردن اندازه نوشته کدام گزینه به کار می رود؟",
+        "selected": "Increase Font Size",
+        "correct": "Increase Font Size"
+      },
+      {
+        "question": "کدام گزینه شامل کلیدهای کنترلی می شود؟",
+        "selected": "Ctrl-Shift-Alt-Esc",
+        "correct": "Ctrl-Shift-Alt-Esc"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Art",
+        "correct": "Style"
+      },
+      {
+        "question": "برای بدست آوردن ضرب محتویات دو سلول اکسل چه فرمولی باید نوشت؟",
+        "selected": "=A1*B5",
+        "correct": "=A1*B5"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": "Create New Account",
+        "correct": "Create New Account"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide layout",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "دیسک مغناطیسی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "دکمه Tab جهت تایید و دکمه Spacebar جهت لغو محتویات سلول",
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "کلیک راست بر روی نوار کار و انتخاب Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "برای نمایش تمام پنجره ها در کنار هم از چپ به راست (بصورت عمودی) کدام روش مرتب سازی را باید انتخاب نمود؟",
+        "selected": "Show Windows Stacked",
+        "correct": "Show Windows Side by Side"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن سایه دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "با استفاده از کدام تب از کادر محاوره ای Format Cell می توان خطوط کادر خانه ها را تنظیم نمود؟",
+        "selected": "Border",
+        "correct": "Border"
+      },
+      {
+        "question": "به ورودی های خام سیستم چه می گویند؟",
+        "selected": "داده",
+        "correct": "داده"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود",
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "بالاترین نوار در نرم افزار نوار ........ است که مشخصات و نوع فایل را نشان می دهد.",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "نرم افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Width",
+        "correct": "Width"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "پنجره File New Database باز می شود تا نام بانک اطلاعات جدید را وارد کنیم",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح نیست؟",
+        "selected": "Primary Key به صورت اتوماتیک ایندکس می شود",
+        "correct": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~S ? T",
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1GB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟",
+        "selected": "غیر فرار بودن اطلاعات در حافظه های ثانویه",
+        "correct": "سرعت بالای حافظه های ثانویه"
+      }
+    ],
+    "date": "2026-10-07T10:46:36.561Z"
   }
 ]
