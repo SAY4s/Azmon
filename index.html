@@ -497,7 +497,7 @@ function openDip()   { setExamMode(false); showSec('secDipMenu');  if (!dipLoade
 function goMenu() {
   stopTimer();
   setExamMode(false);
-  if (activeMode === 'icdl') showSec('secICDLMenu');
+  if (activeMode === 'ICDL') showSec('secICDLMenu');
   else showSec('secDipMenu');
 }
 
@@ -703,7 +703,7 @@ function showResults() {
     else                                  err++;
   });
   const pct    = Math.round(ok / curQs.length * 100);
-  const thresh = activeMode === 'icdl' ? 20 : 6;
+  const thresh = activeMode === 'ICDL' ? 20 : 6;
   const passed = ok >= thresh;
   document.getElementById('resTitle').textContent = '📊 نتایج آزمون';
   const sb = document.getElementById('summaryBar');
@@ -733,7 +733,7 @@ function prevRes() { if (curIdx > 0)              { curIdx--; renderRes(); } }
 function nextRes() { if (curIdx < curQs.length-1) { curIdx++; renderRes(); } }
 function retryExam() {
   stopTimer();
-  if (activeMode === 'icdl') startICDL();
+  if (activeMode === 'ICDL') startICDL();
   else startDip(activeMode.replace('dip_',''));
 }
 
