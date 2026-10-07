@@ -925,8 +925,11 @@ body::before{
 <!-- DROP ZONE -->
 <div id="dropzone">
   <div class="stamp-title">پاسخ‌<span>برگ</span></div>
+  <p class="subtitle" id="mainSubtitle">داره از مخزن Azmon روي گيت‌هاب خونده مي‌شه...</p>
+
   <div class="sync-status" id="syncStatus">
     <div class="spinner"></div>
+    <span id="syncText">در حال اتصال به GitHub…</span>
   </div>
 
   <div class="gh-actions" id="ghActions" style="display:none;">
@@ -1280,30 +1283,53 @@ function getRecentWeekLabels(monthsBack = 6){
 // سقف ?? درخواست در ساعت داره و پشت VPN با IP مشترک خيلي زود پر مي‌شه)،
 // مستقيماً بر اساس الگوي نام‌گذاري هفته، فايل‌هاي چند ماه اخير هر مبحث را
 // به‌صورت موازي از raw.githubusercontent.com مي‌خوانيم.
-async function fetchAllResultsFromGithub(){
+let FETCH_TIMEOUT_MS = 8000;
+let lastFetchFailed = 0;
+
+// هر درخواست سقف زمانی داره تا یک درخواست گیرکرده کل صفحه رو نگه نداره.
+// 404 یعنی «اون هفته فايلي نداره» (عادي)، ولي خطاي شبکه/تايم‌اوت يعني «نرسيديم» و بار دوم از CDN مي‌خونيم.
+async function fetchJsonWithTimeout(url){
+  const ctrl = new AbortController();
+  const timer = setTimeout(()=>ctrl.abort(), FETCH_TIMEOUT_MS);
+  try{
+    const r = await fetch(url, { cache: 'no-store', signal: ctrl.signal });
+    if(r.status === 404) return { data: [] };
+    if(!r.ok) return { failed: true };
+    const text = await r.text();
+    if(!text || !text.trim()) return { data: [] };
+    const arr = JSON.parse(text);
+    return { data: Array.isArray(arr) ? arr : [] };
+  } catch(e){
+    return { failed: true };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchAllResultsFromGithub(onProgress){
   const weekLabels = getRecentWeekLabels(6);
+  const total = Object.keys(DATA_TOPIC_FOLDERS).length * weekLabels.length;
+  let done = 0, failed = 0;
   const jobs = [];
 
   Object.entries(DATA_TOPIC_FOLDERS).forEach(([folder, name])=>{
     weekLabels.forEach(label=>{
-      const fileName = `Data${name}${label}.json`;
-      const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${folder}/${fileName}?t=${Date.now()}`;
-      jobs.push(
-        fetch(rawUrl, { cache: 'no-store' })
-          .then(r => r.ok ? r.text() : null)
-          .then(text=>{
-            if(!text || !text.trim()) return [];
-            try{
-              const arr = JSON.parse(text);
-              return Array.isArray(arr) ? arr : [];
-            } catch(e){ return []; }
-          })
-          .catch(()=>[])
-      );
+      const path = `${folder}/Data${name}${label}.json`;
+      const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${path}?t=${Date.now()}`;
+      const cdnUrl = `https://cdn.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@${GITHUB_BRANCH}/${path}`;
+      jobs.push((async()=>{
+        let res = await fetchJsonWithTimeout(rawUrl);
+        if(res.failed) res = await fetchJsonWithTimeout(cdnUrl);
+        if(res.failed) failed++;
+        done++;
+        if(onProgress) onProgress(done, total);
+        return res.data || [];
+      })());
     });
   });
 
   const results = await Promise.all(jobs);
+  lastFetchFailed = failed;
   return results.flat();
 }
 
@@ -1419,9 +1445,11 @@ async function fetchFromGitHub(){
   mainSubtitle.textContent = 'داره از مخزن Azmon روي گيت‌هاب خونده مي‌شه...';
   setSync('loading', 'در حال اتصال به GitHub…');
   try{
-    const allEntries = await fetchAllResultsFromGithub();
+    const allEntries = await fetchAllResultsFromGithub((d,t)=>setSync('loading', `در حال دریافت نتایج… ${d} از ${t}`));
     if(!allEntries.length){
-      setSync('err', 'فايل‌هاي روي گيت‌هاب فعلاً خالي‌اند — هنوز پاسخ‌برگي ثبت نشده.');
+      setSync('err', lastFetchFailed > 20
+        ? 'به GitHub وصل نشد (اينترنت يا فيلترشکن رو چک کن) و دوباره تلاش کن.'
+        : 'فايل‌هاي روي گيت‌هاب فعلاً خالي‌اند — هنوز پاسخ‌برگي ثبت نشده.');
       ghActions.style.display = 'flex';
       return;
     }
