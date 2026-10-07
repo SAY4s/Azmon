@@ -21674,5 +21674,218 @@
       }
     ],
     "date": "2026-10-07T11:33:26.679Z"
+  },
+  {
+    "name": "کارشناس دادگستری",
+    "nationalId": "1632163216",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "پسوند Mp3، جزء پسوندهای ................... است.",
+        "selected": "صوتی",
+        "correct": "صوتی"
+      },
+      {
+        "question": "کاربرها برای راحتی کار یا کاربرانی که حرفه ای نیستند برای ایجاد فرم، گزارش و .............. بهتر است از کدام روش استفاده نمایند؟",
+        "selected": "Create-Form",
+        "correct": "Wizard"
+      },
+      {
+        "question": "برای جستجوی فایلی که با S شروع می شود و به T ختم می شود در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~S ? T",
+        "correct": "~S * T"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F7",
+        "correct": "F1"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Descending",
+        "correct": "Descending"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "انجام امور نشر رومیزی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "فرمان ...... کاربرگ فعال را حذف می کند؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "از طریق Create - Form Wizard",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "پروتکل",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "برای ارسال یک نامه دریافت شده به اشخاص دیگر از کدام گزینه استفاده می شود؟",
+        "selected": "forward",
+        "correct": "forward"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Tejarat",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": "Title Slide",
+        "correct": "Blank"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": "As New Work Book",
+        "correct": "Object In"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "کدام گزینه در مورد بایت درست می باشد؟",
+        "selected": "هر 8 بایت یک بیت را تشکیل می دهد",
+        "correct": "کوچکترین واحد حافظه قابل آدرس دهی"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "A2+A3=",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "در نوار ابزار IE دکمه ستاره، کدام فرمان زیر را اجرا می کند؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "کدام گزینه از کادر Format Cell موجب پر شدن یک سلول با خطوط هاشور می شود؟",
+        "selected": "Pattern",
+        "correct": "Pattern"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "عملکرد گزینه Start در سربرگ Animation چیست؟",
+        "selected": "با درج زمان مورد نظر می توان پخش Animation را به تاخیر انداخت",
+        "correct": "نحوه آغاز شدن انیمیشن را مشخص می کند"
+      },
+      {
+        "question": "............... برنامه های کوچکی هستند که عملا به برنامه اجرایی و یا نواحی سیستمی دیسک متصل شده و بر روی آنها اثرات نامطلوب می گذارند.",
+        "selected": "ویروس ها",
+        "correct": "ویروس ها"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Page Footer",
+        "correct": "Details"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Style",
+        "correct": "Style"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Ignore Total",
+        "correct": "Ignore All"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "Insert Table از زبانه Home",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "Rom",
+        "correct": "Cd"
+      },
+      {
+        "question": "کدامیک از سیستم عامل های زیر تک کاربره می باشد؟",
+        "selected": "Windows",
+        "correct": "Dos"
+      },
+      {
+        "question": "اگر بخواهیم باز شدن صفحه ای را در IE متوقف کنیم چه دکمه ای را از نوار ابزار کلیک می کنیم؟",
+        "selected": "End",
+        "correct": "Stop"
+      }
+    ],
+    "date": "2026-10-07T14:41:58.347Z"
   }
 ]
