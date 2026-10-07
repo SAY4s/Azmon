@@ -291,6 +291,123 @@ footer { background:#0b3245; color:#b2dfdb; text-align:center; padding:11px 20px
   body.quiz-mode .num-btn    { width:34px; height:34px; font-size:13px; flex-shrink:0; }
 }
 </style>
+
+<style id="paper-theme">
+/* ===== تم «برگه‌ی پاسخ» — هم‌شکل سایت کارنامه ===== */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+:root{
+  --paper:#f2ecdd; --paper-dark:#e9e0c9; --ink:#232733; --ink-soft:#545a6b;
+  --red:#b23a2e; --red-soft:#c96257; --green:#2f6844; --gold:#b5893a;
+  --line:rgba(35,39,51,0.12); --margin-line:rgba(178,58,46,0.35);
+  --primary:var(--ink); --accent:var(--gold); --danger:var(--red);
+  --grad:var(--ink); --grad-icdl:var(--ink); --grad-dip:var(--ink); --grad-graf:var(--ink);
+  --grad-ok:var(--green); --grad-err:var(--red); --grad-ans:var(--ink-soft);
+  --grad-warn:var(--gold);
+  --sh:none; --shh:none;
+}
+*,*::before,*::after{ font-family:'Vazirmatn','SiteFont','Vazir',Tahoma,sans-serif; }
+body{
+  background:repeating-linear-gradient(var(--paper) 0px,var(--paper) 33px,var(--line) 34px),var(--paper);
+  color:var(--ink); position:relative;
+}
+body::before{ content:''; position:fixed; top:0; bottom:0; right:64px; width:2px; background:var(--margin-line); z-index:0; pointer-events:none; }
+header,.page-body,footer{ position:relative; z-index:1; }
+
+/* هدر */
+header{ background:rgba(233,224,201,0.85); color:var(--ink); border-bottom:3px double var(--ink); box-shadow:none; }
+header .logo i,header .contact i{ color:var(--red); }
+header .slogan{ color:var(--ink-soft); opacity:1; }
+header .contact{ color:var(--ink-soft); opacity:1; }
+
+/* بنرها */
+.banner-slot,.mobile-banner{ background:var(--paper-dark); border:2px solid var(--ink); border-radius:6px; box-shadow:none; }
+.banner-ph{ color:var(--ink-soft); }
+
+/* کادرها */
+.section{ background:rgba(255,255,255,0.55); border:1px solid var(--line); border-right:4px solid var(--red); border-radius:8px; box-shadow:none; }
+.section h2{ color:var(--ink); border-bottom:2px dashed var(--line); font-weight:800; }
+.section h2 i{ color:var(--red); }
+.section p{ color:var(--ink-soft); }
+#welcomeMsg{ color:var(--ink) !important; }
+#icdlStatus,#dipStatus{ color:var(--ink-soft) !important; }
+
+/* ورود */
+.login-card{ background:rgba(255,255,255,0.55); border:1.5px solid var(--ink); border-radius:10px; overflow:hidden; box-shadow:6px 6px 0 var(--ink); }
+.login-top{ padding:28px 24px 20px; text-align:center; border-bottom:2px dashed var(--line); }
+.login-stamp{ width:64px; height:64px; margin:0 auto 14px; border:3px solid var(--red); color:var(--red); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:26px; transform:rotate(-8deg); }
+.login-title{ font-size:clamp(15px,1.6vw,19px); font-weight:800; color:var(--ink); }
+.login-title span{ color:var(--red); }
+.login-sub{ margin-top:6px; font-size:13px; font-weight:600; color:var(--ink-soft); }
+.login-form{ padding:22px 24px 22px; }
+.login-field{ position:relative; margin-bottom:14px; }
+.login-field i{ position:absolute; right:14px; top:50%; transform:translateY(-50%); color:var(--ink-soft); pointer-events:none; }
+.login-input{ background:#fff; border:1.5px solid var(--line); border-radius:8px; color:var(--ink); padding-right:42px !important; margin-bottom:0 !important; font-size:clamp(16px,1.4vw,19px); font-weight:800; letter-spacing:4px; }
+.login-input:focus{ border-color:var(--ink); box-shadow:none; }
+.login-go{ width:100%; padding:13px; border:none; border-radius:8px; background:var(--ink); color:var(--paper); font-size:clamp(14px,1.3vw,17px); font-weight:800; cursor:pointer; transition:var(--tr); }
+.login-go:hover{ background:var(--red); transform:translateY(-2px); }
+.login-msg{ text-align:center; margin-top:12px; }
+
+/* دکمه‌های انتخاب آزمون: مهر روی برگه */
+.exam-btn,.type-btn{ background:rgba(255,255,255,0.7); color:var(--ink); border:2px solid var(--ink); border-radius:8px; box-shadow:4px 4px 0 var(--ink); }
+.exam-btn:hover,.type-btn:hover{ transform:translate(2px,2px); box-shadow:2px 2px 0 var(--ink); background:#fff; }
+.exam-btn i,.type-btn i{ color:var(--red); }
+.dip-btn i,.type-btn.graf i{ color:var(--gold); }
+.home-btn{ background:var(--ink); color:var(--paper); border-radius:8px; box-shadow:none; }
+.home-btn:hover{ background:var(--red); filter:none; }
+
+/* کادر آزمون */
+.quiz-wrap{ background:rgba(255,255,255,0.55); border:1.5px solid var(--ink); border-radius:8px; overflow:hidden; box-shadow:6px 6px 0 var(--ink); }
+.qz-head{ background:var(--ink); color:var(--paper); }
+.qz-timer{ background:rgba(255,255,255,0.12); }
+.qz-timer.warn{ background:var(--gold); color:var(--ink); }
+.qz-timer.danger{ background:var(--red); color:#fff; }
+.progress-wrap{ background:rgba(255,255,255,0.2); }
+.progress-bar{ background:var(--gold); }
+.qz-question{ background:rgba(255,255,255,0.7); color:var(--ink); border-right:5px solid var(--red); border-radius:6px; }
+.qz-opts{ border:1.5px solid var(--ink); border-radius:8px; background:#fff; }
+.opt-btn{ background:rgba(255,255,255,0.75); color:var(--ink); border-bottom:1.5px solid var(--line); }
+.opt-btn:last-child{ border-bottom:none; }
+.opt-btn::before{ background:transparent; color:var(--ink); border:2px solid var(--ink); }
+.opt-btn:not(:disabled):hover{ filter:none; background:var(--paper-dark); }
+.opt-btn.selected{ background:rgba(181,137,58,0.25); color:var(--ink); }
+.opt-btn.selected::before{ background:var(--ink); color:var(--paper); }
+.opt-btn.correct{ background:rgba(47,104,68,0.18); color:var(--ink); }
+.opt-btn.correct::before{ background:var(--green); border-color:var(--green); color:#fff; }
+.opt-btn.incorrect{ background:rgba(178,58,46,0.16); color:var(--ink); }
+.opt-btn.incorrect::before{ background:var(--red); border-color:var(--red); color:#fff; }
+.opt-btn.answered{ background:rgba(35,39,51,0.05); color:var(--ink-soft); }
+.opt-btn.answered::before{ border-color:var(--ink-soft); color:var(--ink-soft); }
+.opt-btn:disabled{ opacity:1; }
+.qz-foot{ background:rgba(255,255,255,0.4); border-top:1.5px dashed var(--line); }
+
+/* دکمه‌های ناوبری و شماره‌ها */
+.nav-btn,.submit-btn{ border-radius:8px; box-shadow:none; background:var(--ink); color:var(--paper); }
+.nav-btn.prev,.nav-btn.next{ background:transparent; color:var(--ink); border:2px solid var(--ink); }
+.nav-btn.prev:hover,.nav-btn.next:hover{ background:var(--paper-dark); filter:none; }
+.submit-btn{ background:var(--green); color:#fff; }
+.num-grid{ background:rgba(255,255,255,0.5); border:1px solid var(--line); border-radius:8px; }
+.num-btn{ background:#fff; color:var(--ink); border:2px solid var(--ink); box-shadow:none; }
+.num-btn.selected{ background:var(--gold); border-color:var(--gold); color:var(--ink); }
+.num-btn.answered{ background:var(--ink); color:var(--paper); }
+.num-btn.correct{ background:var(--green); border-color:var(--green); color:#fff; }
+.num-btn.incorrect{ background:var(--red); border-color:var(--red); color:#fff; }
+
+/* نتایج */
+.summary-bar{ background:rgba(255,255,255,0.12); border:1.5px dashed rgba(242,236,221,0.5); }
+.res-stats .lbl{ opacity:1; color:var(--paper); }
+
+/* فوتر */
+footer{ background:rgba(233,224,201,0.85); color:var(--ink-soft); border-top:3px double var(--ink); }
+.footer-courses{ color:var(--ink); }
+.footer-courses span i{ color:var(--red); }
+.footer-copy{ color:var(--ink-soft); }
+.footer-copy a{ color:var(--red) !important; }
+
+@media(max-width:900px){
+  body.quiz-mode .quiz-wrap{ border:none; box-shadow:none; border-radius:0; }
+  body::before{ right:18px; }
+}
+</style>
 </head>
 <body>
 
@@ -316,25 +433,19 @@ footer { background:#0b3245; color:#b2dfdb; text-align:center; padding:11px 20px
 
     <!-- ① لاگین با کدملی -->
     <div id="secLogin" style="width:100%;max-width:440px;animation:fadeIn .5s ease-out;">
-      <div style="background:white;border-radius:20px;overflow:hidden;box-shadow:0 8px 40px rgba(26,95,122,0.18);">
-        <div style="background:var(--grad);padding:32px 28px 24px;text-align:center;">
-          <div style="width:72px;height:72px;background:rgba(255,255,255,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;box-shadow:0 4px 16px rgba(0,0,0,0.15);">
-            <i class="fas fa-graduation-cap" style="font-size:32px;color:white;"></i>
-          </div>
-          <div style="color:white;font-size:clamp(14px,1.6vw,20px);font-weight:800;margin-bottom:5px;">سامانه آزمون مرکز آموزشی خوارزمی</div>
-          <div style="color:rgba(255,255,255,.78);font-size:clamp(11px,1vw,14px);">کد ملی خود را وارد کنید</div>
+      <div class="login-card">
+        <div class="login-top">
+          <div class="login-stamp"><i class="fas fa-graduation-cap"></i></div>
+          <div class="login-title">سامانه آزمون <span>مرکز آموزشی خوارزمی</span></div>
+          <div class="login-sub">کد ملی خود را وارد کنید</div>
         </div>
-        <div style="padding:28px 28px 24px;">
-          <div style="position:relative;margin-bottom:14px;">
-            <i class="fas fa-id-card" style="position:absolute;right:13px;top:50%;transform:translateY(-50%);color:#aaa;font-size:15px;pointer-events:none;"></i>
-            <input class="login-input" type="tel" id="nationalIdInput" placeholder="کد ملی (۱۰ رقم)" autocomplete="off" maxlength="10"
-              style="padding-right:42px;border-radius:10px;border:1.5px solid #e0e0e0;font-size:clamp(15px,1.4vw,19px);letter-spacing:3px;">
+        <div class="login-form">
+          <div class="login-field">
+            <i class="fas fa-id-card"></i>
+            <input class="login-input" type="tel" id="nationalIdInput" placeholder="کد ملی (۱۰ رقم)" autocomplete="off" maxlength="10">
           </div>
-          <button onclick="checkNationalId()" style="width:100%;padding:13px;border:none;border-radius:10px;background:var(--grad);color:white;font-size:clamp(14px,1.3vw,17px);font-weight:700;font-family:inherit;cursor:pointer;box-shadow:0 4px 14px rgba(26,95,122,0.3);transition:var(--tr);display:flex;align-items:center;justify-content:center;gap:8px;"
-            onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
-            <i class="fas fa-sign-in-alt"></i> ورود به سیستم
-          </button>
-          <p id="loginMsg" class="login-msg" style="text-align:center;margin-top:12px;"></p>
+          <button class="login-go" onclick="checkNationalId()"><i class="fas fa-sign-in-alt"></i> ورود به سیستم</button>
+          <p id="loginMsg" class="login-msg"></p>
         </div>
       </div>
     </div>
