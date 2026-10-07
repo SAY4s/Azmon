@@ -4,7 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>مرکز آموزشی خوارزمی</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style id="fa-local">
+/* آیکن‌های Font Awesome به‌صورت داخلی (فقط همین ۲۶ آیکن) — بدون نیاز به CDN */
+@font-face{font-family:'FA Local';src:url(data:font/woff2;base64,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) format('woff2');font-weight:900;font-style:normal;font-display:block;}
+.fas{font-family:'FA Local';font-weight:900;font-style:normal;font-variant:normal;display:inline-block;line-height:1;text-rendering:auto;-webkit-font-smoothing:antialiased;}
+.fas::before{font-family:'FA Local' !important;font-weight:900;}
+.fa-adjust::before{content:"\f042";}
+.fa-arrow-left::before{content:"\f060";}
+.fa-arrow-right::before{content:"\f061";}
+.fa-certificate::before{content:"\f0a3";}
+.fa-chart-bar::before{content:"\f080";}
+.fa-check-circle::before{content:"\f058";}
+.fa-circle::before{content:"\f111";}
+.fa-clipboard-list::before{content:"\f46d";}
+.fa-desktop::before{content:"\f390";}
+.fa-graduation-cap::before{content:"\f19d";}
+.fa-history::before{content:"\f1da";}
+.fa-home::before{content:"\f015";}
+.fa-id-card::before{content:"\f2c2";}
+.fa-image::before{content:"\f03e";}
+.fa-info-circle::before{content:"\f05a";}
+.fa-keyboard::before{content:"\f11c";}
+.fa-laptop-code::before{content:"\f5fc";}
+.fa-map-marker-alt::before{content:"\f3c5";}
+.fa-paint-brush::before{content:"\f1fc";}
+.fa-palette::before{content:"\f53f";}
+.fa-phone::before{content:"\f095";}
+.fa-phone-alt::before{content:"\f879";}
+.fa-play-circle::before{content:"\f144";}
+.fa-redo::before{content:"\f01e";}
+.fa-sign-in-alt::before{content:"\f2f6";}
+.fa-user-graduate::before{content:"\f501";}
+</style>
 
 <style>
 @font-face {
@@ -450,7 +481,7 @@ footer{ background:rgba(233,224,201,0.85); color:var(--ink-soft); border-top:3px
             <input class="login-input" type="tel" id="nationalIdInput" placeholder="کد ملی (۱۰ رقم)" autocomplete="off" maxlength="10">
           </div>
           <button class="login-go" onclick="checkNationalId()"><i class="fas fa-sign-in-alt"></i> ورود به سیستم</button>
-          <a class="login-go login-alt" href="https://say4s.github.io/Azmon/Natje.html" target="_blank" rel="noopener"><i class="fas fa-history"></i> مشاهده نتایج آزمون‌های قبلی</a>
+          <a class="login-go login-alt" href="https://say4s.github.io/Azmon/" target="_blank" rel="noopener"><i class="fas fa-history"></i> مشاهده نتایج آزمون‌های قبلی</a>
           <p id="loginMsg" class="login-msg"></p>
         </div>
       </div>
