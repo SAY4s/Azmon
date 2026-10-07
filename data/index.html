@@ -863,6 +863,30 @@ body::before{
   .report-head{flex-direction:column;}
   .stamp{align-self:flex-start;}
 }
+
+/* ---------- Topic stats & person history ---------- */
+.t-sub{display:flex; gap:8px; flex-wrap:wrap; margin-top:7px; font-size:12px; font-weight:600; color:var(--ink-soft);}
+.t-sub b{font-weight:800;}
+.t-sub .pass{color:var(--green);} .t-sub .fail{color:var(--red);}
+.stats-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:10px; margin-bottom:18px;}
+.stats-grid .stat .num{font-size:20px;}
+.chart-box{background:rgba(255,255,255,0.5); border:1px solid var(--line); border-radius:8px; padding:14px 10px 6px;}
+.chart-box h4{font-size:13px; font-weight:800; color:var(--ink-soft); margin:0 8px 8px;}
+.chart-box svg{width:100%; height:auto; display:block; direction:ltr;}
+.chart-box svg text{font-family:'Vazirmatn',sans-serif;}
+.stats-note{font-size:12px; color:var(--ink-soft); font-weight:600; margin-top:12px; line-height:1.9;}
+.history-box{margin:26px 0 4px; background:rgba(255,255,255,0.4); border:1px solid var(--line); border-right:4px solid var(--gold); border-radius:8px; padding:18px 18px 12px;}
+.history-head{display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:12px;}
+.history-head h3{font-size:15px; font-weight:800;}
+.history-head .trend{font-size:12.5px; font-weight:700;}
+.hist-scope{display:flex; gap:6px;}
+.hist-scope .filter-btn{padding:5px 12px; font-size:12px;}
+.hist-list{display:flex; flex-direction:column; gap:6px; margin-top:12px;}
+.hist-row{display:flex; justify-content:space-between; align-items:center; gap:10px; padding:9px 12px; border-radius:6px; border:1px solid var(--line); background:rgba(255,255,255,0.55); cursor:pointer; font-size:13px; font-weight:600;}
+.hist-row:hover{border-color:var(--red-soft);}
+.hist-row.current{border-color:var(--ink); background:rgba(35,39,51,0.07); cursor:default;}
+.hist-row .h-exam{background:var(--ink); color:var(--paper); font-size:11px; padding:2px 10px; border-radius:20px; font-weight:700;}
+.hist-row .h-pct{font-weight:900; min-width:48px; text-align:left;}
 </style>
 </head>
 <body>
@@ -922,6 +946,7 @@ body::before{
     <h1 id="listTitle">پاسخ‌برگ‌ها</h1>
     <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
       <span class="count" id="listCount"></span>
+      <button class="excel-btn karnameh-btn" id="statsBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg> آمار مبحث</button>
       <button class="excel-btn" id="exportListBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/><path d="M12 3v13"/><path d="M7 8l5-5 5 5"/></svg>
          EXCEL
@@ -1012,6 +1037,8 @@ body::before{
     <div class="stat blank"><div class="num" id="statBlank"></div><div class="lab">بي‌پاسخ</div></div>
   </div>
 
+  <div class="history-box" id="historyBox" style="display:none;"></div>
+
   <div class="filter-bar">
     <button class="filter-btn active" data-filter="all">همه</button>
     <button class="filter-btn" data-filter="wrong">فقط غلط‌ها</button>
@@ -1043,6 +1070,17 @@ body::before{
         دانلود فايل اکسل
       </button>
     </div>
+  </div>
+</div>
+
+<!-- TOPIC STATS MODAL -->
+<div class="modal-overlay" id="statsModalOverlay">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h3 id="statsModalTitle">آمار مبحث</h3>
+      <button class="modal-close" id="statsModalClose">✕</button>
+    </div>
+    <div class="modal-body" id="statsModalBody"></div>
   </div>
 </div>
 
@@ -1375,7 +1413,7 @@ function openTopicView(data){
     const card = document.createElement('div');
     card.className = 'topic-card';
     card.innerHTML = `
-      <div class="t-name">${escapeHtml(name)}</div>
+      <div><div class="t-name">${escapeHtml(name)}</div>${topicSummaryHtml(name, data)}</div>
       <div class="t-count">${count} پاسخ‌برگ</div>
     `;
     card.addEventListener('click', ()=>{
@@ -1684,6 +1722,7 @@ function openDetail(entry){
   document.querySelectorAll('.filter-btn').forEach(b=>b.classList.toggle('active', b.dataset.filter==='all'));
 
   renderQuestions();
+  renderHistory(entry);
 
   // show back button only if we came from a list
   document.getElementById('backBtn').style.display = (currentData.length > 1 || uniqueTopics(fullData).size > 1) ? 'inline-flex' : 'none';
@@ -2491,6 +2530,198 @@ document.getElementById('exportKarnamehZipBtn').addEventListener('click', async 
     btn.disabled = false;
   }
 });
+
+
+/* ================= آمار مبحث ================= */
+function computeStats(entries){
+  const pcts = entries.map(e=>Number(e.percent) || 0);
+  const n = pcts.length;
+  const sum = pcts.reduce((a,b)=>a+b,0);
+  const passed = pcts.filter(p=>p>=50).length;
+  const bins = new Array(10).fill(0);
+  pcts.forEach(p=>{ bins[Math.max(0, Math.min(9, Math.floor(p/10)))]++; });
+  const people = new Set(entries.map(e=>normalizeFa(e.name))).size;
+  return {
+    n, people,
+    avg: n ? sum/n : 0,
+    passRate: n ? passed/n*100 : 0,
+    passed,
+    max: n ? Math.max(...pcts) : 0,
+    min: n ? Math.min(...pcts) : 0,
+    bins
+  };
+}
+const fmt1 = v => (Math.round(v*10)/10).toString();
+
+function topicSummaryHtml(name, data){
+  const entries = data.filter(e=>(e.exam || 'بدون‌عنوان') === name);
+  const st = computeStats(entries);
+  return `<div class="t-sub"><span>میانگین: <b>${fmt1(st.avg)}%</b></span><span>قبولی: <b class="${st.passRate>=50?'pass':'fail'}">${fmt1(st.passRate)}%</b></span></div>`;
+}
+
+function buildHistogramSvg(bins){
+  const W=700, H=240, padL=34, padR=12, padT=22, padB=40;
+  const iw = W-padL-padR, ih = H-padT-padB;
+  const maxV = Math.max(1, ...bins);
+  const step = Math.max(1, Math.ceil(maxV/5));
+  const top = Math.ceil(maxV/step)*step;
+  const bw = iw/bins.length;
+  let out = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  for(let v=0; v<=top; v+=step){
+    const y = padT + ih - (v/top)*ih;
+    out += `<line x1="${padL}" x2="${W-padR}" y1="${y}" y2="${y}" stroke="rgba(35,39,51,0.12)"/>`;
+    out += `<text x="${padL-6}" y="${y+4}" text-anchor="end" font-size="11" fill="#545a6b">${v}</text>`;
+  }
+  bins.forEach((c,i)=>{
+    const h = (c/top)*ih;
+    const x = padL + i*bw + bw*0.12;
+    const w = bw*0.76;
+    const y = padT + ih - h;
+    const color = i>=5 ? '#2f6844' : '#b23a2e';
+    out += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="${color}" opacity="0.85"/>`;
+    if(c>0) out += `<text x="${x+w/2}" y="${y-5}" text-anchor="middle" font-size="12" font-weight="700" fill="#232733">${c}</text>`;
+    const lo = i*10, hi = i===9 ? 100 : i*10+9;
+    out += `<text x="${x+w/2}" y="${H-padB+16}" text-anchor="middle" font-size="10.5" fill="#545a6b">${lo}-${hi}</text>`;
+  });
+  out += `<text x="${padL+iw/2}" y="${H-6}" text-anchor="middle" font-size="11" font-weight="700" fill="#545a6b">درصد نمره</text>`;
+  out += `</svg>`;
+  return out;
+}
+
+function openStatsModal(){
+  const entries = getFilteredListEntries();
+  const label = selectedTopic || 'همه‌ي پاسخ‌برگ‌ها';
+  document.getElementById('statsModalTitle').textContent = 'آمار — ' + label;
+  const body = document.getElementById('statsModalBody');
+  if(!entries.length){
+    body.innerHTML = '<div class="empty-filter">داده‌اي براي محاسبه‌ي آمار نيست.</div>';
+  } else {
+    const st = computeStats(entries);
+    const box = (num, lab, cls) => `<div class="stat ${cls||''}"><div class="num">${num}</div><div class="lab">${lab}</div></div>`;
+    const filtered = entries.length !== currentData.length;
+    body.innerHTML = `
+      <div class="stats-grid">
+        ${box(st.n, 'تعداد پاسخ‌برگ')}
+        ${box(fmt1(st.avg)+'%', 'ميانگين نمره')}
+        ${box(fmt1(st.passRate)+'%', 'درصد قبولي (≥۵۰٪)', st.passRate>=50?'correct':'wrong')}
+        ${box(st.max+'%', 'بالاترين')}
+        ${box(st.min+'%', 'پايين‌ترين')}
+      </div>
+      <div class="chart-box">
+        <h4>نمودار توزيع نمرات</h4>
+        ${buildHistogramSvg(st.bins)}
+      </div>
+      <div class="stats-note">
+        ${st.passed} از ${st.n} پاسخ‌برگ قبول شده‌اند · تعداد افراد متفاوت: ${st.people}
+        ${filtered ? '<br>اين آمار فقط روي نتايج فيلترشده (نام / بازه‌ي تاريخ) حساب شده.' : ''}
+      </div>`;
+  }
+  document.getElementById('statsModalOverlay').classList.add('open');
+}
+document.getElementById('statsBtn').addEventListener('click', openStatsModal);
+document.getElementById('statsModalClose').addEventListener('click', ()=>document.getElementById('statsModalOverlay').classList.remove('open'));
+document.getElementById('statsModalOverlay').addEventListener('click', e=>{
+  if(e.target.id === 'statsModalOverlay') e.target.classList.remove('open');
+});
+
+/* ================= سابقه‌ي يک نفر ================= */
+let historyScope = 'all'; // 'all' | 'topic'
+
+function personEntries(entry){
+  const key = normalizeFa(entry.name);
+  return fullData
+    .filter(e=>normalizeFa(e.name) === key)
+    .sort((a,b)=>(new Date(a.date||0)) - (new Date(b.date||0)));
+}
+
+function buildTrendSvg(list, current){
+  const W=700, H=230, padL=34, padR=22, padT=24, padB=38;
+  const iw=W-padL-padR, ih=H-padT-padB;
+  const n=list.length;
+  const xAt = i => n===1 ? padL+iw/2 : padL + (i/(n-1))*iw;
+  const yAt = p => padT + ih - (Math.max(0,Math.min(100,p))/100)*ih;
+  let out = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  [0,25,50,75,100].forEach(v=>{
+    const y=yAt(v);
+    const is50 = v===50;
+    out += `<line x1="${padL}" x2="${W-padR}" y1="${y}" y2="${y}" stroke="${is50?'rgba(178,58,46,0.5)':'rgba(35,39,51,0.12)'}" ${is50?'stroke-dasharray="5 4"':''}/>`;
+    out += `<text x="${padL-6}" y="${y+4}" text-anchor="end" font-size="11" fill="#545a6b">${v}</text>`;
+  });
+  const pts = list.map((e,i)=>[xAt(i), yAt(Number(e.percent)||0)]);
+  out += `<polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="#232733" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>`;
+  const labelEvery = Math.ceil(n/8);
+  list.forEach((e,i)=>{
+    const [x,y] = pts[i];
+    const pct = Number(e.percent)||0;
+    const isCur = e === current;
+    const color = pct>=50 ? '#2f6844' : '#b23a2e';
+    out += `<circle cx="${x}" cy="${y}" r="${isCur?7:5}" fill="${color}" stroke="${isCur?'#232733':'#f2ecdd'}" stroke-width="${isCur?2.5:2}"/>`;
+    out += `<text x="${x}" y="${y-11}" text-anchor="middle" font-size="11.5" font-weight="800" fill="#232733">${pct}</text>`;
+    if(i%labelEvery===0 || i===n-1){
+      out += `<text x="${x}" y="${H-padB+16}" text-anchor="middle" font-size="10" fill="#545a6b">${escapeHtml(fmtDateShort(e.date))}</text>`;
+    }
+  });
+  out += `</svg>`;
+  return out;
+}
+
+function renderHistory(entry){
+  const box = document.getElementById('historyBox');
+  const all = personEntries(entry);
+  if(all.length < 2){ box.style.display='none'; box.innerHTML=''; return; }
+
+  const topicName = entry.exam || 'بدون‌عنوان';
+  const topicList = all.filter(e=>(e.exam || 'بدون‌عنوان') === topicName);
+  const multiTopic = new Set(all.map(e=>e.exam || 'بدون‌عنوان')).size > 1;
+  if(!multiTopic) historyScope = 'all';
+  const list = historyScope === 'topic' ? topicList : all;
+
+  let trend = '';
+  if(list.length >= 2){
+    const diff = (Number(list[list.length-1].percent)||0) - (Number(list[0].percent)||0);
+    const cls = diff>0 ? 'var(--green)' : diff<0 ? 'var(--red)' : 'var(--ink-soft)';
+    const word = diff>0 ? `رشد ${diff} درصدي` : diff<0 ? `افت ${Math.abs(diff)} درصدي` : 'بدون تغيير';
+    trend = `<span class="trend" style="color:${cls}">از اولين تا آخرين آزمون: ${word}</span>`;
+  }
+
+  box.style.display = 'block';
+  box.innerHTML = `
+    <div class="history-head">
+      <h3>سابقه‌ي آزمون‌ها (${list.length} بار)</h3>
+      ${multiTopic ? `<div class="hist-scope">
+        <button class="filter-btn ${historyScope==='all'?'active':''}" data-scope="all">همه‌ي مباحث</button>
+        <button class="filter-btn ${historyScope==='topic'?'active':''}" data-scope="topic">فقط همين مبحث</button>
+      </div>` : ''}
+    </div>
+    ${trend}
+    ${list.length >= 2
+      ? `<div class="chart-box" style="margin-top:10px;">${buildTrendSvg(list, entry)}</div>`
+      : '<div class="stats-note">در اين مبحث فقط يک بار آزمون داده.</div>'}
+    <div class="hist-list"></div>`;
+
+  const listEl = box.querySelector('.hist-list');
+  list.slice().reverse().forEach(e=>{
+    const pct = Number(e.percent)||0;
+    const row = document.createElement('div');
+    row.className = 'hist-row' + (e===entry ? ' current' : '');
+    row.innerHTML = `
+      <span>${escapeHtml(fmtDateShort(e.date))}</span>
+      <span class="h-exam">${escapeHtml(e.exam || 'بدون‌عنوان')}</span>
+      <span class="h-pct" style="color:${pct>=50?'var(--green)':'var(--red)'}">${pct}%</span>`;
+    if(e !== entry){
+      row.addEventListener('click', ()=>{
+        selectedTopic = e.exam || 'بدون‌عنوان';
+        currentData = fullData.filter(x=>(x.exam || 'بدون‌عنوان') === selectedTopic);
+        openDetail(e);
+      });
+    }
+    listEl.appendChild(row);
+  });
+
+  box.querySelectorAll('[data-scope]').forEach(b=>{
+    b.addEventListener('click', ()=>{ historyScope = b.dataset.scope; renderHistory(entry); });
+  });
+}
 
 </script>
 </body>
