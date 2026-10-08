@@ -58,6 +58,7 @@ pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd
     <input type="search" id="q" placeholder="جستجو..." style="flex:1;min-width:160px">
     <button class="sec" id="new1">➕ ردیف جدید</button>
     <label class="btn sec">باز کردن JSON<input type="file" id="file" accept=".json,application/json" hidden></label>
+    <button id="all">📥 همه اشخاص (بدون تکرار)</button>
     <button class="sec" id="reload">🔄 بروزرسانی از GitHub</button>
     <label style="font-size:.9rem"><input type="checkbox" id="onlydup"> فقط تکراری‌ها</label>
     <button class="sec" id="clear">پاک کردن همه</button>
@@ -178,6 +179,20 @@ $("clear").onclick=()=>{if(confirm("همه‌ی ردیف‌ها پاک شود؟"
 $("q").oninput=render;
 $("onlydup").onchange=render;
 $("reload").onclick=loadRemote;
+$("all").onclick=async()=>{
+  await loadRemote();
+  if(!remoteOK){alert("خواندن kodmeli.json از GitHub ناموفق بود.");return}
+  const m=new Map(remote);                       // همه‌ی اشخاص فایل (هر کد فقط یک بار)
+  const before=items.length;
+  items.forEach(i=>{if(i.c)m.set(i.c,i.n)});     // موارد لیست فعلی اضافه/جایگزین می‌شوند
+  const fromList=items.filter(i=>i.c&&!remote.has(i.c)).length;
+  items=[...m].map(([c,n])=>({c,n}));
+  $("q").value="";$("onlydup").checked=false;
+  render();
+  const msg=$("msg");msg.style.color="var(--mu)";
+  msg.textContent="✓ "+items.length+" شخص یکتا بارگذاری شد (فایل: "+remote.size+(fromList?"، جدید از لیست شما: "+fromList:"")+"). کد کامل در بخش «خروجی JSON» پایین صفحه است؛ «کپی» یا «دانلود» را بزن.";
+  $("out").scrollIntoView({behavior:"smooth",block:"center"});
+};
 function loadJSON(text){
   try{
     const o=JSON.parse(text);
