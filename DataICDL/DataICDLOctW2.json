@@ -424,5 +424,218 @@
       }
     ],
     "date": "2026-10-08T09:23:15.560Z"
+  },
+  {
+    "name": "هادی داودی",
+    "nationalId": "0053414209",
+    "exam": "icdl",
+    "score": 10,
+    "total": 40,
+    "percent": 25,
+    "wrong": 30,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "از نمای .......... برای جابجایی و مدیریت کردن اسلایدها در Power Point استفاده می شود.",
+        "selected": "Reading View",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "کدام کلید سبب پرش مکان نما به ابتدای سند می گردد؟",
+        "selected": "End",
+        "correct": "Ctrl+Home"
+      },
+      {
+        "question": "به منبع انرژی غیرقابل توقف.........",
+        "selected": "Power",
+        "correct": "UPS"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Text",
+        "correct": "Number"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "اشتراک اینترنت به پایان رسیده باشد",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Alt+S",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "رکورد"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "دیسک مغناطیسی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Split Query",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "برای انتخاب چند خط از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلیک و درگ ماوس و انتخاب کلمات همراه با فشردن کلید Alt",
+        "correct": "کلیک کردن بر مبدا و کشیدن ماوس به طرف انتها"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Arrow Style",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "هنگامی که دو عبارت شرطی در Criteria نوشته شود، برای دارا بودن هر دو شرط عملگر بین آنها، کدام است؟",
+        "selected": "Xor",
+        "correct": "And"
+      },
+      {
+        "question": "برای تعیین نحوه نمایش فایل ها از کدام گزینه نوار ابزار استفاده می کنیم؟",
+        "selected": "Forward",
+        "correct": "View"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Bit",
+        "correct": "Bit"
+      },
+      {
+        "question": "جهت زمانبندی کردن تعویض اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Animation",
+        "correct": "Transition to this Slide"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+D",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر معرف سازمان دولتی است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Text",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط لغات مستقل در کادر جستجو پیدا شوند کدام گزینه را فعال می کنیم؟",
+        "selected": "Find Whole Words Only",
+        "correct": "Find Whole Words Only"
+      },
+      {
+        "question": "هنگام اضافه کردن یک سلول گزینه Shift Cells Down چه عملی انجام می دهد؟",
+        "selected": "انتقال سایر خانه ها به راست",
+        "correct": "انتقال سایر خانه ها به پایین"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Hide File Extension for Known File Types",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Web Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "در ویندوز 7 برنامه های کوچکی که برای ارائه سریع و آسان اطلاعات مختلف در میزکار پیش بینی شده اند، ...... نامیده می شوند.",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "از کدام برگه در پنجره Properties می توان صفت یک پوشه (Attributes) را تغییر داد؟",
+        "selected": "Customize",
+        "correct": "General"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Ctrl+F1",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": "وزن و مارک دستگاه",
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "فراخوانی از حافظه",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "صفحه کلید",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای انصراف از آخرین عمل انجام شده چه دستوری استفاده می شود؟",
+        "selected": "Redo و Repeat",
+        "correct": "Undo"
+      },
+      {
+        "question": "کدامیک از چاپگرهای زیر سرعت بیشتری دارد؟",
+        "selected": "چاپگرهای ضربه ای",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Alignment",
+        "correct": "Right"
+      },
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Super Computer",
+        "correct": "Desktop - Laptop"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Esc",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "اطلاعات حذف شده در کجا نگهداری می شوند؟",
+        "selected": "Document",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "منظور از (Screen Saver) چیست؟",
+        "selected": "صفحه نمایش ویندوز",
+        "correct": "محافظ صفحه نمایش"
+      }
+    ],
+    "date": "2026-10-08T11:00:34.271Z"
   }
 ]
