@@ -27,6 +27,10 @@ th{position:sticky;top:0;background:var(--card);font-size:.85rem;color:var(--mu)
 td input{border:1px solid transparent;background:transparent}
 td input:focus{border-color:var(--ac);background:var(--bg);outline:0}
 td input.bad{color:var(--er)}
+td.wr{font-size:.8rem;color:var(--er);white-space:nowrap}
+tr.dupr{background:rgba(217,45,32,.08)}
+#msg{white-space:pre-line;display:block}
+#rs{color:var(--mu);font-size:.85rem;margin-top:6px}
 td input.code{direction:ltr;text-align:center;width:150px}
 #st{color:var(--mu);font-size:.9rem;margin-top:6px}
 pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px;max-height:240px;overflow:auto;margin:8px 0 0;font-size:.85rem;white-space:pre}
@@ -43,8 +47,9 @@ pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd
   <div class="row">
     <button id="add">افزودن به لیست</button>
     <label><input type="checkbox" id="pad"> کدهای ۹ رقمی را با صفر ابتدایی ۱۰ رقمی کن</label>
+    <label><input type="checkbox" id="skipdup"> کدهای موجود در kodmeli.json اضافه نشوند</label>
   </div>
-  <div id="msg" class="row" style="color:var(--mu)"></div>
+  <div id="msg" style="color:var(--mu);margin-top:8px"></div>
 </section>
 
 <section id="drop">
@@ -53,10 +58,13 @@ pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd
     <input type="search" id="q" placeholder="جستجو..." style="flex:1;min-width:160px">
     <button class="sec" id="new1">➕ ردیف جدید</button>
     <label class="btn sec">باز کردن JSON<input type="file" id="file" accept=".json,application/json" hidden></label>
+    <button class="sec" id="reload">🔄 بروزرسانی از GitHub</button>
+    <label style="font-size:.9rem"><input type="checkbox" id="onlydup"> فقط تکراری‌ها</label>
     <button class="sec" id="clear">پاک کردن همه</button>
   </div>
-  <div class="tw"><table><thead><tr><th>#</th><th>کد ملی</th><th>نام کامل</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
+  <div class="tw"><table><thead><tr><th>#</th><th>کد ملی</th><th>نام کامل</th><th>وضعیت</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
   <div id="st"></div>
+  <div id="rs"></div>
 </section>
 
 <section>
@@ -73,7 +81,24 @@ pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd
 const $=id=>document.getElementById(id);
 const fix=s=>s.replace(/[۰-۹]/g,c=>c.charCodeAt(0)-1776).replace(/[٠-٩]/g,c=>c.charCodeAt(0)-1632);
 const valid=c=>/^\d{10}$/.test(c);
+const REMOTE="https://raw.githubusercontent.com/SAY4s/Azmon/refs/heads/main/kodmeli.json";
+let remote=new Map(),remoteOK=false;
 let items=[]; // {c, n}
+const inRemote=c=>remote.has(c);
+const localCount=c=>items.reduce((k,i)=>k+(i.c===c),0);
+async function loadRemote(){
+  $("rs").textContent="در حال خواندن kodmeli.json از GitHub ...";
+  try{
+    const r=await fetch(REMOTE+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error(r.status);
+    const t=await r.text(), o=JSON.parse(t);
+    remote=new Map(Object.entries(o));remoteOK=true;
+    const cnt={};for(const m of t.matchAll(/"(\d+)"\s*:/g))cnt[m[1]]=(cnt[m[1]]||0)+1;
+    const d=Object.keys(cnt).filter(k=>cnt[k]>1);
+    $("rs").textContent="✓ "+remote.size+" کد ملی از kodmeli.json (GitHub) خوانده شد"+(d.length?" | ⚠ خود فایل "+d.length+" کلید تکراری دارد: "+d.join("، "):"");
+  }catch(e){remoteOK=false;$("rs").textContent="⚠ خواندن kodmeli.json ناموفق بود؛ بررسی تکراری بودن نسبت به فایل انجام نمی‌شود.";}
+  render();
+}
 try{items=JSON.parse(localStorage.getItem("kodmeli_items")||"[]")}catch(e){items=[]}
 
 function toObj(){const o={};items.forEach(i=>{if(i.c)o[i.c]=i.n});return o}
@@ -82,24 +107,38 @@ function stats(){
   const seen={},dup=new Set();
   items.forEach(i=>{if(seen[i.c])dup.add(i.c);seen[i.c]=1});
   const bad=items.filter(i=>!valid(i.c)).length;
-  $("st").textContent=items.length+" ردیف"+(bad?" | ⚠ "+bad+" کد نامعتبر":"")+(dup.size?" | ⚠ "+dup.size+" کد تکراری (آخری ذخیره می‌شود)":"");
+  const rd=items.filter(i=>i.c&&inRemote(i.c)).length;
+  $("st").textContent=items.length+" ردیف"+(bad?" | ⚠ "+bad+" کد نامعتبر":"")+(dup.size?" | ⚠ "+dup.size+" کد تکراری در همین لیست (آخری ذخیره می‌شود)":"")+(rd?" | ⚠ "+rd+" کد از قبل در kodmeli.json هست":"");
   $("out").textContent=JSON.stringify(toObj(),null,2);
   save();
 }
 function render(){
   const q=fix($("q").value.trim());
   const tb=$("tb");tb.innerHTML="";
+  const od=$("onlydup").checked;
   items.forEach((it,i)=>{
     if(q&&!it.c.includes(q)&&!it.n.includes(q))return;
-    const tr=document.createElement("tr");
+    const dr=it.c&&inRemote(it.c), dl=it.c&&localCount(it.c)>1;
+    if(od&&!dr&&!dl)return;
+    const tr=document.createElement("tr");if(dr||dl)tr.className="dupr";
     const td0=document.createElement("td");td0.textContent=i+1;
     const c=document.createElement("input");c.type="text";c.className="code"+(valid(it.c)?"":" bad");c.value=it.c;
-    c.oninput=()=>{it.c=fix(c.value.trim());c.classList.toggle("bad",!valid(it.c));stats()};
+    c.oninput=()=>{it.c=fix(c.value.trim());c.classList.toggle("bad",!valid(it.c));stats();updWr()};
     const n=document.createElement("input");n.type="text";n.value=it.n;
     n.oninput=()=>{it.n=n.value;stats()};
+    const w=document.createElement("td");w.className="wr";
+    const updWr=()=>{
+      const a=[];
+      if(it.c&&inRemote(it.c))a.push("⚠ تکراری — در kodmeli.json موجود است ("+remote.get(it.c)+")");
+      if(it.c&&localCount(it.c)>1)a.push("⚠ تکراری در همین لیست");
+      w.textContent=a.join(" | ");
+      tr.className=a.length?"dupr":"";
+    };
+    updWr();
     const d=document.createElement("button");d.className="del";d.textContent="حذف";
     d.onclick=()=>{items.splice(i,1);render()};
-    [td0,c,n,d].forEach((e,k)=>{const td=k?document.createElement("td"):e;if(k){td.appendChild(e)}tr.appendChild(td)});
+    [td0,c,n].forEach((e,k)=>{const td=k?document.createElement("td"):e;if(k){td.appendChild(e)}tr.appendChild(td)});
+    tr.appendChild(w);const tdd=document.createElement("td");tdd.appendChild(d);tr.appendChild(tdd);
     tb.appendChild(tr);
   });
   stats();
@@ -120,15 +159,25 @@ function parse(text,pad){
 }
 $("add").onclick=()=>{
   const{rows,bad}=parse($("paste").value,$("pad").checked);
-  let a=0,u=0;
-  rows.forEach(r=>{const e=items.find(i=>i.c===r.c);if(e){e.n=r.n;u++}else{items.push(r);a++}});
-  $("msg").textContent=a+" مورد جدید، "+u+" به‌روزرسانی"+(bad.length?" | خطوط نامعتبر: "+bad.length:"");
-  if(!bad.length)$("paste").value="";
+  let a=0,u=0,s=0;const dups=[];
+  const skip=$("skipdup").checked;
+  rows.forEach(r=>{
+    if(inRemote(r.c)){dups.push("• "+r.c+" — "+r.n+"  (در فایل: "+remote.get(r.c)+")");if(skip){s++;return}}
+    const e=items.find(i=>i.c===r.c);if(e){e.n=r.n;u++}else{items.push(r);a++}
+  });
+  const m=$("msg");
+  m.style.color=dups.length?"var(--er)":"var(--mu)";
+  m.textContent=a+" مورد جدید، "+u+" به‌روزرسانی"+(s?"، "+s+" ردشده":"")+(bad.length?" | خطوط نامعتبر: "+bad.length:"")
+    +(dups.length?"\n⚠ "+dups.length+" کد ملی تکراری است (از قبل در kodmeli.json وجود دارد):\n"+dups.join("\n"):"")
+    +(!remoteOK?"\n(بررسی نسبت به kodmeli.json انجام نشد؛ فایل خوانده نشده)":"");
+  if(!bad.length&&!dups.length)$("paste").value="";
   render();
 };
 $("new1").onclick=()=>{items.push({c:"",n:""});$("q").value="";render();const r=$("tb").querySelector("tr:last-child input");r&&r.focus()};
 $("clear").onclick=()=>{if(confirm("همه‌ی ردیف‌ها پاک شود؟")){items=[];render()}};
 $("q").oninput=render;
+$("onlydup").onchange=render;
+$("reload").onclick=loadRemote;
 function loadJSON(text){
   try{
     const o=JSON.parse(text);
@@ -148,6 +197,7 @@ $("dl").onclick=()=>{
 };
 $("cp").onclick=()=>navigator.clipboard.writeText($("out").textContent).then(()=>{$("cp").textContent="کپی شد ✓";setTimeout(()=>$("cp").textContent="کپی",1200)});
 render();
+loadRemote();
 </script>
 </body>
 </html>
