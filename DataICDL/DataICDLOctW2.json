@@ -3406,5 +3406,218 @@
       }
     ],
     "date": "2026-10-09T13:16:46.636Z"
+  },
+  {
+    "name": "صبا دوستی",
+    "nationalId": "7280106757",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 13,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "کدام یک از گزینه های یک آدرس صندوق پستی صحیح می باشد؟",
+        "selected": "Yahoo.com@info",
+        "correct": "bayat@irantvto.ir"
+      },
+      {
+        "question": "کدام یک از بخش های cpu واحد مناسب عملیات ریاضی و منطقی نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Alu"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Currency",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "پلاتر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "در هنگام قالب بندی سلول ها با گزینه Alignment می توان......؟",
+        "selected": "ترازبندی متن را تنظیم کرد",
+        "correct": "ترازبندی متن را تنظیم کرد"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟",
+        "selected": "Decrease Font Size",
+        "correct": "Decrease Font Size"
+      },
+      {
+        "question": "کدامیک از فرمت های فایل زیر برای تصویر زمینه ویندوز قابل استفاده است؟",
+        "selected": "JPG",
+        "correct": "JPG"
+      },
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Two Content",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "پاورپوینت",
+        "correct": "C#"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Status Bar",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "به مجموعه ای از رکوردها که دارای عناوین فیلد یکسان هستند ................. گفته می شود؟",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Fill Color",
+        "correct": "Shading"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt & Docx",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "برای بازیابی فایل یا پوشه از سطل بازیافت از فرمان ........................... استفاده می کنیم.",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ...................... است.",
+        "selected": "حجم",
+        "correct": "حجم"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "نام پیش فرض فایل های اکسل چیست؟",
+        "selected": "Workbook",
+        "correct": "Book"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": "Formula Bar از گروه Show تب Review",
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": null,
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "تک کاربره",
+        "correct": "AERO"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اکسترانت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Gradient",
+        "correct": "Gradient"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "ICT به چه معناست؟",
+        "selected": "فن آوری اطلاعات و ارتباطات",
+        "correct": "فن آوری اطلاعات و ارتباطات"
+      },
+      {
+        "question": "در کدام روش می توان پرس و جو را با شرط تعیین شده ایجاد نمود؟",
+        "selected": "Query Wizard",
+        "correct": "Query Design"
+      },
+      {
+        "question": "اگر بخواهیم برچسب داده های نمودار را داخل و در انتهای آن ایجاد نماییم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Inside End",
+        "correct": "Inside End"
+      },
+      {
+        "question": "برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward To All",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": null,
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      }
+    ],
+    "date": "2026-10-09T13:49:21.800Z"
   }
 ]
