@@ -2341,5 +2341,218 @@
       }
     ],
     "date": "2026-10-09T11:13:18.969Z"
+  },
+  {
+    "name": "دیانا کلاسی",
+    "nationalId": "4312463255",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze Panes",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+]",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "کدام یک از ابزارها در گروه Master View برای تعیین نمای ظاهری نکات ارائه دهنده ی اسلایدهای فایل ارائه مطلب مورد استفاده قرار می گیرد؟",
+        "selected": "Slide Master",
+        "correct": "Note Master"
+      },
+      {
+        "question": "برنامه اکسل جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "صفحه گسترده",
+        "correct": "صفحه گسترده"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Read Mode",
+        "correct": "Outline"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Create-----Form-------Form Wizard",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Direction از گروه Cell Size",
+        "correct": "Text Direction از گروه Alignment"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Org",
+        "correct": "Edu"
+      },
+      {
+        "question": "برای قرار دادن خط بین ستون ها کدام گزینه از کادر محاوره ای Columns را انتخاب می کنیم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "در صورتی که بخواهیم عبارت های یافت شده از نظر بزرگی و کوچکی حروف با عبارت مورد جستجو یکسان باشد کدام گزینه را فعال می کنیم؟",
+        "selected": "Find Whole Words Only",
+        "correct": "Match Case"
+      },
+      {
+        "question": "کدام یک کامپیوترهای زیر از نظر قدرت پردازش ضعیف تر است؟",
+        "selected": "Micro Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Report Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "هنگامی که دو عبارت شرطی در Criteria نوشته شود، برای دارا بودن هر دو شرط عملگر بین آنها، کدام است؟",
+        "selected": "And",
+        "correct": "And"
+      },
+      {
+        "question": "برای تولید اعداد متوالی اتوماتیک کدام نوع داده را برای فیلد باید تعریف نمود؟",
+        "selected": "Autonumber",
+        "correct": "Autonumber"
+      },
+      {
+        "question": "اجزای اصلی کامپیوترهای شخصی کدام است؟",
+        "selected": "Cpu - Ram - Hard - Case - Monitor - Keyboard",
+        "correct": "Cpu - Memory - Input Unit - Output Unit"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "کدام نوع داده ی زیر برای نمایش قالب متنی کاربرد دارد؟",
+        "selected": "General",
+        "correct": "Text"
+      },
+      {
+        "question": "کدام یک از دستگاه زیر ترکیبی از مودم و دستگاه اسکنر می باشد؟",
+        "selected": "تلکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "حالت بزرگ نمایی چه تاثیری بر سند می گذارد؟",
+        "selected": "سند را با بزرگ نمایی ذخیره می کند",
+        "correct": "هیچ گونه تاثیری بر چگونگی چاپ ندارد"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+D",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "فیلد تاریخ تولد از چه نوعی معرفی می شود؟",
+        "selected": "Date & Time",
+        "correct": "Date & Time"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Default Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Wireless",
+        "correct": "Wireless"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "Ram",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Table",
+        "correct": "Select Row"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "اطلاعات حذف شده در کجا نگهداری می شوند؟",
+        "selected": "Microsoft Outlook",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Light Pen",
+        "correct": "Scanner"
+      },
+      {
+        "question": "برای ذخیره نمودن تصاویر در وب پس از راست کلیک از چه گزینه ای استفاده می شود؟",
+        "selected": "Go to my picture",
+        "correct": "Save picture as"
+      }
+    ],
+    "date": "2026-10-09T11:29:26.511Z"
   }
 ]
