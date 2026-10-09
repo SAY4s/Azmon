@@ -3619,5 +3619,218 @@
       }
     ],
     "date": "2026-10-09T13:49:21.800Z"
+  },
+  {
+    "name": "دریا قنبری",
+    "nationalId": "0151590631",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Round(A1,A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "برای ذخیره سند از چه کلیدهایی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "از طریق Create - Form Wizard",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "برای تولید اعداد متوالی اتوماتیک کدام نوع داده را برای فیلد باید تعریف نمود؟",
+        "selected": "Number",
+        "correct": "Autonumber"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Below از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "پایین",
+        "correct": "پایین"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم کلیه صفحات وب سایت های مشاهده شده قبلی را مشاهده نماییم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Arrange Icons",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "After Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "در نمای Outline با فشردن کدام کلید بر روی عناوین اسلاید، اسلایدی جدید ایجاد می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Enter"
+      },
+      {
+        "question": "USER ID همان ........ و PASSWORD همان ............... است.",
+        "selected": "نام کاربری و کلمه عبور",
+        "correct": "نام کاربری و کلمه عبور"
+      },
+      {
+        "question": "در طراحی اسلاید اصلی در ابزار Slide Master می توانیم .........",
+        "selected": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم",
+        "correct": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یادداشت بر روی اسلایدها مناسب است؟",
+        "selected": "Comment",
+        "correct": "Comment"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "جهت چاپ چند اسلاید به صورت کوچک در یک کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Frame Slide",
+        "correct": "Handouts"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "Cpu مخفف چه کلماتی است؟",
+        "selected": "Central Processing Unit",
+        "correct": "Central Processing Unit"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برای ترسیم جدول با استفاده از مداد از چه دستوری استفاده می شود؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "گزارش از نظر طرح بندی (Layout) به طور پیش فرض دارای چه وضعیتی است؟",
+        "selected": "Report Layout",
+        "correct": "Columnar"
+      },
+      {
+        "question": "برای جابجایی بین پنجره های باز از کلیدهای ...... استفاده می کنیم.",
+        "selected": "Alt+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Mailings"
+      },
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "پوشه sent شامل ...... است.",
+        "selected": "لیست نامه های ارسال شده است",
+        "correct": "لیست نامه های ارسال شده است"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "در نمای Data Sheet جهت انتقال مکان نما به فیلد قبلی از کدام گزینه استفاده می شود؟",
+        "selected": "Shift+Tab - دکمه های جهتی صفحه کلید",
+        "correct": "Shift+Tab - دکمه های جهتی صفحه کلید"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "پلاتر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Apply Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "برای درج جدول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Table",
+        "correct": "سربرگ Insert گروه Table"
+      },
+      {
+        "question": "به ناحیه نمایش ساعت، وضعیت بلندگو و غیره در روی نوار کار ..................... گویند.",
+        "selected": "Notification",
+        "correct": "Notification"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Table to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Alt+Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "نوار مغناطیسی",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": "داشتن زیر پوشه",
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "سیستم عامل",
+        "correct": "برنامه های کاربردی"
+      }
+    ],
+    "date": "2026-10-09T15:50:14.095Z"
   }
 ]
