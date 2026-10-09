@@ -2554,5 +2554,218 @@
       }
     ],
     "date": "2026-10-09T11:29:26.511Z"
+  },
+  {
+    "name": "دیانا کلاسی",
+    "nationalId": "4312463255",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "PROM",
+        "correct": "RAM"
+      },
+      {
+        "question": "جهت تغییر شکل آیکن Computer کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Change Desktop Icon",
+        "correct": "Change Desktop Icon"
+      },
+      {
+        "question": "گزینه .......................... برای ترازبندی متن کاربرد دارد.",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "Table Properties",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "از این سربرگ برای طراحی اسلاید، تنظیم رنگ پس زمینه و سایز اسلاید و غیره استفاده می شود.",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Bar",
+        "correct": "Pie"
+      },
+      {
+        "question": "برای نمایش تمام پنجره ها در کنار هم از چپ به راست (بصورت عمودی) کدام روش مرتب سازی را باید انتخاب نمود؟",
+        "selected": "Show Windows Side by Side",
+        "correct": "Show Windows Side by Side"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Title and Content",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "کلیک بر روی آیکن صدا بر روی نوار کار",
+        "correct": "کلیک بر روی آیکن صدا بر روی نوار کار"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "مشخصات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "رکورد"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "قانون copyright یعنی چه؟",
+        "selected": "یعنی کسی حق ندارد از اطلاعات شخصی دیگران استفاده یا کپی برداری کند",
+        "correct": "یعنی تولید کننده هر نرم افزار مالک آن محسوب می شود و کسی حق ندارد بدون اجازه او این نرم افزار را کپی کند"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Count(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Scroll Bar و انتخاب خطوط",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "برای اجرای سریع فرمان redo کلیدهای ......... مورد استفاده قرار می گیرند.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "داشتن تصاویر بیش از حد در وب سایت",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      },
+      {
+        "question": "برای تایپ حروف بزرگ لاتین باید دکمه...................... را فعال نمود.",
+        "selected": "Ctrl",
+        "correct": "Caps Lock"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Download , Upload",
+        "correct": "Download , Upload"
+      },
+      {
+        "question": "برای حذف سطرهای جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Rows",
+        "correct": "Delete Rows"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Pin The Ribbon",
+        "correct": "Pin The Ribbon"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Light Pen",
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Review>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "از کدام کلیدهای صفحه کلید برای اجرای فرمان Undo استفاده می نماییم؟",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "نوری",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "به منظور افزودن یک کاربرگ جدید به صفحه کاری جاری و قبل از Sheet3 چه عملی انجام می دهید؟",
+        "selected": "بر روی Sheet2 دوبار کلیک کرده و گزینه Insert را انتخاب می کنیم",
+        "correct": "بر روی Sheet3 راست کلیک کرده و گزینه Insert را انتخاب می کنیم"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      }
+    ],
+    "date": "2026-10-09T11:40:34.598Z"
   }
 ]
