@@ -2128,5 +2128,218 @@
       }
     ],
     "date": "2026-10-09T10:09:07.191Z"
+  },
+  {
+    "name": "صبا دوستی",
+    "nationalId": "7280106757",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 12,
+    "unanswered": 4,
+    "answers": [
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم کلیه صفحات وب سایت های مشاهده شده قبلی را مشاهده نماییم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "از این ابزار برای کپی کردن Animation بر روی عناصر دیگر اسلایدها استفاده می شود.",
+        "selected": "Animation Painter",
+        "correct": "Animation Painter"
+      },
+      {
+        "question": "چنانچه تقسیم بر صفر انجام شود، کدام پیغام خطا ظاهر می شود؟",
+        "selected": "#VALUE!",
+        "correct": "#DIV/0!"
+      },
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": null,
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Content",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "برای تایپ نیم فاصله از کدام کلید ترکیبی در صفحه کلید استاندارد استفاده می شود؟",
+        "selected": "Spacebar+Shift",
+        "correct": "Spacebar+Shift"
+      },
+      {
+        "question": "در جدول های بزرگ که می خواهیم جستجوها بر اساس چندین فیلد مانند فیلد نام، شهر، نام فرد و شماره تلفن انجام شود بهتر است ..................... ایجاد کنیم؟",
+        "selected": "چند ایندکس ایجاد کنیم",
+        "correct": "چند ایندکس ایجاد کنیم"
+      },
+      {
+        "question": "غلطک وسط موس برای چه منظوری است؟",
+        "selected": "مرور محتویات پنجره ها",
+        "correct": "مرور محتویات پنجره ها"
+      },
+      {
+        "question": "می خواهیم عبارت (x+5)^2 را تایپ نماییم، پس از انتخاب عدد 2 کدام گزینه از Font موجب می شود تا عبارت به درستی تایپ شود؟",
+        "selected": "Subscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "برای بستن سند از چه دستوری استفاده می شود؟",
+        "selected": "Close",
+        "correct": "Close"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": "Mb",
+        "correct": "Db"
+      },
+      {
+        "question": "برای مرتب سازی صعودی از کدام گزینه استفاده می شود؟",
+        "selected": "Descending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "تصاویر در کدام گروه از زبانه insert قرار دارند؟",
+        "selected": "Pages",
+        "correct": "Illustrations"
+      },
+      {
+        "question": "کدام جمله در مورد کلید اصلی درست نمی باشد؟",
+        "selected": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود",
+        "correct": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": null,
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Alt+F",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "پنجره Control Panel و گزینه Add Hardware",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نادرست می باشد؟",
+        "selected": "اینترنت، متشکل از میلیون ها کامپیوتر، کابل، مسیریاب، سخت افزار و نرم افزارهای مختلف می باشد که به هم پیوسته است",
+        "correct": "اینترانت، یک شبکه جهانی می باشد"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "دکمه History در نوار ابزار",
+        "correct": "F5"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Home > Slide > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "قانون copyright یعنی چه؟",
+        "selected": null,
+        "correct": "یعنی تولید کننده هر نرم افزار مالک آن محسوب می شود و کسی حق ندارد بدون اجازه او این نرم افزار را کپی کند"
+      },
+      {
+        "question": "چگونه می توان چند فایل پراکنده یک پوشه را انتخاب کرد؟",
+        "selected": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت",
+        "correct": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "کوچکترین عنصر در بانک که حاوی اطلاعات است چه می گویند؟",
+        "selected": "رکورد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Count(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "جهت محافظت کاربرگ ابتدا راست کلیک سپس کدام فرمان را انتخاب می نماییم؟",
+        "selected": "Protect Sheet",
+        "correct": "Protect Sheet"
+      },
+      {
+        "question": "گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟",
+        "selected": null,
+        "correct": "تغییر رنگ زمینه سلول"
+      },
+      {
+        "question": "با کدام ترکیب کلید می توان کل محتوای یک پوشه را انتخاب کرد؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      }
+    ],
+    "date": "2026-10-09T11:13:18.969Z"
   }
 ]
