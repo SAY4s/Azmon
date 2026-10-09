@@ -1915,5 +1915,218 @@
       }
     ],
     "date": "2026-10-09T09:39:55.711Z"
+  },
+  {
+    "name": "صبا دوستی",
+    "nationalId": "7280106757",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 14,
+    "unanswered": 5,
+    "answers": [
+      {
+        "question": "توسط نرم افزار فشرده سازی، می توان حجم فایل را تا ...... کاهش داد.",
+        "selected": "%40",
+        "correct": "%50"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": null,
+        "correct": "$"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Quick Print",
+        "correct": "Copies"
+      },
+      {
+        "question": "برای تغییر زبان انگلیسی به فارسی و برعکس از ترکیب چه کلیدهایی استفاده می شود؟",
+        "selected": "Alt+Shift",
+        "correct": "Alt+Shift"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "World Wide Web",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save File As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Alu",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "کدام یک از جملات زیر صحیح نیست؟",
+        "selected": "فایل ها بدون پسوند هستند",
+        "correct": "فایل ها بدون پسوند هستند"
+      },
+      {
+        "question": "برای اینکه ارتباط کاربر فعلی با کامپیوتر قطع شود و کاربر دیگری وارد سیستم شود بهتر است از کدام گزینه استفاده کنیم؟",
+        "selected": "انتخاب Sleep",
+        "correct": "انتخاب Log Off"
+      },
+      {
+        "question": "اگر بخواهیم برچسب داده های نمودار را داخل و در انتهای آن ایجاد نماییم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Inside End",
+        "correct": "Inside End"
+      },
+      {
+        "question": "برنامه های در حال اجرا در محیط ویندوز در کدام قسمت نشان داده می شوند؟",
+        "selected": null,
+        "correct": "Task Manager"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر جزء وسایل خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Text Size",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selected Text",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "تهیه نمودار گرافیکی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "برای نمایش تمام پنجره ها در کنار هم از چپ به راست (بصورت عمودی) کدام روش مرتب سازی را باید انتخاب نمود؟",
+        "selected": "Show Windows Side by Side",
+        "correct": "Show Windows Side by Side"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": null,
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Match Field",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "از ابزار Word Art به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن گرافیکی",
+        "correct": "ایجاد متن گرافیکی"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "برای تقسیم جدول به دو بخش کدام دستور مناسب است؟",
+        "selected": "Separate Table",
+        "correct": "Split Table"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "CPU",
+        "correct": "UPS"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": null,
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "برنامه های کوچکی که به یک برنامه اجرایی حمله کرده و اجرای آن را مختل می کنند چه نامیده می شود؟",
+        "selected": "Virus",
+        "correct": "Virus"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "پرچم",
+        "correct": "پرچم"
+      },
+      {
+        "question": "پوشه Outbox شامل ........... است.",
+        "selected": "لیست نامه های دریافت شده است",
+        "correct": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": null,
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم کلیه صفحات وب سایت های مشاهده شده قبلی را مشاهده نماییم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام گزینه در مورد فشرده سازی صحیح است؟",
+        "selected": "امکان فشرده سازی برای پوشه وجود ندارد",
+        "correct": "روشی برای کاهش حجم فایل"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "کدام گزینه صحیح می باشد؟",
+        "selected": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم",
+        "correct": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم"
+      }
+    ],
+    "date": "2026-10-09T10:09:07.191Z"
   }
 ]
