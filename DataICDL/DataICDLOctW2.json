@@ -1276,5 +1276,218 @@
       }
     ],
     "date": "2026-10-09T06:14:35.960Z"
+  },
+  {
+    "name": "دریا قنبری",
+    "nationalId": "0151590631",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت حذف یک فیلتر روی کدام گزینه کلیک می کنیم؟",
+        "selected": "Clear Filter",
+        "correct": "Clear Filter"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط متن های هر اسلاید چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Note Pages",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Summary Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "جهت ایجاد ترازبندی از طرفین، از کدام گزینه استفاده می کنیم؟",
+        "selected": "Center",
+        "correct": "Justify"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Clip Art",
+        "correct": "Picture"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Web Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "کدام یک از بخش های cpu واحد مناسب عملیات ریاضی و منطقی نامیده می شود؟",
+        "selected": "Alu",
+        "correct": "Alu"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "برای تنظیم حاشیه های سند از کدام دکمه استفاده می شود؟",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "برای چاپ کل سند از کادر محاوره ای Print کدام مورد را باید انتخاب کرد؟",
+        "selected": "Selection",
+        "correct": "Entire Work Book"
+      },
+      {
+        "question": "از گزینه Count Number جهت محاسبه .............. استفاده می شود.",
+        "selected": "شمارش تعداد اعداد",
+        "correct": "شمارش تعداد اعداد"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار منو (Menu)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": "گزینه Split Cells از سربرگ Layout",
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "از کدام کلیدهای صفحه کلید برای اجرای فرمان Undo استفاده می نماییم؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "سیستم عامل چیست؟",
+        "selected": "نرم افزاری است که مدیریت تمام منابع سخت افزاری و نرم افزاری سیستم را بر عهده دارد",
+        "correct": "نرم افزاری است که مدیریت تمام منابع سخت افزاری و نرم افزاری سیستم را بر عهده دارد"
+      },
+      {
+        "question": "نرم افزارهایی که مدیریت سخت افزار را به عهده دارند چه می نامند؟",
+        "selected": "سیستمی",
+        "correct": "سیستمی"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "برای انتخاب خانه های غیرمجاور در Excel، از کلید .................. استفاده می کنیم.",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "از این ابزار به منظور نمایش اسلایدها از اسلاید جاری استفاده می شود.",
+        "selected": "From Beginning",
+        "correct": "From Current Slide"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F7",
+        "correct": "F1"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Review",
+        "correct": "Home"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Table, Database",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "برای حذف دائم یک فایل به طوری که در سطل بازیافت قرار نگیرد از کدام کلید همراه دکمه Delete استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "در دستگاه های زیر چند دستگاه خروجی وجود دارد؟ (صفحه نمایش - کیبورد - ماوس - رسام - چاپگر - اسکنر - قلم نوری - بلندگو)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "برای به حداقل رساندن اندازه ی پنجره از کدام گزینه استفاده می کنیم؟",
+        "selected": "Minimize",
+        "correct": "Minimize"
+      },
+      {
+        "question": "اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟",
+        "selected": "Odd Page",
+        "correct": "Even Page"
+      },
+      {
+        "question": "برای دیدن اطلاعات کامل از سبک مورد استفاده کلید ترکیبی ........................ را فشار می دهیم.",
+        "selected": "Shift+F1",
+        "correct": "Ctrl+Shift+S"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "درج کاربرگ جدید",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      }
+    ],
+    "date": "2026-10-09T06:24:27.452Z"
   }
 ]
