@@ -7666,5 +7666,218 @@
       }
     ],
     "date": "2026-10-11T18:17:26.999Z"
+  },
+  {
+    "name": "صبا دوستی",
+    "nationalId": "7280106757",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 14,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Open Table",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Joystick",
+        "correct": "Scanner"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": null,
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای اینکه طرح زمینه انتخاب شده در مرکز صفحه مانیتور باشد باید ............. انتخاب نماییم.",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "کدامیک از پرونده های زیر را نمی توان به عنوان تصویر زمینه ویندوز استفاده کرد؟",
+        "selected": "*.bmp",
+        "correct": "*.dat"
+      },
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "در یک خانه چه نوع اطلاعاتی نمی توان وارد نمود؟",
+        "selected": "تاریخ و زمان",
+        "correct": "تصویر"
+      },
+      {
+        "question": "برای تغییر نوع نمودار از کدام گزینه استفاده می کنیم؟",
+        "selected": "Change Chart Type",
+        "correct": "Change Chart Type"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": null,
+        "correct": "RSS"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم شکل متن انتخابی را تغییر دهیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "برنامه های سودمند",
+        "correct": "برنامه های کاربردی"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به معنی قطع ارتباط با اینترنت می باشد؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": "خروجی",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "برای تصحیح خطاهای املایی از کدام ابزار استفاده می گردد؟",
+        "selected": "Auto Correct",
+        "correct": "Spelling & Grammar"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه Design",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "هنگامی که دو عبارت شرطی در Criteria نوشته شود، برای دارا بودن هر دو شرط عملگر بین آنها، کدام است؟",
+        "selected": "And",
+        "correct": "And"
+      },
+      {
+        "question": "برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - قرینه",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح نیست؟",
+        "selected": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید",
+        "correct": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید"
+      },
+      {
+        "question": "Chart چیست؟",
+        "selected": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود",
+        "correct": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Selection",
+        "correct": "Page"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Insert Endnote",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Delete sheet Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "کدامیک از موارد زیر باعث کاهش آلودگی های زیست محیطی می شود؟",
+        "selected": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده",
+        "correct": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "60",
+        "correct": "40"
+      },
+      {
+        "question": "علامت قرمز برنامه آنتی ویروس نشانه چیست؟",
+        "selected": "خراب شدن آنتی ویروس",
+        "correct": "به روز نبودن آنتی ویروس"
+      },
+      {
+        "question": "برای حذف نامه ها می توانید از چه کلیدی در صفحه کلید استفاده کنید؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "در صورت وجود غلط های املایی در متن اسلایدها کدام یک از روش ها برای برطرف کردن غلط های املایی مناسب است؟",
+        "selected": "سربرگ Review گزینه Spelling",
+        "correct": "سربرگ Review گزینه Spelling"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Text",
+        "correct": "Yes/No"
+      }
+    ],
+    "date": "2026-10-11T20:10:11.857Z"
   }
 ]
