@@ -8518,5 +8518,218 @@
       }
     ],
     "date": "2026-10-11T20:55:34.720Z"
+  },
+  {
+    "name": "محیا ملکی",
+    "nationalId": "0152413472",
+    "exam": "icdl",
+    "score": 12,
+    "total": 40,
+    "percent": 30,
+    "wrong": 28,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "کدام یک از دستگاه زیر ترکیبی از مودم و دستگاه اسکنر می باشد؟",
+        "selected": "فاکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Mouse",
+        "correct": "Speaker"
+      },
+      {
+        "question": "درپنجره Internet انتخاب کدام گزینه ها موجب می شود صفحه خانگی یک صفحه خالی باشد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای مخفی کردن یک اسلاید از گزینه ................. استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "جهت حذف یک فایل می توان ............",
+        "selected": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود",
+        "correct": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Form",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Page",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "کوچکترین عنصر صفحه نمایش چه نام دارد؟",
+        "selected": "Pin",
+        "correct": "Pixel"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Bookmark",
+        "correct": "Unread"
+      },
+      {
+        "question": "کاربرد دستور Page Break در گروه Pages چیست؟",
+        "selected": "یک کاور برای سند ایجاد می کند",
+        "correct": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند"
+      },
+      {
+        "question": "کدام یک جزء اجزای داخلی CPU نیست؟",
+        "selected": "واحد کنترل",
+        "correct": "Ram"
+      },
+      {
+        "question": "توسط کدام کلید ترکیبی بانک اطلاعاتی جاری بسته می شود؟",
+        "selected": "Alt+F5",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find What",
+        "correct": "Find Next"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Art",
+        "correct": "Style"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Insert",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Allow Zero Length",
+        "correct": "Required"
+      },
+      {
+        "question": "ریبون شامل تعدادی ........... است که در هر یک از آنها تعدادی ابزار مرتبط به هم دسته بندی شده اند.",
+        "selected": "Slide",
+        "correct": "Tab"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "50",
+        "correct": "40"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Fill Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": "Delete+Alt+Shift",
+        "correct": "Ctrl+Alt+Del"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Font",
+        "correct": "Word Art"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Switch Window",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "در صورتی که بخواهیم به Transition اسلاید صدای مورد نظر خودمان را اضافه کنیم از ابزار ..... گزینه ..... را انتخاب می کنیم",
+        "selected": "Sound (Loop Until Next Sound)",
+        "correct": "Sound (Other Sound)"
+      },
+      {
+        "question": "چنانچه آیکن ضد ویروس با رنگ قرمز نمایان شود نشانه چیست؟",
+        "selected": "به روز نبودن ضد ویروس",
+        "correct": "به روز نبودن ضد ویروس"
+      },
+      {
+        "question": "نرم افزار اکسل در کدام مورد کاربرد دارد؟",
+        "selected": "در امور مهندسی و کارهای مربوط به امور مالی",
+        "correct": "در امور مهندسی و کارهای مربوط به امور مالی"
+      },
+      {
+        "question": "هر چه تعداد رکوردهای جدول بیشتر باشد برای اینکه اکسس بتواند داده ها را سریع تر، مرتب و جستجو کند احتیاج به .................. دارید؟",
+        "selected": "Primary Key",
+        "correct": "Index"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "برای جایگزینی عبارتی در اسناد از .......... استفاده می شود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Home-Form View",
+        "correct": "Create-Form Design"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Alt+F",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "برای ایجاد متن به سبک خاص و کوتاه از گزینه........................ استفاده می نماییم.",
+        "selected": "Text Box",
+        "correct": "Word Art"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Attributes",
+        "correct": "Properties"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Open Source",
+        "correct": "Shareware"
+      },
+      {
+        "question": "با انتخاب فیلد Number به طور پیش فرض ................. برای آن در نظر گرفته می شود؟",
+        "selected": "Long Integer",
+        "correct": "Long Integer"
+      },
+      {
+        "question": "اگر برای فیلدی کلید اولیه تعریف کنیم.......................",
+        "selected": "محتویات جدول بر اساس آن فیلد مرتب نمی شود",
+        "correct": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم"
+      }
+    ],
+    "date": "2026-10-11T21:04:19.398Z"
   }
 ]
