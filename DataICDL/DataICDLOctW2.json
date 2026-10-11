@@ -6814,5 +6814,218 @@
       }
     ],
     "date": "2026-10-11T16:55:06.450Z"
+  },
+  {
+    "name": "دریا قنبری",
+    "nationalId": "0151590631",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای جابجایی پنجره در میزکار از گزینه ...... از منوی کنترل پنجره استفاده می نماییم.",
+        "selected": "Move",
+        "correct": "Move"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Apply Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "کدام منو در نرم افزار Powerpoint برای ایجاد انیمیشن کاربرد دارد؟",
+        "selected": "Animations",
+        "correct": "Animations"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "برای برگشتن به صفحه قبلی ملاحظه شده بر روی کدام دکمه باید کلیک کرد؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "در چیدمان Slide ها از چیدمان ....... برای نگهداری عنوان و نگهداری متن استفاده می شود؟",
+        "selected": "Title and Content",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Bullets",
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "اگر A1=14 باشد نتیجه فرمول زیر چیست؟ IF(A1=14),\"Ok\",\"No\")",
+        "selected": "Ok",
+        "correct": "Ok"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "From Beginning",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": "Number Of Rows",
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "وب جهان گستر",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "از گزینه Count Number جهت محاسبه .............. استفاده می شود.",
+        "selected": "شمارش تعداد اعداد",
+        "correct": "شمارش تعداد اعداد"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": "داشتن زیر پوشه",
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "هویت یک فایل از ....................... شناسائی می گردد.",
+        "selected": "پسوند فایل",
+        "correct": "پسوند فایل"
+      },
+      {
+        "question": "برای درج برچسب نامه از کدام ابزار استفاده می کنیم؟",
+        "selected": "Labels",
+        "correct": "Labels"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "کدام گزینه نادرست می باشد؟",
+        "selected": "قطاع: دایره های هم مرکز با شعاع برابر",
+        "correct": "قطاع: دایره های هم مرکز با شعاع برابر"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": "یک خط زیر متن درج می کند",
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "سریع ترین راه برای فراخوانی دستور Replace کلیدهای ترکیبی ................ و .................. است.",
+        "selected": "Ctrl+R",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "اگر بر روی یک آیکن چپ کلیک را نگه داشته و آن را به سمت دلخواه خود بکشیم و سپس رها کنیم چه عملی انجام داده ایم؟",
+        "selected": "Drag and Drop",
+        "correct": "Drag and Drop"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze First Column",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی System Tools از پنجره Computer",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "برای اجرای سریع فرمان redo کلیدهای ......... مورد استفاده قرار می گیرند.",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد یک جدول جدید به صورت ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی Review",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "از ابزار ..... در سربرگ Transition پیش نمایشی از حالت های عبور انتخاب شده در اسلاید مورد نظر مشاهده می شود؟",
+        "selected": "Transition To This Slide",
+        "correct": "Preview"
+      },
+      {
+        "question": "توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟",
+        "selected": "Search",
+        "correct": "Find"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "فایل های محیط word 2013 با چه پسوندی ذخیره می شوند؟",
+        "selected": "docx",
+        "correct": "docx"
+      }
+    ],
+    "date": "2026-10-11T17:03:58.972Z"
   }
 ]
