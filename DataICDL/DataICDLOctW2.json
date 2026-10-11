@@ -8305,5 +8305,218 @@
       }
     ],
     "date": "2026-10-11T20:30:23.362Z"
+  },
+  {
+    "name": "ابوالفضل عسگری",
+    "nationalId": "7280158013",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای تغییر رنگ زمینه سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Pattern",
+        "correct": "Pattern"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": "Nod32",
+        "correct": "Nod32"
+      },
+      {
+        "question": "از نمای .......... برای جابجایی و مدیریت کردن اسلایدها در Power Point استفاده می شود.",
+        "selected": "Normal",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "تعیین رنگ و طرح زمینه داخل کادر",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": "Internet Explorer - Mozilla Firefox",
+        "correct": "Internet Explorer - Mozilla Firefox"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Option>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح نیست؟",
+        "selected": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید",
+        "correct": "شما می توانید هر کدام از فیلدهای Text، Ole Object، Hyper Link را ایندکس کنید"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه پهن",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": "Ctrl+Alt+Del",
+        "correct": "Ctrl+Alt+Del"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Quick Access Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "میان افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "در کدام نما می توان ترتیب اسلایدها را تغییر داد؟",
+        "selected": "Slide Sorter",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "ریبون شامل تعدادی ........... است که در هر یک از آنها تعدادی ابزار مرتبط به هم دسته بندی شده اند.",
+        "selected": "Group",
+        "correct": "Tab"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "پرچم",
+        "correct": "پرچم"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "یک بیت",
+        "correct": "یک بیت"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Webcam",
+        "correct": "Webcam"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "With Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر جزو وسایل کنترل کننده اشاره گر محسوب نمی شوند؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "برای مرتب کردن آیکن های میز کار بر اساس نوع، از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Item Type",
+        "correct": "Item Type"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": "از Cell Style بر روی Merge کلیک می کنیم",
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Shift+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "جهت زمانبندی کردن تعویض اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Advanced Slide",
+        "correct": "Transition to this Slide"
+      },
+      {
+        "question": "سریع ترین و راحت ترین روش برای ایجاد فایل نمایشی کدام است؟",
+        "selected": "فشردن کلیدهای Ctrl+N",
+        "correct": "فشردن کلیدهای Ctrl+N"
+      },
+      {
+        "question": "با فشار کدام کلیدها می توان یک کپی از اسلاید را بعد از همان اسلاید ایجاد کرد؟",
+        "selected": "Ctrl+D",
+        "correct": "Ctrl+D"
+      },
+      {
+        "question": "از ابزار Symbol در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج کاراکترها و علائم ویژه",
+        "correct": "درج کاراکترها و علائم ویژه"
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": "فایل حذف شده هیچگاه بازیابی نمی شود",
+        "correct": "فایل حذف شده هیچگاه بازیابی نمی شود"
+      }
+    ],
+    "date": "2026-10-11T20:55:34.720Z"
   }
 ]
