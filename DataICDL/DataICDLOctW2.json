@@ -8731,5 +8731,218 @@
       }
     ],
     "date": "2026-10-11T21:04:19.398Z"
+  },
+  {
+    "name": "دیانا کلاسی",
+    "nationalId": "4312463255",
+    "exam": "icdl",
+    "score": 18,
+    "total": 40,
+    "percent": 45,
+    "wrong": 22,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Formulas - Function",
+        "correct": "Formulas - Function"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Shift+P",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select Pane",
+        "correct": "Select Object"
+      },
+      {
+        "question": "برای تصحیح خطاهای املایی از کدام ابزار استفاده می گردد؟",
+        "selected": "Spelling & Grammar",
+        "correct": "Spelling & Grammar"
+      },
+      {
+        "question": "کدام گزینه برای استفاده از جلوه های آماده متحرک سازی است؟",
+        "selected": "Animate",
+        "correct": "Animate"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "در صورتی که بخواهیم عبارت های یافت شده از نظر بزرگی و کوچکی حروف با عبارت مورد جستجو یکسان باشد کدام گزینه را فعال می کنیم؟",
+        "selected": "Match Kashida",
+        "correct": "Match Case"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای تعیین نوع داده ها از چه گزینه ای استفاده می شود؟",
+        "selected": "Data Type",
+        "correct": "Data Type"
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "دریافت فایل",
+        "correct": "دریافت ایمیل"
+      },
+      {
+        "question": "ریبون شامل تعدادی ........... است که در هر یک از آنها تعدادی ابزار مرتبط به هم دسته بندی شده اند.",
+        "selected": "Tools",
+        "correct": "Tab"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Scanner",
+        "correct": "Speaker"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "کدام روش برای حذف یک اسلاید مناسب است؟",
+        "selected": "در سربرگ Home و گروه Slide گزینه Delete را می فشاریم",
+        "correct": "در پنل اسلایدها روی اسلاید مورد نظر کلیک می کنیم و دکمه Delete کیبورد را می فشاریم"
+      },
+      {
+        "question": "پسوند فایل ها در نرم افزار پایگاه داده اکسس 2013 کدام است؟",
+        "selected": "Xlsx",
+        "correct": "Accdb"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر قابل برنامه ریزی و قابل پاک شدن با اشعه ماوراء بنفش است؟",
+        "selected": "Rom",
+        "correct": "Eprom"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "در ترسیم نمودار مفهوم گزینه Data Labels چیست؟",
+        "selected": "نمایش شرح نمودار",
+        "correct": "نمایش اسامی داده ها"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "sum if",
+        "correct": "count if"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Address Block",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "در سطح دیسک هر شیار به قسمت های مساوی به نام ................ تقسیم می شود؟",
+        "selected": "شکاف توسعه",
+        "correct": "قطاع"
+      },
+      {
+        "question": "کلیه نامه هایی که به آدرس شما ارسال می گردد در کدام پوشه ذخیره می شود؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "جهت ایجاد ترازبندی از طرفین، از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه As New Sheet",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "سریع ترین راه برای فراخوانی دستور Replace کلیدهای ترکیبی ................ و .................. است.",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر با کلیک ماوس اجرا شود کدام گزینه از Start را انتخاب می کنیم؟",
+        "selected": "On Click",
+        "correct": "On Click"
+      },
+      {
+        "question": "فیلد Short Text چه نوع داده هایی را قبول می کند؟",
+        "selected": "فقط متن",
+        "correct": "متن و اعداد کمتر از 255 کاراکتر"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Special Characters",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر محل ذخیره موقت اطلاعات است؟",
+        "selected": "Prom",
+        "correct": "Ram"
+      },
+      {
+        "question": "یک رکورد مجموعه ای از اطلاعات را درباره ................. ذخیره می کند.",
+        "selected": "یک فایل",
+        "correct": "یک موضوع"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.",
+        "selected": "Free Space",
+        "correct": "Free Space"
+      },
+      {
+        "question": "جهت چاپ چند اسلاید به صورت کوچک در یک کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Frame Slide",
+        "correct": "Handouts"
+      },
+      {
+        "question": "برای تایپ نیم فاصله از کدام کلید ترکیبی در صفحه کلید استاندارد استفاده می شود؟",
+        "selected": "Spacebar+Shift",
+        "correct": "Spacebar+Shift"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Com",
+        "correct": "Edu"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/New Slide",
+        "correct": "گزینه Insert/Table"
+      }
+    ],
+    "date": "2026-10-12T03:26:50.202Z"
   }
 ]
