@@ -10009,5 +10009,218 @@
       }
     ],
     "date": "2026-10-12T06:58:05.862Z"
+  },
+  {
+    "name": "سجاد نوروزی",
+    "nationalId": "4312152667",
+    "exam": "icdl",
+    "score": 3,
+    "total": 40,
+    "percent": 8,
+    "wrong": 4,
+    "unanswered": 33,
+    "answers": [
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": "محور نمودار",
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "درپنجره Internet انتخاب کدام گزینه ها موجب می شود صفحه خانگی یک صفحه خالی باشد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "از این ابزار برای درج ویدیو از طریق اینترنت به اسلاید مورد استفاده قرار می گیرد",
+        "selected": "Online Video",
+        "correct": "Online Video"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "توان",
+        "correct": "بزرگتری"
+      },
+      {
+        "question": "برای نمایش خطوط راهنما و شبکه ای کدام گزینه ها را فعال می کنیم؟",
+        "selected": "Ruler - Guides",
+        "correct": "Grid Line - Guides"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Portrait Flipped",
+        "correct": "Landscape"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": null,
+        "correct": "Alt+F"
+      },
+      {
+        "question": "در صورتی که بخواهیم تمام اسلایدهای فایل ارائه مطلب را چاپ کنیم کدام گزینه را در پنجره Print انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Print All Slide"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": null,
+        "correct": "آرایش فیزیکی رایانه ها در شبکه"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": null,
+        "correct": "accdb"
+      },
+      {
+        "question": "برنامه اکسل جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": null,
+        "correct": "صفحه گسترده"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": null,
+        "correct": "Picture"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": null,
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "در سربرگ Home از این گروه برای تنظیمات نوع فونت نوشتاری و سایز و رنگ متن استفاده می شود.",
+        "selected": null,
+        "correct": "Font"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": null,
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": null,
+        "correct": "Ignore All"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": null,
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": null,
+        "correct": "Desktop background"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ........................... است.",
+        "selected": null,
+        "correct": "حجم فایل ارسالی"
+      },
+      {
+        "question": "برای درج خودکار سری داده ها از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "در مقابل این عبارت، فضای آزاد یک درایو مشخص می شود.",
+        "selected": null,
+        "correct": "Free Space"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Page Setup"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": null,
+        "correct": "Queries"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "در هنگام قالب بندی سلول ها با گزینه Alignment می توان......؟",
+        "selected": null,
+        "correct": "ترازبندی متن را تنظیم کرد"
+      },
+      {
+        "question": "به انتقال اطلاعات از کامپیوتر شخصی به سرور دیگر ...................... می گوییم.",
+        "selected": null,
+        "correct": "Upload"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": null,
+        "correct": "یک بیت"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": null,
+        "correct": "Long Text"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": null,
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": null,
+        "correct": "Draft"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": null,
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "کدام تابع برای محاسبه میانگین داده های عددی یک محدوده از خانه ها بکار می رود؟",
+        "selected": null,
+        "correct": "Average"
+      },
+      {
+        "question": "برای بازیابی پوشه و یا فایل حذف شده باید از کدام فرمان استفاده کرد؟",
+        "selected": null,
+        "correct": "Restore"
+      },
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": null,
+        "correct": "F1"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": null,
+        "correct": "Home"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": null,
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "کدامیک از موارد زیر تعریف ریزپردازنده نمی باشد؟",
+        "selected": null,
+        "correct": "اساسی ترین جزء یک کامپیوتر نمی باشد"
+      },
+      {
+        "question": "تعریف زیر معرف کدام یک از موارد زیر است؟ \"محدود کردن نمایش اطلاعات بانک اطلاعاتی به رکوردها و فیلدهایی که برای تطبیق مشخص شده اند.\"",
+        "selected": null,
+        "correct": "فیلتر"
+      }
+    ],
+    "date": "2026-10-12T07:01:38.771Z"
   }
 ]
