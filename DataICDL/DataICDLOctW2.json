@@ -10435,5 +10435,218 @@
       }
     ],
     "date": "2026-10-12T10:21:40.081Z"
+  },
+  {
+    "name": "محدثه اصفهانی",
+    "nationalId": "4311856059",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "txt",
+        "correct": "docx"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Number",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "توسط کدام ابزار در سربرگ Insert می توان مجموعه ای از تصاویر را به صورت آلبوم ایجاد کرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Blank",
+        "correct": "Form Design"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Table",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query رکوردهای جدول را بر اساس دستوری که تعیین می کند Sort می کند",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "کدام یک از اسامی زیر برای نام پوشه غیر مجاز است؟",
+        "selected": "Directory",
+        "correct": "Con"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "داده هایی که از دستگاه ورودی به کامپیوتر می دهیم",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "کدامیک از گزینه ها در رابطه با ایجاد جدول به روش ترسیم صحیح است؟",
+        "selected": "انتخاب Draw Table از سربرگ Insert گروه Table",
+        "correct": "انتخاب Draw Table از سربرگ Insert گروه Table"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Design گروه Page Background گزینه Watermark",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "برای حذف دائم یک فایل به طوری که در سطل بازیافت قرار نگیرد از کدام کلید همراه دکمه Delete استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت کروشه",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Background Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "انتشار سند در دیگر فرمت ها",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "اصلی ترین نرم افزار در کامپیوتر ..................... است.",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "برای درج داده هایی مانند ردیف از ........ و داده های عددی که احتیاج به محاسبات دارند از نوع داده .... استفاده می کنیم؟ (از راست به چپ)",
+        "selected": "Number - Auto Number",
+        "correct": "Number - Auto Number"
+      },
+      {
+        "question": "بهترین روش برای جلوگیری از ورود ویروس به سیستم کدام گزینه است؟",
+        "selected": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد",
+        "correct": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "نام سایتی که وارد آن شده ایم در کجا مشاهده می شود؟",
+        "selected": "در نوار آدرس مرورگر مشاهده می شود",
+        "correct": "در نوار آدرس مرورگر مشاهده می شود"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش آیکن ها با جزئیات بکار می رود؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای اینکه اعلام کنیم که اعداد بزرگتر از 50 برای یک فیلد در نظر گرفته شوند، شرط را برای کدام خاصیت از فیلد باید اعلام نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "تک کاربره",
+        "correct": "AERO"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Descending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "کدامیک از فیلدهای زیر برای Primary Key مناسب تر است؟",
+        "selected": "فیلد شماره عضویت فرد در کتابخانه",
+        "correct": "فیلد شماره عضویت فرد در کتابخانه"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "برای اینکه ارتباط کاربر فعلی با کامپیوتر قطع شود و کاربر دیگری وارد سیستم شود بهتر است از کدام گزینه استفاده کنیم؟",
+        "selected": "انتخاب Shut Down از پنجره Turn Off",
+        "correct": "انتخاب Log Off"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول A2 تا D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "برای اجرای فرمان cut و paste از کدام کلیدهای میانبر زیر استفاده می شود؟",
+        "selected": "Ctrl+V - Ctrl+X",
+        "correct": "Ctrl+V - Ctrl+X"
+      },
+      {
+        "question": "بطور پیش فرض نام فایل نمایش در Power Point چیست؟",
+        "selected": "Presentation1",
+        "correct": "Presentation1"
+      },
+      {
+        "question": "ریبون شامل تعدادی ........... است که در هر یک از آنها تعدادی ابزار مرتبط به هم دسته بندی شده اند.",
+        "selected": "Tab",
+        "correct": "Tab"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه Chart Type",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Information",
+        "correct": "Information"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign In",
+        "correct": "Sign In"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      }
+    ],
+    "date": "2026-10-12T14:45:48.960Z"
   }
 ]
