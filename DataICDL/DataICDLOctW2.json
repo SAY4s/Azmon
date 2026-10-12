@@ -9370,5 +9370,218 @@
       }
     ],
     "date": "2026-10-12T05:30:00.130Z"
+  },
+  {
+    "name": "صبا دوستی",
+    "nationalId": "7280106757",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 15,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Required",
+        "correct": "No-Required"
+      },
+      {
+        "question": "برای تغییر خصوصیات یک فایل یا پوشه از کدام گزینه استفاده می شود؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "جهت مشاهده مجدد صفحات وب ویزیت شده در هفته پیش از چه دکمه ای استفاده می کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Computer / Printer",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "برای اینکه ارتباط کاربر فعلی با کامپیوتر قطع شود و کاربر دیگری وارد سیستم شود بهتر است از کدام گزینه استفاده کنیم؟",
+        "selected": "Hibernate",
+        "correct": "انتخاب Log Off"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": "اجرای کند برنامه ها",
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "کدام سربرگ برای درج پاورقی است؟",
+        "selected": "References",
+        "correct": "References"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "CD-ROM",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "هریک از خانه ها در صفحه کاری چه نام دارد؟",
+        "selected": "File",
+        "correct": "Cell"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "نرم افزار اکسل در کدام مورد کاربرد دارد؟",
+        "selected": "در امور مهندسی و کارهای مربوط به امور مالی",
+        "correct": "در امور مهندسی و کارهای مربوط به امور مالی"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر صحیح نیست؟",
+        "selected": "سیستم عامل برای راه اندازی سخت افزارهاست",
+        "correct": "سیستم عامل ممکن است چند وظیفه یا یک وظیفه داشته باشد"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Start Mail Merge",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Date modified",
+        "correct": "Date modified"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "View",
+        "correct": "Create"
+      },
+      {
+        "question": "برای مشاهده ظرفیت یک فایل روی آن راست کلیک کرده و گزینه ................. را انتخاب می کنیم.",
+        "selected": "Details",
+        "correct": "Properties"
+      },
+      {
+        "question": "در مهارت های هفتگانه ICDL کدام نرم افزار به عنوان صفحه گسترده تدریس می شود؟",
+        "selected": "MS_EXCEL",
+        "correct": "MS_EXCEL"
+      },
+      {
+        "question": "برای بازیابی پوشه و یا فایل حذف شده باید از کدام فرمان استفاده کرد؟",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": null,
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Table Color",
+        "correct": "Shading"
+      },
+      {
+        "question": "پس از درج جدول توسط کدام ابزار می توان مدل خطوط را تغییر داد؟",
+        "selected": "Pen Style",
+        "correct": "Pen Style"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Information Technology است و به معنای فناوری ارتباطات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Home-Number"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Scan Disk",
+        "correct": "Backup"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای اینکه عبارت مورد جستجو به همان شکل در اینترنت جستجو شود (دقیقا همان عبارت)، از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Row",
+        "correct": "Select Row"
+      },
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Blank",
+        "correct": "Form Design"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": null,
+        "correct": "Ram"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Summary Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "پاورپوینت",
+        "correct": "C#"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "(A1,B5)=min",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Indent To Right",
+        "correct": "Right"
+      }
+    ],
+    "date": "2026-10-12T06:16:43.649Z"
   }
 ]
