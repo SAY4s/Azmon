@@ -12139,5 +12139,218 @@
       }
     ],
     "date": "2026-10-14T15:36:50.584Z"
+  },
+  {
+    "name": "کارشناس دادگستری",
+    "nationalId": "1632163216",
+    "exam": "icdl",
+    "score": 1,
+    "total": 40,
+    "percent": 3,
+    "wrong": 0,
+    "unanswered": 39,
+    "answers": [
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Columns",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Query"
+      },
+      {
+        "question": "اگر بخواهیم شرطی بین 100 تا 500 را برای ورود داده ها در فیلد عددی وارد نماییم، عبارت مقابل را مقابل کدام یک از خصوصیات درج می کنیم؟ (>=100 and <=500)",
+        "selected": null,
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": null,
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": null,
+        "correct": "Disconnect"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": null,
+        "correct": "Columnar"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": null,
+        "correct": "Page Header"
+      },
+      {
+        "question": "انتخاب یک سبک از کدام روش صورت می گیرد؟",
+        "selected": null,
+        "correct": "انتخاب Style از زبانه Home"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": null,
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": null,
+        "correct": "Yes/No"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": null,
+        "correct": "40"
+      },
+      {
+        "question": "برای اینکه عبارت مورد جستجو به همان شکل در اینترنت جستجو شود (دقیقا همان عبارت)، از کدام کاراکتر استفاده می شود؟",
+        "selected": null,
+        "correct": "\" \""
+      },
+      {
+        "question": "کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟",
+        "selected": null,
+        "correct": "سرعت بالای حافظه های ثانویه"
+      },
+      {
+        "question": "علامت قرمز برنامه آنتی ویروس نشانه چیست؟",
+        "selected": null,
+        "correct": "به روز نبودن آنتی ویروس"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": null,
+        "correct": "Duration"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": null,
+        "correct": "1"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": null,
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "از کدام برگه در پنجره Properties می توان صفت یک پوشه (Attributes) را تغییر داد؟",
+        "selected": null,
+        "correct": "General"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Caption"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": null,
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": null,
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": null,
+        "correct": "Replace With"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای مشاهده ظرفیت یک فایل روی آن راست کلیک کرده و گزینه ................. را انتخاب می کنیم.",
+        "selected": null,
+        "correct": "Properties"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": null,
+        "correct": "No Value"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": null,
+        "correct": "Bus"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": null,
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "برای انتخاب یک جمله باید از کلید ترکیبی ..... استفاده کرد.",
+        "selected": null,
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": null,
+        "correct": "Cut"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": null,
+        "correct": "E-Mail"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": null,
+        "correct": "Equation"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Mailings"
+      },
+      {
+        "question": "به نرم افزارهایی که مصرف کننده برای یک مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کنند ................. گفته می شود؟",
+        "selected": null,
+        "correct": "نرم افزارهای اشتراکی"
+      },
+      {
+        "question": "حداقل تعداد کاراکترهای کلمه عبور در پست الکترونیکی کدام گزینه می باشد؟",
+        "selected": null,
+        "correct": "8"
+      },
+      {
+        "question": "در صورت وجود غلط های املایی در متن اسلایدها کدام یک از روش ها برای برطرف کردن غلط های املایی مناسب است؟",
+        "selected": null,
+        "correct": "سربرگ Review گزینه Spelling"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": null,
+        "correct": "Download"
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": null,
+        "correct": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": null,
+        "correct": "Switch User"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": null,
+        "correct": "F11"
+      },
+      {
+        "question": "برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟",
+        "selected": null,
+        "correct": "Decrease Font Size"
+      }
+    ],
+    "date": "2026-10-14T15:36:56.885Z"
   }
 ]
