@@ -637,5 +637,218 @@
       }
     ],
     "date": "2026-10-15T17:31:57.960Z"
+  },
+  {
+    "name": "سجاد نوروزی",
+    "nationalId": "4312152667",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "در جدول Query سطر Criteria برای چه منظوری گذاشته شده است؟",
+        "selected": "برای معیار انتخاب رکوردها جهت نمایش",
+        "correct": "برای معیار انتخاب رکوردها جهت نمایش"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Man و Lan و Wan",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Attachment",
+        "correct": "Primary"
+      },
+      {
+        "question": "برای بروزرسانی صفحه وب از کدام گزینه استفاده می شود؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "IT به معنای چیست؟",
+        "selected": "فناوری اطلاعات و ارتباطات",
+        "correct": "فناوری اطلاعات"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F8",
+        "correct": "F7"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Name",
+        "correct": "Caption"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "سلول هایی که به صورت افقی در جدول قرار دارند چه نامیده می شوند؟",
+        "selected": "Rows",
+        "correct": "Rows"
+      },
+      {
+        "question": "برای حذف سوابق صفحات ویزیت شده از کدام دکمه استفاده می کنیم؟",
+        "selected": "Clear History",
+        "correct": "Clear History"
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Paste Format",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای مرتب نمودن آیکن های پنجره بر اساس نوع فایل ها از کدام گزینه استفاده می شود؟",
+        "selected": "Size",
+        "correct": "Type"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (یا نامه) به چه منظوری به کار می رود؟",
+        "selected": "آدرس پست الکترونیکی گیرنده اصلی نامه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "برای تعیین چاپگر به عنوان چاپگر پیش فرض گزینه ...... را انتخاب می کنیم.",
+        "selected": "Set as device",
+        "correct": "Set as default printer"
+      },
+      {
+        "question": "برای به حداقل رساندن اندازه ی پنجره از کدام گزینه استفاده می کنیم؟",
+        "selected": "Minimize",
+        "correct": "Minimize"
+      },
+      {
+        "question": "برنامه های در حال اجرا در محیط ویندوز در کدام قسمت نشان داده می شوند؟",
+        "selected": "منوی Start",
+        "correct": "Task Manager"
+      },
+      {
+        "question": "فرامین Copy و Paste به چه منظور مورد استفاده قرار می گیرند؟",
+        "selected": "جابجایی اطلاعات",
+        "correct": "کپی اطلاعات"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Currency",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "به هنگام تعریف داده های عددی کدام نوع جهت عددهای اعشاری مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": "فایل حذف شده هیچگاه بازیابی نمی شود",
+        "correct": "فایل حذف شده هیچگاه بازیابی نمی شود"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Caption",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Summary",
+        "correct": "Summary"
+      },
+      {
+        "question": "کدام گزینه کلید تابعی نیست؟",
+        "selected": "Alt",
+        "correct": "Alt"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "فایل (File) به چه معنا است؟",
+        "selected": "به همه اطلاعات موجود در رایانه می گویند",
+        "correct": "به همه اطلاعات موجود در رایانه می گویند"
+      },
+      {
+        "question": "کدام روش مرتب سازی باعث می شود که تمامی پنجره ها روی هم قرار گرفته و تنها نوار عنوان آنها قابل مشاهده باشد؟",
+        "selected": "Show Windows Stacked (به صورت پشته ای)",
+        "correct": "Cascade Windows (به صورت آبشاری)"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": "3",
+        "correct": "1"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "Design",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "از این ابزار در گروه Paragraph برای تعیین جهت متن در کادر متنی استفاده می شود؟",
+        "selected": "Text Align",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "از کدام روش می توان نماها را در ورد تغییر داد؟",
+        "selected": "از زبانه Insert می توان فعال کرد",
+        "correct": "از طریق دکمه هایی که در گوشه پایین و سمت راست محیط Word قرار دارند"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Convert to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ View گزینه Style",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Sort A To Z",
+        "correct": "Sort A To Z"
+      }
+    ],
+    "date": "2026-10-15T17:52:39.383Z"
   }
 ]
