@@ -1915,5 +1915,218 @@
       }
     ],
     "date": "2026-10-16T13:08:37.801Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ایجاد سرصفحه که یک بار در اول گزارش به عنوان تیتر و یک پاورقی که یک بار در انتهای گزارش چاپ شود کدام مورد را از تب Design انتخاب می کنیم تا متن مورد نظر را در آن قسمت ها قرار دهیم؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": "Shape Outline",
+        "correct": "Arrange"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Right",
+        "correct": "Right"
+      },
+      {
+        "question": "برای تنظیم فاصله بین خطوط از کدام گزینه استفاده می شود؟",
+        "selected": "Line Style",
+        "correct": "Line Spacing"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Macros",
+        "correct": "Macros"
+      },
+      {
+        "question": "برای ثابت نگه داشتن تیتر جداول از کدام دستور استفاده می شود؟",
+        "selected": "Freeze",
+        "correct": "Freeze"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form و Datasheet",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "هارد دیسک از نظر روش دستیابی به اطلاعات جزء کدام گروه است؟",
+        "selected": "دستیابی مستقیم",
+        "correct": "دستیابی تصادفی"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Webcam",
+        "correct": "Webcam"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Row",
+        "correct": "Row"
+      },
+      {
+        "question": "به عنصری از بانک اطلاعاتی که جهت ورود یا تغییر اطلاعات به کار می رود چه می گویند؟",
+        "selected": "Form",
+        "correct": "Form"
+      },
+      {
+        "question": "تبدیل گزارش به کدام نوع خروجی امکان پذیر نمی باشد؟",
+        "selected": "Pdf",
+        "correct": "Bmp"
+      },
+      {
+        "question": "کدام مورد یک دستگاه خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های پست الکترونیک نمی باشد؟",
+        "selected": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند",
+        "correct": "هنگام ارسال پست الکترونیکی شخص گیرنده ای حضور داشته باشند"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M?S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج معادلات ریاضی",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "پیغام های دریافت شده در Outlook Express در کدام پوشه قرار دارند؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "کنترل داده ها در CPU به عهده کدام قسمت است؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Show desktop icons",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "از گزینه Pattern Fill در پنجره ی Format Background چه زمانی استفاده می شود؟",
+        "selected": "برای ترکیب دو رنگ متفاوت برای رنگ پس زمینه",
+        "correct": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به عنوان متن در نظر گرفته می شود؟",
+        "selected": "2+3",
+        "correct": "2+3"
+      },
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم",
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "برای پاک کردن قسمت مورد نظر جدول از کدام دستور استفاده می شود؟",
+        "selected": "Clear",
+        "correct": "Eraser"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Tabular",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "جهت تغییر شکل آیکن Computer کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Change Desktop Icon",
+        "correct": "Change Desktop Icon"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Customize > Format Background",
+        "correct": "Design > Variants > Background Styles"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "جهت ذخیره سازی اعداد صحیح بین -2 میلیارد و +2 میلیارد کدامیک از انواع داده ای زیر استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Long Integer"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Count(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      }
+    ],
+    "date": "2026-10-16T13:34:47.921Z"
   }
 ]
