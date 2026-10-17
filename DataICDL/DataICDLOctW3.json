@@ -2767,5 +2767,218 @@
       }
     ],
     "date": "2026-10-17T05:17:02.705Z"
+  },
+  {
+    "name": "سجاد نوروزی",
+    "nationalId": "4312152667",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 18,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت چپ",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Underline",
+        "correct": "Italic"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Condition Format",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "رجیستر به چه معناست؟",
+        "selected": "حافظه کوچک در داخل CPU",
+        "correct": "حافظه کوچک در داخل CPU"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Alu",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "برای تغییر رنگ زمینه سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Font",
+        "correct": "Pattern"
+      },
+      {
+        "question": "برای تقسیم جدول به دو بخش کدام دستور مناسب است؟",
+        "selected": "Merge Cells",
+        "correct": "Split Table"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "استفاده از دکمه Insert Table در چیدمان اسلاید برای درج .......... می باشد.",
+        "selected": "جدول",
+        "correct": "جدول"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F7",
+        "correct": "F7"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "65000",
+        "correct": "255"
+      },
+      {
+        "question": "در کدام یک از موارد زیر امکان به حد اکثر رساندن پنجره وجود دارد؟",
+        "selected": "پنجره معمولی",
+        "correct": "پنجره معمولی"
+      },
+      {
+        "question": "با دستور ..... می توان تغییرات یک فایل را با همان نام قبلی ذخیره و با دستور ..... می توان اطلاعات فایل فعلی را با نام دیگری ذخیره کرد؟ (از راست به چپ)",
+        "selected": "Save - Save as",
+        "correct": "Save as - Save"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "فرامین Copy و Paste به چه منظور مورد استفاده قرار می گیرند؟",
+        "selected": "جابجایی اطلاعات",
+        "correct": "کپی اطلاعات"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک بر خطوط جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "برای ایجاد یک پرس و جو کدام گزینه مورد استفاده قرار می گیرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Panes",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Center",
+        "correct": "Stretch"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 4 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "برای جستجوی رکوردی با مشخصات خاص در یک جدول از کدام فرمان استفاده می شود؟",
+        "selected": "Search",
+        "correct": "Filter"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Datasheet View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "برای تغییر خصوصیات یک فایل یا پوشه از کدام گزینه استفاده می شود؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": null,
+        "correct": "2 بایت"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Ram",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "انتخاب کدام روش مرتب سازی آیکن ها آنها را بر اساس تاریخ و زمان ایجاد یا تغییر آنها مرتب می کند؟",
+        "selected": "Date modified",
+        "correct": "Date modified"
+      },
+      {
+        "question": "برای برقراری ارتباط با اینترنت خط تلفن به کدام قسمت کامپیوتر متصل می شود؟",
+        "selected": "کارت شبکه",
+        "correct": "مودم"
+      },
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "Table Setting",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Open An Existing Presentation",
+        "correct": "Blank Presentation"
+      }
+    ],
+    "date": "2026-10-17T08:34:56.009Z"
   }
 ]
