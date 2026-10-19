@@ -4684,5 +4684,218 @@
       }
     ],
     "date": "2026-10-19T10:09:36.364Z"
+  },
+  {
+    "name": "امیرعلی فتح الهی",
+    "nationalId": "4312460140",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "سریع ترین راه برای فراخوانی دستور Replace کلیدهای ترکیبی ................ و .................. است.",
+        "selected": "Ctrl+R",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای تجاری از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه پهن",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "چنانچه گزارش ما بیش از یک صفحه بوده و بخواهیم یک عبارت ثابت را فقط در ابتدای اولین صفحه از گزارش ببینیم، آن عبارت را می بایستی در کدام بخش قرار داد؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Insert>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Use Wildcards",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Attach",
+        "correct": "Text"
+      },
+      {
+        "question": "نرم افزارهایی که مدیریت سخت افزار را به عهده دارند چه می نامند؟",
+        "selected": "سیستمی",
+        "correct": "سیستمی"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "برای نمایش تمام پنجره ها در کنار هم از چپ به راست (بصورت عمودی) کدام روش مرتب سازی را باید انتخاب نمود؟",
+        "selected": "Show Windows Side by Side",
+        "correct": "Show Windows Side by Side"
+      },
+      {
+        "question": "فرامین Copy و Paste به چه منظور مورد استفاده قرار می گیرند؟",
+        "selected": "کپی اطلاعات",
+        "correct": "کپی اطلاعات"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "برای اعمال پس زمینه بر روی تمامی اسلاید از کدام گزینه استفاده می کنیم؟",
+        "selected": "Apply To All",
+        "correct": "Apply To All"
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "ارسال و دریافت ایمیل",
+        "correct": "دریافت ایمیل"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پلاتر",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "ROM",
+        "correct": "RAM"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Previous",
+        "correct": "Find Next"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "برای اضافه کردن توضیحات به یک سلول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "گزینه Comment از سربرگ Insert",
+        "correct": "گزینه new Comment از سربرگ Review"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "یک جدول جدید ایجاد می گردد",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "کدام گزینه درست نمی باشد؟",
+        "selected": "ظرفیت حافظه های جانبی از حافظه های اصلی به مراتب بیشتر است",
+        "correct": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است"
+      },
+      {
+        "question": "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیرقابل استفاده می شود، چه می گویند؟",
+        "selected": "Demo",
+        "correct": "Share ware"
+      },
+      {
+        "question": "Plotter (رسام) جزء دستگاه های ...........و اسکنر واحد ..............است.",
+        "selected": "خروجی - ورودی",
+        "correct": "خروجی - ورودی"
+      },
+      {
+        "question": "فشردن کدام یک از کلیدهای ترکیبی زیر قسمت های مورد نیاز یک آدرس اینترنتی با پسوند COM را بجز نام آدرس اضافه می نماید؟",
+        "selected": "Alt+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Document",
+        "correct": "Presentation"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "CU",
+        "correct": "Cache"
+      },
+      {
+        "question": "وضوح صفحه نمایش (Screen Resolution) چیست؟",
+        "selected": "میزان تراکم پیکسل های صفحه نمایش",
+        "correct": "میزان تراکم پیکسل های صفحه نمایش"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save as type",
+        "correct": "save as type"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Design -> Page Border",
+        "correct": "Design -> Page Border"
+      },
+      {
+        "question": "کدامیک از فرمت های فایل زیر برای تصویر زمینه ویندوز قابل استفاده است؟",
+        "selected": "Docx",
+        "correct": "JPG"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر معرف سازمان دولتی است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Left Indention",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "یک بایت",
+        "correct": "یک بیت"
+      }
+    ],
+    "date": "2026-10-19T14:09:10.162Z"
   }
 ]
