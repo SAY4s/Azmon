@@ -6175,5 +6175,218 @@
       }
     ],
     "date": "2026-10-20T17:38:45.377Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 16,
+    "total": 40,
+    "percent": 40,
+    "wrong": 24,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "باینری",
+        "correct": "باینری"
+      },
+      {
+        "question": "برای مرتب کردن داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدام دستور می تواند کار چند تابع را انجام دهد؟",
+        "selected": "Subtotals",
+        "correct": "Subtotals"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Table, Database",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Data Label",
+        "correct": "Data Label"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "نام صفحه وب که باید توسط مرورگر نشان داده شود",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "فیلد از نوع Long Text در کدام یک از موارد زیر کاربرد دارد؟",
+        "selected": "برای فیلدهایی که دارای کاراکترهای کمتر از 255 هستند",
+        "correct": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند"
+      },
+      {
+        "question": "برای دیدن اطلاعات کامل از سبک مورد استفاده کلید ترکیبی ........................ را فشار می دهیم.",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+Shift+S"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Format",
+        "correct": "Field Size"
+      },
+      {
+        "question": "در کدام یک از موارد زیر امکان به حد اکثر رساندن پنجره وجود دارد؟",
+        "selected": "پنجره معمولی",
+        "correct": "پنجره معمولی"
+      },
+      {
+        "question": "اگر بخواهیم نامه دریافت شده را برای افراد دیگری بفرستیم از کدام دکمه استفاده می کنیم؟",
+        "selected": "Send",
+        "correct": "Forward"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار عنوان",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Data",
+        "correct": "Information"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط لغات مستقل در کادر جستجو پیدا شوند کدام گزینه را فعال می کنیم؟",
+        "selected": "Match Case",
+        "correct": "Find Whole Words Only"
+      },
+      {
+        "question": "آدرس های عددی مورد استفاده در شبکه را اصطلاحا چه می نامند؟",
+        "selected": "PASSWORD",
+        "correct": "IP"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "IE",
+        "correct": "Mamma"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Info",
+        "correct": "Info"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Pages",
+        "correct": "Selection"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "Round",
+        "correct": "If"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": "برای پیش نمایش سند قبل از چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Quick Print",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Field",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "برای اضافه کردن نام سایت به لیست علاقه مندی خود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Add To Favorites",
+        "correct": "Add To Favorites"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F4",
+        "correct": "F1"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "کدام گزینه در مورد دولت الکترونیکی بکار می رود؟",
+        "selected": "E-Mail",
+        "correct": "E-Government"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "CRT",
+        "correct": "CRT"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE بطور اتوماتیک نمایش داده می شود چه نامیده می شود؟",
+        "selected": "Final page",
+        "correct": "Home page"
+      },
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه Place Chart",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "پرانتز",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "کدام مورد یک دستگاه خروجی است؟",
+        "selected": "ماوس",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Format",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "در کدام نما نمی توان متن یا تصویر به اسلاید اضافه نمود؟",
+        "selected": "Note Page",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - صفحه کلید",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "کدام گزینه صحیح می باشد؟",
+        "selected": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم",
+        "correct": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم"
+      }
+    ],
+    "date": "2026-10-20T18:35:04.563Z"
   }
 ]
