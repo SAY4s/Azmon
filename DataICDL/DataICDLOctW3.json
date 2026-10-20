@@ -5962,5 +5962,218 @@
       }
     ],
     "date": "2026-10-20T14:13:53.250Z"
+  },
+  {
+    "name": "مهنیا کشاورز",
+    "nationalId": "4312688321",
+    "exam": "icdl",
+    "score": 16,
+    "total": 40,
+    "percent": 40,
+    "wrong": 16,
+    "unanswered": 8,
+    "answers": [
+      {
+        "question": "گزینه Width در سربرگ Paper چه کاربردی دارد؟",
+        "selected": "ارتفاع صفحه را تغییر می دهد",
+        "correct": "عرض صفحه را تعیین می کند"
+      },
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Title Slide",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": null,
+        "correct": "Db"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": null,
+        "correct": "Info"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selected Text",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ View گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Windows Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "برای ذخیره نمودن تصاویر در وب پس از راست کلیک از چه گزینه ای استفاده می شود؟",
+        "selected": "Save picture as",
+        "correct": "Save picture as"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "کلیک راست بر روی نوار کار و انتخاب Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Copy Disk",
+        "correct": "Backup"
+      },
+      {
+        "question": "به شرکت سرویس دهنده خدمات اینترنت چه می گویند؟",
+        "selected": "Hyperlink",
+        "correct": "ISP"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "اینترنت",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": null,
+        "correct": "Repeat"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کلیک (Click)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "کدام گزینه زیر یک موتور جستجوگر می باشد؟",
+        "selected": "Google",
+        "correct": "Google"
+      },
+      {
+        "question": "با استفاده از کلیدهای ترکیبی Ctrl+Home مکان نما به کجا منتقل می شود؟",
+        "selected": null,
+        "correct": "مکان نما به اولین فیلد رکورد اول منتقل می شود"
+      },
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": null,
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "پیغام های دریافت شده در Outlook Express در کدام پوشه قرار دارند؟",
+        "selected": "Outbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": null,
+        "correct": "Text"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print All Pages",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Webcam",
+        "correct": "Webcam"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "جمع",
+        "correct": "بزرگتری"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "Add/Remove Program",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "جهت تغییر اندازه تصویر، کدام سربرگ را انتخاب می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Format"
+      },
+      {
+        "question": "در سربرگ Home از این گروه برای تنظیمات نوع فونت نوشتاری و سایز و رنگ متن استفاده می شود.",
+        "selected": "Font",
+        "correct": "Font"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "برای بستن پنجره فعال از ترکیب کلیدهای ............... استفاده می شود؟",
+        "selected": "Alt+C",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": null,
+        "correct": "UPS"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "تراشه (IC)",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "کدام گزینه برای ایجاد اسلاید در پاورپوینت صحیح است؟",
+        "selected": "New Slide",
+        "correct": "New Slide"
+      }
+    ],
+    "date": "2026-10-20T17:38:45.377Z"
   }
 ]
