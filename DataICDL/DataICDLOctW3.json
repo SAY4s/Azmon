@@ -5749,5 +5749,218 @@
       }
     ],
     "date": "2026-10-20T10:04:58.483Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 21,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "Memory Secondary",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Automatically",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "جهت نمایش درایوها و پوشه ها با جزئیات از کدام گزینه استفاده می نماییم؟",
+        "selected": "Icons",
+        "correct": "Details"
+      },
+      {
+        "question": "فیلد Short Text چه نوع داده هایی را قبول می کند؟",
+        "selected": "متن و اعداد کمتر از 255 کاراکتر",
+        "correct": "متن و اعداد کمتر از 255 کاراکتر"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Short Text",
+        "correct": "Primary"
+      },
+      {
+        "question": "کدام فرمان برای اجرای مکرر دستورات استفاده می شود؟",
+        "selected": "Macro",
+        "correct": "Macro"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کوچکترین جزء اطلاعاتی در پایگاه داده چه گفته می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "چاپگر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Clear Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "برای نمایش تمام یا بخشی از اطلاعات در بانک اطلاعاتی از ................ استفاده می نماییم.",
+        "selected": "گزارش",
+        "correct": "پرس و جو"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "برای ذخیره آدرس و مشخصات افراد از …… استفاده می شود؟",
+        "selected": "Mail Box",
+        "correct": "Address Book"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Insert",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F6",
+        "correct": "F7"
+      },
+      {
+        "question": "کدامیک از گزینه ها در نرم افزار Paint جهت تغییر حاشیه ها، نوع کاغذ و تعیین اندازه کاغذ و نوع کاغذ بکار می رود؟",
+        "selected": "Print Preview",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": "داشتن فایل",
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "کدام نوع رابطه در بین جداول اشتباه است؟",
+        "selected": "رابطه یک به چند",
+        "correct": "رابطه چند به یک"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Outbox"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Draft",
+        "correct": "Inbox"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "=min(A1:B5)",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Type",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "60",
+        "correct": "40"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": "Apply Filter-Sort",
+        "correct": "Apply Filter-Sort"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی کلمه کلیک راست کرده و گزینه Format را برمی گزینیم",
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "در تنظیمات پاراگراف، تورفتگی ابتدای آن را از کدام بخش انجام می دهیم؟",
+        "selected": "Alignment",
+        "correct": "Indentation"
+      },
+      {
+        "question": "تعریف زیر معرف کدام یک از موارد زیر است؟ \"محدود کردن نمایش اطلاعات بانک اطلاعاتی به رکوردها و فیلدهایی که برای تطبیق مشخص شده اند.\"",
+        "selected": "فیلتر",
+        "correct": "فیلتر"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "برای ایجاد فایل در پاورپوینت کدام کلیدهای ترکیبی را می فشاریم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از کدام سربرگ و گزینه استفاده می شود؟ (چپ به راست)",
+        "selected": "Page Layout------Print",
+        "correct": "Page Layout--------Margins"
+      },
+      {
+        "question": "توسط این گزینه می توانیم ارتفاع جدول را تعیین کنیم:",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "تهیه نمودار گرافیکی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "برنامه های سودمند",
+        "correct": "برنامه های کاربردی"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "کدام گزینه برای ذخیره تصاویر استفاده می گردد؟",
+        "selected": "Go To My Picture",
+        "correct": "Save Picture As"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      }
+    ],
+    "date": "2026-10-20T14:13:53.250Z"
   }
 ]
