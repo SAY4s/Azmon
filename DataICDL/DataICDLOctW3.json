@@ -6388,5 +6388,218 @@
       }
     ],
     "date": "2026-10-20T18:35:04.563Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 5,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت Advanced گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "دسترسی به اطلاعات در حافظه Ram به چه صورت است؟",
+        "selected": "تصادفی",
+        "correct": "تصادفی"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "حافظه اصلی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F11",
+        "correct": "F11"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F11",
+        "correct": "F11"
+      },
+      {
+        "question": "جهت فعال نمودن Folder Option از کدام روش استفاده می کنیم؟",
+        "selected": "از مسیر Start | Control Panel | Folder Option اقدام می نماییم",
+        "correct": "استفاده از منوی Tools در هر پنجره ای"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Design",
+        "correct": "Format"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": "گزینه Split Cells از سربرگ Layout",
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "کدام کلید سبب پرش مکان نما به ابتدای سند می گردد؟",
+        "selected": "Ctrl+Home",
+        "correct": "Ctrl+Home"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.mp3",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پلاتر",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": null,
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "DOS",
+        "correct": "DOS"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Default Value",
+        "correct": "Scale"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Selection Filter",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": null,
+        "correct": "Select Object"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt & Docx",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "از این ابزار برای کپی کردن Animation بر روی عناصر دیگر اسلایدها استفاده می شود.",
+        "selected": "Animation Painter",
+        "correct": "Animation Painter"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "فرمان ...... کاربرگ فعال را حذف می کند؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Header Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "برای مرتب بودن همیشگی آیکن ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Arrange Icons",
+        "correct": "Auto Arrange Icons"
+      },
+      {
+        "question": "به نحوه قرار گرفتن محتوای اسلایدها ....... می گویند.",
+        "selected": "Slide Design",
+        "correct": "Slide Layout"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیرقابل استفاده می شود، چه می گویند؟",
+        "selected": "Share ware",
+        "correct": "Share ware"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Justify"
+      }
+    ],
+    "date": "2026-10-20T19:16:37.453Z"
   }
 ]
