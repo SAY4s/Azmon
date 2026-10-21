@@ -7453,5 +7453,218 @@
       }
     ],
     "date": "2026-10-21T17:54:05.480Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 21,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر رنگ پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Uppercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": "روی صفحه در حین تایپ کردن دکمه Caps Lock را می فشاریم",
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "برای نوشتن توان یک عدد از چه گزینه ای استفاده می کنیم؟",
+        "selected": "Bold",
+        "correct": "Superscript"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": "Report footer",
+        "correct": "Page Header"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Insert>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد جدول جدید بدون استفاده از ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "برای مشاهده مشخصات پوشه ها باید از چه روشی استفاده کرد؟",
+        "selected": "کلیک راست روی آیکن پوشه و انتخاب گزینه Properties",
+        "correct": "کلیک راست روی آیکن پوشه و انتخاب گزینه Properties"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Variants > Colors",
+        "correct": "Design > Variants > Background Styles"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Comparison",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": "مارک دستگاه و کیفیت چاپ",
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Search",
+        "correct": "Replace"
+      },
+      {
+        "question": "برای تنظیم حاشیه های سند از کدام دکمه استفاده می شود؟",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Picture",
+        "correct": "Format"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "پرانتز",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "برای مخفی کردن یک اسلاید از گزینه ................. استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Font",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "فیلتر (Filter)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "اگر بخواهیم متحرک سازی یک شی همراه با متحرک سازی قبلی اجرا شود، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "On click",
+        "correct": "With Previous"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "اگر بخواهیم اجازه داشتن ارزش Null در فیلد نداشته باشیم؟",
+        "selected": "خاصیت Format را روی No تنظیم کنیم",
+        "correct": "خاصیت Required را روی Yes تنظیم کنیم"
+      },
+      {
+        "question": "هر چه تعداد رکوردهای جدول بیشتر باشد برای اینکه اکسس بتواند داده ها را سریع تر، مرتب و جستجو کند احتیاج به .................. دارید؟",
+        "selected": "Index",
+        "correct": "Index"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Remove Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Delay",
+        "correct": "Repeat"
+      },
+      {
+        "question": "به نمودار ستونی چه گفته می شود؟",
+        "selected": "Line",
+        "correct": "Column"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "ALU",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "کدام یک از خصوصیات زیر درمورد فیلدها تعیین کننده مقدار پیش فرض می باشد؟",
+        "selected": "Caption",
+        "correct": "Default value"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Formula",
+        "correct": "Equation"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      }
+    ],
+    "date": "2026-10-21T18:30:31.515Z"
   }
 ]
