@@ -6601,5 +6601,218 @@
       }
     ],
     "date": "2026-10-20T19:16:37.453Z"
+  },
+  {
+    "name": "زهرا امیری پور",
+    "nationalId": "4311710836",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اگر بخواهیم تمام فیلدها در یک رکورد از جدول پر شود و هیچ یک خالی رد نشود کدام خصوصیت از فیلدها باید فعال شود؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Borders",
+        "correct": "Borders"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای انتخاب یک جمله باید از کلید ترکیبی ..... استفاده کرد.",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "3-D Style",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.",
+        "selected": "Options",
+        "correct": "Options"
+      },
+      {
+        "question": "فیلد از نوع Long Text در کدام یک از موارد زیر کاربرد دارد؟",
+        "selected": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند",
+        "correct": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند"
+      },
+      {
+        "question": "پسوند فایل های پشتیبان چیست؟",
+        "selected": "bkf",
+        "correct": "bkf"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - کپی",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان سبک جدید و سفارشی ایجاد نمود؟",
+        "selected": "Create A New Style",
+        "correct": "Create A New Style"
+      },
+      {
+        "question": "برای تقسیم جدول به دو بخش کدام دستور مناسب است؟",
+        "selected": "Split Table",
+        "correct": "Split Table"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "از کدام گزینه برای درج دکمه های عملیاتی استفاده می نماییم؟",
+        "selected": "Action Buttons",
+        "correct": "Action Buttons"
+      },
+      {
+        "question": "به شرکت های ارائه دهنده خدمات اینترنتی چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی All Program",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ...................... است.",
+        "selected": "حجم",
+        "correct": "حجم"
+      },
+      {
+        "question": "برای نمایش خط کش کدام سربرگ را انتخاب می کنید؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "کدام گزینه، روش ایجاد فرم به صورت دستی است؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Query",
+        "correct": "Report"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "برای انتقال فایل و پوشه ها به کدام گزینه مراجعه می کنیم؟",
+        "selected": "Organize",
+        "correct": "Organize"
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Double"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "در سربرگ Home از این گروه برای تنظیمات نوع فونت نوشتاری و سایز و رنگ متن استفاده می شود.",
+        "selected": "Font",
+        "correct": "Font"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر ناپایدار است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "کدام جمله در مورد کلید اصلی درست نمی باشد؟",
+        "selected": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود",
+        "correct": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود"
+      },
+      {
+        "question": "کار گزینه Hide Slide چیست؟",
+        "selected": "مخفی کردن اسلاید",
+        "correct": "مخفی کردن اسلاید"
+      },
+      {
+        "question": "کدام سربرگ برای درج پاورقی است؟",
+        "selected": "References",
+        "correct": "References"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Macros",
+        "correct": "Macros"
+      },
+      {
+        "question": "اصلی ترین نرم افزار در کامپیوتر ..................... است.",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "کدامیک جزء واحدهای اندازه گیری حافظه نیست؟",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      }
+    ],
+    "date": "2026-10-21T14:48:42.362Z"
   }
 ]
