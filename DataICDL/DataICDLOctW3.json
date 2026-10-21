@@ -7027,5 +7027,218 @@
       }
     ],
     "date": "2026-10-21T15:45:18.927Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 18,
+    "total": 40,
+    "percent": 45,
+    "wrong": 22,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "pxt-slide",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Rows",
+        "correct": "Cell"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Priority",
+        "correct": "Attach File"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Home گروه Editing گزینه Filter & Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Cell",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟",
+        "selected": "Position",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "University + Shiraz",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "Error",
+        "correct": "4"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Sorting",
+        "correct": "Ascending"
+      },
+      {
+        "question": "کدام گزینه به معنای Sort Descending می باشد؟",
+        "selected": "مرتب سازی صعودی",
+        "correct": "مرتب سازی به روش نزولی"
+      },
+      {
+        "question": "اگر بخواهیم چند فایل صفحه گسترده را با موقعیت و اندازه هر کدام در یک پنجره نمایش دهیم؟",
+        "selected": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window",
+        "correct": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window"
+      },
+      {
+        "question": "منظور از توپولوژی شبکه چیست؟",
+        "selected": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است",
+        "correct": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Custom Print",
+        "correct": "Custom Print"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Outline",
+        "correct": "Shadow"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت Advanced گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "پسوند Mp3، جزء پسوندهای ................... است.",
+        "selected": "صوتی",
+        "correct": "صوتی"
+      },
+      {
+        "question": "پوشه sent شامل ...... است.",
+        "selected": "لیست نامه های حذف شده است",
+        "correct": "لیست نامه های ارسال شده است"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "یک سیستم کامپیوتر از چه قسمت هایی تشکیل شده است؟",
+        "selected": "سخت افزار و نرم افزار و میان افزار",
+        "correct": "سخت افزار و نرم افزار و میان افزار"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Yes/No",
+        "correct": "Yes/No"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Presentation",
+        "correct": "Operating system"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نادرست می باشد؟",
+        "selected": "اینترانت شبکه خصوصی است که بر اساس قوانین و پروتکل های اینترنت ایجاد می شود ولی به اینترنت متصل نیست",
+        "correct": "اینترانت، یک شبکه جهانی می باشد"
+      },
+      {
+        "question": "کدام گزینه از کادر Format Cell موجب پر شدن یک سلول با خطوط هاشور می شود؟",
+        "selected": "Texture",
+        "correct": "Pattern"
+      },
+      {
+        "question": "کدام گزینه درست نمی باشد؟",
+        "selected": "سرعت حافظه های اصلی از حافظه های جانبی بیشتر است",
+        "correct": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "برنامه ها جهت اجرا در کدام واحد قرار می گیرند؟",
+        "selected": "حافظه اصلی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد",
+        "correct": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Text",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "کدامیک از گزینه ها در رابطه با ایجاد جدول به روش ترسیم صحیح است؟",
+        "selected": "انتخاب Draw Table از سربرگ Insert گروه Table",
+        "correct": "انتخاب Draw Table از سربرگ Insert گروه Table"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": "از Cell Style بر روی Add کلیک می کنیم",
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Set as Default Theme",
+        "correct": "Set as Default Theme"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOCX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Stretch",
+        "correct": "Tile"
+      },
+      {
+        "question": "با کدام گزینه تصویر در زمینه میز کار به صورت کشیده قرار می گیرد؟",
+        "selected": "Fill",
+        "correct": "Stretch"
+      }
+    ],
+    "date": "2026-10-21T15:58:47.196Z"
   }
 ]
