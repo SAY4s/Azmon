@@ -7879,5 +7879,218 @@
       }
     ],
     "date": "2026-10-21T18:42:17.192Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "علامت مساوی در شروع یک خانه نشانه چیست؟",
+        "selected": "شروع یک فرمول",
+        "correct": "شروع یک فرمول"
+      },
+      {
+        "question": "برای ذخیره سند از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای اضافه نمودن یک اسلاید جدید با استفاده از طرح های اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "New Slide←Home",
+        "correct": "New Slide←Home"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "در منوی کشویی Find What چه می نویسیم؟",
+        "selected": "متنی که می خواهیم جستجو کنیم",
+        "correct": "متنی که می خواهیم جستجو کنیم"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "در طراحی اسلاید اصلی در ابزار Slide Master می توانیم .........",
+        "selected": "برای طراحی الگوی نسخه چاپی اسلایدهای فایل ارائه مطلب برای حاضرین در جلسه به کار می رود",
+        "correct": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign In",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "با تغییر نوع نمودار در یک اسلاید کدام گزینه از منوی مربوط به نمودار باید انتخاب شود؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Find What",
+        "correct": "Look in"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": "Align To Grid",
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "برای ذخیره سند از چه کلیدهایی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Ole",
+        "correct": "Ole"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Double"
+      },
+      {
+        "question": "فیلد از نوع Long Text در کدام یک از موارد زیر کاربرد دارد؟",
+        "selected": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند",
+        "correct": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": "دکمه New",
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد پردازش مرکزی",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "برنامه های در حال اجرا در محیط ویندوز در کدام قسمت نشان داده می شوند؟",
+        "selected": "Toolbar",
+        "correct": "Task Manager"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Classic Start Menu",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند کدام گزینه را انتخاب می کنید؟",
+        "selected": "آدرس آن را در قسمت BCC وارد می کنیم",
+        "correct": "آدرس آن را در قسمت BCC وارد می کنیم"
+      },
+      {
+        "question": "از کدام گزینه برای توپر شدن متن استفاده می شود؟",
+        "selected": "Font Size",
+        "correct": "Bold"
+      },
+      {
+        "question": "در نمای Data Sheet جهت انتقال مکان نما به فیلد قبلی از کدام گزینه استفاده می شود؟",
+        "selected": "Tab",
+        "correct": "Shift+Tab - دکمه های جهتی صفحه کلید"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print Current Page",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر در مورد DVD صحیح می باشد؟",
+        "selected": "دیسک ویدیویی دیجیتال",
+        "correct": "دیسک ویدیویی دیجیتال"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Formula",
+        "correct": "Equation"
+      },
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های انتخاب شده",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟",
+        "selected": "Increase Alphabet",
+        "correct": "Sort"
+      },
+      {
+        "question": "آدرس یک سایت از چندین بخش مجزا تشکیل شده است و هر بخش توسط علامت ...... از دیگری جدا شده است؟",
+        "selected": "اسلش",
+        "correct": "."
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "فیلتر (Filter)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Insert - Formulas",
+        "correct": "Formulas - Function"
+      },
+      {
+        "question": "در جدول Query سطر Criteria برای چه منظوری گذاشته شده است؟",
+        "selected": "ذکر عناوین فیلدهای مورد نظر",
+        "correct": "برای معیار انتخاب رکوردها جهت نمایش"
+      },
+      {
+        "question": "کدام گزینه صحیح می باشد؟",
+        "selected": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم",
+        "correct": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم"
+      },
+      {
+        "question": "برای درج متن از چه روشی استفاده می شود؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      }
+    ],
+    "date": "2026-10-21T18:47:27.137Z"
   }
 ]
