@@ -1063,5 +1063,218 @@
       }
     ],
     "date": "2026-10-22T18:49:54.803Z"
+  },
+  {
+    "name": "مهنیا کشاورز",
+    "nationalId": "4312688321",
+    "exam": "icdl",
+    "score": 2,
+    "total": 40,
+    "percent": 5,
+    "wrong": 1,
+    "unanswered": 37,
+    "answers": [
+      {
+        "question": "از کدام گزینه برای توپر شدن متن استفاده می شود؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": null,
+        "correct": "Https"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": null,
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "کلید میان بر برای چاپ کدام مورد می باشد؟",
+        "selected": null,
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": null,
+        "correct": "Ctrl+Alt+Del"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": null,
+        "correct": "Orientation"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": null,
+        "correct": "Send"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط لغات مستقل در کادر جستجو پیدا شوند کدام گزینه را فعال می کنیم؟",
+        "selected": null,
+        "correct": "Find Whole Words Only"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": null,
+        "correct": "Worksheet"
+      },
+      {
+        "question": "در چیدمان slideها از چیدمان ....... برای نگهداری عنوان و نگهداری محتوای غیرمتنی استفاده می شود؟",
+        "selected": null,
+        "correct": "Title and Content"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": null,
+        "correct": "مودم"
+      },
+      {
+        "question": "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
+        "selected": null,
+        "correct": "DVD و CD"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": null,
+        "correct": "پلاترها"
+      },
+      {
+        "question": "جهت جمع آوری و سازماندهی اطلاعات در مورد یک موضوع از کدام نرم افزار استفاده می شود؟",
+        "selected": null,
+        "correct": "بانک اطلاعاتی"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": null,
+        "correct": "Control Panel"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": null,
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": null,
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": null,
+        "correct": "Data Base"
+      },
+      {
+        "question": "پوشه (Folder) به چه معنا است؟",
+        "selected": null,
+        "correct": "محلی برای نگهداری و سازماندهی فایل ها و برنامه ها"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": null,
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": null,
+        "correct": "سربرگ database tools گزینه relationships"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": null,
+        "correct": "CRT"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Tables"
+      },
+      {
+        "question": "کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟",
+        "selected": null,
+        "correct": "سرعت بالای حافظه های ثانویه"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": null,
+        "correct": "زبانه Character Spacing از Font"
+      },
+      {
+        "question": "انواع نرم افزار کدام گزینه است؟",
+        "selected": null,
+        "correct": "کاربردی - سیستمی"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": null,
+        "correct": "Normal"
+      },
+      {
+        "question": "برای بستن سند از چه دستوری استفاده می شود؟",
+        "selected": null,
+        "correct": "Close"
+      },
+      {
+        "question": "از کدام دستور برای چرخش تصویر استفاده می شود؟",
+        "selected": null,
+        "correct": "Rotate"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": null,
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "کلیک بر روی کدام دکمه IE فهرستی از تمام سایت هایی را که در روزهای اخیر مشاهده کرده اید نشان می دهد؟",
+        "selected": null,
+        "correct": "History"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": null,
+        "correct": "No-Required"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": null,
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": null,
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": null,
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Date/Time",
+        "correct": "Number"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": null,
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟",
+        "selected": null,
+        "correct": "تغییر رنگ زمینه سلول"
+      }
+    ],
+    "date": "2026-10-22T19:42:22.181Z"
   }
 ]
