@@ -850,5 +850,218 @@
       }
     ],
     "date": "2026-10-22T17:36:13.646Z"
+  },
+  {
+    "name": "مائده حمیدی",
+    "nationalId": "7280114032",
+    "exam": "icdl",
+    "score": 15,
+    "total": 40,
+    "percent": 38,
+    "wrong": 25,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Tables",
+        "correct": "Queries"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت های ارائه خدمات اینترنت",
+        "correct": "شرکت های ارائه خدمات اینترنت"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "سرویس دهنده های عمومی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Review>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "به شرکت های ارائه دهنده خدمات اینترنتی چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Ignore All",
+        "correct": "Ignore All"
+      },
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Queries",
+        "correct": "Tables"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "All Program / Accessories / Sound Recorder",
+        "correct": "کلیک بر روی آیکن صدا بر روی نوار کار"
+      },
+      {
+        "question": "برای وارد کردن تصاویر به کامپیوتر از کدام سخت افزار استفاده می شود؟",
+        "selected": "کارت گرافیک",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای ذخیره آدرس و مشخصات افراد از …… استفاده می شود؟",
+        "selected": "Address Book",
+        "correct": "Address Book"
+      },
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Desktop - Laptop",
+        "correct": "Desktop - Laptop"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Up",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "مستندسازی",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": "با درگ کردن خط کش",
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "سریع ترین و راحت ترین روش برای ایجاد فایل نمایشی کدام است؟",
+        "selected": "انتخاب گزینه Recent Document از منوی Office",
+        "correct": "فشردن کلیدهای Ctrl+N"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی است",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "*",
+        "correct": "!"
+      },
+      {
+        "question": "کدام گزینه برای درج تصویر به کار می رود؟",
+        "selected": "Image",
+        "correct": "Picture"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Socket",
+        "correct": "Bus"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "Ram > CPU > Floppy > Hard",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "Draw Table از زبانه Insert",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Bing",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Shut Down",
+        "correct": "Lock"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "Https",
+        "correct": "Https"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Org",
+        "correct": "Edu"
+      },
+      {
+        "question": "از کدام دستور برای چرخش تصویر استفاده می شود؟",
+        "selected": "Layout",
+        "correct": "Rotate"
+      },
+      {
+        "question": "برای بستن پنجره ها از کدام گزینه نمی توان استفاده کرد؟",
+        "selected": "از کلید ترکیبی Alt+Tab استفاده می کنیم",
+        "correct": "از کلید ترکیبی Alt+Tab استفاده می کنیم"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "برنامه اکسل جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "صفحه گسترده"
+      }
+    ],
+    "date": "2026-10-22T18:49:54.803Z"
   }
 ]
