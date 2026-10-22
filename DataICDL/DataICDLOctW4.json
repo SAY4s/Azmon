@@ -424,5 +424,218 @@
       }
     ],
     "date": "2026-10-22T13:33:23.448Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 14,
+    "total": 40,
+    "percent": 35,
+    "wrong": 26,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت حذف یک فایل می توان ............",
+        "selected": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود",
+        "correct": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود"
+      },
+      {
+        "question": "با دستور ..... می توان تغییرات یک فایل را با همان نام قبلی ذخیره و با دستور ..... می توان اطلاعات فایل فعلی را با نام دیگری ذخیره کرد؟ (از راست به چپ)",
+        "selected": "Save - Save",
+        "correct": "Save as - Save"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Database Tools",
+        "correct": "Create"
+      },
+      {
+        "question": "Decimal Place برای کدام نوع داده قابل دسترسی بوده است؟",
+        "selected": "یادداشت",
+        "correct": "عددی"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Print Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "شناسه کاربر",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": "No",
+        "correct": "Uni Code"
+      },
+      {
+        "question": "علامت قرمز برنامه آنتی ویروس نشانه چیست؟",
+        "selected": "وجود ویروس",
+        "correct": "به روز نبودن آنتی ویروس"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "فرستنده",
+        "correct": "نامه"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Bold",
+        "correct": "Italic"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Computer انتخاب Keyboard",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Page Layout>Macros>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": "Data Base",
+        "correct": "Data Base"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "F3",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Caption"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر به معنی شبکه می باشد؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Send",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Log Off",
+        "correct": "Switch User"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "نقل و انتقال پول به سرعت انجام می شود",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "And Shiraz University",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Caps Lock",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام نوع داده زیر برای اعداد استفاده می شود؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "در هنگام درج نمودار دو سربرگ وابسته ............. و .......... نیز به سربرگ دستورات نرم افزار اضافه می شود.",
+        "selected": "Home - Insert",
+        "correct": "Design - Format"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Reading View",
+        "correct": "Template"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "All",
+        "correct": "Current Page"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Home \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "First Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Forward",
+        "correct": "Attach File"
+      },
+      {
+        "question": "توسط نرم افزار فشرده سازی، می توان حجم فایل را تا ...... کاهش داد.",
+        "selected": "%50",
+        "correct": "%50"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Macro",
+        "correct": "Macro"
+      },
+      {
+        "question": "دسترسی به اطلاعات در حافظه Ram به چه صورت است؟",
+        "selected": "تصادفی",
+        "correct": "تصادفی"
+      },
+      {
+        "question": "از کدام یک از گزینه های زیر برای ذخیره کردن فایل ارائه مطلب استفاده نمی شود؟",
+        "selected": "استفاده از کلیدهای ترکیبی Ctrl+S",
+        "correct": "از ریبون Home گزینه Save"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ table گزینه create",
+        "correct": "سربرگ database tools گزینه relationships"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "تلکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "قابلیت کوچک نمایی برای مشاهده کل اطلاعات به صورت یکجا را ....... می گویند.",
+        "selected": "Fit",
+        "correct": "Fit"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟",
+        "selected": "Increase Alphabet",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      }
+    ],
+    "date": "2026-10-22T13:50:44.954Z"
   }
 ]
