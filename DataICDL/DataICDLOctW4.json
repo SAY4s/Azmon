@@ -1,0 +1,215 @@
+[
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 4,
+    "total": 40,
+    "percent": 10,
+    "wrong": 14,
+    "unanswered": 22,
+    "answers": [
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن تصاویر گرافیکی هوشمند استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخابی را روی همه اسلایدها اعمال کنیم با راست کلیک بر روی تم مورد نظر کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected",
+        "correct": "Apply to All Slides"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "برای چاپ صفحه کاری جاری از کادر محاوره ای Print کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Print Current Sheet",
+        "correct": "Active Sheet Print"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Export",
+        "correct": "Info"
+      },
+      {
+        "question": "اگر بر روی یک آیکن چپ کلیک را نگه داشته و آن را به سمت دلخواه خود بکشیم و سپس رها کنیم چه عملی انجام داده ایم؟",
+        "selected": "Drag and Drop",
+        "correct": "Drag and Drop"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cache",
+        "correct": "Cu"
+      },
+      {
+        "question": "با تغییر نوع نمودار در یک اسلاید کدام گزینه از منوی مربوط به نمودار باید انتخاب شود؟",
+        "selected": "Lines",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": "Home - Find",
+        "correct": "Query"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print All Pages",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "چاپگر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "حافظه های اصلی کامپیوتر را نام ببرید؟",
+        "selected": "Hard Disk - RAM",
+        "correct": "ROM - RAM"
+      },
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Font",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "View",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Layout View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای بانکی از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "از نمای .......... برای جابجایی و مدیریت کردن اسلایدها در Power Point استفاده می شود.",
+        "selected": null,
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "حافظه فلش یک دستگاه ...................است؟",
+        "selected": null,
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "حداقل تعداد کاراکترهای کلمه عبور در پست الکترونیکی کدام گزینه می باشد؟",
+        "selected": null,
+        "correct": "8"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": null,
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "مودم چگونه دستگاهی است؟",
+        "selected": null,
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Insert \\ Picture"
+      },
+      {
+        "question": "هرگاه اندازه سطرهای جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": null,
+        "correct": "Distribute Rows"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": null,
+        "correct": "Object In"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": null,
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": null,
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": null,
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": null,
+        "correct": "$K$6"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Show"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": null,
+        "correct": "Ascending"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": null,
+        "correct": "ROM"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": null,
+        "correct": "Alt+F"
+      },
+      {
+        "question": "کدام یک از خصوصیات زیر درمورد فیلدها تعیین کننده مقدار پیش فرض می باشد؟",
+        "selected": null,
+        "correct": "Default value"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "در مهارت های هفتگانه ICDL کدام نرم افزار به عنوان صفحه گسترده تدریس می شود؟",
+        "selected": null,
+        "correct": "MS_EXCEL"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": null,
+        "correct": "count if"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": null,
+        "correct": "Cd"
+      }
+    ],
+    "date": "2026-10-22T13:24:40.445Z"
+  }
+]
