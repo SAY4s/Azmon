@@ -3619,5 +3619,218 @@
       }
     ],
     "date": "2026-10-23T20:14:25.237Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 0,
+    "total": 40,
+    "percent": 0,
+    "wrong": 3,
+    "unanswered": 37,
+    "answers": [
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "Table Setting",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "با استفاده از .......... می توانیم اسلایدها را در زمانی که محتوای آن بزرگتر از اندازه ی پنجره است در راستای عمودی و افقی پیمایش کنیم.",
+        "selected": "نوار عنوان",
+        "correct": "نوارهای پیمایش"
+      },
+      {
+        "question": "در نوار ابزار IE دکمه ستاره، کدام فرمان زیر را اجرا می کند؟",
+        "selected": "Refresh",
+        "correct": "Favorites"
+      },
+      {
+        "question": "به کامپیوتری که در یک شبکه به کامپیوترهای دیگر سرویس دهد چه می گویند؟",
+        "selected": null,
+        "correct": "Server"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": null,
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Shortcut key"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": null,
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": null,
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "در برنامه های ویرایشگر متن برای ایجاد سطر خالی بین دو سطر نوشته شده چه باید کرد؟",
+        "selected": null,
+        "correct": "در انتهای سطر اول یا ابتدای سطر دوم کلید Enter را بزنیم"
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": null,
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "کدام گزینه یک نوع داده در محیط اکسس محسوب نمی شود؟",
+        "selected": null,
+        "correct": "Form"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": null,
+        "correct": "Windows Style"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": null,
+        "correct": "F5"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": null,
+        "correct": "ISP"
+      },
+      {
+        "question": "اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "Even Page"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": null,
+        "correct": "Zoom In"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": null,
+        "correct": "Disconnect"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": null,
+        "correct": "Draft"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": null,
+        "correct": "New"
+      },
+      {
+        "question": "جهت نمایش درایوها و پوشه ها با جزئیات از کدام گزینه استفاده می نماییم؟",
+        "selected": null,
+        "correct": "Details"
+      },
+      {
+        "question": "صفحه کلید - بلندگو هر کدام جز دستگاه های .................... می باشند.",
+        "selected": null,
+        "correct": "ورودی - خروجی"
+      },
+      {
+        "question": "برای ادغام خانه های جدول از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": null,
+        "correct": "Blank"
+      },
+      {
+        "question": "برای ذخیره سند با نام جدید از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Save As"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای تغییر ساختار جدول به کار می رود؟",
+        "selected": null,
+        "correct": "دکمه Design"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": null,
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": null,
+        "correct": "Query"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": null,
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر با مقداردهی در کادر عددی آن موجب تاخیر در نمایش انیمیشن می شود؟",
+        "selected": null,
+        "correct": "Delay"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": null,
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای درج خودکار سری داده ها از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": null,
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": null,
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "برای استفاده از دستور جایگزینی یا Replace به سربرگ .............. گروه ............ مراجعه کرده و ابزار را انتخاب می کنیم.",
+        "selected": null,
+        "correct": "Home (Editing) Replace"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": null,
+        "correct": "پرانتز"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Create New Account"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": null,
+        "correct": "Uppercase"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": null,
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      }
+    ],
+    "date": "2026-10-23T20:15:57.999Z"
   }
 ]
