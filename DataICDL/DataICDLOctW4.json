@@ -3832,5 +3832,218 @@
       }
     ],
     "date": "2026-10-23T20:15:57.999Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 20,
+    "total": 40,
+    "percent": 50,
+    "wrong": 20,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Automatically",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "Khtrue4",
+        "correct": "4"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "برای فرمت دادن به متن از این مورد استفاده می کنیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "چنانچه گزارش ما بیش از یک صفحه بوده و بخواهیم یک عبارت ثابت را فقط در ابتدای اولین صفحه از گزارش ببینیم، آن عبارت را می بایستی در کدام بخش قرار داد؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "برای تجزیه یک سلول به چند سطر و ستون از کدام دستور استفاده می کنیم؟",
+        "selected": "Split Cells",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Reading View"
+      },
+      {
+        "question": "برای ارسال یک نامه دریافت شده به اشخاص دیگر از کدام گزینه استفاده می شود؟",
+        "selected": "forward",
+        "correct": "forward"
+      },
+      {
+        "question": "............... برنامه های کوچکی هستند که عملا به برنامه اجرایی و یا نواحی سیستمی دیسک متصل شده و بر روی آنها اثرات نامطلوب می گذارند.",
+        "selected": "ویروس ها",
+        "correct": "ویروس ها"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول های A2 تا C5 و سلول D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "پسورد برای آدرس ایمیل منحصر به فرد باشد",
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "با استفاده از کدام کلیدها تمام موضوعات موجود در یک سند را انتخاب می کنیم؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "پسوند فایل های صفحه گسترده Xls است",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "محاسباتی و منطقی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "برای تنظیم میزان فرورفتگی از کدام گزینه استفاده می شود؟",
+        "selected": "Spacing",
+        "correct": "Indent"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Excel Spreadsheet",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "تهیه و ویرایش کتاب و مقاله",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Report Header Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "اندازه نوع داده Yes/No چقدر است؟",
+        "selected": "8 بایت",
+        "correct": "یک بیت"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر اشکال هندسی تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "کدامیک از فیلدهای زیر برای Primary Key مناسب تر است؟",
+        "selected": "فیلد شماره عضویت فرد در کتابخانه",
+        "correct": "فیلد شماره عضویت فرد در کتابخانه"
+      },
+      {
+        "question": "برای تایپ حروف بزرگ لاتین باید دکمه...................... را فعال نمود.",
+        "selected": "Caps Lock",
+        "correct": "Caps Lock"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "راهنما",
+        "correct": "راهنما"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "https",
+        "correct": "URL"
+      },
+      {
+        "question": "کدامیک از موارد زیر صحیح می باشد؟",
+        "selected": "جدول از مجموعه ای از گزارش ها ساخته می شود",
+        "correct": "جدول از مجموعه ای از رکورد ساخته می شود"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "آدرس خانه فعال در کجا قابل رویت است؟",
+        "selected": "در نوار فرمول",
+        "correct": "در کادر Name Box"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای یک .............. است؟",
+        "selected": "Field",
+        "correct": "Table"
+      },
+      {
+        "question": "برای نمایش خطوط راهنما و شبکه ای کدام گزینه ها را فعال می کنیم؟",
+        "selected": "Ruler - Grid Line",
+        "correct": "Grid Line - Guides"
+      },
+      {
+        "question": "کدام یک کامپیوترهای زیر از نظر قدرت پردازش ضعیف تر است؟",
+        "selected": "Mini Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Style",
+        "correct": "Style"
+      }
+    ],
+    "date": "2026-10-24T12:18:04.934Z"
   }
 ]
