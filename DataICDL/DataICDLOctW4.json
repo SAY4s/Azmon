@@ -4045,5 +4045,218 @@
       }
     ],
     "date": "2026-10-24T12:18:04.934Z"
+  },
+  {
+    "name": "زهرا امیری پور",
+    "nationalId": "4311710836",
+    "exam": "icdl",
+    "score": 38,
+    "total": 40,
+    "percent": 95,
+    "wrong": 2,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟",
+        "selected": "Reorder Animation",
+        "correct": "Reorder Animation"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "جهت جمع آوری و سازماندهی اطلاعات در مورد یک موضوع از کدام نرم افزار استفاده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "بانک اطلاعاتی"
+      },
+      {
+        "question": "Cpu مخفف چه کلماتی است؟",
+        "selected": "Central Processing Unit",
+        "correct": "Central Processing Unit"
+      },
+      {
+        "question": "برای اینکه ارتباط کاربر فعلی با کامپیوتر قطع شود و کاربر دیگری وارد سیستم شود بهتر است از کدام گزینه استفاده کنیم؟",
+        "selected": "انتخاب Log Off",
+        "correct": "انتخاب Log Off"
+      },
+      {
+        "question": "بالاترین نوار در نرم افزار نوار ........ است که مشخصات و نوع فایل را نشان می دهد.",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر ناپایدار است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Bus",
+        "correct": "Bus"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "به مجموعه از عناصر قابل لمس و فیزیکی و مدارهای الکترونیکی ....... گویند.",
+        "selected": "سخت افزار",
+        "correct": "سخت افزار"
+      },
+      {
+        "question": "برای حذف کلید میانبر در کادر سفارشی کردن کلید میانبر برای نمادها از کدام دکمه استفاده می کنیم؟",
+        "selected": "Remove",
+        "correct": "Remove"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "پیش فرض برنامه ی مرورگر وب، در سیستم عامل ویندوز، ........ می باشد.",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+End",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "کدام گزینه زیر یک موتور جستجوگر می باشد؟",
+        "selected": "Google",
+        "correct": "Google"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "CD-ROM",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": "Uni Code",
+        "correct": "Uni Code"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد جدول جدید بدون استفاده از ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Back",
+        "correct": "Stop"
+      },
+      {
+        "question": "برای مرتب کردن داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "برای اجرای Windows Explorer از چه مسیری استفاده می کنیم؟",
+        "selected": "در همه پنجره های ویندوز قابل دسترسی است",
+        "correct": "در همه پنجره های ویندوز قابل دسترسی است"
+      },
+      {
+        "question": "زبان استاندارد طراحی صفحات کدام یک از موارد زیر است؟",
+        "selected": "HTML",
+        "correct": "HTML"
+      },
+      {
+        "question": "برنامه اکسل جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "صفحه گسترده",
+        "correct": "صفحه گسترده"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "رکورد"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "255",
+        "correct": "255"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column",
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Query",
+        "correct": "Report"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Average(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "کدام گزینه برای ذخیره تصاویر استفاده می گردد؟",
+        "selected": "Save Picture As",
+        "correct": "Save Picture As"
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Input Mask",
+        "correct": "Input Mask"
+      }
+    ],
+    "date": "2026-10-24T15:19:17.066Z"
   }
 ]
