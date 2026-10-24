@@ -4684,5 +4684,218 @@
       }
     ],
     "date": "2026-10-24T15:51:48.187Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 18,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "شبکه",
+        "correct": "ISP"
+      },
+      {
+        "question": "فیلد تاریخ تولد از چه نوعی معرفی می شود؟",
+        "selected": "Date & Time",
+        "correct": "Date & Time"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "OLE Object",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Mpg",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای یک .............. است؟",
+        "selected": "رکورد",
+        "correct": "Table"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Notes Page",
+        "correct": "Template"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": "Show Desktop Icon",
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "From",
+        "correct": "CC"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "fcdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "منویی که با کلیک راست روی آیکن نمایش می یابد، چه نام دارد؟",
+        "selected": "منوی فایل",
+        "correct": "منوی میانبر"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Shift+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "نتیجه تابع =Round(435.23;1) چیست؟",
+        "selected": "435",
+        "correct": "435.2"
+      },
+      {
+        "question": "برای حذف سوابق صفحات ویزیت شده از کدام دکمه استفاده می کنیم؟",
+        "selected": "Clear History",
+        "correct": "Clear History"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Report",
+        "correct": "Database"
+      },
+      {
+        "question": "از گزینه Pattern Fill در پنجره ی Format Background چه زمانی استفاده می شود؟",
+        "selected": "برای استفاده از تصویر و فایل دلخواه به عنوان پس زمینه",
+        "correct": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه"
+      },
+      {
+        "question": "از کدام فرمان جهت مشاهده فایل های ذخیره شده استفاده می شود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "فاکتورهایی که برای پردازش وارد کامپیوتر می کنیم",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Mail",
+        "correct": "Send"
+      },
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "به منبع انرژی غیرقابل توقف.........",
+        "selected": "UPS",
+        "correct": "UPS"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "Domain در آدرس E-Mail نشانه چیست؟",
+        "selected": "نام سرویس دهنده پست الکترونیک",
+        "correct": "نام سرویس دهنده پست الکترونیک"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Bar Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Sound & Image",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Fields",
+        "correct": "Fields"
+      },
+      {
+        "question": "کدام یک از دستگاه زیر ترکیبی از مودم و دستگاه اسکنر می باشد؟",
+        "selected": "ISDN",
+        "correct": "فاکس"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "برای ایجاد فیلد کلید اصلی از گزینه ................. استفاده می کنیم.",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "نامه",
+        "correct": "نامه"
+      }
+    ],
+    "date": "2026-10-24T16:35:51.496Z"
   }
 ]
