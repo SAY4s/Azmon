@@ -5749,5 +5749,218 @@
       }
     ],
     "date": "2026-10-27T15:59:56.199Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 18,
+    "total": 40,
+    "percent": 45,
+    "wrong": 22,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Layout",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Group",
+        "correct": "Group"
+      },
+      {
+        "question": "معاونی و سازمان دهی اطلاعات در چند سطر که در مورد یک موجودیت می باشد را .............. گویند؟",
+        "selected": "پایگاه داده",
+        "correct": "جدول"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Properties",
+        "correct": "Wait"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "برای ایجاد الگویی برای ورود داده ها از کدام خصوصیات فیلد استفاده می کنیم؟",
+        "selected": "General",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "در صورتی که بخواهیم رنگ پس زمینه با ترکیب دو رنگ متفاوت باشد گزینه ....... را در پنجره ی Format Background فعال می کنیم؟",
+        "selected": "Picture and Texture Fill",
+        "correct": "Gradient Fill"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Color",
+        "correct": "Background Style"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cache",
+        "correct": "Cu"
+      },
+      {
+        "question": "گزینه Increase Indent به چه منظوری به کار می رود؟",
+        "selected": "زیاد کردن فاصله پاراگراف از حاشیه",
+        "correct": "زیاد کردن فاصله پاراگراف از حاشیه"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Text",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Portrait",
+        "correct": "Landscape"
+      },
+      {
+        "question": "کار گزینه Hide Slide چیست؟",
+        "selected": "مخفی کردن اسلاید",
+        "correct": "مخفی کردن اسلاید"
+      },
+      {
+        "question": "در دستگاه های زیر چند دستگاه خروجی وجود دارد؟ (صفحه نمایش - کیبورد - ماوس - رسام - چاپگر - اسکنر - قلم نوری - بلندگو)",
+        "selected": "5",
+        "correct": "4"
+      },
+      {
+        "question": "برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Table",
+        "correct": "Select Row"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign In",
+        "correct": "Sign In"
+      },
+      {
+        "question": "کدام یک از موارد زیر را در Criteria قرار دهیم باعث خواهد شد که رکوردهایی پیدا شوند که فیلد «شخصیت» آنها مخالف \"Nice\" است؟",
+        "selected": "><\"Nice\"",
+        "correct": "Not Nice"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "یادداشت",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Print Selection",
+        "correct": "Custom Print"
+      },
+      {
+        "question": "کاربرد دستور Page Break در گروه Pages چیست؟",
+        "selected": "یک صفحه خالی درج می کند",
+        "correct": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند"
+      },
+      {
+        "question": "کدام گزینه برای درج تصویر به کار می رود؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "وضوح صفحه نمایش (Screen Resolution) چیست؟",
+        "selected": "میزان حافظه کارت گرافیک",
+        "correct": "میزان تراکم پیکسل های صفحه نمایش"
+      },
+      {
+        "question": "در هنگام درج خانه، برای اینکه خانه انتخاب شده به پایین حرکت کند و خانه جدید جای آن را بگیرد کدام مورد را از کادر محاوره ای Insert باید انتخاب نمود؟",
+        "selected": "Shift Cells Right",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "برای ذخیره سند از چه کلیدهایی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As Picture",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "اینترنت ISP از کار افتاده باشد",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Split Query",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "برای خطایابی املایی و گرامری از سربرگ ........................ گزینه ............................... را انتخاب می کنیم.",
+        "selected": "Review > Spelling & Grammar",
+        "correct": "Review > Spelling & Grammar"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Replace",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "جهت ذخیره کردن یک متن با نام جدید چگونه عمل می نماییم؟",
+        "selected": "از فرمان Save As در منوی File",
+        "correct": "از فرمان Save As در منوی File"
+      },
+      {
+        "question": "برای باز کردن فایل فشرده کدام گزینه صحیح است؟",
+        "selected": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید",
+        "correct": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Auto Hide the Task Bar",
+        "correct": "Taskbar Location on Screen"
+      }
+    ],
+    "date": "2026-10-27T20:11:26.323Z"
   }
 ]
