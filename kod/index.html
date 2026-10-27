@@ -33,6 +33,9 @@ tr.dupr{background:rgba(217,45,32,.08)}
 #rs{color:var(--mu);font-size:.85rem;margin-top:6px}
 td input.code{direction:ltr;text-align:center;width:150px}
 #st{color:var(--mu);font-size:.9rem;margin-top:6px}
+button.ghsave{background:#16a34a}
+button:disabled{opacity:.5;cursor:default}
+#ghmsg.ok{color:#16a34a}#ghmsg.err{color:var(--er)}
 pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px;max-height:240px;overflow:auto;margin:8px 0 0;font-size:.85rem;white-space:pre}
 .drop{outline:2px dashed var(--ac)}
 </style>
@@ -62,9 +65,11 @@ pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd
     <button class="sec" id="reload">🔄 بروزرسانی از GitHub</button>
     <label style="font-size:.9rem"><input type="checkbox" id="onlydup"> فقط تکراری‌ها</label>
     <button class="sec" id="clear">پاک کردن همه</button>
+    <button class="ghsave" type="button">💾 ذخیره در گیت‌هاب</button>
   </div>
   <div class="tw"><table><thead><tr><th>#</th><th>کد ملی</th><th>نام کامل</th><th>وضعیت</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
   <div id="st"></div>
+  <div id="ghmsg" style="font-size:.9rem;margin-top:4px;color:var(--mu)"></div>
   <div id="rs"></div>
 </section>
 
@@ -73,6 +78,7 @@ pre{direction:ltr;text-align:left;background:var(--bg);border:1px solid var(--bd
   <div class="row" style="margin-top:0">
     <button id="dl">⬇ دانلود kodmeli.json</button>
     <button class="sec" id="cp">کپی</button>
+    <button class="ghsave" type="button">💾 ذخیره در گیت‌هاب</button>
   </div>
   <pre id="out"></pre>
 </section>
@@ -211,6 +217,81 @@ $("dl").onclick=()=>{
   document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 };
 $("cp").onclick=()=>navigator.clipboard.writeText($("out").textContent).then(()=>{$("cp").textContent="کپی شد ✓";setTimeout(()=>$("cp").textContent="کپی",1200)});
+/* ---------- ذخیره در گیت‌هاب ---------- */
+// تنظیمات از سلول B7 شیت منتشرشده خوانده می‌شود، با فرمت: repo,path,branch,token
+const SHEET_PUB="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQwgHgBvIpgkVHaKENnJgnwdEYIrUSLqUH7s0_xUWkEx-GcMI_EPUiURR_OrNBA7fED984X6Ygam1I/pub?output=csv";
+function parseCSV(t){
+  const rows=[];let r=[],f="",q=false;
+  for(let i=0;i<t.length;i++){
+    const c=t[i];
+    if(q){if(c=='"'){if(t[i+1]=='"'){f+='"';i++}else q=false}else f+=c}
+    else if(c=='"')q=true;
+    else if(c==","){r.push(f);f=""}
+    else if(c=="\n"){r.push(f);rows.push(r);r=[];f=""}
+    else if(c!="\r")f+=c;
+  }
+  r.push(f);rows.push(r);return rows;
+}
+async function getGhConfig(){
+  const res=await fetch(SHEET_PUB+"&t="+Date.now(),{cache:"no-store"});
+  if(!res.ok)throw new Error("خواندن شیت ناموفق بود ("+res.status+")");
+  const rows=parseCSV(await res.text());
+  const raw=((rows[6]||[])[1]||"").trim();
+  if(!raw)throw new Error("سلول B7 در شیت خالی است");
+  const p=raw.split(",").map(x=>x.trim());
+  if(p.length<4||!p[0]||!p[1]||!p[2]||!p[3])throw new Error("فرمت B7 باید repo,path,branch,token باشد");
+  return{repo:p[0],path:p[1],branch:p[2],token:p.slice(3).join(",")};
+}
+const ghUrl=c=>"https://api.github.com/repos/"+c.repo+"/contents/"+c.path.split("/").map(encodeURIComponent).join("/");
+const ghHeaders=c=>({"Authorization":"Bearer "+c.token,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"});
+function toB64(str){
+  const bytes=new TextEncoder().encode(str);let bin="";
+  for(let i=0;i<bytes.length;i+=0x8000)bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+0x8000));
+  return btoa(bin);
+}
+function fromB64(b64){
+  const bin=atob(b64.replace(/\s/g,""));
+  return new TextDecoder().decode(Uint8Array.from(bin,ch=>ch.charCodeAt(0)));
+}
+function ghMsg(t,cls){const m=$("ghmsg");m.textContent=t;m.className=cls||""}
+async function saveToGithub(){
+  const obj=toObj(),n=Object.keys(obj).length;
+  if(!n){alert("لیست خالی است؛ چیزی برای ذخیره وجود ندارد.");return}
+  const bad=items.filter(i=>!valid(i.c)).length;
+  if(bad&&!confirm(bad+" کد نامعتبر (غیر ۱۰ رقمی) در لیست هست. با این حال ذخیره شود؟"))return;
+  const btns=document.querySelectorAll("button.ghsave");
+  btns.forEach(b=>b.disabled=true);
+  try{
+    ghMsg("در حال خواندن تنظیمات از شیت…");
+    const cfg=await getGhConfig();
+    ghMsg("در حال بررسی فایل روی گیت‌هاب…");
+    let sha,oldCount=null;
+    const g=await fetch(ghUrl(cfg)+"?ref="+encodeURIComponent(cfg.branch)+"&t="+Date.now(),{headers:ghHeaders(cfg),cache:"no-store"});
+    if(g.status===200){
+      const j=await g.json();sha=j.sha;
+      try{oldCount=Object.keys(JSON.parse(fromB64(j.content||""))).length}catch(e){}
+    }else if(g.status!==404){
+      throw new Error("خواندن فایل ناموفق بود ("+g.status+") — توکن یا دسترسی را بررسی کن");
+    }
+    if(oldCount!==null&&n<oldCount&&!confirm("فایل فعلی "+oldCount+" مورد دارد ولی لیست تو "+n+" مورد دارد و با ذخیره جایگزین می‌شود. ادامه می‌دهی؟")){
+      ghMsg("ذخیره لغو شد.");return;
+    }
+    ghMsg("در حال ذخیره…");
+    const body={message:"Update "+cfg.path+" ("+n+" entries)",content:toB64(JSON.stringify(obj,null,2)),branch:cfg.branch};
+    if(sha)body.sha=sha;
+    const p=await fetch(ghUrl(cfg),{method:"PUT",headers:Object.assign({"Content-Type":"application/json"},ghHeaders(cfg)),body:JSON.stringify(body)});
+    if(!p.ok){
+      let d="";try{d=(await p.json()).message||""}catch(e){}
+      throw new Error("ذخیره ناموفق بود ("+p.status+")"+(d?": "+d:""));
+    }
+    ghMsg("✓ "+n+" مورد در "+cfg.repo+"/"+cfg.path+" ذخیره شد.","ok");
+  }catch(e){
+    ghMsg("✗ "+(e&&e.message||e),"err");
+  }finally{
+    btns.forEach(b=>b.disabled=false);
+  }
+}
+document.querySelectorAll("button.ghsave").forEach(b=>b.onclick=saveToGithub);
 render();
 loadRemote();
 </script>
