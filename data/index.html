@@ -659,6 +659,33 @@ body::before{
   text-align:center;
 }
 
+/* ---------- Leaderboards ---------- */
+.lb-wrap{margin:0 0 30px; text-align:right;}
+.lb-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px; align-items:start;}
+.lb-card{background:rgba(255,255,255,0.5); border:1px solid var(--line); border-top:4px solid var(--gold); border-radius:8px; padding:14px 12px 12px; display:flex; flex-direction:column; gap:8px;}
+.lb-title{font-weight:800; font-size:14px;}
+.lb-sub{font-size:11px; color:var(--ink-soft); font-weight:600; margin-top:-4px;}
+.lb-row{display:flex; align-items:center; gap:10px; padding:8px 10px; border-radius:6px; background:rgba(255,255,255,0.65); border:1px solid var(--line); cursor:pointer; transition:all .15s ease;}
+.lb-row:hover{border-color:var(--red-soft); background:#fff;}
+.lb-rank{width:24px; height:24px; border-radius:50%; background:var(--paper-dark); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:800; flex-shrink:0;}
+.lb-row.top1 .lb-rank{background:var(--gold); color:#fff;}
+.lb-row.top2 .lb-rank{background:#8d93a3; color:#fff;}
+.lb-row.top3 .lb-rank{background:#a9683a; color:#fff;}
+.lb-who{flex:1; min-width:0;}
+.lb-name{font-weight:700; font-size:13.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.lb-meta{font-size:11px; color:var(--ink-soft); font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.lb-score{font-weight:900; font-size:15px; flex-shrink:0;}
+.lb-empty{font-size:12.5px; color:var(--ink-soft); font-weight:600; padding:10px 4px; text-align:center;}
+.lb-more{font-family:inherit; font-size:12px; font-weight:700; padding:6px 12px; border-radius:16px; border:1.5px solid var(--line); background:transparent; color:var(--ink-soft); cursor:pointer; align-self:center;}
+.lb-more:hover{border-color:var(--ink); color:var(--ink);}
+
+/* ---------- Pager ---------- */
+.pager{display:none; align-items:center; justify-content:center; gap:10px; margin:16px 0; flex-wrap:wrap;}
+.pg-btn{font-family:inherit; font-size:13px; font-weight:700; padding:7px 16px; border-radius:20px; border:1.5px solid var(--ink); background:var(--ink); color:var(--paper); cursor:pointer;}
+.pg-btn:disabled{opacity:.35; cursor:default;}
+.pager select{font-family:inherit; font-size:13px; font-weight:600; padding:7px 10px; border-radius:6px; border:1.5px solid var(--line); background:#fff; color:var(--ink); cursor:pointer;}
+.pg-info{font-size:12.5px; font-weight:600; color:var(--ink-soft);}
+
 /* ---------- Detail view ---------- */
 #detailView{
   display:none;
@@ -956,13 +983,15 @@ body::before{
   <div class="people-search">
     <div class="ps-input-wrap">
       <svg class="ps-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="peopleSearchInput" placeholder="جستجوي نام يک نفر در همه‌ي مباحث…" autocomplete="off">
+      <input type="text" id="peopleSearchInput" placeholder="جستجوی نام یا کدملی در همه‌ی مباحث…" autocomplete="off">
       <button class="ps-clear" id="peopleSearchClear" type="button">✕</button>
     </div>
     <div class="ps-results" id="peopleSearchResults"></div>
     <div class="ps-empty" id="peopleSearchEmpty">کسي با اين اسم پيدا نشد.</div>
     <div class="ps-more" id="peopleSearchMore" style="display:none;"></div>
   </div>
+
+  <div id="topicLeaderboards" class="lb-wrap"></div>
 
   <div id="topicRows"></div>
 </div>
@@ -994,9 +1023,11 @@ body::before{
     </div>
   </div>
 
+  <div id="listLeaderboards" class="lb-wrap"></div>
+
   <div class="list-search">
     <svg class="ls-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input type="text" id="listSearchInput" placeholder="جستجوي نام در همين مبحث…" autocomplete="off">
+    <input type="text" id="listSearchInput" placeholder="جستجوی نام یا کدملی در همین مبحث…" autocomplete="off">
   </div>
 
   <div class="date-filter toolbar">
@@ -1035,7 +1066,9 @@ body::before{
     <input type="hidden" id="statusSelect" value="all">
   </div>
 
+  <div class="pager" id="pagerTop"></div>
   <div id="sheetRows"></div>
+  <div class="pager" id="pagerBottom"></div>
   <div class="df-empty" id="dfEmpty">هيچ پاسخ‌برگي با اين فيلترها پيدا نشد.</div>
 </div>
 
@@ -1070,6 +1103,7 @@ body::before{
       <h1 id="studentName"></h1>
       <span class="exam-name" id="examName"></span>
       <div class="date" id="examDate"></div>
+      <div class="date" id="studentNid" style="display:none;"></div>
     </div>
     <div class="stamp" id="stamp">
       <div class="pct" id="pctNum"></div>
@@ -1472,6 +1506,152 @@ document.getElementById('showManualBtn').addEventListener('click', ()=>{
 // kick off automatically on load
 fetchFromGitHub();
 
+/* ---------- National ID ---------- */
+const NID_KEYS = ['nationalId','nationalID','national_id','nationalCode','national_code','nid','NID','codeMelli','code_melli','melliCode','melli_code','idNumber','کدملی','کد_ملی','کد ملی'];
+function getNationalId(entry){
+  if(!entry) return '';
+  for(const k of NID_KEYS){
+    const v = entry[k];
+    if(v !== undefined && v !== null && String(v).trim() !== '') return String(v).trim();
+  }
+  return '';
+}
+function matchesNameOrNid(entry, query){
+  if(!query) return true;
+  return normalizeFa(entry.name).includes(query) || normalizeFa(getNationalId(entry)).includes(query);
+}
+
+/* ---------- Leaderboards (all-time / last 30 days / last 7 days) ---------- */
+const LB_PERIODS = [
+  { key:'all',   label:'برترین‌های تمام دوران', sub:'', days:null },
+  { key:'month', label:'برترین‌های ماه گذشته', sub:'۳۰ روز اخیر', days:30 },
+  { key:'week',  label:'برترین‌های هفته گذشته', sub:'۷ روز اخیر', days:7 }
+];
+const LB_STATE = {}; // containerId -> { all:bool, month:bool, week:bool }
+
+function isBetterEntry(a, b){
+  const pa = a.percent ?? 0, pb = b.percent ?? 0;
+  if(pa !== pb) return pa > pb;
+  const sa = a.score ?? 0, sb = b.score ?? 0;
+  if(sa !== sb) return sa > sb;
+  return new Date(a.date || 0) < new Date(b.date || 0); // tie: earlier attempt ranks higher
+}
+
+// Top 10 people in the period; each person (by national ID, else name) counted once with their best result.
+function computeLeaderboard(data, days){
+  const cutoff = days ? Date.now() - days * 86400000 : null;
+  const best = new Map();
+  data.forEach((entry, idx)=>{
+    if(cutoff !== null){
+      const t = new Date(entry.date).getTime();
+      if(isNaN(t) || t < cutoff) return;
+    }
+    const id = getNationalId(entry) || normalizeFa(entry.name) || ('__' + idx);
+    const cur = best.get(id);
+    if(!cur || isBetterEntry(entry, cur)) best.set(id, entry);
+  });
+  return Array.from(best.values())
+    .sort((a,b)=> isBetterEntry(a,b) ? -1 : (isBetterEntry(b,a) ? 1 : 0))
+    .slice(0, 10);
+}
+
+function renderLeaderboards(containerId, data){
+  const el = document.getElementById(containerId);
+  if(!el) return;
+  const state = LB_STATE[containerId] || (LB_STATE[containerId] = {});
+  const fromTopicView = containerId === 'topicLeaderboards';
+  el.innerHTML = '';
+  const grid = document.createElement('div');
+  grid.className = 'lb-grid';
+
+  LB_PERIODS.forEach(p=>{
+    const list = computeLeaderboard(data, p.days);
+    const expanded = !!state[p.key];
+    const shown = expanded ? list : list.slice(0, 3);
+    const card = document.createElement('div');
+    card.className = 'lb-card';
+    card.innerHTML = `<div class="lb-title">${p.label}</div>` + (p.sub ? `<div class="lb-sub">${p.sub}</div>` : '');
+
+    if(!shown.length){
+      const empty = document.createElement('div');
+      empty.className = 'lb-empty';
+      empty.textContent = 'در این بازه نتیجه‌ای ثبت نشده.';
+      card.appendChild(empty);
+    }
+
+    shown.forEach((entry, i)=>{
+      const nid = getNationalId(entry);
+      const color = (entry.percent ?? 0) >= 50 ? 'var(--green)' : 'var(--red)';
+      const row = document.createElement('div');
+      row.className = 'lb-row' + (i < 3 ? ' top' + (i + 1) : '');
+      row.innerHTML = `
+        <div class="lb-rank">${i + 1}</div>
+        <div class="lb-who">
+          <div class="lb-name">${escapeHtml(entry.name || 'بدون نام')}</div>
+          <div class="lb-meta">${nid ? 'کدملی: ' + escapeHtml(nid) + ' · ' : ''}${escapeHtml(entry.exam || '')}</div>
+        </div>
+        <div class="lb-score" style="color:${color}">${entry.percent ?? '-'}%</div>
+      `;
+      row.addEventListener('click', ()=>{
+        if(fromTopicView){
+          selectedTopic = entry.exam || 'بدون‌عنوان';
+          currentData = fullData.filter(e=>(e.exam || 'بدون‌عنوان') === selectedTopic);
+        }
+        openDetail(entry);
+      });
+      card.appendChild(row);
+    });
+
+    if(list.length > 3){
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'lb-more';
+      btn.textContent = expanded ? 'نمایش کمتر' : `نمایش ${list.length} نفر`;
+      btn.addEventListener('click', ()=>{
+        state[p.key] = !expanded;
+        renderLeaderboards(containerId, data);
+      });
+      card.appendChild(btn);
+    }
+    grid.appendChild(card);
+  });
+  el.appendChild(grid);
+}
+
+/* ---------- Pagination (100 per page) ---------- */
+const PAGE_SIZE = 100;
+let listPage = 1;
+let lastListSig = '';
+
+function renderPager(totalPages){
+  ['pagerTop','pagerBottom'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(!el) return;
+    if(totalPages <= 1){ el.innerHTML = ''; el.style.display = 'none'; return; }
+    el.style.display = 'flex';
+    let opts = '';
+    for(let p = 1; p <= totalPages; p++) opts += `<option value="${p}" ${p === listPage ? 'selected' : ''}>صفحه ${p}</option>`;
+    el.innerHTML = `
+      <button class="pg-btn" type="button" data-go="prev" ${listPage <= 1 ? 'disabled' : ''}>قبلی</button>
+      <select>${opts}</select>
+      <span class="pg-info">از ${totalPages} صفحه (هر صفحه ${PAGE_SIZE} نفر)</span>
+      <button class="pg-btn" type="button" data-go="next" ${listPage >= totalPages ? 'disabled' : ''}>بعدی</button>
+    `;
+    el.querySelectorAll('.pg-btn').forEach(b=>{
+      b.addEventListener('click', ()=>{
+        listPage += (b.dataset.go === 'next' ? 1 : -1);
+        renderList();
+        window.scrollTo(0,0);
+      });
+    });
+    el.querySelector('select').addEventListener('change', e=>{
+      listPage = +e.target.value;
+      renderList();
+      window.scrollTo(0,0);
+    });
+  });
+}
+
 function openTopicView(data){
   updateHash({});
   listView.style.display = 'none';
@@ -1482,6 +1662,7 @@ function openTopicView(data){
   const psInput = document.getElementById('peopleSearchInput');
   if(psInput) psInput.value = '';
   renderPeopleSearch('');
+  renderLeaderboards('topicLeaderboards', data);
 
   const topics = uniqueTopics(data);
   const rowsEl = document.getElementById('topicRows');
@@ -1514,6 +1695,7 @@ function buildPeopleSearchRow(entry){
       <div class="name">${escapeHtml(entry.name || 'بدون نام')}</div>
       <div class="meta">
         <span class="exam-badge">${escapeHtml(entry.exam || 'بدون‌عنوان')}</span>
+        ${getNationalId(entry) ? '<span>کدملی: ' + escapeHtml(getNationalId(entry)) + '</span>' : ''}
         <span>${fmtDate(entry.date)}</span>
       </div>
     </div>
@@ -1536,6 +1718,8 @@ function renderPeopleSearch(rawQuery){
   const query = normalizeFa(rawQuery);
 
   clearBtn.style.display = rawQuery ? 'flex' : 'none';
+  const lbTop = document.getElementById('topicLeaderboards');
+  if(lbTop) lbTop.style.display = query ? 'none' : 'block';
 
   if(!query){
     resultsEl.style.display = 'none';
@@ -1548,7 +1732,7 @@ function renderPeopleSearch(rawQuery){
   topicRows.style.display = 'none';
 
   const matches = fullData
-    .filter(entry=>normalizeFa(entry.name).includes(query))
+    .filter(entry=>matchesNameOrNid(entry, query))
     .sort((a,b)=>new Date(b.date || 0) - new Date(a.date || 0));
 
   resultsEl.innerHTML = '';
@@ -1617,7 +1801,7 @@ function buildSheetRow(entry){
   row.innerHTML = `
     <div class="who">
       <div class="name">${escapeHtml(entry.name || 'بدون نام')}</div>
-      <div class="meta">${escapeHtml(entry.exam || '')} · ${fmtDate(entry.date)}</div>
+      <div class="meta">${getNationalId(entry) ? 'کدملی: ' + escapeHtml(getNationalId(entry)) + ' · ' : ''}${escapeHtml(entry.exam || '')} · ${fmtDate(entry.date)}</div>
     </div>
     <div class="score-badge" style="color:${color}">${entry.percent ?? '-'}%</div>
   `;
@@ -1645,6 +1829,7 @@ function openList(data){
     resetViewControls();
   }
 
+  renderLeaderboards('listLeaderboards', data);
   renderList();
 }
 
@@ -1654,7 +1839,7 @@ function getFilteredListEntries(){
 
   const nameQuery = normalizeFa(document.getElementById('listSearchInput').value);
   if(nameQuery){
-    filtered = filtered.filter(entry=>normalizeFa(entry.name).includes(nameQuery));
+    filtered = filtered.filter(entry=>matchesNameOrNid(entry, nameQuery));
   }
 
   if(dateRange){
@@ -1694,9 +1879,24 @@ function renderList(){
   const dfEmpty = document.getElementById('dfEmpty');
   rowsEl.innerHTML = '';
 
-  const filtered = getFilteredListEntries();
+  const allFiltered = getFilteredListEntries();
+  const sig = JSON.stringify([
+    selectedTopic,
+    document.getElementById('listSearchInput').value,
+    document.getElementById('sortSelect').value,
+    document.getElementById('statusSelect').value,
+    document.getElementById('pctMin').value,
+    document.getElementById('pctMax').value,
+    dateRange
+  ]);
+  if(sig !== lastListSig){ lastListSig = sig; listPage = 1; }
+  const totalPages = Math.max(1, Math.ceil(allFiltered.length / PAGE_SIZE));
+  if(listPage > totalPages) listPage = totalPages;
+  if(listPage < 1) listPage = 1;
+  const filtered = allFiltered.slice((listPage - 1) * PAGE_SIZE, listPage * PAGE_SIZE);
+  renderPager(totalPages);
 
-  document.getElementById('listCount').textContent = filtered.length + ' از ' + data.length + ' نفر';
+  document.getElementById('listCount').textContent = allFiltered.length + ' از ' + data.length + ' نفر' + (totalPages > 1 ? ` — صفحه ${listPage} از ${totalPages}` : '');
 
   if(filtered.length === 0){
     dfEmpty.style.display = 'block';
@@ -1746,6 +1946,10 @@ function openDetail(entry){
   document.getElementById('studentName').textContent = entry.name || 'بدون نام';
   document.getElementById('examName').textContent = entry.exam || '';
   document.getElementById('examDate').textContent = fmtDate(entry.date);
+  const nidEl = document.getElementById('studentNid');
+  const nidVal = getNationalId(entry);
+  nidEl.textContent = nidVal ? 'کدملی: ' + nidVal : '';
+  nidEl.style.display = nidVal ? 'block' : 'none';
 
   const pct = entry.percent ?? 0;
   const stampEl = document.getElementById('stamp');
@@ -1894,7 +2098,7 @@ async function buildListWorkbook(filtered, topicLabel){
   wb.created = new Date();
   const ws = wb.addWorksheet('نتايج', { views:[{ rightToLeft:true, state:'frozen', ySplit:2 }] });
 
-  ws.mergeCells('A1:J1');
+  ws.mergeCells('A1:K1');
   const titleCell = ws.getCell('A1');
   titleCell.value = `نتايج آزمون — ${topicLabel}`;
   titleCell.font = { bold:true, size:14, color:{argb:'FFFFFFFF'} };
@@ -1902,7 +2106,7 @@ async function buildListWorkbook(filtered, topicLabel){
   titleCell.fill = { type:'pattern', pattern:'solid', fgColor:{argb:'FFB23A2E'} };
   ws.getRow(1).height = 32;
 
-  const headers = ['رديف','نام','مبحث','تاريخ','نمره','از','درصد','درست','غلط','بي‌پاسخ'];
+  const headers = ['رديف','نام','کدملی','مبحث','تاريخ','نمره','از','درصد','درست','غلط','بي‌پاسخ'];
   styleHeaderRow(ws.addRow(headers));
 
   filtered.forEach((entry, i)=>{
@@ -1911,7 +2115,7 @@ async function buildListWorkbook(filtered, topicLabel){
     const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
     const blankCount = answers.filter(a=>a.selected === null).length;
     const row = ws.addRow([
-      i+1, entry.name || 'بدون نام', entry.exam || '', fmtDateShort(entry.date),
+      i+1, entry.name || 'بدون نام', getNationalId(entry), entry.exam || '', fmtDateShort(entry.date),
       entry.score ?? 0, entry.total ?? 0, (entry.percent ?? 0)/100,
       correctCount, wrongCount, blankCount
     ]);
@@ -1922,18 +2126,18 @@ async function buildListWorkbook(filtered, topicLabel){
       if(zebra) cell.fill = { type:'pattern', pattern:'solid', fgColor:{argb:'FFF2ECDD'} };
     });
     row.getCell(2).font = { bold:true };
-    const pctCell = row.getCell(7);
+    const pctCell = row.getCell(8);
     pctCell.numFmt = '0%';
     const pass = (entry.percent ?? 0) >= 50;
     pctCell.font = { bold:true, color:{argb: pass ? 'FF2F6844' : 'FFB23A2E'} };
-    row.getCell(8).font = { color:{argb:'FF2F6844'}, bold:true };
-    row.getCell(9).font = { color:{argb:'FFB23A2E'}, bold:true };
-    row.getCell(10).font = { color:{argb:'FFB5893A'}, bold:true };
+    row.getCell(9).font = { color:{argb:'FF2F6844'}, bold:true };
+    row.getCell(10).font = { color:{argb:'FFB23A2E'}, bold:true };
+    row.getCell(11).font = { color:{argb:'FFB5893A'}, bold:true };
     row.height = 20;
   });
 
-  ws.columns = [{width:6},{width:22},{width:16},{width:16},{width:8},{width:8},{width:9},{width:8},{width:8},{width:10}];
-  ws.autoFilter = { from:{row:2, column:1}, to:{row:2, column:10} };
+  ws.columns = [{width:6},{width:22},{width:14},{width:16},{width:16},{width:8},{width:8},{width:9},{width:8},{width:8},{width:10}];
+  ws.autoFilter = { from:{row:2, column:1}, to:{row:2, column:11} };
   return wb;
 }
 
@@ -1978,6 +2182,13 @@ async function buildDetailWorkbook(entry, filteredAnswers, allAnswers){
     if(idx === 5) r.getCell(2).font = { bold:true, color:{argb:'FFB23A2E'} };
     if(idx === 6) r.getCell(2).font = { bold:true, color:{argb:'FFB5893A'} };
   });
+  const nidForSheet = getNationalId(entry);
+  if(nidForSheet){
+    const nr = sws.addRow(['کدملی', nidForSheet]);
+    nr.getCell(1).font = { bold:true, color:{argb:'FF545A6B'} };
+    nr.eachCell(c=>{ c.border = THIN_BORDER; c.alignment = { horizontal:'right', vertical:'middle' }; });
+    nr.height = 20;
+  }
   sws.columns = [{width:16},{width:30}];
 
   const aws = wb.addWorksheet('پاسخ‌ها', { views:[{ rightToLeft:true, state:'frozen', ySplit:1 }] });
@@ -2046,13 +2257,13 @@ document.getElementById('exportListBtn').addEventListener('click', ()=>{
     alert('چيزي براي خروجي گرفتن وجود نداره.');
     return;
   }
-  const headers = ['رديف','نام','مبحث','تاريخ','نمره','از','درصد','درست','غلط','بي‌پاسخ'];
+  const headers = ['رديف','نام','کدملی','مبحث','تاريخ','نمره','از','درصد','درست','غلط','بي‌پاسخ'];
   const rows = filtered.map((entry, i)=>{
     const answers = entry.answers || [];
     const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
     const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
     const blankCount = answers.filter(a=>a.selected === null).length;
-    return [i+1, entry.name || 'بدون نام', entry.exam || '', fmtDateShort(entry.date), entry.score ?? 0, entry.total ?? 0, entry.percent ?? 0, correctCount, wrongCount, blankCount];
+    return [i+1, entry.name || 'بدون نام', getNationalId(entry), entry.exam || '', fmtDateShort(entry.date), entry.score ?? 0, entry.total ?? 0, entry.percent ?? 0, correctCount, wrongCount, blankCount];
   });
   const topicLabel = selectedTopic ? selectedTopic.replace(/[\\/?*[\]:]/g,'') : 'نتايج';
   openExcelModal({
@@ -2139,6 +2350,7 @@ function buildReportElement(entry){
         <div style="font-size:23px; font-weight:800;">${escapeHtml(entry.name || 'بدون نام')}</div>
         <div style="display:inline-block; background:#232733; color:#f2ecdd; font-size:11px; font-weight:700; padding:4px 12px; border-radius:20px; margin-top:9px;">${escapeHtml(entry.exam || '')}</div>
         <div style="color:#545a6b; font-size:12.5px; margin-top:9px; font-weight:500;">${fmtDate(entry.date)}</div>
+        ${getNationalId(entry) ? `<div style="color:#545a6b; font-size:12.5px; margin-top:5px; font-weight:600;">کدملی: ${escapeHtml(getNationalId(entry))}</div>` : ''}
       </div>
       <div style="width:100px; height:100px; flex-shrink:0; border-radius:50%; border:3px dashed ${stampColor}; display:flex; flex-direction:column; align-items:center; justify-content:center; color:${stampColor}; transform:rotate(-8deg);">
         <div style="font-size:25px; font-weight:900; line-height:1;">${entry.percent ?? 0}%</div>
@@ -2413,6 +2625,7 @@ h1{ text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; }
     <div class="divider"></div>
     <div class="info-grid">
       <div class="info-item"><div class="label">نام و نام خانوادگي</div><div class="value">${escapeHtml(entry.name || 'بدون نام')}</div></div>
+      ${getNationalId(entry) ? `<div class="info-item"><div class="label">کدملی</div><div class="value">${escapeHtml(getNationalId(entry))}</div></div>` : ''}
       <div class="info-item"><div class="label">تاريخ آزمون</div><div class="value">${dateStr}</div></div>
       <div class="info-item"><div class="label">عنوان آزمون</div><div class="value">${escapeHtml(entry.exam || '')}</div></div>
       <div class="info-item"><div class="label">نمره</div><div class="value">${entry.score ?? 0} از ${entry.total ?? 0}</div></div>
@@ -2488,6 +2701,7 @@ function buildKarnamehElement(entry){
     <div style="height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0;"></div>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px;">
       ${infoItem('نام و نام خانوادگي', escapeHtml(entry.name || 'بدون نام'))}
+      ${getNationalId(entry) ? infoItem('کدملی', escapeHtml(getNationalId(entry))) : ''}
       ${infoItem('تاريخ آزمون', fmtDate(entry.date))}
       ${infoItem('عنوان آزمون', escapeHtml(entry.exam || ''))}
       ${infoItem('نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`)}
