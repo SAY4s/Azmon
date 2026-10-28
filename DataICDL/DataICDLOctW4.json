@@ -6601,5 +6601,218 @@
       }
     ],
     "date": "2026-10-28T11:17:23.946Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 18,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Home \\ Find",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Double",
+        "correct": "Decimal"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب اعشاری",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Caps Lock",
+        "correct": "Shift"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "ابزار ایجاد فهرست در Word کدام است؟",
+        "selected": "Multilevel List",
+        "correct": "Table Of Contents"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Wait",
+        "correct": "Wait"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت General گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Insert>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "Query",
+        "correct": "گزارش"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "کدام فرمان برای اجرای مکرر دستورات استفاده می شود؟",
+        "selected": "Comments",
+        "correct": "Macro"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "IT به معنای چیست؟",
+        "selected": "فناوری اطلاعات",
+        "correct": "فناوری اطلاعات"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Back",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "LAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "<=20 And >=50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "برای اضافه کردن توضیحات به یک سلول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "گزینه Comment از سربرگ Insert",
+        "correct": "گزینه new Comment از سربرگ Review"
+      },
+      {
+        "question": "در ویندوز 7 برنامه های کوچکی که برای ارائه سریع و آسان اطلاعات مختلف در میزکار پیش بینی شده اند، ...... نامیده می شوند.",
+        "selected": "Desktop",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+End",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Bit",
+        "correct": "Bit"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "A1=A2+A3",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "2",
+        "correct": "1"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Design, Layout",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "DOS",
+        "correct": "DOS"
+      },
+      {
+        "question": "اگر خانه های A1=5، B1=Ali، C1=6 باشد حاصل تابع زیر کدام است؟ =Sum(B1; A1; C1)",
+        "selected": "خطای Name",
+        "correct": "11"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "3-D Style",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "برای افزودن عنوان به نمودار از کدام گزینه استفاده می شود؟",
+        "selected": "Chart Title",
+        "correct": "Chart Title"
+      },
+      {
+        "question": "به نرم افزارهایی که مصرف کننده برای یک مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کنند ................. گفته می شود؟",
+        "selected": "نرم افزارهای متن باز",
+        "correct": "نرم افزارهای اشتراکی"
+      },
+      {
+        "question": "برای انتخاب رکوردهایی بر اساس معیار خاص از کدام روش زیر استفاده می کنیم؟",
+        "selected": "Home - Find",
+        "correct": "Query"
+      }
+    ],
+    "date": "2026-10-28T19:24:56.657Z"
   }
 ]
