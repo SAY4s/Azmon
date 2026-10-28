@@ -6388,5 +6388,218 @@
       }
     ],
     "date": "2026-10-28T08:34:39.624Z"
+  },
+  {
+    "name": "زهرا امیری پور",
+    "nationalId": "4311710836",
+    "exam": "icdl",
+    "score": 39,
+    "total": 40,
+    "percent": 98,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اینکه در پرس و جو، شرط ورودی را موقع اجرا درخواست کند، از کدام علامت استفاده می کنید؟",
+        "selected": "[ ]",
+        "correct": "[ ]"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+=",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است",
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "در هنگام قالب بندی سلول ها با گزینه Alignment می توان......؟",
+        "selected": "ترازبندی متن را تنظیم کرد",
+        "correct": "ترازبندی متن را تنظیم کرد"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "اطلاعات حذف شده در کجا نگهداری می شوند؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Descending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "برای ترسیم نمودار در یک صفحه جدید کدام گزینه استفاده می شود؟",
+        "selected": "انتخاب گزینه As New Sheet",
+        "correct": "انتخاب گزینه As New Sheet"
+      },
+      {
+        "question": "در نمای Data Sheet جهت انتقال مکان نما به فیلد قبلی از کدام گزینه استفاده می شود؟",
+        "selected": "Shift+Tab - دکمه های جهتی صفحه کلید",
+        "correct": "Shift+Tab - دکمه های جهتی صفحه کلید"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "With Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Convert to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Advanced Filter/Sort",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول",
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (رایانامه) به چه منظوری به کار می رود؟",
+        "selected": "برای فرستادن رونوشت نامه به صورت محرمانه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Page Layout>Columns",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "برای سفارشی کردن بزرگ نمایی صفحه در محیط نرم افزار Word از کدام مورد استفاده می کنیم؟",
+        "selected": "View>Zoom",
+        "correct": "View>Zoom"
+      },
+      {
+        "question": "برای ایجاد متن کم رنگ روی صفحه و پشت نوشته ها کدام دستور مناسب است؟",
+        "selected": "Watermark",
+        "correct": "Watermark"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Ignore All",
+        "correct": "Ignore All"
+      },
+      {
+        "question": "برای چاپ فایل ها از .............. استفاده می کنیم.",
+        "selected": "File / Print",
+        "correct": "File / Print"
+      },
+      {
+        "question": "صفحه کلید - بلندگو هر کدام جز دستگاه های .................... می باشند.",
+        "selected": "ورودی - خروجی",
+        "correct": "ورودی - خروجی"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "علامت مساوی در شروع یک خانه نشانه چیست؟",
+        "selected": "شروع یک فرمول",
+        "correct": "شروع یک فرمول"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "عملکرد گزینه Start در سربرگ Animation چیست؟",
+        "selected": "نحوه آغاز شدن انیمیشن را مشخص می کند",
+        "correct": "نحوه آغاز شدن انیمیشن را مشخص می کند"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین جداول بانک اطلاعاتی نیازمند ............ هستیم.",
+        "selected": "یک فیلد کلیدی",
+        "correct": "یک فیلد کلیدی"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": "Nod32",
+        "correct": "Nod32"
+      },
+      {
+        "question": "اگر بخواهیم صفحاتی جستجو شود که کلمه exercise در عبارت جستجو نباشد، عبارت exercise access را چگونه می توان search نمود؟",
+        "selected": "access not exercise",
+        "correct": "access not exercise"
+      },
+      {
+        "question": "اگر بخواهیم جدول را طوری تنظیم کنیم که با خالی رها کردن یک فیلد از طرف سیستم پیغام اخطار ظاهر شود از کدام مشخصه استفاده می کنیم؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "UPS",
+        "correct": "UPS"
+      }
+    ],
+    "date": "2026-10-28T11:17:23.946Z"
   }
 ]
