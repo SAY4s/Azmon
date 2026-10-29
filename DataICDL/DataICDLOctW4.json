@@ -7666,5 +7666,218 @@
       }
     ],
     "date": "2026-10-29T18:28:26.161Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کادر BCC در پنجره Create Mail (یا نامه) به چه منظوری به کار می رود؟",
+        "selected": "آدرس پست الکترونیکی گیرنده اصلی نامه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "docx",
+        "correct": "docx"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Show"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "با استفاده از گزینه ............. می توانیم تعیین کنیم متن از حاشیه سلول چقدر فاصله داشته باشد.",
+        "selected": "Cell Margins",
+        "correct": "Cell Margins"
+      },
+      {
+        "question": "برای اینکه نتوان محل نوار وظیفه را تغییر داد باید کدام گزینه را از کادر محاوره ای Taskbar and Start Menu Properties انتخاب نمود؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Text Effects",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "گزینه Design View از گروه Table جهت ...................؟",
+        "selected": "ایجاد یک جدول جدید به صورت ویزارد",
+        "correct": "ایجاد جدول جدید بدون استفاده از ویزارد"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "کدام یک از گزینه زیر تعریف کامپیوتر است؟",
+        "selected": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد",
+        "correct": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "در کادر Format Cell از تب Alignment گزینه Shrink To Fit چه عملی انجام می دهد؟",
+        "selected": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد",
+        "correct": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+Page Down",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "CC"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "کنترل داده ها در CPU به عهده کدام قسمت است؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "All Program / Accessories / Sound Recorder",
+        "correct": "کلیک بر روی آیکن صدا بر روی نوار کار"
+      },
+      {
+        "question": "پیغام های دریافت شده در Outlook Express در کدام پوشه قرار دارند؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Wait",
+        "correct": "Wait"
+      },
+      {
+        "question": "برای نوشتن متون فارسی باید از کدام گزینه Alignment استفاده کنیم؟",
+        "selected": "Right",
+        "correct": "Right"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Attach",
+        "correct": "Attach"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Convert to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Link",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Clip Art",
+        "correct": "Picture"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نادرست می باشد؟",
+        "selected": "اینترانت شبکه خصوصی است که بر اساس قوانین و پروتکل های اینترنت ایجاد می شود ولی به اینترنت متصل نیست",
+        "correct": "اینترانت، یک شبکه جهانی می باشد"
+      },
+      {
+        "question": "کدام فیلد عددی برای ستون سن مناسب است؟",
+        "selected": "Byte",
+        "correct": "Byte"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Replace With",
+        "correct": "Replace With"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "در تنظیمات پاراگراف، تورفتگی ابتدای آن را از کدام بخش انجام می دهیم؟",
+        "selected": "Indentation",
+        "correct": "Indentation"
+      },
+      {
+        "question": "از کدام برگه در پنجره Properties می توان صفت یک پوشه (Attributes) را تغییر داد؟",
+        "selected": "General",
+        "correct": "General"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "تب مورد نظر را به بیرون از خط کش درگ می کنیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "Table Properties",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "هارد دیسک از نظر روش دستیابی به اطلاعات جزء کدام گروه است؟",
+        "selected": "دستیابی مستقیم",
+        "correct": "دستیابی تصادفی"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های حذف شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Trash"
+      }
+    ],
+    "date": "2026-10-29T19:59:12.206Z"
   }
 ]
