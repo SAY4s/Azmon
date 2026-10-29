@@ -1467,10 +1467,10 @@ function handleFile(file){
 function setSync(state, text){
   syncStatus.className = 'sync-status' + (state ? ' ' + state : '');
   syncStatus.style.display = 'flex';
-  syncText.textContent = text;
-  if(state === 'loading'){
-    syncStatus.innerHTML = `<div class="spinner"></div><span>${text}</span>`;
-  }
+  // همیشه محتوا را از نو بساز؛ قبلاً پیام خطا/موفقیت در عنصر جداشده نوشته می‌شد و اسپینر برای همیشه می‌ماند
+  syncStatus.innerHTML = state === 'loading'
+    ? `<div class="spinner"></div><span>${text}</span>`
+    : `<span>${text}</span>`;
 }
 
 async function fetchFromGitHub(){
@@ -1492,7 +1492,8 @@ async function fetchFromGitHub(){
     setSync('ok', 'با موفقيت از GitHub خونده شد ?');
     setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1800);
   } catch(err){
-    setSync('err', 'نشد از گيت‌هاب بخونه. اتصال يا آدرس فايل‌ها رو چک کن.');
+    console.error('fetchFromGitHub failed:', err);
+    setSync('err', 'نشد از گيت‌هاب بخونه. اتصال يا آدرس فايل‌ها رو چک کن.' + (err && err.message ? ' (' + escapeHtml(err.message) + ')' : ''));
     ghActions.style.display = 'flex';
   }
 }
@@ -2687,9 +2688,4 @@ function krHistory(entry){
   });
   const shown = all.slice(-10);
   const avgAll = all.reduce((s, e)=>s + (Number(e.percent) || 0), 0) / all.length;
-  const th = t => `<th style="${KR_TD} background:${KR.navy}; color:#fff; font-size:11px; font-weight:700; text-align:center;">${t}</th>`;
-  const rows = shown.map((e, i)=>{
-    const p = Number(e.percent) || 0;
-    const pe = prev.get(e);
-    const d = pe ? p - (Number(pe.percent) || 0) : null;
-    const
+  const th = t => `<th style="${KR_TD} background:${KR.navy}; color:#fff; font-size:11px
