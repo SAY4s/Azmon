@@ -2545,655 +2545,151 @@ document.getElementById('exportPdfListBtn').addEventListener('click', async ()=>
 
 /* ---------- Karnameh (report card) — printable via the browser's own print dialog ---------- */
 
-function buildKarnamehHTML(entry){
+/* ---------- Karnameh (official multi-page report card) ---------- */
+const KARNAMEH_ORG = 'مرکز آموزشی خوارزمی';   // نام مجموعه‌ی صادرکننده؛ در صورت نیاز تغییر بده
+const KARNAMEH_PASS = 50;                      // حد نصاب قبولی (درصد)
+const KR = { navy:'#1f2a44', gold:'#8a6d2f', ink:'#232733', mute:'#5b6272', line:'#c9ccd6', soft:'#f4f5f8',
+             green:'#1f7a45', greenBg:'#e3f3e9', red:'#b3261e', redBg:'#fbe7e5', amber:'#a8741a', amberBg:'#fbf1dc' };
+const KR_TD = `padding:6px 10px; border:1px solid ${KR.line}; text-align:right; vertical-align:middle;`;
+
+function krSerial(entry){
+  const src = [entry.name, getNationalId(entry), entry.exam, entry.date].join('|');
+  let h = 5381;
+  for(let i = 0; i < src.length; i++) h = ((h * 33) ^ src.charCodeAt(i)) >>> 0;
+  const d = entry.date ? new Date(entry.date) : null;
+  const jy = d && !isNaN(d.getTime()) ? toJalali(d)[0] : '0000';
+  return `KR-${jy}-${h.toString(36).toUpperCase().padStart(7, '0')}`;
+}
+function krNum(x){ return String(Math.round(x * 10) / 10); }
+function krTrunc(s, n){
+  s = String(s ?? '').replace(/\s+/g, ' ').trim();
+  return s.length > n ? s.slice(0, n - 1) + '…' : s;
+}
+function krGrade(p){
+  return p >= 90 ? 'عالی' : p >= 75 ? 'خیلی خوب' : p >= 60 ? 'خوب' : p >= KARNAMEH_PASS ? 'قابل قبول' : 'نیاز به تلاش بیشتر';
+}
+
+function krStats(entry){
   const answers = entry.answers || [];
-  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
-  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
-  const blankCount = answers.filter(a=>a.selected === null).length;
-  const pass = (entry.percent ?? 0) >= 50;
-  const verdict = pass ? 'قبول' : 'نياز به تلاش بيشتر';
-  const verdictColor = pass ? '#2f6844' : '#b23a2e';
-  const dateStr = fmtDate(entry.date);
-
-  return `<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<title>کارنامه — ${escapeHtml(entry.name || '')}</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
-*{box-sizing:border-box; margin:0; padding:0;}
-body{
-  font-family:'Vazirmatn', sans-serif;
-  background:#e9e0c9;
-  color:#232733;
-  direction:rtl;
-  padding:24px;
-}
-.sheet{
-  max-width:720px;
-  margin:0 auto;
-  background:#f2ecdd;
-  border:2px solid #232733;
-  box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;
-  padding:46px 50px;
-  position:relative;
-}
-.top-bar{ height:6px; background:linear-gradient(90deg,#b23a2e,#b5893a,#2f6844); margin:-46px -50px 32px; }
-h1{ text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; }
-.subtitle{ text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px; }
-.divider{ height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0; }
-.info-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px; }
-.info-item .label{ font-size:11.5px; color:#545a6b; font-weight:700; margin-bottom:3px; }
-.info-item .value{ font-size:16px; font-weight:800; }
-.mid-row{ display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:30px; }
-.stamp{
-  width:126px; height:126px; border-radius:50%;
-  border:3px dashed ${verdictColor}; color:${verdictColor};
-  display:flex; flex-direction:column; align-items:center; justify-content:center;
-  transform:rotate(-8deg); flex-shrink:0;
-}
-.stamp .pct{ font-size:32px; font-weight:900; }
-.stamp .lbl{ font-size:10px; font-weight:700; margin-top:2px; }
-.verdict{ flex:1; text-align:center; }
-.verdict .v-label{ font-size:13px; color:#545a6b; font-weight:700; }
-.verdict .v-value{ font-size:24px; font-weight:900; color:${verdictColor}; margin-top:6px; }
-.stats{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:44px; }
-.stat-box{ text-align:center; border:1.5px solid rgba(35,39,51,0.18); border-radius:8px; padding:14px 8px; }
-.stat-box .num{ font-size:20px; font-weight:900; }
-.stat-box .lab{ font-size:11px; color:#545a6b; font-weight:600; margin-top:3px; }
-.sign-row{ display:flex; justify-content:space-between; margin-top:40px; }
-.sign-box{ text-align:center; width:180px; }
-.sign-line{ border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b; }
-.print-btn{
-  display:block; margin:26px auto 0; padding:10px 28px; font-family:inherit; font-weight:700;
-  font-size:14px; border-radius:24px; border:none; background:#232733; color:#f2ecdd; cursor:pointer;
-}
-@media print{
-  body{ background:#fff; padding:0; }
-  .sheet{ box-shadow:none; border:2px solid #232733; margin:0 auto; }
-  .print-btn{ display:none; }
-  @page{ size:A4; margin:12mm; }
-}
-</style>
-</head>
-<body>
-  <div class="sheet">
-    <div class="top-bar"></div>
-    <h1>کارنامه آزمون</h1>
-    <div class="subtitle">اين برگه به‌عنوان گواهي نتيجه‌ي آزمون صادر شده است</div>
-    <div class="divider"></div>
-    <div class="info-grid">
-      <div class="info-item"><div class="label">نام و نام خانوادگي</div><div class="value">${escapeHtml(entry.name || 'بدون نام')}</div></div>
-      ${getNationalId(entry) ? `<div class="info-item"><div class="label">کدملی</div><div class="value">${escapeHtml(getNationalId(entry))}</div></div>` : ''}
-      <div class="info-item"><div class="label">تاريخ آزمون</div><div class="value">${dateStr}</div></div>
-      <div class="info-item"><div class="label">عنوان آزمون</div><div class="value">${escapeHtml(entry.exam || '')}</div></div>
-      <div class="info-item"><div class="label">نمره</div><div class="value">${entry.score ?? 0} از ${entry.total ?? 0}</div></div>
-    </div>
-    <div class="mid-row">
-      <div class="stamp"><div class="pct">${entry.percent ?? 0}%</div><div class="lbl">درصد قبولي</div></div>
-      <div class="verdict">
-        <div class="v-label">نتيجه‌ي نهايي</div>
-        <div class="v-value">${verdict}</div>
-      </div>
-    </div>
-    <div class="stats">
-      <div class="stat-box"><div class="num">${answers.length}</div><div class="lab">کل سوالات</div></div>
-      <div class="stat-box"><div class="num" style="color:#2f6844;">${correctCount}</div><div class="lab">پاسخ درست</div></div>
-      <div class="stat-box"><div class="num" style="color:#b23a2e;">${wrongCount}</div><div class="lab">پاسخ غلط</div></div>
-      <div class="stat-box"><div class="num" style="color:#b5893a;">${blankCount}</div><div class="lab">بي‌پاسخ</div></div>
-    </div>
-    <div class="sign-row">
-      <div class="sign-box"><div class="sign-line">امضاي مدرس</div></div>
-      <div class="sign-box"><div class="sign-line">امضاي مسئول آموزش</div></div>
-    </div>
-    <button class="print-btn" onclick="window.print()">?? چاپ کارنامه</button>
-  </div>
-<script>
-  window.addEventListener('load', ()=>{ setTimeout(()=>{ window.focus(); window.print(); }, 350); });
-<\/script>
-</body>
-</html>`;
-}
-
-document.getElementById('printKarnamehBtn').addEventListener('click', ()=>{
-  const html = buildKarnamehHTML(currentEntry);
-  const win = window.open('', '_blank');
-  if(!win){
-    alert('مرورگر اجازه‌ي باز شدن پنجره‌ي چاپ رو نداد. لطفاً popup blocker رو براي اين صفحه غيرفعال کن و دوباره امتحان کن.');
-    return;
-  }
-  win.document.open();
-  win.document.write(html);
-  win.document.close();
-});
-
-/* ---------- Karnameh as a downloadable PDF (single + bulk zip) ---------- */
-
-function buildKarnamehElement(entry){
-  const answers = entry.answers || [];
-  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
-  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
-  const blankCount = answers.filter(a=>a.selected === null).length;
-  const pass = (entry.percent ?? 0) >= 50;
-  const verdict = pass ? 'قبول' : 'نياز به تلاش بيشتر';
-  const verdictColor = pass ? '#2f6844' : '#b23a2e';
-
-  const wrap = document.createElement('div');
-  wrap.style.cssText = 'width:680px; padding:46px 50px; background:#f2ecdd; font-family:"Vazirmatn",Tahoma,sans-serif; color:#232733; direction:rtl; border:2px solid #232733; box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;';
-
-  const statBox = (num, lab, color) => `
-    <div style="text-align:center; border:1.5px solid rgba(35,39,51,0.18); border-radius:8px; padding:14px 8px;">
-      <div style="font-size:20px; font-weight:900; ${color ? `color:${color};` : ''}">${num}</div>
-      <div style="font-size:11px; color:#545a6b; font-weight:600; margin-top:3px;">${lab}</div>
-    </div>`;
-
-  const infoItem = (label, value) => `
-    <div>
-      <div style="font-size:11.5px; color:#545a6b; font-weight:700; margin-bottom:3px;">${label}</div>
-      <div style="font-size:16px; font-weight:800;">${value}</div>
-    </div>`;
-
-  wrap.innerHTML = `
-    <div style="height:6px; background:linear-gradient(90deg,#b23a2e,#b5893a,#2f6844); margin:-46px -50px 32px;"></div>
-    <h1 style="text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; margin:0;">کارنامه آزمون</h1>
-    <div style="text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px;">اين برگه به‌عنوان گواهي نتيجه‌ي آزمون صادر شده است</div>
-    <div style="height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0;"></div>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px;">
-      ${infoItem('نام و نام خانوادگي', escapeHtml(entry.name || 'بدون نام'))}
-      ${getNationalId(entry) ? infoItem('کدملی', escapeHtml(getNationalId(entry))) : ''}
-      ${infoItem('تاريخ آزمون', fmtDate(entry.date))}
-      ${infoItem('عنوان آزمون', escapeHtml(entry.exam || ''))}
-      ${infoItem('نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`)}
-    </div>
-    <div style="display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:30px;">
-      <div style="width:126px; height:126px; border-radius:50%; border:3px dashed ${verdictColor}; color:${verdictColor}; display:flex; flex-direction:column; align-items:center; justify-content:center; transform:rotate(-8deg); flex-shrink:0;">
-        <div style="font-size:32px; font-weight:900;">${entry.percent ?? 0}%</div>
-        <div style="font-size:10px; font-weight:700; margin-top:2px;">درصد قبولي</div>
-      </div>
-      <div style="flex:1; text-align:center;">
-        <div style="font-size:13px; color:#545a6b; font-weight:700;">نتيجه‌ي نهايي</div>
-        <div style="font-size:24px; font-weight:900; color:${verdictColor}; margin-top:6px;">${verdict}</div>
-      </div>
-    </div>
-    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:44px;">
-      ${statBox(answers.length, 'کل سوالات')}
-      ${statBox(correctCount, 'پاسخ درست', '#2f6844')}
-      ${statBox(wrongCount, 'پاسخ غلط', '#b23a2e')}
-      ${statBox(blankCount, 'بي‌پاسخ', '#b5893a')}
-    </div>
-    <div style="display:flex; justify-content:space-between; margin-top:40px;">
-      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضاي مدرس</div></div>
-      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضاي مسئول آموزش</div></div>
-    </div>
-  `;
-  return wrap;
-}
-
-async function buildKarnamehPdfBlobForEntry(entry){
-  return renderElementToPdfBlob(buildKarnamehElement(entry));
-}
-
-document.getElementById('downloadKarnamehPdfBtn').addEventListener('click', async ()=>{
-  const btn = document.getElementById('downloadKarnamehPdfBtn');
-  const original = btn.innerHTML;
-  btn.disabled = true;
-  btn.textContent = 'در حال ساخت…';
-  try{
-    const blob = await buildKarnamehPdfBlobForEntry(currentEntry);
-    const name = sanitizeFilename(currentEntry.name) || 'بدون نام';
-    triggerDownload(blob, `کارنامه-${name}.pdf`);
-  } catch(err){
-    console.error(err);
-    alert('ساخت PDF کارنامه با خطا مواجه شد.');
-  } finally{
-    btn.disabled = false;
-    btn.innerHTML = original;
-  }
-});
-
-document.getElementById('exportKarnamehZipBtn').addEventListener('click', async ()=>{
-  const filtered = getFilteredListEntries();
-  if(filtered.length === 0){
-    alert('چيزي براي خروجي گرفتن وجود نداره.');
-    return;
-  }
-  const btn = document.getElementById('exportKarnamehZipBtn');
-  btn.disabled = true;
-  showPdfProgress();
-  try{
-    const zip = new JSZip();
-    const usedNames = new Set();
-    for(let i=0; i<filtered.length; i++){
-      const entry = filtered[i];
-      updatePdfProgress(i, filtered.length, entry.name || '');
-      const blob = await buildKarnamehPdfBlobForEntry(entry);
-      let base = sanitizeFilename(entry.name) || `کارنامه-${i+1}`;
-      let filename = base, n = 2;
-      while(usedNames.has(filename)){ filename = `${base} (${n})`; n++; }
-      usedNames.add(filename);
-      zip.file(`${filename}.pdf`, blob);
-      updatePdfProgress(i+1, filtered.length, entry.name || '');
-    }
-    const zipBlob = await zip.generateAsync({ type:'blob' });
-    const topicLabel = selectedTopic ? sanitizeFilename(selectedTopic) : 'نتايج';
-    triggerDownload(zipBlob, `کارنامه-${topicLabel || 'نتايج'}.zip`);
-    finishPdfProgress(`${filtered.length} کارنامه ساخته و دانلود شد ?`);
-  } catch(err){
-    console.error(err);
-    finishPdfProgress('ساخت فايل‌ها با خطا مواجه شد.');
-  } finally{
-    btn.disabled = false;
-  }
-});
-
-
-/* ================= آمار مبحث ================= */
-function computeStats(entries){
-  const pcts = entries.map(e=>Number(e.percent) || 0);
+  const correct = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+  const wrong = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+  const blank = answers.filter(a=>a.selected === null).length;
+  const total = answers.length;
+  const answered = correct + wrong;
+  const topic = entry.exam || 'بدون‌عنوان';
+  const peers = fullData.filter(e=>(e.exam || 'بدون‌عنوان') === topic);
+  const pool = peers.length ? peers : [entry];
+  const pcts = pool.map(e=>Number(e.percent) || 0);
+  const my = Number(entry.percent) || 0;
   const n = pcts.length;
-  const sum = pcts.reduce((a,b)=>a+b,0);
-  const passed = pcts.filter(p=>p>=50).length;
-  const bins = new Array(10).fill(0);
-  pcts.forEach(p=>{ bins[Math.max(0, Math.min(9, Math.floor(p/10)))]++; });
-  const people = new Set(entries.map(e=>normalizeFa(e.name))).size;
+  const sorted = pcts.slice().sort((a,b)=>a - b);
+  const median = n % 2 ? sorted[(n - 1) / 2] : (sorted[n / 2 - 1] + sorted[n / 2]) / 2;
+  const avg = pcts.reduce((a,b)=>a + b, 0) / n;
+  const mine = personEntries(entry).filter(e=>(e.exam || 'بدون‌عنوان') === topic);
   return {
-    n, people,
-    avg: n ? sum/n : 0,
-    passRate: n ? passed/n*100 : 0,
-    passed,
-    max: n ? Math.max(...pcts) : 0,
-    min: n ? Math.min(...pcts) : 0,
-    bins
+    answers, correct, wrong, blank, total, answered, my, n, avg, median,
+    max: sorted[n - 1], min: sorted[0],
+    rank: 1 + pcts.filter(p=>p > my).length,
+    below: n > 1 ? Math.round(pcts.filter(p=>p < my).length / (n - 1) * 100) : null,
+    attemptNo: Math.max(1, mine.indexOf(entry) + 1),
+    attempts: Math.max(1, mine.length),
+    pass: my >= KARNAMEH_PASS
   };
 }
-const fmt1 = v => (Math.round(v*10)/10).toString();
 
-function topicSummaryHtml(name, data){
-  const entries = data.filter(e=>(e.exam || 'بدون‌عنوان') === name);
-  const st = computeStats(entries);
-  return `<div class="t-sub"><span>میانگین: <b>${fmt1(st.avg)}%</b></span><span>قبولی: <b class="${st.passRate>=50?'pass':'fail'}">${fmt1(st.passRate)}%</b></span></div>`;
+const krSec = t => `<div style="display:flex; align-items:center; gap:8px; margin:14px 0 8px;">
+  <div style="width:5px; height:16px; background:${KR.gold};"></div>
+  <div style="font-size:13.5px; font-weight:800; color:${KR.navy};">${t}</div>
+  <div style="flex:1; height:1px; background:${KR.line};"></div></div>`;
+
+function krKV(pairs){
+  const cell = p => p
+    ? `<td style="${KR_TD} width:17%; background:${KR.soft}; font-weight:700; color:${KR.mute}; font-size:11.5px;">${p[0]}</td><td style="${KR_TD} width:33%; font-weight:800; font-size:12.5px;">${p[1]}</td>`
+    : `<td style="${KR_TD} width:17%; background:${KR.soft};"></td><td style="${KR_TD} width:33%;"></td>`;
+  let rows = '';
+  for(let i = 0; i < pairs.length; i += 2) rows += `<tr>${cell(pairs[i])}${cell(pairs[i + 1])}</tr>`;
+  return `<table style="width:100%; border-collapse:collapse; table-layout:fixed;">${rows}</table>`;
 }
 
-function buildHistogramSvg(bins){
-  const W=700, H=240, padL=34, padR=12, padT=22, padB=40;
-  const iw = W-padL-padR, ih = H-padT-padB;
-  const maxV = Math.max(1, ...bins);
-  const step = Math.max(1, Math.ceil(maxV/5));
-  const top = Math.ceil(maxV/step)*step;
-  const bw = iw/bins.length;
-  let out = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
-  for(let v=0; v<=top; v+=step){
-    const y = padT + ih - (v/top)*ih;
-    out += `<line x1="${padL}" x2="${W-padR}" y1="${y}" y2="${y}" stroke="rgba(35,39,51,0.12)"/>`;
-    out += `<text x="${padL-6}" y="${y+4}" text-anchor="end" font-size="11" fill="#545a6b">${v}</text>`;
-  }
-  bins.forEach((c,i)=>{
-    const h = (c/top)*ih;
-    const x = padL + i*bw + bw*0.12;
-    const w = bw*0.76;
-    const y = padT + ih - h;
-    const color = i>=5 ? '#2f6844' : '#b23a2e';
-    out += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="${color}" opacity="0.85"/>`;
-    if(c>0) out += `<text x="${x+w/2}" y="${y-5}" text-anchor="middle" font-size="12" font-weight="700" fill="#232733">${c}</text>`;
-    const lo = i*10, hi = i===9 ? 100 : i*10+9;
-    out += `<text x="${x+w/2}" y="${H-padB+16}" text-anchor="middle" font-size="10.5" fill="#545a6b">${lo}-${hi}</text>`;
-  });
-  out += `<text x="${padL+iw/2}" y="${H-6}" text-anchor="middle" font-size="11" font-weight="700" fill="#545a6b">درصد نمره</text>`;
-  out += `</svg>`;
-  return out;
+function krBar(label, value, color){
+  const v = Math.max(0, Math.min(100, value));
+  return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:7px;">
+    <div style="width:118px; font-size:11.5px; font-weight:700; color:${KR.mute};">${label}</div>
+    <div style="flex:1; height:14px; background:${KR.soft}; border:1px solid ${KR.line};"><div style="width:${v}%; height:100%; background:${color};"></div></div>
+    <div style="width:52px; font-size:12px; font-weight:800; text-align:left; direction:ltr;">${krNum(value)}%</div>
+  </div>`;
 }
 
-function openStatsModal(){
-  const entries = getFilteredListEntries();
-  const label = selectedTopic || 'همه‌ي پاسخ‌برگ‌ها';
-  document.getElementById('statsModalTitle').textContent = 'آمار — ' + label;
-  const body = document.getElementById('statsModalBody');
-  if(!entries.length){
-    body.innerHTML = '<div class="empty-filter">داده‌اي براي محاسبه‌ي آمار نيست.</div>';
-  } else {
-    const st = computeStats(entries);
-    const box = (num, lab, cls) => `<div class="stat ${cls||''}"><div class="num">${num}</div><div class="lab">${lab}</div></div>`;
-    const filtered = entries.length !== currentData.length;
-    body.innerHTML = `
-      <div class="stats-grid">
-        ${box(st.n, 'تعداد پاسخ‌برگ')}
-        ${box(fmt1(st.avg)+'%', 'ميانگين نمره')}
-        ${box(fmt1(st.passRate)+'%', 'درصد قبولي (≥۵۰٪)', st.passRate>=50?'correct':'wrong')}
-        ${box(st.max+'%', 'بالاترين')}
-        ${box(st.min+'%', 'پايين‌ترين')}
+function krPage(inner, idx, total, serial){
+  return `<div class="kr-page" style="width:794px; height:1122px; background:#fff; box-sizing:border-box; padding:26px; direction:rtl; font-family:'Vazirmatn',Tahoma,sans-serif; color:${KR.ink}; position:relative; overflow:hidden; page-break-after:always; break-after:page;">
+    <div style="height:100%; border:3px double ${KR.navy}; box-sizing:border-box; padding:22px 28px 12px; display:flex; flex-direction:column;">
+      ${inner}
+      <div style="margin-top:auto; border-top:1px solid ${KR.line}; padding-top:8px; display:flex; justify-content:space-between; gap:10px; font-size:9.5px; color:${KR.mute}; font-weight:600;">
+        <span>شماره کارنامه: <span dir="ltr">${serial}</span></span>
+        <span>این سند به‌صورت خودکار توسط سامانه‌ی نمایش نتایج آزمون صادر شده است</span>
+        <span>صفحه ${idx} از ${total}</span>
       </div>
-      <div class="chart-box">
-        <h4>نمودار توزيع نمرات</h4>
-        ${buildHistogramSvg(st.bins)}
-      </div>
-      <div class="stats-note">
-        ${st.passed} از ${st.n} پاسخ‌برگ قبول شده‌اند · تعداد افراد متفاوت: ${st.people}
-        ${filtered ? '<br>اين آمار فقط روي نتايج فيلترشده (نام / بازه‌ي تاريخ) حساب شده.' : ''}
-      </div>`;
+    </div>
+  </div>`;
+}
+
+function krMini(entry, title){
+  return `<div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:8px; border-bottom:2px solid ${KR.navy};">
+    <div style="font-size:15px; font-weight:900; color:${KR.navy};">${title}</div>
+    <div style="font-size:11.5px; font-weight:700; color:${KR.mute};">${escapeHtml(entry.name || 'بدون نام')} — ${escapeHtml(entry.exam || '')}</div>
+  </div>`;
+}
+
+function krMap(answers){
+  const cells = answers.map((a, i)=>{
+    const s = statusOf(a);
+    const c = s === 'correct' ? [KR.green, KR.greenBg] : s === 'wrong' ? [KR.red, KR.redBg] : [KR.amber, KR.amberBg];
+    return `<div style="width:34px; height:26px; border:1px solid ${c[0]}; background:${c[1]}; color:${c[0]}; font-size:11px; font-weight:800; display:flex; align-items:center; justify-content:center;">${i + 1}</div>`;
+  }).join('');
+  const lg = (c, bg, t) => `<span style="display:inline-flex; align-items:center; gap:5px; margin-left:14px; font-size:10.5px; font-weight:700; color:${KR.mute};"><span style="width:12px; height:12px; background:${bg}; border:1px solid ${c}; display:inline-block;"></span>${t}</span>`;
+  return `<div style="display:flex; flex-wrap:wrap; gap:5px;">${cells}</div>
+    <div style="margin-top:8px;">${lg(KR.green, KR.greenBg, 'درست')}${lg(KR.red, KR.redBg, 'غلط')}${lg(KR.amber, KR.amberBg, 'بدون پاسخ')}</div>`;
+}
+
+function krRows(answers, from, to){
+  const label = { correct:['درست', KR.green], wrong:['غلط', KR.red], blank:['بدون پاسخ', KR.amber] };
+  const clip = (t, n) => `<div style="height:34px; overflow:hidden; line-height:1.55;">${escapeHtml(krTrunc(t, n))}</div>`;
+  let out = '';
+  for(let i = from; i < to; i++){
+    const a = answers[i];
+    const s = label[statusOf(a)];
+    out += `<tr style="background:${i % 2 ? KR.soft : '#fff'};">
+      <td style="${KR_TD} padding:3px 4px; width:38px; text-align:center; font-weight:800; font-size:11px;">${i + 1}</td>
+      <td style="${KR_TD} padding:3px 8px; font-size:10.5px;">${clip(a.question || '', 100)}</td>
+      <td style="${KR_TD} padding:3px 8px; width:125px; font-size:10.5px; font-weight:700;">${a.selected !== null ? clip(a.selected, 34) : '<div style="height:34px; line-height:34px; color:' + KR.mute + ';">—</div>'}</td>
+      <td style="${KR_TD} padding:3px 8px; width:125px; font-size:10.5px; font-weight:700;">${clip(a.correct || '', 34)}</td>
+      <td style="${KR_TD} padding:3px 4px; width:66px; text-align:center; font-weight:800; font-size:10.5px; color:${s[1]};">${s[0]}</td>
+    </tr>`;
   }
-  document.getElementById('statsModalOverlay').classList.add('open');
-}
-document.getElementById('statsBtn').addEventListener('click', openStatsModal);
-document.getElementById('statsModalClose').addEventListener('click', ()=>document.getElementById('statsModalOverlay').classList.remove('open'));
-document.getElementById('statsModalOverlay').addEventListener('click', e=>{
-  if(e.target.id === 'statsModalOverlay') e.target.classList.remove('open');
-});
-
-/* ================= سابقه‌ي يک نفر ================= */
-let historyScope = 'all'; // 'all' | 'topic'
-
-function personEntries(entry){
-  const key = normalizeFa(entry.name);
-  return fullData
-    .filter(e=>normalizeFa(e.name) === key)
-    .sort((a,b)=>(new Date(a.date||0)) - (new Date(b.date||0)));
+  const th = (t, w) => `<th style="${KR_TD} background:${KR.navy}; color:#fff; font-size:11px; font-weight:700; ${w ? 'width:' + w + 'px;' : ''} text-align:center;">${t}</th>`;
+  return `<table style="width:100%; border-collapse:collapse; table-layout:fixed;">
+    <thead><tr style="height:30px;">${th('ردیف', 38)}${th('متن سوال')}${th('پاسخ شما', 125)}${th('پاسخ صحیح', 125)}${th('وضعیت', 66)}</tr></thead>
+    <tbody>${out}</tbody></table>`;
 }
 
-function buildTrendSvg(list, current){
-  const W=700, H=230, padL=34, padR=22, padT=24, padB=38;
-  const iw=W-padL-padR, ih=H-padT-padB;
-  const n=list.length;
-  const xAt = i => n===1 ? padL+iw/2 : padL + (i/(n-1))*iw;
-  const yAt = p => padT + ih - (Math.max(0,Math.min(100,p))/100)*ih;
-  let out = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
-  [0,25,50,75,100].forEach(v=>{
-    const y=yAt(v);
-    const is50 = v===50;
-    out += `<line x1="${padL}" x2="${W-padR}" y1="${y}" y2="${y}" stroke="${is50?'rgba(178,58,46,0.5)':'rgba(35,39,51,0.12)'}" ${is50?'stroke-dasharray="5 4"':''}/>`;
-    out += `<text x="${padL-6}" y="${y+4}" text-anchor="end" font-size="11" fill="#545a6b">${v}</text>`;
-  });
-  const pts = list.map((e,i)=>[xAt(i), yAt(Number(e.percent)||0)]);
-  out += `<polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="#232733" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>`;
-  const labelEvery = Math.ceil(n/8);
-  list.forEach((e,i)=>{
-    const [x,y] = pts[i];
-    const pct = Number(e.percent)||0;
-    const isCur = e === current;
-    const color = pct>=50 ? '#2f6844' : '#b23a2e';
-    out += `<circle cx="${x}" cy="${y}" r="${isCur?7:5}" fill="${color}" stroke="${isCur?'#232733':'#f2ecdd'}" stroke-width="${isCur?2.5:2}"/>`;
-    out += `<text x="${x}" y="${y-11}" text-anchor="middle" font-size="11.5" font-weight="800" fill="#232733">${pct}</text>`;
-    if(i%labelEvery===0 || i===n-1){
-      out += `<text x="${x}" y="${H-padB+16}" text-anchor="middle" font-size="10" fill="#545a6b">${escapeHtml(fmtDateShort(e.date))}</text>`;
-    }
-  });
-  out += `</svg>`;
-  return out;
-}
-
-function renderHistory(entry){
-  const box = document.getElementById('historyBox');
+function krHistory(entry){
   const all = personEntries(entry);
-  if(all.length < 2){ box.style.display='none'; box.innerHTML=''; return; }
-
-  const topicName = entry.exam || 'بدون‌عنوان';
-  const topicList = all.filter(e=>(e.exam || 'بدون‌عنوان') === topicName);
-  const multiTopic = new Set(all.map(e=>e.exam || 'بدون‌عنوان')).size > 1;
-  if(!multiTopic) historyScope = 'all';
-  const list = historyScope === 'topic' ? topicList : all;
-
-  let trend = '';
-  if(list.length >= 2){
-    const diff = (Number(list[list.length-1].percent)||0) - (Number(list[0].percent)||0);
-    const cls = diff>0 ? 'var(--green)' : diff<0 ? 'var(--red)' : 'var(--ink-soft)';
-    const word = diff>0 ? `رشد ${diff} درصدي` : diff<0 ? `افت ${Math.abs(diff)} درصدي` : 'بدون تغيير';
-    trend = `<span class="trend" style="color:${cls}">از اولين تا آخرين آزمون: ${word}</span>`;
+  if(all.length < 2){
+    return krSec('سابقه‌ی شرکت در آزمون‌ها') +
+      `<div style="font-size:11.5px; color:${KR.mute}; font-weight:600; padding:6px 2px;">برای این فرد نتیجه‌ی دیگری ثبت نشده است؛ این نخستین آزمون ثبت‌شده است.</div>`;
   }
-
-  box.style.display = 'block';
-  box.innerHTML = `
-    <div class="history-head">
-      <h3>سابقه‌ي آزمون‌ها (${list.length} بار)</h3>
-      ${multiTopic ? `<div class="hist-scope">
-        <button class="filter-btn ${historyScope==='all'?'active':''}" data-scope="all">همه‌ي مباحث</button>
-        <button class="filter-btn ${historyScope==='topic'?'active':''}" data-scope="topic">فقط همين مبحث</button>
-      </div>` : ''}
-    </div>
-    ${trend}
-    ${list.length >= 2
-      ? `<div class="chart-box" style="margin-top:10px;">${buildTrendSvg(list, entry)}</div>`
-      : '<div class="stats-note">در اين مبحث فقط يک بار آزمون داده.</div>'}
-    <div class="hist-list"></div>`;
-
-  const listEl = box.querySelector('.hist-list');
-  list.slice().reverse().forEach(e=>{
-    const pct = Number(e.percent)||0;
-    const row = document.createElement('div');
-    row.className = 'hist-row' + (e===entry ? ' current' : '');
-    row.innerHTML = `
-      <span>${escapeHtml(fmtDateShort(e.date))}</span>
-      <span class="h-exam">${escapeHtml(e.exam || 'بدون‌عنوان')}</span>
-      <span class="h-pct" style="color:${pct>=50?'var(--green)':'var(--red)'}">${pct}%</span>`;
-    if(e !== entry){
-      row.addEventListener('click', ()=>{
-        selectedTopic = e.exam || 'بدون‌عنوان';
-        currentData = fullData.filter(x=>(x.exam || 'بدون‌عنوان') === selectedTopic);
-        openDetail(e);
-      });
+  const prev = new Map();
+  all.forEach((e, i)=>{
+    const topic = e.exam || 'بدون‌عنوان';
+    for(let j = i - 1; j >= 0; j--){
+      if((all[j].exam || 'بدون‌عنوان') === topic){ prev.set(e, all[j]); break; }
     }
-    listEl.appendChild(row);
   });
-
-  box.querySelectorAll('[data-scope]').forEach(b=>{
-    b.addEventListener('click', ()=>{ historyScope = b.dataset.scope; renderHistory(entry); });
-  });
-}
-
-
-/* ================= فيلتر/مرتب‌سازي ليست ================= */
-function resetViewControls(){
-  document.getElementById('listSearchInput').value = '';
-  document.getElementById('sortSelect').value = 'date';
-  document.getElementById('statusSelect').value = 'all';
-  document.getElementById('pctMin').value = '';
-  document.getElementById('pctMax').value = '';
-}
-['sortSelect','statusSelect'].forEach(id=>document.getElementById(id).addEventListener('change', renderList));
-['pctMin','pctMax'].forEach(id=>document.getElementById(id).addEventListener('input', renderList));
-document.getElementById('resetViewFilter').addEventListener('click', ()=>{
-  resetViewControls();
-  dateRange = null;
-  populateDateSelects();
-  renderList();
-});
-
-/* ================= لينک مستقيم (hash) ================= */
-let currentHashStr = '';
-function updateHash(params){
-  const sp = new URLSearchParams();
-  Object.entries(params).forEach(([k,v])=>{ if(v) sp.set(k, v); });
-  currentHashStr = sp.toString() ? '#' + sp.toString() : '';
-  try{
-    history.replaceState(null, '', location.pathname + location.search + currentHashStr);
-  } catch(e){}
-}
-
-function applyPendingHash(){
-  const h = pendingHash;
-  pendingHash = '';
-  if(!h || h.length < 2) return;
-  const sp = new URLSearchParams(h.slice(1));
-  const t = sp.get('t'), p = sp.get('p'), d = sp.get('d');
-  if(!t) return;
-  const topicData = fullData.filter(e=>(e.exam || 'بدون‌عنوان') === t);
-  if(!topicData.length) return;
-  selectedTopic = t;
-  currentData = topicData;
-  if(p){
-    const norm = normalizeFa(p);
-    const match = topicData.find(e=>normalizeFa(e.name) === norm && (!d || e.date === d))
-               || topicData.find(e=>normalizeFa(e.name) === norm);
-    if(match){ openDetail(match); return; }
-  }
-  openList(topicData);
-}
-
-async function copyCurrentLink(btn){
-  const url = location.href.split('#')[0] + currentHashStr;
-  const original = btn.innerHTML;
-  try{
-    await navigator.clipboard.writeText(url);
-    btn.textContent = 'کپي شد ✓';
-    setTimeout(()=>{ btn.innerHTML = original; }, 1600);
-  } catch(e){
-    window.prompt('لينک رو کپي کن:', url);
-  }
-}
-document.getElementById('copyLinkListBtn').addEventListener('click', e=>copyCurrentLink(e.currentTarget));
-document.getElementById('copyLinkDetailBtn').addEventListener('click', e=>copyCurrentLink(e.currentTarget));
-
-
-/* ================= نوار فيلتر: چيپ‌ها + تقويم شمسي ================= */
-function fmtJ(j){ return `${j[2]} ${PERSIAN_MONTHS[j[1]-1]} ${j[0]}`; }
-
-function syncToolbar(){
-  [['sortChips','sortSelect'],['statusChips','statusSelect']].forEach(([chipsId, inputId])=>{
-    const val = document.getElementById(inputId).value;
-    document.querySelectorAll('#'+chipsId+' .chip').forEach(c=>c.classList.toggle('active', c.dataset.v === val));
-  });
-  const label = document.getElementById('dateRangeLabel');
-  const clr = document.getElementById('dateRangeClear');
-  if(dateRange){
-    const same = jalaliKey(...dateRange.from) === jalaliKey(...dateRange.to);
-    label.textContent = same ? fmtJ(dateRange.from) : `${fmtJ(dateRange.from)} تا ${fmtJ(dateRange.to)}`;
-    clr.style.display = 'inline-block';
-  } else {
-    label.textContent = 'همه‌ي تاريخ‌ها';
-    clr.style.display = 'none';
-  }
-}
-[['sortChips','sortSelect'],['statusChips','statusSelect']].forEach(([chipsId, inputId])=>{
-  document.querySelectorAll('#'+chipsId+' .chip').forEach(c=>{
-    c.addEventListener('click', ()=>{ document.getElementById(inputId).value = c.dataset.v; renderList(); });
-  });
-});
-
-const calPop = document.getElementById('calPop');
-const dateBtn = document.getElementById('dateRangeBtn');
-const calState = { y:0, m:1, start:null };
-
-function jDaysInMonth(y,m){
-  if(m <= 6) return 31;
-  if(m <= 11) return 30;
-  return j2d(y+1,1,1) - j2d(y,12,1);
-}
-function jWeekdayOffset(y,m){
-  const [gy,gm,gd] = d2g(j2d(y,m,1));
-  return (new Date(gy,gm-1,gd).getDay() + 1) % 7; // شنبه = ۰
-}
-function dataDayKeys(){
-  const set = new Set();
-  currentData.forEach(e=>{ const j = entryJalali(e); if(j) set.add(jalaliKey(j[0],j[1],j[2])); });
-  return set;
-}
-
-function renderCalendar(){
-  const {y,m,start} = calState;
-  const dim = jDaysInMonth(y,m), off = jWeekdayOffset(y,m);
-  const keys = dataDayKeys();
-  const todayKey = jalaliKey(...toJalali(new Date()));
-  let rf = null, rt = null;
-  if(start){ rf = rt = jalaliKey(...start); }
-  else if(dateRange){ rf = jalaliKey(...dateRange.from); rt = jalaliKey(...dateRange.to); }
-
-  let cells = '';
-  for(let i=0; i<off; i++) cells += '<span></span>';
-  for(let d=1; d<=dim; d++){
-    const k = jalaliKey(y,m,d);
-    const cls = ['cal-day'];
-    if(k === todayKey) cls.push('today');
-    if(keys.has(k)) cls.push('has-data');
-    if(rf !== null && k >= rf && k <= rt) cls.push('in-range');
-    if(k === rf || k === rt) cls.push('edge');
-    cells += `<button type="button" class="${cls.join(' ')}" data-day="${d}">${d}</button>`;
-  }
-  calPop.innerHTML = `
-    <div class="cal-head">
-      <button type="button" data-nav="-12" title="سال قبل">»</button>
-      <button type="button" data-nav="-1" title="ماه قبل">›</button>
-      <div class="cal-title">${PERSIAN_MONTHS[m-1]} ${y}</div>
-      <button type="button" data-nav="1" title="ماه بعد">‹</button>
-      <button type="button" data-nav="12" title="سال بعد">«</button>
-    </div>
-    <div class="cal-week">${['ش','ی','د','س','چ','پ','ج'].map(x=>`<span>${x}</span>`).join('')}</div>
-    <div class="cal-grid">${cells}</div>
-    <div class="cal-hint">${start ? 'حالا روز پايان را انتخاب کن' : 'روز شروع و بعد روز پايان را انتخاب کن (نقطه‌ي سبز = روزهاي داراي آزمون)'}</div>
-    <div class="cal-presets">
-      <button type="button" class="chip" data-preset="month">اين ماه</button>
-      <button type="button" class="chip" data-preset="prev">ماه قبل</button>
-      <button type="button" class="chip" data-preset="30">۳۰ روز اخير</button>
-      <button type="button" class="chip" data-preset="all">همه</button>
-    </div>`;
-}
-
-function openCal(){
-  let base = null;
-  if(dateRange) base = dateRange.from;
-  else {
-    const js = currentData.map(entryJalali).filter(Boolean);
-    if(js.length){
-      const ks = js.map(j=>jalaliKey(...j));
-      base = js[ks.indexOf(Math.max(...ks))];
-    }
-  }
-  if(!base) base = toJalali(new Date());
-  calState.y = base[0]; calState.m = base[1]; calState.start = null;
-  renderCalendar();
-  calPop.style.display = 'block';
-  dateBtn.classList.add('on');
-}
-function closeCal(){
-  calPop.style.display = 'none';
-  dateBtn.classList.remove('on');
-  calState.start = null;
-}
-
-dateBtn.addEventListener('click', e=>{
-  e.stopPropagation();
-  if(calPop.style.display === 'block') closeCal(); else openCal();
-});
-calPop.addEventListener('click', e=>{
-  e.stopPropagation(); // رندر مجدد تقويم نبايد باعث بسته‌شدن بشه
-  const nav = e.target.closest('[data-nav]');
-  const day = e.target.closest('[data-day]');
-  const preset = e.target.closest('[data-preset]');
-  if(nav){
-    const total = calState.y*12 + (calState.m-1) + Number(nav.dataset.nav);
-    calState.y = Math.floor(total/12);
-    calState.m = (total % 12) + 1;
-    renderCalendar();
-  } else if(day){
-    const dk = [calState.y, calState.m, Number(day.dataset.day)];
-    if(!calState.start){
-      calState.start = dk;
-      renderCalendar();
-    } else {
-      const a = calState.start;
-      const [f,t] = jalaliKey(...a) <= jalaliKey(...dk) ? [a,dk] : [dk,a];
-      dateRange = { from:f, to:t };
-      closeCal();
-      renderList();
-    }
-  } else if(preset){
-    const tj = toJalali(new Date());
-    const v = preset.dataset.preset;
-    if(v === 'all') dateRange = null;
-    else if(v === 'month') dateRange = { from:[tj[0],tj[1],1], to:[tj[0],tj[1],jDaysInMonth(tj[0],tj[1])] };
-    else if(v === 'prev'){
-      let py = tj[0], pm = tj[1]-1;
-      if(pm < 1){ pm = 12; py -= 1; }
-      dateRange = { from:[py,pm,1], to:[py,pm,jDaysInMonth(py,pm)] };
-    } else {
-      dateRange = { from:d2j(j2d(...tj)-29), to:tj };
-    }
-    closeCal();
-    renderList();
-  }
-});
-document.addEventListener('click', ()=>{ if(calPop.style.display === 'block') closeCal(); });
-document.addEventListener('keydown', e=>{ if(e.key === 'Escape' && calPop.style.display === 'block') closeCal(); });
-document.getElementById('dateRangeClear').addEventListener('click', ()=>{ dateRange = null; renderList(); });
-
-</script>
-</body>
-</html>
+  const shown = all.slice(-10);
+  const avgAll = all.reduce((s, e)=>s + (Number(e.percent) || 0), 0) / all.length;
+  const th = t => `<th style="${KR_TD} background:${KR.navy}; color:#fff; font-size:11px; font-weight:700; text-align:center;">${t}</th>`;
+  const rows = shown.map((e, i)=>{
+    const p = Number(e.percent) || 0;
+    const pe = prev.get(e);
+    const d = pe ? p - (Number(pe.percent) || 0) : null;
+    const
