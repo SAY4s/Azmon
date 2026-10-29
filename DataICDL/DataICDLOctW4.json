@@ -7027,5 +7027,218 @@
       }
     ],
     "date": "2026-10-28T19:56:28.262Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "تهیه نمودار گرافیکی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "صفحه کلید - بلندگو هر کدام جز دستگاه های .................... می باشند.",
+        "selected": "خروجی - خروجی",
+        "correct": "ورودی - خروجی"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "کوچکترین جزء اطلاعاتی در پایگاه داده چه گفته می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Date/Time",
+        "correct": "Number"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "برای سایت های غیرتجاری الزامی است",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "در Windows کدام نرم افزار قابلیت ایجاد فایل را ندارد؟",
+        "selected": "Calculator",
+        "correct": "Calculator"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "نامه",
+        "correct": "نامه"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Start Mail Merge",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Web layout",
+        "correct": "Draft"
+      },
+      {
+        "question": "پیغام های دریافت شده در Outlook Express در کدام پوشه قرار دارند؟",
+        "selected": "Sent",
+        "correct": "Inbox"
+      },
+      {
+        "question": "برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟",
+        "selected": "استفاده از Format Painter",
+        "correct": "استفاده از Format Painter"
+      },
+      {
+        "question": "نام سایتی که وارد آن شده ایم در کجا مشاهده می شود؟",
+        "selected": "در Bookmarks مشاهده می شود",
+        "correct": "در نوار آدرس مرورگر مشاهده می شود"
+      },
+      {
+        "question": "جهت چرخاندن اشکال کدام یک از مراحل زیر صحیح است؟",
+        "selected": "Format -> Rotate",
+        "correct": "Format -> Rotate"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Database",
+        "correct": "Database"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Layout",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Below از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "پایین"
+      },
+      {
+        "question": "بر روی کدام یک از نوع فیلدها نمی توان ایندکس ایجاد کرد؟",
+        "selected": "Ole",
+        "correct": "Ole"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "با ورود به چه پنجره ای می توانیم کلیه درایوها را مشاهده و مدیریت کنیم؟",
+        "selected": "Computer",
+        "correct": "Computer"
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است",
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Table",
+        "correct": "Report"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "اجزای شبکه",
+        "correct": "آرایش فیزیکی رایانه ها در شبکه"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "<=20 And >=50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "از ابزار Date and Time به چه منظور استفاده می شود؟",
+        "selected": "درج تاریخ و زمان",
+        "correct": "درج تاریخ و زمان"
+      },
+      {
+        "question": "کلیپ بورد چیست؟",
+        "selected": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد",
+        "correct": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Commerce",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "برای انتخاب خانه های غیرمجاور در Excel، از کلید .................. استفاده می کنیم.",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Ctrl",
+        "correct": "Shift"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Required",
+        "correct": "No-Required"
+      },
+      {
+        "question": "در Windows برای حذف قطعی فایل ها به طوری که امکان بازیابی مجدد آنها وجود نداشته باشد از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Delete",
+        "correct": "Shift+Delete"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر جهت مرور محتویات پنجره های ویندوز مورد استفاده قرار می گیرد؟",
+        "selected": "Scroll Bar",
+        "correct": "Scroll Bar"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم های انتخابی را به عنوان تم پیش فرض تعیین کنیم کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slides",
+        "correct": "Set as Default Theme"
+      }
+    ],
+    "date": "2026-10-29T10:32:02.008Z"
   }
 ]
