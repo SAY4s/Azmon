@@ -7240,5 +7240,218 @@
       }
     ],
     "date": "2026-10-29T10:32:02.008Z"
+  },
+  {
+    "name": "محدثه اصفهانی",
+    "nationalId": "4311856059",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای درج برچسب نامه از کدام ابزار استفاده می کنیم؟",
+        "selected": "Labels",
+        "correct": "Labels"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Form Header",
+        "correct": "Form View"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select All",
+        "correct": "Select Object"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Report Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Web Page, HTML Only",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر در مورد DVD صحیح می باشد؟",
+        "selected": "دیسک ویدیویی دیجیتال",
+        "correct": "دیسک ویدیویی دیجیتال"
+      },
+      {
+        "question": "هر کیلو بایت شامل ........ بایت می شود.",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "گزارش",
+        "correct": "گزارش"
+      },
+      {
+        "question": "به عنصری از بانک اطلاعاتی که جهت ورود یا تغییر اطلاعات به کار می رود چه می گویند؟",
+        "selected": "Form",
+        "correct": "Form"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Formulas - Function",
+        "correct": "Formulas - Function"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "برای ایجاد سرصفحه و پاصفحه از کدام زبانه می توان استفاده کرد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای چاپ صفحه کاری جاری از کادر محاوره ای Print کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Print Current Sheet",
+        "correct": "Active Sheet Print"
+      },
+      {
+        "question": "کدام نوع داده ی زیر برای نمایش قالب متنی کاربرد دارد؟",
+        "selected": "Currency",
+        "correct": "Text"
+      },
+      {
+        "question": "\"Reset\" کردن همان ......... است.",
+        "selected": "راه اندازی مجدد کامپیوتر",
+        "correct": "راه اندازی مجدد کامپیوتر"
+      },
+      {
+        "question": "جهت تغییر شکل آیکن Computer کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Change Desktop Icon",
+        "correct": "Change Desktop Icon"
+      },
+      {
+        "question": "برای تعیین کلید اولیه در هنگام طراحی بانک اطلاعاتی پس از انتخاب فیلد مورد نظر بر روی کدام دکمه از نوار ابزار باید کلیک نمود؟",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Custom Print",
+        "correct": "Custom Print"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Yahoo",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "پروتکل",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "255 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "کدام یک از اسامی زیر برای نام پوشه غیر مجاز است؟",
+        "selected": "Con",
+        "correct": "Con"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C2+B3+C3=",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "هر فایل ارائه مطلب حداقل ....... اسلاید دارد.",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Decimal Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای اینکه طرح زمینه انتخاب شده در مرکز صفحه مانیتور باشد باید ............. انتخاب نماییم.",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انتخاب گزینه Arrange از تب View",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Required",
+        "correct": "Field Size"
+      }
+    ],
+    "date": "2026-10-29T15:11:32.457Z"
   }
 ]
