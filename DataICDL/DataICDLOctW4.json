@@ -10435,5 +10435,218 @@
       }
     ],
     "date": "2026-10-31T19:11:45.800Z"
+  },
+  {
+    "name": "فاطمه طهماسبی",
+    "nationalId": "4311936443",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای مرتب کردن داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "برای اجرای سریع فرمان redo کلیدهای ......... مورد استفاده قرار می گیرند.",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Detail",
+        "correct": "Form View"
+      },
+      {
+        "question": "کدامیک از موارد زیر باعث کاهش آلودگی های زیست محیطی می شود؟",
+        "selected": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده",
+        "correct": "استفاده از اسناد الکترونیکی به جای کاغذی و بازیافت کاغذها و تونرهای مصرف شده"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F8",
+        "correct": "F7"
+      },
+      {
+        "question": "کدام امکان در پنجره خصوصیات فرم، کنترل را فعال یا غیر فعال می کند؟",
+        "selected": "Enable",
+        "correct": "Enable"
+      },
+      {
+        "question": "از گزینه Underline برای ................... متن استفاده می شود.",
+        "selected": "زیرخط دار کردن",
+        "correct": "زیرخط دار کردن"
+      },
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "............... از جمله نرم افزارهای بسته Office بوده که بیشتر برای نوشتن و ویرایش کتاب، مجلات و اسناد و.... از آن استفاده می شود.",
+        "selected": "Word",
+        "correct": "Word"
+      },
+      {
+        "question": "توسط کدام ابزار در سربرگ Insert می توان مجموعه ای از تصاویر را به صورت آلبوم ایجاد کرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "حقوق خریدار نرم افزار را به رسمیت می شناسد",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "docx",
+        "correct": "docx"
+      },
+      {
+        "question": "اگر A1=14 باشد نتیجه فرمول زیر چیست؟ IF(A1=14),\"Ok\",\"No\")",
+        "selected": "Ok",
+        "correct": "Ok"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Sort کردن رکوردهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "برای اضافه کردن توضیحات به یک سلول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "گزینه new Comment از سربرگ Review",
+        "correct": "گزینه new Comment از سربرگ Review"
+      },
+      {
+        "question": "برای لغو آخرین عمل انجام شده بر روی فایل ها و پوشه ها کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "برای فراخوانی مجدد صفحه وب کنونی از کدام دکمه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "کدام گزینه، روش ایجاد فرم به صورت دستی است؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی References",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Print Current Page",
+        "correct": "Custom Print"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "برای تنظیم زمان و تاریخ سیستم کدام مسیر را انتخاب می کنید؟",
+        "selected": "Control Panel / Date & Time",
+        "correct": "Control Panel / Date & Time"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اکسترانت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "در یک Query به کمک کدامیک از گزینه های زیر می توان شرط مورد نظر در ستون مربوط وارد کرد؟",
+        "selected": "Criteria",
+        "correct": "Criteria"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 2 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "برای اینکه هنگام اجرای Query توسط یک کادر محاوره ای سؤالی مبنی بر تعیین معیار پرسیده شود در سطر Criteria کدام مورد زیر را می توان قرار داد؟",
+        "selected": "{?}",
+        "correct": "{?}"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Primary",
+        "correct": "Primary"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      }
+    ],
+    "date": "2026-10-31T19:23:26.142Z"
   }
 ]
