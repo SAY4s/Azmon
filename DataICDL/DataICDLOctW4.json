@@ -10009,5 +10009,218 @@
       }
     ],
     "date": "2026-10-31T18:42:46.048Z"
+  },
+  {
+    "name": "فاطمه طهماسبی",
+    "nationalId": "4311936443",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 6,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید آخر",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Paste",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟",
+        "selected": "Share",
+        "correct": "Share"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "پرچم",
+        "correct": "پرچم"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F2",
+        "correct": "F1"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "با استفاده از این ابزار در سربرگ Slide Show می توانیم به ایجاد یک اسلاید شو سفارشی بپردازیم.",
+        "selected": "Custom Slide Show",
+        "correct": "Custom Slide Show"
+      },
+      {
+        "question": "برای تولید اعداد متوالی اتوماتیک کدام نوع داده را برای فیلد باید تعریف نمود؟",
+        "selected": "Autonumber",
+        "correct": "Autonumber"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": "Slide Sorter",
+        "correct": "Normal"
+      },
+      {
+        "question": "کادر BCC در پنجره Create Mail (رایانامه) به چه منظوری به کار می رود؟",
+        "selected": "برای فرستادن رونوشت نامه به صورت محرمانه",
+        "correct": "برای فرستادن رونوشت نامه به صورت محرمانه"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOTX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "برای بروزرسانی صفحه وب از کدام گزینه استفاده می شود؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": "Data Base",
+        "correct": "Data Base"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "DOS",
+        "correct": "DOS"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "در صورتی که بخواهیم به Transition اسلاید صدای مورد نظر خودمان را اضافه کنیم از ابزار ..... گزینه ..... را انتخاب می کنیم",
+        "selected": "Sound (Other Sound)",
+        "correct": "Sound (Other Sound)"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": "Macro",
+        "correct": "Query"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Text",
+        "correct": "Text"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Search",
+        "correct": "Look in"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود",
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "برای حذف تغییرات و قالب بندی متن از کدام دستور استفاده می شود؟",
+        "selected": "Clear Formatting",
+        "correct": "Clear Formatting"
+      },
+      {
+        "question": "اگر بخواهیم اولین حرف از هر کلمه انگلیسی کوچک باشد، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Toggle Case",
+        "correct": "Toggle Case"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Create-Form Design",
+        "correct": "Create-Form Design"
+      },
+      {
+        "question": "برای انتخاب یک جمله باید از کلید ترکیبی ..... استفاده کرد.",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "برای سفارشی کردن بزرگ نمایی صفحه در محیط نرم افزار Word از کدام مورد استفاده می کنیم؟",
+        "selected": "View>Zoom",
+        "correct": "View>Zoom"
+      }
+    ],
+    "date": "2026-10-31T18:56:59.683Z"
   }
 ]
