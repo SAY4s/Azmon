@@ -850,5 +850,218 @@
       }
     ],
     "date": "2026-11-01T10:09:02.974Z"
+  },
+  {
+    "name": "مهدیه علی قلی ها",
+    "nationalId": "4380738949",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "ارسال و دریافت ایمیل",
+        "correct": "دریافت ایمیل"
+      },
+      {
+        "question": "هنگام تایپ متن اشاره گر موس تبدیل به .......... می شود.",
+        "selected": "پنهان",
+        "correct": "پنهان"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "کلیک بر روی نوار ابزار Create Mail",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "به منبع انرژی غیرقابل توقف.........",
+        "selected": "USB",
+        "correct": "UPS"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Selection Filter",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "برای اینکه Style های تعریف شده در یک فایل در بقیه فایل های باز نیز قابل استفاده باشد از کدام روش استفاده می کنیم؟",
+        "selected": "از Cell Style بر روی Add کلیک می کنیم",
+        "correct": "از Cell Style بر روی Merge کلیک می کنیم"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "جهت نوشته با کدام دستور تغییر می کند؟",
+        "selected": "Direction",
+        "correct": "Direction"
+      },
+      {
+        "question": "غلطک وسط موس برای چه منظوری است؟",
+        "selected": "مرور محتویات پنجره ها",
+        "correct": "مرور محتویات پنجره ها"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "فرمت .......... فایل را به صورت غیرقابل تغییر در می آورد و با نرم افزار Word قابل اجرا نیست.",
+        "selected": "PDF",
+        "correct": "PDF"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": "در مکان دلخواه در خط کش افقی کلیک می کنیم",
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "کدام یک از اسامی زیر برای نام پوشه غیر مجاز است؟",
+        "selected": "Con",
+        "correct": "Con"
+      },
+      {
+        "question": "شبکه ها از نظر توزیع جغرافیایی به چند دسته تقسیم می شوند؟",
+        "selected": "Man و Lan و Wan",
+        "correct": "Man و Lan و Wan"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "F1",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "آدرس منحصر به فرد در هر صفحه وب چه نامیده می شود؟",
+        "selected": "Https",
+        "correct": "URL"
+      },
+      {
+        "question": "با استفاده از کلیدهای ترکیبی Ctrl+Home مکان نما به کجا منتقل می شود؟",
+        "selected": "مکان نما به اولین فیلد رکورد اول منتقل می شود",
+        "correct": "مکان نما به اولین فیلد رکورد اول منتقل می شود"
+      },
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "انواع عملگرها در اکسل کدامند؟",
+        "selected": "عملگرهای منطقی - محاسباتی - رشته ای - مقایسه ای",
+        "correct": "عملگرهای منطقی - محاسباتی - رشته ای - مقایسه ای"
+      },
+      {
+        "question": "قانون copyright یعنی چه؟",
+        "selected": "یعنی تولید کننده هر نرم افزار مالک آن محسوب می شود و کسی حق ندارد بدون اجازه او این نرم افزار را کپی کند",
+        "correct": "یعنی تولید کننده هر نرم افزار مالک آن محسوب می شود و کسی حق ندارد بدون اجازه او این نرم افزار را کپی کند"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Double",
+        "correct": "Decimal"
+      },
+      {
+        "question": "برای انتقال فایل و پوشه ها به کدام گزینه مراجعه می کنیم؟",
+        "selected": "Burn",
+        "correct": "Organize"
+      },
+      {
+        "question": "کلید میان بر وسط چین نمودن متن کدام است؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+E"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Case",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Notice",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "گزینه Width در سربرگ Paper چه کاربردی دارد؟",
+        "selected": "عرض صفحه را تعیین می کند",
+        "correct": "عرض صفحه را تعیین می کند"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": "بازبینی سند",
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Properties",
+        "correct": "Read Only"
+      },
+      {
+        "question": "ویروس همان ................... است.",
+        "selected": "برنامه مخرب",
+        "correct": "برنامه مخرب"
+      }
+    ],
+    "date": "2026-11-01T16:13:30.775Z"
   }
 ]
