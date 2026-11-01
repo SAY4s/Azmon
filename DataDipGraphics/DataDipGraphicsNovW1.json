@@ -81,5 +81,88 @@
       }
     ],
     "date": "2026-11-02T01:36:22.994Z"
+  },
+  {
+    "name": "محمد یاسین فیضی",
+    "nationalId": "4312386048",
+    "exam": "dip_graphics",
+    "score": 13,
+    "total": 14,
+    "percent": 93,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به طرح ایجاد شده روی نشانه چه می‌گویند؟",
+        "selected": "آرم",
+        "correct": "آرم"
+      },
+      {
+        "question": "برای تعیین اندازه‌ی بین دو نقطه و نمایش آن روی صفحه در کورل از کدام گزینه استفاده می‌شود؟",
+        "selected": "Dimension Tool",
+        "correct": "Dimension Tool"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان تصویر را روشن‌تر کرد؟",
+        "selected": "Dodge Tool",
+        "correct": "Dodge Tool"
+      },
+      {
+        "question": "برای کپی کردن قسمت انتخاب‌شده در هنگام استفاده از ابزار Move کدام کلید را باید نگه داشت؟",
+        "selected": "Alt",
+        "correct": "Alt"
+      },
+      {
+        "question": "چگونه می‌توان از یک لایه کپی تهیه کرد؟",
+        "selected": "همه موارد",
+        "correct": "همه موارد"
+      },
+      {
+        "question": "پسوند فایل‌های کورل چه می‌باشد؟",
+        "selected": "CDR",
+        "correct": "CDR"
+      },
+      {
+        "question": "در مدل رنگ HSB مقدار Hue نشان‌دهنده‌ی چیست؟",
+        "selected": "سایه رنگ",
+        "correct": "سایه رنگ"
+      },
+      {
+        "question": "با انتخاب کدام گزینه می‌توان شکل مستطیل را فقط به‌صورت مربع ترسیم کرد؟",
+        "selected": "Square",
+        "correct": "Square"
+      },
+      {
+        "question": "کدام ابزار به ابزار ترمیم معروف است؟",
+        "selected": "Healing Brush",
+        "correct": "Healing Brush"
+      },
+      {
+        "question": "با فشردن کدام کلید نوار منو در یک پنجره نمایش داده می‌شود؟",
+        "selected": "Alt",
+        "correct": "Alt"
+      },
+      {
+        "question": "جهت مدیریت و سازمان‌دهی فرمت‌های مختلف تصویر، کدام نرم‌افزار مناسب است؟",
+        "selected": "ACDSee",
+        "correct": "ACDSee"
+      },
+      {
+        "question": "با استفاده از کدام ابزار می‌توان یک سطر از پیکسل‌ها را انتخاب کرد؟",
+        "selected": "Single Column Marquee Tool",
+        "correct": "Single Row Marquee Tool"
+      },
+      {
+        "question": "برای ایجاد سایه‌ی بیرونی بر روی لایه از کدام گزینه استفاده می‌شود؟",
+        "selected": "Drop Shadow",
+        "correct": "Drop Shadow"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می‌توان انتخاب‌های ذخیره‌شده را بازگرداند؟",
+        "selected": "Load Selection",
+        "correct": "Load Selection"
+      }
+    ],
+    "date": "2026-11-02T02:05:12.136Z"
   }
 ]
