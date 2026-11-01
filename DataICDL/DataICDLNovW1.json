@@ -2128,5 +2128,218 @@
       }
     ],
     "date": "2026-11-01T18:29:00.293Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "nationalId": "4312546479",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به ناحیه سمت راست نوار وظیفه چه می گویند؟",
+        "selected": "Notification area",
+        "correct": "Notification area"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Computer",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "پس از درج جدول توسط کدام ابزار می توان مدل خطوط را تغییر داد؟",
+        "selected": "Pen Style",
+        "correct": "Pen Style"
+      },
+      {
+        "question": "نتیجه تابع =Round(435.23;1) چیست؟",
+        "selected": "435.2",
+        "correct": "435.2"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Number",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Home-----Form-------Form Wizard",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Report Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "نوری",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "توان",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "کدام گزینه در مورد بایت درست می باشد؟",
+        "selected": "هر 8 بایت یک بیت را تشکیل می دهد",
+        "correct": "کوچکترین واحد حافظه قابل آدرس دهی"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Page Range",
+        "correct": "Landscape"
+      },
+      {
+        "question": "توسط کدام کلید ترکیبی بانک اطلاعاتی جاری بسته می شود؟",
+        "selected": "Ctrl+F5",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "Plotter (رسام) جزء دستگاه های ...........و اسکنر واحد ..............است.",
+        "selected": "خروجی - ورودی",
+        "correct": "خروجی - ورودی"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز پایینی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Download , Upload",
+        "correct": "Download , Upload"
+      },
+      {
+        "question": "کدام گزینه درست نمی باشد؟",
+        "selected": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است",
+        "correct": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است"
+      },
+      {
+        "question": "کلید میان بر برای چاپ کدام مورد می باشد؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Review",
+        "correct": "Home"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "صفر",
+        "correct": "4"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.mp3",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "آرایش فیزیکی رایانه ها در شبکه",
+        "correct": "آرایش فیزیکی رایانه ها در شبکه"
+      },
+      {
+        "question": "با استفاده از کدام دکمه در کادر Find and Replace می توانید تمام کلمات انتخاب شده را جایگزین کنید؟",
+        "selected": "Replace All",
+        "correct": "Replace All"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Upload",
+        "correct": "Download"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه اشتباه و تمام کلمات مشابه آن باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Ignore All",
+        "correct": "Ignore All"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt & Docx",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نماهای مختلف دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب وسط",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "در یک Query به کمک کدامیک از گزینه های زیر می توان شرط مورد نظر در ستون مربوط وارد کرد؟",
+        "selected": "Criteria",
+        "correct": "Criteria"
+      },
+      {
+        "question": "برای تغییر اندازه متن صفحات وب چه عملی باید انجام دهیم؟",
+        "selected": "IE/View/Text Size",
+        "correct": "IE/View/Text Size"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": "کامپیوترهای Laptop قابل حمل هستند",
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "انتشار سند",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Tab",
+        "correct": "First Line Indent"
+      }
+    ],
+    "date": "2026-11-01T20:41:40.646Z"
   }
 ]
