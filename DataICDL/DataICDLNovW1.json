@@ -2767,5 +2767,218 @@
       }
     ],
     "date": "2026-11-01T21:04:30.303Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "nationalId": "4312546479",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه برای استفاده از جلوه های آماده متحرک سازی است؟",
+        "selected": "Slide Transition",
+        "correct": "Animate"
+      },
+      {
+        "question": "برای انصراف از آخرین عمل انجام شده چه دستوری استفاده می شود؟",
+        "selected": "Undo",
+        "correct": "Undo"
+      },
+      {
+        "question": "برای اینکه تصویر پشت متن قرار گیرد کدام گزینه از بخش Wrap Text انتخاب می شود؟",
+        "selected": "Behind Text",
+        "correct": "Behind Text"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار آدرس (Address Bar)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Character Spacing از Paragraph",
+        "correct": "زبانه Character Spacing از Font"
+      },
+      {
+        "question": "برای اینکه تصویر زمینه به صورت کاشی کاری در Desktop قرار گیرد گزینه ......... را انتخاب می کنیم.",
+        "selected": "Tile",
+        "correct": "Tile"
+      },
+      {
+        "question": "جهت مرتب نمودن داده های جدول گزینه Sort را از تب ............ انتخاب می کنیم.",
+        "selected": "Database Tools",
+        "correct": "Home"
+      },
+      {
+        "question": "گزینه مناسب برای زیرخط دار کردن نوشته کدام است؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "کدام گزینه صحیح می باشد؟",
+        "selected": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم",
+        "correct": "از وارد نمودن کلمه عبور در مقابل افراد مشکوک خودداری کنیم"
+      },
+      {
+        "question": "برای ذخیره سند از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Multilevel List",
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Home"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Table, Database",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Default Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "تب مورد نظر را به بیرون از خط کش درگ می کنیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "برای انتخاب چند اسلاید از چه دکمه ای می توان استفاده کرد؟",
+        "selected": "برای انتخاب چند اسلاید غیر متوالی کلید Shift را نگهداشته و روی اسلایدهای مورد نظر کلیک می کنیم",
+        "correct": "برای انتخاب چند اسلاید متوالی Shift را نگهداشته و روی اولین و آخرین اسلاید مورد نظر کلیک می کنیم"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "آرایش فیزیکی رایانه ها در شبکه",
+        "correct": "آرایش فیزیکی رایانه ها در شبکه"
+      },
+      {
+        "question": "اگر بخواهیم متحرک سازی یک شی همراه با متحرک سازی قبلی اجرا شود، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "After Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "برای ایجاد فیلد کلیدی چه مسیری را انتخاب می کنیم؟",
+        "selected": "Design > Tools > Primary key",
+        "correct": "Design > Tools > Primary key"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 2 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "نرم افزارهایی که مدیریت سخت افزار را به عهده دارند چه می نامند؟",
+        "selected": "کاربردی",
+        "correct": "سیستمی"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Alt+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "Web Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "نوار مغناطیسی",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "از ابزار ..... در سربرگ Transition پیش نمایشی از حالت های عبور انتخاب شده در اسلاید مورد نظر مشاهده می شود؟",
+        "selected": "Preview",
+        "correct": "Preview"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Unique (یکتا) کردن رکوردهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      }
+    ],
+    "date": "2026-11-01T21:19:14.768Z"
   }
 ]
