@@ -424,5 +424,218 @@
       }
     ],
     "date": "2026-11-01T09:26:27.748Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "nationalId": "4312546479",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ویرایش نوار ابزار (Quick Access Toolbar) از کدام گزینه استفاده می کنیم؟",
+        "selected": "Option>Quick Access Toolbar",
+        "correct": "Option>Quick Access Toolbar"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "برای نوشتن دستورات کامپیوتر بکار می رود",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "اگر A1=14 باشد نتیجه فرمول زیر چیست؟ IF(A1=14),\"Ok\",\"No\")",
+        "selected": "Ok",
+        "correct": "Ok"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Notes Page",
+        "correct": "Template"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "A2+A3=",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Mailings",
+        "correct": "Mailings"
+      },
+      {
+        "question": "کدام انتخاب نوع فرم را ستونی ایجاد می کند؟",
+        "selected": "Tabular",
+        "correct": "Columnar"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انجام راست کلیک و انتخاب Arrange Icons",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "برای چاپ فایل ها از .............. استفاده می کنیم.",
+        "selected": "File / Print",
+        "correct": "File / Print"
+      },
+      {
+        "question": "نتیجه حاصل از فرمول روبرو در اکسل چه عددی است؟ D=2^3*2+4/2",
+        "selected": "10",
+        "correct": "18"
+      },
+      {
+        "question": "جهت حذف یک فایل می توان ............",
+        "selected": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود",
+        "correct": "کلیک بر روی فایل مربوطه و از صفحه کلید گزینه Delete را انتخاب نمود"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Filter-Selection و Advanced Filter/Sort",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "سرقت نرم افزار را امکان پذیر می کند",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Alu",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "https",
+        "correct": "URL"
+      },
+      {
+        "question": "برای تایپ حروف بزرگ لاتین باید دکمه...................... را فعال نمود.",
+        "selected": "Caps Lock",
+        "correct": "Caps Lock"
+      },
+      {
+        "question": "پسوند فایل های اکسل 2013 کدام است؟",
+        "selected": "xlsx",
+        "correct": "xlsx"
+      },
+      {
+        "question": "کدام یک از موارد زیر تعریف کامپیوتر می باشد؟",
+        "selected": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند",
+        "correct": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از گزینه................ استفاده می شود.",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "کلید میان بر وسط چین نمودن متن کدام است؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+E"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "در نوار ابزار IE دکمه ستاره، کدام فرمان زیر را اجرا می کند؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Web Layout",
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "انواع نرم افزار کدام گزینه است؟",
+        "selected": "کاربردی - سیستمی",
+        "correct": "کاربردی - سیستمی"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "برای اضافه نمودن یک اسلاید جدید با استفاده از طرح های اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "New Slide←Home",
+        "correct": "New Slide←Home"
+      },
+      {
+        "question": "هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "نیاز به پایین نگه داشتن کلید نیست",
+        "correct": "Shift"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "First Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Validation Text",
+        "correct": "Field Size"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": "Arrange",
+        "correct": "Arrange"
+      },
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Desktop - Laptop",
+        "correct": "Desktop - Laptop"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "کدام یک از امکانات نرم افزار پایگاه داده Access نمی باشد؟",
+        "selected": "مدیریت اطلاعات",
+        "correct": "دسترسی تعداد کاربران زیاد"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Design",
+        "correct": "Create"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Name",
+        "correct": "Caption"
+      }
+    ],
+    "date": "2026-11-01T09:44:50.091Z"
   }
 ]
