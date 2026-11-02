@@ -4258,5 +4258,218 @@
       }
     ],
     "date": "2026-11-02T06:05:32.615Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "nationalId": "4312546479",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت شکستن متن اضافی در یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "توسط کدام دستور اندازه صفحه را تغییر می دهیم؟",
+        "selected": "Size",
+        "correct": "Size"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "برای حذف نامه ها می توانید از چه کلیدی در صفحه کلید استفاده کنید؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": "Check Mail",
+        "correct": "Create New Account"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Pin The Ribbon",
+        "correct": "Pin The Ribbon"
+      },
+      {
+        "question": "پسوند Txt مربوط به فایل های ....................و پسوند Wave مربوط به فایل های ................است",
+        "selected": "متنی - صوتی",
+        "correct": "متنی - صوتی"
+      },
+      {
+        "question": "برای باز کردن فایل فشرده کدام گزینه صحیح است؟",
+        "selected": "بر روی آن کلیک راست نموده و گزینه Send to را انتخاب نمایید",
+        "correct": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Home-Number",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "در چیدمان Slide ها از چیدمان ....... برای نگهداری عنوان و نگهداری متن استفاده می شود؟",
+        "selected": "Title Slide",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟",
+        "selected": "Pages",
+        "correct": "Print From ... To ..."
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "کدامیک از موارد زیر یک سیستم عامل محسوب می شوند؟",
+        "selected": "PowerPoint",
+        "correct": "Windows 10"
+      },
+      {
+        "question": "برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟",
+        "selected": "استفاده از Format Painter",
+        "correct": "استفاده از Format Painter"
+      },
+      {
+        "question": "در صورتی که هنگام کار با یک برنامه کاربردی سیستم دچار مشکل شود، ابتدا باید کلیدهای .................... را بفشاریم تا وارد بخش مدیریت وظایف (Task Manager) شویم.",
+        "selected": "Ctrl+Alt+Del",
+        "correct": "Ctrl+Alt+Del"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Table to Text",
+        "correct": "Table > Convert to Text"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Properties",
+        "correct": "Read Only"
+      },
+      {
+        "question": "اگر بخواهیم برچسب داده های نمودار را داخل و در انتهای آن ایجاد نماییم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Inside End",
+        "correct": "Inside End"
+      },
+      {
+        "question": "یکی از راه های موثر جلوگیری از ورود ویروس به سیستم کدام است؟",
+        "selected": "استفاده از ویروس یاب به روز",
+        "correct": "استفاده از ویروس یاب به روز"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": "RSS",
+        "correct": "RSS"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Landscape Flipped",
+        "correct": "Landscape"
+      },
+      {
+        "question": "هرگاه اندازه سطرهای جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Rows",
+        "correct": "Distribute Rows"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "Shut Down چیست؟",
+        "selected": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند",
+        "correct": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند"
+      },
+      {
+        "question": "برای ایجاد فیلد کلید اصلی از گزینه ................. استفاده می کنیم.",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "اعداد قسمت تایپ را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Reading View"
+      },
+      {
+        "question": "کدامیک از پسوندهای زیر در برنامه PowerPoint 2013 قابل انتخاب نمی باشد؟",
+        "selected": "TXT",
+        "correct": "TXT"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "کلمه عبور در صفحه ورود به ویندوز کلیدهای تابعی را نیز می پذیرد",
+        "correct": "کلمه عبور در صفحه ورود به ویندوز نسبت به حروف کوچک و بزرگ حساسیت دارد"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "40",
+        "correct": "40"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج معادلات ریاضی",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": "روی متن یک خط درج می کند",
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      }
+    ],
+    "date": "2026-11-02T06:23:23.525Z"
   }
 ]
