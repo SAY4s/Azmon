@@ -3193,5 +3193,218 @@
       }
     ],
     "date": "2026-11-01T21:32:10.832Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "nationalId": "4312546479",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اعمال پس زمینه بر روی تمامی اسلاید از کدام گزینه استفاده می کنیم؟",
+        "selected": "Apply To All",
+        "correct": "Apply To All"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "رکورد"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Title and Content",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "........ حافظه ای با دسترسی تصادفی و ................ حافظه ای فقط خواندنی می باشد. (از راست به چپ)",
+        "selected": "Ram و Rom",
+        "correct": "Ram و Rom"
+      },
+      {
+        "question": "با کدام ترکیب کلید می توان کل محتوای یک پوشه را انتخاب کرد؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Picture/Graphic",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "برای مرتب کردن آیکن های میز کار بر اساس نوع، از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Item Type",
+        "correct": "Item Type"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پلاتر",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.",
+        "selected": "Customize Word",
+        "correct": "Options"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "بر روی کدام یک از نوع فیلدها نمی توان ایندکس ایجاد کرد؟",
+        "selected": "Ole",
+        "correct": "Ole"
+      },
+      {
+        "question": "برنامه Excel زیر مجموعه کدام یک از انواع برنامه هاست؟",
+        "selected": "برنامه های صفحه گسترده",
+        "correct": "برنامه های صفحه گسترده"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Commerce",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Home"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک بایت کمتر از یک بیت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Wizard",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "پوشه (Folder) به چه معنا است؟",
+        "selected": "محلی برای نگهداری و سازماندهی فایل ها و برنامه ها",
+        "correct": "محلی برای نگهداری و سازماندهی فایل ها و برنامه ها"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "کدام نوع از داده زیر شامل یک آدرس اینترنتی می تواند باشد؟",
+        "selected": "Hyperlink",
+        "correct": "Hyperlink"
+      },
+      {
+        "question": "در قسمت .............. از پنجره Find and Replace عبارتی را که می خواهیم ورد آن را برای جایگزینی انتخاب کند (پیدا کند)، می نویسیم.",
+        "selected": "Find What",
+        "correct": "Find What"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selection",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Show",
+        "correct": "Show"
+      },
+      {
+        "question": "برای حذف ستون های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Columns",
+        "correct": "Delete Columns"
+      },
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Taskbar Location on Screen",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با کشیدن ماوس بر روی سلول های انتخاب شده سری مقادیر تعریف شده نوشته می شوند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Web layout",
+        "correct": "Draft"
+      },
+      {
+        "question": "هر الگو چند بار می تواند توسط کاربر مورد استفاده قرار گیرد؟",
+        "selected": "به هر تعداد که کاربر مایل باشد",
+        "correct": "به هر تعداد که کاربر مایل باشد"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      },
+      {
+        "question": "کدامیک از توابع زیر می تواند تعداد اعداد بزرگتر از 3 را در چند سلول محاسبه کند؟",
+        "selected": "count if",
+        "correct": "count if"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": "Save As",
+        "correct": "New"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "کاربرگ یعنی هر صفحه ای که بتوان در آن داده وارد کرد",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      }
+    ],
+    "date": "2026-11-02T05:28:37.952Z"
   }
 ]
