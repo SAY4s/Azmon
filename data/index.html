@@ -683,6 +683,11 @@ body::before{
   #listView{padding:32px 16px 64px;}
 }
 
+.list-tabs{display:flex; gap:6px; margin-bottom:18px; border-bottom:2px solid var(--line);}
+.list-tab{font-family:inherit; font-size:14px; font-weight:800; padding:10px 26px; border:none; background:transparent; color:var(--ink-soft); cursor:pointer; border-bottom:3px solid transparent; margin-bottom:-2px; transition:all .15s ease;}
+.list-tab:hover{color:var(--ink);}
+.list-tab.active{color:var(--ink); border-bottom-color:var(--red);}
+
 /* ---------- Leaderboards ---------- */
 .lb-wrap{margin:0 0 30px; text-align:right;}
 .lb-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px; align-items:start;}
@@ -1092,12 +1097,21 @@ body::before{
 
     </aside>
     <div class="list-main">
-  <div id="listLeaderboards" class="lb-wrap"></div>
+      <div class="list-tabs" id="listTabs">
+        <button type="button" class="list-tab active" data-tab="results">نتایج</button>
+        <button type="button" class="list-tab" data-tab="ranking">رتبه‌بندی</button>
+      </div>
 
-  <div class="pager" id="pagerTop"></div>
-  <div id="sheetRows"></div>
-  <div class="pager" id="pagerBottom"></div>
-  <div class="df-empty" id="dfEmpty">هيچ پاسخ‌برگي با اين فيلترها پيدا نشد.</div>
+      <div id="tabResults">
+        <div class="pager" id="pagerTop"></div>
+        <div id="sheetRows"></div>
+        <div class="pager" id="pagerBottom"></div>
+        <div class="df-empty" id="dfEmpty">هيچ پاسخ‌برگي با اين فيلترها پيدا نشد.</div>
+      </div>
+
+      <div id="tabRanking" style="display:none;">
+        <div id="listLeaderboards" class="lb-wrap"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -1683,6 +1697,16 @@ function renderPager(totalPages){
   });
 }
 
+/* ---------- List tabs: results / ranking ---------- */
+function setListTab(name){
+  document.querySelectorAll('#listTabs .list-tab').forEach(b=>b.classList.toggle('active', b.dataset.tab === name));
+  document.getElementById('tabResults').style.display = name === 'results' ? 'block' : 'none';
+  document.getElementById('tabRanking').style.display = name === 'ranking' ? 'block' : 'none';
+}
+document.querySelectorAll('#listTabs .list-tab').forEach(b=>{
+  b.addEventListener('click', ()=>setListTab(b.dataset.tab));
+});
+
 function openTopicView(data){
   updateHash({});
   listView.style.display = 'none';
@@ -1860,6 +1884,7 @@ function openList(data){
     resetViewControls();
   }
 
+  setListTab('results');
   renderLeaderboards('listLeaderboards', data);
   renderList();
 }
