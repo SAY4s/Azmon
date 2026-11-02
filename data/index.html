@@ -688,6 +688,26 @@ body::before{
 .list-tab:hover{color:var(--ink);}
 .list-tab.active{color:var(--ink); border-bottom-color:var(--red);}
 
+/* ---------- Topic view: sidebar (right) + content (left) ---------- */
+#topicView{max-width:1240px;}
+.topic-layout{display:flex; align-items:flex-start; gap:24px; text-align:right;}
+.topic-side{width:330px; flex-shrink:0; background:rgba(255,255,255,0.5); border:1px solid var(--line); border-radius:10px; padding:18px; display:flex; flex-direction:column; gap:14px;}
+.topic-main{flex:1; min-width:0;}
+.topic-side .people-search{margin:0;}
+.side-title{font-size:13px; font-weight:800; color:var(--ink-soft);}
+.side-stats{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; padding-bottom:14px; border-bottom:1px solid var(--line);}
+.side-stat{background:rgba(255,255,255,0.7); border:1px solid var(--line); border-radius:8px; padding:10px 4px; text-align:center;}
+.side-stat .n{font-size:20px; font-weight:900; color:var(--ink);}
+.side-stat .l{font-size:11.5px; font-weight:700; color:var(--ink-soft); margin-top:2px;}
+@media (min-height:760px) and (min-width:981px){
+  .topic-side{position:sticky; top:16px;}
+}
+@media (max-width:980px){
+  .topic-layout{flex-direction:column; align-items:stretch;}
+  .topic-side{width:100%;}
+  #topicView{padding:40px 16px 64px;}
+}
+
 /* ---------- Leaderboards ---------- */
 .lb-wrap{margin:0 0 30px; text-align:right;}
 .lb-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px; align-items:start;}
@@ -1009,6 +1029,10 @@ body::before{
   <div class="stamp-title" style="font-size:clamp(24px,4vw,34px);">انتخاب <span style="color:var(--red);">مبحث</span></div>
   <p class="subtitle">اين فايل چند مبحث مختلف داره؛ اول انتخاب کن کدوم رو مي‌خواي ببيني.</p>
 
+  <div class="topic-layout">
+    <aside class="topic-side">
+      <div class="side-stats" id="topicSideStats"></div>
+      <div class="side-title">جستجوی افراد</div>
   <div class="people-search">
     <div class="ps-input-wrap">
       <svg class="ps-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -1020,9 +1044,20 @@ body::before{
     <div class="ps-more" id="peopleSearchMore" style="display:none;"></div>
   </div>
 
-  <div id="topicLeaderboards" class="lb-wrap"></div>
-
-  <div id="topicRows"></div>
+    </aside>
+    <div class="topic-main">
+      <div class="list-tabs" id="topicTabs">
+        <button type="button" class="list-tab active" data-tab="topics">مباحث</button>
+        <button type="button" class="list-tab" data-tab="ranking">رتبه‌بندی</button>
+      </div>
+      <div id="tabTopics">
+        <div id="topicRows"></div>
+      </div>
+      <div id="tabTopicRanking" style="display:none;">
+        <div id="topicLeaderboards" class="lb-wrap"></div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- LIST VIEW (multiple entries) -->
@@ -1707,6 +1742,22 @@ document.querySelectorAll('#listTabs .list-tab').forEach(b=>{
   b.addEventListener('click', ()=>setListTab(b.dataset.tab));
 });
 
+/* ---------- Topic view: tabs + side stats ---------- */
+function setTopicTab(name){
+  document.querySelectorAll('#topicTabs .list-tab').forEach(b=>b.classList.toggle('active', b.dataset.tab === name));
+  document.getElementById('tabTopics').style.display = name === 'topics' ? 'block' : 'none';
+  document.getElementById('tabTopicRanking').style.display = name === 'ranking' ? 'block' : 'none';
+}
+document.querySelectorAll('#topicTabs .list-tab').forEach(b=>{
+  b.addEventListener('click', ()=>setTopicTab(b.dataset.tab));
+});
+function renderTopicSideStats(data){
+  const topics = new Set(data.map(e=>e.exam || 'بدون‌عنوان')).size;
+  const people = new Set(data.map((e, i)=>getNationalId(e) || normalizeFa(e.name) || ('__' + i))).size;
+  const cell = (n, l) => `<div class="side-stat"><div class="n">${n}</div><div class="l">${l}</div></div>`;
+  document.getElementById('topicSideStats').innerHTML = cell(topics, 'مبحث') + cell(data.length, 'نتیجه') + cell(people, 'نفر');
+}
+
 function openTopicView(data){
   updateHash({});
   listView.style.display = 'none';
@@ -1718,6 +1769,8 @@ function openTopicView(data){
   if(psInput) psInput.value = '';
   renderPeopleSearch('');
   renderLeaderboards('topicLeaderboards', data);
+  renderTopicSideStats(data);
+  setTopicTab('topics');
 
   const topics = uniqueTopics(data);
   const rowsEl = document.getElementById('topicRows');
@@ -1773,18 +1826,13 @@ function renderPeopleSearch(rawQuery){
   const query = normalizeFa(rawQuery);
 
   clearBtn.style.display = rawQuery ? 'flex' : 'none';
-  const lbTop = document.getElementById('topicLeaderboards');
-  if(lbTop) lbTop.style.display = query ? 'none' : 'block';
 
   if(!query){
     resultsEl.style.display = 'none';
     emptyEl.style.display = 'none';
     moreEl.style.display = 'none';
-    topicRows.style.display = 'flex';
     return;
   }
-
-  topicRows.style.display = 'none';
 
   const matches = fullData
     .filter(entry=>matchesNameOrNid(entry, query))
