@@ -1467,10 +1467,10 @@ function handleFile(file){
 function setSync(state, text){
   syncStatus.className = 'sync-status' + (state ? ' ' + state : '');
   syncStatus.style.display = 'flex';
-  syncText.textContent = text;
-  if(state === 'loading'){
-    syncStatus.innerHTML = `<div class="spinner"></div><span>${text}</span>`;
-  }
+  // همیشه محتوا را از نو بساز؛ قبلاً پیام خطا/موفقیت در عنصر جداشده نوشته می‌شد و اسپینر برای همیشه می‌ماند
+  syncStatus.innerHTML = state === 'loading'
+    ? `<div class="spinner"></div><span>${text}</span>`
+    : `<span>${text}</span>`;
 }
 
 async function fetchFromGitHub(){
@@ -1492,7 +1492,8 @@ async function fetchFromGitHub(){
     setSync('ok', 'با موفقيت از GitHub خونده شد ?');
     setTimeout(()=>{ syncStatus.style.display = 'none'; }, 1800);
   } catch(err){
-    setSync('err', 'نشد از گيت‌هاب بخونه. اتصال يا آدرس فايل‌ها رو چک کن.');
+    console.error('fetchFromGitHub failed:', err);
+    setSync('err', 'نشد از گيت‌هاب بخونه. اتصال يا آدرس فايل‌ها رو چک کن.' + (err && err.message ? ' (' + escapeHtml(err.message) + ')' : ''));
     ghActions.style.display = 'flex';
   }
 }
@@ -2545,16 +2546,318 @@ document.getElementById('exportPdfListBtn').addEventListener('click', async ()=>
 
 /* ---------- Karnameh (report card) — printable via the browser's own print dialog ---------- */
 
-function buildKarnamehHTML(entry){
-  const answers = entry.answers || [];
-  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
-  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
-  const blankCount = answers.filter(a=>a.selected === null).length;
-  const pass = (entry.percent ?? 0) >= 50;
-  const verdict = pass ? 'قبول' : 'نياز به تلاش بيشتر';
-  const verdictColor = pass ? '#2f6844' : '#b23a2e';
-  const dateStr = fmtDate(entry.date);
+/* ---------- Karnameh (official multi-page report card) ---------- */
+const KARNAMEH_ORG = 'مرکز آموزشی خوارزمی';   // نام مجموعه‌ی صادرکننده؛ در صورت نیاز تغییر بده
+const KARNAMEH_PASS = 50;                      // حد نصاب قبولی (درصد)
+const KR = { navy:'#1f2a44', gold:'#8a6d2f', ink:'#232733', mute:'#5b6272', line:'#c9ccd6', soft:'#f4f5f8',
+             green:'#1f7a45', greenBg:'#e3f3e9', red:'#b3261e', redBg:'#fbe7e5', amber:'#a8741a', amberBg:'#fbf1dc' };
+const KR_TD = `padding:6px 10px; border:1px solid ${KR.line}; text-align:right; vertical-align:middle;`;
 
+function krSerial(entry){
+  const src = [entry.name, getNationalId(entry), entry.exam, entry.date].join('|');
+  let h = 5381;
+  for(let i = 0; i < src.length; i++) h = ((h * 33) ^ src.charCodeAt(i)) >>> 0;
+  const d = entry.date ? new Date(entry.date) : null;
+  const jy = d && !isNaN(d.getTime()) ? toJalali(d)[0] : '0000';
+  return `KR-${jy}-${h.toString(36).toUpperCase().padStart(7, '0')}`;
+}
+function krNum(x){ return String(Math.round(x * 10) / 10); }
+function krTrunc(s, n){
+  s = String(s ?? '').replace(/\s+/g, ' ').trim();
+  return s.length > n ? s.slice(0, n - 1) + '…' : s;
+}
+function krGrade(p){
+  return p >= 90 ? 'عالی' : p >= 75 ? 'خیلی خوب' : p >= 60 ? 'خوب' : p >= KARNAMEH_PASS ? 'قابل قبول' : 'نیاز به تلاش بیشتر';
+}
+
+function krStats(entry){
+  const answers = entry.answers || [];
+  const correct = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
+  const wrong = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
+  const blank = answers.filter(a=>a.selected === null).length;
+  const total = answers.length;
+  const answered = correct + wrong;
+  const topic = entry.exam || 'بدون‌عنوان';
+  const peers = fullData.filter(e=>(e.exam || 'بدون‌عنوان') === topic);
+  const pool = peers.length ? peers : [entry];
+  const pcts = pool.map(e=>Number(e.percent) || 0);
+  const my = Number(entry.percent) || 0;
+  const n = pcts.length;
+  const sorted = pcts.slice().sort((a,b)=>a - b);
+  const median = n % 2 ? sorted[(n - 1) / 2] : (sorted[n / 2 - 1] + sorted[n / 2]) / 2;
+  const avg = pcts.reduce((a,b)=>a + b, 0) / n;
+  const mine = personEntries(entry).filter(e=>(e.exam || 'بدون‌عنوان') === topic);
+  return {
+    answers, correct, wrong, blank, total, answered, my, n, avg, median,
+    max: sorted[n - 1], min: sorted[0],
+    rank: 1 + pcts.filter(p=>p > my).length,
+    below: n > 1 ? Math.round(pcts.filter(p=>p < my).length / (n - 1) * 100) : null,
+    attemptNo: Math.max(1, mine.indexOf(entry) + 1),
+    attempts: Math.max(1, mine.length),
+    pass: my >= KARNAMEH_PASS
+  };
+}
+
+const krSec = t => `<div style="display:flex; align-items:center; gap:8px; margin:14px 0 8px;">
+  <div style="width:5px; height:16px; background:${KR.gold};"></div>
+  <div style="font-size:13.5px; font-weight:800; color:${KR.navy};">${t}</div>
+  <div style="flex:1; height:1px; background:${KR.line};"></div></div>`;
+
+function krKV(pairs){
+  const cell = p => p
+    ? `<td style="${KR_TD} width:17%; background:${KR.soft}; font-weight:700; color:${KR.mute}; font-size:11.5px;">${p[0]}</td><td style="${KR_TD} width:33%; font-weight:800; font-size:12.5px;">${p[1]}</td>`
+    : `<td style="${KR_TD} width:17%; background:${KR.soft};"></td><td style="${KR_TD} width:33%;"></td>`;
+  let rows = '';
+  for(let i = 0; i < pairs.length; i += 2) rows += `<tr>${cell(pairs[i])}${cell(pairs[i + 1])}</tr>`;
+  return `<table style="width:100%; border-collapse:collapse; table-layout:fixed;">${rows}</table>`;
+}
+
+function krBar(label, value, color){
+  const v = Math.max(0, Math.min(100, value));
+  return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:7px;">
+    <div style="width:118px; font-size:11.5px; font-weight:700; color:${KR.mute};">${label}</div>
+    <div style="flex:1; height:14px; background:${KR.soft}; border:1px solid ${KR.line};"><div style="width:${v}%; height:100%; background:${color};"></div></div>
+    <div style="width:52px; font-size:12px; font-weight:800; text-align:left; direction:ltr;">${krNum(value)}%</div>
+  </div>`;
+}
+
+function krPage(inner, idx, total, serial){
+  return `<div class="kr-page" style="width:794px; height:1122px; background:#fff; box-sizing:border-box; padding:26px; direction:rtl; font-family:'Vazirmatn',Tahoma,sans-serif; color:${KR.ink}; position:relative; overflow:hidden; page-break-after:always; break-after:page;">
+    <div style="height:100%; border:3px double ${KR.navy}; box-sizing:border-box; padding:22px 28px 12px; display:flex; flex-direction:column;">
+      ${inner}
+      <div style="margin-top:auto; border-top:1px solid ${KR.line}; padding-top:8px; display:flex; justify-content:space-between; gap:10px; font-size:9.5px; color:${KR.mute}; font-weight:600;">
+        <span>شماره کارنامه: <span dir="ltr">${serial}</span></span>
+        <span>این سند به‌صورت خودکار توسط سامانه‌ی نمایش نتایج آزمون صادر شده است</span>
+        <span>صفحه ${idx} از ${total}</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function krMini(entry, title){
+  return `<div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:8px; border-bottom:2px solid ${KR.navy};">
+    <div style="font-size:15px; font-weight:900; color:${KR.navy};">${title}</div>
+    <div style="font-size:11.5px; font-weight:700; color:${KR.mute};">${escapeHtml(entry.name || 'بدون نام')} — ${escapeHtml(entry.exam || '')}</div>
+  </div>`;
+}
+
+function krMap(answers){
+  const cells = answers.map((a, i)=>{
+    const s = statusOf(a);
+    const c = s === 'correct' ? [KR.green, KR.greenBg] : s === 'wrong' ? [KR.red, KR.redBg] : [KR.amber, KR.amberBg];
+    return `<div style="width:34px; height:26px; border:1px solid ${c[0]}; background:${c[1]}; color:${c[0]}; font-size:11px; font-weight:800; display:flex; align-items:center; justify-content:center;">${i + 1}</div>`;
+  }).join('');
+  const lg = (c, bg, t) => `<span style="display:inline-flex; align-items:center; gap:5px; margin-left:14px; font-size:10.5px; font-weight:700; color:${KR.mute};"><span style="width:12px; height:12px; background:${bg}; border:1px solid ${c}; display:inline-block;"></span>${t}</span>`;
+  return `<div style="display:flex; flex-wrap:wrap; gap:5px;">${cells}</div>
+    <div style="margin-top:8px;">${lg(KR.green, KR.greenBg, 'درست')}${lg(KR.red, KR.redBg, 'غلط')}${lg(KR.amber, KR.amberBg, 'بدون پاسخ')}</div>`;
+}
+
+function krRows(answers, from, to){
+  const label = { correct:['درست', KR.green], wrong:['غلط', KR.red], blank:['بدون پاسخ', KR.amber] };
+  const clip = (t, n) => `<div style="height:34px; overflow:hidden; line-height:1.55;">${escapeHtml(krTrunc(t, n))}</div>`;
+  let out = '';
+  for(let i = from; i < to; i++){
+    const a = answers[i];
+    const s = label[statusOf(a)];
+    out += `<tr style="background:${i % 2 ? KR.soft : '#fff'};">
+      <td style="${KR_TD} padding:3px 4px; width:38px; text-align:center; font-weight:800; font-size:11px;">${i + 1}</td>
+      <td style="${KR_TD} padding:3px 8px; font-size:10.5px;">${clip(a.question || '', 100)}</td>
+      <td style="${KR_TD} padding:3px 8px; width:125px; font-size:10.5px; font-weight:700;">${a.selected !== null ? clip(a.selected, 34) : '<div style="height:34px; line-height:34px; color:' + KR.mute + ';">—</div>'}</td>
+      <td style="${KR_TD} padding:3px 8px; width:125px; font-size:10.5px; font-weight:700;">${clip(a.correct || '', 34)}</td>
+      <td style="${KR_TD} padding:3px 4px; width:66px; text-align:center; font-weight:800; font-size:10.5px; color:${s[1]};">${s[0]}</td>
+    </tr>`;
+  }
+  const th = (t, w) => `<th style="${KR_TD} background:${KR.navy}; color:#fff; font-size:11px; font-weight:700; ${w ? 'width:' + w + 'px;' : ''} text-align:center;">${t}</th>`;
+  return `<table style="width:100%; border-collapse:collapse; table-layout:fixed;">
+    <thead><tr style="height:30px;">${th('ردیف', 38)}${th('متن سوال')}${th('پاسخ شما', 125)}${th('پاسخ صحیح', 125)}${th('وضعیت', 66)}</tr></thead>
+    <tbody>${out}</tbody></table>`;
+}
+
+function krHistory(entry){
+  const all = personEntries(entry);
+  if(all.length < 2){
+    return krSec('سابقه‌ی شرکت در آزمون‌ها') +
+      `<div style="font-size:11.5px; color:${KR.mute}; font-weight:600; padding:6px 2px;">برای این فرد نتیجه‌ی دیگری ثبت نشده است؛ این نخستین آزمون ثبت‌شده است.</div>`;
+  }
+  const prev = new Map();
+  all.forEach((e, i)=>{
+    const topic = e.exam || 'بدون‌عنوان';
+    for(let j = i - 1; j >= 0; j--){
+      if((all[j].exam || 'بدون‌عنوان') === topic){ prev.set(e, all[j]); break; }
+    }
+  });
+  const shown = all.slice(-10);
+  const avgAll = all.reduce((s, e)=>s + (Number(e.percent) || 0), 0) / all.length;
+  const th = t => `<th style="${KR_TD} background:${KR.navy}; color:#fff; font-size:11px; font-weight:700; text-align:center;">${t}</th>`;
+  const rows = shown.map((e, i)=>{
+    const p = Number(e.percent) || 0;
+    const pe = prev.get(e);
+    const d = pe ? p - (Number(pe.percent) || 0) : null;
+    const dTxt = d === null ? '—' : d > 0 ? `+${krNum(d)}` : krNum(d);
+    const dCol = d === null || d === 0 ? KR.mute : d > 0 ? KR.green : KR.red;
+    const cur = e === entry;
+    return `<tr style="background:${cur ? '#fdf6e3' : (i % 2 ? KR.soft : '#fff')}; ${cur ? 'font-weight:800;' : ''}">
+      <td style="${KR_TD} font-size:10.5px; text-align:center;">${all.length - shown.length + i + 1}</td>
+      <td style="${KR_TD} font-size:10.5px;">${escapeHtml(krTrunc(e.exam || '', 38))}</td>
+      <td style="${KR_TD} font-size:10.5px; text-align:center;">${escapeHtml(fmtDateShort(e.date))}</td>
+      <td style="${KR_TD} font-size:10.5px; text-align:center;">${e.score ?? 0} از ${e.total ?? 0}</td>
+      <td style="${KR_TD} font-size:10.5px; text-align:center; color:${p >= KARNAMEH_PASS ? KR.green : KR.red};">${krNum(p)}%</td>
+      <td style="${KR_TD} font-size:10.5px; text-align:center; color:${dCol}; direction:ltr;">${dTxt}</td>
+    </tr>`;
+  }).join('');
+  return krSec(`سابقه‌ی شرکت در آزمون‌ها (${all.length} نوبت — میانگین کل: ${krNum(avgAll)} درصد)`) +
+    `<table style="width:100%; border-collapse:collapse; table-layout:fixed;">
+      <thead><tr>${th('#')}${th('عنوان آزمون')}${th('تاریخ')}${th('نمره')}${th('درصد')}${th('تغییر نسبت به نوبت قبل')}</tr></thead>
+      <tbody>${rows}</tbody></table>` +
+    (all.length > shown.length ? `<div style="font-size:10px; color:${KR.mute}; margin-top:4px;">فقط ${shown.length} نوبت آخر نمایش داده شده است.</div>` : '');
+}
+
+function krFinalPage(entry, st){
+  const levels = [['90 تا 100', 'عالی', p=>p >= 90], ['75 تا 89', 'خیلی خوب', p=>p >= 75 && p < 90], ['60 تا 74', 'خوب', p=>p >= 60 && p < 75],
+                  ['50 تا 59 (حد نصاب)', 'قابل قبول', p=>p >= KARNAMEH_PASS && p < 60], ['کمتر از 50', 'نیاز به تلاش بیشتر', p=>p < KARNAMEH_PASS]];
+  const scale = levels.map(l=>{
+    const cur = l[2](st.my);
+    return `<tr style="${cur ? 'background:#fdf6e3; font-weight:800;' : ''}"><td style="${KR_TD} font-size:11px; width:38%;">${l[0]}</td><td style="${KR_TD} font-size:11px;">${l[1]}</td><td style="${KR_TD} font-size:11px; text-align:center; width:80px;">${cur ? '◀ شما' : ''}</td></tr>`;
+  }).join('');
+  const sign = t => `<div style="flex:1; text-align:center;"><div style="height:62px;"></div><div style="border-top:1.5px solid ${KR.ink}; padding-top:6px; font-size:11.5px; font-weight:700; color:${KR.mute};">${t}</div></div>`;
+  return krMini(entry, 'توضیحات، سوابق و تأییدیه') +
+    krHistory(entry) +
+    krSec('مقیاس ارزیابی عملکرد') +
+    `<table style="width:100%; border-collapse:collapse; table-layout:fixed;"><tbody>${scale}</tbody></table>` +
+    krSec('توضیحات') +
+    `<ol style="margin:0; padding:0 20px 0 0; font-size:11px; line-height:2; color:${KR.ink}; font-weight:500;">
+      <li>نمره و درصد، همان مقادیر ثبت‌شده در سامانه‌ی آزمون برای این نوبت هستند.</li>
+      <li>رتبه و میانگین‌ها بر پایه‌ی همه‌ی نتایج ثبت‌شده‌ی همین آزمون تا زمان صدور محاسبه شده‌اند؛ رتبه‌های برابر، جایگاه یکسان دارند.</li>
+      <li>«دقت پاسخ‌گویی» نسبت پاسخ‌های درست به پاسخ‌های داده‌شده، و «میزان پاسخ‌گویی» نسبت پاسخ‌های داده‌شده به کل سوالات است.</li>
+      <li>این کارنامه تنها با امضا و مهر مسئولان آموزشی جنبه‌ی رسمی پیدا می‌کند. برای پیگیری، شماره‌ی کارنامه را به واحد آموزش اعلام کنید.</li>
+    </ol>` +
+    `<div style="display:flex; align-items:flex-end; gap:22px; margin-top:26px;">
+      ${sign('امضای مدرس')}${sign('امضای مسئول آموزش')}${sign('امضای مدیر مجموعه')}
+      <div style="width:104px; height:104px; border-radius:50%; border:2px dashed ${KR.gold}; color:${KR.gold}; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; flex-shrink:0;">محل مهر</div>
+    </div>`;
+}
+
+function buildKarnamehPages(entry){
+  const serial = krSerial(entry);
+  const st = krStats(entry);
+  const vc = st.pass ? KR.green : KR.red;
+  const vbg = st.pass ? KR.greenBg : KR.redBg;
+  const verdict = st.pass ? 'قبول' : 'نیاز به تلاش بیشتر';
+  const nid = getNationalId(entry);
+  const pctOf = (a, b) => b ? krNum(a / b * 100) + '%' : '—';
+  const diff = st.my - st.avg;
+  const diffTxt = (diff > 0 ? '+' : '') + krNum(diff) + ' درصد';
+
+  const infoPairs = [
+    ['نام و نام خانوادگی', escapeHtml(entry.name || 'بدون نام')],
+    ['کد ملی', nid ? `<span dir="ltr">${escapeHtml(nid)}</span>` : '—'],
+    ['عنوان آزمون', escapeHtml(entry.exam || '—')],
+    ['زمان آزمون', escapeHtml(fmtDate(entry.date) || '—')],
+    ['نوبت شرکت', `${st.attemptNo} از ${st.attempts}`],
+    ['تاریخ صدور کارنامه', escapeHtml(fmtDateShort(new Date().toISOString()))]
+  ];
+
+  const metric = (l, v, c) => `<tr><td style="${KR_TD} background:${KR.soft}; font-weight:700; color:${KR.mute}; font-size:11.5px; width:55%;">${l}</td><td style="${KR_TD} font-weight:800; font-size:12.5px; ${c ? 'color:' + c + ';' : ''}">${v}</td></tr>`;
+
+  const page1 = `
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+      <div style="flex:1;">
+        <div style="font-size:15px; font-weight:800; color:${KR.navy};">${escapeHtml(KARNAMEH_ORG)}</div>
+        <div style="font-size:10.5px; color:${KR.mute}; font-weight:600; margin-top:2px;">سامانه‌ی ارزیابی و نمایش نتایج آزمون</div>
+      </div>
+      <div style="font-size:10.5px; color:${KR.mute}; font-weight:600; text-align:left; line-height:1.9;">
+        <div>شماره کارنامه: <b dir="ltr" style="color:${KR.ink};">${serial}</b></div>
+        <div>تاریخ صدور: <b style="color:${KR.ink};">${escapeHtml(fmtDateShort(new Date().toISOString()))}</b></div>
+      </div>
+    </div>
+    <div style="text-align:center; margin:14px 0 10px;">
+      <div style="font-size:27px; font-weight:900; color:${KR.navy};">کارنامه رسمی آزمون</div>
+      <div style="font-size:12px; color:${KR.mute}; font-weight:600; margin-top:4px;">${escapeHtml(entry.exam || '')}</div>
+    </div>
+    <div style="border-top:2px solid ${KR.navy}; border-bottom:1px solid ${KR.navy}; height:5px;"></div>
+
+    ${krSec('مشخصات داوطلب و آزمون')}
+    ${krKV(infoPairs)}
+
+    ${krSec('خلاصه‌ی نتیجه')}
+    <div style="display:flex; gap:20px; align-items:stretch;">
+      <div style="width:132px; flex-shrink:0; display:flex; align-items:center; justify-content:center;">
+        <div style="width:128px; height:128px; border-radius:50%; border:4px double ${vc}; color:${vc}; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+          <div style="font-size:33px; font-weight:900;">${krNum(st.my)}%</div>
+          <div style="font-size:10.5px; font-weight:700;">درصد کسب‌شده</div>
+        </div>
+      </div>
+      <table style="flex:1; border-collapse:collapse;"><tbody>
+        ${metric('تعداد کل سوالات', st.total)}
+        ${metric('پاسخ درست', `${st.correct} (${pctOf(st.correct, st.total)})`, KR.green)}
+        ${metric('پاسخ غلط', `${st.wrong} (${pctOf(st.wrong, st.total)})`, KR.red)}
+        ${metric('بدون پاسخ', `${st.blank} (${pctOf(st.blank, st.total)})`, KR.amber)}
+        ${metric('نمره کسب‌شده', `${entry.score ?? 0} از ${entry.total ?? 0}`)}
+        ${metric('دقت پاسخ‌گویی (درست از پاسخ‌های داده‌شده)', pctOf(st.correct, st.answered))}
+        ${metric('میزان پاسخ‌گویی (پاسخ‌داده‌شده از کل)', pctOf(st.answered, st.total))}
+      </tbody></table>
+    </div>
+    <div style="margin-top:12px; border:1.5px solid ${vc}; background:${vbg}; color:${vc}; padding:9px; text-align:center; font-weight:900; font-size:15px;">
+      نتیجه‌ی نهایی: ${verdict}
+      <span style="font-weight:600; font-size:12px;"> — سطح عملکرد: ${krGrade(st.my)} (حد نصاب قبولی ${KARNAMEH_PASS}٪)</span>
+    </div>
+
+    ${st.total ? krSec('توزیع پاسخ‌ها') + `<div style="display:flex; height:22px; border:1px solid ${KR.line};">
+      ${st.correct ? `<div style="flex:${st.correct}; background:${KR.green}; color:#fff; font-size:11px; font-weight:800; display:flex; align-items:center; justify-content:center;">${st.correct}</div>` : ''}
+      ${st.wrong ? `<div style="flex:${st.wrong}; background:${KR.red}; color:#fff; font-size:11px; font-weight:800; display:flex; align-items:center; justify-content:center;">${st.wrong}</div>` : ''}
+      ${st.blank ? `<div style="flex:${st.blank}; background:${KR.amber}; color:#fff; font-size:11px; font-weight:800; display:flex; align-items:center; justify-content:center;">${st.blank}</div>` : ''}
+    </div>
+    <div style="margin-top:6px; font-size:10.5px; font-weight:700; color:${KR.mute};">درست ${st.correct} · غلط ${st.wrong} · بدون پاسخ ${st.blank} — از مجموع ${st.total} سوال</div>` : ''}
+
+    ${krSec('مقایسه با سایر شرکت‌کنندگان در همین آزمون')}
+    ${krBar('درصد شما', st.my, vc)}
+    ${krBar('میانگین آزمون', st.avg, KR.navy)}
+    ${krBar('بالاترین درصد', st.max, KR.gold)}
+    <div style="margin-top:10px;">
+    ${krKV([
+      ['رتبه در آزمون', `${st.rank} از ${st.n}`],
+      ['تعداد نتایج ثبت‌شده', st.n],
+      ['اختلاف با میانگین', `<span dir="ltr" style="color:${diff >= 0 ? KR.green : KR.red};">${diffTxt}</span>`],
+      ['جایگاه درصدی', st.below === null ? '—' : `بالاتر از ${st.below}٪ دیگران`],
+      ['میانه', krNum(st.median) + '%'],
+      ['پایین‌ترین درصد', krNum(st.min) + '%']
+    ])}
+    </div>
+    ${st.n < 5 ? `<div style="font-size:10px; color:${KR.mute}; margin-top:5px;">با توجه به تعداد کم نتایج ثبت‌شده، مقایسه‌ها جنبه‌ی راهنما دارند.</div>` : ''}
+  `;
+
+  const bodies = [page1];
+
+  // ریز پاسخ‌ها: نقشه‌ی پاسخ + جدول (۲۰ ردیف در هر صفحه)
+  const answers = st.answers;
+  if(answers.length){
+    const AVAIL = 940, ROW = 42, ROWS_FULL = 21;
+    const mapH = Math.ceil(answers.length / 16) * 31 + 34;
+    let firstRows = Math.floor((AVAIL - 40 - mapH - 10 - 40 - 30) / ROW);
+    if(firstRows < 3) firstRows = 0;
+    firstRows = Math.min(firstRows, answers.length);
+    const head = krMini(entry, 'ریز پاسخ‌ها');
+    let i = 0;
+    let first = head + krSec('نقشه‌ی پاسخ‌ها');
+    first += krMap(answers);
+    if(firstRows > 0){
+      first += krSec('جدول پاسخ‌ها') + krRows(answers, 0, firstRows);
+      i = firstRows;
+    }
+    bodies.push(first);
+    while(i < answers.length){
+      const to = Math.min(answers.length, i + ROWS_FULL);
+      bodies.push(head + `<div style="height:10px;"></div>` + krRows(answers, i, to));
+      i = to;
+    }
+  }
+
+  bodies.push(krFinalPage(entry, st));
+  return bodies.map((b, i)=>krPage(b, i + 1, bodies.length, serial));
+}
+
+function buildKarnamehHTML(entry){
+  const pages = buildKarnamehPages(entry).join('\n');
   return `<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -2563,94 +2866,23 @@ function buildKarnamehHTML(entry){
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
 *{box-sizing:border-box; margin:0; padding:0;}
-body{
-  font-family:'Vazirmatn', sans-serif;
-  background:#e9e0c9;
-  color:#232733;
-  direction:rtl;
-  padding:24px;
-}
-.sheet{
-  max-width:720px;
-  margin:0 auto;
-  background:#f2ecdd;
-  border:2px solid #232733;
-  box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;
-  padding:46px 50px;
-  position:relative;
-}
-.top-bar{ height:6px; background:linear-gradient(90deg,#b23a2e,#b5893a,#2f6844); margin:-46px -50px 32px; }
-h1{ text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; }
-.subtitle{ text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px; }
-.divider{ height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0; }
-.info-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px; }
-.info-item .label{ font-size:11.5px; color:#545a6b; font-weight:700; margin-bottom:3px; }
-.info-item .value{ font-size:16px; font-weight:800; }
-.mid-row{ display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:30px; }
-.stamp{
-  width:126px; height:126px; border-radius:50%;
-  border:3px dashed ${verdictColor}; color:${verdictColor};
-  display:flex; flex-direction:column; align-items:center; justify-content:center;
-  transform:rotate(-8deg); flex-shrink:0;
-}
-.stamp .pct{ font-size:32px; font-weight:900; }
-.stamp .lbl{ font-size:10px; font-weight:700; margin-top:2px; }
-.verdict{ flex:1; text-align:center; }
-.verdict .v-label{ font-size:13px; color:#545a6b; font-weight:700; }
-.verdict .v-value{ font-size:24px; font-weight:900; color:${verdictColor}; margin-top:6px; }
-.stats{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:44px; }
-.stat-box{ text-align:center; border:1.5px solid rgba(35,39,51,0.18); border-radius:8px; padding:14px 8px; }
-.stat-box .num{ font-size:20px; font-weight:900; }
-.stat-box .lab{ font-size:11px; color:#545a6b; font-weight:600; margin-top:3px; }
-.sign-row{ display:flex; justify-content:space-between; margin-top:40px; }
-.sign-box{ text-align:center; width:180px; }
-.sign-line{ border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b; }
-.print-btn{
-  display:block; margin:26px auto 0; padding:10px 28px; font-family:inherit; font-weight:700;
-  font-size:14px; border-radius:24px; border:none; background:#232733; color:#f2ecdd; cursor:pointer;
-}
+body{ font-family:'Vazirmatn', sans-serif; background:#d9dce3; direction:rtl; padding:20px 0; }
+.kr-page{ margin:0 auto 20px; box-shadow:0 2px 14px rgba(0,0,0,.25); }
+.print-btn{ position:fixed; top:14px; left:14px; padding:10px 24px; font-family:inherit; font-weight:700; font-size:14px; border-radius:24px; border:none; background:#1f2a44; color:#fff; cursor:pointer; }
 @media print{
   body{ background:#fff; padding:0; }
-  .sheet{ box-shadow:none; border:2px solid #232733; margin:0 auto; }
+  .kr-page{ margin:0; box-shadow:none; }
+  .kr-page:last-child{ page-break-after:auto; break-after:auto; }
   .print-btn{ display:none; }
-  @page{ size:A4; margin:12mm; }
+  @page{ size:A4; margin:0; }
 }
 </style>
 </head>
 <body>
-  <div class="sheet">
-    <div class="top-bar"></div>
-    <h1>کارنامه آزمون</h1>
-    <div class="subtitle">اين برگه به‌عنوان گواهي نتيجه‌ي آزمون صادر شده است</div>
-    <div class="divider"></div>
-    <div class="info-grid">
-      <div class="info-item"><div class="label">نام و نام خانوادگي</div><div class="value">${escapeHtml(entry.name || 'بدون نام')}</div></div>
-      ${getNationalId(entry) ? `<div class="info-item"><div class="label">کدملی</div><div class="value">${escapeHtml(getNationalId(entry))}</div></div>` : ''}
-      <div class="info-item"><div class="label">تاريخ آزمون</div><div class="value">${dateStr}</div></div>
-      <div class="info-item"><div class="label">عنوان آزمون</div><div class="value">${escapeHtml(entry.exam || '')}</div></div>
-      <div class="info-item"><div class="label">نمره</div><div class="value">${entry.score ?? 0} از ${entry.total ?? 0}</div></div>
-    </div>
-    <div class="mid-row">
-      <div class="stamp"><div class="pct">${entry.percent ?? 0}%</div><div class="lbl">درصد قبولي</div></div>
-      <div class="verdict">
-        <div class="v-label">نتيجه‌ي نهايي</div>
-        <div class="v-value">${verdict}</div>
-      </div>
-    </div>
-    <div class="stats">
-      <div class="stat-box"><div class="num">${answers.length}</div><div class="lab">کل سوالات</div></div>
-      <div class="stat-box"><div class="num" style="color:#2f6844;">${correctCount}</div><div class="lab">پاسخ درست</div></div>
-      <div class="stat-box"><div class="num" style="color:#b23a2e;">${wrongCount}</div><div class="lab">پاسخ غلط</div></div>
-      <div class="stat-box"><div class="num" style="color:#b5893a;">${blankCount}</div><div class="lab">بي‌پاسخ</div></div>
-    </div>
-    <div class="sign-row">
-      <div class="sign-box"><div class="sign-line">امضاي مدرس</div></div>
-      <div class="sign-box"><div class="sign-line">امضاي مسئول آموزش</div></div>
-    </div>
-    <button class="print-btn" onclick="window.print()">?? چاپ کارنامه</button>
-  </div>
+${pages}
+<button class="print-btn" onclick="window.print()">چاپ کارنامه</button>
 <script>
-  window.addEventListener('load', ()=>{ setTimeout(()=>{ window.focus(); window.print(); }, 350); });
+  window.addEventListener('load', ()=>{ setTimeout(()=>{ window.focus(); window.print(); }, 600); });
 <\/script>
 </body>
 </html>`;
@@ -2670,69 +2902,65 @@ document.getElementById('printKarnamehBtn').addEventListener('click', ()=>{
 
 /* ---------- Karnameh as a downloadable PDF (single + bulk zip) ---------- */
 
-function buildKarnamehElement(entry){
-  const answers = entry.answers || [];
-  const correctCount = answers.filter(a=>a.selected !== null && a.selected === a.correct).length;
-  const wrongCount = answers.filter(a=>a.selected !== null && a.selected !== a.correct).length;
-  const blankCount = answers.filter(a=>a.selected === null).length;
-  const pass = (entry.percent ?? 0) >= 50;
-  const verdict = pass ? 'قبول' : 'نياز به تلاش بيشتر';
-  const verdictColor = pass ? '#2f6844' : '#b23a2e';
+function buildKarnamehElements(entry){
+  return buildKarnamehPages(entry).map(html=>{
+    const holder = document.createElement('div');
+    holder.innerHTML = html;
+    return holder.firstElementChild;
+  });
+}
 
-  const wrap = document.createElement('div');
-  wrap.style.cssText = 'width:680px; padding:46px 50px; background:#f2ecdd; font-family:"Vazirmatn",Tahoma,sans-serif; color:#232733; direction:rtl; border:2px solid #232733; box-shadow: 0 0 0 6px #f2ecdd, 0 0 0 8px #b5893a;';
-
-  const statBox = (num, lab, color) => `
-    <div style="text-align:center; border:1.5px solid rgba(35,39,51,0.18); border-radius:8px; padding:14px 8px;">
-      <div style="font-size:20px; font-weight:900; ${color ? `color:${color};` : ''}">${num}</div>
-      <div style="font-size:11px; color:#545a6b; font-weight:600; margin-top:3px;">${lab}</div>
-    </div>`;
-
-  const infoItem = (label, value) => `
-    <div>
-      <div style="font-size:11.5px; color:#545a6b; font-weight:700; margin-bottom:3px;">${label}</div>
-      <div style="font-size:16px; font-weight:800;">${value}</div>
-    </div>`;
-
-  wrap.innerHTML = `
-    <div style="height:6px; background:linear-gradient(90deg,#b23a2e,#b5893a,#2f6844); margin:-46px -50px 32px;"></div>
-    <h1 style="text-align:center; font-size:26px; font-weight:900; letter-spacing:1px; margin:0;">کارنامه آزمون</h1>
-    <div style="text-align:center; color:#545a6b; font-size:13px; font-weight:600; margin-top:6px;">اين برگه به‌عنوان گواهي نتيجه‌ي آزمون صادر شده است</div>
-    <div style="height:1.5px; background:repeating-linear-gradient(90deg,#232733 0 6px, transparent 6px 11px); margin:26px 0;"></div>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; margin-bottom:30px;">
-      ${infoItem('نام و نام خانوادگي', escapeHtml(entry.name || 'بدون نام'))}
-      ${getNationalId(entry) ? infoItem('کدملی', escapeHtml(getNationalId(entry))) : ''}
-      ${infoItem('تاريخ آزمون', fmtDate(entry.date))}
-      ${infoItem('عنوان آزمون', escapeHtml(entry.exam || ''))}
-      ${infoItem('نمره', `${entry.score ?? 0} از ${entry.total ?? 0}`)}
-    </div>
-    <div style="display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:30px;">
-      <div style="width:126px; height:126px; border-radius:50%; border:3px dashed ${verdictColor}; color:${verdictColor}; display:flex; flex-direction:column; align-items:center; justify-content:center; transform:rotate(-8deg); flex-shrink:0;">
-        <div style="font-size:32px; font-weight:900;">${entry.percent ?? 0}%</div>
-        <div style="font-size:10px; font-weight:700; margin-top:2px;">درصد قبولي</div>
-      </div>
-      <div style="flex:1; text-align:center;">
-        <div style="font-size:13px; color:#545a6b; font-weight:700;">نتيجه‌ي نهايي</div>
-        <div style="font-size:24px; font-weight:900; color:${verdictColor}; margin-top:6px;">${verdict}</div>
-      </div>
-    </div>
-    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:44px;">
-      ${statBox(answers.length, 'کل سوالات')}
-      ${statBox(correctCount, 'پاسخ درست', '#2f6844')}
-      ${statBox(wrongCount, 'پاسخ غلط', '#b23a2e')}
-      ${statBox(blankCount, 'بي‌پاسخ', '#b5893a')}
-    </div>
-    <div style="display:flex; justify-content:space-between; margin-top:40px;">
-      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضاي مدرس</div></div>
-      <div style="text-align:center; width:180px;"><div style="border-top:1.5px solid #232733; margin-top:46px; padding-top:6px; font-size:12px; font-weight:700; color:#545a6b;">امضاي مسئول آموزش</div></div>
-    </div>
-  `;
-  return wrap;
+// هر صفحه‌ی کارنامه یک عنصر A4 مستقل است و در PDF صفحه‌ی جداگانه می‌شود
+async function renderPagesToPdfBlob(pageEls, bg){
+  const { jsPDF } = window.jspdf;
+  const pdf = new jsPDF('p', 'pt', 'a4');
+  const pw = pdf.internal.pageSize.getWidth();
+  const ph = pdf.internal.pageSize.getHeight();
+  if(document.fonts && document.fonts.ready){
+    try{ await document.fonts.ready; } catch(e){}
+  }
+  for(let i = 0; i < pageEls.length; i++){
+    const el = pageEls[i];
+    const hider = document.createElement('div');
+    hider.style.cssText = 'position:fixed; top:0; left:0; width:0; height:0; overflow:hidden;';
+    hider.appendChild(el);
+    document.body.appendChild(hider);
+    await new Promise(r=>setTimeout(r, 60));
+    const w = el.offsetWidth, h = el.offsetHeight, scale = 2;
+    let imgData;
+    try{
+      const svgDataUrl = await domtoimage.toSvg(el, { bgcolor: bg });
+      const img = new Image();
+      await new Promise((resolve, reject)=>{
+        img.onload = resolve;
+        img.onerror = () => reject(new Error('svg-image-load-failed'));
+        img.src = svgDataUrl;
+      });
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.max(1, Math.ceil(w * scale));
+      canvas.height = Math.max(1, Math.ceil(h * scale));
+      const ctx = canvas.getContext('2d');
+      ctx.fillStyle = bg;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      imgData = canvas.toDataURL('image/png');
+    } catch(err){
+      console.error('dom-to-image failed, falling back to html2canvas', err);
+      const canvas = await html2canvas(el, { scale:2, backgroundColor:bg, useCORS:true });
+      imgData = canvas.toDataURL('image/png');
+    } finally {
+      document.body.removeChild(hider);
+    }
+    if(i > 0) pdf.addPage();
+    pdf.addImage(imgData, 'PNG', 0, 0, pw, ph);
+  }
+  return pdf.output('blob');
 }
 
 async function buildKarnamehPdfBlobForEntry(entry){
-  return renderElementToPdfBlob(buildKarnamehElement(entry));
+  return renderPagesToPdfBlob(buildKarnamehElements(entry), '#ffffff');
 }
+
 
 document.getElementById('downloadKarnamehPdfBtn').addEventListener('click', async ()=>{
   const btn = document.getElementById('downloadKarnamehPdfBtn');
