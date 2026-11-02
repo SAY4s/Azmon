@@ -3832,5 +3832,218 @@
       }
     ],
     "date": "2026-11-02T05:39:15.660Z"
+  },
+  {
+    "name": "یلدا سلیمانی",
+    "nationalId": "4312546479",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "ابزار Format Painter چه عملی انجام می دهد؟",
+        "selected": "قالب متن را کپی می کند",
+        "correct": "قالب متن را کپی می کند"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Hotmail",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "کدام یک از کارت های زیر مربوط به کیفیت تصویر می باشد؟",
+        "selected": "Modem",
+        "correct": "VGA"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": "با استفاده از .......... می توان بر روی داده ها محاسباتی مانند جمع انجام و چاپ کرد؟",
+        "selected": "فرم",
+        "correct": "گزارش"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Net",
+        "correct": "Org"
+      },
+      {
+        "question": "کدام گزینه برای تنظیم شروع شماره صفحات از عدد خاصی است؟",
+        "selected": "Start at",
+        "correct": "Start at"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پلاتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "نیاز به پایین نگه داشتن کلید نیست",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "آدرس یک سایت از چندین بخش مجزا تشکیل شده است و هر بخش توسط علامت ...... از دیگری جدا شده است؟",
+        "selected": ".",
+        "correct": "."
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Long Integer",
+        "correct": "Double"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Web layout",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای ایجاد فایل در پاورپوینت کدام کلیدهای ترکیبی را می فشاریم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Align Right",
+        "correct": "Right"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "$",
+        "correct": "$"
+      },
+      {
+        "question": "سربرگ Format در پنجره خصوصیات فرم جهت تغییر یا تعیین ...............؟",
+        "selected": "خصوصیات قالب بندی کنترل به کار می رود",
+        "correct": "خصوصیات قالب بندی کنترل به کار می رود"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر قابل برنامه ریزی و قابل پاک شدن با اشعه ماوراء بنفش است؟",
+        "selected": "Prom",
+        "correct": "Eprom"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "RAM",
+        "correct": "ROM"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "Single User",
+        "correct": "DOS"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های حذف شده می باشد؟",
+        "selected": "Trash",
+        "correct": "Trash"
+      },
+      {
+        "question": "کدام یک از خصوصیات زیر درمورد فیلدها تعیین کننده مقدار پیش فرض می باشد؟",
+        "selected": "Default value",
+        "correct": "Default value"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": "Paste",
+        "correct": "Paste"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Sent Item",
+        "correct": "Outbox"
+      },
+      {
+        "question": "در سطح دیسک هر شیار به قسمت های مساوی به نام ................ تقسیم می شود؟",
+        "selected": "سیلندر",
+        "correct": "قطاع"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "ماوس",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای حذف ستون های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Columns",
+        "correct": "Delete Columns"
+      },
+      {
+        "question": "اطلاعات حذف شده در کجا نگهداری می شوند؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "تایپ http:// .......................................",
+        "selected": "الزامی نیست",
+        "correct": "الزامی نیست"
+      },
+      {
+        "question": "غلطک وسط موس برای چه منظوری است؟",
+        "selected": "مرور محتویات پنجره ها",
+        "correct": "مرور محتویات پنجره ها"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Highlight",
+        "correct": "Highlight"
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F10",
+        "correct": "F11"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Gadgets",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای ایجاد یک جدول با تعداد سطر و ستون دلخواه کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Insert Table",
+        "correct": "Insert Table"
+      }
+    ],
+    "date": "2026-11-02T05:51:02.996Z"
   }
 ]
