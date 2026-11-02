@@ -3406,5 +3406,218 @@
       }
     ],
     "date": "2026-11-02T05:28:37.952Z"
+  },
+  {
+    "name": "مهنیا کشاورز",
+    "nationalId": "4312688321",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 8,
+    "unanswered": 4,
+    "answers": [
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "چنانچه بخواهیم قالب متن درون خانه را کپی کنیم کدام مناسب تر است؟",
+        "selected": "Copy",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Server Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "بر روی تب مورد نظر اشاره کرده و کلید Delete را فشار می دهیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "در هر صفحه عنوان جدول را تکرار می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "Single User",
+        "correct": "DOS"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": null,
+        "correct": "1"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "برای بازیابی فایل یا پوشه از سطل بازیافت از فرمان ........................... استفاده می کنیم.",
+        "selected": "Empty Recycle",
+        "correct": "Restore"
+      },
+      {
+        "question": "Shut Down چیست؟",
+        "selected": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند",
+        "correct": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند"
+      },
+      {
+        "question": "برای ارسال پاسخ به تمام فرستندگان یک نامه از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Reply all",
+        "correct": "Reply all"
+      },
+      {
+        "question": "در منوی کشویی Find What چه می نویسیم؟",
+        "selected": "متنی که می خواهیم جستجو کنیم",
+        "correct": "متنی که می خواهیم جستجو کنیم"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": null,
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "در کادر محاوره ای ............... می توانیم اندازه ها، جهت، رنگ و تنظیمات دیگر جدول را به صورت یک جا تعیین کنیم.",
+        "selected": "Table Properties",
+        "correct": "Table Properties"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "ورودی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "کدامیک از موارد زیر تعریف ریزپردازنده نمی باشد؟",
+        "selected": "اساسی ترین جزء یک کامپیوتر نمی باشد",
+        "correct": "اساسی ترین جزء یک کامپیوتر نمی باشد"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": "Pages",
+        "correct": "Pages"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": null,
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک روی جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+Page Down",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide layout",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "کدام یک از کارت های زیر مربوط به کیفیت تصویر می باشد؟",
+        "selected": "VGA",
+        "correct": "VGA"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Strike",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "کدام نوع داده زیر برای اعداد استفاده می شود؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      }
+    ],
+    "date": "2026-11-02T05:38:27.167Z"
   }
 ]
