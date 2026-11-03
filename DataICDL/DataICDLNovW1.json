@@ -5962,5 +5962,218 @@
       }
     ],
     "date": "2026-11-03T07:32:59.690Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 8,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": "واحد ورودی",
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "با استفاده از کدام فرمان، ترتیب اجرای انیمیشن ها را تغییر می دهیم؟",
+        "selected": "Reorder Animation",
+        "correct": "Reorder Animation"
+      },
+      {
+        "question": "از این ابزار به منظور نمایش اسلایدها از اسلاید جاری استفاده می شود.",
+        "selected": "From Current Slide",
+        "correct": "From Current Slide"
+      },
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود",
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "کلیدهای میانبر فرمان Copy و Paste کدام است؟",
+        "selected": "Ctrl+C ، Ctrl+V",
+        "correct": "Ctrl+C ، Ctrl+V"
+      },
+      {
+        "question": "برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "زبانه Insert گروه Pages دستور Page Cover"
+      },
+      {
+        "question": "برای ایجاد یک جدول با تعداد سطر و ستون دلخواه کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Draw Table",
+        "correct": "Insert Table"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As Picture",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "برای ارسال مجدد یک نامه الکترونیکی به سایر افراد از کدام گزینه استفاده می نماییم؟",
+        "selected": "Forward",
+        "correct": "Forward"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "*",
+        "correct": "!"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "در صورتی که بخواهیم عبارت های یافت شده از نظر بزرگی و کوچکی حروف با عبارت مورد جستجو یکسان باشد کدام گزینه را فعال می کنیم؟",
+        "selected": "Find Whole Words Only",
+        "correct": "Match Case"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "255",
+        "correct": "255"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Reports",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Page Layout -> Page Border",
+        "correct": "Design -> Page Border"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "در جدول های بزرگ که می خواهیم جستجوها بر اساس چندین فیلد مانند فیلد نام، شهر، نام فرد و شماره تلفن انجام شود بهتر است ..................... ایجاد کنیم؟",
+        "selected": "Primary Key ایجاد کنیم",
+        "correct": "چند ایندکس ایجاد کنیم"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": "Open Each Folder in the Same Window",
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "اعداد قسمت ماشین حساب را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "کدام جمله در مورد کلید اصلی درست نمی باشد؟",
+        "selected": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود",
+        "correct": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "اگر بخواهیم باز شدن صفحه ای را در IE متوقف کنیم چه دکمه ای را از نوار ابزار کلیک می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "چگونه می توان چند فایل پراکنده یک پوشه را انتخاب کرد؟",
+        "selected": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت",
+        "correct": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "Draw Table از زبانه Insert",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      }
+    ],
+    "date": "2026-11-03T07:40:17.533Z"
   }
 ]
