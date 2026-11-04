@@ -7027,5 +7027,218 @@
       }
     ],
     "date": "2026-11-04T15:11:52.565Z"
+  },
+  {
+    "name": "معصومه پیل هوائی",
+    "nationalId": "5560988790",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 18,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جدول چیست؟",
+        "selected": "به مجموعه ای از رکوردها که دارای فیلد باشد، گویند",
+        "correct": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Special Character",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "Cache",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "برای وارد کردن تعداد سطر و ستون جدول در زمان ایجاد به چه روشی عمل می کنیم؟",
+        "selected": "کلیک روی Table از زبانه Insert و انتخاب Insert Table",
+        "correct": "کلیک روی Table از زبانه Insert و انتخاب Insert Table"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Page Layout -> Page Border",
+        "correct": "Design -> Page Border"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Below از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "پایین",
+        "correct": "پایین"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign Out",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "از کدام یک از گزینه های زیر برای ذخیره کردن فایل ارائه مطلب استفاده نمی شود؟",
+        "selected": "استفاده از کلیدهای ترکیبی Ctrl+S",
+        "correct": "از ریبون Home گزینه Save"
+      },
+      {
+        "question": "در کادر Format Cell از تب Alignment گزینه Shrink To Fit چه عملی انجام می دهد؟",
+        "selected": "اگر طول متن از خانه بیشتر باشد بقیه متن در خط بعد قرار می گیرد",
+        "correct": "متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد"
+      },
+      {
+        "question": "در هنگام طراحی فرم با Form Wizard کلیک بر روی کدام دکمه باعث انتقال تمام فیلدها از لیست Available Selected Fields می شود؟",
+        "selected": "<<",
+        "correct": "<<"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Primary",
+        "correct": "Primary"
+      },
+      {
+        "question": "هنگام تایپ متن اشاره گر موس تبدیل به .......... می شود.",
+        "selected": "پنهان",
+        "correct": "پنهان"
+      },
+      {
+        "question": "به منظور سفارشی کردن منوی Start گزینه .......... استفاده می شود.",
+        "selected": "راست کلیک روی میزکار / Taskbar & Start Menu Properties",
+        "correct": "Start / Properties"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر عکس را به سیگنال های دیجیتال تبدیل کرده و وارد کامپیوتر می کند؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "برای به حداقل رساندن اندازه ی پنجره از کدام گزینه استفاده می کنیم؟",
+        "selected": "Minimize",
+        "correct": "Minimize"
+      },
+      {
+        "question": "کدام امکان در پنجره خصوصیات فرم، کنترل را فعال یا غیر فعال می کند؟",
+        "selected": "Format",
+        "correct": "Enable"
+      },
+      {
+        "question": "جهت ادغام سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Home - Alignment - Merge Cells",
+        "correct": "Home - Alignment - Merge Cells"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M?S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "در کدام یک از موارد زیر امکان به حد اکثر رساندن پنجره وجود دارد؟",
+        "selected": "پنجره معمولی",
+        "correct": "پنجره معمولی"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": "روی متن یک خط درج می کند",
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "هر صفحه کاری در یک فایل ذخیره می شود",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "برای تعیین خصوصیات یک فیلد می توان جدول را در دو نمای ............. یا ............... نشان دهیم.",
+        "selected": "Data Sheet",
+        "correct": "Design"
+      },
+      {
+        "question": "برای اینکه نمودار در همان صفحه قرار گیرد در کدام مورد باید تعیین شود؟",
+        "selected": "Object In",
+        "correct": "Object In"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "(A1,B5)=min",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "در سربرگ Home از این گروه برای تنظیمات نوع فونت نوشتاری و سایز و رنگ متن استفاده می شود.",
+        "selected": "Font",
+        "correct": "Font"
+      },
+      {
+        "question": "پسوند فایل های اکسل 2013 کدام است؟",
+        "selected": "xlsx",
+        "correct": "xlsx"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Forward",
+        "correct": "Attach File"
+      },
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": "Title Slide",
+        "correct": "Blank"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Pattern",
+        "correct": "Template"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "نقطه",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Variants > Colors",
+        "correct": "Design > Variants > Background Styles"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "تک کاربره",
+        "correct": "AERO"
+      }
+    ],
+    "date": "2026-11-04T15:29:58.978Z"
   }
 ]
