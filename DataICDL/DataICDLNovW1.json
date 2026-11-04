@@ -7240,5 +7240,218 @@
       }
     ],
     "date": "2026-11-04T15:29:58.978Z"
+  },
+  {
+    "name": "معصومه پیل هوائی",
+    "nationalId": "5560988790",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Organization Chart",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Queries",
+        "correct": "Tables"
+      },
+      {
+        "question": "Hibernate یعنی .......",
+        "selected": "بدون بستن محیط کاربر فعلی، امکان ورود به ویندوز با نام کاربری دیگر فراهم می شود",
+        "correct": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد فرم شبیه سربرگ Excel در تمام صفحه گسترده است؟",
+        "selected": "Columnar",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر محل ذخیره موقت اطلاعات است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Ctrl",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر اشکال هندسی تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "فیلد تاریخ تولد از چه نوعی معرفی می شود؟",
+        "selected": "Date & Time",
+        "correct": "Date & Time"
+      },
+      {
+        "question": "گزینه مناسب برای زیرخط دار کردن نوشته کدام است؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "متنی که می خواهیم در بالای هر صفحه گزارش تکرار شوند در کدام بخش گزارش قرار می گیرند؟",
+        "selected": "Page Header",
+        "correct": "Page Header"
+      },
+      {
+        "question": "کدام یک از ابزارها در گروه Master View برای تعیین نمای ظاهری نکات ارائه دهنده ی اسلایدهای فایل ارائه مطلب مورد استفاده قرار می گیرد؟",
+        "selected": "Slide Master",
+        "correct": "Note Master"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "برای ایجاد متن کم رنگ روی صفحه و پشت نوشته ها کدام دستور مناسب است؟",
+        "selected": "Watermark",
+        "correct": "Watermark"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": "Formula Bar از گروه Show تب Review",
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "به منظور سه بعدی کردن اشیاء و اشکال گرافیکی کدام گزینه را انتخاب می کنیم؟",
+        "selected": "3-D Style",
+        "correct": "3-D Style"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Default Value",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Shrink To Fit",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "تهیه و ویرایش کتاب و مقاله",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "IT به معنای چیست؟",
+        "selected": "فناوری اطلاعات",
+        "correct": "فناوری اطلاعات"
+      },
+      {
+        "question": "در کدام نما نمی توان متن یا تصویر به اسلاید اضافه نمود؟",
+        "selected": "Slide Sorter",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "در صورت عدم اطلاع از مکان فایل، می توان به چه روشی آن را اجرا کرد؟",
+        "selected": "استفاده از Search",
+        "correct": "استفاده از Search"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Home-----Form-------Form Design",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Design View, Datasheet View",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "در اصطلاح کامپیوتر، مانیتورهای تخت را ................گویند.",
+        "selected": "LCD",
+        "correct": "LCD"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F7",
+        "correct": "F7"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی Review",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F4",
+        "correct": "F1"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "آدرس های عددی مورد استفاده در شبکه را اصطلاحا چه می نامند؟",
+        "selected": "IP",
+        "correct": "IP"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "پست الکترونیکی، آموزش الکترونیکی",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      }
+    ],
+    "date": "2026-11-04T15:52:44.577Z"
   }
 ]
