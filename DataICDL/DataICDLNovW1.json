@@ -7666,5 +7666,218 @@
       }
     ],
     "date": "2026-11-04T17:23:31.763Z"
+  },
+  {
+    "name": "زهرا امینی",
+    "nationalId": "4312175594",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اجرای فرمان cut و paste از کدام کلیدهای میانبر زیر استفاده می شود؟",
+        "selected": "Ctrl+C - Ctrl+V",
+        "correct": "Ctrl+V - Ctrl+X"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای اینکه عبارت مورد جستجو به همان شکل در اینترنت جستجو شود (دقیقا همان عبارت)، از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "از کدام گزینه در بخش Size برای چاپ روی پاکت نامه استفاده می کنیم؟",
+        "selected": "Labels",
+        "correct": "Envelope"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به معنی قطع ارتباط با اینترنت می باشد؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "از ابزار ..... در سربرگ Transition پیش نمایشی از حالت های عبور انتخاب شده در اسلاید مورد نظر مشاهده می شود؟",
+        "selected": "Transition To This Slide",
+        "correct": "Preview"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "در یک Query به کمک کدامیک از گزینه های زیر می توان شرط مورد نظر در ستون مربوط وارد کرد؟",
+        "selected": "Criteria",
+        "correct": "Criteria"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "LED",
+        "correct": "CRT"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": "Option>Customize Ribbon",
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "چنانچه گزارش ما بیش از یک صفحه بوده و بخواهیم یک عبارت ثابت را فقط در ابتدای اولین صفحه از گزارش ببینیم، آن عبارت را می بایستی در کدام بخش قرار داد؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "Yes-Default Value",
+        "correct": "No-Required"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": "یک Table می تواند تنها یک Primary Key داشته باشد",
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "کلید میانبر فرمان paste چیست؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+V"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "CU",
+        "correct": "Cache"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "MAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "با انتخاب کدام یک از حالات زیر کامپیوتر در حالت کم مصرف قرار می گیرد و مانیتور و دیسک سخت خاموش می شوند؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "در طراحی اسلاید اصلی در ابزار Slide Master می توانیم .........",
+        "selected": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم",
+        "correct": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای ترازبندی متن از سمت راست کدام دستور مناسب است؟",
+        "selected": "Indent To Right",
+        "correct": "Right"
+      },
+      {
+        "question": "برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F4",
+        "correct": "F2"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query رکوردهای جدول را بدون نمایش آنها مورد استفاده قرار می دهد",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "برای ایجاد متن کم رنگ روی صفحه و پشت نوشته ها کدام دستور مناسب است؟",
+        "selected": "Watermark",
+        "correct": "Watermark"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه نرمال",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Gadgets",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Attach",
+        "correct": "Attach"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "یادداشت",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "به مجموعه ای از یک یا چند رکورد ............. می گویند.",
+        "selected": "فیلد",
+        "correct": "جدول"
+      },
+      {
+        "question": "کلید میانبر فرمان Replace کدام گزینه است؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "از کدام یک از اجزای بانک اطلاعاتی برای استخراج مجموعه ای از داده های ذخیره شده در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Count(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      }
+    ],
+    "date": "2026-11-04T18:16:18.084Z"
   }
 ]
