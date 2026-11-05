@@ -8518,5 +8518,218 @@
       }
     ],
     "date": "2026-11-04T19:23:40.066Z"
+  },
+  {
+    "name": "زهرا امینی",
+    "nationalId": "4312175594",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM یک حافظه خواندنی نوشتنی است",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول های A2 با C5 و سلول D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "کدام گزینه یک محیط گرافیکی را برای نرم افزارها ایجاد می نماید؟",
+        "selected": "واسط گرافیکی کاربر GUI",
+        "correct": "واسط گرافیکی کاربر GUI"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "خط آبی در زیر کلمات چه معنایی دارد؟",
+        "selected": "کلمه مشکل فرمت دارد",
+        "correct": "کلمه مشکل گرامری دارد"
+      },
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "برای گروه بندی گزارش کدام گزینه استفاده می شود؟",
+        "selected": "Group & Sort",
+        "correct": "Group & Sort"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": "Sentence Case",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Queries",
+        "correct": "Macro"
+      },
+      {
+        "question": "در قسمت .............. از پنجره Find and Replace عبارتی را که می خواهیم ورد آن را برای جایگزینی انتخاب کند (پیدا کند)، می نویسیم.",
+        "selected": "Search Word",
+        "correct": "Find What"
+      },
+      {
+        "question": "برای ایجاد یک پرس و جو کدام گزینه مورد استفاده قرار می گیرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "با استفاده از .......... می توانیم اسلایدها را در زمانی که محتوای آن بزرگتر از اندازه ی پنجره است در راستای عمودی و افقی پیمایش کنیم.",
+        "selected": "نوارهای پیمایش",
+        "correct": "نوارهای پیمایش"
+      },
+      {
+        "question": "برای ایجاد یک نمودار سازمانی در اسلاید از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Organization Chart",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Gradient",
+        "correct": "Gradient"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Default Value",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "در جدول Query سطر Criteria برای چه منظوری گذاشته شده است؟",
+        "selected": "برای معیار انتخاب رکوردها جهت نمایش",
+        "correct": "برای معیار انتخاب رکوردها جهت نمایش"
+      },
+      {
+        "question": "برای درج یک معیار از کدام قسمت در یک پرس و جو استفاده می شود؟",
+        "selected": "Or",
+        "correct": "Criteria & Or"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "برای ثبت آدرس سایت های مورد علاقه خود از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Page Layout \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "اصلی ترین نرم افزار در کامپیوتر ..................... است.",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": "RSS",
+        "correct": "RSS"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": "نام وب سرور",
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "جهت فعال نمودن Folder Option از کدام روش استفاده می کنیم؟",
+        "selected": "از مسیر Start | Control Panel | Folder Option اقدام می نماییم",
+        "correct": "استفاده از منوی Tools در هر پنجره ای"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ database tools گزینه relationships",
+        "correct": "سربرگ database tools گزینه relationships"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "فرمان Forward To All",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "View / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save in",
+        "correct": "save as type"
+      }
+    ],
+    "date": "2026-11-05T09:50:09.040Z"
   }
 ]
