@@ -9370,5 +9370,218 @@
       }
     ],
     "date": "2026-11-06T09:16:14.816Z"
+  },
+  {
+    "name": "نرجس امینی",
+    "nationalId": "4311811128",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 14,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Inbox",
+        "correct": "Outbox"
+      },
+      {
+        "question": "کدام گزینه متن انتخاب شده را سایه دار می کند؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Detail",
+        "correct": "Form View"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Design > New > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "برای اینکه استایل های تعریف شده از Work Book باز را در Work Book جاری استفاده کنیم بر روی چه گزینه ای کلیک کنیم؟",
+        "selected": "Add",
+        "correct": "Merge Style"
+      },
+      {
+        "question": "به کامپیوتری که در یک شبکه به کامپیوترهای دیگر سرویس دهد چه می گویند؟",
+        "selected": "Server",
+        "correct": "Server"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Design",
+        "correct": "Transition"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Presentation",
+        "correct": "Presentation"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Shut Down",
+        "correct": "Lock"
+      },
+      {
+        "question": "در هنگام درج خانه، برای اینکه خانه انتخاب شده به پایین حرکت کند و خانه جدید جای آن را بگیرد کدام مورد را از کادر محاوره ای Insert باید انتخاب نمود؟",
+        "selected": "Shift Cells Down",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Microsoft Word",
+        "correct": "Templates"
+      },
+      {
+        "question": "در کدام نما، همزمان با اینکه داده ها در گزارش نمایش داده می شوند می توانیم گزارش را قالب بندی کنیم؟",
+        "selected": "Design View",
+        "correct": "Layout View"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "برای مشاهده مشخصات پوشه ها باید از چه روشی استفاده کرد؟",
+        "selected": "کلیک راست روی آیکن پوشه و انتخاب گزینه Properties",
+        "correct": "کلیک راست روی آیکن پوشه و انتخاب گزینه Properties"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Open>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "انواع عملگرها در اکسل کدامند؟",
+        "selected": "عملگرهای منطقی - محاسباتی - رشته ای - مقایسه ای",
+        "correct": "عملگرهای منطقی - محاسباتی - رشته ای - مقایسه ای"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "ابزار Line and Paragraph Spacing چه کاربردی دارد؟",
+        "selected": "تنظیم فاصله خطوط و پاراگراف",
+        "correct": "تنظیم فاصله خطوط و پاراگراف"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "داده هایی که از دستگاه ورودی به کامپیوتر می دهیم",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "از نمای ................. در نرم افزار می توان برای نمایش اسلایدهای طراحی شده به شرکت کنندگان در جلسه استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Slide Show"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Replace With",
+        "correct": "Replace With"
+      },
+      {
+        "question": "برای تعیین نوع داده ها از چه گزینه ای استفاده می شود؟",
+        "selected": "Data Type",
+        "correct": "Data Type"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Edit Header",
+        "correct": "Edit Header"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Margins",
+        "correct": "Orientation"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": null,
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "Single User",
+        "correct": "DOS"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "کدامیک از سیستم عامل های زیر تک کاربره می باشد؟",
+        "selected": null,
+        "correct": "Dos"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": null,
+        "correct": "Primary"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Zoom",
+        "correct": "Fit To Window"
+      }
+    ],
+    "date": "2026-11-06T14:53:07.035Z"
   }
 ]
