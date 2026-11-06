@@ -10009,5 +10009,218 @@
       }
     ],
     "date": "2026-11-06T18:46:31.230Z"
+  },
+  {
+    "name": "زهرا امینی",
+    "nationalId": "4312175594",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از بخش های cpu واحد مناسب عملیات ریاضی و منطقی نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Alu"
+      },
+      {
+        "question": "گزینه Wide در تنظیم حاشیه صفحات گزارش، سبب ایجاد ...... می شود.",
+        "selected": "حاشیه پهن",
+        "correct": "حاشیه پهن"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Table",
+        "correct": "Home"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F1",
+        "correct": "F7"
+      },
+      {
+        "question": "................... عبارت است از نشانی منحصر به فرد هر سایت در اینترنت.",
+        "selected": "Address Site",
+        "correct": "URL"
+      },
+      {
+        "question": "کدام سربرگ برای درج پاورقی است؟",
+        "selected": "Layout",
+        "correct": "References"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پلاتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": "Query رکوردهای جدول را بر اساس دستوری که تعیین می کند Sort می کند",
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form و Datasheet",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "برای حذف سطرهای جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Rows",
+        "correct": "Delete Rows"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "کدام یک از امکانات نرم افزار پایگاه داده Access نمی باشد؟",
+        "selected": "دسترسی تعداد کاربران زیاد",
+        "correct": "دسترسی تعداد کاربران زیاد"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "کلید میانبر Refresh کدام است؟",
+        "selected": "F11",
+        "correct": "F5"
+      },
+      {
+        "question": "دامنه ی مراکز آموزشی در سایت های اینترنتی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": "Sign In",
+        "correct": "Sign Out"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Bing",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "برای نمایش گرافیکی داده های عددی از کدام گزینه استفاده می شود؟",
+        "selected": "Clip Art",
+        "correct": "Chart"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "نرم افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "در کادر Number of recent programs to display تعداد نرم افزارهای پیش فرض برابر است با:",
+        "selected": "8",
+        "correct": "10"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Special Characters",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "255",
+        "correct": "255"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس ایمیل (E-mail) منحصر به فرد است",
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "تعریف زیر معرف کدام یک از موارد زیر است؟ \"محدود کردن نمایش اطلاعات بانک اطلاعاتی به رکوردها و فیلدهایی که برای تطبیق مشخص شده اند.\"",
+        "selected": "ارتباطات در بانک",
+        "correct": "فیلتر"
+      },
+      {
+        "question": "نرم افزار اکسل در کدام مورد کاربرد دارد؟",
+        "selected": "در امور مهندسی و کارهای مربوط به امور مالی",
+        "correct": "در امور مهندسی و کارهای مربوط به امور مالی"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Mailings",
+        "correct": "Mailings"
+      },
+      {
+        "question": "در سطح دیسک هر شیار به قسمت های مساوی به نام ................ تقسیم می شود؟",
+        "selected": "قطاع",
+        "correct": "قطاع"
+      },
+      {
+        "question": "توسط کدام ابزار در سربرگ Insert می توان مجموعه ای از تصاویر را به صورت آلبوم ایجاد کرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "بهترین روش برای جلوگیری از ورود ویروس به سیستم کدام گزینه است؟",
+        "selected": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد",
+        "correct": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "انتخاب یک سبک از کدام روش صورت می گیرد؟",
+        "selected": "انتخاب Style از زبانه Design",
+        "correct": "انتخاب Style از زبانه Home"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر برای ایجاد سند جدید در نرم افزار Word صحیح است؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای اعمال پس زمینه بر روی تمامی اسلاید از کدام گزینه استفاده می کنیم؟",
+        "selected": "Apply To All",
+        "correct": "Apply To All"
+      },
+      {
+        "question": "به چه دلیل از حافظه های جانبی استفاده می شود؟",
+        "selected": "پاک شدن محتوای حافظه Ram هنگام قطع برق",
+        "correct": "پاک شدن محتوای حافظه Ram هنگام قطع برق"
+      }
+    ],
+    "date": "2026-11-06T20:54:21.046Z"
   }
 ]
