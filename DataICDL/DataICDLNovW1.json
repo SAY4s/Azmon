@@ -9796,5 +9796,218 @@
       }
     ],
     "date": "2026-11-06T15:35:33.315Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "18",
+        "correct": "18"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footnote",
+        "correct": "Footnote"
+      },
+      {
+        "question": "سرعت کدام حافظه بیشتر است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "جهت مشخص نمودن سایت های تجاری، کمپانی، موسسات و سازمان های تجاری از دامنه با نام ....... استفاده می کنیم؟",
+        "selected": "Com",
+        "correct": "Com"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "برای جابجایی پنجره در میزکار از گزینه ...... از منوی کنترل پنجره استفاده می نماییم.",
+        "selected": "Move",
+        "correct": "Move"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Replace With",
+        "correct": "Replace With"
+      },
+      {
+        "question": "برای ایجاد ارتباط بین دو جدول از سربرگ ...... گزینه ....... استفاده می شود؟",
+        "selected": "سربرگ database tools گزینه relationships",
+        "correct": "سربرگ database tools گزینه relationships"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "می خواهیم عبارت Shiraz و University را جستجو کنیم، جستجو به چه صورت باشد که واژه University در جستجو نباشد؟",
+        "selected": "Shiraz - University",
+        "correct": "Shiraz - University"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Selection",
+        "correct": "Page"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": "حافظه اصلی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Number",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Review>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "برای اضافه کردن نام سایت به لیست علاقه مندی خود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Add To Favorites",
+        "correct": "Add To Favorites"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "اگر برای فیلدی کلید اولیه تعریف کنیم.......................",
+        "selected": "می توانیم دو داده مشابه و یا خالی داشته باشیم",
+        "correct": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم"
+      },
+      {
+        "question": "خط آبی در زیر کلمات چه معنایی دارد؟",
+        "selected": "کلمه مشکل گرامری دارد",
+        "correct": "کلمه مشکل گرامری دارد"
+      },
+      {
+        "question": "برای مرتب کردن اطلاعات موجود در لیست (بر اساس حروف الفبا) ......",
+        "selected": "Data \\ Sort",
+        "correct": "Data \\ Sort"
+      },
+      {
+        "question": "توسط این گزینه می توانیم ارتفاع جدول را تعیین کنیم:",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "40",
+        "correct": "40"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود",
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "از این ابزار در گروه Paragraph برای تعیین جهت متن در کادر متنی استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Wait",
+        "correct": "Wait"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "جهت فعال نمودن Folder Option از کدام روش استفاده می کنیم؟",
+        "selected": "از مسیر Start | Control Panel | Folder Option اقدام می نماییم",
+        "correct": "استفاده از منوی Tools در هر پنجره ای"
+      },
+      {
+        "question": "کدام گزینه، روش ایجاد فرم به صورت دستی است؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "کدام خاصیت زیر قانون صحت ورود اطلاعات را مشخص می کند؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": "یک نرم افزار واژه پرداز است",
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Page Footer",
+        "correct": "Details"
+      },
+      {
+        "question": "از ابزار Object به منظور ......",
+        "selected": "درج تصاویری که توسط نرم افزارها و دوربین های دیجیتال ایجاد شده اند و به صورت فایل بر روی دیسک سخت قرار دارند",
+        "correct": "درج فایل هایی از داخل حافظه دیسک سخت از قبیل فایل های نرم افزارهای غیرمرتبط"
+      }
+    ],
+    "date": "2026-11-06T18:46:31.230Z"
   }
 ]
