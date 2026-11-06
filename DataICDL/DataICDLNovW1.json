@@ -9583,5 +9583,218 @@
       }
     ],
     "date": "2026-11-06T14:53:07.035Z"
+  },
+  {
+    "name": "مهدیه یوسفی",
+    "nationalId": "4380613089",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 5,
+    "unanswered": 11,
+    "answers": [
+      {
+        "question": "منظور از توپولوژی شبکه چیست؟",
+        "selected": null,
+        "correct": "شکل ظاهری در آرایش فیزیکی اتصال گره های شبکه است"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "به اولین صفحه یک وب سایت ........................... می گویند.",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برای تغییر سایز آیکن ها از کدام فرمان استفاده می نماییم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": null,
+        "correct": "Home"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": null,
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "جهت مشاهده مجدد صفحات وب ویزیت شده در هفته پیش از چه دکمه ای استفاده می کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": null,
+        "correct": "Details"
+      },
+      {
+        "question": "برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": null,
+        "correct": "Outline"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": "Db",
+        "correct": "Db"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "برای ایجاد یک لیست علامت گذاری شده از کدام ابزار گروه Paragraph استفاده می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Stretch",
+        "correct": "Stretch"
+      },
+      {
+        "question": "جهت ساخت جداول از روش های مختلف از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Home",
+        "correct": "Create"
+      },
+      {
+        "question": "کلید میان بر برای چاپ کدام مورد می باشد؟",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر بعد از انیمیشن قبل از خود اجرا شود کدام گزینه انتخاب می کنیم؟",
+        "selected": "With Previous",
+        "correct": "After Previous"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن زیر خط دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": null,
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "کدامیک از انواع داده عددی خواص Scale و Precision را جهت کنترل ورود اعداد اعشاری در اختیار ما قرار می دهد؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "برای بستن سند از چه دستوری استفاده می شود؟",
+        "selected": null,
+        "correct": "Close"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE به طور اتوماتیک نمایش داده می شود ....... نام دارد",
+        "selected": null,
+        "correct": "Home Page"
+      },
+      {
+        "question": "برنامه های در حال اجرا در محیط ویندوز در کدام قسمت نشان داده می شوند؟",
+        "selected": null,
+        "correct": "Task Manager"
+      },
+      {
+        "question": "برای اینکه طرح زمینه انتخاب شده در مرکز صفحه مانیتور باشد باید ............. انتخاب نماییم.",
+        "selected": "Tile",
+        "correct": "Center"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "میان افزار",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "کدام یک از انواع نرم افزار برای ویرایش متن مناسب است؟",
+        "selected": "واژه پردازها",
+        "correct": "واژه پردازها"
+      },
+      {
+        "question": "کلیدهای میانبر فرمان Copy و Paste کدام است؟",
+        "selected": "Ctrl+C ، Ctrl+V",
+        "correct": "Ctrl+C ، Ctrl+V"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": "Paste",
+        "correct": "Paste"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "برای بازیابی پوشه و یا فایل حذف شده باید از کدام فرمان استفاده کرد؟",
+        "selected": "Restore",
+        "correct": "Restore"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": null,
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "برای اندیس گذاری (زیرنویس) چه گزینه ای مناسب است؟",
+        "selected": "Subscript",
+        "correct": "Subscript"
+      }
+    ],
+    "date": "2026-11-06T15:35:33.315Z"
   }
 ]
