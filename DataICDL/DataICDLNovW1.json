@@ -11926,5 +11926,218 @@
       }
     ],
     "date": "2026-11-07T14:07:32.034Z"
+  },
+  {
+    "name": "امیرعلی فتح الهی",
+    "nationalId": "4312460140",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 7,
+    "unanswered": 3,
+    "answers": [
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول های A2 تا C5 و سلول D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "جهت چاپ گزارش بر روی کاغذ",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      },
+      {
+        "question": "در قسمت .............. از پنجره Find and Replace عبارتی را که می خواهیم ورد آن را برای جایگزینی انتخاب کند (پیدا کند)، می نویسیم.",
+        "selected": "Replace With",
+        "correct": "Find What"
+      },
+      {
+        "question": "در نرم افزار Notepad برای تنظیمات کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Page setup",
+        "correct": "Page setup"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای تغییر رنگ متن نوشته شده از کدام گزینه استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Special Characters",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "تهیه و ویرایش کتاب و مقاله",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "اگر در هنگام طراحی Query ستاره را از لیست فیلدها به لیست فیلد Query اضافه کنیم چه اتفاق می افتد؟",
+        "selected": null,
+        "correct": "Query تمام فیلدهای جدول را شامل می شود"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "Error",
+        "correct": "4"
+      },
+      {
+        "question": "به ورودی های یک سیستم کامپیوتری .................... و به خروجی های آن ....................گفته می شود.",
+        "selected": "داده Data - اطلاعات Information",
+        "correct": "داده Data - اطلاعات Information"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": "Podcast",
+        "correct": "RSS"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "فایل (File) به چه معنا است؟",
+        "selected": "به همه اطلاعات موجود در رایانه می گویند",
+        "correct": "به همه اطلاعات موجود در رایانه می گویند"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "کلیه نامه هایی که به آدرس شما ارسال می گردد در کدام پوشه ذخیره می شود؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "File/Message/New Message",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Sort را از تب Data انتخاب می کنیم",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "به منبع انرژی غیرقابل توقف.........",
+        "selected": "Power",
+        "correct": "UPS"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدامیک پرسشی است که از داده های ذخیره شده در جدول مطرح می شود؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Left از سربرگ Layout، 5 سطر در ............. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت چپ",
+        "correct": "سمت چپ"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Sentence Case",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Text Effects",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "انتشار سند در دیگر فرمت ها",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": null,
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "برای خط کش کدام ابزار از سربرگ View را فعال می کنید؟",
+        "selected": "Ruler",
+        "correct": "Ruler"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      }
+    ],
+    "date": "2026-11-07T14:25:36.093Z"
   }
 ]
