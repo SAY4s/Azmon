@@ -12565,5 +12565,218 @@
       }
     ],
     "date": "2026-11-07T14:54:04.730Z"
+  },
+  {
+    "name": "مهدیه یوسفی",
+    "nationalId": "4380613089",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 13,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Weight",
+        "correct": "Width"
+      },
+      {
+        "question": "معاونی و سازمان دهی اطلاعات در چند سطر که در مورد یک موجودیت می باشد را .............. گویند؟",
+        "selected": null,
+        "correct": "جدول"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Information Technology است و به معنای فناوری ارتباطات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "خط آبی در زیر کلمات چه معنایی دارد؟",
+        "selected": "کلمه مشکل فرمت دارد",
+        "correct": "کلمه مشکل گرامری دارد"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ...................... است.",
+        "selected": "حجم",
+        "correct": "حجم"
+      },
+      {
+        "question": "کدام نرم افزار زیر یک بانک اطلاعاتی است؟",
+        "selected": "Access",
+        "correct": "Access"
+      },
+      {
+        "question": "کدام یک از موارد زیر تعریف کامپیوتر می باشد؟",
+        "selected": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند",
+        "correct": "وسیله ای است که می تواند داده هایی را به عنوان ورودی دریافت کرده و عملیات خاصی روی آن انجام داده و خروجی های مورد نیاز را تولید کند"
+      },
+      {
+        "question": "از ابزار Word Art به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن گرافیکی",
+        "correct": "ایجاد متن گرافیکی"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Short Text",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom Out",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "هر فایل ارائه مطلب حداقل ....... اسلاید دارد.",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "عملکرد گزینه Start در سربرگ Animation چیست؟",
+        "selected": "نحوه آغاز شدن انیمیشن را مشخص می کند",
+        "correct": "نحوه آغاز شدن انیمیشن را مشخص می کند"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Setting / Keyboard / Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": "()",
+        "correct": "@"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": "پست الکترونیکی",
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "جهت حذف یک فیلتر روی کدام گزینه کلیک می کنیم؟",
+        "selected": "Delete Filter",
+        "correct": "Clear Filter"
+      },
+      {
+        "question": "گزینه Eraser از گروه Draw چه کاربردی دارد؟",
+        "selected": "حذف قسمت مورد نظر جدول",
+        "correct": "حذف قسمت مورد نظر جدول"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": null,
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide و Previous Slide"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Open Table",
+        "correct": "Tables"
+      },
+      {
+        "question": "هر کیلو بایت معادل چند بایت است؟",
+        "selected": "1024",
+        "correct": "1024"
+      },
+      {
+        "question": "کدام نوع رابطه در بین جداول اشتباه است؟",
+        "selected": "رابطه چند به یک",
+        "correct": "رابطه چند به یک"
+      },
+      {
+        "question": "کامپیوترهای شخصی از کدام نوع کامپیوترها هستند؟",
+        "selected": "Micro Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند جزء خصوصیت فایل ها باشد؟",
+        "selected": "Properties",
+        "correct": "Read Only"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "انتخاب کدام گزینه کامپیوتر را در حالت آماده باش قرار می دهد؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      }
+    ],
+    "date": "2026-11-07T15:19:11.910Z"
   }
 ]
