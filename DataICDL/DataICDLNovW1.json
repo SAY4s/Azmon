@@ -10222,5 +10222,218 @@
       }
     ],
     "date": "2026-11-06T20:54:21.046Z"
+  },
+  {
+    "name": "امیرعلی فتح الهی",
+    "nationalId": "4312460140",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "چنانچه آیکن ضد ویروس با رنگ قرمز نمایان شود نشانه چیست؟",
+        "selected": "به روز نبودن ضد ویروس",
+        "correct": "به روز نبودن ضد ویروس"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": "Option>Advanced>Editing Option",
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "برای تقسیم یک خانه جدول به چند خانه از کدام گزینه استفاده می کنیم؟",
+        "selected": "Merge Cells",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "کلید میانبر فرمان paste چیست؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+V"
+      },
+      {
+        "question": "کدام گزینه در مورد آرگونومی بکار می رود؟",
+        "selected": "حفظ سلامت انسان در محیط کار",
+        "correct": "حفظ سلامت انسان در محیط کار"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "کدام یک از امکانات نرم افزار پایگاه داده Access نمی باشد؟",
+        "selected": "تجزیه و تحلیل اطلاعات",
+        "correct": "دسترسی تعداد کاربران زیاد"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Section",
+        "correct": "Section"
+      },
+      {
+        "question": "کدام منو در نرم افزار Powerpoint برای ایجاد انیمیشن کاربرد دارد؟",
+        "selected": "Animations",
+        "correct": "Animations"
+      },
+      {
+        "question": "به سرویس شبکه که امکان ارسال و دریافت نامه را میسر می کند چه گفته می شود؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Web Layout",
+        "correct": "Outline"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selected Text",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide و Previous Slide"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "نوع داده متنی با طول زیاد کدام یک از گزینه های زیر می باشد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "پست الکترونیکی، آموزش الکترونیکی",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "انتقال دادن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Print Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "=A2+A3",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "با استفاده از .......... می توانیم اسلایدها را در زمانی که محتوای آن بزرگتر از اندازه ی پنجره است در راستای عمودی و افقی پیمایش کنیم.",
+        "selected": "نوارهای پیمایش",
+        "correct": "نوارهای پیمایش"
+      },
+      {
+        "question": "کدام تابع زیر برای محاسبه میانگین بکار می رود؟",
+        "selected": "AVERAGE",
+        "correct": "AVERAGE"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "برای شمارش تعداد کاراکترهای متن یک سند از کدام فرمان استفاده می کنیم؟",
+        "selected": "فرمان Word Count از منوی Review",
+        "correct": "فرمان Word Count از منوی Review"
+      },
+      {
+        "question": "با انتخاب کدام گزینه از پنجره Find در نرم افزار Word Pad می توان در هنگام جستجو بین حروف بزرگ و کوچک تفاوت قائل شد؟",
+        "selected": "Case Sensitive",
+        "correct": "Case Sensitive"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "کاربرد دستور Page Break در گروه Pages چیست؟",
+        "selected": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند",
+        "correct": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند"
+      },
+      {
+        "question": "با فشردن کدام کلید تابعی مکان نما از حالت متن خارج و سربرگ ها فعال و در کنار سربرگ ها یک عدد یا یک حرف قرار می گیرد؟",
+        "selected": "F10",
+        "correct": "F10"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Format, Layout",
+        "correct": "Design, Layout"
+      }
+    ],
+    "date": "2026-11-07T03:52:53.310Z"
   }
 ]
