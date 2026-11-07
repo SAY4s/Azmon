@@ -1,0 +1,85 @@
+[
+  {
+    "name": "هادی داودی",
+    "nationalId": "0053414209",
+    "exam": "dip_user",
+    "score": 14,
+    "total": 14,
+    "percent": 100,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در زمان جستجو از کدام گزینه برای جستجوی فایلهایی که در یک بازهی زمانی معین تغییرداده شدهاند، استفاده میشود؟",
+        "selected": "Date Modified",
+        "correct": "Date Modified"
+      },
+      {
+        "question": "در برنامه مدیریت وظیفه کدام زبانه برای نمایش برنامه های درحال اجرا میباشد؟",
+        "selected": "Applications",
+        "correct": "Applications"
+      },
+      {
+        "question": "به مجموعه دستورالعمل ها و عملیاتی که برروی داده صورت می گیرد تا نتیجه مورد نظرکاربر حاصل شود؟",
+        "selected": "Process",
+        "correct": "Process"
+      },
+      {
+        "question": "کار گزینه ی Panel Control در منوی Start چیست؟",
+        "selected": "تنظیم و پیکربندی ویندوز",
+        "correct": "تنظیم و پیکربندی ویندوز"
+      },
+      {
+        "question": "کدام گزینه به لیست توزیع اشاره دارد؟",
+        "selected": "Distribution list",
+        "correct": "Distribution list"
+      },
+      {
+        "question": "عملکرد کدام ویروس ساده و خطرناک می باشد و غالباً با تصاویر گرافیکی زیبا همراه است؟",
+        "selected": "Trojan",
+        "correct": "Trojan"
+      },
+      {
+        "question": "کدام گزینه کادر محاورهی وضعیت اتصال سرعت نقل و انتقال داده ها را نمایش میدهد؟",
+        "selected": "Speed",
+        "correct": "Speed"
+      },
+      {
+        "question": "کدام دستور در Run برای اجرای ماشین حساب استفاده می شود؟",
+        "selected": "Calc",
+        "correct": "Calc"
+      },
+      {
+        "question": "فایل wav چه نوع فایلی محسوب میشود؟",
+        "selected": "فایل صوتی",
+        "correct": "فایل صوتی"
+      },
+      {
+        "question": "جهت پاکسازی دیسک و حذف فایل های اضافی و موقت از کدام گزینه استفاده می شود؟",
+        "selected": "Disk cleanup",
+        "correct": "Disk cleanup"
+      },
+      {
+        "question": "به ناحیه بالا و سمت چپ منوی Start که امکان دسترسی سریع به برنامه ها، پوشه ها و فایلها را ایجاد میکند ........... گفته میشود؟",
+        "selected": "لیست برنامه های اخیر",
+        "correct": "لیست برنامه های اخیر"
+      },
+      {
+        "question": "کدام گزینه از عوامل تأثیرگذار برسرعت کامپیوتر است؟",
+        "selected": "گزینه 1 و 2",
+        "correct": "گزینه 1 و 2"
+      },
+      {
+        "question": "کار کلید Enter چیست؟",
+        "selected": "اجرای فرمان ها و ورود اطلاعات",
+        "correct": "اجرای فرمان ها و ورود اطلاعات"
+      },
+      {
+        "question": "گزینه Open each folder in the same window در پنجره Folder Options چه عملی را انجام می دهد؟",
+        "selected": "هر پوشه را در پنجره فعلی باز میکند",
+        "correct": "هر پوشه را در پنجره فعلی باز میکند"
+      }
+    ],
+    "date": "2026-11-07T17:29:29.365Z"
+  }
+]
