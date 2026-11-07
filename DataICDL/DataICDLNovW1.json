@@ -13630,5 +13630,218 @@
       }
     ],
     "date": "2026-11-07T18:11:59.629Z"
+  },
+  {
+    "name": "امیرعلی فتح الهی",
+    "nationalId": "4312460140",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 5,
+    "unanswered": 5,
+    "answers": [
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدام عبارت صحیح است؟",
+        "selected": null,
+        "correct": "حافظه ثانویه قابلیت نگهداری دائمی اطلاعات را دارد"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": "Input Mask",
+        "correct": "Caption"
+      },
+      {
+        "question": "کدامیک از مقادیر مختلف Indexed نیست؟",
+        "selected": null,
+        "correct": "Uni Code"
+      },
+      {
+        "question": "کدامیک از فیلدهای زیر برای Primary Key مناسب تر است؟",
+        "selected": "فیلد شماره عضویت فرد در کتابخانه",
+        "correct": "فیلد شماره عضویت فرد در کتابخانه"
+      },
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Print Selection",
+        "correct": "Custom Print"
+      },
+      {
+        "question": "برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "کدام وسیله ورودی می تواند تصاویر را به صفر و یک تبدیل کرده و وارد کامپیوتر می نماید؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "کدام یک از شرکت های زیر خدمات ساخت پست الکترونیکی را به صورت رایگان نمی دهند؟",
+        "selected": "Yahoo",
+        "correct": "Yahoo"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود",
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide و Previous Slide"
+      },
+      {
+        "question": "نرم افزار Word چه نوع نرم افزاری است؟",
+        "selected": "یک نرم افزار واژه پرداز است",
+        "correct": "یک نرم افزار واژه پرداز است"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "کدامیک از موارد زیر از واحدهای ریزپردازنده نمی باشند؟",
+        "selected": null,
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "Apply Styles چه کاری انجام می دهد؟",
+        "selected": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم",
+        "correct": "سبک جدید ایجاد می کند و می توانیم سبک های موجود را اعمال کنیم"
+      },
+      {
+        "question": "اگر بخواهیم برای کاراکتر انتخاب شده در پنجره Symbol یک کلید میانبر ایجاد کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Shortcut key",
+        "correct": "Shortcut key"
+      },
+      {
+        "question": "بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Name",
+        "correct": "Caption"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F2",
+        "correct": "F11"
+      },
+      {
+        "question": "برای خطایابی املایی و گرامری از سربرگ ........................ گزینه ............................... را انتخاب می کنیم.",
+        "selected": "Review > Spelling & Grammar",
+        "correct": "Review > Spelling & Grammar"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      },
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "برای ذخیره نمودن تصاویر در وب پس از راست کلیک از چه گزینه ای استفاده می شود؟",
+        "selected": "Save picture as",
+        "correct": "Save picture as"
+      },
+      {
+        "question": "گزینه Increase Indent به چه منظوری به کار می رود؟",
+        "selected": "زیاد کردن فاصله پاراگراف از حاشیه",
+        "correct": "زیاد کردن فاصله پاراگراف از حاشیه"
+      },
+      {
+        "question": "از ابزار Line Spacing به چه منظور استفاده می شود؟",
+        "selected": "تعیین فاصله بین خطوط",
+        "correct": "تعیین فاصله بین خطوط"
+      },
+      {
+        "question": "در کادر محاوره ای Personalize برای اینکه تصویر انتخاب شده برای زمینه، کل صفحه را بپوشاند کدام مورد را از فهرست باز شوی Position باید انتخاب نمود؟",
+        "selected": "Stretch",
+        "correct": "Stretch"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Wireless",
+        "correct": "Wireless"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "در هنگام طراحی فرم با Form Wizard کلیک بر روی کدام دکمه باعث انتقال تمام فیلدها از لیست Available Selected Fields می شود؟",
+        "selected": null,
+        "correct": "<<"
+      },
+      {
+        "question": "برای مرتب نمودن آیکن های پنجره بر اساس نوع فایل ها از کدام گزینه استفاده می شود؟",
+        "selected": "Type",
+        "correct": "Type"
+      },
+      {
+        "question": "برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟",
+        "selected": null,
+        "correct": "استفاده از Format Painter"
+      },
+      {
+        "question": "کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟",
+        "selected": "Paragraph",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "با انتخاب Hide Slide چه اتفاقی رخ می دهد؟",
+        "selected": "اسلاید در نمای اجرا دیده نخواهد شد",
+        "correct": "اسلاید در نمای اجرا دیده نخواهد شد"
+      }
+    ],
+    "date": "2026-11-07T19:07:12.127Z"
   }
 ]
