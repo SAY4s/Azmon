@@ -637,5 +637,218 @@
       }
     ],
     "date": "2026-11-08T14:32:29.549Z"
+  },
+  {
+    "name": "امیرعلی فتح الهی",
+    "nationalId": "4312460140",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 3,
+    "unanswered": 7,
+    "answers": [
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": "Text Effects",
+        "correct": "Text Effects"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "با انتخاب کدام گزینه از پنجره Find در نرم افزار Word Pad می توان در هنگام جستجو بین حروف بزرگ و کوچک تفاوت قائل شد؟",
+        "selected": "Case Sensitive",
+        "correct": "Case Sensitive"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": null,
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "کاربرد گزینه Change Case چیست؟",
+        "selected": null,
+        "correct": "تغییر حروف لاتین از بزرگ به کوچک و بالعکس"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": null,
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "از کدام دستور برای چرخش تصویر استفاده می شود؟",
+        "selected": "Rotate",
+        "correct": "Rotate"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": null,
+        "correct": "Home"
+      },
+      {
+        "question": "در کادر محاوره ای Format Cells و از تب Alignment انتخاب Fill چه عملی انجام می دهد؟",
+        "selected": "باعث می شود که متن نوشته شده در خانه طوری تغییر اندازه داده شود تا در طول خانه قرار گیرد",
+        "correct": "باعث تکرار متن می شود تا عرض خانه را پر کند"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "IT به معنای چیست؟",
+        "selected": "فناوری اطلاعات",
+        "correct": "فناوری اطلاعات"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "کدام گزینه شامل کلیدهای کنترلی می شود؟",
+        "selected": "Ctrl-Shift-Alt-Esc",
+        "correct": "Ctrl-Shift-Alt-Esc"
+      },
+      {
+        "question": "پسوند فایل های پشتیبان چیست؟",
+        "selected": "bkf",
+        "correct": "bkf"
+      },
+      {
+        "question": "جهت نمایش محتوای فایل های شناسایی نشده توسط ویندوز کدام گزینه صحیح است؟",
+        "selected": null,
+        "correct": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Fit To Window",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": "پست الکترونیکی",
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "پست الکترونیک به کدام گزینه معروف است؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": null,
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "منویی که با کلیک راست روی آیکن نمایش می یابد، چه نام دارد؟",
+        "selected": "منوی میانبر",
+        "correct": "منوی میانبر"
+      },
+      {
+        "question": "هنگام اضافه کردن یک سلول گزینه Shift Cells Down چه عملی انجام می دهد؟",
+        "selected": "انتقال سایر خانه ها به پایین",
+        "correct": "انتقال سایر خانه ها به پایین"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "به نرم افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می شود؟",
+        "selected": "Shareware",
+        "correct": "Shareware"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت کروشه",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "در هنگام ادغام پستی از قسمت .............. می توان گیرنده ها را تعیین نمود.",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از ویژگی های ویندوز 7 است؟",
+        "selected": "AERO",
+        "correct": "AERO"
+      },
+      {
+        "question": "برای تعیین نوع داده ها از چه گزینه ای استفاده می شود؟",
+        "selected": "Data Type",
+        "correct": "Data Type"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE بطور اتوماتیک نمایش داده می شود چه نامیده می شود؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "انتقال دادن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "فشردن کدام یک از کلیدهای ترکیبی زیر قسمت های مورد نیاز یک آدرس اینترنتی با پسوند COM را بجز نام آدرس اضافه می نماید؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "در کدام ناحیه از اسلاید فعال می توانیم آن را اصلاح کنیم؟",
+        "selected": "ناحیه ویرایش اسلاید",
+        "correct": "ناحیه ویرایش اسلاید"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Bit",
+        "correct": "Bit"
+      }
+    ],
+    "date": "2026-11-08T14:33:16.285Z"
   }
 ]
