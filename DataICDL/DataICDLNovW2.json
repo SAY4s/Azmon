@@ -1063,5 +1063,218 @@
       }
     ],
     "date": "2026-11-08T14:45:15.098Z"
+  },
+  {
+    "name": "امیرعلی فتح الهی",
+    "nationalId": "4312460140",
+    "exam": "icdl",
+    "score": 35,
+    "total": 40,
+    "percent": 88,
+    "wrong": 3,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "برای انجام عمل جستجو در اینترنت توسط IE از کدام سایت ها نمی توان استفاده کرد؟",
+        "selected": null,
+        "correct": "Blogfa"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "Insert / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": "یک بایت",
+        "correct": "2 بایت"
+      },
+      {
+        "question": "آدرس منحصر به فرد در هر صفحه وب چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
+        "selected": "DVD و CD",
+        "correct": "DVD و CD"
+      },
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود",
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "فشردن کدام یک از کلیدهای ترکیبی زیر قسمت های مورد نیاز یک آدرس اینترنتی با پسوند COM را بجز نام آدرس اضافه می نماید؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "توسط کدامیک از روش های زیر می توان به پنجره Control Panel دسترسی پیدا کرد؟",
+        "selected": "Start Menu",
+        "correct": "Start Menu"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "کدام گزینه غلط است؟",
+        "selected": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند",
+        "correct": "به متن داخل هر سلول، یادداشت متنی (توضیحات) می گویند"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Column Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای تعیین خصوصیات یک فیلد می توان جدول را در دو نمای ............. یا ............... نشان دهیم.",
+        "selected": "Format",
+        "correct": "Design"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Formula Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "جهت نمایش درایوها و پوشه ها با جزئیات از کدام گزینه استفاده می نماییم؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای اینکه بخواهید اطلاعاتی که به هم مربوط هستند را به صورت شکل و تصویر نمایش دهید از چه دستوری در Word استفاده می کنید؟",
+        "selected": "Shape",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "در نوار ابزار IE دکمه ستاره، کدام فرمان زیر را اجرا می کند؟",
+        "selected": "Favorites",
+        "correct": "Favorites"
+      },
+      {
+        "question": "برای فراخوانی مجدد صفحه وب کنونی از کدام دکمه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "عملکرد تابع IF چیست؟",
+        "selected": "بر روی سلول های انتخابی شرط می گذارد، در صورت درست بودن شرط پیام مناسب می دهد",
+        "correct": "بر روی سلول های انتخابی شرط می گذارد، در صورت درست بودن شرط پیام مناسب می دهد"
+      },
+      {
+        "question": "کدامیک از چاپگرهای زیر سرعت بیشتری دارد؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخابی را روی همه اسلایدها اعمال کنیم با راست کلیک بر روی تم مورد نظر کدام گزینه مناسب است؟",
+        "selected": "Apply to All Slides",
+        "correct": "Apply to All Slides"
+      },
+      {
+        "question": "کدام کلید مکان نما را به اولین فیلد رکورد جاری منتقل می کند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "در کادر محاوره ای Internet Option کلیک بر روی دکمه Use Current در بخش General چه عملی انجام می شود؟",
+        "selected": "آدرس صفحه جاری را به عنوان صفحه Home Page درنظر می گیرد",
+        "correct": "آدرس صفحه جاری را به عنوان صفحه Home Page درنظر می گیرد"
+      },
+      {
+        "question": "شیرازه یعنی چه؟",
+        "selected": null,
+        "correct": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی"
+      },
+      {
+        "question": "به شبکه های بی سیم ...... گفته می شود.",
+        "selected": "Wireless",
+        "correct": "Wireless"
+      },
+      {
+        "question": "برای درج شماره صفحه به چه صورت باید عمل نمود؟",
+        "selected": "Insert>Header & Footer>Page Number",
+        "correct": "Insert>Header & Footer>Page Number"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Database",
+        "correct": "Database"
+      },
+      {
+        "question": "فرمان ...... کاربرگ فعال را حذف می کند؟",
+        "selected": "Delete",
+        "correct": "Delete"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Special Characters",
+        "correct": "Special Characters"
+      }
+    ],
+    "date": "2026-11-08T15:27:31.601Z"
   }
 ]
