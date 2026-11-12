@@ -6601,5 +6601,218 @@
       }
     ],
     "date": "2026-11-12T12:16:10.977Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از چه طریقی می توان به همراه نامه الکترونیکی یک فایل ضمیمه کرده و ارسال کرد؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Design, Layout",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Primary",
+        "correct": "Primary"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "CD-ROM",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "کدام فرمان برای باز کردن یک سند موجود به کار می رود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Internet",
+        "correct": "Lan"
+      },
+      {
+        "question": "اندازه داده نوع متنی چقدر می باشد؟",
+        "selected": "محدودیتی ندارد",
+        "correct": "255 بایت"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "اگر بخواهیم نامه رسیده را برای دیگران ارسال کنیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "فرمان Forward To All",
+        "correct": "فرمان Forward"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با تغییر سلول های مبدا سلول های مقصد تغییر کند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Themes",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "برای خاتمه دادن به نمایش اسلایدها کدام کلید را باید فشرد؟",
+        "selected": "Esc",
+        "correct": "Esc"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Layout View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "Decimal Tab",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "پرس و جو بر اساس یک معیار در اکسس چه نامیده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": "Define New Multilevel List",
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "برای مرتب کردن یک لیست از کدام گزینه استفاده می شود؟",
+        "selected": "گزینه Auto Filter از تب Data",
+        "correct": "گزینه Sort را از تب Data انتخاب می کنیم"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Inbox",
+        "correct": "Outbox"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Footnotes",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد",
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پلاتر",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "در هنگام ذخیره سند کدام فرمت به عنوان پسوند پیش فرض فایل انتخاب می گردد؟",
+        "selected": "docx",
+        "correct": "docx"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "فناوری اطلاعات و ارتباطات",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": "Last Month",
+        "correct": "Last Month"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": "Caption",
+        "correct": "Caption"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Ctrl+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "اگر بخواهیم چند فایل صفحه گسترده را با موقعیت و اندازه هر کدام در یک پنجره نمایش دهیم؟",
+        "selected": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window",
+        "correct": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Server Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "برای کم کردن فاصله پاراگراف از حاشیه باید چه دستوری را اجرا کنیم؟",
+        "selected": "Increase Indent",
+        "correct": "Decrease Indent"
+      },
+      {
+        "question": "کدامیک از بخش های اصلی فرم نیست؟",
+        "selected": "Detail",
+        "correct": "Form View"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "از ابزار Object به منظور ......",
+        "selected": "درج تصاویری که توسط نرم افزارها و دوربین های دیجیتال ایجاد شده اند و به صورت فایل بر روی دیسک سخت قرار دارند",
+        "correct": "درج فایل هایی از داخل حافظه دیسک سخت از قبیل فایل های نرم افزارهای غیرمرتبط"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر جهت مرور محتویات پنجره های ویندوز مورد استفاده قرار می گیرد؟",
+        "selected": "Scroll Bar",
+        "correct": "Scroll Bar"
+      }
+    ],
+    "date": "2026-11-12T12:38:03.038Z"
   }
 ]
