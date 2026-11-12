@@ -7240,5 +7240,218 @@
       }
     ],
     "date": "2026-11-12T13:05:07.658Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "صفحه خانگی یک وب سایت را ...... گویند؟",
+        "selected": "Home page",
+        "correct": "Home page"
+      },
+      {
+        "question": "برای ذخیره سند از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": "لیزری",
+        "correct": "لیزری"
+      },
+      {
+        "question": "از کدام فرمان برای ایجاد یک فایل صفحه گسترده جدید استفاده می کنیم؟",
+        "selected": "New",
+        "correct": "New"
+      },
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "جهت آدرس دهی مطلق از چه علامتی استفاده می شود؟",
+        "selected": "$",
+        "correct": "$"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو در اکسل کافی است در لیست save as type گزینه ... را انتخاب کنید.",
+        "selected": "save in",
+        "correct": "excel template"
+      },
+      {
+        "question": "چنانچه بخواهیم نام یکی از کاربرگ های موجود در کارپوشه را تغییر دهیم از چه دستوری استفاده می کنیم؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "اگر برای فیلدی کلید اولیه تعریف کنیم.......................",
+        "selected": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم",
+        "correct": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم"
+      },
+      {
+        "question": "کدامیک از انواع نوع داده (Data Type) نمی باشد؟",
+        "selected": "Attachment",
+        "correct": "Primary"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "حافظه موقت در عمل کپی کدامیک است؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "برای درج جدول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Table",
+        "correct": "سربرگ Insert گروه Table"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیز را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "کدام فیلد عددی برای ستون سن مناسب است؟",
+        "selected": "Single",
+        "correct": "Byte"
+      },
+      {
+        "question": "برای اینکه هنگام اجرای Query توسط یک کادر محاوره ای سؤالی مبنی بر تعیین معیار پرسیده شود در سطر Criteria کدام مورد زیر را می توان قرار داد؟",
+        "selected": "{?}",
+        "correct": "{?}"
+      },
+      {
+        "question": "برای چاپ تمام صفحات سند بهترین گزینه کدام است؟",
+        "selected": "Print All Pages",
+        "correct": "Print All Pages"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Fields",
+        "correct": "Fields"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Shift همراه با کلیدهای جهتی",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Manually Print On Both Sides",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "از نمای ................. در نرم افزار می توان برای نمایش اسلایدهای طراحی شده به شرکت کنندگان در جلسه استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Slide Show"
+      },
+      {
+        "question": "کدام یک از خصوصیات زیر درمورد فیلدها تعیین کننده مقدار پیش فرض می باشد؟",
+        "selected": "Default value",
+        "correct": "Default value"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "برای درج برچسب نامه از کدام ابزار استفاده می کنیم؟",
+        "selected": "Labels",
+        "correct": "Labels"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze Panes",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom Out",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "کدامیک از Object های زیر مربوط به Access نیست؟",
+        "selected": "Workbooks",
+        "correct": "Workbooks"
+      },
+      {
+        "question": "کدام مورد یک دستگاه خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "در صورتی که بخواهیم رنگ پس زمینه با ترکیب دو رنگ متفاوت باشد گزینه ....... را در پنجره ی Format Background فعال می کنیم؟",
+        "selected": "Gradient Fill",
+        "correct": "Gradient Fill"
+      }
+    ],
+    "date": "2026-11-12T18:16:10.202Z"
   }
 ]
