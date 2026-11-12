@@ -5962,5 +5962,218 @@
       }
     ],
     "date": "2026-11-12T05:22:58.764Z"
+  },
+  {
+    "name": "سجاد نوروزی",
+    "nationalId": "4312152667",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در پنجره Spelling & Grammar جهت نادیده گرفتن غلط املایی، کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر به امور سلامتی هنگام کار با کامپیوتر مربوط نیست؟",
+        "selected": "ذخیره کردن مرتب کار",
+        "correct": "ذخیره کردن مرتب کار"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "کدام گزینه از کاربردهای Excel نمی باشد؟",
+        "selected": "انجام امور نشر رومیزی",
+        "correct": "انجام امور نشر رومیزی"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Print All Page",
+        "correct": "Copies"
+      },
+      {
+        "question": "در جدول Query سطر Criteria برای چه منظوری گذاشته شده است؟",
+        "selected": "برای معیار انتخاب رکوردها جهت نمایش",
+        "correct": "برای معیار انتخاب رکوردها جهت نمایش"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "در صورتی که بخواهیم رنگ پس زمینه با ترکیب دو رنگ متفاوت باشد گزینه ....... را در پنجره ی Format Background فعال می کنیم؟",
+        "selected": "Pattern Fill",
+        "correct": "Gradient Fill"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Upload , Download",
+        "correct": "Download , Upload"
+      },
+      {
+        "question": "برای تکرار اجرای جلوه انیمیشن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "در مرورگر IE جهت نمایش تمام صفحه (Full Screen) از کدام کلید استفاده می شود؟",
+        "selected": "F10",
+        "correct": "F11"
+      },
+      {
+        "question": "اطلاعات کدام یک از حافظه های زیر در نبود برق از بین می رود؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر طول مدت زمان نمایش Animation را نشان می دهد؟",
+        "selected": "Duration",
+        "correct": "Duration"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - Clients",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "هدف ارگونومیک چیست؟",
+        "selected": "سلامت انسان در محیط کار",
+        "correct": "سلامت انسان در محیط کار"
+      },
+      {
+        "question": "ابزار Format Painter چه عملی انجام می دهد؟",
+        "selected": "متن را قالب بندی می کند",
+        "correct": "قالب متن را کپی می کند"
+      },
+      {
+        "question": "برای تصحیح خودکار کلمات اشتباه آن ها را به کدام بخش اضافه می کنیم؟",
+        "selected": "Spelling",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "اگر بخواهیم چند فایل صفحه گسترده را با موقعیت و اندازه هر کدام در یک پنجره نمایش دهیم؟",
+        "selected": "انتخاب گزینه Protections از تب Review",
+        "correct": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Edit Header",
+        "correct": "Edit Header"
+      },
+      {
+        "question": "برای تجزیه یک سلول به چند سطر و ستون از کدام دستور استفاده می کنیم؟",
+        "selected": "Split Table",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Shift+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "OLE Object",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای جستجوی فایلی که پنج حرفی بوده و با M شروع می شود و به S ختم می شود در کادر جستجو چگونه باید تایپ نمود؟",
+        "selected": "~M???S",
+        "correct": "~M???S"
+      },
+      {
+        "question": "کدام گزینه، روش ایجاد فرم به صورت دستی است؟",
+        "selected": "Form Design",
+        "correct": "Form Design"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدامیک از موارد زیر از توانایی های برنامه های صفحه گسترده نمی باشد؟",
+        "selected": "بررسی میزان فروش یک شرکت",
+        "correct": "تولید یک برنامه اجرایی مستقل کامپیوتری"
+      },
+      {
+        "question": "برای مشاهده ظرفیت یک فایل روی آن راست کلیک کرده و گزینه ................. را انتخاب می کنیم.",
+        "selected": "Capacity",
+        "correct": "Properties"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Customize > Format Background",
+        "correct": "Design > Variants > Background Styles"
+      },
+      {
+        "question": "کدام مدل مانیتور با پرتاب اشعه به صفحه کار می کند؟",
+        "selected": "CRT",
+        "correct": "CRT"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Add Gallery to Quick Access Toolbar",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "به ورودی های خام سیستم چه می گویند؟",
+        "selected": "پردازش",
+        "correct": "داده"
+      },
+      {
+        "question": "برای دسترسی به سایت های با قالب (WWW.نام سایت.COM) کافیست بعد از تایپ نام سایت کلیدهای ..... را بزنیم.",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "برای چاپ کل سند از کادر محاوره ای Print کدام مورد را باید انتخاب کرد؟",
+        "selected": "Selection",
+        "correct": "Entire Work Book"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "Memory Secondary",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "رکورد"
+      }
+    ],
+    "date": "2026-11-12T10:14:57.780Z"
   }
 ]
