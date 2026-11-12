@@ -5749,5 +5749,218 @@
       }
     ],
     "date": "2026-11-11T17:21:48.356Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 25,
+    "total": 40,
+    "percent": 63,
+    "wrong": 15,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ضمیمه یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "هر مگابایت معادل چند بایت است؟",
+        "selected": "1024*1024",
+        "correct": "1024*1024"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "کدام ابزار برای ایجاد لیست شماره گذاری مورد استفاده قرار می گیرد.",
+        "selected": "Numbering",
+        "correct": "Numbering"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر مصداق کلمه Information است؟",
+        "selected": "داده های خام",
+        "correct": "به خروجی هایی که پس از پردازش داده ها تولید می شود"
+      },
+      {
+        "question": "برای حذف یک سطر جدول از …… استفاده می کنیم.",
+        "selected": "Delete",
+        "correct": "گزینه Delete Rows"
+      },
+      {
+        "question": "برای مشاهده آخرین اخبار به روز شده سایت ها از .............................. استفاده می کنیم.",
+        "selected": "RSS",
+        "correct": "RSS"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و گزینه Change را برمی گزینیم",
+        "correct": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Rows",
+        "correct": "Fields"
+      },
+      {
+        "question": "برای مرتب سازی نوشته ها بر اساس عدد یا حروف الفبا سریع ترین دستور کدام است؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "برای نمایش گرافیکی داده های عددی از کدام گزینه استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "در قسمت خواص فیلد، کدام گزینه زیر برای تعیین الگوی خاصی جهت ورود داده ها در فیلد بکار می رود؟",
+        "selected": "Default Value",
+        "correct": "Input Mask"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "CPU",
+        "correct": "UPS"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "E-mail",
+        "correct": "Spam"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک روی جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انتخاب گزینه Arrange از تب Review",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر درباره Sleep نادرست است؟",
+        "selected": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد",
+        "correct": "در این حالت ما مجبور به راه اندازی سیستم ویندوز هستیم و زمان زیادی مصرف می گردد"
+      },
+      {
+        "question": "برای تکرار عنوان سطر جدول در هر صفحه از کدام ابزار می توان استفاده نمود؟",
+        "selected": "Repeat Header Column",
+        "correct": "Repeat Header Row"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر فایل ها و پوشه را همراه با جزئیات نشان می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Priority",
+        "correct": "Attach"
+      },
+      {
+        "question": "کدام فیلد عددی برای ستون سن مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Byte"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "برای اینکه بخواهیم حرف اول کلمه هر جمله با حروف بزرگ لاتین نوشته شود، باید کدام گزینه را برگزینیم؟",
+        "selected": "Uppercase",
+        "correct": "Sentence Case"
+      },
+      {
+        "question": "فرمت .......... فایل را به صورت غیرقابل تغییر در می آورد و با نرم افزار Word قابل اجرا نیست.",
+        "selected": "DOCM",
+        "correct": "PDF"
+      },
+      {
+        "question": "برای ذخیره سند با نام جدید از کدام گزینه استفاده می شود؟",
+        "selected": "Save As",
+        "correct": "Save As"
+      },
+      {
+        "question": "انتخاب کدام گزینه کامپیوتر را در حالت آماده باش قرار می دهد؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
+        "selected": "سوئیچ به نمای Data Sheet تا نام فیلد را بتوان تغییر داد",
+        "correct": "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column"
+      },
+      {
+        "question": "کدام یک کامپیوترهای زیر از نظر قدرت پردازش ضعیف تر است؟",
+        "selected": "Micro Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "اگر بخواهیم یک پرس و جو افراد بین 20 تا 50 را نشان دهد، شرط را چگونه وارد می نماییم؟",
+        "selected": "Between 20 And 50",
+        "correct": "Between 20 And 50"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "شبکه",
+        "correct": "ISP"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Excel Spreadsheet",
+        "correct": "Excel Spreadsheet"
+      }
+    ],
+    "date": "2026-11-12T05:22:58.764Z"
   }
 ]
