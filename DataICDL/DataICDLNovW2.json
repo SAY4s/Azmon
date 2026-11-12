@@ -6814,5 +6814,218 @@
       }
     ],
     "date": "2026-11-12T12:38:03.038Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 26,
+    "total": 40,
+    "percent": 65,
+    "wrong": 14,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "چگونه می توان پیش نمایش چاپ را مشاهده کرد؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "50 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "Cpu از چه قسمت هایی تشکیل شده است؟",
+        "selected": "واحد کنترل - حافظه پنهان - حافظه اصلی - واحد خروجی",
+        "correct": "واحد محاسبه و منطق - واحد کنترل - ثبات ها و حافظه پنهان"
+      },
+      {
+        "question": "به فرآیندی که فایلی را از اینترنت بر روی کامپیوتر خود قرار می دهیم چه می گویند؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "کدامیک از گزینه ها در نرم افزار Paint جهت تغییر حاشیه ها، نوع کاغذ و تعیین اندازه کاغذ و نوع کاغذ بکار می رود؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "در ارتباط زنده و همزمان بین سلول ها کدام گزینه صحیح می باشد؟",
+        "selected": "با تغییر سلول های مبدا سلول های مقصد تغییر نکند",
+        "correct": "با تغییر سلول های مبدا سلول های مقصد تغییر کند"
+      },
+      {
+        "question": "کدام خواص زیر در فیلدها قالب نمایش فیلد را مشخص می کند، مثلا اینکه با حروف کوچک یا بزرگ نمایش داده شود؟",
+        "selected": "Caption",
+        "correct": "Format"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "کدامیک از موارد زیر تعریف ریزپردازنده نمی باشد؟",
+        "selected": "نام دیگر آن CPU می باشد",
+        "correct": "اساسی ترین جزء یک کامپیوتر نمی باشد"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Free Space",
+        "correct": "Capacity"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار اسلاید",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "From Current Slide",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "کدام یک از کارت های زیر مربوط به کیفیت تصویر می باشد؟",
+        "selected": "VGA",
+        "correct": "VGA"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Picture",
+        "correct": "Format"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Chart Title",
+        "correct": "Data Label"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک روی جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "Center Tab به چه نوع تبی گفته می شود؟",
+        "selected": "تب وسط",
+        "correct": "تب وسط"
+      },
+      {
+        "question": "مزیت انسان نسبت به کامپیوتر چیست؟",
+        "selected": "خلاقیت و ابتکار",
+        "correct": "خلاقیت و ابتکار"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": "ایجاد متن سایه دار",
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Download , Upload",
+        "correct": "Download , Upload"
+      },
+      {
+        "question": "کدام تابع زیر برای محاسبه میانگین بکار می رود؟",
+        "selected": "AVERAGE",
+        "correct": "AVERAGE"
+      },
+      {
+        "question": "برای تبدیل نوشته های جدول به نوشته های بدون کادر از کدام دستور استفاده می کنیم؟",
+        "selected": "Convert To Text",
+        "correct": "Convert To Text"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "View",
+        "correct": "Create"
+      },
+      {
+        "question": "چه زمانی از کادر محاوره ای Browse استفاده می کنیم؟",
+        "selected": "ویرایش جدول در سند",
+        "correct": "جستجوی سند"
+      },
+      {
+        "question": "با فرض A1=10، A2=20، A3=30 حاصل فرمول =SUM(A1;A3) در A4 کدام است؟",
+        "selected": "50",
+        "correct": "40"
+      },
+      {
+        "question": "برای حذف سطرهای جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Rows",
+        "correct": "Delete Rows"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Field",
+        "correct": "Show"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": "Number Of Rows",
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "انتخاب کدام یک از گزینه های زیر باعث نوشته شدن متنی به صورت زیر خط دار می شود؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Break Preview",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "چنانچه آیکن ضد ویروس با رنگ قرمز نمایان شود نشانه چیست؟",
+        "selected": "به روز نبودن ضد ویروس",
+        "correct": "به روز نبودن ضد ویروس"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "برای مرتب کردن رکوردها بر اساس حروف الفبا و به صورت صعودی کدام مورد را از سربرگ Home گزینه Sort باید انتخاب نمود؟",
+        "selected": "Custom Sort",
+        "correct": "Sort A To Z"
+      },
+      {
+        "question": "در قسمت Subject نامه چه چیز را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      }
+    ],
+    "date": "2026-11-12T12:43:43.876Z"
   }
 ]
