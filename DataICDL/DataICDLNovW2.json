@@ -9370,5 +9370,218 @@
       }
     ],
     "date": "2026-11-13T15:12:26.806Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای سفارشی کردن صفحات چاپ از کدام دستور استفاده می شود؟",
+        "selected": "Custom Print",
+        "correct": "Custom Print"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "By Item Type",
+        "correct": "By Item Type"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+M",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "جهت چاپ گزارش بر روی کاغذ",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      },
+      {
+        "question": "دسترسی به اطلاعات در حافظه Ram به چه صورت است؟",
+        "selected": "تصادفی",
+        "correct": "تصادفی"
+      },
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": "Win Rar و Win Zip",
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای انجام عمل جستجو در اینترنت توسط IE از کدام سایت ها نمی توان استفاده کرد؟",
+        "selected": "Blogfa",
+        "correct": "Blogfa"
+      },
+      {
+        "question": "برای تغییر نام کاربر استفاده کننده از نرم افزار، عملیات ....... را انجام می دهیم؟",
+        "selected": "از منو دکمه File گزینه Options و قسمت General گزینه User Name",
+        "correct": "از منو دکمه File گزینه Options و قسمت General گزینه User Name"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار کار پایین Desktop",
+        "correct": "نوار کار پایین Desktop"
+      },
+      {
+        "question": "اگر بر روی یک آیکن چپ کلیک را نگه داشته و آن را به سمت دلخواه خود بکشیم و سپس رها کنیم چه عملی انجام داده ایم؟",
+        "selected": "Drag and Drop",
+        "correct": "Drag and Drop"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم کلیه صفحات وب سایت های مشاهده شده قبلی را مشاهده نماییم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Commerce",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک تصویری از اینترنت وارد اسلاید کنیم کدام ابزار مناسب است؟",
+        "selected": "Online Pictures",
+        "correct": "Online Pictures"
+      },
+      {
+        "question": "برای انتخاب سطر جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Row",
+        "correct": "Select Row"
+      },
+      {
+        "question": "برای بستن پنجره ها از کدام گزینه نمی توان استفاده کرد؟",
+        "selected": "از کلید ترکیبی Alt+Tab استفاده می کنیم",
+        "correct": "از کلید ترکیبی Alt+Tab استفاده می کنیم"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "نتیجه ای که از پردازش داده ها انجام می گیرد",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "کدام گزینه از Change Case برای اولین کاراکتر تمام واژه های متن انتخاب شده از حروف کوچک استفاده می کند؟",
+        "selected": "Toggle Case",
+        "correct": "Toggle Case"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پلاتر",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "برای شکستن متن و رفتن به صفحه بعد با استفاده از صفحه کلید از چه ترکیب کلیدی استفاده می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Worksheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "ICT به چه معناست؟",
+        "selected": "فن آوری اطلاعات و ارتباطات",
+        "correct": "فن آوری اطلاعات و ارتباطات"
+      },
+      {
+        "question": "بانک اطلاعات چیست؟",
+        "selected": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند",
+        "correct": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Desktop - Laptop",
+        "correct": "Desktop - Laptop"
+      },
+      {
+        "question": "برنامه Excel زیر مجموعه کدام یک از انواع برنامه هاست؟",
+        "selected": "برنامه های صفحه گسترده",
+        "correct": "برنامه های صفحه گسترده"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selection",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "برای تعیین خصوصیات یک فیلد می توان جدول را در دو نمای ............. یا ............... نشان دهیم.",
+        "selected": "Data Sheet",
+        "correct": "Design"
+      },
+      {
+        "question": "کدام گزینه برای نوشتن متون فارسی به کار می رود؟",
+        "selected": "Right Indention",
+        "correct": "Right To Left Text Direction"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Validation Text",
+        "correct": "Field Size"
+      },
+      {
+        "question": "نرم افزار اکسل در کدام مورد کاربرد دارد؟",
+        "selected": "در امور مهندسی و کارهای مربوط به امور مالی",
+        "correct": "در امور مهندسی و کارهای مربوط به امور مالی"
+      },
+      {
+        "question": "برای انتخاب یک جمله از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+Click",
+        "correct": "Ctrl+Click"
+      }
+    ],
+    "date": "2026-11-13T15:30:24.628Z"
   }
 ]
