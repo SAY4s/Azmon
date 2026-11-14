@@ -11074,5 +11074,218 @@
       }
     ],
     "date": "2026-11-14T14:40:50.488Z"
+  },
+  {
+    "name": "مائده حمیدی",
+    "nationalId": "7280114032",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به نحوه قرار گرفتن متن، تصویر، نمودار و .... در اسلاید چه می گویند؟",
+        "selected": "Slide Design",
+        "correct": "Slide layout"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "در کدام روش می توان پرس و جو را با شرط تعیین شده ایجاد نمود؟",
+        "selected": "Query Design",
+        "correct": "Query Design"
+      },
+      {
+        "question": "جدول چیست؟",
+        "selected": "به مجموعه ای از فیلدها گویند",
+        "correct": "به مجموعه ای از رکوردها که دارای فیلدهای یکسانی باشد گویند"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": "Quick Styles",
+        "correct": "Arrange"
+      },
+      {
+        "question": "برای تمایز افرادی که دارای نام یا نام خانوادگی یکسانی هستند بهتر است.......................؟",
+        "selected": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم",
+        "correct": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم"
+      },
+      {
+        "question": "جهت زمانبندی کردن تعویض اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Transition to this Slide",
+        "correct": "Transition to this Slide"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete Letter",
+        "correct": "Delete"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Port",
+        "correct": "Bus"
+      },
+      {
+        "question": "به منظور سفارشی کردن منوی Start گزینه .......... استفاده می شود.",
+        "selected": "Start / Properties",
+        "correct": "Start / Properties"
+      },
+      {
+        "question": "فرامین Copy و Paste به چه منظور مورد استفاده قرار می گیرند؟",
+        "selected": "حذف آخرین فرمان و برگرداندن دوباره",
+        "correct": "کپی اطلاعات"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C3",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "در یک خانه چه نوع اطلاعاتی نمی توان وارد نمود؟",
+        "selected": "تصویر",
+        "correct": "تصویر"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Scanner",
+        "correct": "Scanner"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Scroll Lock",
+        "correct": "Shift"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Double Click",
+        "correct": "Drag"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign In",
+        "correct": "Sign In"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از گزینه................ استفاده می شود.",
+        "selected": "Margins",
+        "correct": "Margins"
+      },
+      {
+        "question": "سریع ترین راه برای ایجاد یک slide فشردن چه کلیدهایی است؟",
+        "selected": "Ctrl+M",
+        "correct": "Ctrl+M"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "نمای Data Sheet View و Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "در صورتی که بخواهیم تمام اسلایدهای فایل ارائه مطلب را چاپ کنیم کدام گزینه را در پنجره Print انتخاب می کنیم؟",
+        "selected": "Print All Slide",
+        "correct": "Print All Slide"
+      },
+      {
+        "question": "برای حذف یک سطر جدول از …… استفاده می کنیم.",
+        "selected": "گزینه Delete Rows",
+        "correct": "گزینه Delete Rows"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه Chart Type",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "Custom Slide Show",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "Ctrl",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "از ابزار ..... در سربرگ Transition پیش نمایشی از حالت های عبور انتخاب شده در اسلاید مورد نظر مشاهده می شود؟",
+        "selected": "Transition To This Slide",
+        "correct": "Preview"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط متن های هر اسلاید چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Handouts",
+        "correct": "Outline"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "اگر بخواهیم به نامه رسیده ای پاسخ دهیم کدام دکمه را می زنیم؟",
+        "selected": "Reply",
+        "correct": "Reply"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ References گزینه Insert Endnote",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Shift+Ctrl+Alt",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط لغات مستقل در کادر جستجو پیدا شوند کدام گزینه را فعال می کنیم؟",
+        "selected": "Match Case",
+        "correct": "Find Whole Words Only"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توانیم صفحات مورد نظر را به صورت سفارشی چاپ کنیم؟",
+        "selected": "Custom Print",
+        "correct": "Print From ... To ..."
+      },
+      {
+        "question": "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
+        "selected": "Insert - Formulas",
+        "correct": "Formulas - Function"
+      }
+    ],
+    "date": "2026-11-14T17:56:06.671Z"
   }
 ]
