@@ -1,0 +1,215 @@
+[
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 24,
+    "total": 40,
+    "percent": 60,
+    "wrong": 16,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در کدام نما نمی توان متن یا تصویر به اسلاید اضافه نمود؟",
+        "selected": "Outline",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "دکمه Tab جهت تایید و دکمه Spacebar جهت لغو محتویات سلول",
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "برنامه ها جهت اجرا در کدام واحد قرار می گیرند؟",
+        "selected": "حافظه اصلی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Precision",
+        "correct": "Required"
+      },
+      {
+        "question": "برای جمع کردن محتوای سلول های B2 تا C3 در سلول فعال کدام مورد درست است؟",
+        "selected": "B2+C2+B3+C3=",
+        "correct": "B2+C2+B3+C3="
+      },
+      {
+        "question": "با استفاده از .......... می توانیم اسلایدها را در زمانی که محتوای آن بزرگتر از اندازه ی پنجره است در راستای عمودی و افقی پیمایش کنیم.",
+        "selected": "نوارهای پیمایش",
+        "correct": "نوارهای پیمایش"
+      },
+      {
+        "question": "برای تنظیم فاصله بین خطوط از کدام گزینه استفاده می شود؟",
+        "selected": "Line Spacing",
+        "correct": "Line Spacing"
+      },
+      {
+        "question": "برای تغییر سند از حالت عمودی به افقی از کدام گزینه استفاده می شود؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟",
+        "selected": "Clear All Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "در پنجره آن کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "اگر بر روی یک آیکن چپ کلیک را نگه داشته و آن را به سمت دلخواه خود بکشیم و سپس رها کنیم چه عملی انجام داده ایم؟",
+        "selected": "Drag and Drop",
+        "correct": "Drag and Drop"
+      },
+      {
+        "question": "با درج نمودن تصویر یک زبانه جدید به نام .................... ایجاد می گردد.",
+        "selected": "Layout",
+        "correct": "Format"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "هریک از خانه ها در صفحه کاری چه نام دارد؟",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "قابلیت کوچک نمایی برای مشاهده کل اطلاعات به صورت یکجا را ....... می گویند.",
+        "selected": "Zoom in",
+        "correct": "Fit"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "برای ایجاد یک جدول با تعداد سطر و ستون دلخواه کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Draw Table",
+        "correct": "Insert Table"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "کاربرد سبک Italic چیست؟",
+        "selected": "ایجاد خط روی نوشته",
+        "correct": "مورب کردن نوشته"
+      },
+      {
+        "question": "از این ابزار به منظور نمایش اسلایدها از اسلاید جاری استفاده می شود.",
+        "selected": "From Current Slide",
+        "correct": "From Current Slide"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Find What",
+        "correct": "Look in"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف نوشته شده به لاتین بزرگ است؟",
+        "selected": "Lowercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "واژه پرداز",
+        "correct": "واژه پرداز"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Inc",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "یک رکورد مجموعه ای از اطلاعات را درباره ................. ذخیره می کند.",
+        "selected": "چند موضوع",
+        "correct": "یک موضوع"
+      },
+      {
+        "question": "در طراحی Query برای نمایش یا عدم نمایش یک فیلد در نتیجه Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Criteria",
+        "correct": "Show"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار وضعیت",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "برای نمایش خط کش کدام سربرگ را انتخاب می کنید؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "آدرس URL همواره ویژه چند سایت است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "علامت قرمز برنامه آنتی ویروس نشانه چیست؟",
+        "selected": "به روز نبودن آنتی ویروس",
+        "correct": "به روز نبودن آنتی ویروس"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یادداشت بر روی اسلایدها مناسب است؟",
+        "selected": "Comment",
+        "correct": "Comment"
+      },
+      {
+        "question": "برای درج Comment (توضیحات) در متن.......",
+        "selected": "Insert>New Comment",
+        "correct": "Review>New Comment"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "برای ذخیره سازی یک کاراکتر (حرف) چند Bit نیاز است؟",
+        "selected": "8",
+        "correct": "8"
+      },
+      {
+        "question": "برای ایجاد پس زمینه طیف رنگ از کدام گزینه استفاده می نماییم؟",
+        "selected": "Shading",
+        "correct": "Gradient"
+      }
+    ],
+    "date": "2026-11-14T21:08:42.375Z"
+  }
+]
