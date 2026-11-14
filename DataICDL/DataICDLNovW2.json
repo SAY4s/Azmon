@@ -10861,5 +10861,218 @@
       }
     ],
     "date": "2026-11-14T04:13:19.514Z"
+  },
+  {
+    "name": "پویا حاجی نژاد",
+    "nationalId": "4312748527",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "در نرم افزار Notepad برای تنظیمات کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Page setup",
+        "correct": "Page setup"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Line",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Summary Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می شود؟",
+        "selected": "View \\ Picture",
+        "correct": "Insert \\ Picture"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      },
+      {
+        "question": "کدام مورد یک دستگاه خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "در کدام بخش از کادر محاوره Insert Table تعداد سطر را وارد می کنیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Rows"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": "Delete Letter",
+        "correct": "Delete"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "Ctrl+F5",
+        "correct": "F5"
+      },
+      {
+        "question": "برای فراخوانی مجدد صفحه وب کنونی از کدام دکمه استفاده می کنیم؟",
+        "selected": "Search",
+        "correct": "Refresh"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Return To Back",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "نرم افزارهای کاربردی",
+        "correct": "مترجم"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "نام صفحه وب که باید توسط مرورگر نشان داده شود",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Columns",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "CU",
+        "correct": "Cache"
+      },
+      {
+        "question": "کدام گزینه باعث نمایش یا عدم نمایش آیکن ها در میز کار می شود؟",
+        "selected": "Show Desktop Icon",
+        "correct": "Show Desktop Icon"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "کلیه نامه هایی که به آدرس شما ارسال می گردد در کدام پوشه ذخیره می شود؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای پاک کردن قسمت مورد نظر جدول از کدام دستور استفاده می شود؟",
+        "selected": "Eraser",
+        "correct": "Eraser"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE به طور اتوماتیک نمایش داده می شود ....... نام دارد",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "در دستگاه های زیر چند دستگاه خروجی وجود دارد؟ (صفحه نمایش - کیبورد - ماوس - رسام - چاپگر - اسکنر - قلم نوری - بلندگو)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "کدام وسیله ورودی می تواند تصاویر را به صفر و یک تبدیل کرده و وارد کامپیوتر می نماید؟",
+        "selected": "ماوس",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "Decimal Tab",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "گسترده",
+        "correct": "گسترده"
+      },
+      {
+        "question": "در ویندوز 7 برنامه های کوچکی که برای ارائه سریع و آسان اطلاعات مختلف در میزکار پیش بینی شده اند، ...... نامیده می شوند.",
+        "selected": "Desktop",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "خواص یک فیلد مشخص کننده چیست؟",
+        "selected": "نوع فیلد و فضای لازم برای آن فیلد است",
+        "correct": "نوع فیلد و فضای لازم برای آن فیلد است"
+      },
+      {
+        "question": "در صورتی که بخواهیم گالری تم ها به نوار ابزار دسترسی سریع اضافه شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Add Gallery to Quick Access Toolbar"
+      },
+      {
+        "question": "اصطلاح It مخفف چیست؟",
+        "selected": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است",
+        "correct": "مخفف عبارت Information Technology است و به معنای فناوری اطلاعات است"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر جهت مرور محتویات پنجره های ویندوز مورد استفاده قرار می گیرد؟",
+        "selected": "Status Bar",
+        "correct": "Scroll Bar"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Show desktop icons",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze All Column",
+        "correct": "Freeze Panes"
+      }
+    ],
+    "date": "2026-11-14T14:40:50.488Z"
   }
 ]
