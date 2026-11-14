@@ -10648,5 +10648,218 @@
       }
     ],
     "date": "2026-11-13T21:04:36.497Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 2,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "گزینه symbol در کدام زبانه قرار دارد؟",
+        "selected": "Home",
+        "correct": "Insert"
+      },
+      {
+        "question": "پسوند فایل ها در نرم افزار پایگاه داده اکسس 2013 کدام است؟",
+        "selected": "Accdb",
+        "correct": "Accdb"
+      },
+      {
+        "question": "کدام گزینه از اجزای بانک اطلاعاتی access نمی باشد؟",
+        "selected": "Form",
+        "correct": "Database"
+      },
+      {
+        "question": "برای اضافه کردن ابزار یا دستور به نوار ابزار با دسترسی سریع چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "کلیک راست روی ریبون و انتخاب گزینه Customize Quick Access Toolbar"
+      },
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "برای مشاهده خصوصیات فایل ها و پوشه ها پس از کلیک راست روی آن ها چه گزینه ای را انتخاب می کنیم؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "برای انجام عمل جستجو در اینترنت توسط IE از کدام سایت ها نمی توان استفاده کرد؟",
+        "selected": "Blogfa",
+        "correct": "Blogfa"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Group",
+        "correct": "Group"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "یادداشت",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ........................... است.",
+        "selected": "حجم فایل ارسالی",
+        "correct": "حجم فایل ارسالی"
+      },
+      {
+        "question": "از ابزار Slide Number به چه منظور استفاده می شود؟",
+        "selected": "درج شماره اسلاید",
+        "correct": "درج شماره اسلاید"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOTX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده تصویر، یک نگه دارنده عنوان و یک نگه دارنده متن است.",
+        "selected": "Picture With Caption",
+        "correct": "Picture With Caption"
+      },
+      {
+        "question": "فرمت .......... فایل را به صورت غیرقابل تغییر در می آورد و با نرم افزار Word قابل اجرا نیست.",
+        "selected": "PDF",
+        "correct": "PDF"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی All Program",
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "در تنظیمات پاراگراف، تورفتگی ابتدای آن را از کدام بخش انجام می دهیم؟",
+        "selected": "Indentation",
+        "correct": "Indentation"
+      },
+      {
+        "question": "جهت فرستادن یک میانبر روی Desktop چگونه عمل می کنید؟",
+        "selected": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)",
+        "correct": "راست کلیک روی آیکن و انتخاب گزینه Send To و سپس انتخاب گزینه Desktop (Create Shortcut)"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "کدام یک از گزینه های کادر محاوره ای Print امکان چاپ صفحه جاری سند را فراهم می کند؟",
+        "selected": "Current page",
+        "correct": "Current page"
+      },
+      {
+        "question": "برای تهیه نسخه پشتیبان از برنامه ................. استفاده می شود.",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "به طور پیش فرض در اکسل 2013 یک کارپوشه جدید چند کاربرگ وجود دارد؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "فیلد از نوع Long Text در کدام یک از موارد زیر کاربرد دارد؟",
+        "selected": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند",
+        "correct": "برای متن های طولانی که بیشتر از یک یا چند کلمه هستند"
+      },
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "دریافت ایمیل",
+        "correct": "دریافت ایمیل"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "برای انجام کارهای خاص به کار می رود",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "با استفاده از کدام گزینه زیر، عمل موردگذاری انجام می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": "واحد ورودی",
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن تصاویر گرافیکی هوشمند استفاده می شود؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      }
+    ],
+    "date": "2026-11-14T04:13:19.514Z"
   }
 ]
