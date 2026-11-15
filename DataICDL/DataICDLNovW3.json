@@ -1063,5 +1063,218 @@
       }
     ],
     "date": "2026-11-15T06:30:32.129Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Fit To Window",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "پسوند Txt مربوط به فایل های ....................و پسوند Wave مربوط به فایل های ................است",
+        "selected": "متنی - تصویری",
+        "correct": "متنی - صوتی"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Page Layout -> Page Border",
+        "correct": "Design -> Page Border"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های انتخاب شده",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Wizard",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "علامت مساوی در شروع یک خانه نشانه چیست؟",
+        "selected": "شروع یک فرمول",
+        "correct": "شروع یک فرمول"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Attach",
+        "correct": "Attach"
+      },
+      {
+        "question": "برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "نوع داده متنی با طول زیاد کدام یک از گزینه های زیر می باشد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Detail Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": "وجود علامت @",
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "چنانچه گزارش ما بیش از یک صفحه بوده و بخواهیم یک عبارت ثابت را فقط در ابتدای اولین صفحه از گزارش ببینیم، آن عبارت را می بایستی در کدام بخش قرار داد؟",
+        "selected": "Page Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "اگر بخواهیم اولین حرف از هر کلمه انگلیسی کوچک باشد، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Toggle Case"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Byte",
+        "correct": "Bit"
+      },
+      {
+        "question": "برای اینکه عبارت مورد جستجو به همان شکل در اینترنت جستجو شود (دقیقا همان عبارت)، از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "برای انتخاب یک کلمه از کدام گزینه استفاده می شود؟",
+        "selected": "دابل کلیک بر کلمه",
+        "correct": "دابل کلیک بر کلمه"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard and Mouse",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "ریبون شامل تعدادی ........... است که در هر یک از آنها تعدادی ابزار مرتبط به هم دسته بندی شده اند.",
+        "selected": "Tab",
+        "correct": "Tab"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "24",
+        "correct": "18"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "پلاتر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "کدامیک از حافظه های زیر فقط خواندنی هستند؟",
+        "selected": "RAM",
+        "correct": "ROM"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "ابزارهای کوچک در ویندوز 7، که اطلاعاتی مانند آب و هوا و قیمت ارز را نشان می دهند چه نامیده می شوند؟",
+        "selected": "Navigation",
+        "correct": "Gadgets"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "By Item Type",
+        "correct": "By Item Type"
+      }
+    ],
+    "date": "2026-11-15T09:48:39.847Z"
   }
 ]
