@@ -1276,5 +1276,218 @@
       }
     ],
     "date": "2026-11-15T09:48:39.847Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای انجام عمل جستجو در اینترنت توسط IE از کدام سایت ها نمی توان استفاده کرد؟",
+        "selected": "Blogfa",
+        "correct": "Blogfa"
+      },
+      {
+        "question": "PDA چیست؟",
+        "selected": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود",
+        "correct": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "بالاترین نوار در نرم افزار نوار ........ است که مشخصات و نوع فایل را نشان می دهد.",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Information",
+        "correct": "Information"
+      },
+      {
+        "question": "آدرس خانه فعال در کجا قابل رویت است؟",
+        "selected": "در کادر Name Box",
+        "correct": "در کادر Name Box"
+      },
+      {
+        "question": "برای تغییر ارتفاع صفحه کدام گزینه را تغییر می دهیم؟",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "کدامیک از خواص زیر در فیلدها نشان می دهد که این فیلد نمی تواند خالی باشد؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": "Left Tab",
+        "correct": "Left Tab"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "No Value",
+        "correct": "No Value"
+      },
+      {
+        "question": "در نمای Data Sheet جهت انتقال مکان نما به فیلد قبلی از کدام گزینه استفاده می شود؟",
+        "selected": "Shift+Tab - دکمه های جهتی صفحه کلید",
+        "correct": "Shift+Tab - دکمه های جهتی صفحه کلید"
+      },
+      {
+        "question": "اگر بخواهیم صفحاتی جستجو شود که کلمه exercise در عبارت جستجو نباشد، عبارت exercise access را چگونه می توان search نمود؟",
+        "selected": "access not exercise",
+        "correct": "access not exercise"
+      },
+      {
+        "question": "توسط کدام دستور اندازه صفحه را تغییر می دهیم؟",
+        "selected": "Size",
+        "correct": "Size"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      },
+      {
+        "question": "کدام یک از موارد زیر جهت تغییر اندازه یک شکل پس از انتخاب آن شکل صحیح است؟",
+        "selected": "پیکان 4 سر",
+        "correct": "پیکان 2 سر"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پلاترها",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "کدام گزینه برای ذخیره تصاویر استفاده می گردد؟",
+        "selected": "Save Picture As",
+        "correct": "Save Picture As"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر قابل برنامه ریزی و قابل پاک شدن با اشعه ماوراء بنفش است؟",
+        "selected": "Eprom",
+        "correct": "Eprom"
+      },
+      {
+        "question": "برای مشاهده خواص درایوها روی آیکن درایو کلیک راست نموده و از منوی باز شده گزینه............... را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "برای جستجوی کلیه فایل ها با پسوند txt از کدام گزینه زیر استفاده می کنیم؟",
+        "selected": "*.txt",
+        "correct": "*.txt"
+      },
+      {
+        "question": "برای انتخاب کلمات همجوار و پشت سر هم از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "پسوند ذخیره ی سند ایجاد شده به صورت الگو کدام است؟",
+        "selected": "DOTX",
+        "correct": "DOTX"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Windows Style",
+        "correct": "Windows Style"
+      },
+      {
+        "question": "برای بزرگ کردن اندازه نوشته کدام گزینه به کار می رود؟",
+        "selected": "Increase Font Size",
+        "correct": "Increase Font Size"
+      },
+      {
+        "question": "هنگام فعال شدن کلید Num Lock کدام گزینه صحیح است؟",
+        "selected": "اعداد قسمت ماشین حساب را فعال می کند",
+        "correct": "اعداد قسمت ماشین حساب را فعال می کند"
+      },
+      {
+        "question": "برای انتخاب خانه های غیرمجاور در Excel، از کلید .................. استفاده می کنیم.",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "اگر بخواهیم جدول را طوری تنظیم کنیم که با خالی رها کردن یک فیلد از طرف سیستم پیغام اخطار ظاهر شود از کدام مشخصه استفاده می کنیم؟",
+        "selected": "Required",
+        "correct": "Required"
+      },
+      {
+        "question": "حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Outline",
+        "correct": "Outline"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "برای کم کردن فاصله پاراگراف از حاشیه باید چه دستوری را اجرا کنیم؟",
+        "selected": "Decrease Indent",
+        "correct": "Decrease Indent"
+      },
+      {
+        "question": "در اصطلاح کامپیوتر، مانیتورهای تخت را ................گویند.",
+        "selected": "LCD",
+        "correct": "LCD"
+      },
+      {
+        "question": "در کدام کادر باید کلمه یا عبارت جدیدی را که می خواهیم با کلمه قبلی جایگزین شود، درج کنیم؟",
+        "selected": "Find What",
+        "correct": "Replace With"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "!",
+        "correct": "!"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "برای سطرها عنوان ایجاد می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      }
+    ],
+    "date": "2026-11-15T18:16:39.726Z"
   }
 ]
