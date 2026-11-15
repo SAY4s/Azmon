@@ -637,5 +637,218 @@
       }
     ],
     "date": "2026-11-15T04:24:01.086Z"
+  },
+  {
+    "name": "آریان نادری",
+    "nationalId": "4312846715",
+    "exam": "icdl",
+    "score": 1,
+    "total": 40,
+    "percent": 3,
+    "wrong": 4,
+    "unanswered": 35,
+    "answers": [
+      {
+        "question": "کدام گزینه برای استفاده از جلوه های آماده متحرک سازی است؟",
+        "selected": "Slide Show",
+        "correct": "Animate"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save in",
+        "correct": "save as type"
+      },
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید آخر",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "مفهوم گزینه Wrap Text چیست؟",
+        "selected": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند",
+        "correct": "سلول های انتخاب شده با هم به یک سلول تبدیل شوند"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "ثبات (Register)",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": null,
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": null,
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "در کادر محاوره ای Format Cells و از تب Alignment انتخاب Fill چه عملی انجام می دهد؟",
+        "selected": null,
+        "correct": "باعث تکرار متن می شود تا عرض خانه را پر کند"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": null,
+        "correct": "منوی All Program"
+      },
+      {
+        "question": "برای انتخاب یک محدوده مشخص می توان............؟",
+        "selected": null,
+        "correct": "خانه اول را انتخاب می کنیم و سپس Shift را گرفته و خانه انتهایی را کلیک می کنیم"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": null,
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": null,
+        "correct": "Queries"
+      },
+      {
+        "question": "برای سفارشی کردن بزرگ نمایی صفحه در محیط نرم افزار Word از کدام مورد استفاده می کنیم؟",
+        "selected": null,
+        "correct": "View>Zoom"
+      },
+      {
+        "question": "برای حذف نامه باید کدام گزینه را انتخاب کرد؟",
+        "selected": null,
+        "correct": "Delete"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": null,
+        "correct": "UPS"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": null,
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": null,
+        "correct": "Look in"
+      },
+      {
+        "question": "اگر خانه های A1=5، B1=Ali، C1=6 باشد حاصل تابع زیر کدام است؟ =Sum(B1; A1; C1)",
+        "selected": null,
+        "correct": "11"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": null,
+        "correct": "Selection"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": null,
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "در مورد حافظه ثانویه کدامیک از موارد زیر غلط است؟",
+        "selected": null,
+        "correct": "برای ذخیره موقت اطلاعات باید آنها را در حافظه ثانویه یا کمکی ذخیره کرد"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": null,
+        "correct": "255"
+      },
+      {
+        "question": "برای ترسیم جدول با استفاده از مداد از چه دستوری استفاده می شود؟",
+        "selected": null,
+        "correct": "Draw Table"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Insert \\ Picture"
+      },
+      {
+        "question": "اگر بخواهیم فقط صفحات زوج چاپ شود چگونه عمل می کنیم؟",
+        "selected": null,
+        "correct": "Even Page"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": null,
+        "correct": "Draft"
+      },
+      {
+        "question": "برای حذف دائم یک فایل به طوری که در سطل بازیافت قرار نگیرد از کدام کلید همراه دکمه Delete استفاده می شود؟",
+        "selected": null,
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": null,
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "در صورتی که بخواهیم به Transition اسلاید صدای مورد نظر خودمان را اضافه کنیم از ابزار ..... گزینه ..... را انتخاب می کنیم",
+        "selected": null,
+        "correct": "Sound (Other Sound)"
+      },
+      {
+        "question": "برای تصحیح خودکار کلمات اشتباه آن ها را به کدام بخش اضافه می کنیم؟",
+        "selected": null,
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "کدام یک از چاپگرهای زیر از نظر کیفیت از بقیه بالاتر است؟",
+        "selected": null,
+        "correct": "لیزری"
+      },
+      {
+        "question": "جهت حذف یک فیلتر روی کدام گزینه کلیک می کنیم؟",
+        "selected": null,
+        "correct": "Clear Filter"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر خروجی است؟",
+        "selected": null,
+        "correct": "چاپگر"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": null,
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "به شرکت سرویس دهنده خدمات اینترنت چه می گویند؟",
+        "selected": null,
+        "correct": "ISP"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": null,
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "برای حذف نمودار روی ......کلیک کرده، کلید Delete را می فشاریم.",
+        "selected": null,
+        "correct": "کل نمودار"
+      },
+      {
+        "question": "برای برگشتن به صفحه قبلی ملاحظه شده بر روی کدام دکمه باید کلیک کرد؟",
+        "selected": null,
+        "correct": "Back"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": null,
+        "correct": "Send"
+      }
+    ],
+    "date": "2026-11-15T06:23:21.491Z"
   }
 ]
