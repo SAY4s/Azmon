@@ -1,0 +1,85 @@
+[
+  {
+    "name": "هادی داودی",
+    "nationalId": "0053414209",
+    "exam": "dip_user",
+    "score": 2,
+    "total": 14,
+    "percent": 14,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "محل نگهداری نامه های ارسال نشده یا نیمه کاره کدام گزینه است؟",
+        "selected": "Outbox",
+        "correct": "Drafts"
+      },
+      {
+        "question": "کدام گزینه کادر محاورهی وضعیت اتصال سرعت نقل و انتقال داده ها را نمایش میدهد؟",
+        "selected": "Speed",
+        "correct": "Speed"
+      },
+      {
+        "question": "وجود علامت پیکان کوچک کنار یک آیکن، نشانه چیست؟",
+        "selected": "آیکن سیستم",
+        "correct": "آیکن میانبر"
+      },
+      {
+        "question": "جهت سنجاق کردن آیکن یک برنامه به نوار وظیفه با کلیک راست بر روی آن از کدام گزینه میتوان استفاده کرد؟",
+        "selected": "Create Shortcut",
+        "correct": "Pin to Taskbar"
+      },
+      {
+        "question": "کدام کادر محل قرارگرفتن آدرس گیرنده اصلی است؟",
+        "selected": "Subject",
+        "correct": "To"
+      },
+      {
+        "question": "در برنامه ی Player Media Windows کدام دکمه جهت فعال یا غیرفعال کردن حالت تکرار است؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدام گزینه باعث ادامه عملیات چاپ از نقطه توقف میشود؟",
+        "selected": "Cancel",
+        "correct": "Resume"
+      },
+      {
+        "question": "جهت سنجاق کردن آیکن یک برنامه به نوار وظیفه با کلیک راست بر روی آن از کدام گزینه میتوان استفاده کرد؟",
+        "selected": "Pin to Start Menu",
+        "correct": "Pin to Taskbar"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر یک کلید ترکیبی می باشد؟",
+        "selected": "Space",
+        "correct": "Shift"
+      },
+      {
+        "question": "به دوبار سریع و پشت سرهم کلیک با دکمه سمت چپ ماوس، ........ میگویند",
+        "selected": "Right Click",
+        "correct": "Double Click"
+      },
+      {
+        "question": "کدام ابزار در برنامه نقاشی برای بزرگ نمایی تصویر استفاده می شود؟",
+        "selected": "Pencil",
+        "correct": "Magnifier"
+      },
+      {
+        "question": "جهت پاکسازی دیسک و حذف فایل های اضافی و موقت از کدام گزینه استفاده می شود؟",
+        "selected": "Check disk",
+        "correct": "Disk cleanup"
+      },
+      {
+        "question": "توسط برنامه Task Manager کدام یک از گزینه های زیر امکان پذیر نیست؟",
+        "selected": "مشاهده فرآیندهای در حال اجرا",
+        "correct": "مشاهده لیست برنامه های نصب شده"
+      },
+      {
+        "question": "کدام دستور برای کپی فایل ها در Dos استفاده میشود؟",
+        "selected": "xcopy",
+        "correct": "copy"
+      }
+    ],
+    "date": "2026-11-16T18:02:13.870Z"
+  }
+]
