@@ -2554,5 +2554,218 @@
       }
     ],
     "date": "2026-11-16T18:04:37.738Z"
+  },
+  {
+    "name": "مائده حمیدی",
+    "nationalId": "7280114032",
+    "exam": "icdl",
+    "score": 18,
+    "total": 40,
+    "percent": 45,
+    "wrong": 22,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "اگر بخواهیم تمام حروف انگلیسی بزرگ باشند کدام گزینه مناسب است؟",
+        "selected": "Uppercase",
+        "correct": "Uppercase"
+      },
+      {
+        "question": "کدام گزینه معرف نرم افزار پاورپوینت است؟",
+        "selected": "یک نرم افزار صفحه گسترده است",
+        "correct": "یک نرم افزار ارائه مطلب است"
+      },
+      {
+        "question": "اگر محتویات پنجره در فضای پنجره جای نگیرد، باعث ظاهر شدن ......... می گردد.",
+        "selected": "Scrollbars",
+        "correct": "Scrollbars"
+      },
+      {
+        "question": "از کدام گزینه جهت افزودن اعشار استفاده می کنیم؟",
+        "selected": "Increase Decimal",
+        "correct": "Increase Decimal"
+      },
+      {
+        "question": "برای تنظیم وضعیت قرارگیری کاغذ به صورت افقی از کدام فرمان استفاده می کنیم؟",
+        "selected": "Landscape",
+        "correct": "Landscape"
+      },
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "کلیدهای ترکیبی Alt+F4",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "کدام یک از نماهای Word چهار طرف صفحه کاغذ را به کاربر نشان می دهد؟",
+        "selected": "Web Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "اگر بخواهیم انتهای خطوط پاراگراف تراز شوند از کدام گزینه استفاده می کنیم؟",
+        "selected": "Align Right",
+        "correct": "Justify"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Draw Table",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "در روش ........، ایجاد پرس و جو به شکل مرحله به مرحله انجام می شود",
+        "selected": "Query Wizard",
+        "correct": "Query Wizard"
+      },
+      {
+        "question": "برای تنظیم فاصله بین خطوط از کدام گزینه استفاده می شود؟",
+        "selected": "Line Spacing",
+        "correct": "Line Spacing"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از Data Sheet",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "جدول",
+        "correct": "فیلد"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze All Column",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "برای ثابت نگه داشتن تیتر جداول از کدام دستور استفاده می شود؟",
+        "selected": "Freeze",
+        "correct": "Freeze"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Replace All",
+        "correct": "Replace"
+      },
+      {
+        "question": "توسط کدام کلید ترکیبی بانک اطلاعاتی جاری بسته می شود؟",
+        "selected": "Alt+F5",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟",
+        "selected": "Decrease Font Size",
+        "correct": "Decrease Font Size"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Sort کردن رکوردهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Countif",
+        "correct": "Sum"
+      },
+      {
+        "question": "کدام گزینه در مورد آرگونومی بکار می رود؟",
+        "selected": "حفظ سلامت انسان در محیط کار",
+        "correct": "حفظ سلامت انسان در محیط کار"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": "Print One Sided",
+        "correct": "Manually Print On Both Sides"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی System از منوی Accessories",
+        "correct": "All Program"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب Sleep از پنجره Shutdown",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home و گروه Slide برای بخش بندی اسلایدها استفاده می شود؟",
+        "selected": "Layout",
+        "correct": "Section"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Review",
+        "correct": "Home"
+      },
+      {
+        "question": "با انتخاب گزینه New از File کدام گزینه صحیح نیست؟",
+        "selected": "قاب وظیفه جهت انتخاب نوع بانک اطلاعات جدیدی که می خواهیم بسازیم، ظاهر می شود",
+        "correct": "یک جدول جدید ایجاد می گردد"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "برای ایجاد گزارش از کدام گزینه استفاده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "اگر بخواهیم اولین حرف از هر کلمه انگلیسی کوچک باشد، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Toggle Case"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": "وجود علامت @",
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "کار کدام دستگاه به این صورت است: کاغذی که وارد دستگاه می شود ابتدا اسکن شده و بعد از طریق خط تلفن ارسال می شود",
+        "selected": "مودم",
+        "correct": "فاکس"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "در کدام نما می توان ترتیب اسلایدها را تغییر داد؟",
+        "selected": "Slide Show",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "K6$",
+        "correct": "$K$6"
+      },
+      {
+        "question": "کدام گزینه برای استفاده از جلوه های آماده متحرک سازی است؟",
+        "selected": "Slide Transition",
+        "correct": "Animate"
+      },
+      {
+        "question": "ابزار Format Painter چه عملی انجام می دهد؟",
+        "selected": "قالب متن را کپی می کند",
+        "correct": "قالب متن را کپی می کند"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Background Style",
+        "correct": "Background Style"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "اگر بخواهیم نامه دریافت شده را برای افراد دیگری بفرستیم از کدام دکمه استفاده می کنیم؟",
+        "selected": "Forward",
+        "correct": "Forward"
+      }
+    ],
+    "date": "2026-11-17T07:44:58.265Z"
   }
 ]
