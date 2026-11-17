@@ -3406,5 +3406,218 @@
       }
     ],
     "date": "2026-11-17T13:11:20.174Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 21,
+    "total": 40,
+    "percent": 53,
+    "wrong": 19,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پس از تکمیل فرم اطلاعات، باید توسط چه گزینه ای تایید شود؟",
+        "selected": "Submit",
+        "correct": "Submit"
+      },
+      {
+        "question": "کدام یک از بخش های cpu واحد مناسب عملیات ریاضی و منطقی نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Alu"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "تعیین رنگ و طرح زمینه داخل کادر",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "در کدام ناحیه از اسلاید فعال می توانیم آن را اصلاح کنیم؟",
+        "selected": "ناحیه ویرایش اسلاید",
+        "correct": "ناحیه ویرایش اسلاید"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Sort By Name",
+        "correct": "Descending"
+      },
+      {
+        "question": "برای افزایش پهنای یک سطر..................؟",
+        "selected": "مرز بالایی آن را به طرف پایین درگ می کنیم",
+        "correct": "مرز پایینی آن را به طرف پایین درگ می کنیم"
+      },
+      {
+        "question": "برای سفارشی کردن نوار آدرس و فرمول از کدام گزینه استفاده می شود؟",
+        "selected": "Formula از تب Data",
+        "correct": "Formula Bar از گروه Show تب View"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "کدامیک نشان دهنده آدرس نسبی است؟",
+        "selected": "$C$1",
+        "correct": "C1"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "از گزینه Pattern Fill در پنجره ی Format Background چه زمانی استفاده می شود؟",
+        "selected": "برای ترکیب دو رنگ متفاوت برای رنگ پس زمینه",
+        "correct": "برای استفاده از الگوهای خاص نرم افزار در رنگ پس زمینه"
+      },
+      {
+        "question": "اگر مقادیر خانه A1=True، B2=False و C2=Ali باشد حاصل تابع زیر کدام است؟ =Count(A1; B2; C2)",
+        "selected": "2",
+        "correct": "0"
+      },
+      {
+        "question": "برای تصحیح خودکار کلمات اشتباه آن ها را به کدام بخش اضافه می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "برای سطرها عنوان ایجاد می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "میانبر ساخت نمودار کدام است؟",
+        "selected": "F10",
+        "correct": "F11"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": "داده ها",
+        "correct": "راهنما"
+      },
+      {
+        "question": "نامه های ناتمام معمولا در کدام پوشه قرار می گیرند؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Forward",
+        "correct": "Refresh"
+      },
+      {
+        "question": "برای مشاهده ظرفیت یک فایل روی آن راست کلیک کرده و گزینه ................. را انتخاب می کنیم.",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "از کدام گزینه برای وارد کردن فایل تصویری در سند استفاده می نماییم؟",
+        "selected": "Insert/Picture",
+        "correct": "Insert/Picture"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Orientation از گروه Table",
+        "correct": "Text Direction از گروه Alignment"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": "Define New Multilevel List",
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Ole",
+        "correct": "Ole"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر یک مرورگر وب نیست؟",
+        "selected": "Mamma",
+        "correct": "Mamma"
+      },
+      {
+        "question": "کدام امکان در پنجره خصوصیات فرم، کنترل را فعال یا غیر فعال می کند؟",
+        "selected": "Enable",
+        "correct": "Enable"
+      },
+      {
+        "question": "برای خرید یک چاپگر کدامیک از گزینه های زیر بهترین ملاک برای انتخاب است؟",
+        "selected": "سرعت و کیفیت چاپ",
+        "correct": "سرعت و کیفیت چاپ"
+      },
+      {
+        "question": "کدام نوع اندازه داده عددی (Number) جهت ذخیره سازی اعداد با دقت اعشاری مضاعف استفاده می شود؟",
+        "selected": "Double",
+        "correct": "Double"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر مرورگر صفحات وب است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Content With Caption",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "نام صفحه وب که باید توسط مرورگر نشان داده شود",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "برای اینکه اندازه متن را کم کنیم روی کدام دستور کلیک می کنیم؟",
+        "selected": "Small Font",
+        "correct": "Decrease Font Size"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Different Odd & Even Pages",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "در پنجره آن کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "کدامیک از Object های زیر سؤالی از بانک اطلاعاتی می پرسد سپس نتیجه را نشان می دهد؟",
+        "selected": "Queries",
+        "correct": "Queries"
+      },
+      {
+        "question": "به هر سطر از جدول داخل کاربرگ اکسل ....... می گویند.",
+        "selected": "Cell",
+        "correct": "Row"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Preset",
+        "correct": "Number Of Columns"
+      }
+    ],
+    "date": "2026-11-17T13:56:38.080Z"
   }
 ]
