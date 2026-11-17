@@ -3619,5 +3619,218 @@
       }
     ],
     "date": "2026-11-17T13:56:38.080Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 17,
+    "total": 40,
+    "percent": 43,
+    "wrong": 23,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پلاتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "جهت چرخاندن اشکال کدام یک از مراحل زیر صحیح است؟",
+        "selected": "Format -> Rotate",
+        "correct": "Format -> Rotate"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "ماشین های تکثیر",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "به ارتباطات بین جداول در پایگاه داده چه می گویند؟",
+        "selected": "Relationship",
+        "correct": "Relationship"
+      },
+      {
+        "question": "برای جابجایی بین پنجره های باز از کلیدهای ...... استفاده می کنیم.",
+        "selected": "Ctrl+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "کدام عبارت در مورد RAM صحیح است؟",
+        "selected": "RAM را در هیچ کامپیوتری نمی توان افزایش داد",
+        "correct": "RAM یک حافظه خواندنی نوشتنی است"
+      },
+      {
+        "question": "از ابزار Slide Number به چه منظور استفاده می شود؟",
+        "selected": "درج شماره اسلاید",
+        "correct": "درج شماره اسلاید"
+      },
+      {
+        "question": "این تعریف مربوط به کدام گزینه زیر می باشد؟ (کلیه برنامه ها و دستورالعمل هایی که باعث عملکرد سیستم می شود)",
+        "selected": "سخت افزار Hardware",
+        "correct": "نرم افزار Software"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "LAN",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "پسوند فایل های اکسس چیست؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "........ حافظه ای با دسترسی تصادفی و ................ حافظه ای فقط خواندنی می باشد. (از راست به چپ)",
+        "selected": "Ram و Rom",
+        "correct": "Ram و Rom"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Width And Spacing",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "از کدام کلیدهای صفحه کلید برای اجرای فرمان Undo استفاده می نماییم؟",
+        "selected": "Ctrl+V",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "روش های تغییر نما در Word را می توان:",
+        "selected": "از زبانه View فعال کرد",
+        "correct": "از زبانه View فعال کرد"
+      },
+      {
+        "question": "گزینه .......................... برای ترازبندی متن کاربرد دارد.",
+        "selected": "Direction",
+        "correct": "Justify"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+)",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "پروتکل IMAP برای چه منظوری استفاده می شود؟",
+        "selected": "ارسال و دریافت ایمیل",
+        "correct": "دریافت ایمیل"
+      },
+      {
+        "question": "برای افزودن مقادیر داده ها بر روی نمودار کدام گزینه کاربرد دارد؟",
+        "selected": "Chart Title",
+        "correct": "Data Label"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Alu",
+        "correct": "Cu"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "کدام گزینه از اجزای بانک اطلاعاتی access نمی باشد؟",
+        "selected": "Database",
+        "correct": "Database"
+      },
+      {
+        "question": "برای اعمال رنگ پس زمینه روی سند از چه دستوری استفاده می شود؟",
+        "selected": "Background Color",
+        "correct": "Page Color"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Rows",
+        "correct": "Fields"
+      },
+      {
+        "question": "مفهوم ظاهر شدن علامت # در یک سلول چیست؟",
+        "selected": "سلول قالب بندی متنی شده دارد",
+        "correct": "طول عدد نسبت به عرض سلول بزرگتر است"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر تهی (Null)",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      },
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print First Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "کدام جمله در مورد کلید اصلی درست نمی باشد؟",
+        "selected": "یک جدول ممکن است دارای چند فیلد کلیدی باشد ولی یکی از آنها کلید اصلی است",
+        "correct": "از کلید اصلی برای ایجاد ارتباط بین جداول نمی توان استفاده نمود"
+      },
+      {
+        "question": "برای تعیین خصوصیات یک فیلد می توان جدول را در دو نمای ............. یا ............... نشان دهیم.",
+        "selected": "Data Sheet",
+        "correct": "Design"
+      },
+      {
+        "question": "برای تغییر رنگ زمینه سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Pattern",
+        "correct": "Pattern"
+      },
+      {
+        "question": "گزارش ها و فرم ها اطلاعاتشان را از کجا می توانند دریافت کنند؟",
+        "selected": "Report",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای آنکه رونوشت یک نامه از سایر گیرندگان پوشیده بماند کدام گزینه را انتخاب می کنید؟",
+        "selected": "آدرس آن را در قسمت BCC وارد می کنیم",
+        "correct": "آدرس آن را در قسمت BCC وارد می کنیم"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Selection Filter",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Insert",
+        "correct": "Transition"
+      },
+      {
+        "question": "از کدام یک از اجزای بانک اطلاعاتی برای استخراج مجموعه ای از داده های ذخیره شده در بانک اطلاعاتی استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "برنامه های سودمند",
+        "correct": "برنامه های کاربردی"
+      }
+    ],
+    "date": "2026-11-17T14:49:27.173Z"
   }
 ]
