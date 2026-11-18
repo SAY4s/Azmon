@@ -4471,5 +4471,218 @@
       }
     ],
     "date": "2026-11-17T18:47:11.530Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 34,
+    "total": 40,
+    "percent": 85,
+    "wrong": 4,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدام یک از عبارات زیر در مورد یک Table صحیح است؟",
+        "selected": "یک Table می تواند تنها یک Primary Key داشته باشد",
+        "correct": "یک Table می تواند تنها یک Primary Key داشته باشد"
+      },
+      {
+        "question": "کلیدهای میانبر فرمان Copy و Paste کدام است؟",
+        "selected": "Ctrl+C ، Ctrl+V",
+        "correct": "Ctrl+C ، Ctrl+V"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "کدامیک برای استفاده از کدهای برنامه نویسی از قبل تعریف شده جهت کارهای تکراری در Access می باشد؟",
+        "selected": "Macros",
+        "correct": "Macros"
+      },
+      {
+        "question": "برای ارسال پاسخ به تمام فرستندگان یک نامه از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Reply all",
+        "correct": "Reply all"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": null,
+        "correct": "Send"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F7",
+        "correct": "F7"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "با کدام گزینه تصویر در زمینه میز کار به صورت کشیده قرار می گیرد؟",
+        "selected": "Stretch",
+        "correct": "Stretch"
+      },
+      {
+        "question": "برای جستجوی فایل سه حرفی که با M شروع شده و به S ختم می شود، در کادر جستجو چگونه باید تایپ کرد؟",
+        "selected": "~M?S",
+        "correct": "~M?S"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "رکورد"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Highlight",
+        "correct": "Highlight"
+      },
+      {
+        "question": "تنظیم زمان انتظار در محافظ صفحه نمایش در کدام کادر مشاهده می گردد؟",
+        "selected": "Wait",
+        "correct": "Wait"
+      },
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": null,
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "مهم ترین نرم افزاری که امکان ارتباط کاربر با سخت افزار را فراهم می کند چه نام دارد و جزء کدام دسته از نرم افزارهاست؟",
+        "selected": "سیستم عامل - نرم افزار سیستمی",
+        "correct": "سیستم عامل - نرم افزار سیستمی"
+      },
+      {
+        "question": "کدامیک از موارد زیر یک سیستم عامل محسوب می شوند؟",
+        "selected": "Windows 10",
+        "correct": "Windows 10"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "Cache Memory",
+        "correct": "RAM"
+      },
+      {
+        "question": "کدام گزینه به معنای تجارت الکترونیکی می باشد؟",
+        "selected": "E-commerce",
+        "correct": "E-commerce"
+      },
+      {
+        "question": "برای چاپ صفحه 2 تا 5 یک فرم از کدام بخش کادر print استفاده کنیم؟",
+        "selected": "Number of Copies",
+        "correct": "Pages"
+      },
+      {
+        "question": "مفهوم ظاهر شدن علامت # در یک سلول چیست؟",
+        "selected": "سلول حاوی فرمول است",
+        "correct": "طول عدد نسبت به عرض سلول بزرگتر است"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر در مورد DVD صحیح می باشد؟",
+        "selected": "دیسک ویدیویی دیجیتال",
+        "correct": "دیسک ویدیویی دیجیتال"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انجام راست کلیک و انتخاب Arrange Icons",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Right از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "سمت راست"
+      },
+      {
+        "question": "برای بستن یک برنامه بدون پاسخ از ترکیب کلیدهای ......... استفاده می شود.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "تعیین رنگ و طرح زمینه داخل کادر",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Insert گزینه Symbol",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "به نمادهای تصویری در ویندوز، ...................... می گویند.",
+        "selected": "Icon",
+        "correct": "Icon"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "C#",
+        "correct": "C#"
+      },
+      {
+        "question": "برای ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب کدام گزینه را برمی گزینیم؟",
+        "selected": "First Line Indent",
+        "correct": "First Line Indent"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "نرم افزار",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Create-Form Design",
+        "correct": "Create-Form Design"
+      },
+      {
+        "question": "Bar Tab چه کاری انجام می دهد؟",
+        "selected": "قرار دادن یک خط در محل ایجاد تب",
+        "correct": "قرار دادن یک خط در محل ایجاد تب"
+      },
+      {
+        "question": "برای ایجاد یک فرم به شکل مرحله به مرحله کدام مسیر مناسب است؟",
+        "selected": "Create-----Form-------Form Wizard",
+        "correct": "Create-----Form-------Form Wizard"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": "Apply Filter-Sort",
+        "correct": "Apply Filter-Sort"
+      }
+    ],
+    "date": "2026-11-18T06:51:34.267Z"
   }
 ]
