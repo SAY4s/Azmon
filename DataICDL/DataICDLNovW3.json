@@ -5536,5 +5536,218 @@
       }
     ],
     "date": "2026-11-18T09:28:29.532Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "Cd",
+        "correct": "Cd"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": "Last Month",
+        "correct": "Last Month"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save Target As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footnote",
+        "correct": "Footnote"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "روش های تغییر نما در Word را می توان:",
+        "selected": "از طریق دکمه هایی که در سمت چپ محیط نرم افزار قرار دارد فعال کرد",
+        "correct": "از زبانه View فعال کرد"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Page Layout گروه Page Setup گزینه Watermark",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Queries",
+        "correct": "Reports"
+      },
+      {
+        "question": "Chart چیست؟",
+        "selected": "یک نمودار سازمانی است",
+        "correct": "نموداری است که برای مقایسه ارقام، داده ها و اطلاعات موجود استفاده می شود"
+      },
+      {
+        "question": "به نتیجه پردازش داده ها ............... اطلاق می شوند.",
+        "selected": "Information",
+        "correct": "Information"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Repeat",
+        "correct": "Repeat"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "Memory Secondary",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "برای بدست آوردن ضرب محتویات دو سلول اکسل چه فرمولی باید نوشت؟",
+        "selected": "=A1*B5",
+        "correct": "=A1*B5"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Right از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "سمت راست"
+      },
+      {
+        "question": "کاربرها برای راحتی کار یا کاربرانی که حرفه ای نیستند برای ایجاد فرم، گزارش و .............. بهتر است از کدام روش استفاده نمایند؟",
+        "selected": "Design",
+        "correct": "Wizard"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "مزیت الگو (Template) چیست؟",
+        "selected": "صرفه جویی در زمان ویرایش",
+        "correct": "صرفه جویی در زمان ویرایش"
+      },
+      {
+        "question": "برای انتخاب گروهی آیکن های پراکنده باید از کدام یک از کلید های زیر به همراه کلیک کردن استفاده کرد؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه استفاده می شود؟",
+        "selected": "Insert \\ Picture",
+        "correct": "Insert \\ Picture"
+      },
+      {
+        "question": "ارسال فایل ضمیمه دارای محدودیت ...................... است.",
+        "selected": "حجم",
+        "correct": "حجم"
+      },
+      {
+        "question": "برای جستجو فایل های .gif باید از چه معیاری استفاده کرد؟",
+        "selected": "gif.*",
+        "correct": "*.gif"
+      },
+      {
+        "question": "به کامپیوتری که در یک شبکه به کامپیوترهای دیگر سرویس دهد چه می گویند؟",
+        "selected": "Server",
+        "correct": "Server"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Log Off",
+        "correct": "Lock"
+      },
+      {
+        "question": "کدامیک از نرم افزارهای زیر می تواند برای فشرده سازی استفاده شود؟",
+        "selected": "Win Rar و Win Zip",
+        "correct": "Win Rar و Win Zip"
+      },
+      {
+        "question": "برای باز کردن فایل فشرده کدام گزینه صحیح است؟",
+        "selected": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید",
+        "correct": "بر روی آن کلیک راست نموده و گزینه Extract All را انتخاب نمایید"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر شفافیت پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Mpg",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "Tiles",
+        "correct": "Details"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K$6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Ctrl+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "از ابزار Slide Number به چه منظور استفاده می شود؟",
+        "selected": "درج شماره اسلاید",
+        "correct": "درج شماره اسلاید"
+      },
+      {
+        "question": "به نمودار ستونی چه گفته می شود؟",
+        "selected": "Pie",
+        "correct": "Column"
+      },
+      {
+        "question": "نوار History چه چیزی را نشان می دهد؟",
+        "selected": "وب سایت هایی که قبلا بازدید شده اند",
+        "correct": "وب سایت هایی که قبلا بازدید شده اند"
+      },
+      {
+        "question": "برای اجرای Windows Explorer از چه مسیری استفاده می کنیم؟",
+        "selected": "فقط از طریق درایو C",
+        "correct": "در همه پنجره های ویندوز قابل دسترسی است"
+      },
+      {
+        "question": "برای چرخش متن در جدول از کدام گزینه استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "در اصل پست الکترونیک نوعی تبادل .... از طریق رایانه و اینترنت است.",
+        "selected": "نامه",
+        "correct": "نامه"
+      },
+      {
+        "question": "کدام فرمان برای ارجاع پیام دریافت شده به همراه برخی توضیحات به شخص ثالث قابل استفاده است؟",
+        "selected": "فرمان Forward",
+        "correct": "فرمان Forward"
+      }
+    ],
+    "date": "2026-11-18T15:40:08.906Z"
   }
 ]
