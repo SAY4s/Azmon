@@ -6814,5 +6814,218 @@
       }
     ],
     "date": "2026-11-19T17:06:50.291Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 38,
+    "total": 40,
+    "percent": 95,
+    "wrong": 2,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ایجاد یک جدول با تعداد سطر و ستون دلخواه کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Insert Table",
+        "correct": "Insert Table"
+      },
+      {
+        "question": "کدامیک از سیستم عامل های زیر تک کاربره می باشد؟",
+        "selected": "Dos",
+        "correct": "Dos"
+      },
+      {
+        "question": "محتوای کدام یک از حافظه های زیر با قطع جریان برق از بین می رود؟",
+        "selected": "RAM",
+        "correct": "RAM"
+      },
+      {
+        "question": "جهت جابجایی بین پنجره های باز از ترکیب کلیدهای .......................... استفاده می شود.",
+        "selected": "Alt+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "علامت مساوی در شروع یک خانه نشانه چیست؟",
+        "selected": "شروع یک فرمول",
+        "correct": "شروع یک فرمول"
+      },
+      {
+        "question": "قانون اعتباری داده ها در کدامیک از کادرهای زیر وارد می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "در کدام بخش از زبانه Design تعیین می کنیم که جدول ما سطر عنوان داشته باشد یا خیر؟",
+        "selected": "Header Row",
+        "correct": "Header Row"
+      },
+      {
+        "question": "درج چه مقادیری در فیلد کلیدی مجاز نمی باشد؟",
+        "selected": "مقادیر تکراری و مقادیر تهی (Null)",
+        "correct": "مقادیر تکراری و مقادیر تهی (Null)"
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است",
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "حداقل تعداد کاراکترهای کلمه عبور در پست الکترونیکی کدام گزینه می باشد؟",
+        "selected": "8",
+        "correct": "8"
+      },
+      {
+        "question": "............... برنامه های کوچکی هستند که عملا به برنامه اجرایی و یا نواحی سیستمی دیسک متصل شده و بر روی آنها اثرات نامطلوب می گذارند.",
+        "selected": "ویروس ها",
+        "correct": "ویروس ها"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.mp3",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "در هنگام طراحی یک Query انتخاب کدام مورد باعث می شود که رکوردهای پیدا شده به صورت نزولی مرتب باشند؟",
+        "selected": "Descending",
+        "correct": "Descending"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام علامت در کنار نامه هایی که با اولویت بالا ارسال بشه ظاهر می گردد؟",
+        "selected": "!",
+        "correct": "!"
+      },
+      {
+        "question": "از کدام گزینه برای تغییر فاصله بین خطوط و پاراگراف استفاده می کنیم؟",
+        "selected": "Line And Paragraph Spacing",
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Selection",
+        "correct": "Selection"
+      },
+      {
+        "question": "اگر بخواهیم نامه دریافت شده را برای افراد دیگری بفرستیم از کدام دکمه استفاده می کنیم؟",
+        "selected": "Forward",
+        "correct": "Forward"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "برای چاپ صفحه جاری از کادر محاوره ای Print کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Current Page",
+        "correct": "Current Page"
+      },
+      {
+        "question": "دستور Strikethrough چه کاری انجام می دهد؟",
+        "selected": "روی متن یک خط درج می کند",
+        "correct": "روی متن یک خط درج می کند"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "از کدام نما برای ورود اطلاعات در جدول و فرم ها استفاده می نماییم؟",
+        "selected": "Datasheet View",
+        "correct": "Datasheet View"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "ورودی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور دسترسی به تنظیمات اسلاید و نمایش آنها استفاده می شود؟",
+        "selected": "Set Up Slide Show",
+        "correct": "Set Up Slide Show"
+      },
+      {
+        "question": "برای خروج کامل از ویندوز کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Shut Down",
+        "correct": "Shut Down"
+      },
+      {
+        "question": "به نوار رنگی بالای پنجره ها چه می گویند؟",
+        "selected": "نوار عنوان",
+        "correct": "نوار عنوان"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Above از سربرگ Layout، 5 سطر در ................. سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "بالا",
+        "correct": "بالا"
+      },
+      {
+        "question": "در هنگام رسم بیضی فشردن کدام دکمه شکل را به دایره تبدیل می کند؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "با کلیک بر روی این دکمه منوی نرم افزار باز می شود که به وسیله آن می توان به امکانات لازم برای مدیریت فایل ها دسترسی پیدا کرد.",
+        "selected": "File",
+        "correct": "File"
+      },
+      {
+        "question": "کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟",
+        "selected": "Server Computer",
+        "correct": "Server Computer"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "به ناحیه نمایش ساعت، وضعیت بلندگو و غیره در روی نوار کار ..................... گویند.",
+        "selected": "Notification",
+        "correct": "Notification"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده از Data Sheet",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "برای رفتن به ابتدای فایل باید از کلید ترکیبی …….. استفاده کرد.",
+        "selected": "Ctrl+Home",
+        "correct": "Ctrl+Home"
+      }
+    ],
+    "date": "2026-11-19T17:29:39.737Z"
   }
 ]
