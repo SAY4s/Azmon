@@ -7240,5 +7240,218 @@
       }
     ],
     "date": "2026-11-19T18:48:35.559Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "کدام کلید مکان نما را به اولین فیلد رکورد جاری منتقل می کند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "با استفاده از دکمه ............. می توان از صفحه نمایش عکس گرفت.",
+        "selected": "Print Screen",
+        "correct": "Print Screen"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "کوچکترین جزء اطلاعاتی در پایگاه داده چه گفته می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "روش های تغییر نما در Word را می توان:",
+        "selected": "از زبانه Review فعال کرد",
+        "correct": "از زبانه View فعال کرد"
+      },
+      {
+        "question": "برای تمایز افرادی که دارای نام یا نام خانوادگی یکسانی هستند بهتر است.......................؟",
+        "selected": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم",
+        "correct": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "کلیدهای میان بر برای بستن پنجره های باز کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "از کدام فرمان جهت مشاهده فایل های ذخیره شده استفاده می شود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "کدام کلید سبب پرش مکان نما به ابتدای سند می گردد؟",
+        "selected": "Home",
+        "correct": "Ctrl+Home"
+      },
+      {
+        "question": "هارد دیسک از نظر روش دستیابی به اطلاعات جزء کدام گروه است؟",
+        "selected": "دستیابی تصادفی",
+        "correct": "دستیابی تصادفی"
+      },
+      {
+        "question": "برای ایجاد نوشته های چند ستونی چه دستوری را اجرا می کنیم؟",
+        "selected": "Multi Columns",
+        "correct": "Page Layout>Columns"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office از کدام دکمه استفاده می کنید؟",
+        "selected": "Sign In",
+        "correct": "Sign In"
+      },
+      {
+        "question": "در قسمت Subject نامه چه می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "برای مشاهده لیست جداول بانک اطلاعاتی در پنجره Data Base کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "با استفاده از گزینه From current slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "کاربرد سبک Italic چیست؟",
+        "selected": "مورب کردن نوشته",
+        "correct": "مورب کردن نوشته"
+      },
+      {
+        "question": "کامپیوترهای شخصی از کدام نوع کامپیوترها هستند؟",
+        "selected": "Mini Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "از این ابزار برای کپی کردن Animation بر روی عناصر دیگر اسلایدها استفاده می شود.",
+        "selected": "Animation Painter",
+        "correct": "Animation Painter"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select Object",
+        "correct": "Select Object"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "کدام گزینه برای استفاده از جلوه های آماده متحرک سازی است؟",
+        "selected": "Slide Transition",
+        "correct": "Animate"
+      },
+      {
+        "question": "به نمودار ستونی چه گفته می شود؟",
+        "selected": "Column",
+        "correct": "Column"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد Hard Disk غلط است؟",
+        "selected": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد",
+        "correct": "عمل قالب بندی فقط مخصوص دیسک سخت داخلی می باشد"
+      },
+      {
+        "question": "در طراحی اسلاید اصلی در ابزار Slide Master می توانیم .........",
+        "selected": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم",
+        "correct": "نمای ظاهری، موقعیت عناصر و پس زمینه اسلایدهای فایل ارائه مطلب را مشخص کنیم"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "کدام کلید ترکیبی برای کاهش سایز قلم استفاده می شود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "کدام دستور برای جایگزین کردن یک متن جدید با متن فعلی به کار می رود؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Sound & Image",
+        "correct": "Hyper Media"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر مصداق کلمه Information است؟",
+        "selected": "به خروجی هایی که پس از پردازش داده ها تولید می شود",
+        "correct": "به خروجی هایی که پس از پردازش داده ها تولید می شود"
+      },
+      {
+        "question": "کلید میانبر برای باز کردن کادر محاوره ای Insert Function کدام می باشد؟",
+        "selected": "Shift+F3",
+        "correct": "Shift+F3"
+      }
+    ],
+    "date": "2026-11-19T18:48:41.736Z"
   }
 ]
