@@ -10435,5 +10435,218 @@
       }
     ],
     "date": "2026-11-20T16:23:14.769Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از کدام دستور برای جایگزین کردن عبارتی با عبارت دیگر مورد استفاده قرار می گیرد؟",
+        "selected": "Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک پرس و جو تهیه کرد؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "چنانچه تقسیم بر صفر انجام شود، کدام پیغام خطا ظاهر می شود؟",
+        "selected": "#DIV/0!",
+        "correct": "#DIV/0!"
+      },
+      {
+        "question": "برای ایجاد یک فرم از...................؟",
+        "selected": "Create-Form Design",
+        "correct": "Create-Form Design"
+      },
+      {
+        "question": "کدام گزینه در مورد دولت الکترونیکی بکار می رود؟",
+        "selected": "E-Government",
+        "correct": "E-Government"
+      },
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "Eprom",
+        "correct": "CMOS"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "برای شکستن خطوط یک پاراگراف با حفظ تراز و عدم بهم خوردگی متن از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Shift+Enter"
+      },
+      {
+        "question": "وظیفه کنترل و هماهنگی کلیه عملیات درونی یک سیستم کامپیوتری بر عهده کدام است؟",
+        "selected": "برنامه های سیستمی",
+        "correct": "برنامه های سیستمی"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
+        "selected": "DVD و CD",
+        "correct": "DVD و CD"
+      },
+      {
+        "question": "چگونه می توان چند فایل پراکنده یک پوشه را انتخاب کرد؟",
+        "selected": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت",
+        "correct": "هنگام کلیک کردن روی فایل های مورد نظر کلید Ctrl را پایین نگه داشت"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار منو (Menu)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": "منظور از (Screen Saver) چیست؟",
+        "selected": "محافظ صفحه نمایش",
+        "correct": "محافظ صفحه نمایش"
+      },
+      {
+        "question": "از طریق کدام گزینه می توان متنی را به صورت کم رنگ در پس زمینه سند قرار داد؟",
+        "selected": "سربرگ Design گروه Page Background گزینه Watermark",
+        "correct": "سربرگ Design گروه Page Background گزینه Watermark"
+      },
+      {
+        "question": "کدامیک از موارد زیر را در مقابل Criteria در هنگام طراحی Query نمی توان نوشت؟",
+        "selected": "\"Harris\"",
+        "correct": "No Value"
+      },
+      {
+        "question": "از دستور Font به چه منظور استفاده می کنیم؟",
+        "selected": "برای تعیین نوع قلم",
+        "correct": "برای تعیین نوع قلم"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "از کدام گزینه برای توپر شدن متن استفاده می شود؟",
+        "selected": "Bold",
+        "correct": "Bold"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "برای مشاهده پیش از عمل چاپ از کلید میانبر .......... در صفحه کلید استفاده می نماییم.",
+        "selected": "Ctrl+F2",
+        "correct": "Ctrl+F2"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "کدام روش مرتب سازی باعث می شود که تمامی پنجره ها روی هم قرار گرفته و تنها نوار عنوان آنها قابل مشاهده باشد؟",
+        "selected": "Cascade Windows (به صورت آبشاری)",
+        "correct": "Cascade Windows (به صورت آبشاری)"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Editing گزینه Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "طریقه نوشتن یک تابع در یک خانه چگونه است؟",
+        "selected": "=min(A1:B5)",
+        "correct": "=min(A1:B5)"
+      },
+      {
+        "question": "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
+        "selected": "Desktop - Laptop",
+        "correct": "Desktop - Laptop"
+      },
+      {
+        "question": "جهت چاپ صفحات فرم یا گزارش از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای دوخطی نمودن خطوط اطراف جدول استفاده از کدام گزینه مناسب است؟",
+        "selected": "Line",
+        "correct": "Borders"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر در انتخاب آیتم های پراکنده به ما کمک می کند؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدامیک از موارد زیر یک سیستم عامل محسوب می شوند؟",
+        "selected": "Windows 10",
+        "correct": "Windows 10"
+      },
+      {
+        "question": "برای جستجوی دقیق عبارت از کدام کاراکتر استفاده می شود؟",
+        "selected": "\" \"",
+        "correct": "\" \""
+      },
+      {
+        "question": "کدام گزینه معرف نرم افزار پاورپوینت است؟",
+        "selected": "یک نرم افزار گرافیکی است",
+        "correct": "یک نرم افزار ارائه مطلب است"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "کدام یک از سیستم عامل های زیر تک کاربره است؟",
+        "selected": "DOS",
+        "correct": "DOS"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      }
+    ],
+    "date": "2026-11-20T20:14:11.872Z"
   }
 ]
