@@ -10222,5 +10222,218 @@
       }
     ],
     "date": "2026-11-20T11:24:21.251Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پنجره مخصوص نصب Printer از کدام طریق باز می شود؟",
+        "selected": "Control Panel / Devices and Printers",
+        "correct": "Control Panel / Devices and Printers"
+      },
+      {
+        "question": "برای باز کردن کتابچه آدرس کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tools/Address Book",
+        "correct": "Tools/Address Book"
+      },
+      {
+        "question": "برای ایجاد فهرست چندسطحی کدام دستور مناسب تر است؟",
+        "selected": "Multilevel List",
+        "correct": "Multilevel List"
+      },
+      {
+        "question": "Plotter (رسام) جزء دستگاه های ...........و اسکنر واحد ..............است.",
+        "selected": "خروجی - ورودی",
+        "correct": "خروجی - ورودی"
+      },
+      {
+        "question": "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
+        "selected": "DVD و CD",
+        "correct": "DVD و CD"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر معرف سازمان دولتی است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Line and Page Breaks از Paragraph",
+        "correct": "زبانه Character Spacing از Font"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - کپی",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "به عمل حرکت دادن ماوس در حالی که دکمه سمت چپ آن فشرده شده است چه می گویند؟",
+        "selected": "Drag",
+        "correct": "Drag"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home گروه Slides به منظور بازنشانی تمام تنظیمات یک اسلاید استفاده می شود؟",
+        "selected": "Reset",
+        "correct": "Reset"
+      },
+      {
+        "question": "از کدام نما برای صفحه آرایی استفاده می گردد؟",
+        "selected": "Print Layout",
+        "correct": "Print Layout"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Envelopes",
+        "correct": "Mailings"
+      },
+      {
+        "question": "پیش فرض برنامه ی مرورگر وب، در سیستم عامل ویندوز، ........ می باشد.",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر محل ذخیره موقت اطلاعات است؟",
+        "selected": "Ram",
+        "correct": "Ram"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "کدام گزینه درست نمی باشد؟",
+        "selected": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است",
+        "correct": "ظرفیت و سرعت حافظه اصلی از حافظه جانبی به مراتب بیشتر است"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Not, And, Or",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Selection Filter",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "کدام گزینه یک محیط گرافیکی را برای نرم افزارها ایجاد می نماید؟",
+        "selected": "واسط گرافیکی کاربر GUI",
+        "correct": "واسط گرافیکی کاربر GUI"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
+        "selected": "اکسترانت",
+        "correct": "اکسترانت"
+      },
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F1",
+        "correct": "F1"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "UPS",
+        "correct": "UPS"
+      },
+      {
+        "question": "کدام گزینه به معنای تجارت الکترونیکی می باشد؟",
+        "selected": "E-commerce",
+        "correct": "E-commerce"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "برای درج اشکال هندسی از چه گزینه ای استفاده می شود؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Insert",
+        "correct": "Home"
+      },
+      {
+        "question": "حداکثر چه عددی در فیلد عددی از نوع Byte قرار می گیرد؟",
+        "selected": "255",
+        "correct": "255"
+      },
+      {
+        "question": "در دستگاه های زیر چند دستگاه خروجی وجود دارد؟ (صفحه نمایش - کیبورد - ماوس - رسام - چاپگر - اسکنر - قلم نوری - بلندگو)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان یک گزارش تهیه کرد؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از ویژگی های حق انتشار نرم افزار است؟",
+        "selected": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد",
+        "correct": "حقوق تولید کننده نرم افزار را به رسمیت می شناسد"
+      },
+      {
+        "question": "کدام مورد از معایب تجارت الکترونیک می باشد؟",
+        "selected": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد",
+        "correct": "ارتباط فیزیکی بین فروشنده و خریدار وجود ندارد"
+      },
+      {
+        "question": "در کدام نما می توان ترتیب اسلایدها را تغییر داد؟",
+        "selected": "Slide Sorter",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "کوچکترین عنصر در بانک که حاوی اطلاعات است چه می گویند؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      }
+    ],
+    "date": "2026-11-20T16:23:14.769Z"
   }
 ]
