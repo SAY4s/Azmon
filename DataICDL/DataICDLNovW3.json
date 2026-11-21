@@ -11926,5 +11926,218 @@
       }
     ],
     "date": "2026-11-21T15:01:20.607Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از کدام برگه در پنجره Properties می توان صفت یک پوشه (Attributes) را تغییر داد؟",
+        "selected": "General",
+        "correct": "General"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "By Item Type",
+        "correct": "By Item Type"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Notice",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای انتقال صوت به کار می رود؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "Hibernate یعنی .......",
+        "selected": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد",
+        "correct": "کلیه برنامه های در حال اجرا را بر روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند؛ در صورت روشن کردن مجدد، برنامه های باز قبلی را به همان حالت قبل نمایش می دهد"
+      },
+      {
+        "question": "پست الکترونیک به کدام گزینه معروف است؟",
+        "selected": "E-Mail",
+        "correct": "E-Mail"
+      },
+      {
+        "question": "برای مرتب سازی خروجی در Query از کدام گزینه استفاده می کنیم؟",
+        "selected": "Sort",
+        "correct": "Sort"
+      },
+      {
+        "question": "برای شماره گذاری اسلایدها از کدام گزینه استفاده می شود؟",
+        "selected": "Slide Number",
+        "correct": "Slide Number"
+      },
+      {
+        "question": "برای ذخیره کردن یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "File / Save As",
+        "correct": "File / Save As"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار منو (Menu)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "Decimal Place برای کدام نوع داده قابل دسترسی بوده است؟",
+        "selected": "عددی",
+        "correct": "عددی"
+      },
+      {
+        "question": "بهترین روش برای جلوگیری از ورود ویروس به سیستم کدام گزینه است؟",
+        "selected": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد",
+        "correct": "داشتن آنتی ویروسی که توانایی به روز شدن را داشته باشد"
+      },
+      {
+        "question": "برای حذف محتویات یک سلول از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Contents",
+        "correct": "سربرگ Home گزینه Clear Contents"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "آسان ترین شیوه برای ایجاد یک سند در Word استفاده از کلیدهای ترکیبی ............... است.",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر از روش های نمایش اسلاید نمی باشد؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Form View, Datasheet",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "نام گیرنده فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "در پنجره Taskbar Properties برای اینکه نوار وظیفه اتوماتیک آشکار و مخفی گردد کدام گزینه را باید انتخاب نمود؟",
+        "selected": "Auto hide the taskbar",
+        "correct": "Auto hide the taskbar"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم",
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "به منظور افزودن یک کاربرگ جدید به صفحه کاری جاری و قبل از Sheet3 چه عملی انجام می دهید؟",
+        "selected": "بر روی Sheet2 راست کلیک کرده و گزینه Insert را انتخاب می کنیم",
+        "correct": "بر روی Sheet3 راست کلیک کرده و گزینه Insert را انتخاب می کنیم"
+      },
+      {
+        "question": "جهت ظاهر شدن کادر غلط گیر املایی، از چه کلیدی استفاده می کنیم؟",
+        "selected": "F7",
+        "correct": "F7"
+      },
+      {
+        "question": "برای اجرای Windows Explorer از چه مسیری استفاده می کنیم؟",
+        "selected": "آیکن Windows Explorer",
+        "correct": "در همه پنجره های ویندوز قابل دسترسی است"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک کیلوبایت کمتر از یک مگابایت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "صحت اطلاعات ورودی به جدول را با کدام خصوصیت می توان بررسی کرد؟",
+        "selected": "Default Value",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای ارسال رونوشت نامه به فرد دیگر به صورتی که فرد گیرنده اصلی از آن باخبر باشد، آن را در کدام کادر می نویسیم؟",
+        "selected": "To",
+        "correct": "CC"
+      },
+      {
+        "question": "در سربرگ Animation و در قسمت Timing، کدام گزینه زیر زمان تاخیر برای حرکت موضوع را می توان وارد کرد؟",
+        "selected": "Delay",
+        "correct": "Delay"
+      },
+      {
+        "question": "بطور پیش فرض نام فایل نمایش در Power Point چیست؟",
+        "selected": "Book1",
+        "correct": "Presentation1"
+      },
+      {
+        "question": "............... برنامه های کوچکی هستند که عملا به برنامه اجرایی و یا نواحی سیستمی دیسک متصل شده و بر روی آنها اثرات نامطلوب می گذارند.",
+        "selected": "ویروس ها",
+        "correct": "ویروس ها"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "توسط چه خصوصیت فیلد می توان برای یک عبارت که در فیلدها می خواهد قرار گیرد قانون تعریف نمود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": "Paste",
+        "correct": "Paste"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Insert -> Page Break",
+        "correct": "Design -> Page Border"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "ورودی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": "Caption",
+        "correct": "Caption"
+      },
+      {
+        "question": "برای انتخاب خانه های غیرمجاور در Excel، از کلید .................. استفاده می کنیم.",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      }
+    ],
+    "date": "2026-11-21T15:10:11.322Z"
   }
 ]
