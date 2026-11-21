@@ -12778,5 +12778,218 @@
       }
     ],
     "date": "2026-11-21T18:41:18.901Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 14,
+    "total": 40,
+    "percent": 35,
+    "wrong": 26,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "Re در Subject چه معنایی دارد؟",
+        "selected": "این علامت برای آدرس هایی که در دفترچه آدرس هستند می آید",
+        "correct": "این علامت زمانی ظاهر می شود که بخواهیم پاسخ نامه ای را بدهیم"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Transition",
+        "correct": "Transition"
+      },
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "توسط کدام دستور می توانیم متن انتخابی را برش زده و به جای دیگر انتقال دهیم؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "کدام مورد یک دستگاه خروجی است؟",
+        "selected": "ماوس",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "کدامیک از فرمت های فایل زیر برای تصویر زمینه ویندوز قابل استفاده است؟",
+        "selected": "Docx",
+        "correct": "JPG"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Strike",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Spelling",
+        "correct": "Attach"
+      },
+      {
+        "question": "کدامیک از موارد زیر از بخش های یک Report نیست؟",
+        "selected": "Report Header Section",
+        "correct": "Summary Section"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Entrance",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "برای نگهداری موقت داده های در حال پردازش از کدام مورد استفاده می شود؟",
+        "selected": "CU",
+        "correct": "Register"
+      },
+      {
+        "question": "برای کدام یک از دلایل زیر تهیه نسخه پشتیبان ضروری است؟",
+        "selected": "نصب ویروس یاب",
+        "correct": "از دست رفتن اطلاعات"
+      },
+      {
+        "question": "جهت اعمال فیلتر از کدام گزینه استفاده می شود؟",
+        "selected": "Toggle Filter",
+        "correct": "Apply Filter"
+      },
+      {
+        "question": "از ابزار Comments برای ایجاد .......... در قسمت های مختلف slide استفاده می شود؟",
+        "selected": "پاورقی",
+        "correct": "یادداشت"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save as type",
+        "correct": "save as type"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Empty",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "برای استفاده از صفحه جلد در نرم افزار Word چگونه عمل می کنیم؟",
+        "selected": "زبانه Home گروه Editing دستور Cover Page",
+        "correct": "زبانه Insert گروه Pages دستور Page Cover"
+      },
+      {
+        "question": "فرمان cut عمل ................ را انجام می دهد.",
+        "selected": "انتقال دادن",
+        "correct": "انتقال دادن"
+      },
+      {
+        "question": "برای وارد شدن به حساب کاربری خود در Office چگونه عمل می کنیم؟",
+        "selected": "File>Open>Account",
+        "correct": "File>Account"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "حافظه فلش یک دستگاه ...................است؟",
+        "selected": "حافظه",
+        "correct": "ورودی/خروجی"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده را در کدام قسمت مشخص می شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "در مهارت های هفتگانه ICDL کدام نرم افزار به عنوان صفحه گسترده تدریس می شود؟",
+        "selected": "MS_EXCEL",
+        "correct": "MS_EXCEL"
+      },
+      {
+        "question": "Boot شدن یعنی چه؟",
+        "selected": "خراب شدن Boot Record روی دیسک",
+        "correct": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر"
+      },
+      {
+        "question": "برای اینکه خروجی جدول بصورت افقی قرار گیرد گزینه ................ را انتخاب می کنیم؟",
+        "selected": "Horizontally",
+        "correct": "Landscape"
+      },
+      {
+        "question": "کدام یک از انواع نرم افزار برای ویرایش متن مناسب است؟",
+        "selected": "واژه پردازها",
+        "correct": "واژه پردازها"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Find What",
+        "correct": "Look in"
+      },
+      {
+        "question": "کدام یک از حافظه های زیر قابل برنامه ریزی و قابل پاک شدن با اشعه ماوراء بنفش است؟",
+        "selected": "Rom",
+        "correct": "Eprom"
+      },
+      {
+        "question": "از کدام دستگاه زیر جهت چاپ نتایج عملیات و گزارشات بر روی کاغذ استفاده می شود؟",
+        "selected": "پرینتر",
+        "correct": "پرینتر"
+      },
+      {
+        "question": "برای برجسته کردن نوشته باید کدام گزینه را فعال کنیم؟",
+        "selected": "Strikethrough",
+        "correct": "Bold"
+      },
+      {
+        "question": "در پنجره چاپ کدام گزینه چاپ بخش انتخابی را فراهم می نماید؟",
+        "selected": "Current",
+        "correct": "Selection"
+      },
+      {
+        "question": "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
+        "selected": "DVD",
+        "correct": "DVD و CD"
+      },
+      {
+        "question": "با تغییر نوع نمودار در یک اسلاید کدام گزینه از منوی مربوط به نمودار باید انتخاب شود؟",
+        "selected": "Chart Data",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "برای خطایابی املایی و گرامری از سربرگ ........................ گزینه ............................... را انتخاب می کنیم.",
+        "selected": "Insert > Spelling & Grammar",
+        "correct": "Review > Spelling & Grammar"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "بانک اطلاعات چیست؟",
+        "selected": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند",
+        "correct": "مجموعه سازماندهی شده از اطلاعات مرتبط و به هم پیوسته را گویند"
+      },
+      {
+        "question": "برای ایجاد گزارش از کدام گزینه استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Report"
+      }
+    ],
+    "date": "2026-11-21T19:05:11.240Z"
   }
 ]
