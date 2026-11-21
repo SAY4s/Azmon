@@ -12352,5 +12352,218 @@
       }
     ],
     "date": "2026-11-21T18:29:56.153Z"
+  },
+  {
+    "name": "محمدجواد قاسم زاده",
+    "nationalId": "4312908990",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت ایجاد یک صفحه جدید از کدام کلیدها استفاده می کنیم؟",
+        "selected": "Alt+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Read Mode",
+        "correct": "Outline"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "نامه های حذف شده در کدام پوشه قرار دارند؟",
+        "selected": "Deleted Items",
+        "correct": "Deleted Items"
+      },
+      {
+        "question": "عملگرهای منطقی که برای جستجو به کار می روند کدامند؟",
+        "selected": "Or, If",
+        "correct": "Not, And, Or"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Queries",
+        "correct": "Reports"
+      },
+      {
+        "question": "برای فعال کردن راهنمای برنامه از کدام کلید می توان استفاده نمود؟",
+        "selected": "F3",
+        "correct": "F1"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "کدامیک از پرونده های زیر را نمی توان به عنوان تصویر زمینه ویندوز استفاده کرد؟",
+        "selected": "*.gif",
+        "correct": "*.dat"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Mainboard",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "گزینه مناسب اجرای فرمان جستجوی واژه ها کدام است؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "آدرس منحصر به فرد هر منبع در اینترنت چه نامیده می شود؟",
+        "selected": "https",
+        "correct": "URL"
+      },
+      {
+        "question": "در پنجره دانلود فایل، چه اطلاعاتی مشاهده نمی گردد؟",
+        "selected": "نام گیرنده فایل",
+        "correct": "نام گیرنده فایل"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": "Open",
+        "correct": "New"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "کاربرد Font چیست؟",
+        "selected": "با استفاده از این گزینه می توانیم اندازه متن را تعیین کنیم",
+        "correct": "با استفاده از این گزینه می توانیم نوع متن را تغییر دهیم"
+      },
+      {
+        "question": "در قسمت Subject نامه چه می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد",
+        "correct": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "قانون تبادلات اطلاعات در شبکه",
+        "correct": "آرایش فیزیکی رایانه ها در شبکه"
+      },
+      {
+        "question": "برای انتخاب سلول های همجوار و درج در تابع از کدام علامت استفاده می گردد؟",
+        "selected": "$",
+        "correct": ":"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "CC",
+        "correct": "To"
+      },
+      {
+        "question": "اگر بخواهیم تمام فیلدها در یک رکورد از جدول پر شود و هیچ یک خالی رد نشود کدام خصوصیت از فیلدها باید فعال شود؟",
+        "selected": "Caption",
+        "correct": "Required"
+      },
+      {
+        "question": "نام پوشه پیش فرض برای ذخیره سازی الگوهای Word کدام است؟",
+        "selected": "Program File",
+        "correct": "Templates"
+      },
+      {
+        "question": "برای ارسال نامه نوشته شده از کدام دکمه استفاده می شود؟",
+        "selected": "Send",
+        "correct": "Send"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "از ابزار Slide Number به چه منظور استفاده می شود؟",
+        "selected": "درج شماره اسلاید",
+        "correct": "درج شماره اسلاید"
+      },
+      {
+        "question": "برای تایپ نیم فاصله از کدام کلید ترکیبی در صفحه کلید استاندارد استفاده می شود؟",
+        "selected": "Spacebar+Shift",
+        "correct": "Spacebar+Shift"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "در صفحه کلید برای تایپ علائم بالای کلید، کدام کلید را باید پایین نگه داشت؟",
+        "selected": "Alt",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای تغییر عرض ستون کدام گزینه مناسب است؟",
+        "selected": "Preferred Width",
+        "correct": "Column Width"
+      },
+      {
+        "question": "برای تعیین فاصله بین اجزای یک متن، از زبانه ............. از کادر محاوره ............ استفاده می کنیم.",
+        "selected": "زبانه Character Spacing از Font",
+        "correct": "زبانه Character Spacing از Font"
+      },
+      {
+        "question": "برای تبدیل دستورات غیرقابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟",
+        "selected": "مترجم ها",
+        "correct": "مترجم ها"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Export",
+        "correct": "Info"
+      },
+      {
+        "question": "برای اضافه کردن توضیحات به یک سلول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "گزینه new Comment از سربرگ Review",
+        "correct": "گزینه new Comment از سربرگ Review"
+      }
+    ],
+    "date": "2026-11-21T18:31:41.231Z"
   }
 ]
