@@ -1489,5 +1489,218 @@
       }
     ],
     "date": "2026-11-22T08:14:42.160Z"
+  },
+  {
+    "name": "سجاد نوروزی",
+    "nationalId": "4312152667",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 11,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "برای بزرگ کردن اندازه نوشته کدام گزینه به کار می رود؟",
+        "selected": "Increase Font Size",
+        "correct": "Increase Font Size"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "View",
+        "correct": "Page layout"
+      },
+      {
+        "question": "کدامیک از خصوصیات فیلدها برای تعیین عبارتی به عنوان قانون جهت ورود اطلاعات برای تشخیص داده های نامعتبر، است؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#####",
+        "correct": "#####"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": "Form View",
+        "correct": "Form View"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Commerce",
+        "correct": "E-Commerce"
+      },
+      {
+        "question": "برای بستن سند از چه دستوری استفاده می شود؟",
+        "selected": "Close",
+        "correct": "Close"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "رکورد",
+        "correct": "رکورد"
+      },
+      {
+        "question": "کلیدهای میانبر جهت باز کردن پنجره چاپ کدام است؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "مزیت الگو (Template) چیست؟",
+        "selected": "صرفه جویی در زمان ویرایش",
+        "correct": "صرفه جویی در زمان ویرایش"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Sort کردن فیلدهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(A1=B1,\"t\",\"f\")",
+        "selected": "4",
+        "correct": "F"
+      },
+      {
+        "question": "برای نمایش تمام یا بخشی از اطلاعات در بانک اطلاعاتی از ................ استفاده می نماییم.",
+        "selected": "جدول",
+        "correct": "پرس و جو"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Equation",
+        "correct": "Equation"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت های ارائه خدمات اینترنت",
+        "correct": "شرکت های ارائه خدمات اینترنت"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": "Page Layout \\ Font",
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": "Format, Layout",
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "First Line Indent چه کاربردی دارد؟",
+        "selected": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود",
+        "correct": "برای ایجاد تورفتگی خط اول پاراگراف به کار می رود"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "آدرس یک سایت از چندین بخش مجزا تشکیل شده است و هر بخش توسط علامت ...... از دیگری جدا شده است؟",
+        "selected": "()",
+        "correct": "."
+      },
+      {
+        "question": "کدام فیلد عددی برای ستون سن مناسب است؟",
+        "selected": "Byte",
+        "correct": "Byte"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": "Form",
+        "correct": "Report"
+      },
+      {
+        "question": "کوچکترین عنصر صفحه نمایش چه نام دارد؟",
+        "selected": "Pixel",
+        "correct": "Pixel"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول های A2 تا C5 و سلول D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "آیتم اصلی در پایگاه داده کدام شی است؟",
+        "selected": "Tables",
+        "correct": "Tables"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "Plotter (رسام) جزء دستگاه های ...........و اسکنر واحد ..............است.",
+        "selected": "خروجی - ورودی",
+        "correct": "خروجی - ورودی"
+      },
+      {
+        "question": "هر مگابایت معادل چند بایت است؟",
+        "selected": "1024*1024",
+        "correct": "1024*1024"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "محاسباتی و منطقی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "E-Learning کدام یک از موارد زیر می باشد؟",
+        "selected": "آموزش الکترونیکی",
+        "correct": "آموزش الکترونیکی"
+      },
+      {
+        "question": "کدام نوع داده زیر برای داده های از نوع متنی است و همچنین از نظر طول فیلد محدودیتی ندارد؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر کلیدهای تابعی هستند؟",
+        "selected": "F1 تا F12",
+        "correct": "F1 تا F12"
+      },
+      {
+        "question": "در کدام یک از موارد زیر امکان به حد اکثر رساندن پنجره وجود دارد؟",
+        "selected": null,
+        "correct": "پنجره معمولی"
+      },
+      {
+        "question": "کدام گزینه برای اضافه کردن اشکال هندسی مناسب است؟",
+        "selected": "Shapes",
+        "correct": "Shapes"
+      },
+      {
+        "question": "کدام عملگر دارای پایین ترین اولویت است؟",
+        "selected": "بزرگتری",
+        "correct": "بزرگتری"
+      },
+      {
+        "question": "برای تبدیل یک جدول به متن در Word از کدام استفاده می شود؟",
+        "selected": "Table > Text to Table",
+        "correct": "Table > Convert to Text"
+      }
+    ],
+    "date": "2026-11-22T08:27:26.407Z"
   }
 ]
