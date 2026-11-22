@@ -6601,5 +6601,218 @@
       }
     ],
     "date": "2026-11-22T19:23:48.936Z"
+  },
+  {
+    "name": "مائده حمیدی",
+    "nationalId": "7280114032",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "از کدام دستگاه زیر جهت چاپ نتایج عملیات و گزارشات بر روی کاغذ استفاده می شود؟",
+        "selected": "اسکنر",
+        "correct": "پرینتر"
+      },
+      {
+        "question": "برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر کدام برنامه وظیفه این کار را برعهده دارد؟",
+        "selected": "مترجم",
+        "correct": "مترجم"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "با کلیک بر روی این دکمه منوی نرم افزار باز می شود که به وسیله آن می توان به امکانات لازم برای مدیریت فایل ها دسترسی پیدا کرد.",
+        "selected": "Options",
+        "correct": "File"
+      },
+      {
+        "question": "در صورتی که بخواهیم در هنگام چاپ اسلاید، اسلایدها به صورت تمام صفحه چاپ شوند کدام گزینه از کادر Print Layout را برمی گزینیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Full Page Slides"
+      },
+      {
+        "question": "در ویندوز برای ضبط صدا از کدام نرم افزار زیر استفاده می کنیم؟",
+        "selected": "Sound Recorder",
+        "correct": "Sound Recorder"
+      },
+      {
+        "question": "کدام واحد از CPU به عنوان حافظه سریع نامیده می شود؟",
+        "selected": "CU",
+        "correct": "Cache"
+      },
+      {
+        "question": "در هنگام درج نمودار دو سربرگ وابسته ............. و .......... نیز به سربرگ دستورات نرم افزار اضافه می شود.",
+        "selected": "Design - Format",
+        "correct": "Design - Format"
+      },
+      {
+        "question": "با استفاده از ................... می توانیم سند خود را چاپ کنیم.",
+        "selected": "Print",
+        "correct": "Print"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "LAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "هر مگابایت معادل چند بایت است؟",
+        "selected": "1024*1024",
+        "correct": "1024*1024"
+      },
+      {
+        "question": "برای اینکه در بین ستون ها خط کشیده شود کدام گزینه را در کادر محاوره ای Columns باید انتخاب نماییم؟",
+        "selected": "Line Between",
+        "correct": "Line Between"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Right از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "سمت راست"
+      },
+      {
+        "question": "پسوند سایت های مربوط به موسسات دولتی کدام است؟",
+        "selected": "Gov",
+        "correct": "Gov"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Home"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "کدام یک از تعاریف صحیح می باشد؟",
+        "selected": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است",
+        "correct": "سرعت حافظه اصلی از جانبی بیشتر ولی ظرفیت آن کمتر است"
+      },
+      {
+        "question": "با استفاده از کدام کلیدها تمام موضوعات موجود در یک سند را انتخاب می کنیم؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای بازیابی پوشه و یا فایل حذف شده باید از کدام فرمان استفاده کرد؟",
+        "selected": "Refresh",
+        "correct": "Restore"
+      },
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "جهت تغییر اندازه تصویر، کدام سربرگ را انتخاب می کنیم؟",
+        "selected": "Layout",
+        "correct": "Format"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "خط آبی در زیر کلمات چه معنایی دارد؟",
+        "selected": "کلمه مشکل گرامری دارد",
+        "correct": "کلمه مشکل گرامری دارد"
+      },
+      {
+        "question": "اطلاعات جزئی مربوط به یک موجودیت ................... نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Reports",
+        "correct": "Reports"
+      },
+      {
+        "question": "معمولا آخرین مرحله در طراحی بانک اطلاعاتی چیست؟",
+        "selected": "مستندسازی",
+        "correct": "وارد کردن داده در برنامه و آزمایش و پالایش آن"
+      },
+      {
+        "question": "پسوند فایل های پشتیبان چیست؟",
+        "selected": "bkf",
+        "correct": "bkf"
+      },
+      {
+        "question": "کلید میانبر دستور Subscript کدام است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+="
+      },
+      {
+        "question": "با انتخاب کدام یک از گزینه های زیر امکان جا به جا کردن نوار وظیفه وجود ندارد؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "برای تایپ نیم فاصله از کدام کلید ترکیبی در صفحه کلید استاندارد استفاده می شود؟",
+        "selected": "Spacebar+Shift",
+        "correct": "Spacebar+Shift"
+      },
+      {
+        "question": "برای انتخاب گروهی آیکن های پراکنده باید از کدام یک از کلید های زیر به همراه کلیک کردن استفاده کرد؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE بطور اتوماتیک نمایش داده می شود چه نامیده می شود؟",
+        "selected": "Startup page",
+        "correct": "Home page"
+      },
+      {
+        "question": "سریع ترین روش برای نمایش اسلایدها از اسلاید نخست چیست؟",
+        "selected": "F5",
+        "correct": "F5"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "از نمای .......... برای جابجایی و مدیریت کردن اسلایدها در Power Point استفاده می شود.",
+        "selected": "Normal",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "برای درج یک کاراکتر ویژه از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ View گزینه Style",
+        "correct": "سربرگ Insert گزینه Symbol"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "برای تغییر طرح زمینه، از کدام لینک در پنجره Personalize استفاده می شود؟",
+        "selected": "Desktop background",
+        "correct": "Desktop background"
+      }
+    ],
+    "date": "2026-11-22T19:39:40.960Z"
   }
 ]
