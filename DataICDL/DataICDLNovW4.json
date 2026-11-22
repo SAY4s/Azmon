@@ -1,0 +1,215 @@
+[
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "گزینه Eraser از گروه Draw چه کاربردی دارد؟",
+        "selected": "حذف قسمت مورد نظر جدول",
+        "correct": "حذف قسمت مورد نظر جدول"
+      },
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "با استفاده از کدام دستور از منوی File می توانید سند خود را در اینترنت به اشتراک بگذارید؟",
+        "selected": "Share",
+        "correct": "Share"
+      },
+      {
+        "question": "عملکرد گزینه Start در سربرگ Animation چیست؟",
+        "selected": "نحوه آغاز شدن انیمیشن را مشخص می کند",
+        "correct": "نحوه آغاز شدن انیمیشن را مشخص می کند"
+      },
+      {
+        "question": "برای اینکه اجرای صوت تا پایان اسلایدها ادامه داشته باشد کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Play Across Slides",
+        "correct": "Play Across Slides"
+      },
+      {
+        "question": "برای اینکه پنجره های فعال بسته نشوند و بخواهیم به User دیگری منتقل شویم کدام گزینه را باید انتخاب کنیم؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": "Pptx-presentation",
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "کدام گزینه درست می باشد؟",
+        "selected": "1MB=1024KB",
+        "correct": "1MB=1024KB"
+      },
+      {
+        "question": "کدام یک زبان برنامه نویسی است؟",
+        "selected": "C#",
+        "correct": "C#"
+      },
+      {
+        "question": "اولین مرحله در هنگام طراحی فرم یا گزارش از طریق Wizard کدام مرحله است؟",
+        "selected": "انتخاب فیلدهایی که می خواهید در فرم یا گزارش ظاهر شوند",
+        "correct": "انتخاب جدول یا Query که شما می خواهید گزارش یا فرم بر اساس آن صورت گیرد"
+      },
+      {
+        "question": "Shading برای ................ به کار می رود.",
+        "selected": "تعیین رنگ و طرح زمینه داخل کادر",
+        "correct": "تعیین رنگ و طرح زمینه داخل کادر"
+      },
+      {
+        "question": "اکثر تنظیمات سیستم از طریق پنجره .......... قابل انجام است.",
+        "selected": "Control Panel",
+        "correct": "Control Panel"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "کدام تب برای وسط چین کردن به کار می رود؟",
+        "selected": "Center Tab",
+        "correct": "Center Tab"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Ignore",
+        "correct": "Ignore"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "شبکه",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "اگر بخواهیم متحرک سازی یک شی همراه با متحرک سازی قبلی اجرا شود، کدام گزینه را انتخاب می کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "Cd",
+        "correct": "Cd"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده تصویر، یک نگه دارنده عنوان و یک نگه دارنده متن است.",
+        "selected": "Picture With Caption",
+        "correct": "Picture With Caption"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "CPU شامل چه قسمت هایی نمی باشد؟",
+        "selected": "ثبات",
+        "correct": "واحد ورودی"
+      },
+      {
+        "question": "جهت ذخیره سازی اعداد صحیح بین -2 میلیارد و +2 میلیارد کدامیک از انواع داده ای زیر استفاده می شود؟",
+        "selected": "Byte",
+        "correct": "Long Integer"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "دسترسی به اطلاعات از طریق کدام روش سریع تر است؟",
+        "selected": "مستقیم",
+        "correct": "مستقیم"
+      },
+      {
+        "question": "پسوند فایل های اکسل 2013 کدام است؟",
+        "selected": "xlsx",
+        "correct": "xlsx"
+      },
+      {
+        "question": "برای انتخاب چند خط از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Ctrl همراه با کلیدهای جهتی",
+        "correct": "کلیک کردن بر مبدا و کشیدن ماوس به طرف انتها"
+      },
+      {
+        "question": "کلید میانبر جهت استفاده از (Help)، کدام است؟",
+        "selected": "F3",
+        "correct": "F1"
+      },
+      {
+        "question": "از سربرگ ..... جهت انتخاب حالت های عبور اسلاید استفاده می شود",
+        "selected": "Transition",
+        "correct": "Transition"
+      },
+      {
+        "question": "کدام مورد درباره تابع Round نادرست است؟",
+        "selected": "این تابع برای گرد کردن اعداد صحیح می باشد",
+        "correct": "این تابع برای شمارش اعداد اعشاری می باشد"
+      },
+      {
+        "question": "برای حذف محتویات یک سلول از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Contents",
+        "correct": "سربرگ Home گزینه Clear Contents"
+      },
+      {
+        "question": "برای نمایش خط کش کدام سربرگ را انتخاب می کنید؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Width",
+        "correct": "Width"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+End",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "چگونه می توانیم جهت نوشته جدول را تغییر دهیم؟",
+        "selected": "Text Orientation از گروه Table",
+        "correct": "Text Direction از گروه Alignment"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      }
+    ],
+    "date": "2026-11-22T04:18:01.825Z"
+  }
+]
