@@ -4897,5 +4897,218 @@
       }
     ],
     "date": "2026-11-22T18:04:03.531Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "مناسب ترین نمودار جهت نشان دادن \"درصد اطلاعات\" کدام است؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "برای ذخیره یک سند تحت نامی دیگر از کدام فرمان استفاده می شود؟",
+        "selected": "save as",
+        "correct": "save as"
+      },
+      {
+        "question": "اگر برای فیلدی کلید اولیه تعریف کنیم.......................",
+        "selected": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم",
+        "correct": "نمی توانیم دو داده مشابه و یا خالی داشته باشیم"
+      },
+      {
+        "question": "درکدام حالت از نحوه نمایش پنجره، امکان فیلتر کردن محتوا وجود دارد؟",
+        "selected": "List",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "برای مدیریت سندها از کدام گزینه استفاده می شود؟",
+        "selected": "File",
+        "correct": "File"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "هارد دیسک",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "برای چاپ متن انتخاب شده از کدام مورد استفاده می کنیم؟",
+        "selected": "Print Selected Text",
+        "correct": "Print Selection"
+      },
+      {
+        "question": "اگر در یک query برای فیلد تاریخ تولد عبارت 1360<= and <=1367 به کار رود در لیست نتیجه کدام مورد زیر ظاهر می شود؟",
+        "selected": "اطلاعات افرادی که تاریخ تولد آنها از 1367 کمتر و از 1360 بیشتر است (بین 1360 تا 1367)",
+        "correct": "اطلاعات افرادی که تولد آنها از 1360 تا 1367 است"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Sheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "دکمه ............ به منظور صرف نظر نمودن از انتقال کامل صفحه وب به کامپیوتر شما می باشد؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "انتخاب کدام گزینه کامپیوتر را در حالت آماده باش قرار می دهد؟",
+        "selected": "Sleep",
+        "correct": "Sleep"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر به عنوان متن در نظر گرفته می شود؟",
+        "selected": "2+3",
+        "correct": "2+3"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت کروشه",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "جهت جستجوی فایل هایی که در ماه گذشته تغییر یافته، ایجاد شده و یا قابل دسترسی بوده اند از گزینه ....... استفاده می نماییم؟",
+        "selected": "Last Month",
+        "correct": "Last Month"
+      },
+      {
+        "question": "برای درج تصویر در فیلد از چه نوع داده ای باید استفاده کرد؟",
+        "selected": "Ole Object",
+        "correct": "Ole Object"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Page",
+        "correct": "Page"
+      },
+      {
+        "question": "برای وارد کردن فرمول در سند از کدام دکمه استفاده می شود؟",
+        "selected": "Equation",
+        "correct": "Equation"
+      },
+      {
+        "question": "برای دانلود یک فایل از کدام گزینه استفاده می شود؟",
+        "selected": "Save Target As",
+        "correct": "Save Target As"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": "کادر متنی را به کادر نمودار تبدیل کنیم",
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Background Style",
+        "correct": "Background Style"
+      },
+      {
+        "question": "در چیدمان slideها از چیدمان ....... برای نگهداری عنوان و نگهداری محتوای غیرمتنی استفاده می شود؟",
+        "selected": "Title and Content",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "کدام یک از موارد زیر شامل مواردی مانند Help-Favorites-View-File است؟",
+        "selected": "نوار منو (Menu)",
+        "correct": "نوار منو (Menu)"
+      },
+      {
+        "question": "در هنگام درج خانه، برای اینکه خانه انتخاب شده به پایین حرکت کند و خانه جدید جای آن را بگیرد کدام مورد را از کادر محاوره ای Insert باید انتخاب نمود؟",
+        "selected": "Shift Cells Down",
+        "correct": "Shift Cells Down"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن اولین سطر از گزینه ....................... استفاده می نماییم.",
+        "selected": "Freeze Top Row",
+        "correct": "Freeze Top Row"
+      },
+      {
+        "question": "کلید میانبر Find کدام است؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "از ابزار Date and Time به چه منظور استفاده می شود؟",
+        "selected": "درج تاریخ و زمان",
+        "correct": "درج تاریخ و زمان"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر جزء مشخصات فیلد می باشد؟",
+        "selected": "نوع فیلد",
+        "correct": "نام فیلد و نوع فیلد و توصیف"
+      },
+      {
+        "question": "کدام گزینه آیکن های درون پنجره را بر اساس تاریخ آخرین اصلاح مرتب می کند؟",
+        "selected": "Date Modified",
+        "correct": "Date Modified"
+      },
+      {
+        "question": "با گزینه Create A Copy در پنجره ی Move Or Copy چه کاری انجام می دهیم؟",
+        "selected": "ایجاد یک کپی از کاربرگ",
+        "correct": "ایجاد یک کپی از کاربرگ"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "ویندوز ماهیت چند وظیفه ای دارد به چه معناست؟",
+        "selected": "نمی تواند تعداد زیادی برنامه را اجرا کند",
+        "correct": "می تواند تعداد زیادی برنامه را همزمان اجرا کند"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "برای ایجاد یک لیست علامت گذاری شده از کدام ابزار گروه Paragraph استفاده می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "کدام پوشه در برگیرنده پیام های دریافت شده می باشد؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      }
+    ],
+    "date": "2026-11-22T18:20:32.836Z"
   }
 ]
