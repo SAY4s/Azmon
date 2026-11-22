@@ -5749,5 +5749,218 @@
       }
     ],
     "date": "2026-11-22T19:06:09.514Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 23,
+    "total": 40,
+    "percent": 57,
+    "wrong": 17,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه مربوط به کتابچه آدرس است؟",
+        "selected": "Address book",
+        "correct": "Address book"
+      },
+      {
+        "question": "چنانچه آیکن ضد ویروس با رنگ قرمز نمایان شود نشانه چیست؟",
+        "selected": "به روز نبودن ضد ویروس",
+        "correct": "به روز نبودن ضد ویروس"
+      },
+      {
+        "question": "برای تمایز افرادی که دارای نام یا نام خانوادگی یکسانی هستند بهتر است.......................؟",
+        "selected": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم",
+        "correct": "یک کلید اولیه (Primary Key) به جدول اضافه کنیم"
+      },
+      {
+        "question": "خاصیت Transparency در پنجره ی Format Background به چه منظور استفاده می شود؟",
+        "selected": "تغییر مکان پس زمینه",
+        "correct": "تغییر شفافیت پس زمینه"
+      },
+      {
+        "question": "توسط کدام گزینه می توانیم صفحات وب سایت های مشاهده شده قبلی را مشاهده کنیم؟",
+        "selected": "History",
+        "correct": "History"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "50 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "برای چاپ صفحه کاری جاری از کادر محاوره ای Print کدام گزینه را باید انتخاب کرد؟",
+        "selected": "Print Current Sheet",
+        "correct": "Active Sheet Print"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Queries",
+        "correct": "Reports"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "کدام گزینه در مورد دولت الکترونیکی بکار می رود؟",
+        "selected": "E-Government",
+        "correct": "E-Government"
+      },
+      {
+        "question": "گزینه های مربوط به حاشیه بندی صفحه در کدام زبانه قرار دارند؟",
+        "selected": "Page layout",
+        "correct": "Page layout"
+      },
+      {
+        "question": "کدام گزینه به معنای Sort Descending می باشد؟",
+        "selected": "مرتب سازی به روش نزولی",
+        "correct": "مرتب سازی به روش نزولی"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "List",
+        "correct": "Details"
+      },
+      {
+        "question": "زمان و تاریخ سیستم در کادر محاوره ای ................................. تعیین می گردد.",
+        "selected": "Change Date And Time Setting",
+        "correct": "Change Date And Time Setting"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Bus",
+        "correct": "Bus"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Picture/Graphic",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Center Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "جهت تعیین برچسب فیلد در Field Property از کدام قسمت استفاده می شود؟",
+        "selected": "Field Size",
+        "correct": "Caption"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "کدام نوع مرتب سازی صعودی است؟",
+        "selected": "Ascending",
+        "correct": "Ascending"
+      },
+      {
+        "question": "در صورتی که بخواهیم عنصری در یک اسلاید انتخاب شود کدام گزینه مناسب تر است؟",
+        "selected": "Select",
+        "correct": "Select Object"
+      },
+      {
+        "question": "Boot شدن یعنی چه؟",
+        "selected": "پر شدن حافظه به دلیل مقیم شدن برنامه های مختلف",
+        "correct": "Load شدن اتوماتیک فایل های سیستم توسط برنامه موجود در Rom کامپیوتر"
+      },
+      {
+        "question": "برای تغییر شکل ظاهری سند و استفاده از تم های آماده در Word از کدام زبانه اقدام می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "منوی System از منوی Accessories",
+        "correct": "All Program"
+      },
+      {
+        "question": "به هنگام تعریف داده های عددی کدام نوع جهت عددهای اعشاری مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پلاتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "5",
+        "correct": "4"
+      },
+      {
+        "question": "در هنگام طراحی فرم با Form Wizard کلیک بر روی کدام دکمه باعث انتقال تمام فیلدها از لیست Available Selected Fields می شود؟",
+        "selected": ">",
+        "correct": "<<"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print All Page",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "کدام گزینه دستورالعمل هایی هستند که جهت به کارگیری سخت افزار مورد استفاده قرار می گیرد؟",
+        "selected": "سیستم",
+        "correct": "نرم افزار"
+      },
+      {
+        "question": "کدام گزینه نادرست می باشد؟",
+        "selected": "شیار: یک دایره روی دیسک",
+        "correct": "قطاع: دایره های هم مرکز با شعاع برابر"
+      },
+      {
+        "question": "منظور از (Screen Saver) چیست؟",
+        "selected": "محافظ صفحه نمایش",
+        "correct": "محافظ صفحه نمایش"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "ورودی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "accdb",
+        "correct": "accdb"
+      },
+      {
+        "question": "Task Bar به کدام قسمت ویندوز اطلاق می گردد؟",
+        "selected": "نوار وضعیت",
+        "correct": "نوار کار پایین Desktop"
+      }
+    ],
+    "date": "2026-11-22T19:10:22.939Z"
   }
 ]
