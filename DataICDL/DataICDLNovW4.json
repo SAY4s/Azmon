@@ -2341,5 +2341,218 @@
       }
     ],
     "date": "2026-11-22T14:56:50.152Z"
+  },
+  {
+    "name": "حنانه محمدوردی",
+    "nationalId": "5080210958",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در هنگام طراحی فرم با Form Wizard کلیک بر روی کدام دکمه باعث انتقال تمام فیلدها از لیست Available Selected Fields می شود؟",
+        "selected": "<<",
+        "correct": "<<"
+      },
+      {
+        "question": "1kb معادل چند بایت است؟",
+        "selected": "1024 بایت",
+        "correct": "1024 بایت"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Outline",
+        "correct": "Outline"
+      },
+      {
+        "question": "از ابزار Line Spacing به چه منظور استفاده می شود؟",
+        "selected": "تعیین فاصله بین خطوط",
+        "correct": "تعیین فاصله بین خطوط"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر از مزایای کامپیوتر نمی باشد؟",
+        "selected": "ضریب خطای بالا",
+        "correct": "ضریب خطای بالا"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Layout",
+        "correct": "Home"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی (کپی) در کدام قسمت مشخص می شود؟",
+        "selected": "BCC",
+        "correct": "CC"
+      },
+      {
+        "question": "کدام گزینه قالب بندی شرطی را انجام می دهد؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "به عنصری از بانک اطلاعاتی که جهت ورود یا تغییر اطلاعات به کار می رود چه می گویند؟",
+        "selected": "Design",
+        "correct": "Form"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Decimal Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "برای اجرای فرمان cut و paste از کدام کلیدهای میانبر زیر استفاده می شود؟",
+        "selected": "Ctrl+V - Ctrl+X",
+        "correct": "Ctrl+V - Ctrl+X"
+      },
+      {
+        "question": "فرامین Copy و Paste به چه منظور مورد استفاده قرار می گیرند؟",
+        "selected": "کپی اطلاعات",
+        "correct": "کپی اطلاعات"
+      },
+      {
+        "question": "پوشه (Folder) به چه معنا است؟",
+        "selected": "محلی برای نگهداری و سازماندهی فایل ها و برنامه ها",
+        "correct": "محلی برای نگهداری و سازماندهی فایل ها و برنامه ها"
+      },
+      {
+        "question": "برای ایجاد Query بر کدام سربرگ کلیک می کنیم؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "نرم افزار چه کاری را انجام می دهد؟",
+        "selected": "رابط بین کاربر و سخت افزار",
+        "correct": "برای انجام کارهای خاص به کار می رود"
+      },
+      {
+        "question": "برای اجرای سریع فرمان undo کلیدهای ...... مورد استفاده قرار می گیرند؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "بر روی تب مورد نظر اشاره کرده و کلید Delete را فشار می دهیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "جهت تعیین عبارتی به عنوان قانون جهت ورود اطلاعات کدام یک از قسمت های زیر تغییر داده می شود؟",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "تبدیل گزارش به کدام نوع خروجی امکان پذیر نمی باشد؟",
+        "selected": "Bmp",
+        "correct": "Bmp"
+      },
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "یک رکورد مجموعه ای از اطلاعات را درباره ................. ذخیره می کند.",
+        "selected": "چند موضوع",
+        "correct": "یک موضوع"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "توسط نرم افزار فشرده سازی، می توان حجم فایل را تا ...... کاهش داد.",
+        "selected": "%50",
+        "correct": "%50"
+      },
+      {
+        "question": "قلم نوری یک دستگاه ...........................است.",
+        "selected": "ورودی",
+        "correct": "ورودی"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "برای نوشتن حروف کوچک انگلیسی از کدام دستور Change Case استفاده می کنیم؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "با استفاده از کدام گزینه می توان سبک جدید و سفارشی ایجاد نمود؟",
+        "selected": "Create A New Style",
+        "correct": "Create A New Style"
+      },
+      {
+        "question": "ابزار Rotate در سربرگ Format گروه Arrange به چه منظور استفاده می شود؟",
+        "selected": "چرخش عناصر",
+        "correct": "چرخش عناصر"
+      },
+      {
+        "question": "هر واحد نگهداری اطلاعات در اکسل را یک ........................ می نامند.",
+        "selected": "سلول",
+        "correct": "سلول"
+      },
+      {
+        "question": "از کدام گزینه در بخش Size برای چاپ روی پاکت نامه استفاده می کنیم؟",
+        "selected": "Envelope",
+        "correct": "Envelope"
+      },
+      {
+        "question": "برای تغییر زاویه مشاهده نمودار سه بعدی کدام گزینه صحیح است؟",
+        "selected": "از تب Chart گزینه 3-D View",
+        "correct": "از تب Chart گزینه 3-D View"
+      },
+      {
+        "question": "از ابزار Symbol در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج کاراکترها و علائم ویژه",
+        "correct": "درج کاراکترها و علائم ویژه"
+      }
+    ],
+    "date": "2026-11-22T15:10:08.805Z"
   }
 ]
