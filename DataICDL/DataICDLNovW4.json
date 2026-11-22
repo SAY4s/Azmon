@@ -2980,5 +2980,218 @@
       }
     ],
     "date": "2026-11-22T15:47:01.169Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 4,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "PDA چیست؟",
+        "selected": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود",
+        "correct": "از انواع کامپیوترهای شخصی است که ابعاد کوچکی دارد و برای کارهای با حجم کم استفاده می شود"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "برای ایجاد یک نامه در برنامه Outlook Express کدامیک از مسیرهای زیر را باید طی کنیم؟",
+        "selected": "کلیک بر روی نوار ابزار Create Mail",
+        "correct": "کلیک بر روی نوار ابزار Create Mail"
+      },
+      {
+        "question": "برای انتخاب کلمات پراکنده از کدام کلید صفحه کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "با استفاده از کدام دکمه در کادر Find and Replace می توانید تمام کلمات انتخاب شده را جایگزین کنید؟",
+        "selected": "Replace All",
+        "correct": "Replace All"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Blank Presentation",
+        "correct": "Blank Presentation"
+      },
+      {
+        "question": "کدام دستور در سربرگ Page Layout جهت صفحه را تعیین می کند؟",
+        "selected": "Orientation",
+        "correct": "Orientation"
+      },
+      {
+        "question": "برای نمایش مقادیر داده ها به درصد از کدام نوع نمودار استفاده می گردد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "از این ابزار برای مخفی کردن اسلایدها در حالت نمایش استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "برای ذخیره سازی یک کاراکتر (حرف) چند Bit نیاز است؟",
+        "selected": "8",
+        "correct": "8"
+      },
+      {
+        "question": "برای برگشتن به صفحه ی قبلی ملاحظه شده روی کدام دکمه در IE باید کلیک نمود؟",
+        "selected": "Back",
+        "correct": "Back"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "به ارتباط چند رایانه متصل به هم چه می گویند؟",
+        "selected": "Network",
+        "correct": "Network"
+      },
+      {
+        "question": "اگر مقادیر d1 تا d6 به ترتیب 24-18-10-16-14-8 باشد تابع روبرو چه عددی را برمی گرداند؟ =max(d1:d5)",
+        "selected": "18",
+        "correct": "18"
+      },
+      {
+        "question": "کدام کلید سبب پرش مکان نما به ابتدای سند می گردد؟",
+        "selected": "Home",
+        "correct": "Ctrl+Home"
+      },
+      {
+        "question": "اطلاعات در حافظه کامپیوتر به صورت .....................ذخیره می شوند.",
+        "selected": "باینری",
+        "correct": "باینری"
+      },
+      {
+        "question": "رایانه ای که در محیط شبکه به کامپیوترهای دیگر خدمات ارائه می دهند:",
+        "selected": "سرور",
+        "correct": "سرور"
+      },
+      {
+        "question": "برای تغییر خصوصیات یک فایل یا پوشه از کدام گزینه استفاده می شود؟",
+        "selected": "Properties",
+        "correct": "Properties"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - کپی",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "در چیدمان slide از ....... به منظور ایجاد اسلاید با قالب عنوان و زیر عنوان است استفاده می شود.",
+        "selected": "Title and Content",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "برای انتخاب چند سطر غیر همجوار در excel از کدام کلید استفاده می شود؟",
+        "selected": "Ctrl",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "با این دستور می توانیم رنگ متن را تغییر دهیم:",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "برای تغییر تنظیمات و سفارشی کردن نرم افزار از گزینه ............ در منوی File استفاده می کنیم.",
+        "selected": "Options",
+        "correct": "Options"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "اگر می خواهید همه سطرهایی را از جدولتان ببینید که با قسمتی از مقدار سطر یک جدول صفحه داده تطبیق دارند از ......... استفاده کنید؟",
+        "selected": "Selection Filter",
+        "correct": "Selection Filter"
+      },
+      {
+        "question": "سایت هایی هستند که در آن سایت ها از نظر موضوعی طبقه بندی شده اند؟",
+        "selected": "وب سایت های فهرست",
+        "correct": "وب سایت های فهرست"
+      },
+      {
+        "question": "برای ادغام خانه ها از کدام فرمان استفاده می کنیم؟",
+        "selected": "Merge & Center",
+        "correct": "Merge & Center"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Home-Number",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "از ابزار Slide Number به چه منظور استفاده می شود؟",
+        "selected": "درج شماره اسلاید",
+        "correct": "درج شماره اسلاید"
+      },
+      {
+        "question": "کدام یک از توابع زیر در طراحی گزارش، میانگین اعداد را محاسبه می کند؟",
+        "selected": "Average",
+        "correct": "Average"
+      },
+      {
+        "question": "از این ابزار برای کپی کردن Animation بر روی عناصر دیگر اسلایدها استفاده می شود.",
+        "selected": "Animation Painter",
+        "correct": "Animation Painter"
+      },
+      {
+        "question": "کدام تابع اعداد موجود در یک ناحیه از سلول ها را شمارش می کند؟",
+        "selected": "Count",
+        "correct": "Count"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انتخاب گزینه Arrange از تب Review",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Taskbar",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "کدامیک از دکمه های زیر جهت حرکت به رکورد بعدی استفاده می شود؟",
+        "selected": "Next Record",
+        "correct": "Next Record"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K$6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "با فشردن کدام کلید تابعی مکان نما از حالت متن خارج و سربرگ ها فعال و در کنار سربرگ ها یک عدد یا یک حرف قرار می گیرد؟",
+        "selected": "F6",
+        "correct": "F10"
+      }
+    ],
+    "date": "2026-11-22T15:56:40.969Z"
   }
 ]
