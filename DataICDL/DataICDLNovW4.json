@@ -8731,5 +8731,218 @@
       }
     ],
     "date": "2026-11-22T21:17:02.049Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای رفتن به پاراگراف بعدی از کدام کلید استفاده می کنیم؟",
+        "selected": "Enter",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "در کدام نمای سند حاشیه و اشکال گرافیکی دیده نمی شود؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "Bar Tab چه کاری انجام می دهد؟",
+        "selected": "ایجاد تورفتگی خط اول پاراگراف در محل ایجاد تب",
+        "correct": "قرار دادن یک خط در محل ایجاد تب"
+      },
+      {
+        "question": "برای یافتن کلمه بعدی در کادر Find And Replace از کدام گزینه استفاده می شود؟",
+        "selected": "Find Next",
+        "correct": "Find Next"
+      },
+      {
+        "question": "جهت چاپ چند اسلاید به صورت کوچک در یک کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Handouts",
+        "correct": "Handouts"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "تب مورد نظر را به بیرون از خط کش درگ می کنیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Web Page, HTML Only",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "برای تعیین محدوده چاپ از کدام گزینه استفاده می شود؟",
+        "selected": "Set Print Area",
+        "correct": "Set Print Area"
+      },
+      {
+        "question": "فایل های Access با چه قالبی ذخیره می شوند؟",
+        "selected": "bmp",
+        "correct": "accdb"
+      },
+      {
+        "question": "معادل کلید ترکیبی Redo کدام است؟",
+        "selected": "Ctrl+Y",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "جهت جابجایی بین پنجره های باز از ترکیب کلیدهای .......................... استفاده می شود.",
+        "selected": "Alt+Tab",
+        "correct": "Alt+Tab"
+      },
+      {
+        "question": "به منظور فعال نمودن اعداد سمت راست صفحه کلید از ................ استفاده می شود.",
+        "selected": "Num Lock",
+        "correct": "Num Lock"
+      },
+      {
+        "question": "اگر بخواهیم چند فایل صفحه گسترده را با موقعیت و اندازه هر کدام در یک پنجره نمایش دهیم؟",
+        "selected": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window",
+        "correct": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window"
+      },
+      {
+        "question": "از نمای ................. در نرم افزار می توان برای نمایش اسلایدهای طراحی شده به شرکت کنندگان در جلسه استفاده کرد.",
+        "selected": "Slide Show",
+        "correct": "Slide Show"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "Database",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "یک برنامه به منظور اجرا در کجا قرار می گیرد؟",
+        "selected": "Hard Disk",
+        "correct": "RAM"
+      },
+      {
+        "question": "گزینه Sleep چه کاری انجام می دهد؟",
+        "selected": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند",
+        "correct": "بدون بستن برنامه ها و پنجره ها وضعیت فعلی را در حافظه نگهداری می کند"
+      },
+      {
+        "question": "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیرگروه ....... را انتخاب می کنیم؟",
+        "selected": "Design > Variants > Background Styles",
+        "correct": "Design > Variants > Background Styles"
+      },
+      {
+        "question": "در هنگام ارسال نامه، آدرس گیرنده باید در کدام قسمت درج شود؟",
+        "selected": "To",
+        "correct": "To"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "دریافت اطلاعات از اینترنت را ...... می گویند.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "برای انتخاب سلول های همجوار و درج در تابع از کدام علامت استفاده می گردد؟",
+        "selected": ":",
+        "correct": ":"
+      },
+      {
+        "question": "کلید میانبر باز نمودن سندهای ایجاد شده چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "K$6$",
+        "correct": "$K$6"
+      },
+      {
+        "question": "با انتخاب 5 سطر آخر یک جدول و انتخاب گزینه Insert Right از سربرگ Layout، 5 سطر در ............ سطرهای انتخاب شده ایجاد می شود.",
+        "selected": "سمت راست",
+        "correct": "سمت راست"
+      },
+      {
+        "question": "اگر بخواهیم نامه دریافت شده را برای افراد دیگری بفرستیم از کدام دکمه استفاده می کنیم؟",
+        "selected": "Forward",
+        "correct": "Forward"
+      },
+      {
+        "question": "برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.",
+        "selected": "Page Number-Insert",
+        "correct": "Page Number-Insert"
+      },
+      {
+        "question": "اگر در کنار نام آیکن پوشه در ساختار درختی علامت (+) نمایش یابد، نشانه چیست؟",
+        "selected": "داشتن زیر پوشه",
+        "correct": "داشتن زیر پوشه"
+      },
+      {
+        "question": "انواع نرم افزار کدام گزینه است؟",
+        "selected": "سطح بالا - سطح پایین",
+        "correct": "کاربردی - سیستمی"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": "در مکان دلخواه در خط کش افقی کلیک می کنیم",
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "در کدام یک برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می شود؟",
+        "selected": "CD-ROM",
+        "correct": "CD-ROM"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن تصاویر گرافیکی هوشمند استفاده می شود؟",
+        "selected": "Smart Art",
+        "correct": "Smart Art"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "در صورتی که بخواهیم یک فایل ارائه مطالب در نسخه های قبلی (2003) برنامه قابل اجرا باشد از چه پسوندی استفاده می کنیم؟",
+        "selected": "PPT",
+        "correct": "PPT"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Picture/Graphic",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Fore Color",
+        "correct": "Highlight"
+      }
+    ],
+    "date": "2026-11-22T21:25:03.179Z"
   }
 ]
