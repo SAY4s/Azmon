@@ -1915,5 +1915,218 @@
       }
     ],
     "date": "2026-11-22T14:28:58.053Z"
+  },
+  {
+    "name": "حنانه محمدوردی",
+    "nationalId": "5080210958",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "از کادر محاوره ای Tabs گزینه Remove Tab را برمی گزینیم",
+        "correct": "از کادر محاوره ای Tabs پس از انتخاب تب مورد نظر بر روی دکمه Clear کلیک می کنیم"
+      },
+      {
+        "question": "کدام یک از موارد زیر سیستم عامل محسوب نمی شود؟",
+        "selected": "Word",
+        "correct": "Word"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر نادرست است؟",
+        "selected": "Lock the taskbar نوار کار ویندوز را مخفی می کند",
+        "correct": "Lock the taskbar نوار کار ویندوز را مخفی می کند"
+      },
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": "Blank",
+        "correct": "Blank"
+      },
+      {
+        "question": "برای ایجاد سرصفحه که یک بار در اول گزارش به عنوان تیتر و یک پاورقی که یک بار در انتهای گزارش چاپ شود کدام مورد را از تب Design انتخاب می کنیم تا متن مورد نظر را در آن قسمت ها قرار دهیم؟",
+        "selected": "Report Header/Footer",
+        "correct": "Report Header/Footer"
+      },
+      {
+        "question": "نامه های ناتمام معمولا در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "عملکرد تابع IF چیست؟",
+        "selected": "بر روی سلول های انتخابی شرط می گذارد، در صورت درست بودن شرط پیام مناسب می دهد",
+        "correct": "بر روی سلول های انتخابی شرط می گذارد، در صورت درست بودن شرط پیام مناسب می دهد"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+X",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "توسط کدام دستور اندازه صفحه را تغییر می دهیم؟",
+        "selected": "Size",
+        "correct": "Size"
+      },
+      {
+        "question": "جهت ایجاد مقدار پیش فرض فیلدها از کدام گزینه استفاده می گردد؟",
+        "selected": "Default Value",
+        "correct": "Default Value"
+      },
+      {
+        "question": "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
+        "selected": "Next Slide و Previous Slide",
+        "correct": "Next Slide و Previous Slide"
+      },
+      {
+        "question": "این گزینه در کادر جستجو عبارت های کشیده شده را نیز جستجو می کند.",
+        "selected": "Match Kashida",
+        "correct": "Match Kashida"
+      },
+      {
+        "question": "کدام گزینه رابط بین کاربر و اینترنت می باشد؟",
+        "selected": "شبکه",
+        "correct": "ISP"
+      },
+      {
+        "question": "برای تعیین نوع داده ها از چه گزینه ای استفاده می شود؟",
+        "selected": "Data Type",
+        "correct": "Data Type"
+      },
+      {
+        "question": "کلید ترکیبی Go To کدام است؟",
+        "selected": "Alt+G",
+        "correct": "Ctrl+G"
+      },
+      {
+        "question": "Chart type در نمودارها چه کاربردی دارد؟",
+        "selected": "تغییر نوع نمودار",
+        "correct": "تغییر نوع نمودار"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک بایت کمتر از یک بیت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "پسوند فایل های صفحه گسترده Xls است",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      },
+      {
+        "question": "از کدام گزینه جهت افزودن اعشار استفاده می کنیم؟",
+        "selected": "Increase Decimal",
+        "correct": "Increase Decimal"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از واژه های پیشنهادی را از منوی میانبر برگزینید"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "جهت انتخاب اسلایدهای هم جوار کلید ........ را همزمان از صفحه کلید فشار داده و روی آخرین اسلاید کلیک می کنید.",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "=A2+A3",
+        "correct": "=A2+A3"
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "برای نگهداری موقت داده های در حال پردازش از کدام مورد استفاده می شود؟",
+        "selected": "Cache",
+        "correct": "Register"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": "Db",
+        "correct": "Db"
+      },
+      {
+        "question": "از این ابزار برای درج ویدیو از طریق اینترنت به اسلاید مورد استفاده قرار می گیرد",
+        "selected": "Online Video",
+        "correct": "Online Video"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Field Size",
+        "correct": "Field Size"
+      },
+      {
+        "question": "با استفاده از کدام کلیدها تمام موضوعات موجود در یک سند را انتخاب می کنیم؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "برای اضافه کردن نام سایت به لیست علاقه مندی خود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Add To Favorites",
+        "correct": "Add To Favorites"
+      },
+      {
+        "question": "دستور Repeat Header Rows در گروه Data چه عملکردی دارد؟",
+        "selected": "برای سطرها عنوان ایجاد می کند",
+        "correct": "در هر صفحه عنوان جدول را تکرار می کند"
+      },
+      {
+        "question": "Cpu مخفف چه کلماتی است؟",
+        "selected": "Central Processing Unit",
+        "correct": "Central Processing Unit"
+      },
+      {
+        "question": "برای فراخوانی مجدد صفحه وب کنونی از کدام دکمه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های متنی چیست؟",
+        "selected": "Txt & Docx",
+        "correct": "Txt & Docx"
+      },
+      {
+        "question": "علامت مساوی در شروع یک خانه نشانه چیست؟",
+        "selected": "شروع یک فرمول",
+        "correct": "شروع یک فرمول"
+      },
+      {
+        "question": "به رایانه گیرنده اطلاعات ............ و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
+        "selected": "Server - Clients",
+        "correct": "Server - Clients"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      }
+    ],
+    "date": "2026-11-22T14:43:20.853Z"
   }
 ]
