@@ -4471,5 +4471,218 @@
       }
     ],
     "date": "2026-11-22T17:06:47.069Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 33,
+    "total": 40,
+    "percent": 83,
+    "wrong": 7,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Bus",
+        "correct": "Bus"
+      },
+      {
+        "question": "کدام مورد برای لغو آخرین عمل انجام شده بکار می رود؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Z"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "برای بالانویسی کدام دکمه را به کار می بریم؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      },
+      {
+        "question": "برای فرستادن ضمیمه یا پیوست به همراه نامه از دکمه ی ........... در نوار ابزار استاندارد پنجره نامه می توان استفاده کرد.",
+        "selected": "Attach",
+        "correct": "Attach"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کارت صدا",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول A2 و سلول های C5 تا D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "Primary Key برای .......................؟",
+        "selected": "برای Unique (یکتا) کردن رکوردهای جدول",
+        "correct": "برای Unique (یکتا) کردن رکوردهای جدول"
+      },
+      {
+        "question": "کدامیک از عبارت های زیر یک مرورگر وب می باشد؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "جهت قطع ارتباط با اینترنت از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Disconnect",
+        "correct": "Disconnect"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Excel Spreadsheet",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "Plotter (رسام) جزء دستگاه های ...........و اسکنر واحد ..............است.",
+        "selected": "خروجی - ورودی",
+        "correct": "خروجی - ورودی"
+      },
+      {
+        "question": "به ناحیه نمایش ساعت، وضعیت بلندگو و غیره در روی نوار کار ..................... گویند.",
+        "selected": "Notification",
+        "correct": "Notification"
+      },
+      {
+        "question": "برای تعیین فیلتر پیشرفته کدام گزینه زیر صحیح است؟",
+        "selected": "Filter By Selection",
+        "correct": "Advanced Filter/Sort"
+      },
+      {
+        "question": "گروه Table Styles در زبانه Design جدول چه کاربردی دارد؟",
+        "selected": "اعمال سبک روی جدول",
+        "correct": "اعمال سبک روی جدول"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "از کدام گزینه برای اعمال جلوه های فانتزی به متن استفاده می شود؟",
+        "selected": "Word Art",
+        "correct": "Word Art"
+      },
+      {
+        "question": "کدام گزینه گنجایش درایوهای دیسک سخت را نشان می دهد؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "برای حذف نامه ها می توانید از چه کلیدی در صفحه کلید استفاده کنید؟",
+        "selected": "Ctrl+Shift",
+        "correct": "Delete"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "پست الکترونیکی، آموزش الکترونیکی",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "سندی که به صورت ساخت یافته اطلاعات استخراج شده از بانک اطلاعاتی را نشان می دهد چه نامیده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "هنگام اضافه کردن یک سلول گزینه Shift Cells Down چه عملی انجام می دهد؟",
+        "selected": "انتقال سایر خانه ها به پایین",
+        "correct": "انتقال سایر خانه ها به پایین"
+      },
+      {
+        "question": "برای حذف کل جدول کدام دستور از گروه Delete را اعمال می کنیم؟",
+        "selected": "Delete Table",
+        "correct": "Delete Table"
+      },
+      {
+        "question": "کدامیک از دستورات Alignment متن را وسط چین می کند؟",
+        "selected": "Center",
+        "correct": "Center"
+      },
+      {
+        "question": "جهت تایید و لغو محتویات یک سلول از کدام گزینه استفاده می شود؟",
+        "selected": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول",
+        "correct": "دکمه Enter جهت تایید و دکمه Esc جهت لغو محتویات سلول"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "برای نمایش اسلایدها از اسلاید جاری، کلیدهای ........... را همزمان می فشاریم.",
+        "selected": "Alt+F3",
+        "correct": "Shift+F5"
+      },
+      {
+        "question": "برای چاپ اسلاید از منوی فایل گزینه ....... را انتخاب کرده و در پنجره باز شده برای چاپ همه اسلایدها گزینه ........ را انتخاب می کنیم؟ (از چپ به راست)",
+        "selected": "Print / All",
+        "correct": "Print / All"
+      },
+      {
+        "question": "کاربرد دستور Page Break در گروه Pages چیست؟",
+        "selected": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند",
+        "correct": "ارتباط میان بخش انتخاب شده و مابقی سند را قطع می کند"
+      },
+      {
+        "question": "برای ایجاد یک لیست علامت گذاری شده از کدام ابزار گروه Paragraph استفاده می شود؟",
+        "selected": "Bullets",
+        "correct": "Bullets"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Report",
+        "correct": "Query"
+      },
+      {
+        "question": "برای ترازبندی پاراگراف، از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Review",
+        "correct": "Home"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "در صورتی که بخواهیم تم انتخاب شده فقط بر روی Slide های انتخابی اعمال شود کدام گزینه مناسب است؟",
+        "selected": "Apply to Selected Slide",
+        "correct": "Apply to Selected Slide"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Shut Down",
+        "correct": "Lock"
+      }
+    ],
+    "date": "2026-11-22T17:09:51.835Z"
   }
 ]
