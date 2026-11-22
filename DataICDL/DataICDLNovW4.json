@@ -8092,5 +8092,218 @@
       }
     ],
     "date": "2026-11-22T20:25:05.479Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 32,
+    "total": 40,
+    "percent": 80,
+    "wrong": 8,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای اینکه بخواهیم پاورقی در متن ایجاد شود از کدام گزینه استفاده می کنیم؟",
+        "selected": "Footnote",
+        "correct": "Footnote"
+      },
+      {
+        "question": "سایت هایی هستند که در آن سایت ها از نظر موضوعی طبقه بندی شده اند؟",
+        "selected": "وب سایت های فهرست",
+        "correct": "وب سایت های فهرست"
+      },
+      {
+        "question": "هارد دیسک از نظر روش دستیابی به اطلاعات جزء کدام گروه است؟",
+        "selected": "دستیابی تصادفی",
+        "correct": "دستیابی تصادفی"
+      },
+      {
+        "question": "کدام برنامه زیر می توان بدون اتصال به اینترنت نامه های خود را در آن نوشت؟",
+        "selected": "Outlook Express",
+        "correct": "Outlook Express"
+      },
+      {
+        "question": "کدام یک از موارد زیر درست می باشد؟",
+        "selected": "قدرت پردازش کامپیوترهای Pc از کامپیوترهای Mini بیشتر است",
+        "correct": "قدرت پردازش Mini کامپیوتر از کامپیوترهای Pc بیشتر است"
+      },
+      {
+        "question": "چگونه می توان پیش نمایش چاپ را مشاهده کرد؟",
+        "selected": "Print Preview",
+        "correct": "Print Preview"
+      },
+      {
+        "question": "گزینه Fill از پنجره Format Cells چه عملی انجام می دهد؟",
+        "selected": "پر کردن یک خانه با واژه مورد نظر",
+        "correct": "تغییر رنگ زمینه سلول"
+      },
+      {
+        "question": "کدام یک از ابزارها در گروه Master View برای تعیین نمای ظاهری نکات ارائه دهنده ی اسلایدهای فایل ارائه مطلب مورد استفاده قرار می گیرد؟",
+        "selected": "Slide Master",
+        "correct": "Note Master"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "جهت نمایش محتوای فایل های شناسایی نشده توسط ویندوز کدام گزینه صحیح است؟",
+        "selected": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید",
+        "correct": "بر روی فایل راست کلیک کرده و گزینه open With را انتخاب نمایید"
+      },
+      {
+        "question": "برای ذخیره تنها متن های وب کدام نوع ذخیره سازی را باید انتخاب کرد؟",
+        "selected": "Web Page, HTML Only",
+        "correct": "Web Page, HTML Only"
+      },
+      {
+        "question": "کدام یک از کلیدهای زیر دو حالته نیست؟",
+        "selected": "Caps Lock",
+        "correct": "Shift"
+      },
+      {
+        "question": "برای تغییر نما در حالت رئوس مطالب، کدام گزینه مناسب است؟",
+        "selected": "Read Mode",
+        "correct": "Outline"
+      },
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "Eprom",
+        "correct": "CMOS"
+      },
+      {
+        "question": "برای تغییر نوع نمودار از کدام گزینه استفاده می کنیم؟",
+        "selected": "Change Chart Type",
+        "correct": "Change Chart Type"
+      },
+      {
+        "question": "برای تصحیح خودکار کلمات اشتباه آن ها را به کدام بخش اضافه می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "برای بستن پنجره ها از کدام گزینه نمی توان استفاده کرد؟",
+        "selected": "از کلید ترکیبی Alt+Tab استفاده می کنیم",
+        "correct": "از کلید ترکیبی Alt+Tab استفاده می کنیم"
+      },
+      {
+        "question": "برای انتقال فایل و پوشه ها به کدام گزینه مراجعه می کنیم؟",
+        "selected": "Organize",
+        "correct": "Organize"
+      },
+      {
+        "question": "به منظور سفارشی کردن منوی Start گزینه .......... استفاده می شود.",
+        "selected": "Start / Properties",
+        "correct": "Start / Properties"
+      },
+      {
+        "question": "انتخاب کدام گزینه در تب View از کادر محاوره ای Folder Option باعث می شود تا فایل های مخفی مشاهده گردند؟",
+        "selected": "Show Hidden Files and Folders",
+        "correct": "Show Hidden Files and Folders"
+      },
+      {
+        "question": "برای ایجاد یک فرم از طریق Wizard چگونه باید عمل نمود؟",
+        "selected": "از طریق Create - Form Wizard",
+        "correct": "از طریق Create - Form Wizard"
+      },
+      {
+        "question": "کدام گزینه معرف نرم افزار پاورپوینت است؟",
+        "selected": "یک نرم افزار گرافیکی است",
+        "correct": "یک نرم افزار ارائه مطلب است"
+      },
+      {
+        "question": "خطای #DIV/0 چه زمانی مشاهده می گردد؟",
+        "selected": "زمانی که یکی از داده ها بر صفر تقسیم شده است",
+        "correct": "زمانی که یکی از داده ها بر صفر تقسیم شده است"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از کدام سربرگ و گزینه استفاده می شود؟ (چپ به راست)",
+        "selected": "Page Layout-------Paragraph",
+        "correct": "Page Layout--------Margins"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "داشتن تصاویر بیش از حد در وب سایت",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      },
+      {
+        "question": ".......... به صورت عمودی در سمت چپ یا راست پنجره ی نرم افزار Power Point قرار دارد و لیستی از اسلایدهای موجود در فایل ارائه مطلب را نشان می دهد.",
+        "selected": "نوار اسلاید",
+        "correct": "نوار اسلاید"
+      },
+      {
+        "question": "آدرس مطلق سلول K6 کدام است؟",
+        "selected": "$K$6",
+        "correct": "$K$6"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Home گروه Editing گزینه Filter & Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": "Ctrl+A",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "کدام گزینه زیر جهت ادغام کردن خانه های جدول مورد استفاده قرار می گیرد؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای ایجاد یک لیست از داده ها کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Notice",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "کدام یک از دستگاه زیر ترکیبی از مودم و دستگاه اسکنر می باشد؟",
+        "selected": "فاکس",
+        "correct": "فاکس"
+      },
+      {
+        "question": "کدامیک از مزایای پست الکترونیکی نمی باشد؟",
+        "selected": "گیرنده پیغام حتما در حال ارسال نامه باید در مقصد حضور داشته باشد",
+        "correct": "گیرنده پیغام حتما در حال ارسال نامه باید در مقصد حضور داشته باشد"
+      },
+      {
+        "question": "برای ایجاد گزارش از کدام گزینه استفاده می شود؟",
+        "selected": "Report",
+        "correct": "Report"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Ctrl+F1",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "هر فایل ارائه مطلب از چندین صفحه تشکیل شده است که به هر یک از این صفحات ....... می گویند.",
+        "selected": "اسلاید",
+        "correct": "اسلاید"
+      },
+      {
+        "question": "کدامیک از موارد زیر را نمی توان در Data Sheet View انجام داد؟",
+        "selected": "ایجاد فرم",
+        "correct": "ایجاد فرم"
+      },
+      {
+        "question": "جهت ذخیره متن های طولانی از کدام نوع داده استفاده می شود؟",
+        "selected": "Long Text",
+        "correct": "Long Text"
+      }
+    ],
+    "date": "2026-11-22T21:00:53.296Z"
   }
 ]
