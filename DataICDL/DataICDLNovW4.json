@@ -4045,5 +4045,218 @@
       }
     ],
     "date": "2026-11-22T16:45:39.030Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 36,
+    "total": 40,
+    "percent": 90,
+    "wrong": 3,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "گزینه Decimal places در کادر محاوره ای Number چه کاربردی دارد؟",
+        "selected": "تعداد ارقام اعشار",
+        "correct": "تعداد ارقام اعشار"
+      },
+      {
+        "question": "\"Reset\" کردن همان ......... است.",
+        "selected": "راه اندازی مجدد کامپیوتر",
+        "correct": "راه اندازی مجدد کامپیوتر"
+      },
+      {
+        "question": "کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟",
+        "selected": "Format Painter",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "1",
+        "correct": "1"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": "Reading View",
+        "correct": "Reading View"
+      },
+      {
+        "question": "برای تعیین کلید اولیه در هنگام طراحی بانک اطلاعاتی پس از انتخاب فیلد مورد نظر بر روی کدام دکمه از نوار ابزار باید کلیک نمود؟",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "دسترسی به اطلاعات از طریق کدام روش سریع تر است؟",
+        "selected": "مستقیم",
+        "correct": "مستقیم"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Design > New > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": "وجود علامت @",
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "برای اینکه اطلاعات حذف شده در Recycle Bin قرار نگیرد ....................",
+        "selected": "در موقع حذف کلید Shift را پایین نگه می داریم",
+        "correct": "در موقع حذف کلید Shift را پایین نگه می داریم"
+      },
+      {
+        "question": "برای ویرایش سرصفحه از گزینه .................... استفاده می کنیم؟",
+        "selected": "Header",
+        "correct": "Edit Header"
+      },
+      {
+        "question": "برای اینکه آیکن ها بر اساس نوع آنها مرتب شوند، کدام مورد را از زیر منوی Sort انتخاب می کنیم؟",
+        "selected": "By Item Type",
+        "correct": "By Item Type"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "گزینه مناسب اجرای فرمان جستجوی واژه ها کدام است؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "پسوند فایل های متنی کدام است؟",
+        "selected": "Txt",
+        "correct": "Txt"
+      },
+      {
+        "question": "برای ادغام سلول های جدول از کدام دکمه استفاده می شود؟",
+        "selected": "Merge Cells",
+        "correct": "Merge Cells"
+      },
+      {
+        "question": "برای تغییر رنگ قلم متن نوشته شده از ........ استفاده می شود؟",
+        "selected": "Font Color",
+        "correct": "Font Color"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "اندازه داده نوع متنی چقدر می باشد؟",
+        "selected": "255 بایت",
+        "correct": "255 بایت"
+      },
+      {
+        "question": "برای حذف یک Tab از روی خط کش چگونه عمل می شود؟",
+        "selected": "تب مورد نظر را به بیرون از خط کش درگ می کنیم",
+        "correct": "تب مورد نظر را به بیرون از خط کش درگ می کنیم"
+      },
+      {
+        "question": "جهت زمانبندی کردن تعویض اسلاید از کدام گزینه استفاده می شود؟",
+        "selected": "Transition to this Slide",
+        "correct": "Transition to this Slide"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": "Cut",
+        "correct": "Cut"
+      },
+      {
+        "question": "برای ایجاد ادغام پستی از کدام گزینه استفاده می شود؟",
+        "selected": "Mailings",
+        "correct": "Mailings"
+      },
+      {
+        "question": "برای اجرای هر کدام از Tab ها باید چه عملی را انجام دهیم؟",
+        "selected": "در مکان دلخواه در خط کش افقی کلیک می کنیم",
+        "correct": "در مکان دلخواه در خط کش افقی کلیک می کنیم"
+      },
+      {
+        "question": "برای دیدن اطلاعات کامل از سبک مورد استفاده کلید ترکیبی ........................ را فشار می دهیم.",
+        "selected": "Ctrl+Shift+S",
+        "correct": "Ctrl+Shift+S"
+      },
+      {
+        "question": "پسوند سایت های سازمان های غیرانتفاعی کدام گزینه ی زیر می باشد؟",
+        "selected": "Org",
+        "correct": "Org"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": null,
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "هنگام نصب برنامه ها، آیکن میانبر آنها معمولا در کدام منو قرار می گیرد؟",
+        "selected": "All Program",
+        "correct": "All Program"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Page",
+        "correct": "Page"
+      },
+      {
+        "question": "به شبکه خصوصی که همانند شبکه اینترنت می باشد چه می گویند.",
+        "selected": "Intranet",
+        "correct": "Intranet"
+      },
+      {
+        "question": "........ حافظه ای با دسترسی تصادفی و ................ حافظه ای فقط خواندنی می باشد. (از راست به چپ)",
+        "selected": "Ram و Rom",
+        "correct": "Ram و Rom"
+      },
+      {
+        "question": "کدام نمودار زیر از نوع دایره ای می باشد؟",
+        "selected": "Pie",
+        "correct": "Pie"
+      },
+      {
+        "question": "کدام یک از موارد زیر در مورد میانبرها صحیح نیست؟",
+        "selected": "بعضی از برنامه های کاربردی پس از نصب یک میانبر در Desktop ایجاد می نمایند",
+        "correct": "با پاک شدن آن برنامه اصلی نیز پاک می شود"
+      },
+      {
+        "question": "اگر به اینترنت وصل نباشید، نامه هایی که ارسال می شوند در کدام پوشه قرار می گیرند؟",
+        "selected": "Outbox",
+        "correct": "Outbox"
+      },
+      {
+        "question": "کیفیت چاپ کدام یک از چاپگرهای زیر بهتر است؟",
+        "selected": "چاپگرهای لیزری",
+        "correct": "چاپگرهای لیزری"
+      },
+      {
+        "question": "کلید میانبر برای بستن سند کدام است؟",
+        "selected": "Ctrl+W",
+        "correct": "Ctrl+W"
+      }
+    ],
+    "date": "2026-11-22T17:00:40.753Z"
   }
 ]
