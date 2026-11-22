@@ -5323,5 +5323,218 @@
       }
     ],
     "date": "2026-11-22T19:00:54.227Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 0,
+    "total": 40,
+    "percent": 0,
+    "wrong": 0,
+    "unanswered": 40,
+    "answers": [
+      {
+        "question": "کدامیک از موارد زیر در مورد خصوصیت درست نیست؟",
+        "selected": null,
+        "correct": "در مقابل خصوصیت Required می توان عبارتی به صورت (-)-- را وارد نمود"
+      },
+      {
+        "question": "بعد از اتمام کار با ایمیل برای بستن صندوق پستی حتما باید گزینه ......... را بزنید؟",
+        "selected": null,
+        "correct": "Sign Out"
+      },
+      {
+        "question": "برای ارسال رونوشت نامه به فرد دیگر به صورتی که فرد گیرنده اصلی از آن باخبر باشد، آن را در کدام کادر می نویسیم؟",
+        "selected": null,
+        "correct": "CC"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": null,
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": null,
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "کدام واحد ظرفیت حافظه را بیان نمی کند؟",
+        "selected": null,
+        "correct": "Db"
+      },
+      {
+        "question": "برای دیدن اطلاعات کامل از سبک مورد استفاده کلید ترکیبی ........................ را فشار می دهیم.",
+        "selected": null,
+        "correct": "Ctrl+Shift+S"
+      },
+      {
+        "question": "برای چاپ اطلاعات در بانک اطلاعاتی از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Report"
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": null,
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "اگر آدرس یک پست الکترونیک را اشتباه بنویسیم چه اتفاقی می افتد؟",
+        "selected": null,
+        "correct": "نامه با پیام مناسب برگشت داده می شود"
+      },
+      {
+        "question": "کدام پسوند یک وب سایت آموزشی را نشان می دهد؟",
+        "selected": null,
+        "correct": "Edu"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": null,
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "Legend در یک نمودار همان ............ است.",
+        "selected": null,
+        "correct": "راهنما"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": null,
+        "correct": "New"
+      },
+      {
+        "question": "کلید معادل فرمان کپی ........... می باشد.",
+        "selected": null,
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": null,
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "از نمای ........ برای خواندن slide های طراحی شده می توان استفاده کرد.",
+        "selected": null,
+        "correct": "Reading View"
+      },
+      {
+        "question": "در پایگاه داده کلیه اطلاعات در ........ ذخیره می شود.",
+        "selected": null,
+        "correct": "Data Base"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": null,
+        "correct": "Text Box"
+      },
+      {
+        "question": "شرکتی که در مقابل دریافت وجه امکان دستیابی به اینترنت را برای مشترکانش فراهم می کند ................ نام دارد؟",
+        "selected": null,
+        "correct": "ISP"
+      },
+      {
+        "question": "در کدام یک از نماهای زیر می توان متن، تصویر و یادداشت به اسلاید اضافه کرد؟",
+        "selected": null,
+        "correct": "Normal"
+      },
+      {
+        "question": "برای جلوه دادن به متن بهتر است کدام دستور را برگزینیم؟",
+        "selected": null,
+        "correct": "Text Effects"
+      },
+      {
+        "question": "ستون ها در جدول نرم افزار Word چه نامیده می شوند؟",
+        "selected": null,
+        "correct": "Columns"
+      },
+      {
+        "question": "برای درج جدول از چه گزینه ای استفاده می کنیم؟",
+        "selected": null,
+        "correct": "سربرگ Insert گروه Table"
+      },
+      {
+        "question": "این ابزار از گروه Font تمام تنظیمات مربوط به متن از قبیل رنگ و سایز و فونت متن را به حالت پیش فرض و اولیه برمی گرداند.",
+        "selected": null,
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "هر چه تعداد رکوردهای جدول بیشتر باشد برای اینکه اکسس بتواند داده ها را سریع تر، مرتب و جستجو کند احتیاج به .................. دارید؟",
+        "selected": null,
+        "correct": "Index"
+      },
+      {
+        "question": "به هر فایل تولیدی در Powerpoint یک ........... گویند که با پسوند ............ ذخیره می شود؟",
+        "selected": null,
+        "correct": "Pptx-presentation"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": null,
+        "correct": "Lan"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": null,
+        "correct": "Photo Album"
+      },
+      {
+        "question": "با استفاده از ابزار Convert to SmartArt می توانیم ....",
+        "selected": null,
+        "correct": "کادر متنی را به کادر تصاویر هوشمند تبدیل کنیم"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(A1=B1,\"t\",\"f\")",
+        "selected": null,
+        "correct": "F"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": null,
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "برای تولید اعداد متوالی اتوماتیک کدام نوع داده را برای فیلد باید تعریف نمود؟",
+        "selected": null,
+        "correct": "Autonumber"
+      },
+      {
+        "question": "برای انتخاب قلم مناسب از طریق سربرگ ها، باید گزینه …… را از سربرگ ……… انتخاب کنیم.",
+        "selected": null,
+        "correct": "Home \\ Font"
+      },
+      {
+        "question": "از ابزار Text Shadow در گروه Font به چه منظور استفاده می شود؟",
+        "selected": null,
+        "correct": "ایجاد متن سایه دار"
+      },
+      {
+        "question": "با انتخاب کدام یک از حالات زیر کامپیوتر در حالت کم مصرف قرار می گیرد و مانیتور و دیسک سخت خاموش می شوند؟",
+        "selected": null,
+        "correct": "Sleep"
+      },
+      {
+        "question": "برای انتخاب یک جمله از کدام کلید ترکیبی استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+Click"
+      },
+      {
+        "question": "سرعت انتقال داده ها در CPU از حافظه اصلی Ram ............ می باشد به همین جهت از حافظه های .............. استفاده می کنند.",
+        "selected": null,
+        "correct": "بیشتر - Cache"
+      },
+      {
+        "question": "کدام گزینه صفحات را به طور خودکار پشت و رو چاپ می نماید؟",
+        "selected": null,
+        "correct": "Manually Print On Both Sides"
+      }
+    ],
+    "date": "2026-11-22T19:01:06.920Z"
   }
 ]
