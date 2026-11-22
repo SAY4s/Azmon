@@ -7240,5 +7240,218 @@
       }
     ],
     "date": "2026-11-22T19:51:00.055Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "این چیدمان شامل یک نگهدارنده عنوان است و معمولا برای اسلاید شروع ارائه استفاده می شود.",
+        "selected": "Title Slide",
+        "correct": "Title Slide"
+      },
+      {
+        "question": "اگر بخواهیم لیست کارمندان بر اساس استان دسته بندی شود، از چه قسمتی در هنگام ایجاد گزارش استفاده می کنیم؟",
+        "selected": "Group",
+        "correct": "Group"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Summary",
+        "correct": "Summary"
+      },
+      {
+        "question": "کلیدهای میانبر جهت باز کردن پنجره چاپ کدام است؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "Bar Tab چه کاری انجام می دهد؟",
+        "selected": "قرار دادن یک خط در محل ایجاد تب",
+        "correct": "قرار دادن یک خط در محل ایجاد تب"
+      },
+      {
+        "question": "............... از جمله نرم افزارهای بسته Office بوده که بیشتر برای نوشتن و ویرایش کتاب، مجلات و اسناد و.... از آن استفاده می شود.",
+        "selected": "Word",
+        "correct": "Word"
+      },
+      {
+        "question": "کدام گزینه یک پروتکل می باشد؟",
+        "selected": "URL",
+        "correct": "Https"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "برای بالانویسی کدام دکمه را به کار می بریم؟",
+        "selected": "Superscript",
+        "correct": "Superscript"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Worksheet",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "نوار مغناطیسی",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "برای اینکه نتوان محل نوار وظیفه را تغییر داد باید کدام گزینه را از کادر محاوره ای Taskbar and Start Menu Properties انتخاب نمود؟",
+        "selected": "Lock the taskbar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "در اکسس کدام یک جزو Object های پنجره Data Base نیست؟",
+        "selected": "Forms",
+        "correct": "Database"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": "Page",
+        "correct": "Page"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": "Upload , Download",
+        "correct": "Download , Upload"
+      },
+      {
+        "question": "برای مرتب کردن محتوای یک ستون از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Home گروه Editing گزینه Filter & Sort",
+        "correct": "سربرگ Home گروه Editing گزینه Filter & Sort"
+      },
+      {
+        "question": "چه زمانی از ابزار Border استفاده می کنید؟",
+        "selected": "برای تنظیم حاشیه برگه استفاده می شود",
+        "correct": "برای ایجاد کادر دور متن و جدول استفاده می شود"
+      },
+      {
+        "question": "برای ویرایش متن بهترین وضعیت، استفاده از کدام نما می باشد؟",
+        "selected": "Normal",
+        "correct": "Normal"
+      },
+      {
+        "question": "برای طراحی فرم، گزارش، جدول و ............ که طراح می تواند بنا بر خواسته خود به صورت دستی آنها را طراحی کند از کدام روش استفاده می شود؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج سر صفحه و پا صفحه بر روی اسلایدها مناسب است؟",
+        "selected": "Header and Footer",
+        "correct": "Header and Footer"
+      },
+      {
+        "question": "برای بستن برنامه های بدون پاسخ کافی است از ترکیب کلیدهای .................... استفاده نماییم.",
+        "selected": "Ctrl+Alt+Delete",
+        "correct": "Ctrl+Alt+Delete"
+      },
+      {
+        "question": "کدامیک از روش های ایجاد جدول در بانک اطلاعاتی نمی باشند؟",
+        "selected": "ایجاد جدول با استفاده Table Wizard",
+        "correct": "ایجاد جدول با استفاده از نوار ابزار Table & Border"
+      },
+      {
+        "question": "کدام گزینه برای قالب بندی شرطی استفاده می شود؟",
+        "selected": "Conditional Formatting",
+        "correct": "Conditional Formatting"
+      },
+      {
+        "question": "پیغام های ناخواسته در صندوق پستی به چه نامی مشهورند؟",
+        "selected": "Spam",
+        "correct": "Spam"
+      },
+      {
+        "question": "کدام گزینه زیر یک گزارش به صورت جدولی ایجاد می کند؟",
+        "selected": "Auto Report: Tabular",
+        "correct": "Auto Report: Tabular"
+      },
+      {
+        "question": "کدامیک از بخش های زیر جزء واحدهای CPU نمی باشد؟",
+        "selected": "Memory Secondary",
+        "correct": "Memory Secondary"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "بزرگ ترین کامپیوتر از نظر ابعاد در بین گزینه های زیر کدام است؟",
+        "selected": "Super Computer",
+        "correct": "Super Computer"
+      },
+      {
+        "question": "در چیدمان Slide ها از چیدمان ....... برای نگهداری عنوان و نگهداری متن استفاده می شود؟",
+        "selected": "Title Slide",
+        "correct": "Title and Content"
+      },
+      {
+        "question": "استخراج اطلاعات و داده های خواسته شده از یک بانک اطلاعاتی و ارائه آنها برای استفاده را ........ می گویند.",
+        "selected": "Macro",
+        "correct": "Query"
+      },
+      {
+        "question": "برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟",
+        "selected": "استفاده از Format Painter",
+        "correct": "استفاده از Format Painter"
+      },
+      {
+        "question": "حافظه موقت مجازی که اطلاعات پس از کپی یا Cut کردن داخل آن قرار می گیرد چه نام دارد؟",
+        "selected": "Clipboard",
+        "correct": "Clipboard"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "Insert / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "گزینه مناسب اجرای فرمان جستجوی واژه ها کدام است؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "به عمل حرکت دادن موس در حالی که دکمه سمت چپ آن فشرده است ........... می گویند.",
+        "selected": "کشیدن (Drag)",
+        "correct": "کشیدن (Drag)"
+      },
+      {
+        "question": "اصلی ترین نرم افزار در کامپیوتر ..................... است.",
+        "selected": "برنامه های کاربردی",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "برای اعمال تنظیمات صفحه کلید از چه مسیری اقدام می کنیم؟",
+        "selected": "از پنجره Control Panel انتخاب Keyboard",
+        "correct": "از پنجره Control Panel انتخاب Keyboard"
+      },
+      {
+        "question": "در صورتی که بخواهیم عبارت های یافت شده از نظر بزرگی و کوچکی حروف با عبارت مورد جستجو یکسان باشد کدام گزینه را فعال می کنیم؟",
+        "selected": "Use Wildcards",
+        "correct": "Match Case"
+      }
+    ],
+    "date": "2026-11-22T19:57:47.096Z"
   }
 ]
