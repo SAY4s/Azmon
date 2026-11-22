@@ -6388,5 +6388,218 @@
       }
     ],
     "date": "2026-11-22T19:15:08.394Z"
+  },
+  {
+    "name": "سجاد نوروزی",
+    "nationalId": "4312152667",
+    "exam": "icdl",
+    "score": 30,
+    "total": 40,
+    "percent": 75,
+    "wrong": 9,
+    "unanswered": 1,
+    "answers": [
+      {
+        "question": "از کدام برگه در پنجره Properties می توان صفت یک پوشه (Attributes) را تغییر داد؟",
+        "selected": "Customize",
+        "correct": "General"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "ستون ها در جدول نرم افزار Word چه نامیده می شوند؟",
+        "selected": "Columns",
+        "correct": "Columns"
+      },
+      {
+        "question": "برای انتخاب رنگ و طرح زمینه دلخواه برای اسلایدها از سربرگ Design از کدام گزینه استفاده می شود؟",
+        "selected": "Background Style",
+        "correct": "Background Style"
+      },
+      {
+        "question": "کار گزینه Hide Slide چیست؟",
+        "selected": "مخفی کردن اسلاید",
+        "correct": "مخفی کردن اسلاید"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      },
+      {
+        "question": "کدامیک از گزینه های دستور Print می توان تمام صفحات سند را چاپ کرد؟",
+        "selected": "Print All Page",
+        "correct": "Print All Page"
+      },
+      {
+        "question": "کدام گزینه پیام ها را بر اساس پیام نخوانده شده نشانه گذاری می کند؟",
+        "selected": "Unread",
+        "correct": "Unread"
+      },
+      {
+        "question": "برای ارسال پاسخ به تمام فرستندگان یک نامه از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Reply all",
+        "correct": "Reply all"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت اضافه کردن نمودار استفاده می شود؟",
+        "selected": "Chart",
+        "correct": "Chart"
+      },
+      {
+        "question": "کدامیک از موارد زیر برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می شود؟",
+        "selected": "واحد حافظه",
+        "correct": "واحد حافظه"
+      },
+      {
+        "question": "کدامیک از سیستم عامل های زیر تک کاربره می باشد؟",
+        "selected": "Dos",
+        "correct": "Dos"
+      },
+      {
+        "question": "برای پاک کردن قسمت مورد نظر جدول از کدام دستور استفاده می شود؟",
+        "selected": "Eraser",
+        "correct": "Eraser"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "روش های مشاهده رکوردها در جداول Access به کدام روش زیر می تواند صورت بگیرد؟",
+        "selected": "Form View, Table",
+        "correct": "Design View, Datasheet View"
+      },
+      {
+        "question": "برای قفل کردن کامپیوتر از کدام گزینه استفاده می شود؟",
+        "selected": "Lock",
+        "correct": "Lock"
+      },
+      {
+        "question": "برای جابجایی یک فایل به حجم 500 مگابایت کدام یک از گزینه های زیر مناسب است؟",
+        "selected": "Rom",
+        "correct": "Cd"
+      },
+      {
+        "question": "برای درج داده هایی مانند ردیف از ........ و داده های عددی که احتیاج به محاسبات دارند از نوع داده .... استفاده می کنیم؟ (از راست به چپ)",
+        "selected": "Number - Currency",
+        "correct": "Number - Auto Number"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "60 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده از چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
+        "selected": "Ram",
+        "correct": "CMOS"
+      },
+      {
+        "question": "مفهوم ظاهر شدن علامت # در یک سلول چیست؟",
+        "selected": "طول عدد نسبت به عرض سلول بزرگتر است",
+        "correct": "طول عدد نسبت به عرض سلول بزرگتر است"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": null,
+        "correct": "Macro"
+      },
+      {
+        "question": "از ابزار .......... برای بزرگ نمایی یا کوچک نمایی اسلاید استفاده می شود.",
+        "selected": "Zoom",
+        "correct": "Zoom"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت های ارائه خدمات اینترنت",
+        "correct": "شرکت های ارائه خدمات اینترنت"
+      },
+      {
+        "question": "به انتقال اطلاعات از کامپیوتر شخصی به سرور دیگر ...................... می گوییم.",
+        "selected": "Upload",
+        "correct": "Upload"
+      },
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Cell",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "برای رسم یک مربع باید هنگام رسم آن کدام کلید را پایین نگه داریم؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "دستگاهی که هنگام قطع برق، برق رایانه را تامین می کند چه نام دارد؟",
+        "selected": "UPS",
+        "correct": "UPS"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Home-Number",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Columns",
+        "correct": "Distribute Columns"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت انتقال تصاویر به کامپیوتر به کار می رود؟",
+        "selected": "اسکنر",
+        "correct": "اسکنر"
+      },
+      {
+        "question": "کدام یک کامپیوترهای زیر از نظر قدرت پردازش ضعیف تر است؟",
+        "selected": "Mini Computer",
+        "correct": "Micro Computer"
+      },
+      {
+        "question": "کدام جلوه متن را سایه دار نمایش می دهد؟",
+        "selected": "Shadow",
+        "correct": "Shadow"
+      },
+      {
+        "question": "از گزینه Count Number جهت محاسبه .............. استفاده می شود.",
+        "selected": "شمارش تعداد اعداد",
+        "correct": "شمارش تعداد اعداد"
+      },
+      {
+        "question": "برای پاک کردن فرمت های اعمال شده روی متن کدام مورد مناسب تر است؟",
+        "selected": "Delete Formatting",
+        "correct": "Clear All Formatting"
+      },
+      {
+        "question": "کدام نوع داده را برای فیلدی که محتوایش True/False می باشد انتخاب می کنید؟",
+        "selected": "Yes/No",
+        "correct": "Yes/No"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": "وجود علامت @",
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "کدام علامت در ابتدای یک خانه نشانه فرمول است.",
+        "selected": "=",
+        "correct": "="
+      },
+      {
+        "question": "اگر پیوند دو صفحه وب از طریق تصویر یا یک صدا باشد به این پیوند .......... می گویند؟",
+        "selected": "Hyper Sound & Image",
+        "correct": "Hyper Media"
+      }
+    ],
+    "date": "2026-11-22T19:23:48.936Z"
   }
 ]
