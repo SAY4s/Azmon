@@ -2128,5 +2128,218 @@
       }
     ],
     "date": "2026-11-22T14:43:20.853Z"
+  },
+  {
+    "name": "امیرمهدی محمدی",
+    "nationalId": "4312464294",
+    "exam": "icdl",
+    "score": 17,
+    "total": 40,
+    "percent": 43,
+    "wrong": 23,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Home",
+        "correct": "Design"
+      },
+      {
+        "question": "برای بروزرسانی صفحه وب از کدام گزینه استفاده می شود؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "برای بسته شدن پنجره های کاربر جاری و خروج کامل باید از کدام گزینه استفاده نمود؟",
+        "selected": "انتخاب log off از منوی Start",
+        "correct": "انتخاب log off از منوی Start"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "میان افزار",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "هر گاه بخواهیم فرمت یک متن را به متن های دیگر انتقال دهیم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Copy Format",
+        "correct": "Format Painter"
+      },
+      {
+        "question": "برای تجزیه یک سلول به چند سطر و ستون از کدام دستور استفاده می کنیم؟",
+        "selected": "Split Table",
+        "correct": "Split Cells"
+      },
+      {
+        "question": "کدامیک از موارد زیر جزء احتمالات عدم دسترسی به یک وب سایت نیست؟",
+        "selected": "داشتن تصاویر بیش از حد در وب سایت",
+        "correct": "داشتن تصاویر بیش از حد در وب سایت"
+      },
+      {
+        "question": "در قسمت Orientation در هنگام ایجاد گزارش، چه چیز را تعیین می کنیم؟",
+        "selected": "نوع گزارش",
+        "correct": "جهت چاپ گزارش بر روی کاغذ"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Required",
+        "correct": "No-Required"
+      },
+      {
+        "question": "از طریق کدام دستور تعداد تکرار صوت مشخص می شود؟",
+        "selected": "Start",
+        "correct": "Repeat"
+      },
+      {
+        "question": "بطور پیش فرض نام فایل نمایش در Power Point چیست؟",
+        "selected": "Presentation1",
+        "correct": "Presentation1"
+      },
+      {
+        "question": "جهت انتخاب کلیه رکوردها از کدام کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Ctrl+R",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Validation Text",
+        "correct": "Field Size"
+      },
+      {
+        "question": "کلیه نامه هایی که به آدرس شما ارسال می گردد در کدام پوشه ذخیره می شود؟",
+        "selected": "Sent Items",
+        "correct": "Inbox"
+      },
+      {
+        "question": "توسط کدام ابزار در سربرگ Insert می توان مجموعه ای از تصاویر را به صورت آلبوم ایجاد کرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "برای ایجاد یک Slide جدید به سربرگ ........ و گروه ........ گزینه ......... را انتخاب می کنیم؟",
+        "selected": "Design > New > New Slide",
+        "correct": "Home > Slide > New Slide"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "دسترسی به اطلاعات در حافظه Ram به چه صورت است؟",
+        "selected": "سری",
+        "correct": "تصادفی"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج سر صفحه و پا صفحه بر روی اسلایدها مناسب است؟",
+        "selected": "Word Art",
+        "correct": "Header and Footer"
+      },
+      {
+        "question": "اگر جدول بخواهد با جدول دیگر در ارتباط باشد؟",
+        "selected": "باید کلید Ctrl را پایین نگه داشت",
+        "correct": "باید یک کلید اولیه داشته باشد"
+      },
+      {
+        "question": "در قسمت بالای پنجره Query کدام یک از موارد زیر قرار دارد؟",
+        "selected": "جدولی همانند جدول Datasheet در بالای پنجره ظاهر می شود",
+        "correct": "لیست فیلدهای جدولی که انتخاب کرده اید قرار دارد"
+      },
+      {
+        "question": "کدام مورد زیر صحیح نیست؟",
+        "selected": "انواع مقادیر داخلی سلول را می توان عددی، متنی، تاریخ، زمان نام برد",
+        "correct": "تقاطع هر سطر و ستون یک صفحه کاری را تشکیل می دهد"
+      },
+      {
+        "question": "برای انتخاب فایل های غیرمجاور از کدام کلید استفاده می نماییم؟",
+        "selected": "Shift",
+        "correct": "Ctrl"
+      },
+      {
+        "question": "کدام کاراکتر از علائم مجاز برای نامگذاری فیلدها می باشد؟",
+        "selected": "علامت تعجب",
+        "correct": "خط تیره"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Style",
+        "correct": "Style"
+      },
+      {
+        "question": "از کدام مورد برای اتصال به اینترنت استفاده می شود؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save as type",
+        "correct": "save as type"
+      },
+      {
+        "question": "درپنجره Internet انتخاب کدام گزینه ها موجب می شود صفحه خانگی یک صفحه خالی باشد؟",
+        "selected": "Clear History",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای محافظت از صفحه نمایش از گزینه ................. استفاده می کنیم.",
+        "selected": "Sound",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از کدام سربرگ و گزینه استفاده می شود؟ (چپ به راست)",
+        "selected": "Page Layout--------Margins",
+        "correct": "Page Layout--------Margins"
+      },
+      {
+        "question": "با انتخاب گزینه odd page از لیست print what کدام بخش از سند به چاپ می رسد؟",
+        "selected": "صفحات فرد",
+        "correct": "صفحات فرد"
+      },
+      {
+        "question": "کدام خطا نشان می دهد که پهنای سلول قابلیت نمایش محتویات آن را ندارد؟",
+        "selected": "#NAME",
+        "correct": "#####"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "برای چسباندن اسلاید یا اسلایدهای کپی و یا بریده شده کدام راه مناسب نیست؟",
+        "selected": "استفاده از کلیدهای ترکیبی Ctrl+V",
+        "correct": "رفتن به سربرگ Home گروه Clipboard و انتخاب گزینه Replace"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Alt+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "برای درج خودکار سری داده ها از کدام گزینه استفاده می شود؟",
+        "selected": "Auto List",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "آدرس منحصر به فرد در هر صفحه وب چه نامیده می شود؟",
+        "selected": "URL",
+        "correct": "URL"
+      },
+      {
+        "question": "ISP چیست؟",
+        "selected": "شرکت سرویس دهنده اینترنت",
+        "correct": "شرکت سرویس دهنده اینترنت"
+      },
+      {
+        "question": "برای تنظیم حاشیه های سند از کدام دکمه استفاده می شود؟",
+        "selected": "Size",
+        "correct": "Margins"
+      },
+      {
+        "question": "Blank Page از گروه Pages چه کاربردی دارد؟",
+        "selected": "یک سند الگو ایجاد می کند",
+        "correct": "یک صفحه خالی درج می کند"
+      }
+    ],
+    "date": "2026-11-22T14:56:50.152Z"
   }
 ]
