@@ -637,5 +637,218 @@
       }
     ],
     "date": "2026-11-22T04:44:43.053Z"
+  },
+  {
+    "name": "حدیثه خشنود",
+    "nationalId": "4312211728",
+    "exam": "icdl",
+    "score": 22,
+    "total": 40,
+    "percent": 55,
+    "wrong": 18,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Cell",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "کدام یک از دستگاه های زیر جهت چاپ نقشه های فنی مهندسی به کار می رود؟",
+        "selected": "پرینتر",
+        "correct": "پلاتر"
+      },
+      {
+        "question": "کدام فرمول میانگین A1 تا A6 را محاسبه نمی کند؟",
+        "selected": "=Average(A1;A6)",
+        "correct": "=Average(A1;A6)"
+      },
+      {
+        "question": "کلید میان بر وسط چین نمودن متن کدام است؟",
+        "selected": "Ctrl+E",
+        "correct": "Ctrl+E"
+      },
+      {
+        "question": "برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می شود؟",
+        "selected": "Keyboard",
+        "correct": "Scanner"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Modem",
+        "correct": "Webcam"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Review گزینه Header",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "اندازه داده نوع متنی چقدر می باشد؟",
+        "selected": "8 بایت",
+        "correct": "255 بایت"
+      },
+      {
+        "question": "توسط کدام گزینه می توان لغت و اصطلاح مورد نظر را در متن فایل پیدا کنیم؟",
+        "selected": "Find",
+        "correct": "Find"
+      },
+      {
+        "question": "پسوند یک سایت آموزشی کدام است؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "جداکننده صفحات را در کدام نما می توان مشاهده نمود؟",
+        "selected": "Page Break Preview",
+        "correct": "Page Break Preview"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را از محیط نرم افزار Excel وارد نرم افزار Power Point کنیم کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Excel Spreadsheet",
+        "correct": "Excel Spreadsheet"
+      },
+      {
+        "question": "آدرس یک سایت از چندین بخش مجزا تشکیل شده است و هر بخش توسط علامت ...... از دیگری جدا شده است؟",
+        "selected": "!",
+        "correct": "."
+      },
+      {
+        "question": "کلید میانبر Copy کدام گزینه است؟",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+C"
+      },
+      {
+        "question": "کدامیک از موارد زیر خصوصیت نرم افزار به شمار می رود؟",
+        "selected": "شامل دستورالعمل هایی جهت استفاده از کامپیوتر است",
+        "correct": "شامل دستورالعمل هایی جهت استفاده از کامپیوتر است"
+      },
+      {
+        "question": "در کادر محاوره ای Border And Shading با استفاده از قسمت ........ می توان سبک خط دلخواه کادر را تعیین نمود.",
+        "selected": "Style",
+        "correct": "Style"
+      },
+      {
+        "question": "کدام ناحیه از گزارش فقط یک بار در ابتدای گزارش چاپ می شود؟",
+        "selected": "Page Header",
+        "correct": "Report Header"
+      },
+      {
+        "question": "با کدام گزینه تصویر در زمینه میز کار به صورت کشیده قرار می گیرد؟",
+        "selected": "Tile",
+        "correct": "Stretch"
+      },
+      {
+        "question": "کدام مورد درباره تابع Round نادرست است؟",
+        "selected": "این تابع برای گرد کردن اعداد صحیح می باشد",
+        "correct": "این تابع برای شمارش اعداد اعشاری می باشد"
+      },
+      {
+        "question": "در کادر Number of recent programs to display تعداد نرم افزارهای پیش فرض برابر است با:",
+        "selected": "10",
+        "correct": "10"
+      },
+      {
+        "question": "وظیفه دستور =sum(A2:C5;D8) چیست؟",
+        "selected": "محاسبه مجموع سلول های A2 تا C5 و سلول D8",
+        "correct": "محاسبه مجموع سلول های A2 تا C5 و سلول D8"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج معادلات ریاضی",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "جهت ایجاد لیست علامت گذاری کدام ابزار مناسب است؟",
+        "selected": "Symbol",
+        "correct": "Bullets"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "پرانتز",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "کدامیک از گزینه ها در نرم افزار Paint جهت تغییر حاشیه ها، نوع کاغذ و تعیین اندازه کاغذ و نوع کاغذ بکار می رود؟",
+        "selected": "Print Preview",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "کدام گزینه از مزایای تجارت الکترونیک می باشد؟",
+        "selected": "خدمات 24 ساعته",
+        "correct": "خدمات 24 ساعته"
+      },
+      {
+        "question": "کدامیک از انواع داده های زیر برای ذخیره واحد پولی یا ارزی به کار می رود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "برای توقف و از سرگیری مجدد عمل چاپ یک سند چگونه عمل می کنیم؟",
+        "selected": "از منوی Properties گزینه Preference Printing را انتخاب می کنیم",
+        "correct": "از منوی Document گزینه Pause را برای توقف و گزینه Resume را برای ادامه چاپ در نظر می گیریم"
+      },
+      {
+        "question": "به شرکت سرویس دهنده خدمات اینترنت چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "کدام یک از موارد زیر برای منحصر به فرد سازی رکورد به کار می رود؟",
+        "selected": "کلید اولیه (Primary Key)",
+        "correct": "کلید اولیه (Primary Key)"
+      },
+      {
+        "question": "پسوند Mp3، جزء پسوندهای ................... است.",
+        "selected": "صوتی",
+        "correct": "صوتی"
+      },
+      {
+        "question": "زمانی که Bullets مورد نظر خود را در لیست کشویی پیدا نکردیم از کدام گزینه برای ایجاد Bullets جدید استفاده می کنیم؟",
+        "selected": "Define New Multilevel List",
+        "correct": "Define New Bullet"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انجام دوبار کلیک و انتخاب گزینه Arrange Icons",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "کدام نوار ویژه محیط اکسل می باشد؟",
+        "selected": "Address Bar",
+        "correct": "Formula Bar"
+      },
+      {
+        "question": "کدامیک از نماهای گزارش، گزارش را به صورت یکپارچه و کامل نمایش می دهد؟",
+        "selected": "Design View",
+        "correct": "Report View"
+      }
+    ],
+    "date": "2026-11-22T05:18:45.633Z"
   }
 ]
