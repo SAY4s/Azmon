@@ -424,5 +424,218 @@
       }
     ],
     "date": "2026-11-22T04:23:59.816Z"
+  },
+  {
+    "name": "خدیجه محمودی",
+    "nationalId": "4310221254",
+    "exam": "icdl",
+    "score": 35,
+    "total": 40,
+    "percent": 88,
+    "wrong": 3,
+    "unanswered": 2,
+    "answers": [
+      {
+        "question": "این چیدمان شامل هیچ نگه دارنده ای نیست و می توانیم به صورت دلخواه طراحی کنیم.",
+        "selected": "Blank",
+        "correct": "Blank"
+      },
+      {
+        "question": "گزارش از نظر طرح بندی (Layout) به طور پیش فرض دارای چه وضعیتی است؟",
+        "selected": "Columnar",
+        "correct": "Columnar"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Scale",
+        "correct": "Scale"
+      },
+      {
+        "question": "برای تغییر نام فایل ها و پوشه ها از کدام گزینه استفاده می شود؟",
+        "selected": "Rename",
+        "correct": "Rename"
+      },
+      {
+        "question": "اگر بخواهیم چند فایل صفحه گسترده را با موقعیت و اندازه هر کدام در یک پنجره نمایش دهیم؟",
+        "selected": null,
+        "correct": "مرتب کردن آنها با استفاده از گزینه Arrange All در قسمت Window"
+      },
+      {
+        "question": "جهت استفاده از عملیات تکراری انجام شده در بانک اطلاعاتی از کدام یک از اشیا زیر استفاده می شود؟",
+        "selected": "Macro",
+        "correct": "Macro"
+      },
+      {
+        "question": "در زمان استفاده از فرمان Freeze، برای ثابت شدن سطرها و ستون های قبل از سلول انتخابی از کدام گزینه استفاده می نماییم؟",
+        "selected": "Freeze Panes",
+        "correct": "Freeze Panes"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "نمای Data Sheet View و Design View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "پرس و جو بر اساس یک معیار در اکسس چه نامیده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کوچکترین عنصر صفحه نمایش چه نام دارد؟",
+        "selected": "Pixel",
+        "correct": "Pixel"
+      },
+      {
+        "question": "از ابزار Line Spacing به چه منظور استفاده می شود؟",
+        "selected": "تعیین فاصله بین خطوط",
+        "correct": "تعیین فاصله بین خطوط"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرد؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "دسترسی به اطلاعات دیسک های CD به کدام صورت است؟",
+        "selected": "مستقیم یا تصادفی",
+        "correct": "مستقیم یا تصادفی"
+      },
+      {
+        "question": "برای اینکه بخواهیم حرف اول کلمه هر جمله با حروف بزرگ لاتین نوشته شود، باید کدام گزینه را برگزینیم؟",
+        "selected": "Uppercase",
+        "correct": "Sentence Case"
+      },
+      {
+        "question": "از ابزارهای زیر کدام یک برای جا به جا کردن ترتیب شکل هندسی ترسیم شده کمک می کند؟",
+        "selected": null,
+        "correct": "Arrange"
+      },
+      {
+        "question": "کدام یک از ابزار زیر جزء دستگاه های خروجی هستند؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "برای بارگذاری مجدد یک صفحه وب از کدام گزینه استفاده می کنیم؟",
+        "selected": "Refresh",
+        "correct": "Refresh"
+      },
+      {
+        "question": "برای ضمیمه (پیوست) کردن یک فایل به نامه الکترونیکی از کدام گزینه استفاده می شود؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "گزینه Protect Sheet از تب Review به چه منظور بکار می رود؟",
+        "selected": "رمزگذاری روی صفحه جاری",
+        "correct": "رمزگذاری روی صفحه جاری"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Shift همراه با کلیدهای جهتی",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "برای باز کردن کتابچه آدرس کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Tools/Address Book",
+        "correct": "Tools/Address Book"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Reports",
+        "correct": "Reports"
+      },
+      {
+        "question": "برای باز کردن منوی File از چه کلیدهای ترکیبی استفاده می شود؟",
+        "selected": "Alt+F",
+        "correct": "Alt+F"
+      },
+      {
+        "question": "برای تعیین نحوه نمایش فایل ها از کدام گزینه نوار ابزار استفاده می کنیم؟",
+        "selected": "View",
+        "correct": "View"
+      },
+      {
+        "question": "کدام راه برای باز کردن یک فایل ارائه مطلب مناسب است؟",
+        "selected": "از منو دکمه File گزینه Open",
+        "correct": "از منو دکمه File گزینه Open"
+      },
+      {
+        "question": "نرم افزار Word جزو کدام یک از برنامه های زیر به حساب می آید؟",
+        "selected": "واژه پرداز",
+        "correct": "واژه پرداز"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Format",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "در کدام قسمت پنجره جستجو می توان تعیین کرد که جستجو بر روی کل فیلدهای جدول انجام شود؟",
+        "selected": "Search",
+        "correct": "Look in"
+      },
+      {
+        "question": "در کدام مسیر فایل های اخیرا باز شده قابل رویت می باشند؟",
+        "selected": "Recent Presentation←Open←File",
+        "correct": "Recent Presentation←Open←File"
+      },
+      {
+        "question": "پسوند (فرمت) فایل های صوتی و عکس عبارت است از: (از چپ به راست)",
+        "selected": "Wav-Bmp",
+        "correct": "Wav-Bmp"
+      },
+      {
+        "question": "برای مشخص کردن تعداد ستون ها به صورت دستی در کادر محاوره ای Columns کدام مورد را باید تغییر دهیم؟",
+        "selected": "Number Of Columns",
+        "correct": "Number Of Columns"
+      },
+      {
+        "question": "از این ابزار در گروه Paragraph برای تعیین جهت متن در کادر متنی استفاده می شود؟",
+        "selected": "Text Direction",
+        "correct": "Text Direction"
+      },
+      {
+        "question": "از دستور Font به چه منظور استفاده می کنیم؟",
+        "selected": "برای تعیین نوع قلم",
+        "correct": "برای تعیین نوع قلم"
+      },
+      {
+        "question": "مزیت الگو (Template) چیست؟",
+        "selected": "صرفه جویی در زمان ویرایش",
+        "correct": "صرفه جویی در زمان ویرایش"
+      },
+      {
+        "question": "برنامه ها جهت اجرا در کدام واحد قرار می گیرند؟",
+        "selected": "حافظه اصلی",
+        "correct": "حافظه اصلی"
+      },
+      {
+        "question": "کدام نوع داده حداکثر 255 کاراکتر می باشد؟",
+        "selected": "Short Text",
+        "correct": "Short Text"
+      },
+      {
+        "question": "از نمای .......... برای جابجایی و مدیریت کردن اسلایدها در Power Point استفاده می شود.",
+        "selected": "Slide Sorter",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "از کدام مورد برای چاپ نقشه ها و تصاویر بزرگ استفاده می شود؟",
+        "selected": "پلاترها",
+        "correct": "پلاترها"
+      },
+      {
+        "question": "آسان ترین شیوه برای باز کردن یک سند در Word استفاده از کلیدهای ترکیبی …… است.",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      }
+    ],
+    "date": "2026-11-22T04:44:43.053Z"
   }
 ]
