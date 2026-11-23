@@ -14908,5 +14908,218 @@
       }
     ],
     "date": "2026-11-23T06:23:23.790Z"
+  },
+  {
+    "name": "حدیثه خشنود",
+    "nationalId": "4312211728",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای ذخیره کردن یک الگو به عنوان یک template کافی است در لیست ....... گزینه excel template را انتخاب کنید.",
+        "selected": "save in",
+        "correct": "save as type"
+      },
+      {
+        "question": "کامپیوترهای یک دفتر کار از چه شبکه ای استفاده می کنند؟",
+        "selected": "Man",
+        "correct": "Lan"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "برای ترسیم جدول با استفاده از مداد از چه دستوری استفاده می شود؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "از نمای .......... برای جابجایی و مدیریت کردن اسلایدها در Power Point استفاده می شود.",
+        "selected": "Slide Sorter",
+        "correct": "Slide Sorter"
+      },
+      {
+        "question": "از این ابزار در سربرگ Home گروه Slides به منظور بازنشانی تمام تنظیمات یک اسلاید استفاده می شود؟",
+        "selected": "Reset",
+        "correct": "Reset"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "در هنگام قالب بندی سلول ها با گزینه Alignment می توان......؟",
+        "selected": "ترازبندی متن را تنظیم کرد",
+        "correct": "ترازبندی متن را تنظیم کرد"
+      },
+      {
+        "question": "از کدام فرمان برای استفاده از الگوهای پیش فرض (Templates) استفاده می نماییم؟",
+        "selected": "Save As",
+        "correct": "New"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": "Number Of Pages",
+        "correct": "Copies"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": "یک آدرس پست الکترونیک منحصر به فرد است",
+        "correct": "یک آدرس پست الکترونیک منحصر به فرد است"
+      },
+      {
+        "question": "کدام گزینه دستگاه ورودی نمی باشد؟",
+        "selected": "Speaker",
+        "correct": "Speaker"
+      },
+      {
+        "question": "به عمل پشتیبان گیری چه می گویند؟",
+        "selected": "Backup",
+        "correct": "Backup"
+      },
+      {
+        "question": "از کدام مورد برای اتصال به اینترنت استفاده می شود؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": "Open Each Folder in Its Own Window",
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "از کدام کلید میانبر برای ایجاد یک سند جدید استفاده می نماییم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "کدام یک از موارد زیر را در Criteria قرار دهیم باعث خواهد شد که رکوردهایی پیدا شوند که فیلد «شخصیت» آنها مخالف \"Nice\" است؟",
+        "selected": "Not Nice",
+        "correct": "Not Nice"
+      },
+      {
+        "question": "کدام یک از موارد زیر جزء انواع شبکه نمی باشد؟",
+        "selected": "Gateways",
+        "correct": "Gateways"
+      },
+      {
+        "question": "تعریف زیر معرف کدام یک از موارد زیر است؟ \"محدود کردن نمایش اطلاعات بانک اطلاعاتی به رکوردها و فیلدهایی که برای تطبیق مشخص شده اند.\"",
+        "selected": "فیلتر",
+        "correct": "فیلتر"
+      },
+      {
+        "question": "برای درج شماره صفحه از زبانه ................... دستور ......................... را اجرا می کنیم.",
+        "selected": "Page Number-Insert",
+        "correct": "Page Number-Insert"
+      },
+      {
+        "question": "جهت ایجاد فرم خالی از کدام گزینه استفاده می شود؟",
+        "selected": "Form Blank",
+        "correct": "Form Design"
+      },
+      {
+        "question": "تعریف سبک چیست؟",
+        "selected": "قالب بندی از پیش تعریف شده مانند فونت، رنگ، اندازه برای یک کاراکتر مشخص شده هستند که با یک نام مشخص ذخیره می شوند",
+        "correct": "قالب بندی از پیش تعریف شده مانند فونت، رنگ، اندازه برای یک کاراکتر مشخص شده هستند که با یک نام مشخص ذخیره می شوند"
+      },
+      {
+        "question": "کدام نوع داده برای قیمت کالا مناسب است؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "ICT به چه معناست؟",
+        "selected": "فن آوری اطلاعات و ارتباطات",
+        "correct": "فن آوری اطلاعات و ارتباطات"
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک عنصر از اسلاید",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "در اصطلاح کامپیوتر، مانیتورهای تخت را ................گویند.",
+        "selected": "LCD",
+        "correct": "LCD"
+      },
+      {
+        "question": "امکان تغییر نام چند آیکن در ویندوز 7 .................. و برای تغییر نام از کلید ................ استفاده می شود.",
+        "selected": "وجود دارد - F2",
+        "correct": "وجود دارد - F2"
+      },
+      {
+        "question": "برای اصلاح خودکار متن ها در Word کدام گزینه مناسب است؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Correct"
+      },
+      {
+        "question": "ظاهر شدن علامت فلش در کنار یک آیکن نشانه چیست؟",
+        "selected": "میانبر بودن آن",
+        "correct": "میانبر بودن آن"
+      },
+      {
+        "question": "کدام فیلد نوع داده می تواند اعداد، علائم و حروف را در خود ذخیره کند؟",
+        "selected": "Attach",
+        "correct": "Text"
+      },
+      {
+        "question": "با ورود به چه پنجره ای می توانیم کلیه درایوها را مشاهده و مدیریت کنیم؟",
+        "selected": "Computer",
+        "correct": "Computer"
+      },
+      {
+        "question": "کدام یک از سری دستگاه های زیر به عنوان خروجی عمل می کند؟",
+        "selected": "چاپگر - صفحه نمایش - پلاتر",
+        "correct": "چاپگر - صفحه نمایش - پلاتر"
+      },
+      {
+        "question": "برای تغییر جهت کاغذ به صورت افقی از چه گزینه استفاده می کنیم؟",
+        "selected": "سربرگ Page layout گروه Orientation گزینه Landscape",
+        "correct": "سربرگ Page layout گروه Orientation گزینه Landscape"
+      },
+      {
+        "question": "صفحه ای که در هنگام اجرای IE به طور اتوماتیک نمایش داده می شود ....... نام دارد",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر به منظور زمانبندی هر انیمیشن و اسلاید به کار می رود؟",
+        "selected": "Rehearse Timing",
+        "correct": "Rehearse Timing"
+      },
+      {
+        "question": "برای تعیین نام فیلد از کدام خاصیتی استفاده می کنیم؟",
+        "selected": "Format",
+        "correct": "Caption"
+      },
+      {
+        "question": "کدام گزینه تعریف سخت افزار است؟",
+        "selected": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر",
+        "correct": "اجزای فیزیکی و قابل لمس یک سیستم کامپیوتر"
+      },
+      {
+        "question": "کدام یک از موارد زیر می تواند نام یک خانه از خانه های کاربرگ Excel باشد؟",
+        "selected": "A1",
+        "correct": "A1"
+      },
+      {
+        "question": "جهت ایجاد ترازبندی از طرفین، از کدام گزینه استفاده می کنیم؟",
+        "selected": "Justify",
+        "correct": "Justify"
+      },
+      {
+        "question": "کپی کردن قالب بندی یک پاراگراف به یک یا چند پاراگراف دیگر توسط کدام گزینه امکان پذیر است؟",
+        "selected": "Position",
+        "correct": "Format Painter"
+      }
+    ],
+    "date": "2026-11-23T06:23:38.660Z"
   }
 ]
