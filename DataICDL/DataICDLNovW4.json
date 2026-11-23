@@ -11287,5 +11287,218 @@
       }
     ],
     "date": "2026-11-23T04:39:47.400Z"
+  },
+  {
+    "name": "حدیثه خشنود",
+    "nationalId": "4312211728",
+    "exam": "icdl",
+    "score": 19,
+    "total": 40,
+    "percent": 48,
+    "wrong": 21,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در قسمت Subject نامه چه چیزی را می نویسیم؟",
+        "selected": "موضوع نامه",
+        "correct": "موضوع نامه"
+      },
+      {
+        "question": "از کدامیک از گزینه های زیر برای مرتب سازی نزولی استفاده می شود؟",
+        "selected": "Sort Descending",
+        "correct": "Sort Descending"
+      },
+      {
+        "question": "کدام مورد یک دستگاه خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "در کادر Number of recent programs to display تعداد نرم افزارهای پیش فرض برابر است با:",
+        "selected": "2",
+        "correct": "10"
+      },
+      {
+        "question": "از کدام فرمان جهت مشاهده فایل های ذخیره شده استفاده می شود؟",
+        "selected": "Save As",
+        "correct": "Open"
+      },
+      {
+        "question": "برای رنگ کردن زمینه نوشته از کدام گزینه استفاده می شود؟",
+        "selected": "Highlight",
+        "correct": "Highlight"
+      },
+      {
+        "question": "مسیر عبور اطلاعات بین Cpu و Ram چه نامیده می شود؟",
+        "selected": "Socket",
+        "correct": "Bus"
+      },
+      {
+        "question": "روش شناسایی فایل ....... است؟",
+        "selected": "نام فایل و شکل آیکن",
+        "correct": "پسوند فایل و شکل آیکن"
+      },
+      {
+        "question": "کوچکترین واحد حافظه چیست؟",
+        "selected": "Byte",
+        "correct": "Bit"
+      },
+      {
+        "question": "مشخصات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "رکورد"
+      },
+      {
+        "question": "برای درج آرم های ذخیره شده از سربرگ Insert کدام گزینه را انتخاب کنیم؟",
+        "selected": "Picture",
+        "correct": "Picture"
+      },
+      {
+        "question": "ابزار Line and Paragraph Spacing چه کاربردی دارد؟",
+        "selected": "تنظیم فاصله خطوط و پاراگراف",
+        "correct": "تنظیم فاصله خطوط و پاراگراف"
+      },
+      {
+        "question": "تعداد ارقام اعشاری را در یک فیلد عددی از نوع Decimal می تواند ذخیره شود در کدام خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "انتخاب کدام یک از گزینه های زیر باعث نوشته شدن متنی به صورت زیر خط دار می شود؟",
+        "selected": "Underline",
+        "correct": "Underline"
+      },
+      {
+        "question": "منویی که با کلیک راست روی آیکن نمایش می یابد، چه نام دارد؟",
+        "selected": "منوی میانبر",
+        "correct": "منوی میانبر"
+      },
+      {
+        "question": "برای ویرایش یک رکورد چگونه می توان عمل نمود؟",
+        "selected": "از طریق Form و Datasheet",
+        "correct": "از طریق Form و Datasheet"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F4",
+        "correct": "F2"
+      },
+      {
+        "question": "کلیدهای میانبر فرمان Copy و Paste کدام است؟",
+        "selected": "Ctrl+C ، Ctrl+V",
+        "correct": "Ctrl+C ، Ctrl+V"
+      },
+      {
+        "question": "در کدام یک از موارد روش دسترسی به اطلاعات ترتیبی می باشد؟",
+        "selected": "نوار مغناطیسی",
+        "correct": "نوار مغناطیسی"
+      },
+      {
+        "question": "برای اینکه بخواهیم کلمات یافته شده را به صورت یک به یک جایگزین کنیم روی کدام دکمه کلیک می کنیم؟",
+        "selected": "Single Replace",
+        "correct": "Replace"
+      },
+      {
+        "question": "کدام فرمان برای باز کردن یک سند موجود به کار می رود؟",
+        "selected": "Open",
+        "correct": "Open"
+      },
+      {
+        "question": "به بارگذاری یک فایل از شبکه بر روی کامپیوتر، ................................. گفته می شود.",
+        "selected": "Upload",
+        "correct": "Download"
+      },
+      {
+        "question": "هدف Add To Favorites:",
+        "selected": "اضافه کردن به لیست سایت های مورد علاقه",
+        "correct": "اضافه کردن به لیست سایت های مورد علاقه"
+      },
+      {
+        "question": "کلید میانبر برای مخفی سازی نوار ریبون کدام است؟",
+        "selected": "Alt+F4",
+        "correct": "Ctrl+F1"
+      },
+      {
+        "question": "برای قرار دادن تصویر از نرم افزارهای دیگر در محیط Wordpad از کدام مسیر استفاده می کنیم؟",
+        "selected": "Insert / Object",
+        "correct": "Insert / Object"
+      },
+      {
+        "question": "مفهوم E-Mail چیست؟",
+        "selected": "پست الکترونیکی",
+        "correct": "پست الکترونیکی"
+      },
+      {
+        "question": "از کادر محاوره ای تنظیمات نوار وظیفه انتخاب کدام گزینه باعث قفل شدن نوار وظیفه می گردد؟",
+        "selected": "Auto Hide The Task Bar",
+        "correct": "Lock the taskbar"
+      },
+      {
+        "question": "با ورود به چه پنجره ای می توانیم کلیه درایوها را مشاهده و مدیریت کنیم؟",
+        "selected": "Desktop",
+        "correct": "Computer"
+      },
+      {
+        "question": "توپولوژی چیست؟",
+        "selected": "آرایش فیزیکی رایانه ها در شبکه",
+        "correct": "آرایش فیزیکی رایانه ها در شبکه"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی بر روی کدام دکمه از نوار ابزار کلیک می نمایید؟",
+        "selected": "Forward",
+        "correct": "Reply All"
+      },
+      {
+        "question": "پس از رسم جدول، جهت انجام تنظیمات بعدی به کدام سربرگ مراجعه می کنیم؟",
+        "selected": "Design",
+        "correct": "Design"
+      },
+      {
+        "question": "شیرازه یعنی چه؟",
+        "selected": "فاصله اضافی متن از حاشیه های وسط کاغذ برای صحافی",
+        "correct": "فاصله بین حاشیه و شروع متن در کاغذ برای صحافی"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "List",
+        "correct": "Details"
+      },
+      {
+        "question": "برای انتخاب چند خط به صورت پشت سر هم از کدام گزینه زیر می توان استفاده کرد؟",
+        "selected": "کلید Shift همراه با کلیدهای جهتی",
+        "correct": "کلید Shift همراه با کلیدهای جهتی"
+      },
+      {
+        "question": "کلید میانبر فرمان Redo کدام است؟",
+        "selected": "Ctrl+Z",
+        "correct": "Ctrl+Y"
+      },
+      {
+        "question": "با ترکیب کدام کلیدها می توان کل محتوای یک پوشه را انتخاب نمود؟",
+        "selected": "Alt+C",
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "دستگاهی که سیگنالهای دیجیتال را به آنالوگ و برعکس تبدیل می کند؟",
+        "selected": "سیستم عامل",
+        "correct": "مودم"
+      },
+      {
+        "question": "برای نادیده گرفتن خط قرمز زیر کلمه بعد از کلیک راست کدام گزینه را برمی گزینیم؟",
+        "selected": "Deny",
+        "correct": "Ignore"
+      },
+      {
+        "question": "برای برقراری اینترنت کدام تجهیزات لازم نیست؟",
+        "selected": "کد اشتراک استفاده از اینترنت",
+        "correct": "کارت صدا"
+      },
+      {
+        "question": "کدام گزینه در مورد حافظه Rom صحیح است؟",
+        "selected": "فقط خواندنی و پایدار است",
+        "correct": "فقط خواندنی و پایدار است"
+      }
+    ],
+    "date": "2026-11-23T04:48:26.327Z"
   }
 ]
