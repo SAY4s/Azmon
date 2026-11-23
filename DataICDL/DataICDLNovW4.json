@@ -10435,5 +10435,218 @@
       }
     ],
     "date": "2026-11-23T04:12:57.173Z"
+  },
+  {
+    "name": "رقیه هاشمی پور",
+    "nationalId": "4312155747",
+    "exam": "icdl",
+    "score": 29,
+    "total": 40,
+    "percent": 73,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت انصراف از بازدید یک وب سایت درخواست شده از کدام کلید استفاده می کنیم؟",
+        "selected": "Stop",
+        "correct": "Stop"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "هرگاه اندازه ستون های جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Columns",
+        "correct": "Distribute Columns"
+      },
+      {
+        "question": "برای اینکه هنگام اجرای Query توسط یک کادر محاوره ای سؤالی مبنی بر تعیین معیار پرسیده شود در سطر Criteria کدام مورد زیر را می توان قرار داد؟",
+        "selected": "[?]",
+        "correct": "{?}"
+      },
+      {
+        "question": "از دستور Font به چه منظور استفاده می کنیم؟",
+        "selected": "برای تعیین نوع قلم",
+        "correct": "برای تعیین نوع قلم"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر واقع در پنجره Format Cells باعث اعمال فرمت با قالب رایج پول می شود؟",
+        "selected": "Currency",
+        "correct": "Currency"
+      },
+      {
+        "question": "به منظور تنظیم صدا کدام گزینه صحیح است؟",
+        "selected": "All Program / Accessories / Sound Recorder",
+        "correct": "کلیک بر روی آیکن صدا بر روی نوار کار"
+      },
+      {
+        "question": "از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟",
+        "selected": "CPU > Ram > Hard > Floppy",
+        "correct": "CPU > Ram > Hard > Floppy"
+      },
+      {
+        "question": "چنانچه تقسیم بر صفر انجام شود، کدام پیغام خطا ظاهر می شود؟",
+        "selected": "#DIV/0!",
+        "correct": "#DIV/0!"
+      },
+      {
+        "question": "فرمان Rename چه عملی را انجام می دهد؟",
+        "selected": "نامگذاری مجدد فایل و پوشه ها",
+        "correct": "نامگذاری مجدد فایل و پوشه ها"
+      },
+      {
+        "question": "هر پایگاه داده حداقل دارای چند جدول است؟",
+        "selected": "2",
+        "correct": "1"
+      },
+      {
+        "question": "در کادر Number of recent programs to display تعداد نرم افزارهای پیش فرض برابر است با:",
+        "selected": "2",
+        "correct": "10"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Reports",
+        "correct": "Reports"
+      },
+      {
+        "question": "در آدرس Http://Www.Yahoo.Com، عبارت Http معرف چیست؟",
+        "selected": "پروتکل",
+        "correct": "پروتکل"
+      },
+      {
+        "question": "تعداد کل ارقامی که بعد از نقطه اعشار می تواند ذخیره شود برای اعداد Decimal در کدامیک از خواص فیلد مشخص می شود؟",
+        "selected": "Decimal Places",
+        "correct": "Scale"
+      },
+      {
+        "question": "کدام گزینه برای ایجاد اسلاید در پاورپوینت صحیح است؟",
+        "selected": "New Slide",
+        "correct": "New Slide"
+      },
+      {
+        "question": "کدامیک از بخش های CPU واحد کنترل نامیده می شود؟",
+        "selected": "Cu",
+        "correct": "Cu"
+      },
+      {
+        "question": "از ابزار Equation در نرم افزار برای درج ..... مورد استفاده قرار می گیرد.",
+        "selected": "درج معادلات ریاضی",
+        "correct": "درج معادلات ریاضی"
+      },
+      {
+        "question": "برای وارد کردن یک فایل تصویری در محیط سند، از کدام گزینه ها استفاده می کنید؟",
+        "selected": "Insert \\ picture",
+        "correct": "Insert \\ picture"
+      },
+      {
+        "question": "اینترنت جز کدام شبکه محسوب می شود؟",
+        "selected": "محلی",
+        "correct": "گسترده"
+      },
+      {
+        "question": "شبکه داخلی یک اداره از چه نوعی است؟",
+        "selected": "WAN",
+        "correct": "LAN"
+      },
+      {
+        "question": "عملگر And یک عملگر ..... و * یک عملگر ...... می باشد؟",
+        "selected": "منطقی و محاسباتی",
+        "correct": "منطقی و محاسباتی"
+      },
+      {
+        "question": "در صورتی که بخواهیم تمام اسلایدهای فایل ارائه مطلب را چاپ کنیم کدام گزینه را در پنجره Print انتخاب می کنیم؟",
+        "selected": "Print All Slide",
+        "correct": "Print All Slide"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "حذف فایل ها و پوشه ها موجب انتقال آنها به کجا می شود؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "در نمای ...... داده های جدول را مشاهده و ویرایش نمود؟",
+        "selected": "Data Sheet",
+        "correct": "Data Sheet"
+      },
+      {
+        "question": "از چه طریقی می توان به همراه نامه الکترونیکی یک فایل ضمیمه کرده و ارسال کرد؟",
+        "selected": "Attach File",
+        "correct": "Attach File"
+      },
+      {
+        "question": "جزئی ترین اطلاعات مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": "فیلد",
+        "correct": "فیلد"
+      },
+      {
+        "question": "کدام یک از موارد زیر، یک برنامه نمایشی خالی با استفاده از تنظیمات پیش فرض ایجاد می کند؟",
+        "selected": "Blank Presentation",
+        "correct": "Blank Presentation"
+      },
+      {
+        "question": "با چه دستوری می توان در درون اسلاید یک چهارضلعی ایجاد کرد؟",
+        "selected": "Rectangle",
+        "correct": "Rectangle"
+      },
+      {
+        "question": "نتیجه تابع =Round(435.23;1) چیست؟",
+        "selected": "435",
+        "correct": "435.2"
+      },
+      {
+        "question": "فرمول =Sum(A1:A10)/10 معادل کدامیک از گزینه های زیر است؟",
+        "selected": "Average(A1:A10)=",
+        "correct": "Average(A1:A10)="
+      },
+      {
+        "question": "جهت جمع آوری و سازماندهی اطلاعات در مورد یک موضوع از کدام نرم افزار استفاده می شود؟",
+        "selected": "بانک اطلاعاتی",
+        "correct": "بانک اطلاعاتی"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": "Sort",
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "هرگاه اندازه سطرهای جدول نامنظم شد، توسط کدام گزینه می توانیم آنها را منظم کنیم؟",
+        "selected": "Distribute Rows",
+        "correct": "Distribute Rows"
+      },
+      {
+        "question": "فایل های ایجاد شده در محیط Power Point را چه می نامند؟",
+        "selected": "Book",
+        "correct": "Presentation"
+      },
+      {
+        "question": "ترازبندی خطوط، تغییر فونت و گزینه های رونوشت و انتقال در کدام زبانه (ریبون) قرار دارند؟",
+        "selected": "Home",
+        "correct": "Home"
+      },
+      {
+        "question": "در مورد ذخیره کردن اطلاعات در داخل صفحه کاری کدام مورد صحیح نیست؟",
+        "selected": "پسوند فایل های صفحه گسترده Xls است",
+        "correct": "هر صفحه کاری در یک فایل ذخیره می شود"
+      }
+    ],
+    "date": "2026-11-23T04:15:52.963Z"
   }
 ]
