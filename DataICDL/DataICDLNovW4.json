@@ -13630,5 +13630,218 @@
       }
     ],
     "date": "2026-11-23T06:01:28.220Z"
+  },
+  {
+    "name": "حدیثه خشنود",
+    "nationalId": "4312211728",
+    "exam": "icdl",
+    "score": 28,
+    "total": 40,
+    "percent": 70,
+    "wrong": 12,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "عملیات بروزرسانی یک صفحه وب مشاهده شده توسط چه ابزاری امکان پذیر است؟",
+        "selected": "دکمه History در نوار ابزار",
+        "correct": "F5"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر مختص کشور ایران است؟",
+        "selected": "IR",
+        "correct": "IR"
+      },
+      {
+        "question": "موتور جستجویی که واژه مورد جستجوی شما را در چند موتور جستجو قرار می دهد و نتایج جستجوی آنها را برای شما لیست می کنند چه نامیده می شوند؟",
+        "selected": "Search Engines",
+        "correct": "Meta Search Engines"
+      },
+      {
+        "question": "توسط کدام کلید ترکیبی بانک اطلاعاتی جاری بسته می شود؟",
+        "selected": "Alt+F4",
+        "correct": "Alt+F4"
+      },
+      {
+        "question": "در صفحه کلید برای تایپ علائم بالای کلید، کدام کلید را باید پایین نگه داشت؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "نوار باریکی که در پایین صفحه دسک تاپ نمایان می شود، چه نام دارد؟",
+        "selected": "نوار وظیفه",
+        "correct": "نوار وظیفه"
+      },
+      {
+        "question": "کدام تابع برای عمل جمع سلول ها به کار می رود؟",
+        "selected": "Sum",
+        "correct": "Sum"
+      },
+      {
+        "question": "به هنگام تعریف داده های عددی کدام نوع جهت عددهای اعشاری مناسب است؟",
+        "selected": "Decimal",
+        "correct": "Decimal"
+      },
+      {
+        "question": "سریع ترین راه برای فراخوانی دستور Replace کلیدهای ترکیبی ................ و .................. است.",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "جهت حذف یک فیلتر روی کدام گزینه کلیک می کنیم؟",
+        "selected": "Clear Filter",
+        "correct": "Clear Filter"
+      },
+      {
+        "question": "از کدام فرمان برای تقسیم یک خانه جدول به چند خانه استفاده می شود؟",
+        "selected": "گزینه Split از سربرگ Insert",
+        "correct": "گزینه Split Cells از سربرگ Layout"
+      },
+      {
+        "question": "در کادر محاوره ای Folder Option و تب General انتخاب کدام گزینه باعث می شود تا پوشه ها در یک پنجره باز شوند؟",
+        "selected": "Use Windows Classic Desktop",
+        "correct": "Open Each Folder in the Same Window"
+      },
+      {
+        "question": "برای درج کاراکترهای ویژه از کادر محاوره ای Symbol کدام زبانه را انتخاب می کنیم؟",
+        "selected": "Special Characters",
+        "correct": "Special Characters"
+      },
+      {
+        "question": "در ترسیم نمودار مفهوم گزینه Data Labels چیست؟",
+        "selected": "عنوان نمودار و محورها",
+        "correct": "نمایش اسامی داده ها"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "برای جستجوی فایل صوتی کدام مورد را در برنامه Search باید تایپ نمود؟",
+        "selected": "*.music",
+        "correct": "*.mp3"
+      },
+      {
+        "question": "اگر بخواهیم شرطی بین 100 تا 500 را برای ورود داده ها در فیلد عددی وارد نماییم، عبارت مقابل را مقابل کدام یک از خصوصیات درج می کنیم؟ (>=100 and <=500)",
+        "selected": "Validation Rule",
+        "correct": "Validation Rule"
+      },
+      {
+        "question": "برای ایجاد فایل در پاورپوینت کدام کلیدهای ترکیبی را می فشاریم؟",
+        "selected": "Ctrl+N",
+        "correct": "Ctrl+N"
+      },
+      {
+        "question": "برای ثابت شدن نوار ریبون از بالا و سمت راست ..............را انتخاب می کنیم.",
+        "selected": "Top The Ribbon",
+        "correct": "Pin The Ribbon"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یادداشت بر روی اسلایدها مناسب است؟",
+        "selected": "Comment",
+        "correct": "Comment"
+      },
+      {
+        "question": "برای مرتب نمودن آیکن های پنجره بر اساس نوع فایل ها از کدام گزینه استفاده می شود؟",
+        "selected": "Type",
+        "correct": "Type"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر خروجی است؟",
+        "selected": "چاپگر",
+        "correct": "چاپگر"
+      },
+      {
+        "question": "کدام یک از دامنه های زیر آموزشی بودن سایت را نشان می دهد؟",
+        "selected": "Edu",
+        "correct": "Edu"
+      },
+      {
+        "question": "در صورتی که بخواهیم جدولی را دستی طراحی کنیم کدام گزینه را انتخاب می نماییم؟",
+        "selected": "Draw Table",
+        "correct": "Draw Table"
+      },
+      {
+        "question": "برای تغییر رنگ زمینه سلول ها از کدام گزینه استفاده می شود؟",
+        "selected": "Pattern",
+        "correct": "Pattern"
+      },
+      {
+        "question": "کاربرد گزینه Export چیست؟",
+        "selected": "پیش نمایش سند",
+        "correct": "انتشار سند در دیگر فرمت ها"
+      },
+      {
+        "question": "هر نامه می تواند توسط شما نشانه گذاری شود (برای یادآوری) که در پنجره لیست نامه ها با علامت ..... مشخص می شود",
+        "selected": "پرچم",
+        "correct": "پرچم"
+      },
+      {
+        "question": "فیلد سال تولد از چه نوعی باید باشد؟",
+        "selected": "Number",
+        "correct": "Number"
+      },
+      {
+        "question": "نتیجه حاصل از فرمول روبرو در اکسل چه عددی است؟ D=2^3*2+4/2",
+        "selected": "18",
+        "correct": "18"
+      },
+      {
+        "question": "تابع Count چه وظیفه ای دارد؟",
+        "selected": "شمارش سلول های عددی",
+        "correct": "شمارش سلول های عددی"
+      },
+      {
+        "question": "کدامیک از موارد زیر از توانایی های برنامه های صفحه گسترده نمی باشد؟",
+        "selected": "تولید یک برنامه اجرایی مستقل کامپیوتری",
+        "correct": "تولید یک برنامه اجرایی مستقل کامپیوتری"
+      },
+      {
+        "question": "کدامیک از موارد زیر تعریف ریزپردازنده نمی باشد؟",
+        "selected": "روی یک مدار جداگانه بنام سوکت نصب می شود",
+        "correct": "اساسی ترین جزء یک کامپیوتر نمی باشد"
+      },
+      {
+        "question": "به هر خانه جدول یک ................... گفته می شود.",
+        "selected": "Cell",
+        "correct": "Cell"
+      },
+      {
+        "question": "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
+        "selected": "مجموعه شیارهایی از دیسک سخت که دارای یک شعاع نیستند",
+        "correct": "مجموعه ای از شیارها با شعاع یکسان"
+      },
+      {
+        "question": "برای ایجاد فیلد کلید اصلی از گزینه ................. استفاده می کنیم.",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "نام دیگر صفحه کاری ................................ می باشد.",
+        "selected": "Workbook",
+        "correct": "Worksheet"
+      },
+      {
+        "question": "به منظور درج (اضافه کردن) کاربرگ از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Insert-Work Sheet",
+        "correct": "Insert-Work Sheet"
+      },
+      {
+        "question": "در کدام حالت نمایش در پنجره Data Base آیکن های پانل سمت چپ با جزئیات دیده می شوند؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "برای ایجاد جدول و یا فرم و گزارش در بانک اطلاعاتی از کدام سربرگ استفاده می شود؟",
+        "selected": "Create",
+        "correct": "Create"
+      },
+      {
+        "question": "برای اضافه کردن یک رکورد جدید گزینه New Record را از کدام تب کلیک می کنیم؟",
+        "selected": "Insert",
+        "correct": "Home"
+      }
+    ],
+    "date": "2026-11-23T06:07:04.244Z"
   }
 ]
