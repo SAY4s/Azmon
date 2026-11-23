@@ -15334,5 +15334,218 @@
       }
     ],
     "date": "2026-11-23T07:44:35.117Z"
+  },
+  {
+    "name": "مائده حمیدی",
+    "nationalId": "7280114032",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "جهت خروج از نرم افزار Power Point 2013 کدام گزینه مناسب است؟",
+        "selected": "کلیدهای ترکیبی Alt+F4",
+        "correct": "کلیدهای ترکیبی Alt+F4"
+      },
+      {
+        "question": "برای اضافه نمودن سخت افزار جدید از گزینه .......... استفاده می شود.",
+        "selected": "پنجره Control Panel و گزینه Add Hardware",
+        "correct": "پنجره Control Panel و گزینه Add Hardware"
+      },
+      {
+        "question": "برای ایجاد گزارش کدام مورد را از تب Create کلیک می کنیم؟",
+        "selected": "Reports",
+        "correct": "Reports"
+      },
+      {
+        "question": "برای حذف سلول های جدول کدام دستور از گروه Delete را برمی گزینیم؟",
+        "selected": "Delete Cells",
+        "correct": "Delete Cells"
+      },
+      {
+        "question": "برای تنظیم حاشیه های چاپ از کدام سربرگ استفاده می کنیم؟",
+        "selected": "Page Setup",
+        "correct": "Page Setup"
+      },
+      {
+        "question": "کلید معادل فرمان انتقال .............. است.",
+        "selected": "Ctrl+C",
+        "correct": "Ctrl+X"
+      },
+      {
+        "question": "کدام ابزار در سربرگ Insert جهت درج یک محل تایپ متن بر روی اسلایدها مناسب است؟",
+        "selected": "Text Box",
+        "correct": "Text Box"
+      },
+      {
+        "question": "از کدام یک از گزینه های زیر برای ذخیره کردن فایل ارائه مطلب استفاده نمی شود؟",
+        "selected": "از ریبون Home گزینه Save",
+        "correct": "از ریبون Home گزینه Save"
+      },
+      {
+        "question": "کدام نوع داده، فیلدی شامل اقلام مختلف به صورت منو ایجاد می کند؟",
+        "selected": "Look Up Wizard",
+        "correct": "Look Up Wizard"
+      },
+      {
+        "question": "اگر A1=True، B1=Kh، F3=4 باشد حاصل تابع زیر کدام است؟ =IF(A1=B1,\"t\",\"f\")",
+        "selected": "4",
+        "correct": "F"
+      },
+      {
+        "question": "برنامه های در حال اجرا بر روی چه ناحیه ای قرار دارند؟",
+        "selected": "Start",
+        "correct": "Taskbar"
+      },
+      {
+        "question": "نامه هایی که به هر دلیلی به مقصد ارسال نشده اند دارای چه عنوانی هستند؟",
+        "selected": "Failure Back",
+        "correct": "Failure Notice"
+      },
+      {
+        "question": "کدام فرمول میانگین A1 تا A6 را محاسبه نمی کند؟",
+        "selected": "=Average(A1;A6)",
+        "correct": "=Average(A1;A6)"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی است",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "برای ایجاد فیلدی دارای زیر مجموعه از کدام نوع داده زیر استفاده می شود؟",
+        "selected": "Lookup Wizard",
+        "correct": "Lookup Wizard"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "جهت تعریف شرط بر روی داده های خانه ها از تابع ............... استفاده می کنیم",
+        "selected": "If",
+        "correct": "If"
+      },
+      {
+        "question": "در روش طراحی فرم به صورت دستی Design View کدامیک از گزینه های زیر بدنه اصلی فرم را تشکیل می دهد؟",
+        "selected": "Details",
+        "correct": "Details"
+      },
+      {
+        "question": "کدام یک جزء نرم افزارهای سیستم نیست؟",
+        "selected": "برنامه های سودمند",
+        "correct": "برنامه های کاربردی"
+      },
+      {
+        "question": "کدام تابع برای محاسبه مجموع چند عدد بکار می رود؟",
+        "selected": "Countif",
+        "correct": "Sum"
+      },
+      {
+        "question": "برای اضافه کردن یک زبان دیگر به سیستم از کدام گزینه استفاده می کنیم؟",
+        "selected": "Control Panel / Region and Language / Add Language",
+        "correct": "Control Panel / Region and Language / Add Language"
+      },
+      {
+        "question": "Shut Down چیست؟",
+        "selected": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند",
+        "correct": "کلیه برنامه های باز را می بندد و به کار ویندوز خاتمه داده و رایانه را خاموش می کند"
+      },
+      {
+        "question": "تجارت الکترونیک به چه مفهومی است؟",
+        "selected": "انجام کارهای تجاری از طریق اینترنت",
+        "correct": "انجام کارهای تجاری از طریق اینترنت"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Http",
+        "correct": "Format"
+      },
+      {
+        "question": "در اکسس هر ستون از جدول چه نامیده می شود؟",
+        "selected": "Cells",
+        "correct": "Fields"
+      },
+      {
+        "question": "برای جستجو کردن و جایگزین کردن مقدار جدید در فیلد از چه کلید میانبری استفاده می شود؟",
+        "selected": "Ctrl+H",
+        "correct": "Ctrl+H"
+      },
+      {
+        "question": "کدام خواص زیر در فیلدها قالب نمایش فیلد را مشخص می کند، مثلا اینکه با حروف کوچک یا بزرگ نمایش داده شود؟",
+        "selected": "Caption",
+        "correct": "Format"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم",
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "کدام فرمان برای اجرای مکرر دستورات استفاده می شود؟",
+        "selected": "Auto Fill",
+        "correct": "Macro"
+      },
+      {
+        "question": "در کدام قسمت زبانه File می توانیم اطلاعات سند را ببینیم؟",
+        "selected": "Export",
+        "correct": "Info"
+      },
+      {
+        "question": "با استفاده از گزینه From Current Slide اجرای برنامه نمایشی از کدام اسلاید انجام می شود؟",
+        "selected": "اسلاید جاری",
+        "correct": "اسلاید جاری"
+      },
+      {
+        "question": "اطلاعات چیست؟",
+        "selected": "نتیجه ای که از پردازش داده ها انجام می گیرد",
+        "correct": "نتیجه ای که از پردازش داده ها انجام می گیرد"
+      },
+      {
+        "question": "هر الگو چند بار می تواند توسط کاربر مورد استفاده قرار گیرد؟",
+        "selected": "به هر تعداد که کاربر مایل باشد",
+        "correct": "به هر تعداد که کاربر مایل باشد"
+      },
+      {
+        "question": "جهت شماره گذاری اسلایدها چه مراحلی را باید طی کرد؟",
+        "selected": "Insert / Header and Footer / Slide Number",
+        "correct": "Insert / Header and Footer / Slide Number"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده عنوان و یک نگه دارنده متن و یک نگه دارنده غیر متنی است.",
+        "selected": "Content With Caption",
+        "correct": "Content With Caption"
+      },
+      {
+        "question": "نحوه مرتب کردن فایل های صفحه گسترده باز شده کدام می باشد؟",
+        "selected": "انجام راست کلیک و انتخاب Arrange Icons",
+        "correct": "انتخاب گزینه Arrange از تب View"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "به فروش از طریق شبکه اینترنت در وب سایت ها چه می گویند؟",
+        "selected": "E-Commerce",
+        "correct": "E-Commerce"
+      }
+    ],
+    "date": "2026-11-23T07:54:57.854Z"
   }
 ]
