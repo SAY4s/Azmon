@@ -13417,5 +13417,218 @@
       }
     ],
     "date": "2026-11-23T05:47:04.075Z"
+  },
+  {
+    "name": "نازنین ملک پور",
+    "nationalId": "4312513708",
+    "exam": "icdl",
+    "score": 37,
+    "total": 40,
+    "percent": 93,
+    "wrong": 3,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "پوشه Outbox شامل ........... است.",
+        "selected": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است",
+        "correct": "لیست نامه هایی است که هنوز فرایند ارسال آنها تکمیل نشده است"
+      },
+      {
+        "question": "این نوار ابزار شامل دستورات پرکاربرد نرم افزار Power Point است.",
+        "selected": "نوار عنوان",
+        "correct": "نوار ابزار دسترسی سریع"
+      },
+      {
+        "question": "کدام گزینه نرم افزار سیستمی است؟",
+        "selected": "سیستم عامل",
+        "correct": "سیستم عامل"
+      },
+      {
+        "question": "کدامیک از فرمت های فایل زیر برای تصویر زمینه ویندوز قابل استفاده است؟",
+        "selected": "Pdf",
+        "correct": "JPG"
+      },
+      {
+        "question": "برای نمایش اسلایدها از اسلاید جاری، کلیدهای ........... را همزمان می فشاریم.",
+        "selected": "Shift+F5",
+        "correct": "Shift+F5"
+      },
+      {
+        "question": "کدامیک از دستگاه های زیر برای انتقال تصویر در وب استفاده می شود؟",
+        "selected": "Webcam",
+        "correct": "Webcam"
+      },
+      {
+        "question": "خط قرمز در زیر کلمه به چه معنی است؟",
+        "selected": "کلمه مشکل نوشتاری دارد",
+        "correct": "کلمه مشکل نوشتاری دارد"
+      },
+      {
+        "question": "به ترکیب سخت افزار و نرم افزار چه می گویند؟",
+        "selected": "میان افزار",
+        "correct": "میان افزار"
+      },
+      {
+        "question": "کدام یک از گزینه زیر تعریف کامپیوتر است؟",
+        "selected": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد",
+        "correct": "دستگاهی است دارای حافظه و قابل برنامه ریزی که قادر است عملیات ریاضی و منطقی را انجام دهد"
+      },
+      {
+        "question": "چنانچه دکمه ctrl را در حین درگ کردن یک شکل فشار داده و پایین نگه دارید، آن شکل به جای اینکه ... شود ... می گردد.",
+        "selected": "جابجا - کپی",
+        "correct": "جابجا - کپی"
+      },
+      {
+        "question": "به سندهای آماده و از قبل ویرایش شده که به عنوان الگو استفاده می شوند چه می گویند؟",
+        "selected": "Template",
+        "correct": "Template"
+      },
+      {
+        "question": "برای انتخاب گیرندگان در فرم ادغام پستی روی کدام دکمه کلیک می شود؟",
+        "selected": "Select Recipients",
+        "correct": "Select Recipients"
+      },
+      {
+        "question": "جهت محافظت کاربرگ ابتدا راست کلیک سپس کدام فرمان را انتخاب می نماییم؟",
+        "selected": "Protect Sheet",
+        "correct": "Protect Sheet"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن یک فایل ارائه مطلب در نرم افزار Power Point چیست؟",
+        "selected": "Ctrl+O",
+        "correct": "Ctrl+O"
+      },
+      {
+        "question": "نتیجه تابع =Round(435.23;1) چیست؟",
+        "selected": "435.2",
+        "correct": "435.2"
+      },
+      {
+        "question": "از کدام گزینه برای افزودن جدول به اسلاید استفاده می شود؟",
+        "selected": "گزینه Insert/Table",
+        "correct": "گزینه Insert/Table"
+      },
+      {
+        "question": "اگر بخواهیم صفحاتی جستجو شود که کلمه exercise در عبارت جستجو نباشد، عبارت exercise access را چگونه می توان search نمود؟",
+        "selected": "access not exercise",
+        "correct": "access not exercise"
+      },
+      {
+        "question": "کدام یک از گزینه های زیر نشان دهنده گنجایش کل درایو در کادر محاوره ای Properties مربوط به دیسک است؟",
+        "selected": "Capacity",
+        "correct": "Capacity"
+      },
+      {
+        "question": "دوبار کلیک بر روی آیکن برنامه باعث ................ می شود.",
+        "selected": "اجرای برنامه",
+        "correct": "اجرای برنامه"
+      },
+      {
+        "question": "کدام گزینه IE را با صفحه خالی نمایش می دهد؟",
+        "selected": "Use Blank",
+        "correct": "Use Blank"
+      },
+      {
+        "question": "برای افزودن کادر به صفحه از کدام گزینه استفاده می شود؟",
+        "selected": "Design -> Page Border",
+        "correct": "Design -> Page Border"
+      },
+      {
+        "question": "به عملیات آماده سازی دیسک به گونه ای که بتوان اطلاعات را در آن ذخیره کرد ...... می گویند.",
+        "selected": "Format",
+        "correct": "Format"
+      },
+      {
+        "question": "توسط این گزینه می توانیم ارتفاع جدول را تعیین کنیم:",
+        "selected": "Height",
+        "correct": "Height"
+      },
+      {
+        "question": "در آدرس پست الکترونیکی نام کاربری و نام سرویس دهنده توسط علامت ...... از هم جدا شده است.",
+        "selected": "@",
+        "correct": "@"
+      },
+      {
+        "question": "حالت بزرگ نمایی چه تاثیری بر سند می گذارد؟",
+        "selected": "هیچ گونه تاثیری بر چگونگی چاپ ندارد",
+        "correct": "هیچ گونه تاثیری بر چگونگی چاپ ندارد"
+      },
+      {
+        "question": "در کدام روش می توان پرس و جو را با شرط تعیین شده ایجاد نمود؟",
+        "selected": "Query Design",
+        "correct": "Query Design"
+      },
+      {
+        "question": "پیغام های دریافت شده در Outlook Express در کدام پوشه قرار دارند؟",
+        "selected": "Inbox",
+        "correct": "Inbox"
+      },
+      {
+        "question": "کدامیک از سیستم عامل های زیر تک کاربره می باشد؟",
+        "selected": "Dos",
+        "correct": "Dos"
+      },
+      {
+        "question": "کدام نوع داده برای قرار دادن تصویر در بانک اطلاعات استفاده می شود؟",
+        "selected": "OLE",
+        "correct": "OLE"
+      },
+      {
+        "question": "کدام صفحه نمایش تشعشعات مضر ندارد؟",
+        "selected": "Plasma, LCD",
+        "correct": "Plasma, LCD"
+      },
+      {
+        "question": "کدام یک از نرم افزارهای زیر برای کار با اینترنت لازم است؟",
+        "selected": "Internet Explorer",
+        "correct": "Internet Explorer"
+      },
+      {
+        "question": "در صورتی که بخواهیم انیمیشن ایجاد شده بر روی عنصر همراه با انیمیشن قبل از خود اجرا شود کدام گزینه را انتخاب کنیم؟",
+        "selected": "With Previous",
+        "correct": "With Previous"
+      },
+      {
+        "question": "بالاترین اولویت در خواندن فرمول ها کدام است؟",
+        "selected": "توان",
+        "correct": "پرانتز"
+      },
+      {
+        "question": "برای ارسال یک نامه دریافت شده به اشخاص دیگر از کدام گزینه استفاده می شود؟",
+        "selected": "forward",
+        "correct": "forward"
+      },
+      {
+        "question": "در نرم افزار Notepad برای تنظیمات کاغذ از کدام گزینه استفاده می شود؟",
+        "selected": "Page setup",
+        "correct": "Page setup"
+      },
+      {
+        "question": "در پنجره Email کدام پوشه نامه های حذف شده را نگهداری می کند؟",
+        "selected": "Delete Item",
+        "correct": "Delete Item"
+      },
+      {
+        "question": "از کدام ابزار برای ایجاد یک آلبوم تصاویر مورد استفاده قرار می گیرد؟",
+        "selected": "Photo Album",
+        "correct": "Photo Album"
+      },
+      {
+        "question": "برای ارسال پاسخ نامه به همه گیرندگان نامه اصلی باید بر روی کدام دکمه از نوار ابزار Outlook کلیک نمایید.",
+        "selected": "Reply To All",
+        "correct": "Reply To All"
+      },
+      {
+        "question": "نرم افزارهایی که مدیریت سخت افزار را به عهده دارند چه می نامند؟",
+        "selected": "سیستمی",
+        "correct": "سیستمی"
+      },
+      {
+        "question": "توسط این گزینه می توان عرض جدول را تعیین کرد:",
+        "selected": "Width",
+        "correct": "Width"
+      }
+    ],
+    "date": "2026-11-23T06:01:28.220Z"
   }
 ]
