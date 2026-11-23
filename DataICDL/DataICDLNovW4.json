@@ -15121,5 +15121,218 @@
       }
     ],
     "date": "2026-11-23T06:23:38.660Z"
+  },
+  {
+    "name": "مائده حمیدی",
+    "nationalId": "7280114032",
+    "exam": "icdl",
+    "score": 27,
+    "total": 40,
+    "percent": 68,
+    "wrong": 13,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کاربرد Decimal Tab چیست؟",
+        "selected": "ایجاد تب اعشاری",
+        "correct": "ایجاد تب اعشاری"
+      },
+      {
+        "question": "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه...........؟",
+        "selected": "Template و Style",
+        "correct": "Template و Style"
+      },
+      {
+        "question": "کدامیک از فرمت های فایل زیر برای تصویر زمینه ویندوز قابل استفاده است؟",
+        "selected": "Docx",
+        "correct": "JPG"
+      },
+      {
+        "question": "سریع ترین راه برای باز کردن پنجره Find چیست؟",
+        "selected": "Ctrl+F",
+        "correct": "Ctrl+F"
+      },
+      {
+        "question": "برای تنظیم حاشیه صفحات از کدام سربرگ و گزینه استفاده می شود؟ (چپ به راست)",
+        "selected": "Page Layout--------Margins",
+        "correct": "Page Layout--------Margins"
+      },
+      {
+        "question": "برای استخراج داده های جدول بر اساس شرط خاص از چه گزینه ای استفاده می شود؟",
+        "selected": "Query",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام یک از اسامی زیر برای نام پوشه غیر مجاز است؟",
+        "selected": "Directory",
+        "correct": "Con"
+      },
+      {
+        "question": "هنگامی که در زیر کلمه یک خط قرمز موج دار کشیده می شود برای تصحیح آن می توان:",
+        "selected": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید",
+        "correct": "روی آن کلیک راست نموده و یکی از لغات گزینه های Ignore All و Autocorrect را برگزینید"
+      },
+      {
+        "question": "چه چیز باعث می شود که متن نوشته شده در سلول در صورت طولانی شدن در چند سطر قرار گیرد؟",
+        "selected": "Wrap Text",
+        "correct": "Wrap Text"
+      },
+      {
+        "question": "چنانچه آیکن ضد ویروس با رنگ قرمز نمایان شود نشانه چیست؟",
+        "selected": "به روز نبودن ضد ویروس",
+        "correct": "به روز نبودن ضد ویروس"
+      },
+      {
+        "question": "برای تغییر رنگ سلول های جدول کدام مورد به کار می رود؟",
+        "selected": "Table Color",
+        "correct": "Shading"
+      },
+      {
+        "question": "جهت تسریع عمل ورود داده های تکراری در سلول ها از کدام گزینه استفاده می کنیم؟",
+        "selected": "Auto Correct",
+        "correct": "Auto Fill"
+      },
+      {
+        "question": "برای درج جدول از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Insert گروه Table",
+        "correct": "سربرگ Insert گروه Table"
+      },
+      {
+        "question": "برای تبدیل صفحه کلید از حالت تایپ فارسی به لاتین از چه کلید ترکیبی استفاده می شود؟",
+        "selected": "Alt+Shift سمت چپ یا راست",
+        "correct": "Alt+Shift سمت چپ یا راست"
+      },
+      {
+        "question": "برای مخفی کردن یک اسلاید از گزینه ................. استفاده می شود.",
+        "selected": "Hide Slide",
+        "correct": "Hide Slide"
+      },
+      {
+        "question": "برای خالی کردن محتوای Recycle Bin چگونه عمل می شود؟",
+        "selected": "در پنجره آن کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم",
+        "correct": "از پنجره آن و از منوی File در صورتی که فایلی انتخاب نشده باشد گزینه Empty Recycle Bin را کلیک می کنیم و یا در آن پنجره کلیه موارد را انتخاب و از منوی File گزینه Delete را کلیک می کنیم"
+      },
+      {
+        "question": "برای فیلتر کردن اطلاعات موجود در لیست از کدام گزینه استفاده می شود؟",
+        "selected": "Data \\ Filter",
+        "correct": "Data \\ Filter"
+      },
+      {
+        "question": "به منظور سفارشی کردن منوی Start گزینه .......... استفاده می شود.",
+        "selected": "Start / Properties",
+        "correct": "Start / Properties"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": "Home Page",
+        "correct": "Home Page"
+      },
+      {
+        "question": "برای تغییر اندازه ی کاغذ از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ View گزینه Size",
+        "correct": "سربرگ Page Layout گروه Page Setup گزینه Size"
+      },
+      {
+        "question": "طول پیش فرض فیلدهای متنی ShortText چه مقدار است؟",
+        "selected": "255 کاراکتر",
+        "correct": "255 کاراکتر"
+      },
+      {
+        "question": "برای ایجاد تفاوت در سرصفحه و پاصفحه ی صفحات زوج و فرد از کدام گزینه استفاده می کنیم؟",
+        "selected": "Insert header and footer",
+        "correct": "Different Odd & Even Pages"
+      },
+      {
+        "question": "به ورودی های خام سیستم چه می گویند؟",
+        "selected": "داده",
+        "correct": "داده"
+      },
+      {
+        "question": "برای کاهش اندازه قلم به میزان یک واحد کدام کلید ترکیبی مناسب است؟",
+        "selected": "Ctrl+[",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "از ابزار Selection Pane به چه منظور استفاده می شود؟",
+        "selected": "انتخاب یک نگهدارنده یا مخفی کردن آن",
+        "correct": "انتخاب یک عنصر از اسلاید"
+      },
+      {
+        "question": "در صورتی که مشخصه ........ فیلد دارای مقدار ......... باشد می توان فیلد را خالی رها نمود؟",
+        "selected": "No-Required",
+        "correct": "No-Required"
+      },
+      {
+        "question": "اگر B1=Kh و A1=True و F3=4 باشد حاصل تابع زیر کدام است؟ =max(A1,B1,F3)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "برد اصلی کامپیوتر را ................. گویند.",
+        "selected": "Ram",
+        "correct": "Mainboard"
+      },
+      {
+        "question": "کدام یک از تعاریف زیر به نظر شما درست است؟",
+        "selected": "کامپیوترهای Laptop قابل حمل هستند",
+        "correct": "کامپیوترهای Laptop قابل حمل هستند"
+      },
+      {
+        "question": "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ View گروه Macro گزینه Record Macro",
+        "correct": "سربرگ View گروه Macro گزینه Record Macro"
+      },
+      {
+        "question": "برای انتخاب کلمات همجوار و پشت سر هم از کدام کلید استفاده می شود؟",
+        "selected": "Shift",
+        "correct": "Shift"
+      },
+      {
+        "question": "کدام گزینه برای تغییر حروف لاتین به حروف کوچک به کار می رود؟",
+        "selected": "Lowercase",
+        "correct": "Lowercase"
+      },
+      {
+        "question": "برای تعیین تعداد اعشار ارقام از کدام تب استفاده می کنیم؟",
+        "selected": "Home-Number",
+        "correct": "Home-Number"
+      },
+      {
+        "question": "کدام یک از ابزارهای زیر ابعاد اسلاید را هم اندازه صفحه نمایش می کند؟",
+        "selected": "Zoom",
+        "correct": "Fit To Window"
+      },
+      {
+        "question": "کدام انتخاب از گزینه ها باعث نمایش یا مخفی شدن آیکن ها بر روی Desktop می گردد؟",
+        "selected": "Show desktop icons",
+        "correct": "Show desktop icons"
+      },
+      {
+        "question": "نرم افزار Word در کدام مورد کاربرد دارد؟",
+        "selected": "برنامه نویسی",
+        "correct": "تهیه و ویرایش کتاب و مقاله"
+      },
+      {
+        "question": "کدام دستور می تواند کار چند تابع را انجام دهد؟",
+        "selected": "Sum",
+        "correct": "Subtotals"
+      },
+      {
+        "question": "نامه های پیش نویس در کدام پوشه قرار می گیرند؟",
+        "selected": "Draft",
+        "correct": "Draft"
+      },
+      {
+        "question": "نامه های نیمه تمام یا ناقص در کدام فولدر نگه داری می شود؟",
+        "selected": "Inbox",
+        "correct": "Draft"
+      },
+      {
+        "question": "تم پیش فرض ویندوز کدام است؟",
+        "selected": "Windows Style",
+        "correct": "Windows Style"
+      }
+    ],
+    "date": "2026-11-23T07:44:35.117Z"
   }
 ]
