@@ -16186,5 +16186,218 @@
       }
     ],
     "date": "2026-11-25T09:48:14.274Z"
+  },
+  {
+    "name": "نازنین زهرا صفائی",
+    "nationalId": "7280113028",
+    "exam": "icdl",
+    "score": 8,
+    "total": 40,
+    "percent": 20,
+    "wrong": 7,
+    "unanswered": 25,
+    "answers": [
+      {
+        "question": "در کادر محاوره ای Task Bar and Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
+        "selected": "Taskbar Location on Screen",
+        "correct": "Taskbar Location on Screen"
+      },
+      {
+        "question": "کدام فرمان برای اجرای مکرر دستورات استفاده می شود؟",
+        "selected": "Auto Fill",
+        "correct": "Macro"
+      },
+      {
+        "question": "کدام کلید ترکیبی میانبر برای کاهش سایز قلم به کار می رود؟",
+        "selected": "Ctrl+)",
+        "correct": "Ctrl+["
+      },
+      {
+        "question": "کدام جمله نادرست است؟",
+        "selected": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد",
+        "correct": "فایل های حذف شده را هیچگاه نمی توان بازیابی کرد"
+      },
+      {
+        "question": "ابزار Line and Paragraph Spacing چه کاربردی دارد؟",
+        "selected": "ترازبندی خطوط و پاراگراف",
+        "correct": "تنظیم فاصله خطوط و پاراگراف"
+      },
+      {
+        "question": "برای درج پاورقی از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Review گزینه Header",
+        "correct": "سربرگ References گزینه Footnotes و سربرگ References گزینه Insert Endnote"
+      },
+      {
+        "question": "کدام یک از گزینه ها نرم افزار ضد ویروس است؟",
+        "selected": "Nod32",
+        "correct": "Nod32"
+      },
+      {
+        "question": "برای درج یک تصویر در فرم از کدام تب استفاده می کنیم؟",
+        "selected": "Insert",
+        "correct": "Insert"
+      },
+      {
+        "question": "برای استفاده از صوت و موزیک در کامپیوتر کدام یک از گزینه های زیر ضروری نیست؟",
+        "selected": "مودم",
+        "correct": "مودم"
+      },
+      {
+        "question": "در صورتی که بخواهیم فقط متن های هر اسلاید چاپ شود کدام گزینه را انتخاب می کنیم؟",
+        "selected": "Full Page Slides",
+        "correct": "Outline"
+      },
+      {
+        "question": "پرس و جو بر اساس یک معیار در اکسس چه نامیده می شود؟",
+        "selected": "Search",
+        "correct": "Query"
+      },
+      {
+        "question": "کدام جمله درست است؟",
+        "selected": null,
+        "correct": "یک آدرس ایمیل (E-mail) منحصر به فرد است"
+      },
+      {
+        "question": "برای تولید اعداد متوالی اتوماتیک کدام نوع داده را برای فیلد باید تعریف نمود؟",
+        "selected": "Autonumber",
+        "correct": "Autonumber"
+      },
+      {
+        "question": "کدام گزینه سبب بزرگ نمایی اسلاید می شود؟",
+        "selected": "Zoom In",
+        "correct": "Zoom In"
+      },
+      {
+        "question": "کدامیک از معمولی ترین نماها برای مشاهده و طراحی Query به کار می روند؟",
+        "selected": "نمای Data Sheet View",
+        "correct": "نمای Data Sheet View و Design View"
+      },
+      {
+        "question": "اگر بخواهیم تمام فیلدها در یک رکورد از جدول پر شود و هیچ یک خالی رد نشود کدام خصوصیت از فیلدها باید فعال شود؟",
+        "selected": null,
+        "correct": "Required"
+      },
+      {
+        "question": "برای تنظیم صفحه خانگی در مرورگر اینترنت اکسپلورر از کدام گزینه استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Home Page"
+      },
+      {
+        "question": "عملکرد گزینه Start در سربرگ Animation چیست؟",
+        "selected": "نحوه آغاز شدن انیمیشن را مشخص می کند",
+        "correct": "نحوه آغاز شدن انیمیشن را مشخص می کند"
+      },
+      {
+        "question": "در صورت عدم اطلاع از مکان فایل، می توان به چه روشی آن را اجرا کرد؟",
+        "selected": null,
+        "correct": "استفاده از Search"
+      },
+      {
+        "question": "برای در نظر گرفتن نام توصیفی برای فیلدها از کدام مشخصه استفاده می شود؟",
+        "selected": null,
+        "correct": "Caption"
+      },
+      {
+        "question": "برای چسباندن متنی که از قبل انتخاب و کپی یا برش زده شده است کدام دستور به کار می رود؟",
+        "selected": null,
+        "correct": "Paste"
+      },
+      {
+        "question": "عمل انتقال اسلاید با کدام گزینه امکان پذیر است؟",
+        "selected": null,
+        "correct": "Cut"
+      },
+      {
+        "question": "به منظور ساخت پست الکترونیک در سایت یاهو از کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "Create New Account"
+      },
+      {
+        "question": "این چیدمان شامل یک نگه دارنده تصویر، یک نگه دارنده عنوان و یک نگه دارنده متن است.",
+        "selected": null,
+        "correct": "Picture With Caption"
+      },
+      {
+        "question": "از کدام روش می توان نماها را در ورد تغییر داد؟",
+        "selected": null,
+        "correct": "از طریق دکمه هایی که در گوشه پایین و سمت راست محیط Word قرار دارند"
+      },
+      {
+        "question": "مجموعه فیلدهای مربوط به یک موضوع یا موجودیت چه نامیده می شود؟",
+        "selected": null,
+        "correct": "رکورد"
+      },
+      {
+        "question": "بعد از ایجاد یک جدول چه زبانه هایی نمایش داده می شود؟",
+        "selected": null,
+        "correct": "Design, Layout"
+      },
+      {
+        "question": "کدام دستور فاصله بین خطوط را تعیین می کند؟",
+        "selected": null,
+        "correct": "Line And Paragraph Spacing"
+      },
+      {
+        "question": "روش تشخیص آدرس ایمیل از آدرس وب چیست؟",
+        "selected": null,
+        "correct": "وجود علامت @"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": null,
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "کدام Tab برای نوشتن حروف انگلیسی استفاده می شود؟",
+        "selected": null,
+        "correct": "Left Tab"
+      },
+      {
+        "question": "برای چاپ صفحات خاص گزینه مناسب کدام است؟",
+        "selected": null,
+        "correct": "Page"
+      },
+      {
+        "question": "بعد از اینکه با استفاده از Advanced Filter-Sort فیلتری را اعمال کردیم برای مشاهده نتیجه طبق کدام گزینه باید عمل نمود؟",
+        "selected": null,
+        "correct": "Apply Filter-Sort"
+      },
+      {
+        "question": "از کدام کلید ترکیبی برای انتخاب کل سند استفاده می شود؟",
+        "selected": null,
+        "correct": "Ctrl+A"
+      },
+      {
+        "question": "از چه گزینه ای برای انتخاب تعداد سندهایی که می خواهیم چاپ شود استفاده می کنیم؟",
+        "selected": null,
+        "correct": "Copies"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت ..... و ارسال فایل به اینترنت را ....... می گویند.",
+        "selected": null,
+        "correct": "Download , Upload"
+      },
+      {
+        "question": "جهت ورود اطلاعات از کدام نمای فرم استفاده می شود؟",
+        "selected": null,
+        "correct": "Form View"
+      },
+      {
+        "question": "اگر بخواهیم رکوردهایی خاص را مشاهده کنیم. به طور مثال فیلد شهر آن اصفهان باشد، از کدام نوع فیلتر باید استفاده کنیم؟",
+        "selected": null,
+        "correct": "Filter-Selection و Advanced Filter/Sort"
+      },
+      {
+        "question": "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
+        "selected": null,
+        "correct": "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم"
+      },
+      {
+        "question": "برای اینکه استایل های تعریف شده از Work Book باز را در Work Book جاری استفاده کنیم بر روی چه گزینه ای کلیک کنیم؟",
+        "selected": null,
+        "correct": "Merge Style"
+      }
+    ],
+    "date": "2026-11-25T17:38:58.889Z"
   }
 ]
