@@ -413,5 +413,88 @@
       }
     ],
     "date": "2026-11-28T16:39:12.406Z"
+  },
+  {
+    "name": "هادی داودی",
+    "nationalId": "0053414209",
+    "exam": "dip_user",
+    "score": 13,
+    "total": 14,
+    "percent": 93,
+    "wrong": 1,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام یک از موارد زیر برای نام یک پوشه مجاز است؟",
+        "selected": "pbn.exe",
+        "correct": "pbn.exe"
+      },
+      {
+        "question": "کدام کلید از کلیدهایی است که در بالای صفحه کلید قرار دارد و برای اجرای عملیات خاص و تابعی به کار میرود؟",
+        "selected": "F8",
+        "correct": "F8"
+      },
+      {
+        "question": "گزینه Open each folder in the same window در پنجره Folder Options چه عملی را انجام می دهد؟",
+        "selected": "هر پوشه را در پنجره فعلی باز میکند",
+        "correct": "هر پوشه را در پنجره فعلی باز میکند"
+      },
+      {
+        "question": "پسوند فایل های Word pad کدام گزینه می باشد؟",
+        "selected": ".rtf",
+        "correct": ".rtf"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "با درگ یک فایل به سطل بازیافت،بطور پیش فرض امکان بازیابی آن وجود دارد",
+        "correct": "با درگ یک فایل به سطل بازیافت،بطور پیش فرض امکان بازیابی آن وجود دارد"
+      },
+      {
+        "question": "جایگاه ذخیره سازی اطلاعات حذف شده به طور موقت، در کدام قسمت است؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "کاربرد برنامه Sound Recorder چیست؟",
+        "selected": "ضبط صدا",
+        "correct": "ضبط صدا"
+      },
+      {
+        "question": "جهت پاکسازی دیسک و حذف فایل های اضافی و موقت از کدام گزینه استفاده می شود؟",
+        "selected": "Disk cleanup",
+        "correct": "Disk cleanup"
+      },
+      {
+        "question": "کدام گزینه جزدستگاه های خروجی می یاشد؟",
+        "selected": "PLOTTER",
+        "correct": "PLOTTER"
+      },
+      {
+        "question": "دستور Ali Rd چه عملی را در پنجره CMD انجام می دهد؟",
+        "selected": "پوشه خالی Ali را حذف می کند",
+        "correct": "پوشه خالی Ali را حذف می کند"
+      },
+      {
+        "question": "کدام گزینه جهت فشرده سازی اطلاعات کاربرد دارد؟",
+        "selected": "Compressed Folder",
+        "correct": "Compressed Folder"
+      },
+      {
+        "question": "کدام یک از انواع ویروس های زیر از طریق صندوق پستی وارد سیستم میشوند؟",
+        "selected": "Email_virus",
+        "correct": "Email_virus"
+      },
+      {
+        "question": "دستور پاک سازی صفحه ورودی Dos چیست؟",
+        "selected": "CLS",
+        "correct": "CLS"
+      },
+      {
+        "question": "کدام کلید روی Case جهت راه اندازی دوباره رایانه میباشد؟",
+        "selected": "Power",
+        "correct": "Reset"
+      }
+    ],
+    "date": "2026-11-28T17:20:02.716Z"
   }
 ]
