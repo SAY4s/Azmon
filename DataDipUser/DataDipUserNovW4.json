@@ -496,5 +496,88 @@
       }
     ],
     "date": "2026-11-28T17:20:02.716Z"
+  },
+  {
+    "name": "هادی داودی",
+    "nationalId": "0053414209",
+    "exam": "dip_user",
+    "score": 14,
+    "total": 14,
+    "percent": 100,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کلید میان بر ذخیره ی یک فایل در نرم افزارهای متنی چیست؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش دائمی تذکرهای برنامه ی فعال در سینی نوار وظیفه می باشد؟",
+        "selected": "Show icon and notification",
+        "correct": "Show icon and notification"
+      },
+      {
+        "question": "کدام قسمت منوی شروع جهت کمک گرفتن از ویندوز و شناختن قسمت های مختلف آن کاربرد دارد؟",
+        "selected": "Help& support",
+        "correct": "Help& support"
+      },
+      {
+        "question": "کلید میان بر برای ذخیره سازی یک سند کدام گزینه می باشد؟",
+        "selected": "Ctrl+S",
+        "correct": "Ctrl+S"
+      },
+      {
+        "question": "در کدام پوشه، تمام برنامه های موجود در آن، در زمان شروع به کار ویندوز به طور خودکار اجرا می شود؟",
+        "selected": "Startup",
+        "correct": "Startup"
+      },
+      {
+        "question": "کدام گزینه جهت تنظیم محافظ صفحه نمایش کاربرد دارد؟",
+        "selected": "Screen Saver",
+        "correct": "Screen Saver"
+      },
+      {
+        "question": "کدام گزینه از متداول ترین دستگاههای ورودی است که برای واردکردن داده ها و دستورات به رایانه استفاده می شود؟",
+        "selected": "Keyboard",
+        "correct": "Keyboard"
+      },
+      {
+        "question": "به ناحیه بالا و سمت چپ منوی Start که امکان دسترسی سریع به برنامه ها، پوشه ها و فایلها را ایجاد میکند ........... گفته میشود؟",
+        "selected": "لیست برنامه های اخیر",
+        "correct": "لیست برنامه های اخیر"
+      },
+      {
+        "question": "کدام گزینه برای جابه جایی سریع بین حسابهای کاربری استفاده میشود؟",
+        "selected": "Switch User",
+        "correct": "Switch User"
+      },
+      {
+        "question": "نشانه و سمبلهای روی میزکار چه نام دارند؟",
+        "selected": "Icon",
+        "correct": "Icon"
+      },
+      {
+        "question": "کار ابزار Rotate در برنامه Paint چیست؟",
+        "selected": "چرخاندن تمام یا بخشی از تصویر",
+        "correct": "چرخاندن تمام یا بخشی از تصویر"
+      },
+      {
+        "question": "مسیر پوشه جاری در کدام نوار در پنجره ها نمایش داده میشود؟",
+        "selected": "Address Bar",
+        "correct": "Address Bar"
+      },
+      {
+        "question": "به بارگزاری فایل برروی اینترنت چه گویند؟",
+        "selected": "Upload",
+        "correct": "Upload"
+      },
+      {
+        "question": "کدام یک از پسوندهای زیر جهت فایل های اجرایی می باشد؟",
+        "selected": ".exe",
+        "correct": ".exe"
+      }
+    ],
+    "date": "2026-11-28T17:29:35.925Z"
   }
 ]
