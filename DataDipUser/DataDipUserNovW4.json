@@ -81,5 +81,88 @@
       }
     ],
     "date": "2026-11-27T18:19:11.833Z"
+  },
+  {
+    "name": "محدثه افشار",
+    "nationalId": "4311388136",
+    "exam": "dip_user",
+    "score": 3,
+    "total": 14,
+    "percent": 21,
+    "wrong": 11,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "در دستور format کدام گزینه عملیات قالب بندی سریع را انجام می دهد؟",
+        "selected": "Full Format",
+        "correct": "Quick Format"
+      },
+      {
+        "question": "جهت سنجاق کردن آیکن یک برنامه به نوار وظیفه با کلیک راست بر روی آن از کدام گزینه میتوان استفاده کرد؟",
+        "selected": "Pin to Taskbar",
+        "correct": "Pin to Taskbar"
+      },
+      {
+        "question": "جهت خالی نمودن صندوق بازیافت به صورت یکجا از کدام گزینه می توان استفاده نمود؟",
+        "selected": "Delete",
+        "correct": "Empty Recycle Bin"
+      },
+      {
+        "question": "کدام کلیدها برای جابه جایی مکان نما در اسناد، صفحات وب و محیطهای ویرایشی کاربرد دارد؟",
+        "selected": "کلیدهای ترکیبی",
+        "correct": "کلیدهای پیمایشی"
+      },
+      {
+        "question": "کدام گزینه از عوامل تأثیرگذار برسرعت کامپیوتر است؟",
+        "selected": "نوع مانیتور",
+        "correct": "گزینه 1 و 2"
+      },
+      {
+        "question": "کدام ابزار در برنامه نقاشی برای بزرگ نمایی تصویر استفاده می شود؟",
+        "selected": "Brush",
+        "correct": "Magnifier"
+      },
+      {
+        "question": "به ناحیه بالا و سمت چپ منوی Start که امکان دسترسی سریع به برنامه ها، پوشه ها و فایلها را ایجاد میکند ........... گفته میشود؟",
+        "selected": "Control Panel",
+        "correct": "لیست برنامه های اخیر"
+      },
+      {
+        "question": "کار کلید Enter چیست؟",
+        "selected": "حذف متن",
+        "correct": "اجرای فرمان ها و ورود اطلاعات"
+      },
+      {
+        "question": "دستور Ali Rd چه عملی را در پنجره CMD انجام می دهد؟",
+        "selected": "پوشه Ali را ایجاد می کند",
+        "correct": "پوشه خالی Ali را حذف می کند"
+      },
+      {
+        "question": "به بارگزاری فایل برروی اینترنت چه گویند؟",
+        "selected": "Download",
+        "correct": "Upload"
+      },
+      {
+        "question": "در زمان جستجو از کدام گزینه برای جستجوی فایلهایی که در یک بازهی زمانی معین تغییرداده شدهاند، استفاده میشود؟",
+        "selected": "Date Modified",
+        "correct": "Date Modified"
+      },
+      {
+        "question": "کدام دستور در Run برنامه ی مرکز کنترل را باز می کند؟",
+        "selected": "Control",
+        "correct": "Control"
+      },
+      {
+        "question": "در خصوصیات درایو کدام قسمت نشان دهنده فضای استفاده شده درایو است ؟",
+        "selected": "File System",
+        "correct": "Used Space"
+      },
+      {
+        "question": "به دوبار سریع و پشت سرهم کلیک با دکمه سمت چپ ماوس، ........ میگویند",
+        "selected": "Click",
+        "correct": "Double Click"
+      }
+    ],
+    "date": "2026-11-28T08:49:07.064Z"
   }
 ]
