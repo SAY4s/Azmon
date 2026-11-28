@@ -164,5 +164,88 @@
       }
     ],
     "date": "2026-11-28T08:49:07.064Z"
+  },
+  {
+    "name": "امیرحسین جوی",
+    "nationalId": "4311975147",
+    "exam": "dip_user",
+    "score": 4,
+    "total": 14,
+    "percent": 29,
+    "wrong": 10,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام گزینه از وظایف سیستم عامل نمیباشد؟",
+        "selected": "مدیریت فرآیندها",
+        "correct": "ویروس یابی سیستم"
+      },
+      {
+        "question": "پسوند فایل های پشتیبان کدام گزینه می باشد؟",
+        "selected": ".bkf",
+        "correct": ".bkf"
+      },
+      {
+        "question": "در دستور format کدام گزینه عملیات قالب بندی سریع را انجام می دهد؟",
+        "selected": "Enable File and Folder Compression",
+        "correct": "Quick Format"
+      },
+      {
+        "question": "مسیر پوشه جاری در کدام نوار در پنجره ها نمایش داده میشود؟",
+        "selected": "Address Bar",
+        "correct": "Address Bar"
+      },
+      {
+        "question": "کدام گزینه صحیح است؟",
+        "selected": "سطل بازیافت تنها فایل های پاک شده با Delete را نگه میدارد",
+        "correct": "با درگ یک فایل به سطل بازیافت،بطور پیش فرض امکان بازیابی آن وجود دارد"
+      },
+      {
+        "question": "میانبر برنامه ها در کدام پوشه قرار گیرد که هنگام بالا آمدن سیستم به طور خودکار اجرا شود؟",
+        "selected": "Startup",
+        "correct": "Startup"
+      },
+      {
+        "question": "در کدام حالت تصویر روی میزکار را میپوشاند و به دلیل عدم تغییر تناسب تصویر، ممکن است بخش هایی از تصویر دیده نشود؟",
+        "selected": "Stretch",
+        "correct": "Fill"
+      },
+      {
+        "question": "جهت پاکسازی دیسک و حذف فایل های اضافی و موقت از کدام گزینه استفاده می شود؟",
+        "selected": "Disk defragmenter",
+        "correct": "Disk cleanup"
+      },
+      {
+        "question": "کدام دستور در Run برای اجرای ماشین حساب استفاده می شود؟",
+        "selected": "Calc.exe",
+        "correct": "Calc"
+      },
+      {
+        "question": "مسیر پیش فرض ذخیره سازی فایل ها در اکثر نرم افزارها کدام گزینه می باشد؟",
+        "selected": "Downloads",
+        "correct": "Documents"
+      },
+      {
+        "question": "در پنجره خصوصیات فایل ها کدام گزینه اندازه فایل برروی دیسک را مشخص می کند؟",
+        "selected": "Size",
+        "correct": "Size on disk"
+      },
+      {
+        "question": "کدام دستور زیر برای تنظیم زمان سیستم کاربرد دارد؟",
+        "selected": "Time",
+        "correct": "Time"
+      },
+      {
+        "question": "به دریافت فایل از اینترنت چه می گویند؟",
+        "selected": "Copy",
+        "correct": "Download"
+      },
+      {
+        "question": "کلید میان بر paste کدام گزینه می باشد؟",
+        "selected": "Ctrl+ P",
+        "correct": "Ctrl+ V"
+      }
+    ],
+    "date": "2026-11-28T15:14:07.418Z"
   }
 ]
