@@ -16612,5 +16612,218 @@
       }
     ],
     "date": "2026-11-26T10:14:58.901Z"
+  },
+  {
+    "name": "فاطمه صفری",
+    "nationalId": "4312173771",
+    "exam": "icdl",
+    "score": 31,
+    "total": 40,
+    "percent": 78,
+    "wrong": 9,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "برای چاپ صفحه جاری در سند باید کدام گزینه را انتخاب کنیم؟",
+        "selected": "Print Current Page",
+        "correct": "Print Current Page"
+      },
+      {
+        "question": "برای مرتب کردن آیکن های میز کار بر اساس نوع، از کدام گزینه زیر استفاده می شود؟",
+        "selected": "Item Type",
+        "correct": "Item Type"
+      },
+      {
+        "question": "برای مورب کردن متن از کدام گزینه استفاده می کنیم؟",
+        "selected": "Italic",
+        "correct": "Italic"
+      },
+      {
+        "question": "برای ارسال نامه آدرس گیرنده های اضافی در کدام قسمت مشخص می شود؟",
+        "selected": "CC",
+        "correct": "CC"
+      },
+      {
+        "question": "به شرکت سرویس دهنده خدمات اینترنت چه می گویند؟",
+        "selected": "ISP",
+        "correct": "ISP"
+      },
+      {
+        "question": "در کادر Number of recent programs to display تعداد نرم افزارهای پیش فرض برابر است با:",
+        "selected": "10",
+        "correct": "10"
+      },
+      {
+        "question": "ویروس کامپیوتری عبارت است از:",
+        "selected": "یک برنامه کامپیوتری مخرب",
+        "correct": "یک برنامه کامپیوتری مخرب"
+      },
+      {
+        "question": "کلید میان بر برای چاپ کدام مورد می باشد؟",
+        "selected": "Ctrl+P",
+        "correct": "Ctrl+P"
+      },
+      {
+        "question": "برای انتخاب سلول در جدول از کدامیک از دستورات Select استفاده می کنیم؟",
+        "selected": "Select Cell",
+        "correct": "Select Cell"
+      },
+      {
+        "question": "کدام کنترل زیر در طراحی گزارش برای نمایش متن فیلدها استفاده می شود؟",
+        "selected": "Line",
+        "correct": "Text Box"
+      },
+      {
+        "question": "جهت نوشته با کدام دستور تغییر می کند؟",
+        "selected": "Direction",
+        "correct": "Direction"
+      },
+      {
+        "question": "در موارد زیر چند دستگاه، ورودی است؟ (صفحه نمایش، صفحه کلید، ماوس، پلاتر، چاپگر، اسکنر، قلم نوری)",
+        "selected": "4",
+        "correct": "4"
+      },
+      {
+        "question": "زبان استاندارد طراحی صفحات کدام یک از موارد زیر است؟",
+        "selected": "HTML",
+        "correct": "HTML"
+      },
+      {
+        "question": "مهم ترین نرم افزار سیستمی کامپیوتر چه نام دارد؟",
+        "selected": "Operating system",
+        "correct": "Operating system"
+      },
+      {
+        "question": "برای اضافه کردن خط کشی به صفحه از چه گزینه ای استفاده می کنیم؟",
+        "selected": "سربرگ Review گزینه Ruler",
+        "correct": "سربرگ View گزینه Ruler"
+      },
+      {
+        "question": "کاربرد بخش File در Word چیست؟",
+        "selected": "مدیریت سند",
+        "correct": "مدیریت سند"
+      },
+      {
+        "question": "فشردن کدام یک از کلیدهای ترکیبی زیر قسمت های مورد نیاز یک آدرس اینترنتی با پسوند COM را بجز نام آدرس اضافه می نماید؟",
+        "selected": "Ctrl+Enter",
+        "correct": "Ctrl+Enter"
+      },
+      {
+        "question": "برای اینکه در خانه A5 اعداد به صورت درصد نمایش داده شود، آن را از چه نوعی تعریف می کنیم؟",
+        "selected": "Percentage",
+        "correct": "Percentage"
+      },
+      {
+        "question": "کدام یک از موارد زیر از قسمت های طراحی Report نمی باشد؟",
+        "selected": "Page Header",
+        "correct": "Summary"
+      },
+      {
+        "question": "واژه Pc مخفف چه کلماتی است؟",
+        "selected": "Personal Computer",
+        "correct": "Personal Computer"
+      },
+      {
+        "question": "برای حذف یک سطر در اکسل از چه گزینه ای استفاده می شود؟",
+        "selected": "سربرگ Home گزینه Clear Rows",
+        "correct": "سربرگ Home گزینه Delete sheet Rows"
+      },
+      {
+        "question": "در کدام قسمت از سربرگ Animation می توان جلوه حرکت به موضوعات بر روی مسیر داد؟",
+        "selected": "Motion Path",
+        "correct": "Motion Path"
+      },
+      {
+        "question": "با تنظیم کدام مشخصه می توان فیلد نام را طوری تنظیم کرد که بیشتر از 20 کاراکتر دریافت نکند؟",
+        "selected": "Field Size",
+        "correct": "Field Size"
+      },
+      {
+        "question": "یک Word از چند بایت تشکیل شده است؟",
+        "selected": "2 بایت",
+        "correct": "2 بایت"
+      },
+      {
+        "question": "برای وسط چین کردن اعداد اعشاری و قرار دادن اعشار عدد در یک راستا کدام تب را انتخاب می کنیم؟",
+        "selected": "Decimal Tab",
+        "correct": "Decimal Tab"
+      },
+      {
+        "question": "برای انتخاب ستون جدول کدام یک از دستورات Select را برمی گزینیم؟",
+        "selected": "Select Column",
+        "correct": "Select Column"
+      },
+      {
+        "question": "کدامیک از گزینه های زیر شبکه محلی است؟",
+        "selected": "Lan",
+        "correct": "Lan"
+      },
+      {
+        "question": "برای دیدن اطلاعات کامل از سبک مورد استفاده کلید ترکیبی ........................ را فشار می دهیم.",
+        "selected": "Shift+F1",
+        "correct": "Ctrl+Shift+S"
+      },
+      {
+        "question": "برای ویرایش خانه فعال از کدام کلید می توان استفاده کرد؟",
+        "selected": "F4",
+        "correct": "F2"
+      },
+      {
+        "question": "کلیپ بورد چیست؟",
+        "selected": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد",
+        "correct": "بخشی از حافظه موقت کامپیوتر که داده ها بعد از کپی کردن درون آن قرار می گیرد"
+      },
+      {
+        "question": "برای اعمال فرمت های اعمال شده متن انتخابی روی سایر نوشته ها سریع ترین روش کدام است؟",
+        "selected": "Copy Formatting",
+        "correct": "استفاده از Format Painter"
+      },
+      {
+        "question": "مفهوم E-Mail و E-Learning چیست؟",
+        "selected": "پست الکترونیکی، آموزش الکترونیکی",
+        "correct": "پست الکترونیکی، آموزش الکترونیکی"
+      },
+      {
+        "question": "کدام یک از عبارت های زیر صحیح است؟",
+        "selected": "یک کیلوبایت کمتر از یک مگابایت است",
+        "correct": "یک کیلوبایت کمتر از یک مگابایت است"
+      },
+      {
+        "question": "اگر نامه ای از پوشه ی Delete Item حذف کنیم آن نامه .................................",
+        "selected": "قابل بازیابی نیست",
+        "correct": "قابل بازیابی نیست"
+      },
+      {
+        "question": "کدامیک از موارد زیر از انواع داده نیست؟",
+        "selected": "Date/Time",
+        "correct": "Picture/Graphic"
+      },
+      {
+        "question": "برای انتقال به آخرین اسلاید از کدام کلید میانبر استفاده می شود؟",
+        "selected": "Ctrl+Page Down",
+        "correct": "Ctrl+End"
+      },
+      {
+        "question": "کدام گزینه برای تغییر نوع نمودار رسم شده در اسلاید است؟",
+        "selected": "Chart Type",
+        "correct": "Chart Type"
+      },
+      {
+        "question": "برای ایجاد فیلد کلید اصلی از گزینه ................. استفاده می کنیم.",
+        "selected": "Primary Key",
+        "correct": "Primary Key"
+      },
+      {
+        "question": "Fixed Column Width واقع در ناحیه Auto Fit چه عملی انجام می دهد؟",
+        "selected": "این امکان را می دهد که پهنای کلیه ستون های جدول را برابر با طول معینی تنظیم کند",
+        "correct": "این امکان را می دهد که پهنای کلیه ستون های جدول را برابر با طول معینی تنظیم کند"
+      },
+      {
+        "question": "ذخیره فایل از اینترنت بر روی سیستم شخصی کدام گزینه است؟",
+        "selected": "Download",
+        "correct": "Download"
+      }
+    ],
+    "date": "2026-11-28T06:24:51.524Z"
   }
 ]
