@@ -330,5 +330,88 @@
       }
     ],
     "date": "2026-11-28T15:15:15.884Z"
+  },
+  {
+    "name": "هادی داودی",
+    "nationalId": "0053414209",
+    "exam": "dip_user",
+    "score": 14,
+    "total": 14,
+    "percent": 100,
+    "wrong": 0,
+    "unanswered": 0,
+    "answers": [
+      {
+        "question": "کدام دستگاه برای برقراری ارتباط بین دو کامپیوتر کاربرد دارد؟",
+        "selected": "گزینه 1 و 2",
+        "correct": "گزینه 1 و 2"
+      },
+      {
+        "question": "کدام گزینه پنجره های باز روی میزکار را به صورت آبشاری مرتب میکند؟",
+        "selected": "Cascade Windows",
+        "correct": "Cascade Windows"
+      },
+      {
+        "question": "کار گزینه ی Sounds ،در پنجره تنظیمات صفحه نمایش چیست؟",
+        "selected": "صدایی را به رویدادهای ویندوز اختصاص میدهد",
+        "correct": "صدایی را به رویدادهای ویندوز اختصاص میدهد"
+      },
+      {
+        "question": "کدام گزینه جهت نمایش دائمی تذکرهای برنامه ی فعال در سینی نوار وظیفه می باشد؟",
+        "selected": "Show icon and notification",
+        "correct": "Show icon and notification"
+      },
+      {
+        "question": "جهت خالی نمودن صندوق بازیافت به صورت یکجا از کدام گزینه می توان استفاده نمود؟",
+        "selected": "Empty Recycle Bin",
+        "correct": "Empty Recycle Bin"
+      },
+      {
+        "question": "جایگاه ذخیره سازی اطلاعات حذف شده به طور موقت، در کدام قسمت است؟",
+        "selected": "Recycle Bin",
+        "correct": "Recycle Bin"
+      },
+      {
+        "question": "کدام یک از ویروس های زیر با کپی زدن از خود تولیدمثل کرده و در سیستم پخش میشوند؟",
+        "selected": "Worm",
+        "correct": "Worm"
+      },
+      {
+        "question": "در زمان جستجو از کدام گزینه برای جستجوی فایلهایی که در یک بازهی زمانی معین تغییرداده شدهاند، استفاده میشود؟",
+        "selected": "Date Modified",
+        "correct": "Date Modified"
+      },
+      {
+        "question": "در کدام حالت تصویر روی میزکار را میپوشاند و به دلیل عدم تغییر تناسب تصویر، ممکن است بخش هایی از تصویر دیده نشود؟",
+        "selected": "Fill",
+        "correct": "Fill"
+      },
+      {
+        "question": "مسیر پیش فرض ذخیره سازی فایل ها در اکثر نرم افزارها کدام گزینه می باشد؟",
+        "selected": "Documents",
+        "correct": "Documents"
+      },
+      {
+        "question": "جهت مرتب سازی پنجره ها به صورت عمودی یا کاشی عمودی از کدام گزینه استفاده میگردد؟",
+        "selected": "Show Windows Side by Side",
+        "correct": "Show Windows Side by Side"
+      },
+      {
+        "question": "کلید میان بر گزینه Reply چیست؟",
+        "selected": "Ctrl+R",
+        "correct": "Ctrl+R"
+      },
+      {
+        "question": "کدام گزینه جز دستگاه های قابل حمل محسوب نمیشود؟",
+        "selected": "دیسک منطقی",
+        "correct": "دیسک منطقی"
+      },
+      {
+        "question": "کدام دستور در Run برنامه ی مرکز کنترل را باز می کند؟",
+        "selected": "Control",
+        "correct": "Control"
+      }
+    ],
+    "date": "2026-11-28T16:39:12.406Z"
   }
 ]
